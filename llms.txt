@@ -21,3 +21,8 @@
 - [About](https://shashwat-kumar.github.io/shashwat-analytics/about.html)
 - [GitHub](https://github.com/Shashwat-Kumar)
 - [LinkedIn](https://www.linkedin.com/in/shashwat-kumar)
+
+## Open source (From the workshop)
+- [Building an open India AI Index](https://shashwat-kumar.github.io/shashwat-analytics/magazine/workshop-india-ai-index.html): An open harness that tests how language models handle Indian languages and Indian paperwork, and what each task costs in rupees. It has not scored a single model yet, and that is deliberate. Code: https://github.com/Shashwat-Kumar/india-ai-index
+- [AgentGuard: brakes for agents that move money](https://shashwat-kumar.github.io/shashwat-analytics/magazine/workshop-agentguard.html): If an agent can pay, it can be tricked into paying. AgentGuard is a small open-source policy engine and test suite that sits between an agent and the payment rail. Code: https://github.com/Shashwat-Kumar/agentguard
+- [Ask Your Data, and show your working](https://shashwat-kumar.github.io/shashwat-analytics/magazine/workshop-ask-your-data.html): Plain English in, SQL and a chart out, running locally on DuckDB. It works with no API key, and it always shows the query it ran. Code: https://github.com/Shashwat-Kumar/ask-your-data

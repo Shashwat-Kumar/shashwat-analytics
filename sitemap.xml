@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/</loc><lastmod>2026-10-13</lastmod></url>
-<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/samples.html</loc><lastmod>2026-10-13</lastmod></url>
-<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/perspectives.html</loc><lastmod>2026-10-13</lastmod></url>
-<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/about.html</loc><lastmod>2026-10-13</lastmod></url>
-<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/contact.html</loc><lastmod>2026-10-13</lastmod></url>
-<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/insights/dpdp-act-readiness-guide.html</loc><lastmod>2026-10-13</lastmod></url>
-<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/insights/msme-1-43bh-guide.html</loc><lastmod>2026-10-13</lastmod></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/writing.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/perspectives.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/samples.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/about.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/contact.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/insights/dpdp-act-readiness-guide.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/insights/msme-1-43bh-guide.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/essays/brakes.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/essays/many-agents.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/essays/goodhart.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/essays/agents-trade.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/essays/data-quality.html</loc></url>
+<url><loc>https://shashwat-kumar.github.io/shashwat-analytics/essays/attention.html</loc></url>
 </urlset>

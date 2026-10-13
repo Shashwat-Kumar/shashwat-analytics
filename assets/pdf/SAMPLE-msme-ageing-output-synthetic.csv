@@ -1,0 +1,6 @@
+vendor_name,pan,udyam_no,udyam_category,activity,invoice_no,invoice_date,acceptance_date,amount,agreed_days,paid_date,in_scope_MSE,limit_days,due_date,days_outstanding,late_vs_s15,msme1_reportable_gt45,flag
+Alpha Fab Works (SYNTHETIC),AAAAA0000A,UDYAM-MH-00-0000001,micro,manufacturing,INV-1,2026-07-01,2026-07-03,250000,30,2026-08-20,True,30,2026-08-02,48,True,False,REVIEW WITH CA
+Beta Services (SYNTHETIC),BBBBB0000B,UDYAM-KA-00-0000002,small,services,INV-2,2026-08-10,2026-08-10,90000,,,True,15,2026-08-25,51,True,True,REVIEW WITH CA
+Gamma Traders (SYNTHETIC),CCCCC0000C,UDYAM-DL-00-0000003,micro,trading,INV-3,2026-06-15,2026-06-15,40000,,,False,15,2026-06-30,107,False,False,
+Delta Mfg (SYNTHETIC),DDDDD0000D,UDYAM-GJ-00-0000004,medium,manufacturing,INV-4,2026-05-01,2026-05-01,500000,45,,False,45,2026-06-15,152,False,False,
+Epsilon IT (SYNTHETIC),EEEEE0000E,UDYAM-MH-00-0000005,small,services,INV-5,2026-09-01,2026-09-02,120000,45,,True,45,2026-10-17,28,False,False,

@@ -26,3 +26,6 @@ h1,h2,h3,.brand{color:var(--h)}nav a,.lead,.dek,.item p,.small,.aside,footer{col
 .node-card{padding:18px 0;border-bottom:1px solid var(--rule)}.node-card h3{margin:0 0 6px}
 @media(max-width:760px){.pull{margin:32px 0;font-size:1.3rem}.hero-x .display{font-size:1.8rem}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+.hero-grid2{display:grid;grid-template-columns:1fr 260px;gap:56px;align-items:center}.hero-photo img{display:block;width:260px;height:325px;object-fit:cover;border-radius:2px;box-shadow:0 18px 40px -24px rgba(0,0,0,.45)}
+.about .portrait{width:200px;height:250px;object-fit:cover;object-position:top;filter:none}
+@media(max-width:860px){.hero-grid2{grid-template-columns:1fr;gap:28px}.hero-photo{order:-1}.hero-photo img{width:150px;height:188px}}

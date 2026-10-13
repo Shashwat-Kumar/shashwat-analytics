@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded',function(){var n=document.querySele
  function show(which){var x=data&&data[which];if(!x)return;mode=which;
   bar.querySelector('.fl-link').href=x.url;
   bar.querySelector('.fl-pill').textContent=which==='voice'?'Voice':'AI flash';
-  bar.querySelector('.fl-t').textContent=which==='voice'?x.person+': '+x.title:x.title;
+  bar.querySelector('.fl-t').textContent=which==='voice'&&x.title.toLowerCase().indexOf(x.person.split(' ').pop().toLowerCase())<0?x.person+': '+x.title:x.title;
   bar.querySelector('.fl-t').title=bar.querySelector('.fl-t').textContent;
   var meta=[x.source,ago(x.published)];if(which==='flash'&&x.points)meta.push('▲ '+x.points);
   bar.querySelector('.fl-meta').textContent=meta.join(' · ');

@@ -38,4 +38,4 @@ html body .byline a{color:var(--accent,#0b5d63)!important;opacity:1!important}
 .mrel h2{font:600 .8rem Inter,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--pop-text)}
 .mrel ul{padding-left:1.1em}.mrel li{margin:.4em 0}
 /* remove opacity-based greys (fail AA); use solid AA grey instead */
-html body .mmeta,html body .mrail li span,html body .sig,html body .briefs span,html body .byline,html body .mhero figcaption,html body .dek{opacity:1!important;color:var(--grey-aa)!important}
+html body .mmeta,html body .mrail li span,html body .sig,html body .briefs span,html body .byline,html body .mhero figcaption,html body .dek,html body .mt-top span{opacity:1!important;color:var(--grey-aa)!important}

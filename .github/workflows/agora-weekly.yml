@@ -2,7 +2,8 @@ name: Agora weekly debate
 
 # Every Tuesday at 10:30 IST the house AI personas hold a new debate, which is
 # published to readsigil.com/agora. Needs one repository secret: GEMINI_API_KEY
-# (free from Google AI Studio). Without it the run is skipped with a warning.
+# (Google AI Studio) or GROQ_API_KEY (console.groq.com); both have free tiers.
+# Without either, the run is skipped with a warning.
 on:
   schedule:
     - cron: "0 5 * * 2"
@@ -37,33 +38,46 @@ jobs:
       - name: Run the debate
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           AGORA_MODEL: ${{ vars.AGORA_MODEL }}
           TOPIC: ${{ inputs.topic }}
         run: |
-          if [ -z "$GEMINI_API_KEY" ]; then
-            echo "::warning::GEMINI_API_KEY is not set. Add it under Settings > Secrets and variables > Actions. Skipping this run."
+          if [ -z "$GEMINI_API_KEY$GROQ_API_KEY" ]; then
+            echo "::warning::No model key set. Add GEMINI_API_KEY or GROQ_API_KEY under Settings > Secrets and variables > Actions. Skipping this run."
             exit 0
           fi
-          python - <<'PY'
-          import json, os, urllib.error, urllib.request
-          model = os.environ.get("AGORA_MODEL") or "gemini-flash-latest"
-          body = json.dumps({"model": model, "max_tokens": 5,
-                             "messages": [{"role": "user", "content": "Reply with OK"}]}).encode()
-          req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", data=body,
-                                       headers={"Content-Type": "application/json",
-                                                "Authorization": "Bearer " + os.environ["GEMINI_API_KEY"]})
-          try:
-              urllib.request.urlopen(req, timeout=60).read()
-              print(f"Model check passed ({model})")
-          except urllib.error.HTTPError as e:
-              msg = e.read()[:400].decode(errors="replace").replace("\n", " ")
-              print(f"::error::Gemini check failed for model {model}: HTTP {e.code}: {msg}")
-              raise SystemExit(1)
+          # Pick the first provider whose key answers: Gemini, then Groq.
+          PROVIDER=$(python - <<'PY'
+          import json, os, sys, urllib.error, urllib.request
+          options = [("gemini", "GEMINI_API_KEY", "https://generativelanguage.googleapis.com/v1beta/openai", "gemini-flash-latest"),
+                     ("groq", "GROQ_API_KEY", "https://api.groq.com/openai/v1", "llama-3.3-70b-versatile")]
+          for name, key_env, base, model in options:
+              key = os.environ.get(key_env)
+              if not key:
+                  continue
+              body = json.dumps({"model": model, "max_tokens": 5,
+                                 "messages": [{"role": "user", "content": "Reply with OK"}]}).encode()
+              req = urllib.request.Request(base + "/chat/completions", data=body, headers={
+                  "Content-Type": "application/json", "Authorization": "Bearer " + key,
+                  "User-Agent": "agora-orchestrator/0.1"})
+              try:
+                  urllib.request.urlopen(req, timeout=60).read()
+                  print(name)
+                  sys.exit(0)
+              except urllib.error.HTTPError as e:
+                  msg = e.read()[:400].decode(errors="replace").replace("\n", " ")
+                  print(f"::warning::{name} check failed: HTTP {e.code}: {msg}", file=sys.stderr)
+              except (urllib.error.URLError, OSError) as e:
+                  print(f"::warning::{name} check failed: {e}", file=sys.stderr)
+          print("::error::No model provider accepted its key. See the warnings above.", file=sys.stderr)
+          sys.exit(1)
           PY
+          ) || exit 1
+          echo "Provider: $PROVIDER"
           T="${TOPIC:-$(python scripts/build_agora.py --next-topic _agora/data/topics.json)}"
           echo "Topic: $T"
           mkdir -p _out
-          if ! (cd _agora && python -m agora.cli run --provider gemini --turns 24 --topic "$T" --out ../_out) 2> _err.txt; then
+          if ! (cd _agora && python -m agora.cli run --provider "$PROVIDER" --turns 24 --topic "$T" --out ../_out) 2> _err.txt; then
             echo "::error::Debate run failed: $(tail -c 700 _err.txt | tr '\n' ' ')"
             exit 1
           fi

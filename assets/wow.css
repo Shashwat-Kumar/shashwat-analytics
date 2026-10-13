@@ -29,3 +29,17 @@ h1,h2,h3,.brand{color:var(--h)}nav a,.lead,.dek,.item p,.small,.aside,footer{col
 .hero-grid2{display:grid;grid-template-columns:1fr 260px;gap:56px;align-items:center}.hero-photo img{display:block;width:260px;height:325px;object-fit:cover;border-radius:2px;box-shadow:0 18px 40px -24px rgba(0,0,0,.45)}
 .about .portrait{width:200px;height:250px;object-fit:cover;object-position:top;filter:none}
 @media(max-width:860px){.hero-grid2{grid-template-columns:1fr;gap:28px}.hero-photo{order:-1}.hero-photo img{width:150px;height:188px}}
+.ticker{background:#0c1414;color:#cfe3df;font:500 .78rem/1 Inter,system-ui,sans-serif;display:flex;align-items:stretch;border-bottom:1px solid #1d2a29;position:relative;z-index:20}
+.tk-label{background:#0B5D63;color:#fff;padding:9px 12px;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap;display:flex;align-items:center;gap:6px}
+.tk-label i{width:7px;height:7px;border-radius:50%;background:#2ee59d;display:inline-block;box-shadow:0 0 6px #2ee59d}
+.tk-view{flex:1;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent)}
+.tk-track{display:flex;width:max-content;animation:tk var(--dur,120s) linear infinite}
+.tk-track ul{display:flex;list-style:none;margin:0;padding:0}.tk-track li{white-space:nowrap;border-right:1px solid #1d2a29}
+.tk-track a{display:block;padding:9px 16px;color:#cfe3df;text-decoration:none}.tk-track a:hover,.tk-track a:focus{color:#fff;background:#13201f}
+.tk-tag{color:#6cc3bd;letter-spacing:.06em;text-transform:uppercase;font-size:.68rem;margin-right:4px}.tk-up{color:#2ee59d;margin-left:6px}.tk-src{color:#8aa39f;margin-left:6px}
+.ticker:hover .tk-track,.ticker:focus-within .tk-track,.ticker.paused .tk-track{animation-play-state:paused}
+.tk-side{display:flex;align-items:center;gap:8px;padding:0 10px;color:#8aa39f;white-space:nowrap}.tk-pause{background:none;border:1px solid #2a3a39;color:#cfe3df;border-radius:3px;cursor:pointer;font-size:.65rem;padding:3px 6px}
+@keyframes tk{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.tk-track{animation:none}.tk-view{overflow-x:auto}}
+@media(max-width:700px){.tk-time{display:none}}
+.counter{vertical-align:middle;opacity:.8}

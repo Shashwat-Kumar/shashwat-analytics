@@ -1,0 +1,233 @@
+{
+ "generated_at": "2026-10-13T14:20:17Z",
+ "sources": [
+  "GitHub search API (repos created in the last 7 days, by stars)",
+  "Hacker News front page via Algolia API (AI/data/fintech keywords)",
+  "TechCrunch AI RSS",
+  "MIT Technology Review AI RSS"
+ ],
+ "items": [
+  {
+   "kind": "repo",
+   "title": "onehumanbeing/esp32-iphone-agent",
+   "stars": 1287,
+   "note": "Python · new this week",
+   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+   "source": "GitHub",
+   "tag": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "NousResearch/hermes-official-plugins",
+   "stars": 264,
+   "note": "Python · new this week",
+   "url": "https://github.com/NousResearch/hermes-official-plugins",
+   "source": "GitHub",
+   "tag": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "Ayzzz123/mcd-coupon-strategist",
+   "stars": 257,
+   "note": "Python · new this week",
+   "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
+   "source": "GitHub",
+   "tag": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "deeplethe/solid-glass",
+   "stars": 238,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/deeplethe/solid-glass",
+   "source": "GitHub",
+   "tag": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "lawrencewzen/wx-bot",
+   "stars": 131,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/lawrencewzen/wx-bot",
+   "source": "GitHub",
+   "tag": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "SouravBeraAkaSpeed/xiryn",
+   "stars": 128,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
+   "source": "GitHub",
+   "tag": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "PkLavc/Autotrader",
+   "stars": 27,
+   "note": "Python · new this week",
+   "url": "https://github.com/PkLavc/Autotrader",
+   "source": "GitHub",
+   "tag": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "Spydonny/s6e8-lookup-transformer",
+   "stars": 11,
+   "note": "Jupyter Notebook · new this week",
+   "url": "https://github.com/Spydonny/s6e8-lookup-transformer",
+   "source": "GitHub",
+   "tag": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "storytold/wordcraft",
+   "stars": 10369,
+   "note": "Rust · new this week",
+   "url": "https://github.com/storytold/wordcraft",
+   "source": "GitHub",
+   "tag": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "wheresryan22/anatomy",
+   "stars": 7588,
+   "note": "JavaScript · new this week",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "source": "GitHub",
+   "tag": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "storytold/gridcraft",
+   "stars": 4233,
+   "note": "Rust · new this week",
+   "url": "https://github.com/storytold/gridcraft",
+   "source": "GitHub",
+   "tag": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "storytold/cadcraft",
+   "stars": 3927,
+   "note": "Rust · new this week",
+   "url": "https://github.com/storytold/cadcraft",
+   "source": "GitHub",
+   "tag": "Trending"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "title": "AI is a tool and using it well takes skill",
+   "source": "Hacker News · 495 pts",
+   "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+   "discuss": "https://news.ycombinator.com/item?id=50063427"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+   "source": "Hacker News · 273 pts",
+   "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+   "discuss": "https://news.ycombinator.com/item?id=50063365"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "title": "AI models can provably hide arbitrary capabilities",
+   "source": "Hacker News · 251 pts",
+   "url": "https://arxiv.org/abs/2610.13928",
+   "discuss": "https://news.ycombinator.com/item?id=50065692"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+   "source": "Hacker News · 198 pts",
+   "url": "https://www.argmin.net/p/faster-fourier-transforms",
+   "discuss": "https://news.ycombinator.com/item?id=50065932"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+   "source": "Hacker News · 188 pts",
+   "url": "https://github.com/prabanta-dev/janas",
+   "discuss": "https://news.ycombinator.com/item?id=50063717"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+   "source": "Hacker News · 147 pts",
+   "url": "https://news.ycombinator.com/item?id=50059096",
+   "discuss": "https://news.ycombinator.com/item?id=50059096"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "title": "Character.ai Files for Bankruptcy",
+   "source": "Hacker News · 118 pts",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+   "discuss": "https://news.ycombinator.com/item?id=50069942"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+   "source": "Hacker News · 100 pts",
+   "url": "https://pdftomp3.com/connect-ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50069337"
+  },
+  {
+   "kind": "news",
+   "tag": "News",
+   "title": "TechCrunch Disrupt 2026: Day 1",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/"
+  },
+  {
+   "kind": "news",
+   "tag": "News",
+   "title": "SpaceXSI bundles X Premium, Grok and Cursor into one subscription",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/"
+  },
+  {
+   "kind": "news",
+   "tag": "News",
+   "title": "The final Disrupt Stage lineup: Three days of conversations you won’t hear anywhere outside of TechCrunch Disrupt 2026",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/13/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/"
+  },
+  {
+   "kind": "news",
+   "tag": "News",
+   "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
+  },
+  {
+   "kind": "news",
+   "tag": "News",
+   "title": "Open models have real benefits. Do they outweigh the risks?",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/"
+  },
+  {
+   "kind": "news",
+   "tag": "News",
+   "title": "AI labs are buying data from dead startups to train their models",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
+  },
+  {
+   "kind": "news",
+   "tag": "News",
+   "title": "We’re putting too much faith in AI’s ability to say no",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/"
+  }
+ ],
+ "errors": []
+}

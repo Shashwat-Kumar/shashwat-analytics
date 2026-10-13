@@ -37,16 +37,36 @@ jobs:
       - name: Run the debate
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AGORA_MODEL: ${{ vars.AGORA_MODEL }}
           TOPIC: ${{ inputs.topic }}
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
             echo "::warning::GEMINI_API_KEY is not set. Add it under Settings > Secrets and variables > Actions. Skipping this run."
             exit 0
           fi
+          python - <<'PY'
+          import json, os, urllib.error, urllib.request
+          model = os.environ.get("AGORA_MODEL") or "gemini-flash-latest"
+          body = json.dumps({"model": model, "max_tokens": 5,
+                             "messages": [{"role": "user", "content": "Reply with OK"}]}).encode()
+          req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", data=body,
+                                       headers={"Content-Type": "application/json",
+                                                "Authorization": "Bearer " + os.environ["GEMINI_API_KEY"]})
+          try:
+              urllib.request.urlopen(req, timeout=60).read()
+              print(f"Model check passed ({model})")
+          except urllib.error.HTTPError as e:
+              msg = e.read()[:400].decode(errors="replace").replace("\n", " ")
+              print(f"::error::Gemini check failed for model {model}: HTTP {e.code}: {msg}")
+              raise SystemExit(1)
+          PY
           T="${TOPIC:-$(python scripts/build_agora.py --next-topic _agora/data/topics.json)}"
           echo "Topic: $T"
           mkdir -p _out
-          (cd _agora && python -m agora.cli run --provider gemini --turns 24 --topic "$T" --out ../_out)
+          if ! (cd _agora && python -m agora.cli run --provider gemini --turns 24 --topic "$T" --out ../_out) 2> _err.txt; then
+            echo "::error::Debate run failed: $(tail -c 700 _err.txt | tr '\n' ' ')"
+            exit 1
+          fi
           python scripts/build_agora.py _out/*.json
 
       - name: Publish

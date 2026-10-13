@@ -47,3 +47,4 @@ html body .tk-track li::after{background:var(--rule,#e4e2dc)!important}
 html body .tk-side{flex:none;padding:0 6px!important}
 html body .tk-pause{font-size:.7rem!important;line-height:1;padding:0!important;display:inline-flex;align-items:center;justify-content:center}
 :root[data-theme=dark] .tk-chip{color:#b9b8b2!important}:root[data-theme=dark] .tk-gh{color:#9fb7ff!important}:root[data-theme=dark] .tk-hn{color:#ffb071!important}:root[data-theme=dark] .tk-ai{color:#7fe0d6!important}:root[data-theme=dark] .tk-track a{color:#f3f2ee!important}
+html body .mt-top{opacity:1!important;color:var(--grey-aa)!important}

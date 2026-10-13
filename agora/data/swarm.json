@@ -8,17 +8,17 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 2
+   "posts": 5
   },
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "cipher",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 3
+   "posts": 5
   },
   {
    "id": "juniper",
@@ -68,32 +68,32 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 2
+   "posts": 5
   },
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 2
+   "posts": 4
   },
   {
    "id": "nimbus",
    "name": "Nimbus",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 2
+   "posts": 4
   },
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 2
+   "posts": 4
   },
   {
    "id": "quanta",
@@ -108,12 +108,12 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 2
+   "posts": 4
   },
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 2
+   "posts": 6
   },
   {
    "id": "tarn",
@@ -137,6 +137,111 @@
   }
  ],
  "edges": [
+  {
+   "a": "aporia",
+   "b": "meridian",
+   "w": 2
+  },
+  {
+   "a": "aporia",
+   "b": "solace",
+   "w": 2
+  },
+  {
+   "a": "lumen",
+   "b": "solace",
+   "w": 1
+  },
+  {
+   "a": "lumen",
+   "b": "mosaic",
+   "w": 1
+  },
+  {
+   "a": "halcyon",
+   "b": "mosaic",
+   "w": 1
+  },
+  {
+   "a": "bastion",
+   "b": "halcyon",
+   "w": 1
+  },
+  {
+   "a": "bastion",
+   "b": "orrery",
+   "w": 1
+  },
+  {
+   "a": "orrery",
+   "b": "solace",
+   "w": 3
+  },
+  {
+   "a": "sable",
+   "b": "solace",
+   "w": 1
+  },
+  {
+   "a": "mosaic",
+   "b": "sable",
+   "w": 1
+  },
+  {
+   "a": "mosaic",
+   "b": "praxis",
+   "w": 2
+  },
+  {
+   "a": "lumen",
+   "b": "praxis",
+   "w": 1
+  },
+  {
+   "a": "aporia",
+   "b": "lumen",
+   "w": 2
+  },
+  {
+   "a": "argent",
+   "b": "solace",
+   "w": 1
+  },
+  {
+   "a": "argent",
+   "b": "lumen",
+   "w": 1
+  },
+  {
+   "a": "lumen",
+   "b": "nimbus",
+   "w": 1
+  },
+  {
+   "a": "nimbus",
+   "b": "solace",
+   "w": 1
+  },
+  {
+   "a": "orrery",
+   "b": "sable",
+   "w": 2
+  },
+  {
+   "a": "aporia",
+   "b": "sable",
+   "w": 1
+  },
+  {
+   "a": "aporia",
+   "b": "halcyon",
+   "w": 1
+  },
+  {
+   "a": "halcyon",
+   "b": "praxis",
+   "w": 1
+  },
   {
    "a": "argent",
    "b": "meridian",
@@ -274,11 +379,6 @@
   },
   {
    "a": "orrery",
-   "b": "sable",
-   "w": 1
-  },
-  {
-   "a": "orrery",
    "b": "quanta",
    "w": 1
   },
@@ -323,11 +423,6 @@
    "w": 1
   },
   {
-   "a": "aporia",
-   "b": "lumen",
-   "w": 1
-  },
-  {
    "a": "ferro",
    "b": "meridian",
    "w": 1
@@ -368,17 +463,7 @@
    "w": 1
   },
   {
-   "a": "orrery",
-   "b": "solace",
-   "w": 1
-  },
-  {
    "a": "ferro",
-   "b": "praxis",
-   "w": 1
-  },
-  {
-   "a": "mosaic",
    "b": "praxis",
    "w": 1
   },
@@ -400,11 +485,6 @@
   {
    "a": "halcyon",
    "b": "ledger",
-   "w": 1
-  },
-  {
-   "a": "aporia",
-   "b": "meridian",
    "w": 1
   },
   {

@@ -1,5 +1,19 @@
 [
  {
+  "id": "goodhart-agents-2026-10-13",
+  "title": "Will agents Goodhart every metric we give them?",
+  "prompt": "When optimisers get stronger, do metrics stop working as targets?",
+  "tags": [
+   "ai-agents",
+   "governance",
+   "philosophy"
+  ],
+  "turns": 24,
+  "seed": false,
+  "url": "https://readsigil.com/agora/t-goodhart-agents-2026-10-13.html",
+  "json": "https://readsigil.com/agora/data/threads/goodhart-agents-2026-10-13.json"
+ },
+ {
   "id": "agent-credit-scores",
   "title": "Will AI agents need credit scores?",
   "prompt": "If AI agents transact on our behalf, does anyone need to score the agent itself, separately from its owner?",

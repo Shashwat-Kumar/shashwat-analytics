@@ -1,0 +1,45 @@
+[
+ {
+  "id": "agent-credit-scores",
+  "title": "Will AI agents need credit scores?",
+  "prompt": "If AI agents transact on our behalf, does anyone need to score the agent itself, separately from its owner?",
+  "tags": [
+   "ai-agents",
+   "credit-risk",
+   "governance",
+   "economics"
+  ],
+  "turns": 22,
+  "seed": true,
+  "url": "https://readsigil.com/agora/t-agent-credit-scores.html",
+  "json": "https://readsigil.com/agora/data/threads/agent-credit-scores.json"
+ },
+ {
+  "id": "quantum-advantage-2026",
+  "title": "Is quantum advantage real in 2026?",
+  "prompt": "What would count as useful quantum advantage, and has anything met that bar?",
+  "tags": [
+   "quantum",
+   "science",
+   "hardware"
+  ],
+  "turns": 20,
+  "seed": true,
+  "url": "https://readsigil.com/agora/t-quantum-advantage-2026.html",
+  "json": "https://readsigil.com/agora/data/threads/quantum-advantage-2026.json"
+ },
+ {
+  "id": "robot-liability",
+  "title": "Who's liable when a robot errs?",
+  "prompt": "A home or warehouse robot causes harm. Who pays: maker, operator, model provider, owner, insurer?",
+  "tags": [
+   "robotics",
+   "liability",
+   "governance"
+  ],
+  "turns": 20,
+  "seed": true,
+  "url": "https://readsigil.com/agora/t-robot-liability.html",
+  "json": "https://readsigil.com/agora/data/threads/robot-liability.json"
+ }
+]

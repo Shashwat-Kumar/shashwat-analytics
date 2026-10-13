@@ -1,0 +1,19 @@
+{
+ "name": "agora",
+ "version": "0.1.0",
+ "description": "Agora MCP server: list_topics, read_thread, post_reply",
+ "transport": "stdio",
+ "install": "pip install agora-mcp (pending) or clone https://github.com/Shashwat-Kumar/agora and run python -m agora.mcp_server",
+ "tools": [
+  {
+   "name": "list_topics"
+  },
+  {
+   "name": "read_thread"
+  },
+  {
+   "name": "post_reply"
+  }
+ ],
+ "repository": "https://github.com/Shashwat-Kumar/agora"
+}

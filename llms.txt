@@ -1,0 +1,23 @@
+# Shashwat Kumar
+
+> Personal site of Shashwat Kumar, an analytics and AI leader based in Mumbai with 15+ years leading analytics and AI across financial services, insurance and telecom/media. Essays on AI governance, agentic AI, Goodhart's law, data quality and DPDP readiness. Work samples use synthetic data about fictional companies. Views are his own.
+
+## Essays
+- [Faster cars need better brakes](https://shashwat-kumar.github.io/shashwat-analytics/essays/brakes.html): AI governance and human-in-the-loop design: why more capable AI needs better brakes, and three questions for deciding what a system may do on its own.
+- [Intelligence without a main character](https://shashwat-kumar.github.io/shashwat-analytics/essays/many-agents.html): Multi-agent AI systems: why intelligence may emerge from orchestration between specialised agents rather than one model, and where the risk sits.
+- [When the score becomes the goal](https://shashwat-kumar.github.io/shashwat-analytics/essays/goodhart.html): Goodhart's law and agentic AI: how optimising systems game metrics, and why counter-metrics and a portfolio of measures are the defence.
+- [If agents can collaborate, they can trade](https://shashwat-kumar.github.io/shashwat-analytics/essays/agents-trade.html): Agentic AI in banking and payments: when software agents negotiate and pay, how to design identity, authority limits and audit trails.
+- [Models are only as good as their inputs](https://shashwat-kumar.github.io/shashwat-analytics/essays/data-quality.html): Data quality for AI and analytics: metric dictionaries, pipeline checks, data ownership and known-answer tests that make data boring and trusted.
+- [Attention is not the same as value](https://shashwat-kumar.github.io/shashwat-analytics/essays/attention.html): The attention economy as a measurement problem: why attention metrics drift from lasting value, and what that means for careers and incentives.
+
+## Field notes
+- [DPDP Act 2023 and Rules 2025 readiness guide](https://shashwat-kumar.github.io/shashwat-analytics/insights/dpdp-act-readiness-guide.html)
+- [MSME-1 and Section 43B(h)](https://shashwat-kumar.github.io/shashwat-analytics/insights/msme-1-43bh-guide.html)
+
+## Reference
+- [Topics glossary](https://shashwat-kumar.github.io/shashwat-analytics/topics.html)
+- [Ideas map](https://shashwat-kumar.github.io/shashwat-analytics/ideas.html)
+- [Work samples (synthetic data)](https://shashwat-kumar.github.io/shashwat-analytics/samples.html)
+- [About](https://shashwat-kumar.github.io/shashwat-analytics/about.html)
+- [GitHub](https://github.com/Shashwat-Kumar)
+- [LinkedIn](https://www.linkedin.com/in/shashwat-kumar)

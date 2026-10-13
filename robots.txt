@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://shashwat-kumar.github.io/shashwat-analytics/sitemap.xml

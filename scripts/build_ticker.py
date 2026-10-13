@@ -29,7 +29,7 @@ AIQ = re.compile(r"\b(AI|LLMs?|GPT|agents?|agentic|machine learning|ML|data|mode
 AI_STRICT = re.compile(r"\b(AI|A\.I\.|artificial intelligence|LLMs?|GPT|ChatGPT|agents?|agentic|OpenAI|Anthropic|"
                        r"Gemini|Claude|Grok|xAI|DeepMind|Copilot|superintelligence|AGI|chips?|GPUs?|robots?|robotics|"
                        r"neural|machine learning|model|models)\b", re.I)
-SAID = re.compile(r"\b(says?|said|warns?|predicts?|claims?|calls?|urges?|believes?|thinks?|argues?|reveals?|admits?|"
+SAID = re.compile(r"\b(says?|said|warns?|predicts?|claims?|calls? for|urges?|pushes back|opposes|rejects|critici[sz]es|backs|defends|believes?|thinks?|argues?|reveals?|admits?|"
                   r"tells?|told|slams?|blasts?|praises?|responds?|posts?|posted|tweets?|tweeted|writes?|wrote|"
                   r"announces?|unveils?|vows?|insists?|questions?|dismisses?|doubles down|hits back)\b", re.I)
 
@@ -39,6 +39,47 @@ LEADERS = [
     ("Demis Hassabis", "Hassabis"), ("Satya Nadella", "Nadella"), ("Sundar Pichai", "Pichai"),
     ("Mark Zuckerberg", "Zuckerberg"), ("Mustafa Suleyman", "Suleyman"), ("Yann LeCun", "LeCun"),
 ]
+
+# Voices come only from established publications, so nothing flaky lands on the site.
+TRUSTED = {
+    "reuters", "bloomberg", "financial times", "ft", "the wall street journal", "wsj", "cnbc", "bbc", "bbc news",
+    "the guardian", "the new york times", "the washington post", "associated press", "ap news", "axios", "fortune",
+    "business insider", "the verge", "techcrunch", "wired", "ars technica", "the information", "forbes", "barron's",
+    "yahoo finance", "quartz", "semafor", "the economist", "time", "cnn", "politico", "engadget", "venturebeat",
+    "the times of india", "times of india", "the economic times", "economic times", "mint", "livemint",
+    "hindustan times", "ndtv", "ndtv profit", "moneycontrol", "business standard", "the indian express",
+    "indian express", "the hindu", "businessline", "the hindu businessline", "india today", "firstpost",
+}
+
+
+def source_name(raw: str, url: str = "") -> str:
+    """Google News sometimes gives a URL as the source; show a readable publisher name either way."""
+    raw = (raw or "").strip()
+    if raw.startswith("http"):
+        host = urllib.parse.urlparse(raw).netloc or raw
+        return host.removeprefix("www.")
+    return raw
+
+
+def is_trusted(source: str) -> bool:
+    return source.strip().lower() in TRUSTED
+
+
+def speaker_ok(title: str, surname: str) -> bool:
+    """The leader must be the one speaking: the last leader named before the speech verb, not as a possessive."""
+    m = SAID.search(title)
+    if not m:
+        return False
+    before = title[: m.start()]
+    speaker, at = None, -1
+    for _, sur in LEADERS:
+        for hit in re.finditer(re.escape(sur), before, re.I):
+            tail = before[hit.end(): hit.end() + 2]
+            if tail[:2] in ("'s", "\u2019s"):  # possessive: they are the object, not the speaker
+                continue
+            if hit.start() > at:
+                speaker, at = sur, hit.start()
+    return speaker is not None and speaker.lower() == surname.lower()
 
 
 def get(url: str, gh: bool = False) -> bytes:
@@ -64,7 +105,7 @@ def parse_rss(xml: bytes) -> list[dict]:
         if not title or not link:
             continue
         src_el = it.find("source")
-        source = (src_el.text or "").strip() if src_el is not None and src_el.text else ""
+        source = source_name(src_el.text or "") if src_el is not None and src_el.text else ""
         if source and title.endswith(" - " + source):
             title = title[: -len(" - " + source)].strip()
         pub = None
@@ -122,7 +163,7 @@ def pick_voices(feeds: dict[str, list[dict]], now: dt.datetime, max_age_h: int =
             t, pub = it["title"], it["published"]
             if not pub or now - pub > dt.timedelta(hours=max_age_h) or pub > now + dt.timedelta(minutes=10):
                 continue
-            if surname.lower() not in t.lower() or not AI_STRICT.search(t) or not SAID.search(t):
+            if not AI_STRICT.search(t) or not speaker_ok(t, surname) or not is_trusted(it["source"]):
                 continue
             key = re.sub(r"\W+", " ", t.lower()).strip()
             if key in seen:

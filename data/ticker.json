@@ -1,16 +1,140 @@
 {
- "generated_at": "2026-10-13T14:26:47Z",
+ "generated_at": "2026-10-13T20:51:39Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
   "TechCrunch AI RSS",
-  "MIT Technology Review AI RSS"
+  "MIT Technology Review AI RSS",
+  "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
+ ],
+ "flash": {
+  "title": "Gemini 4 Argon",
+  "url": "https://deepmind.google/models/gemini/",
+  "source": "Hacker News",
+  "discuss": "https://news.ycombinator.com/item?id=50073879",
+  "points": 717,
+  "comments": 583,
+  "published": "2026-10-13T16:03:16Z",
+  "since": "2026-10-13T20:51:39Z"
+ },
+ "voice": {
+  "kind": "voice",
+  "tag": "VOICE",
+  "person": "Mark Zuckerberg",
+  "title": "Mark Zuckerberg admits he wasn't sure Meta's $200 billion AI bet would pay off",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ScUZOSTUwalpubGdlY1MwSXRHZmU3RDR3ZHdxanFYalBGemNWWVpNaTU2SGRuRWdjQU5ubDgtdmdodE9qTm0yZEVvVmxjb1VIdTF0NVNFSVl6MEFvMmhNYzR5cHRxUjVwcy1SS1ppajR1UFlLRmhHS3NrTXJldw?oc=5",
+  "source": "Quartz",
+  "published": "2026-10-13T20:22:23Z",
+  "since": "2026-10-13T20:51:39Z"
+ },
+ "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Mark Zuckerberg",
+   "title": "Mark Zuckerberg admits he wasn't sure Meta's $200 billion AI bet would pay off",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ScUZOSTUwalpubGdlY1MwSXRHZmU3RDR3ZHdxanFYalBGemNWWVpNaTU2SGRuRWdjQU5ubDgtdmdodE9qTm0yZEVvVmxjb1VIdTF0NVNFSVl6MEFvMmhNYzR5cHRxUjVwcy1SS1ppajR1UFlLRmhHS3NrTXJldw?oc=5",
+   "source": "Quartz",
+   "published": "2026-10-13T20:22:23Z",
+   "since": "2026-10-13T20:51:39Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "NVIDIA CEO Jensen Huang Announces $2 Billion AI Investment in Europe Next Week",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NeDZkUkVob09iTC1UUmdHbmJ0ZUhlX3kwSHh5Wjc0ZjRyQldzRW5RWGdWaDZrU1NHVXJmRHZEWU8zVzNjbFJDV3FYeWdvZ29kZHE3cjVyNFJMWEZyTGIwV1h0WmpWcS1xMHJyd2oyeU4tU0Vk?oc=5",
+   "source": "https://www.ababnews.com/",
+   "published": "2026-10-13T19:49:32Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Satya Nadella",
+   "title": "Microsoft CEO Satya Nadella warns against trusting opaque AI to police AI",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBMNnlrRDJyMkdsWTA0N3RBV3F3ZDFGY2JERUNqb1BUYnMzbm1KN1EtbkFwTUc4cXA5dWY3R2xsUk1MQ0xuOUUxSzdQc0tHWjdnTHhsNFJHY1lWMlowcFRQNzlaLVduS3kxMEZKXzlvQkhucUYtb1prZA?oc=5",
+   "source": "Crypto Briefing",
+   "published": "2026-10-13T17:53:43Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Google's Gemini 4 Argon Is Here: Sundar Pichai Announces Global Rollout",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUG9EREVSQ0ZYQlY5a0pUeWtvZXRkY29rMDREM2JoN0JGUnRzZUxSdjNqcjBuZXMtNWY4Z00zY3pwam5lT3J3VVRUSzVTZGgxR2hVZzk1SDVSUkItU012V3pUWGM2cHUzYkMxX0pzQW9HZk9adHB3cTluYnpUMXF0ZHlLSlVUSmJkQy1TdXBXSnNmd2tXN3lFTVV6SlVvZTQ0Wk1VcmRObGJzTDVxNWJhMkVSR2Nxb0HSAb8BQVVfeXFMTmFkczEzZVcwcDJIZktFSmNLbGNtVkNJNUtiSlM0akdtSWZ6VTdPaVA1emVBX1pqd2NVZFA0d1UzWWV3T0FLVUtGZFE5MGRoeGl5MF91ekRJdXNmVGg1VGpBSGdHZEZDT21pdW5Gc3l6Z0tQb0Q1T2Q5S2MxZFNUeGFRYXlyQXBzdElSZDBSUVoydjVlWlljRnFOa3NyMmYxMkY5WnJFaFlLb0xyM3MzWXUwTDR3M0I3MEpQeFFQZE0?oc=5",
+   "source": "NDTV Profit",
+   "published": "2026-10-13T17:42:21Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Dario Amodei",
+   "title": "Yann LeCun pushes back on Dario Amodei's AI slowdown call",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGZER1NNVVRsZTZSTl9fTXFlYVJheXNLclVGOGNpYnQyWDhJd0lEMmh0cEVMdzluNFNpZVpBa1dFMGN3MkVSUDVtR1ZKZ2pvNzl2ZkJQMlRlM3Q2eDZBaXNHVkFHN0hRbDVSek55VTBmcmhFZGV1LUw4TER1OTdmQk1JUlVncnhaa3J4U3RMbkRGVFoyZ3dBSHoxODhETVNSMC1penN3?oc=5",
+   "source": "NewsBytes",
+   "published": "2026-10-13T17:31:31Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Yann LeCun",
+   "title": "Godfather of AI Yann LeCun opposes Dario Amodei’s call of slowing down AI development, says ‘Anthropic is",
+   "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQMGxJdTZKMnJGemdkbWpiQVhPOVFDdDlpdU1aa2t0MnlXMndhcUtMT1VTc2dNSGZNNF9jMXdUR2IxMGZuMlB6c3RIa1VxaWIzdFNvMTZNWmZ1X0M2ZDF1NEtxSUl6UmVLZE5YNTB0eUE0V3U1bjljNy11Y3FfWWNDUGw4aGtDTDRiSVNTa3psYXZCQjE1NkRMcjJnV0I2SHdxUE45Z0FnVGdTeWlGN1ZjbFlldDRCVHdicjZWRnNjekMtT3hZSDdKVXVmVDc5TUEwRnpuX0xObE1CSHQxNnV1MEN4LVZtbjl4RVZmN2p3Zzd6ZWNZUUkybHNyc2VfNkpCb3BrWHFWVVBnU1cwUVlRQ2pxZVczNDI1NmVEeEVkNjNjQ1NFYlowVTExb04wRTJZOHUxOHR6dzhNMFU3THA4dk9XZzhxaHlXMUcw0gHLAkFVX3lxTFAwbEl1NkoyckZ6Z2RtamJBWE85UUN0OWl1TVpra3QyeVcyd2FxS0xPVVNzZ01IZk00X2Mxd1RHYjEwZm4yUHpzdEhrVXFpYjN0U28xNk1aZnVfQzZkMXU0S3FJSXpSZUtkTlg1MHR5QTRXdTVuOWM3LXVjcV9ZY0NQbDhoa0NMNGJJU1NremxhdkJCMTU2RExyMmdXQjZId3FQTjlnQWdUZ1N5aUY3VmNsWWV0NEJUd2JyNlZGc2N6Qy1PeFlIN0pVdWZUNzlNQTBGem5fTE5sTUJIdDE2dXUwQ3gtVm1uOXhFVmY3andnN3plY1lRSTJsc3JzZV82SkJvcGtYcVZVUGdTVzBRWVFDanFlVzM0MjU2ZUR4RWQ2M2NDU0ViWjBVMTFvTjBFMlk4dTE4dHp3OE0wVTdMcDh2T1dnOHFoeVcxRzA?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-13T17:11:00Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk Says ‘No Crying in the Casino’ After Broadcom CEO Warns AI Frenzy Is Getting Out of Hand",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RdEU2OWItTHotZG1RWWVPb25XYy1xYmEtQ1BzTlZ4Vk5BaGRlSk5mX1RqQ2VJWlVVQUM4UnV4dG5EYzFub0FpY190blY1Tl94X3dPUmludzktYnc4eExCZXpfT2FYXzBzQmRVRUtEd25HVTdmNEZqajdHemk?oc=5",
+   "source": "Barron's",
+   "published": "2026-10-13T16:56:00Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "OpenAI CEO Sam Altman Warns Against Giving AI Religious Authority",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUTZGUkJiT0FoNlZNdl9hdkJGaXZpMWFCY21fM3VtUEVKMThlcVBtYkdiaV9FRlRvOGVURlBTYWdHYm44TkZDUnlFSTFCUlBpNXZRcDNQV29TVDRlWG5WS0ZrdnJCUEpBSWhVR2VxZHg0ZzJQTHNKMTV0MzVCZGdWeGdrZnJzTDBIRWFlRFlEampGUDlsMEdjcXpqYk05NWdGQTZRNmk5eDlTMEF2dG5zNw?oc=5",
+   "source": "Movieguide",
+   "published": "2026-10-13T15:00:11Z"
+  }
  ],
  "items": [
   {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Mark Zuckerberg",
+   "title": "Mark Zuckerberg admits he wasn't sure Meta's $200 billion AI bet would pay off",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ScUZOSTUwalpubGdlY1MwSXRHZmU3RDR3ZHdxanFYalBGemNWWVpNaTU2SGRuRWdjQU5ubDgtdmdodE9qTm0yZEVvVmxjb1VIdTF0NVNFSVl6MEFvMmhNYzR5cHRxUjVwcy1SS1ppajR1UFlLRmhHS3NrTXJldw?oc=5",
+   "source": "Quartz",
+   "published": "2026-10-13T20:22:23Z",
+   "since": "2026-10-13T20:51:39Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "NVIDIA CEO Jensen Huang Announces $2 Billion AI Investment in Europe Next Week",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NeDZkUkVob09iTC1UUmdHbmJ0ZUhlX3kwSHh5Wjc0ZjRyQldzRW5RWGdWaDZrU1NHVXJmRHZEWU8zVzNjbFJDV3FYeWdvZ29kZHE3cjVyNFJMWEZyTGIwV1h0WmpWcS1xMHJyd2oyeU4tU0Vk?oc=5",
+   "source": "https://www.ababnews.com/",
+   "published": "2026-10-13T19:49:32Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Satya Nadella",
+   "title": "Microsoft CEO Satya Nadella warns against trusting opaque AI to police AI",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBMNnlrRDJyMkdsWTA0N3RBV3F3ZDFGY2JERUNqb1BUYnMzbm1KN1EtbkFwTUc4cXA5dWY3R2xsUk1MQ0xuOUUxSzdQc0tHWjdnTHhsNFJHY1lWMlowcFRQNzlaLVduS3kxMEZKXzlvQkhucUYtb1prZA?oc=5",
+   "source": "Crypto Briefing",
+   "published": "2026-10-13T17:53:43Z"
+  },
+  {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1295,
+   "stars": 1469,
    "note": "Python · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -19,18 +143,8 @@
   },
   {
    "kind": "repo",
-   "title": "NousResearch/hermes-official-plugins",
-   "stars": 264,
-   "note": "Python · new this week",
-   "url": "https://github.com/NousResearch/hermes-official-plugins",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "Ayzzz123/mcd-coupon-strategist",
-   "stars": 257,
+   "stars": 277,
    "note": "Python · new this week",
    "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
    "source": "GitHub",
@@ -39,8 +153,18 @@
   },
   {
    "kind": "repo",
+   "title": "NousResearch/hermes-official-plugins",
+   "stars": 268,
+   "note": "Python · new this week",
+   "url": "https://github.com/NousResearch/hermes-official-plugins",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 238,
+   "stars": 247,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -50,7 +174,7 @@
   {
    "kind": "repo",
    "title": "storytold/wordcraft",
-   "stars": 10381,
+   "stars": 10903,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/wordcraft",
    "source": "GitHub",
@@ -60,7 +184,7 @@
   {
    "kind": "repo",
    "title": "wheresryan22/anatomy",
-   "stars": 7604,
+   "stars": 8033,
    "note": "JavaScript · new this week",
    "url": "https://github.com/wheresryan22/anatomy",
    "source": "GitHub",
@@ -70,7 +194,7 @@
   {
    "kind": "repo",
    "title": "storytold/gridcraft",
-   "stars": 4239,
+   "stars": 4400,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/gridcraft",
    "source": "GitHub",
@@ -80,7 +204,7 @@
   {
    "kind": "repo",
    "title": "storytold/cadcraft",
-   "stars": 3932,
+   "stars": 4129,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/cadcraft",
    "source": "GitHub",
@@ -90,7 +214,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 497,
+   "points": 717,
+   "title": "Gemini 4 Argon",
+   "source": "Hacker News",
+   "url": "https://deepmind.google/models/gemini/",
+   "discuss": "https://news.ycombinator.com/item?id=50073879"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 627,
    "title": "AI is a tool and using it well takes skill",
    "source": "Hacker News",
    "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
@@ -99,93 +232,84 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 274,
-   "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+   "points": 356,
+   "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
    "source": "Hacker News",
-   "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-   "discuss": "https://news.ycombinator.com/item?id=50063365"
+   "url": "https://eg2.haku.sh/",
+   "discuss": "https://news.ycombinator.com/item?id=50069971"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 251,
-   "title": "AI models can provably hide arbitrary capabilities",
+   "points": 319,
+   "title": "Redesigning source control at Anthropic",
    "source": "Hacker News",
-   "url": "https://arxiv.org/abs/2610.13928",
-   "discuss": "https://news.ycombinator.com/item?id=50065692"
+   "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+   "discuss": "https://news.ycombinator.com/item?id=50073633"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 198,
-   "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+   "points": 235,
+   "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
    "source": "Hacker News",
-   "url": "https://www.argmin.net/p/faster-fourier-transforms",
-   "discuss": "https://news.ycombinator.com/item?id=50065932"
+   "url": "https://blog.character.ai/an-update-on-character-ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50068036"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 188,
-   "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+   "points": 181,
+   "title": "I posted to HN, and then my website was flooded with AI bot traffic",
    "source": "Hacker News",
-   "url": "https://github.com/prabanta-dev/janas",
-   "discuss": "https://news.ycombinator.com/item?id=50063717"
+   "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+   "discuss": "https://news.ycombinator.com/item?id=50073221"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 147,
-   "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+   "points": 139,
+   "title": "Gemini 4 Argon for Robotics",
    "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50059096",
-   "discuss": "https://news.ycombinator.com/item?id=50059096"
+   "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+   "discuss": "https://news.ycombinator.com/item?id=50074869"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 118,
-   "title": "Character.ai Files for Bankruptcy",
+   "points": 84,
+   "title": "How to engineer an AI harness for game development",
    "source": "Hacker News",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-   "discuss": "https://news.ycombinator.com/item?id=50069942"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 101,
-   "title": "Show HN: Use your OpenAI subscription to create audiobooks",
-   "source": "Hacker News",
-   "url": "https://pdftomp3.com/connect-ai/",
-   "discuss": "https://news.ycombinator.com/item?id=50069337"
+   "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+   "discuss": "https://news.ycombinator.com/item?id=50072120"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "TechCrunch Disrupt 2026: Day 1",
+   "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/"
+   "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "SpaceXSI bundles X Premium, Grok and Cursor into one subscription",
+   "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/"
+   "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "The final Disrupt Stage lineup: Three days of conversations you won’t hear anywhere outside of TechCrunch Disrupt 2026",
+   "title": "Facebook is giving users more control over their algorithm",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/"
+   "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+   "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
+   "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/"
   },
   {
    "kind": "news",

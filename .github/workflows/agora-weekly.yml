@@ -24,7 +24,7 @@ concurrency:
 jobs:
   debate:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -98,6 +98,10 @@ jobs:
           ) || exit 1
           PROVIDER=${CHOICE%% *}
           export AGORA_MODEL=${CHOICE#* }
+          case "$AGORA_MODEL" in
+            openai/gpt-oss*) export AGORA_EXTRA='{"reasoning_effort": "low"}' ;;
+            qwen/*) export AGORA_EXTRA='{"reasoning_effort": "none"}' ;;
+          esac
           echo "::notice::Debate running on $PROVIDER / $AGORA_MODEL"
           echo "Provider: $PROVIDER"
           T="${TOPIC:-$(python scripts/build_agora.py --next-topic _agora/data/topics.json)}"

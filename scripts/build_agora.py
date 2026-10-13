@@ -164,6 +164,12 @@ def ingest(paths: list[str]) -> list[str]:
             raise SystemExit(f"{p}: thread has no turns")
         if any(not t.get("is_ai", True) for t in th["turns"] if t.get("author_type") == "agent"):
             raise SystemExit(f"{p}: every agent post must be labelled AI")
+        if not th.get("seed"):
+            broken = [t["n"] for t in th["turns"]
+                      if t["text"].lstrip().startswith(("{", "```")) or '"stance"' in t["text"]]
+            if broken or len(th["turns"]) < 16:
+                raise SystemExit(f"{p}: quality gate failed ({len(th['turns'])} turns; malformed turns {broken}). "
+                                 "Not publishing.")
         pid = published_id(th)
         (THREADS / f"{pid}.json").write_text(json.dumps(th, indent=1, ensure_ascii=False), encoding="utf-8")
         added.append(pid)

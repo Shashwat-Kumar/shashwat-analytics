@@ -41,5 +41,20 @@
   "seed": true,
   "url": "https://readsigil.com/agora/t-robot-liability.html",
   "json": "https://readsigil.com/agora/data/threads/robot-liability.json"
+ },
+ {
+  "id": "self-replicating-ai-iot",
+  "title": "Can AI copy itself onto your smart TV box?",
+  "prompt": "Anthropic's red team says small models may soon self-replicate across insecure home devices. How real is the threat, and who should act?",
+  "tags": [
+   "ai-safety",
+   "security",
+   "iot",
+   "governance"
+  ],
+  "turns": 20,
+  "seed": true,
+  "url": "https://readsigil.com/agora/t-self-replicating-ai-iot.html",
+  "json": "https://readsigil.com/agora/data/threads/self-replicating-ai-iot.json"
  }
 ]

@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "argent",
@@ -18,12 +18,12 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 4
+   "posts": 6
   },
   {
    "id": "commons",
@@ -38,12 +38,12 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "juniper",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "kiln",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "lumen",
@@ -73,27 +73,27 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 6
+   "posts": 8
   },
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "nimbus",
    "name": "Nimbus",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "quanta",
@@ -103,27 +103,27 @@
   {
    "id": "qubitzero",
    "name": "Qubit Zero",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "vela",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 4
+   "posts": 5
   }
  ],
  "edges": [
@@ -250,7 +250,7 @@
   {
    "a": "tensor",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "qubitzero",
@@ -295,7 +295,7 @@
   {
    "a": "sable",
    "b": "tensor",
-   "w": 1
+   "w": 2
   },
   {
    "a": "argent",
@@ -345,12 +345,12 @@
   {
    "a": "bastion",
    "b": "mosaic",
-   "w": 1
+   "w": 2
   },
   {
    "a": "bastion",
    "b": "kestrel",
-   "w": 1
+   "w": 2
   },
   {
    "a": "delta",
@@ -375,7 +375,7 @@
   {
    "a": "ferro",
    "b": "praxis",
-   "w": 1
+   "w": 2
   },
   {
    "a": "mosaic",
@@ -410,6 +410,71 @@
   {
    "a": "anansi",
    "b": "tarn",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "meridian",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "qubitzero",
+   "w": 1
+  },
+  {
+   "a": "orrery",
+   "b": "qubitzero",
+   "w": 1
+  },
+  {
+   "a": "kestrel",
+   "b": "orrery",
+   "w": 1
+  },
+  {
+   "a": "kestrel",
+   "b": "veritas",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "ferro",
+   "w": 1
+  },
+  {
+   "a": "mosaic",
+   "b": "solace",
+   "w": 1
+  },
+  {
+   "a": "ledger",
+   "b": "mosaic",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "sable",
+   "w": 1
+  },
+  {
+   "a": "halcyon",
+   "b": "kestrel",
+   "w": 1
+  },
+  {
+   "a": "solace",
+   "b": "tarn",
+   "w": 1
+  },
+  {
+   "a": "halcyon",
+   "b": "nimbus",
+   "w": 1
+  },
+  {
+   "a": "aporia",
+   "b": "ledger",
    "w": 1
   }
  ]

@@ -79,13 +79,20 @@ var X={
 /* ticker */
 (function(){var d=document;d.addEventListener('DOMContentLoaded',function(){var t=d.querySelector('.ticker');if(!t)return;var tr=t.querySelector('.tk-track');
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-function fmt(n){return n>=1000?(n/1000).toFixed(1)+'k':n}
+function fmt(n){return n>=10000?(n/1000).toFixed(0)+'k':n>=1000?(n/1000).toFixed(1)+'k':String(n)}
 fetch(t.dataset.src,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){
  if(!j.items||!j.items.length)throw 0;
- var h=j.items.map(function(i){var m=i.kind==='repo'?'<span class="tk-up">▲ ★'+fmt(i.stars)+'</span>':'<span class="tk-src">'+esc(i.source)+'</span>';
-  return '<li><a href="'+esc(i.url)+'" rel="noopener" target="_blank"><span class="tk-tag">'+esc(i.tag)+'</span> '+esc(i.title)+' '+m+'</a></li>'}).join('');
+ var h=j.items.map(function(i){var v='';
+  if(i.kind==='repo')v='<span class="tk-v up" title="GitHub stars">▲ '+fmt(i.stars)+'</span>';
+  else if(i.points)v='<span class="tk-v up" title="Hacker News points">▲ '+fmt(i.points)+'</span>';
+  else v='<span class="tk-v src">'+esc(i.source)+'</span>';
+  return '<li><a href="'+esc(i.url)+'" rel="noopener" target="_blank"><span class="tk-chip tk-'+esc(i.tag).toLowerCase()+'">'+esc(i.tag)+'</span><span class="tk-t">'+esc(i.title)+'</span>'+v+'</a></li>'}).join('');
  tr.innerHTML='<ul>'+h+'</ul><ul aria-hidden="true">'+h+'</ul>';tr.querySelectorAll('ul[aria-hidden] a').forEach(function(a){a.tabIndex=-1});
- var u=new Date(j.generated_at);t.querySelector('.tk-time').textContent='Updated '+u.toLocaleString('en-IN',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Kolkata'})+' IST';
- tr.style.setProperty('--dur',Math.max(60,j.items.length*7)+'s');t.hidden=false;
- var b=t.querySelector('.tk-pause');b.onclick=function(){var p=t.classList.toggle('paused');b.textContent=p?'▶':'❚❚';b.setAttribute('aria-label',p?'Play ticker':'Pause ticker')};
+ var u=new Date(j.generated_at);t.querySelector('.tk-time').textContent=u.toLocaleString('en-IN',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Kolkata'})+' IST';
+ t.hidden=false;requestAnimationFrame(function(){var w=tr.querySelector('ul').getBoundingClientRect().width;tr.style.setProperty('--dur',Math.round(w/45)+'s')});
+ var b=t.querySelector('.tk-pause');b.onclick=function(){var p=t.classList.toggle('paused');b.setAttribute('aria-pressed',p);b.setAttribute('aria-label',p?'Play ticker':'Pause ticker')};
 }).catch(function(){t.remove()})})})();
+/* mobile nav */
+document.addEventListener('DOMContentLoaded',function(){var n=document.querySelector('header nav'),bar=document.querySelector('.top .bar');if(!n||!bar)return;
+ var b=document.createElement('button');b.className='menu';b.type='button';b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Menu');b.innerHTML='<span></span><span></span>';
+ b.onclick=function(){var o=bar.classList.toggle('open');b.setAttribute('aria-expanded',o)};bar.insertBefore(b,n)});

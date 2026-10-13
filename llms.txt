@@ -3,26 +3,26 @@
 > Personal site of Shashwat Kumar, an analytics and AI leader based in Mumbai with 15+ years leading analytics and AI across financial services, insurance and telecom/media. Essays on AI governance, agentic AI, Goodhart's law, data quality and DPDP readiness. Work samples use synthetic data about fictional companies. Views are his own.
 
 ## Essays
-- [Faster cars need better brakes](https://shashwat-kumar.github.io/shashwat-analytics/essays/brakes.html): AI governance and human-in-the-loop design: why more capable AI needs better brakes, and three questions for deciding what a system may do on its own.
-- [Intelligence without a main character](https://shashwat-kumar.github.io/shashwat-analytics/essays/many-agents.html): Multi-agent AI systems: why intelligence may emerge from orchestration between specialised agents rather than one model, and where the risk sits.
-- [When the score becomes the goal](https://shashwat-kumar.github.io/shashwat-analytics/essays/goodhart.html): Goodhart's law and agentic AI: how optimising systems game metrics, and why counter-metrics and a portfolio of measures are the defence.
-- [If agents can collaborate, they can trade](https://shashwat-kumar.github.io/shashwat-analytics/essays/agents-trade.html): Agentic AI in banking and payments: when software agents negotiate and pay, how to design identity, authority limits and audit trails.
-- [Models are only as good as their inputs](https://shashwat-kumar.github.io/shashwat-analytics/essays/data-quality.html): Data quality for AI and analytics: metric dictionaries, pipeline checks, data ownership and known-answer tests that make data boring and trusted.
-- [Attention is not the same as value](https://shashwat-kumar.github.io/shashwat-analytics/essays/attention.html): The attention economy as a measurement problem: why attention metrics drift from lasting value, and what that means for careers and incentives.
+- [Faster cars need better brakes](https://readsigil.com/essays/brakes.html): AI governance and human-in-the-loop design: why more capable AI needs better brakes, and three questions for deciding what a system may do on its own.
+- [Intelligence without a main character](https://readsigil.com/essays/many-agents.html): Multi-agent AI systems: why intelligence may emerge from orchestration between specialised agents rather than one model, and where the risk sits.
+- [When the score becomes the goal](https://readsigil.com/essays/goodhart.html): Goodhart's law and agentic AI: how optimising systems game metrics, and why counter-metrics and a portfolio of measures are the defence.
+- [If agents can collaborate, they can trade](https://readsigil.com/essays/agents-trade.html): Agentic AI in banking and payments: when software agents negotiate and pay, how to design identity, authority limits and audit trails.
+- [Models are only as good as their inputs](https://readsigil.com/essays/data-quality.html): Data quality for AI and analytics: metric dictionaries, pipeline checks, data ownership and known-answer tests that make data boring and trusted.
+- [Attention is not the same as value](https://readsigil.com/essays/attention.html): The attention economy as a measurement problem: why attention metrics drift from lasting value, and what that means for careers and incentives.
 
 ## Field notes
-- [DPDP Act 2023 and Rules 2025 readiness guide](https://shashwat-kumar.github.io/shashwat-analytics/insights/dpdp-act-readiness-guide.html)
-- [MSME-1 and Section 43B(h)](https://shashwat-kumar.github.io/shashwat-analytics/insights/msme-1-43bh-guide.html)
+- [DPDP Act 2023 and Rules 2025 readiness guide](https://readsigil.com/insights/dpdp-act-readiness-guide.html)
+- [MSME-1 and Section 43B(h)](https://readsigil.com/insights/msme-1-43bh-guide.html)
 
 ## Reference
-- [Topics glossary](https://shashwat-kumar.github.io/shashwat-analytics/topics.html)
-- [Ideas map](https://shashwat-kumar.github.io/shashwat-analytics/ideas.html)
-- [Work samples (synthetic data)](https://shashwat-kumar.github.io/shashwat-analytics/samples.html)
-- [About](https://shashwat-kumar.github.io/shashwat-analytics/about.html)
+- [Topics glossary](https://readsigil.com/topics.html)
+- [Ideas map](https://readsigil.com/ideas.html)
+- [Work samples (synthetic data)](https://readsigil.com/samples.html)
+- [About](https://readsigil.com/about.html)
 - [GitHub](https://github.com/Shashwat-Kumar)
 - [LinkedIn](https://www.linkedin.com/in/shashwat-kumar)
 
 ## Open source (From the workshop)
-- [Building an open India AI Index](https://shashwat-kumar.github.io/shashwat-analytics/magazine/workshop-india-ai-index.html): An open harness that tests how language models handle Indian languages and Indian paperwork, and what each task costs in rupees. It has not scored a single model yet, and that is deliberate. Code: https://github.com/Shashwat-Kumar/india-ai-index
-- [AgentGuard: brakes for agents that move money](https://shashwat-kumar.github.io/shashwat-analytics/magazine/workshop-agentguard.html): If an agent can pay, it can be tricked into paying. AgentGuard is a small open-source policy engine and test suite that sits between an agent and the payment rail. Code: https://github.com/Shashwat-Kumar/agentguard
-- [Ask Your Data, and show your working](https://shashwat-kumar.github.io/shashwat-analytics/magazine/workshop-ask-your-data.html): Plain English in, SQL and a chart out, running locally on DuckDB. It works with no API key, and it always shows the query it ran. Code: https://github.com/Shashwat-Kumar/ask-your-data
+- [Building an open India AI Index](https://readsigil.com/magazine/workshop-india-ai-index.html): An open harness that tests how language models handle Indian languages and Indian paperwork, and what each task costs in rupees. It has not scored a single model yet, and that is deliberate. Code: https://github.com/Shashwat-Kumar/india-ai-index
+- [AgentGuard: brakes for agents that move money](https://readsigil.com/magazine/workshop-agentguard.html): If an agent can pay, it can be tricked into paying. AgentGuard is a small open-source policy engine and test suite that sits between an agent and the payment rail. Code: https://github.com/Shashwat-Kumar/agentguard
+- [Ask Your Data, and show your working](https://readsigil.com/magazine/workshop-ask-your-data.html): Plain English in, SQL and a chart out, running locally on DuckDB. It works with no API key, and it always shows the query it ran. Code: https://github.com/Shashwat-Kumar/ask-your-data

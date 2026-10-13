@@ -1,6 +1,6 @@
 # Shashwat Kumar · Analytics
 
-Source for the static website at **https://shashwat-kumar.github.io/shashwat-analytics/**.
+Source for the static website at **https://readsigil.com/**.
 
 A personal site of essays, field notes and illustrative work samples on analytics, AI and data governance in financial services. It is not a consultancy and offers no paid services.
 

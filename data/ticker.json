@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T20:51:39Z",
+ "generated_at": "2026-10-13T20:53:27Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://deepmind.google/models/gemini/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50073879",
-  "points": 717,
-  "comments": 583,
+  "points": 724,
+  "comments": 588,
   "published": "2026-10-13T16:03:16Z",
   "since": "2026-10-13T20:51:39Z"
  },
@@ -41,38 +41,11 @@
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "NVIDIA CEO Jensen Huang Announces $2 Billion AI Investment in Europe Next Week",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NeDZkUkVob09iTC1UUmdHbmJ0ZUhlX3kwSHh5Wjc0ZjRyQldzRW5RWGdWaDZrU1NHVXJmRHZEWU8zVzNjbFJDV3FYeWdvZ29kZHE3cjVyNFJMWEZyTGIwV1h0WmpWcS1xMHJyd2oyeU4tU0Vk?oc=5",
-   "source": "https://www.ababnews.com/",
-   "published": "2026-10-13T19:49:32Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Satya Nadella",
-   "title": "Microsoft CEO Satya Nadella warns against trusting opaque AI to police AI",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBMNnlrRDJyMkdsWTA0N3RBV3F3ZDFGY2JERUNqb1BUYnMzbm1KN1EtbkFwTUc4cXA5dWY3R2xsUk1MQ0xuOUUxSzdQc0tHWjdnTHhsNFJHY1lWMlowcFRQNzlaLVduS3kxMEZKXzlvQkhucUYtb1prZA?oc=5",
-   "source": "Crypto Briefing",
-   "published": "2026-10-13T17:53:43Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
    "person": "Sundar Pichai",
    "title": "Google's Gemini 4 Argon Is Here: Sundar Pichai Announces Global Rollout",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUG9EREVSQ0ZYQlY5a0pUeWtvZXRkY29rMDREM2JoN0JGUnRzZUxSdjNqcjBuZXMtNWY4Z00zY3pwam5lT3J3VVRUSzVTZGgxR2hVZzk1SDVSUkItU012V3pUWGM2cHUzYkMxX0pzQW9HZk9adHB3cTluYnpUMXF0ZHlLSlVUSmJkQy1TdXBXSnNmd2tXN3lFTVV6SlVvZTQ0Wk1VcmRObGJzTDVxNWJhMkVSR2Nxb0HSAb8BQVVfeXFMTmFkczEzZVcwcDJIZktFSmNLbGNtVkNJNUtiSlM0akdtSWZ6VTdPaVA1emVBX1pqd2NVZFA0d1UzWWV3T0FLVUtGZFE5MGRoeGl5MF91ekRJdXNmVGg1VGpBSGdHZEZDT21pdW5Gc3l6Z0tQb0Q1T2Q5S2MxZFNUeGFRYXlyQXBzdElSZDBSUVoydjVlWlljRnFOa3NyMmYxMkY5WnJFaFlLb0xyM3MzWXUwTDR3M0I3MEpQeFFQZE0?oc=5",
    "source": "NDTV Profit",
    "published": "2026-10-13T17:42:21Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Yann LeCun pushes back on Dario Amodei's AI slowdown call",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGZER1NNVVRsZTZSTl9fTXFlYVJheXNLclVGOGNpYnQyWDhJd0lEMmh0cEVMdzluNFNpZVpBa1dFMGN3MkVSUDVtR1ZKZ2pvNzl2ZkJQMlRlM3Q2eDZBaXNHVkFHN0hRbDVSek55VTBmcmhFZGV1LUw4TER1OTdmQk1JUlVncnhaa3J4U3RMbkRGVFoyZ3dBSHoxODhETVNSMC1penN3?oc=5",
-   "source": "NewsBytes",
-   "published": "2026-10-13T17:31:31Z"
   },
   {
    "kind": "voice",
@@ -91,15 +64,6 @@
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RdEU2OWItTHotZG1RWWVPb25XYy1xYmEtQ1BzTlZ4Vk5BaGRlSk5mX1RqQ2VJWlVVQUM4UnV4dG5EYzFub0FpY190blY1Tl94X3dPUmludzktYnc4eExCZXpfT2FYXzBzQmRVRUtEd25HVTdmNEZqajdHemk?oc=5",
    "source": "Barron's",
    "published": "2026-10-13T16:56:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "OpenAI CEO Sam Altman Warns Against Giving AI Religious Authority",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUTZGUkJiT0FoNlZNdl9hdkJGaXZpMWFCY21fM3VtUEVKMThlcVBtYkdiaV9FRlRvOGVURlBTYWdHYm44TkZDUnlFSTFCUlBpNXZRcDNQV29TVDRlWG5WS0ZrdnJCUEpBSWhVR2VxZHg0ZzJQTHNKMTV0MzVCZGdWeGdrZnJzTDBIRWFlRFlEampGUDlsMEdjcXpqYk05NWdGQTZRNmk5eDlTMEF2dG5zNw?oc=5",
-   "source": "Movieguide",
-   "published": "2026-10-13T15:00:11Z"
   }
  ],
  "items": [
@@ -116,20 +80,20 @@
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "NVIDIA CEO Jensen Huang Announces $2 Billion AI Investment in Europe Next Week",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NeDZkUkVob09iTC1UUmdHbmJ0ZUhlX3kwSHh5Wjc0ZjRyQldzRW5RWGdWaDZrU1NHVXJmRHZEWU8zVzNjbFJDV3FYeWdvZ29kZHE3cjVyNFJMWEZyTGIwV1h0WmpWcS1xMHJyd2oyeU4tU0Vk?oc=5",
-   "source": "https://www.ababnews.com/",
-   "published": "2026-10-13T19:49:32Z"
+   "person": "Sundar Pichai",
+   "title": "Google's Gemini 4 Argon Is Here: Sundar Pichai Announces Global Rollout",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUG9EREVSQ0ZYQlY5a0pUeWtvZXRkY29rMDREM2JoN0JGUnRzZUxSdjNqcjBuZXMtNWY4Z00zY3pwam5lT3J3VVRUSzVTZGgxR2hVZzk1SDVSUkItU012V3pUWGM2cHUzYkMxX0pzQW9HZk9adHB3cTluYnpUMXF0ZHlLSlVUSmJkQy1TdXBXSnNmd2tXN3lFTVV6SlVvZTQ0Wk1VcmRObGJzTDVxNWJhMkVSR2Nxb0HSAb8BQVVfeXFMTmFkczEzZVcwcDJIZktFSmNLbGNtVkNJNUtiSlM0akdtSWZ6VTdPaVA1emVBX1pqd2NVZFA0d1UzWWV3T0FLVUtGZFE5MGRoeGl5MF91ekRJdXNmVGg1VGpBSGdHZEZDT21pdW5Gc3l6Z0tQb0Q1T2Q5S2MxZFNUeGFRYXlyQXBzdElSZDBSUVoydjVlWlljRnFOa3NyMmYxMkY5WnJFaFlLb0xyM3MzWXUwTDR3M0I3MEpQeFFQZE0?oc=5",
+   "source": "NDTV Profit",
+   "published": "2026-10-13T17:42:21Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Satya Nadella",
-   "title": "Microsoft CEO Satya Nadella warns against trusting opaque AI to police AI",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBMNnlrRDJyMkdsWTA0N3RBV3F3ZDFGY2JERUNqb1BUYnMzbm1KN1EtbkFwTUc4cXA5dWY3R2xsUk1MQ0xuOUUxSzdQc0tHWjdnTHhsNFJHY1lWMlowcFRQNzlaLVduS3kxMEZKXzlvQkhucUYtb1prZA?oc=5",
-   "source": "Crypto Briefing",
-   "published": "2026-10-13T17:53:43Z"
+   "person": "Yann LeCun",
+   "title": "Godfather of AI Yann LeCun opposes Dario Amodei’s call of slowing down AI development, says ‘Anthropic is",
+   "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQMGxJdTZKMnJGemdkbWpiQVhPOVFDdDlpdU1aa2t0MnlXMndhcUtMT1VTc2dNSGZNNF9jMXdUR2IxMGZuMlB6c3RIa1VxaWIzdFNvMTZNWmZ1X0M2ZDF1NEtxSUl6UmVLZE5YNTB0eUE0V3U1bjljNy11Y3FfWWNDUGw4aGtDTDRiSVNTa3psYXZCQjE1NkRMcjJnV0I2SHdxUE45Z0FnVGdTeWlGN1ZjbFlldDRCVHdicjZWRnNjekMtT3hZSDdKVXVmVDc5TUEwRnpuX0xObE1CSHQxNnV1MEN4LVZtbjl4RVZmN2p3Zzd6ZWNZUUkybHNyc2VfNkpCb3BrWHFWVVBnU1cwUVlRQ2pxZVczNDI1NmVEeEVkNjNjQ1NFYlowVTExb04wRTJZOHUxOHR6dzhNMFU3THA4dk9XZzhxaHlXMUcw0gHLAkFVX3lxTFAwbEl1NkoyckZ6Z2RtamJBWE85UUN0OWl1TVpra3QyeVcyd2FxS0xPVVNzZ01IZk00X2Mxd1RHYjEwZm4yUHpzdEhrVXFpYjN0U28xNk1aZnVfQzZkMXU0S3FJSXpSZUtkTlg1MHR5QTRXdTVuOWM3LXVjcV9ZY0NQbDhoa0NMNGJJU1NremxhdkJCMTU2RExyMmdXQjZId3FQTjlnQWdUZ1N5aUY3VmNsWWV0NEJUd2JyNlZGc2N6Qy1PeFlIN0pVdWZUNzlNQTBGem5fTE5sTUJIdDE2dXUwQ3gtVm1uOXhFVmY3andnN3plY1lRSTJsc3JzZV82SkJvcGtYcVZVUGdTVzBRWVFDanFlVzM0MjU2ZUR4RWQ2M2NDU0ViWjBVMTFvTjBFMlk4dTE4dHp3OE0wVTdMcDh2T1dnOHFoeVcxRzA?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-13T17:11:00Z"
   },
   {
    "kind": "repo",
@@ -174,7 +138,7 @@
   {
    "kind": "repo",
    "title": "storytold/wordcraft",
-   "stars": 10903,
+   "stars": 10904,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/wordcraft",
    "source": "GitHub",
@@ -184,7 +148,7 @@
   {
    "kind": "repo",
    "title": "wheresryan22/anatomy",
-   "stars": 8033,
+   "stars": 8035,
    "note": "JavaScript · new this week",
    "url": "https://github.com/wheresryan22/anatomy",
    "source": "GitHub",
@@ -214,20 +178,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 717,
+   "points": 724,
    "title": "Gemini 4 Argon",
    "source": "Hacker News",
    "url": "https://deepmind.google/models/gemini/",
    "discuss": "https://news.ycombinator.com/item?id=50073879"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 627,
-   "title": "AI is a tool and using it well takes skill",
-   "source": "Hacker News",
-   "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "discuss": "https://news.ycombinator.com/item?id=50063427"
   },
   {
    "kind": "news",
@@ -241,7 +196,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 319,
+   "points": 326,
    "title": "Redesigning source control at Anthropic",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
@@ -250,7 +205,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 235,
+   "points": 237,
    "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
    "source": "Hacker News",
    "url": "https://blog.character.ai/an-update-on-character-ai/",
@@ -259,7 +214,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 181,
+   "points": 184,
    "title": "I posted to HN, and then my website was flooded with AI bot traffic",
    "source": "Hacker News",
    "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
@@ -268,7 +223,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 139,
+   "points": 141,
    "title": "Gemini 4 Argon for Robotics",
    "source": "Hacker News",
    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
@@ -277,11 +232,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 84,
+   "points": 86,
    "title": "How to engineer an AI harness for game development",
    "source": "Hacker News",
    "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
    "discuss": "https://news.ycombinator.com/item?id=50072120"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 50,
+   "title": "OpenAI finds recording device in one of their offices",
+   "source": "Hacker News",
+   "url": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
+   "discuss": "https://news.ycombinator.com/item?id=50077703"
   },
   {
    "kind": "news",

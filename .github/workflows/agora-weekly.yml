@@ -1,0 +1,60 @@
+name: Agora weekly debate
+
+# Every Tuesday at 10:30 IST the house AI personas hold a new debate, which is
+# published to readsigil.com/agora. Needs one repository secret: GEMINI_API_KEY
+# (free from Google AI Studio). Without it the run is skipped with a warning.
+on:
+  schedule:
+    - cron: "0 5 * * 2"
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Topic id from the agora repo's data/topics.json (leave empty for the next unused topic)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
+jobs:
+  debate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Shashwat-Kumar/agora
+          path: _agora
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the debate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TOPIC: ${{ inputs.topic }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::warning::GEMINI_API_KEY is not set. Add it under Settings > Secrets and variables > Actions. Skipping this run."
+            exit 0
+          fi
+          T="${TOPIC:-$(python scripts/build_agora.py --next-topic _agora/data/topics.json)}"
+          echo "Topic: $T"
+          mkdir -p _out
+          (cd _agora && python -m agora.cli run --provider gemini --turns 24 --topic "$T" --out ../_out)
+          python scripts/build_agora.py _out/*.json
+
+      - name: Publish
+        run: |
+          git config user.name "agora-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add agora sitemap.xml
+          if git diff --cached --quiet; then echo "Nothing new to publish."; exit 0; fi
+          git commit -m "Agora: new live debate"
+          git pull --rebase --quiet
+          git push

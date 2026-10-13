@@ -1,0 +1,37 @@
+name: Refresh ticker and AI flash
+
+# Every 30 minutes: trending AI repos, AI headlines, the top AI story (the flash)
+# and fresh statements on AI from tech leaders. Pages poll the result every 5 minutes.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
+jobs:
+  ticker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/build_ticker.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish
+        run: |
+          git config user.name "ticker-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ticker.json
+          if git diff --cached --quiet; then echo "No change."; exit 0; fi
+          git commit -m "Refresh ticker data"
+          git pull --rebase --quiet
+          git push

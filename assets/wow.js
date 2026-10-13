@@ -97,3 +97,54 @@ fetch(t.dataset.src,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return
 document.addEventListener('DOMContentLoaded',function(){var n=document.querySelector('header nav'),bar=document.querySelector('.top .bar');if(!n||!bar)return;
  var b=document.createElement('button');b.className='menu';b.type='button';b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Menu');b.innerHTML='<span></span><span></span>';
  b.onclick=function(){var o=bar.classList.toggle('open');b.setAttribute('aria-expanded',o)};bar.insertBefore(b,n)});
+/* AI flash bar: the top AI story until another overtakes it, plus fresh statements on AI from tech leaders.
+   Reads the same data/ticker.json as the ticker and re-checks it every 5 minutes. */
+(function(){var d=document;d.addEventListener('DOMContentLoaded',function(){
+ var t=d.querySelector('.ticker');if(!t||!window.fetch||!t.dataset.src)return;
+ function store(s,k,v){try{if(v===undefined)return window[s].getItem(k);window[s].setItem(k,v)}catch(e){return null}}
+ if(store('sessionStorage','fl-off'))return;
+ var css=d.createElement('style');css.textContent=
+  '.fl{background:var(--bg,#faf9f6);border-bottom:1px solid var(--rule,#e4e2dc);font:500 .82rem/1.35 var(--sans,system-ui,sans-serif)}'+
+  '.fl-in{max-width:1200px;margin:0 auto;padding:6px 16px;display:flex;align-items:center;gap:12px;min-height:40px}'+
+  '.fl-link{display:flex;align-items:center;gap:10px;min-width:0;flex:1;color:var(--h,#111110);text-decoration:none}'+
+  '.fl-link:hover .fl-t,.fl-link:focus-visible .fl-t{text-decoration:underline}.fl-link:focus-visible{outline:2px solid #b0401b;outline-offset:2px;border-radius:4px}'+
+  '.fl-pill{flex:none;font:700 .64rem/1 var(--mono,ui-monospace,monospace);letter-spacing:.08em;text-transform:uppercase;padding:5px 7px;border-radius:4px;background:#b0401b;color:#fff}'+
+  '.fl.is-voice .fl-pill{background:#2b4aa8}.fl.fl-new .fl-pill::after{content:" \\00b7  just in"}'+
+  '.fl-t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600;min-width:0}'+
+  '.fl-meta{flex:none;color:#5c5c58;font:500 .72rem/1 var(--mono,ui-monospace,monospace);white-space:nowrap}'+
+  '.fl-x{flex:none;border:0;background:transparent;color:var(--h,#111110);font-size:1.15rem;line-height:1;width:32px;height:32px;cursor:pointer;border-radius:6px}'+
+  '.fl-x:hover{background:rgba(0,0,0,.06)}.fl-x:focus-visible{outline:2px solid #b0401b;outline-offset:1px}'+
+  '.fl.fl-new{box-shadow:inset 3px 0 0 #2b4aa8}.fl.fl-anim .fl-in{animation:flin .45s ease both}'+
+  '@keyframes flin{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}'+
+  ':root[data-theme=dark] .fl{background:#0f1211;border-color:#2a2e2c}:root[data-theme=dark] .fl-link,:root[data-theme=dark] .fl-x{color:#f3f2ee}'+
+  ':root[data-theme=dark] .fl-meta{color:#b9b8b2}:root[data-theme=dark] .fl-x:hover{background:rgba(255,255,255,.08)}'+
+  'html body .tk-chip.tk-voice{color:#2b4aa8!important}html:root[data-theme=dark] body .tk-chip.tk-voice{color:#9fb7ff!important}'+
+  '@media(max-width:640px){.fl-meta{display:none}.fl-in{padding:6px 12px;gap:8px}}'+
+  '@media(prefers-reduced-motion:reduce){.fl.fl-anim .fl-in{animation:none}}';
+ d.head.appendChild(css);
+ var bar=d.createElement('div');bar.className='fl';bar.setAttribute('role','region');bar.setAttribute('aria-label','AI news flash');bar.hidden=true;
+ bar.innerHTML='<div class="fl-in" aria-live="polite"><a class="fl-link" target="_blank" rel="noopener"><span class="fl-pill"></span><span class="fl-t"></span></a><span class="fl-meta"></span><button class="fl-x" type="button" aria-label="Hide the AI flash">×</button></div>';
+ t.insertAdjacentElement('afterend',bar);
+ var data=null,mode='flash',timer=null;
+ function ago(s){var m=Math.max(0,Math.round((Date.now()-new Date(s).getTime())/60000));return m<1?'just now':m<60?m+' min ago':m<1440?Math.round(m/60)+' h ago':Math.round(m/1440)+' d ago'}
+ function show(which){var x=data&&data[which];if(!x)return;mode=which;
+  bar.querySelector('.fl-link').href=x.url;
+  bar.querySelector('.fl-pill').textContent=which==='voice'?'Voice':'AI flash';
+  bar.querySelector('.fl-t').textContent=which==='voice'?x.person+': '+x.title:x.title;
+  bar.querySelector('.fl-t').title=bar.querySelector('.fl-t').textContent;
+  var meta=[x.source,ago(x.published)];if(which==='flash'&&x.points)meta.push('▲ '+x.points);
+  bar.querySelector('.fl-meta').textContent=meta.join(' · ');
+  bar.classList.toggle('is-voice',which==='voice');
+  bar.classList.remove('fl-anim');void bar.offsetWidth;bar.classList.add('fl-anim')}
+ function cycle(){clearInterval(timer);if(data&&data.flash&&data.voice)timer=setInterval(function(){show(mode==='flash'?'voice':'flash')},12000)}
+ function apply(j){var before=data;data=j;
+  if(!j.flash&&!j.voice){bar.hidden=true;return}bar.hidden=false;
+  var v=j.voice,fresh=v&&store('localStorage','fl-voice')!==v.url&&(Date.now()-new Date(v.published).getTime())<6*36e5;
+  if(fresh){show('voice');bar.classList.add('fl-new');store('localStorage','fl-voice',v.url);setTimeout(function(){bar.classList.remove('fl-new')},20000)}
+  else if(!before||!before[mode]||!j[mode]||before[mode].url!==j[mode].url)show(j.flash?'flash':'voice');
+  cycle()}
+ function load(){fetch(t.dataset.src+'?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(j){if(j)apply(j)}).catch(function(){})}
+ bar.querySelector('.fl-x').onclick=function(){store('sessionStorage','fl-off','1');clearInterval(timer);bar.remove()};
+ bar.addEventListener('mouseenter',function(){clearInterval(timer)});bar.addEventListener('mouseleave',cycle);
+ load();setInterval(load,3e5);
+})})();

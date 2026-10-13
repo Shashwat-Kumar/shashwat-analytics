@@ -46,26 +46,49 @@ jobs:
             echo "::warning::No model key set. Add GEMINI_API_KEY or GROQ_API_KEY under Settings > Secrets and variables > Actions. Skipping this run."
             exit 0
           fi
-          # Pick the first provider whose key answers: Gemini, then Groq.
-          PROVIDER=$(python - <<'PY'
+          # Pick the first provider whose key answers (Gemini, then Groq) and a model it actually serves.
+          CHOICE=$(python - <<'PY'
           import json, os, sys, urllib.error, urllib.request
-          options = [("gemini", "GEMINI_API_KEY", "https://generativelanguage.googleapis.com/v1beta/openai", "gemini-flash-latest"),
-                     ("groq", "GROQ_API_KEY", "https://api.groq.com/openai/v1", "llama-3.3-70b-versatile")]
-          for name, key_env, base, model in options:
+          UA = "agora-orchestrator/0.1"
+          # Preference order: instruction-tuned chat models first; reasoning models last (they spend tokens thinking).
+          GROQ_PREFS = ["meta-llama/llama-4-maverick-17b-128e-instruct", "moonshotai/kimi-k2-instruct-0905",
+                        "moonshotai/kimi-k2-instruct", "llama-3.3-70b-versatile", "meta-llama/llama-4-scout-17b-16e-instruct",
+                        "qwen/qwen3-32b", "openai/gpt-oss-120b", "openai/gpt-oss-20b"]
+          SKIP = ("whisper", "guard", "tts", "playai", "distil", "prompt", "compound", "allam")
+
+          def call(base, key, path, body=None):
+              req = urllib.request.Request(base + path, data=None if body is None else json.dumps(body).encode(),
+                                           headers={"Content-Type": "application/json", "Authorization": "Bearer " + key,
+                                                    "User-Agent": UA})
+              return json.loads(urllib.request.urlopen(req, timeout=60).read() or b"{}")
+
+          def groq_models(base, key):
+              have = [m["id"] for m in call(base, key, "/models").get("data", [])]
+              ranked = [m for m in GROQ_PREFS if m in have]
+              ranked += [m for m in have if m not in ranked and not any(x in m.lower() for x in SKIP)]
+              print("::notice::Groq models available: " + ", ".join(have), file=sys.stderr)
+              return ranked
+
+          options = [("gemini", "GEMINI_API_KEY", "https://generativelanguage.googleapis.com/v1beta/openai"),
+                     ("groq", "GROQ_API_KEY", "https://api.groq.com/openai/v1")]
+          for name, key_env, base in options:
               key = os.environ.get(key_env)
               if not key:
                   continue
-              body = json.dumps({"model": model, "max_tokens": 5,
-                                 "messages": [{"role": "user", "content": "Reply with OK"}]}).encode()
-              req = urllib.request.Request(base + "/chat/completions", data=body, headers={
-                  "Content-Type": "application/json", "Authorization": "Bearer " + key,
-                  "User-Agent": "agora-orchestrator/0.1"})
               try:
-                  urllib.request.urlopen(req, timeout=60).read()
-                  print(name)
-                  sys.exit(0)
+                  models = [os.environ["AGORA_MODEL"]] if os.environ.get("AGORA_MODEL") else (
+                      ["gemini-flash-latest"] if name == "gemini" else groq_models(base, key))
+                  for model in models[:4]:
+                      try:
+                          call(base, key, "/chat/completions", {"model": model, "max_tokens": 20,
+                               "messages": [{"role": "user", "content": "Reply with OK"}]})
+                          print(name, model)
+                          sys.exit(0)
+                      except urllib.error.HTTPError as e:
+                          msg = e.read()[:300].decode(errors="replace").replace("\n", " ")
+                          print(f"::warning::{name}/{model} check failed: HTTP {e.code}: {msg}", file=sys.stderr)
               except urllib.error.HTTPError as e:
-                  msg = e.read()[:400].decode(errors="replace").replace("\n", " ")
+                  msg = e.read()[:300].decode(errors="replace").replace("\n", " ")
                   print(f"::warning::{name} check failed: HTTP {e.code}: {msg}", file=sys.stderr)
               except (urllib.error.URLError, OSError) as e:
                   print(f"::warning::{name} check failed: {e}", file=sys.stderr)
@@ -73,6 +96,9 @@ jobs:
           sys.exit(1)
           PY
           ) || exit 1
+          PROVIDER=${CHOICE%% *}
+          export AGORA_MODEL=${CHOICE#* }
+          echo "::notice::Debate running on $PROVIDER / $AGORA_MODEL"
           echo "Provider: $PROVIDER"
           T="${TOPIC:-$(python scripts/build_agora.py --next-topic _agora/data/topics.json)}"
           echo "Topic: $T"

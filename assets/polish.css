@@ -39,3 +39,11 @@ html body .byline a{color:var(--accent,#0b5d63)!important;opacity:1!important}
 .mrel ul{padding-left:1.1em}.mrel li{margin:.4em 0}
 /* remove opacity-based greys (fail AA); use solid AA grey instead */
 html body .mmeta,html body .mrail li span,html body .sig,html body .briefs span,html body .byline,html body .mhero figcaption,html body .dek,html body .mt-top span{opacity:1!important;color:var(--grey-aa)!important}
+/* ticker chips + pause glyph */
+html body .tk-chip{background:transparent!important;border-color:var(--rule,#d9d6cf)!important;color:#5c5c58!important}
+html body .tk-gh{color:#2b4aa8!important}html body .tk-hn{color:#9a4710!important}html body .tk-ai{color:#0b5d63!important}
+html body .tk-track a{height:44px!important;color:var(--h,#111110)!important}
+html body .tk-track li::after{background:var(--rule,#e4e2dc)!important}
+html body .tk-side{flex:none;padding:0 6px!important}
+html body .tk-pause{font-size:.7rem!important;line-height:1;padding:0!important;display:inline-flex;align-items:center;justify-content:center}
+:root[data-theme=dark] .tk-chip{color:#b9b8b2!important}:root[data-theme=dark] .tk-gh{color:#9fb7ff!important}:root[data-theme=dark] .tk-hn{color:#ffb071!important}:root[data-theme=dark] .tk-ai{color:#7fe0d6!important}:root[data-theme=dark] .tk-track a{color:#f3f2ee!important}

@@ -1,0 +1,5 @@
+# Optional Excel / PDF / local OCR file support. Core CSV utilities use stdlib.
+openpyxl>=3.1,<4
+pypdf>=5,<7
+Pillow>=10,<13
+# Translation is an optional larger install: pip install '.[translation]'

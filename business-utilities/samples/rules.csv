@@ -1,0 +1,5 @@
+id,field,op,value,decision,reason
+R01,consent,ne,yes,EXCLUDE,Consent not recorded
+R02,age,lt,21,EXCLUDE,Below illustrative minimum age
+R03,bureau_score,lt,650,REVIEW,Score requires manual review
+R04,income,lt,25000,REVIEW,Income requires manual review

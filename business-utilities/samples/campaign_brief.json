@@ -1,0 +1,11 @@
+{
+  "brand": "Example Bank",
+  "product": "Savings Account",
+  "audience": "existing customers",
+  "benefit": "View account features in our app.",
+  "cta": "Visit your branch.",
+  "disclaimer": "T&C apply.",
+  "optout": "Reply STOP to opt out.",
+  "sms_limit": 160,
+  "blocked_phrases": "guaranteed approval|risk-free|100% guaranteed"
+}

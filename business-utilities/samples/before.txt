@@ -1,0 +1,4 @@
+Customer service policy — fictional example
+Requests must be acknowledged within 3 working days.
+Escalate unresolved requests after 7 working days.
+Maintain the review register monthly.

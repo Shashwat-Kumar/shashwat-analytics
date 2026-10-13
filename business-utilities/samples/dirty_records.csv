@@ -1,0 +1,6 @@
+id,name,email,joined
+SYN001, Asha ,asha@example.test,14/10/2026
+SYN001,Asha,asha@example.test,2026-10-14
+SYN002,Ravi,,2026-10-01
+SYN003,Meera,meera@example.test,32/10/2026
+SYN004,Dev,dev@example.test,2026-10-10

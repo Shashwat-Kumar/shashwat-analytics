@@ -1,0 +1,7 @@
+id,age,bureau_score,income,consent
+SYN001,35,740,65000,yes
+SYN002,19,710,30000,yes
+SYN003,43,590,41000,yes
+SYN004,29,720,50000,no
+SYN005,32,,39000,yes
+SYN006,48,770,84000,yes

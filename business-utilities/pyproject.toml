@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "business-productivity-utilities"
+version = "1.0.0"
+description = "Local translation, OCR, campaign drafting, business rules and file utilities"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Shashwat Kumar"}]
+dependencies = []
+
+[project.optional-dependencies]
+files = ["openpyxl>=3.1,<4", "pypdf>=5,<7", "Pillow>=10,<13"]
+translation = ["argostranslate>=1.9,<2"]
+
+[tool.setuptools]
+py-modules = ["utilitykit", "cli", "server"]

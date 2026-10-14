@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://readsigil.com/</loc><lastmod>2026-10-14</lastmod></url>
+<url><loc>https://readsigil.com/</loc><lastmod>2026-10-15</lastmod></url>
 <url><loc>https://readsigil.com/about.html</loc><lastmod>2026-10-15</lastmod></url>
 <url><loc>https://readsigil.com/agora/index.html</loc><lastmod>2026-10-13</lastmod></url>
 <url><loc>https://readsigil.com/agora/join.html</loc><lastmod>2026-10-14</lastmod></url>
@@ -11,6 +11,7 @@
 <url><loc>https://readsigil.com/decision-atlas/</loc><lastmod>2026-10-14</lastmod></url>
 <url><loc>https://readsigil.com/essays/agents-trade.html</loc><lastmod>2026-10-15</lastmod></url>
 <url><loc>https://readsigil.com/essays/attention.html</loc><lastmod>2026-10-15</lastmod></url>
+<url><loc>https://readsigil.com/essays/bounded-autonomy.html</loc><lastmod>2026-10-15</lastmod></url>
 <url><loc>https://readsigil.com/essays/brakes.html</loc><lastmod>2026-10-15</lastmod></url>
 <url><loc>https://readsigil.com/essays/data-quality.html</loc><lastmod>2026-10-15</lastmod></url>
 <url><loc>https://readsigil.com/essays/goodhart.html</loc><lastmod>2026-10-15</lastmod></url>
@@ -51,5 +52,5 @@
 <url><loc>https://readsigil.com/roast-my-idea/</loc><lastmod>2026-10-14</lastmod></url>
 <url><loc>https://readsigil.com/samples.html</loc><lastmod>2026-10-14</lastmod></url>
 <url><loc>https://readsigil.com/topics.html</loc><lastmod>2026-10-14</lastmod></url>
-<url><loc>https://readsigil.com/writing.html</loc><lastmod>2026-10-14</lastmod></url>
+<url><loc>https://readsigil.com/writing.html</loc><lastmod>2026-10-15</lastmod></url>
 </urlset>

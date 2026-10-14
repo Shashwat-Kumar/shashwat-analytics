@@ -89,3 +89,4 @@ footer{padding-bottom:25px}[hidden]{display:none!important}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.controls,.atlas-nav,.filter,.button-row,button,.presets,.gate-strip,.run,#combinations,#questions,#lenses,#nine,.top,.flow{display:none}.memo{box-shadow:none}}
 .verdict p.kicker{font-size:11px!important;margin:16px 0 4px}
+.byline{font:13px/1.5 system-ui;color:#666;margin:14px 0 0}.byline a{font-weight:600}.credit{color:#8a5a00!important}.cite{font:13px/1.6 system-ui;background:#f0efe9;padding:10px 14px}:root[data-theme=dark] .cite{background:#1a1f1e}:root[data-theme=dark] .credit{color:#e8aa6a!important}@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .cite{background:#1a1f1e}:root:not([data-theme=light]) .credit{color:#e8aa6a!important}}

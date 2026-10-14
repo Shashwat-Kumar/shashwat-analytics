@@ -164,7 +164,7 @@
     const results = A.gates.map(result), m = memo(results);
     if (!m) return '';
     const p = A.presets.find(x => x.id === state.preset);
-    const L = ['DECISION MEMO · ReadSigil Decision Atlas', p ? 'Case: ' + p.name + ' (fictional). ' + p.blurb : 'Case: your own decision', '',
+    const L = ['DECISION MEMO · Decision Atlas by Shashwat Kumar', p ? 'Case: ' + p.name + ' (fictional). ' + p.blurb : 'Case: your own decision', '',
       'CALL: ' + m.call + (m.open ? ' (provisional, ' + m.open + ' gates open)' : '') + ' · ' + A.calls[m.call],
       'Binding: ' + m.binding.map(r => r.g.name + ', ' + r.label).join('; '),
       'Authority: ' + m.authority, '', 'GATES'];
@@ -172,7 +172,7 @@
     L.push('', 'NEXT ACTIONS'); m.actions.forEach((x, i) => L.push((i + 1) + '. ' + x.who + ': ' + x.text));
     L.push('', 'QUESTIONS FOR THE MEETING'); m.asks.forEach(x => L.push('- ' + x));
     L.push('', 'STOP IF'); m.kill.forEach(x => L.push('- ' + x));
-    L.push('', 'First value review: ' + m.review, '', 'A judgment aid, not a validated scoring model. It makes the reasoning explicit; evidence, authority and a named owner still decide.');
+    L.push('', 'First value review: ' + m.review, '', 'Framework: Decision Core and the six gates by Shashwat Kumar · https://readsigil.com/decision-atlas/', 'A judgment aid, not a validated scoring model. It makes the reasoning explicit; evidence, authority and a named owner still decide.');
     return L.join('\n');
   }
 
@@ -231,9 +231,9 @@
   $('search').addEventListener('input', renderTerms); $('family').addEventListener('change', renderTerms);
 
   /* -------------------------------------------------------------- lenses */
-  A.lenses.forEach(([name, desc, gate, link]) => {
+  A.lenses.forEach(([name, desc, gate, link, origin]) => {
     const a = el('article', 'term lens'), gi = A.gates.findIndex(g => g.id === gate);
-    a.append(el('h3', null, name), el('p', null, desc));
+    a.append(el('div', 'kicker credit', origin === 'original' ? 'Original framework · Shashwat Kumar' : 'Definition · Shashwat Kumar'), el('h3', null, name), el('p', null, desc));
     const row = el('p', 'lens-row');
     const b = el('button', 'linkish', 'Used at gate ' + (gi + 1) + ': ' + A.gates[gi].name + ' →'); b.type = 'button';
     b.onclick = () => { state.gate = gi; renderRun(); $('run-panel').scrollIntoView({ block: 'start' }); };
@@ -284,8 +284,8 @@
   ];
   $('example-brief').onclick = () => { sample.forEach((v, i) => { $('answer-' + i).value = v; }); briefStatus(); };
   $('clear-brief').onclick = () => { nine.forEach((_, i) => { $('answer-' + i).value = ''; }); briefStatus(); };
-  $('download-brief').onclick = () => download('nine-answers.txt', 'THE NINE ANSWERS · ReadSigil Decision Atlas\nA working brief, not an approval\n\n' +
-    nine.map(([name], i) => (i + 1) + '. ' + name + '\n' + ($('answer-' + i).value.trim() || '[Not answered]')).join('\n\n'));
+  $('download-brief').onclick = () => download('nine-answers.txt', 'THE NINE ANSWERS · a method by Shashwat Kumar\nA working brief, not an approval\n\n' +
+    nine.map(([name], i) => (i + 1) + '. ' + name + '\n' + ($('answer-' + i).value.trim() || '[Not answered]')).join('\n\n') + '\n\nMethod: The Nine Answers, Decision Atlas by Shashwat Kumar · https://readsigil.com/decision-atlas/');
 
   loadPreset(state.preset); renderCombo(); renderTerms(); briefStatus();
 })();

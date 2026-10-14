@@ -23,7 +23,7 @@ window.Play = (function () {
     return box;
   }
   function moreGames(current) {
-    const games = [['counsellor', 'If AI Were Your Counsellor'], ['human-or-ai', 'Human or AI?'], ['scam-or-not', 'Scam or Not?']];
+    const games = [['counsellor', 'If AI Were Your Counsellor'], ['human-or-ai', 'Human or AI?'], ['scam-or-not', 'Scam or Not?'], ['../roast-my-idea', 'Roast My Idea']];
     const box = el('div', 'more-games'); box.append(el('span', null, 'Play next:'));
     games.filter(g => g[0] !== current).forEach(([slug, name]) => { const a = el('a', null, name + ' →'); a.href = '../' + slug + '/'; box.append(a); });
     const all = el('a', null, 'All games'); all.href = '../'; box.append(all);

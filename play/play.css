@@ -47,7 +47,7 @@ main.game{max-width:760px;margin:0 auto;padding-top:40px;padding-bottom:56px}
 @media (max-width:560px){.stage{padding:18px}main.game{padding-top:24px;padding-left:16px;padding-right:16px}}
 @media (prefers-reduced-motion:reduce){.progress i{transition:none}}
 /* arcade index */
-.arcade{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:10px}
+.arcade{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:10px}
 .arcade a{display:flex;flex-direction:column;gap:8px;background:var(--g-surface);border:1px solid var(--g-line);padding:20px;text-decoration:none;color:var(--g-ink);border-radius:4px;min-width:0}
 .arcade a:hover{border-color:var(--g-accent)}
 .arcade .tag{font:700 10.5px/1 var(--g-ui);letter-spacing:.14em;text-transform:uppercase;color:var(--g-warm)}

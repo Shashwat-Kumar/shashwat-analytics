@@ -143,7 +143,16 @@ document.addEventListener('DOMContentLoaded',function(){var n=document.querySele
   if(fresh){show('voice');bar.classList.add('fl-new');store('localStorage','fl-voice',v.url);setTimeout(function(){bar.classList.remove('fl-new')},20000)}
   else if(!before||!before[mode]||!j[mode]||before[mode].url!==j[mode].url)show(j.flash?'flash':'voice');
   cycle()}
- function load(){fetch(t.dataset.src+'?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(j){if(j)apply(j)}).catch(function(){})}
+ var AI=/\b(AI|A\.I\.|artificial intelligence|LLMs?|GPT|ChatGPT|agents?|agentic|OpenAI|Anthropic|Gemini|Claude|Grok|xAI|DeepMind|Copilot|superintelligence|AGI|chips?|GPUs?|robots?|robotics|neural|machine learning|model|models)\b/i;
+ /* Live flash straight from Hacker News, same scoring as scripts/build_ticker.py (points decayed by age). */
+ function live(){return fetch('https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=60').then(function(r){return r.ok?r.json():null}).then(function(d){
+  if(!d||!d.hits)return null;var now=Date.now()/1e3,best=null,bh=-1;
+  d.hits.forEach(function(h){if(!h.title||!h.created_at_i||!AI.test(h.title))return;var age=(now-h.created_at_i)/3600;if(age>36||age<0)return;
+   var hv=Math.max(h.points||1,1)/Math.pow(age+2,1.6);if(hv>bh){bh=hv;best=h}});
+  if(!best)return null;return{title:best.title,url:best.url||'https://news.ycombinator.com/item?id='+best.objectID,source:'Hacker News',points:best.points||0,published:new Date(best.created_at_i*1e3).toISOString()}
+ }).catch(function(){return null})}
+ function load(){Promise.all([fetch(t.dataset.src+'?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null}),live()]).then(function(x){
+  var j=x[0]||{},lf=x[1];if(lf)j.flash=lf;if(j.flash||j.voice)apply(j)})}
  bar.querySelector('.fl-x').onclick=function(){store('sessionStorage','fl-off','1');clearInterval(timer);bar.remove()};
  bar.addEventListener('mouseenter',function(){clearInterval(timer)});bar.addEventListener('mouseleave',cycle);
  load();setInterval(load,3e5);

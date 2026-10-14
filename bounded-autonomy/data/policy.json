@@ -1,0 +1,146 @@
+{
+ "name": "retail-bank-reference",
+ "version": "1.0",
+ "tiers": [
+  {
+   "name": "low",
+   "max_exposure": 50000,
+   "min_confidence": 0.86
+  },
+  {
+   "name": "medium",
+   "max_exposure": 200000,
+   "min_confidence": 0.92
+  },
+  {
+   "name": "high",
+   "max_exposure": 1000000,
+   "min_confidence": 0.97
+  },
+  {
+   "name": "critical",
+   "max_exposure": null,
+   "min_confidence": null
+  }
+ ],
+ "actions": {
+  "credit_limit_increase": {
+   "circuit_breaker": {
+    "window": 150,
+    "min_samples": 60,
+    "max_error_rate": 0.12,
+    "cooldown": 400
+   }
+  },
+  "fraud_card_block": {
+   "circuit_breaker": {
+    "window": 150,
+    "min_samples": 60,
+    "max_error_rate": 0.12,
+    "cooldown": 400
+   }
+  },
+  "aml_alert_closure": {
+   "irreversible": true,
+   "irreversibility_uplift": 0.02,
+   "circuit_breaker": {
+    "window": 150,
+    "min_samples": 60,
+    "max_error_rate": 0.1,
+    "cooldown": 400
+   }
+  },
+  "collections_outreach": {
+   "circuit_breaker": {
+    "window": 150,
+    "min_samples": 60,
+    "max_error_rate": 0.12,
+    "cooldown": 400
+   }
+  }
+ },
+ "rules": [
+  {
+   "id": "sanctions-hit",
+   "verdict": "BLOCK",
+   "actions": [
+    "aml_alert_closure"
+   ],
+   "when": [
+    {
+     "signal": "sanctions_hit",
+     "op": "==",
+     "value": true
+    }
+   ],
+   "reason": "alert involves a sanctions-list match; closure requires mandatory compliance review"
+  },
+  {
+   "id": "do-not-contact",
+   "verdict": "BLOCK",
+   "actions": [
+    "collections_outreach"
+   ],
+   "when": [
+    {
+     "signal": "do_not_contact",
+     "op": "==",
+     "value": true
+    }
+   ],
+   "reason": "customer is on the do-not-contact register"
+  },
+  {
+   "id": "stale-data",
+   "verdict": "ABSTAIN",
+   "when": [
+    {
+     "signal": "data_age_hours",
+     "op": ">",
+     "value": 24
+    }
+   ],
+   "reason": "input data is more than 24 hours old; the model is answering a question about a world that has moved"
+  },
+  {
+   "id": "drift",
+   "verdict": "ABSTAIN",
+   "when": [
+    {
+     "signal": "drift_psi",
+     "op": ">",
+     "value": 0.25
+    }
+   ],
+   "reason": "feature drift (PSI > 0.25): population no longer resembles the one the model was validated on"
+  },
+  {
+   "id": "out-of-distribution",
+   "verdict": "ABSTAIN",
+   "when": [
+    {
+     "signal": "ood_score",
+     "op": ">",
+     "value": 0.8
+    }
+   ],
+   "reason": "input is unlike anything in the validation set; confidence on it is not evidence"
+  },
+  {
+   "id": "vulnerable-customer",
+   "verdict": "ESCALATE",
+   "actions": [
+    "collections_outreach",
+    "credit_limit_increase"
+   ],
+   "when": [
+    {
+     "signal": "vulnerable",
+     "op": "==",
+     "value": true
+    }
+   ],
+   "reason": "customer flagged as vulnerable; conduct rules require human judgement"
+  }
+ ]
+}

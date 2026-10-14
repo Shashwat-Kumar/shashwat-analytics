@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bounded Autonomy</title>
+<meta name="description" content="A live governance console: 20,000 synthetic bank decisions re-run in your browser under policy, restraint rules, circuit breakers and a tamper-evident ledger.">
+<meta property="og:title" content="Bounded Autonomy: a model that knows when not to act">
+<meta property="og:description" content="Flip the controls and watch 20,000 synthetic bank decisions re-run under governed restraint.">
+<meta property="og:image" content="https://readsigil.com/bounded-autonomy/assets/frontier.png"><meta property="og:url" content="https://readsigil.com/bounded-autonomy/"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://readsigil.com/bounded-autonomy/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  color-scheme: light;
+  --paper: #eef1ec;
+  --surface: #f8faf6;
+  --ink: #16243a;
+  --ink-2: #48546a;
+  --muted: #6f7a8c;
+  --rule: #d3d9d0;
+  --rule-strong: #b9c1b6;
+  --focus: #2a78d6;
+  --v-act: #2a78d6;
+  --v-abstain: #1baf7a;
+  --v-escalate: #eda100;
+  --v-block: #e34948;
+  --loss: #16243a;
+  --good: #006300;
+  --bad: #b3261e;
+  --serif: "Libre Caslon Text", "Iowan Old Style", Georgia, serif;
+  --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --paper: #10161f; --surface: #17202c; --ink: #e8ecf2; --ink-2: #b4bdcb; --muted: #8a94a6;
+    --rule: #263142; --rule-strong: #364357; --focus: #3987e5;
+    --v-act: #3987e5; --v-abstain: #199e70; --v-escalate: #c98500; --v-block: #d03b3b;
+    --loss: #e8ecf2; --good: #0ca30c; --bad: #ff8a80;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #10161f; --surface: #17202c; --ink: #e8ecf2; --ink-2: #b4bdcb; --muted: #8a94a6;
+  --rule: #263142; --rule-strong: #364357; --focus: #3987e5;
+  --v-act: #3987e5; --v-abstain: #199e70; --v-escalate: #c98500; --v-block: #d03b3b;
+  --loss: #e8ecf2; --good: #0ca30c; --bad: #ff8a80;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 400 16px/1.55 var(--sans); font-feature-settings: "kern";
+}
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+@media (max-width: 640px) { .wrap { padding: 0 16px; } }
+
+/* masthead */
+.mast { display: flex; justify-content: space-between; align-items: baseline; padding: 22px 0 0; gap: 16px; }
+.mast .name { font: 700 15px/1 var(--sans); letter-spacing: 0.01em; }
+.mast nav { display: flex; gap: 20px; font-size: 14px; color: var(--ink-2); }
+
+/* opening */
+.open { padding: 56px 0 28px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 0.8fr); gap: 48px; align-items: end; }
+.open h1 {
+  font: 400 clamp(40px, 6.2vw, 76px)/1.02 var(--serif); letter-spacing: -0.018em; margin: 0;
+  max-width: 11ch;
+}
+.open p { margin: 0; font-size: 18px; line-height: 1.6; color: var(--ink-2); max-width: 46ch; }
+.open p strong { color: var(--ink); font-weight: 600; }
+@media (max-width: 860px) { .open { grid-template-columns: 1fr; gap: 20px; padding-top: 36px; } }
+
+/* console */
+.console {
+  background: var(--surface); border: 1px solid var(--rule); border-radius: 14px;
+  display: grid; grid-template-columns: 300px minmax(0, 1fr); overflow: hidden;
+}
+@media (max-width: 900px) { .console { grid-template-columns: 1fr; } }
+.controls { padding: 22px 22px 24px; border-right: 1px solid var(--rule); }
+@media (max-width: 900px) { .controls { border-right: 0; border-bottom: 1px solid var(--rule); } }
+.controls h2, .results h2 { font: 600 15px/1.3 var(--sans); margin: 0 0 4px; }
+.hint { font-size: 13px; color: var(--muted); margin: 0 0 14px; line-height: 1.45; }
+
+.presets { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 22px; }
+.presets button {
+  font: 500 13px/1.25 var(--sans); color: var(--ink); background: transparent;
+  border: 1px solid var(--rule-strong); border-radius: 8px; padding: 9px 10px; text-align: left; cursor: pointer;
+}
+.presets button:hover { border-color: var(--ink-2); }
+.presets button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+
+.layer { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 11px 0; border-top: 1px solid var(--rule); align-items: center; }
+.layer label { font: 500 14px/1.3 var(--sans); cursor: pointer; }
+.layer small { grid-column: 1 / -1; color: var(--muted); font-size: 12.5px; line-height: 1.4; }
+.switch { position: relative; width: 38px; height: 22px; }
+.switch input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.switch span { position: absolute; inset: 0; border-radius: 11px; background: var(--rule-strong); transition: background .15s; pointer-events: none; }
+.switch span::after { content: ""; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%; background: var(--surface); transition: transform .15s; }
+.switch input:checked + span { background: var(--ink); }
+.switch input:checked + span::after { transform: translateX(16px); }
+.switch input:focus-visible + span { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.slider { padding: 14px 0 0; border-top: 1px solid var(--rule); }
+.slider .row { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.slider label { font: 500 14px/1.3 var(--sans); }
+.slider output { font: 600 14px/1 var(--sans); font-variant-numeric: tabular-nums; }
+.slider input[type=range] { width: 100%; margin: 12px 0 6px; accent-color: var(--ink); }
+
+.results { padding: 22px 26px 26px; min-width: 0; }
+.figures { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; margin: 14px 0 6px; }
+@media (max-width: 640px) { .figures { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.fig .v { font: 400 clamp(28px, 3.4vw, 40px)/1.05 var(--serif); letter-spacing: -0.01em; }
+.fig .l { font-size: 13px; color: var(--ink-2); margin-top: 6px; line-height: 1.35; }
+.fig .d { font-size: 12.5px; margin-top: 3px; font-weight: 600; }
+.d.good { color: var(--good); } .d.bad { color: var(--bad); } .d.flat { color: var(--muted); font-weight: 500; }
+
+.compare { margin-top: 22px; }
+.money { margin-top: 26px; border-top: 1px solid var(--rule); padding-top: 16px; }
+.money h3 { font: 600 14px/1.3 var(--sans); margin: 0 0 8px; }
+.money .row { display: grid; grid-template-columns: minmax(0, 1fr) 90px 56px; gap: 12px; padding: 6px 0; font-size: 13.5px; border-bottom: 1px solid var(--rule); }
+.money .row:last-child { border-bottom: 0; }
+.money .row span:not(:first-child) { text-align: right; font-variant-numeric: tabular-nums; }
+.money .row .share { color: var(--muted); }
+.money .row.zero { color: var(--muted); }
+.bar { display: grid; grid-template-columns: 210px minmax(0, 1fr) 82px; align-items: center; gap: 12px; padding: 5px 0; font-size: 13.5px; }
+@media (max-width: 640px) { .bar { grid-template-columns: 120px minmax(0, 1fr) 70px; font-size: 12.5px; } }
+.bar .track { height: 12px; position: relative; }
+.bar .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 0 4px 4px 0; background: var(--rule-strong); transition: width .35s ease; }
+.bar.me .fill { background: var(--v-act); }
+.bar.me .name { font-weight: 600; }
+.bar .val { text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-2); }
+.bar.me .val { color: var(--ink); font-weight: 600; }
+
+/* stream */
+.stream { margin-top: 40px; }
+.stream-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap; margin-bottom: 14px; }
+.stream-head h2 { font: 400 28px/1.15 var(--serif); margin: 0; }
+.stream-head p { margin: 6px 0 0; color: var(--ink-2); max-width: 62ch; font-size: 15px; }
+.legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; color: var(--ink-2); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.canvas-box { position: relative; background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 16px 16px 10px; }
+canvas { display: block; width: 100%; }
+#tip {
+  position: absolute; pointer-events: none; background: var(--ink); color: var(--surface);
+  font-size: 12.5px; line-height: 1.45; padding: 9px 11px; border-radius: 8px; min-width: 190px;
+  opacity: 0; transition: opacity .1s; z-index: 3;
+}
+#tip b { font-weight: 600; }
+#tip .sw { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 5px; }
+
+/* sections */
+section.block { margin-top: 64px; }
+section.block > h2 { font: 400 32px/1.15 var(--serif); margin: 0 0 8px; }
+section.block > p.lede { color: var(--ink-2); margin: 0 0 22px; max-width: 66ch; font-size: 16.5px; }
+.two { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 32px; align-items: start; }
+@media (max-width: 900px) { .two { grid-template-columns: 1fr; } }
+
+table { width: 100%; min-width: 600px; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 9px 10px; border-bottom: 1px solid var(--rule); }
+th:first-child, td:first-child { text-align: left; }
+th { font-weight: 600; font-size: 12.5px; color: var(--ink-2); border-bottom-color: var(--rule-strong); }
+td.neg { color: var(--bad); }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-2); }
+.chip i { width: 8px; height: 8px; border-radius: 2px; }
+.scroll { overflow-x: auto; background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 6px 14px 10px; }
+.aside { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 20px; }
+.aside .big { font: 400 46px/1 var(--serif); }
+.aside p { margin: 8px 0 0; font-size: 14px; color: var(--ink-2); }
+.aside hr { border: 0; border-top: 1px solid var(--rule); margin: 18px 0; }
+
+/* ledger */
+.ledger { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; overflow: hidden; }
+.ledger-bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; padding: 16px 18px; border-bottom: 1px solid var(--rule); }
+.status { font-weight: 600; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+.status .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--good); }
+.status.broken { color: var(--bad); } .status.broken .dot { background: var(--bad); }
+.btn {
+  font: 600 14px/1 var(--sans); padding: 11px 14px; border-radius: 8px; cursor: pointer;
+  border: 1px solid var(--ink); background: var(--ink); color: var(--surface);
+}
+.btn.quiet { background: transparent; color: var(--ink); border-color: var(--rule-strong); }
+.btn:disabled { opacity: .45; cursor: default; }
+.entries { font-size: 13.5px; }
+.entry { display: grid; grid-template-columns: 70px 110px minmax(0, 1fr) 170px; gap: 12px; padding: 12px 18px; border-bottom: 1px solid var(--rule); align-items: baseline; }
+.entry:last-child { border-bottom: 0; }
+@media (max-width: 760px) { .entry { grid-template-columns: 56px minmax(0, 1fr); } .entry .r, .entry .h { grid-column: 2; } }
+.entry .s { color: var(--muted); font-variant-numeric: tabular-nums; }
+.entry .r { color: var(--ink-2); }
+.entry .h { font: 500 12px/1.4 ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: var(--muted); overflow-wrap: anywhere; }
+.entry.tampered { background: color-mix(in srgb, var(--bad) 10%, transparent); }
+.entry.tampered .v { color: var(--bad); font-weight: 700; }
+.entry.after .h { text-decoration: line-through; }
+
+ol.order { margin: 0; padding: 0; list-style: none; counter-reset: s; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0 32px; }
+ol.order li { counter-increment: s; padding: 14px 0 14px 40px; border-top: 1px solid var(--rule); position: relative; font-size: 15px; color: var(--ink-2); }
+ol.order li::before { content: counter(s); position: absolute; left: 0; top: 11px; font: 400 24px/1 var(--serif); color: var(--ink); }
+ol.order b { color: var(--ink); font-weight: 600; }
+
+footer { margin: 72px 0 0; padding: 26px 0 40px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--ink-2); display: flex; gap: 24px; justify-content: space-between; flex-wrap: wrap; }
+footer p { margin: 0; max-width: 70ch; }
+.loading { padding: 40px 0; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <span class="name">bounded-autonomy</span>
+    <nav aria-label="Project links">
+      <a href="../index.html">Shashwat Kumar</a>
+      <a href="https://github.com/Shashwat-Kumar/bounded-autonomy">Source on GitHub</a>
+      <a href="#how">How it decides</a>
+    </nav>
+  </header>
+
+  <div class="open">
+    <h1>A model that knows when not to act.</h1>
+    <p>In regulated finance, a mature AI system is judged as much by its <strong>restraint</strong> as by its
+      capability. This console runs <strong>20,000 synthetic bank decisions</strong> through a governance gate:
+      stakes tiers, prohibitions, abstention when the data can't be trusted, and a breaker that suspends autonomy
+      when results degrade. Change the controls and the whole stream re-runs in your browser.</p>
+  </div>
+
+  <div class="console" id="console">
+    <div class="controls">
+      <h2>Governance controls</h2>
+      <p class="hint">Start from a strategy, then switch layers off to see what each one is worth.</p>
+      <div class="presets" role="group" aria-label="Strategy presets">
+        <button type="button" data-preset="bounded" aria-pressed="true">Bounded autonomy</button>
+        <button type="button" data-preset="confidence" aria-pressed="false">Confidence only</button>
+        <button type="button" data-preset="full" aria-pressed="false">Full autonomy</button>
+        <button type="button" data-preset="human" aria-pressed="false">Human review</button>
+      </div>
+
+      <div class="layer">
+        <label for="t-tiers">Stakes tiers</label>
+        <span class="switch"><input id="t-tiers" type="checkbox" checked><span></span></span>
+        <small>The confidence bar rises with the rupees at risk; critical cases always go to a person.</small>
+      </div>
+      <div class="layer">
+        <label for="t-block">Prohibitions and mandatory review</label>
+        <span class="switch"><input id="t-block" type="checkbox" checked><span></span></span>
+        <small>Sanctions matches and do-not-contact are blocked; vulnerable customers go to a person.</small>
+      </div>
+      <div class="layer">
+        <label for="t-abstain">Abstain when the basis is unsound</label>
+        <span class="switch"><input id="t-abstain" type="checkbox" checked><span></span></span>
+        <small>Stale data, feature drift or unfamiliar inputs: the system declines to decide, and says why.</small>
+      </div>
+      <div class="layer">
+        <label for="t-breaker">Circuit breakers</label>
+        <span class="switch"><input id="t-breaker" type="checkbox" checked><span></span></span>
+        <small>If autonomous errors exceed the agreed rate, autonomy for that action is suspended.</small>
+      </div>
+      <div class="slider">
+        <div class="row"><label for="s-bar" id="s-label">Confidence bar</label><output id="s-out" for="s-bar"></output></div>
+        <input id="s-bar" type="range" min="-20" max="10" step="1" value="0" aria-describedby="s-help">
+        <small class="hint" id="s-help" style="margin:0;display:block"></small>
+      </div>
+    </div>
+
+    <div class="results" aria-live="polite">
+      <h2 id="r-title">Bounded autonomy, policy as written</h2>
+      <div class="figures">
+        <div class="fig"><div class="v" id="f-cost">-</div><div class="l">Cost per decision: review effort plus losses</div><div class="d" id="d-cost"></div></div>
+        <div class="fig"><div class="v" id="f-auto">-</div><div class="l">Decisions taken autonomously</div><div class="d flat" id="d-auto"></div></div>
+        <div class="fig"><div class="v" id="f-err">-</div><div class="l">Autonomous decisions that were wrong</div><div class="d flat" id="d-err"></div></div>
+        <div class="fig"><div class="v" id="f-viol">-</div><div class="l">Prohibited actions taken</div><div class="d" id="d-viol"></div></div>
+      </div>
+      <div class="compare" id="compare" aria-label="Cost per decision compared"></div>
+      <div class="money">
+        <h3>Where the money goes, per decision</h3>
+        <div id="money"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="stream">
+    <div class="stream-head">
+      <div>
+        <h2>The decision stream</h2>
+        <p>Each column is a slice of consecutive decisions, split by verdict. Partway through, a drift episode
+          hits card fraud and credit limits: the model stays confident while its accuracy collapses. Watch what
+          the gate does with it.</p>
+      </div>
+      <div class="legend" aria-label="Verdicts">
+        <span><i style="background:var(--v-act)"></i>Acted autonomously</span>
+        <span><i style="background:var(--v-abstain)"></i>Abstained</span>
+        <span><i style="background:var(--v-escalate)"></i>Escalated to a person</span>
+        <span><i style="background:var(--v-block)"></i>Blocked</span>
+      </div>
+    </div>
+    <div class="canvas-box" id="box">
+      <canvas id="stream" height="260" role="img" aria-label="Verdict mix across the decision stream"></canvas>
+      <div id="tip" role="status"></div>
+    </div>
+  </div>
+
+  <section class="block" id="audit">
+    <h2>The Silence Audit</h2>
+    <p class="lede">Most AI assurance asks how often the model was right when it acted. This asks the opposite:
+      when the system held back, was it right to? Each rule is costed: losses it averted against the review effort
+      it spent.</p>
+    <div class="two">
+      <div class="scroll"><table id="audit-table"><thead><tr>
+        <th>Rule</th><th>Cases held</th><th>Would have erred</th><th>Loss averted</th><th>Review spent</th><th>Net value</th>
+      </tr></thead><tbody></tbody></table></div>
+      <div class="aside">
+        <div class="big" id="a-recall">-</div>
+        <p>of every decision where autonomy would have done damage, the system declined to act on.</p>
+        <hr>
+        <div class="big" id="a-harm">-</div>
+        <p>harmful autonomous actions got through. This is the residual risk the policy owner signs for.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="ledger">
+    <h2>A record nobody can quietly rewrite</h2>
+    <p class="lede">Every verdict is written to a hash-chained ledger: each entry's SHA-256 covers its record and
+      the entry before it. Edit one past decision and every hash after it stops matching.</p>
+    <div class="ledger">
+      <div class="ledger-bar">
+        <div class="status" id="l-status"><span class="dot"></span><span id="l-text">Sealing the ledger</span></div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn" id="l-tamper" type="button" disabled>Rewrite a blocked sanctions alert as approved</button>
+          <button class="btn quiet" id="l-restore" type="button" disabled>Restore the original</button>
+        </div>
+      </div>
+      <div class="entries" id="l-entries"></div>
+    </div>
+  </section>
+
+  <section class="block" id="how">
+    <h2>How the gate decides</h2>
+    <p class="lede">Every proposal is checked in this order. The first rule that applies decides, so the most
+      restrictive verdict always wins.</p>
+    <ol class="order">
+      <li><b>Default deny.</b> An action the policy does not name is blocked.</li>
+      <li><b>Prohibitions.</b> Blocked whatever the model believes: sanctions matches, do-not-contact.</li>
+      <li><b>Abstention.</b> Stale data, drift or out-of-distribution input: there is no sound basis to decide.</li>
+      <li><b>Mandatory review.</b> Vulnerable customers are decided by a person.</li>
+      <li><b>Circuit breaker.</b> Autonomy suspended while recent autonomous outcomes are degraded.</li>
+      <li><b>Tier ceiling.</b> Critical exposure is never decided autonomously.</li>
+      <li><b>Confidence gate.</b> Act only if confidence clears the bar for this tier and action.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <p>Synthetic data from the open-source simulator in this repository; no real customer, bank or policy.
+      Every number on this page is computed live by the same engine as the published benchmark.
+      Built by Shashwat Kumar.</p>
+    <a href="https://github.com/Shashwat-Kumar/bounded-autonomy">Read the code and the assumptions</a>
+  </footer>
+</div>
+
+<script src="engine.js"></script>
+<script>
+(async function () {
+  "use strict";
+  const $ = (id) => document.getElementById(id);
+  let data, policy, ref = {}, current, baselines;
+  try {
+    const [d, p] = await Promise.all([fetch("data/cases.json").then((r) => r.json()), fetch("data/policy.json").then((r) => r.json())]);
+    data = d; ref = d.reference || {}; policy = BA.compilePolicy(p);
+  } catch (e) {
+    $("console").innerHTML = '<p class="loading" style="padding:24px">The decision data could not be loaded. Open this page from its web address rather than as a local file.</p>';
+    return;
+  }
+  const N = data.cases.action.length;
+  const tuned = ref.tuned_threshold || 0.999;
+
+  const inr = (x) => "₹" + Math.round(x).toLocaleString("en-IN");
+  const lakh = (x) => {
+    const v = x / 1e5, s = Math.abs(v) >= 100 ? Math.round(v).toLocaleString("en-IN") : v.toFixed(1);
+    return (x < 0 ? "−" : "") + "₹" + s.replace("-", "") + " L";
+  };
+  const pct = (x, d = 0) => (x * 100).toFixed(d) + "%";
+  const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  const VCOL = { ACT: "--v-act", ABSTAIN: "--v-abstain", ESCALATE: "--v-escalate", BLOCK: "--v-block" };
+  const STACK = ["ACT", "ABSTAIN", "ESCALATE", "BLOCK"];
+  const RULE_NAMES = {
+    "sanctions-hit": "Sanctions match", "do-not-contact": "Do-not-contact register", "stale-data": "Stale data",
+    "drift": "Feature drift", "out-of-distribution": "Unfamiliar input", "vulnerable-customer": "Vulnerable customer",
+    "circuit-breaker": "Circuit breaker", "tier-ceiling": "Critical-stakes ceiling", "confidence-gate": "Below the confidence bar",
+    "fixed": "Everything to a person", "default-deny": "Not authorised",
+  };
+  const ACTION_NAMES = { credit_limit_increase: "Credit limit increase", fraud_card_block: "Card block for suspected fraud",
+    aml_alert_closure: "AML alert closure", collections_outreach: "Collections outreach" };
+
+  baselines = {
+    human: BA.fixed(data, "ESCALATE").summary,
+    full: BA.fixed(data, "ACT").summary,
+    tuned: BA.run(data, policy, { rules: [], breakers: false, tiers: false, flat: tuned }).summary,
+  };
+
+  // ------------------------------------------------------------------ state
+  const el = { tiers: $("t-tiers"), block: $("t-block"), abstain: $("t-abstain"), breaker: $("t-breaker"), bar: $("s-bar") };
+  let preset = "bounded";
+  const PRESETS = {
+    bounded: { tiers: true, block: true, abstain: true, breaker: true, bar: 0, title: "Bounded autonomy, policy as written" },
+    confidence: { tiers: false, block: false, abstain: false, breaker: false, bar: 95, title: "One confidence threshold, nothing else" },
+    full: { title: "Full autonomy: act on every proposal" },
+    human: { title: "A person reviews every decision" },
+  };
+
+  function sliderMode() {
+    const flat = !el.tiers.checked;
+    if (flat) { el.bar.min = 55; el.bar.max = 99; } else { el.bar.min = -20; el.bar.max = 10; }
+    return flat;
+  }
+  function describeSlider() {
+    const flat = !el.tiers.checked, v = Number(el.bar.value);
+    if (flat) {
+      $("s-label").textContent = "Single confidence threshold";
+      $("s-out").textContent = (v / 100).toFixed(2);
+      $("s-help").textContent = "One bar for every action and every amount at risk.";
+    } else {
+      const off = v / 100, t = policy.tiers;
+      $("s-label").textContent = "Raise or lower every bar";
+      $("s-out").textContent = (off >= 0 ? "+" : "−") + Math.abs(off).toFixed(2);
+      $("s-help").textContent = `Low stakes needs ${(t[0].min + off).toFixed(2)}, medium ${(t[1].min + off).toFixed(2)}, high ${Math.min(t[2].min + off, 0.999).toFixed(2)}.`;
+    }
+  }
+  function setPresetButtons(name) {
+    preset = name;
+    document.querySelectorAll("[data-preset]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.preset === name)));
+  }
+  function applyPreset(name) {
+    setPresetButtons(name);
+    const p = PRESETS[name];
+    const disabled = name === "full" || name === "human";
+    for (const k of ["tiers", "block", "abstain", "breaker", "bar"]) el[k].disabled = disabled;
+    if (!disabled) {
+      el.tiers.checked = p.tiers; el.block.checked = p.block; el.abstain.checked = p.abstain; el.breaker.checked = p.breaker;
+      sliderMode(); el.bar.value = p.bar;
+    }
+    update();
+  }
+  function onControl() {
+    const wasFlat = Number(el.bar.min) === 55, flat = sliderMode();
+    if (wasFlat !== flat) el.bar.value = flat ? 95 : 0;
+    setPresetButtons(null);
+    update();
+  }
+
+  function compute() {
+    if (preset === "full") return BA.fixed(data, "ACT");
+    if (preset === "human") return BA.fixed(data, "ESCALATE");
+    const rules = [];
+    if (el.block.checked) rules.push("BLOCK", "ESCALATE");
+    if (el.abstain.checked) rules.push("ABSTAIN");
+    const flat = !el.tiers.checked, v = Number(el.bar.value) / 100;
+    return BA.run(data, policy, { rules, breakers: el.breaker.checked, tiers: !flat,
+      flat: flat ? v : 0.9, offset: flat ? 0 : v });
+  }
+
+  function title() {
+    if (preset && PRESETS[preset]) return PRESETS[preset].title;
+    return "Your configuration";
+  }
+
+  // --------------------------------------------------------------- render
+  function update() {
+    describeSlider();
+    current = compute();
+    const s = current.summary, h = baselines.human;
+    $("r-title").textContent = title();
+    $("f-cost").textContent = inr(s.cost_per_case);
+    const dc = 1 - s.cost_per_case / h.cost_per_case;
+    const dEl = $("d-cost");
+    if (preset === "human") { dEl.textContent = "the baseline"; dEl.className = "d flat"; }
+    else { dEl.textContent = (dc >= 0 ? pct(dc) + " cheaper" : pct(-dc) + " dearer") + " than reviewing everything"; dEl.className = "d " + (dc >= 0 ? "good" : "bad"); }
+    $("f-auto").textContent = pct(s.automation_rate);
+    $("d-auto").textContent = (s.automation_rate * N).toLocaleString("en-IN", { maximumFractionDigits: 0 }) + " of " + N.toLocaleString("en-IN");
+    $("f-err").textContent = s.autonomous_errors.toLocaleString("en-IN");
+    $("d-err").textContent = s.automation_rate ? pct(s.autonomous_error_rate, 1) + " of autonomous decisions" : "none taken";
+    $("f-viol").textContent = s.violations.toLocaleString("en-IN");
+    $("d-viol").textContent = s.violations ? lakh(s.violation_cost) + " in penalties" : "none";
+    $("d-viol").className = "d " + (s.violations ? "bad" : "good");
+    renderCompare(s);
+    renderMoney(s);
+    drawStream();
+    renderAudit();
+    scheduleSeal();
+  }
+
+  function renderCompare(s) {
+    const rows = [
+      { name: "This configuration", v: s.cost_per_case, me: true },
+      { name: "Human review of everything", v: baselines.human.cost_per_case },
+      { name: "Best single threshold, tuned in hindsight", v: baselines.tuned.cost_per_case },
+      { name: "Full autonomy", v: baselines.full.cost_per_case },
+    ];
+    const max = Math.max(...rows.map((r) => r.v));
+    $("compare").innerHTML = rows.map((r) => `<div class="bar${r.me ? " me" : ""}"><span class="name">${r.name}</span>` +
+      `<span class="track"><span class="fill" style="width:${(r.v / max * 100).toFixed(1)}%"></span></span>` +
+      `<span class="val">${inr(r.v)}</span></div>`).join("");
+  }
+
+  function renderMoney(s) {
+    const rows = [
+      ["Review effort by people", s.review_cost],
+      ["Mistakes made by reviewers", s.human_error_cost],
+      ["Mistakes made autonomously", s.autonomous_error_cost],
+      ["Penalties for prohibited actions", s.violation_cost],
+    ], tot = s.total_cost || 1;
+    $("money").innerHTML = rows.map(([n, v]) => `<div class="row${v ? "" : " zero"}"><span>${n}</span>` +
+      `<span>${inr(v / N)}</span><span class="share">${v ? pct(v / tot) : "none"}</span></div>`).join("");
+  }
+
+  // Stream: columns of consecutive decisions, stacked by verdict; losses as a strip below.
+  const canvas = $("stream"), ctx = canvas.getContext("2d"), box = $("box"), tip = $("tip");
+  let geo = null;
+  function drawStream() {
+    const dpr = window.devicePixelRatio || 1, W = canvas.clientWidth, H = 260;
+    canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr); canvas.style.height = H + "px";
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, H);
+    const pitch = W < 560 ? 4 : 5, cols = Math.max(40, Math.floor(W / pitch)), per = N / cols, colW = W / cols;
+    const topPad = 22, mixH = 160, gapH = 14, lossH = H - topPad - mixH - gapH - 20;
+    const counts = [], losses = [];
+    for (let k = 0; k < cols; k++) {
+      const a = Math.floor(k * per), b = Math.floor((k + 1) * per), c = { ACT: 0, ABSTAIN: 0, ESCALATE: 0, BLOCK: 0 };
+      let L = 0;
+      for (let i = a; i < b; i++) { c[current.verdict[i]]++; if (current.category[i] === "auto_error" || current.category[i] === "violation") L += current.loss[i]; }
+      counts.push({ a, b, c }); losses.push(L / Math.max(1, b - a));
+    }
+    // drift band
+    const [d0, d1] = data.drift_window, x0 = d0 / N * W, x1 = d1 / N * W;
+    ctx.fillStyle = css("--rule"); ctx.globalAlpha = 0.55; ctx.fillRect(x0, 0, x1 - x0, H - 18); ctx.globalAlpha = 1;
+    ctx.fillStyle = css("--ink"); ctx.font = "600 12px " + css("--sans"); ctx.textBaseline = "top";
+    ctx.fillText("Drift episode", x0 + 6, 4);
+    // verdict mix
+    const colors = STACK.map((v) => css(VCOL[v]));
+    counts.forEach(({ a, b, c }, k) => {
+      const n = b - a; let y = topPad + mixH;
+      STACK.forEach((v, j) => {
+        const h = c[v] / n * mixH; if (h <= 0) return;
+        ctx.fillStyle = colors[j];
+        ctx.fillRect(k * colW, y - h, Math.max(1, colW - 1), Math.max(h - 0.6, 0.6));
+        y -= h;
+      });
+    });
+    // losses strip
+    const maxL = Math.max(1, ...losses), base = topPad + mixH + gapH + lossH;
+    ctx.fillStyle = css("--loss");
+    losses.forEach((L, k) => { const h = L / maxL * lossH; if (h > 0) ctx.fillRect(k * colW, base - h, Math.max(1, colW - 1), h); });
+    ctx.fillStyle = css("--muted"); ctx.font = "12px " + css("--sans"); ctx.textBaseline = "alphabetic";
+    ctx.fillText("Losses from autonomous errors in each slice (peak " + inr(maxL) + " per decision)", 0, H - 2);
+    ctx.textAlign = "right"; ctx.fillText(N.toLocaleString("en-IN") + " decisions", W, H - 2); ctx.textAlign = "left";
+    geo = { cols, colW, counts, losses, topPad, mixH };
+    canvas.setAttribute("aria-label", `Verdict mix across ${N} decisions: ${pct(current.summary.automation_rate)} acted autonomously.`);
+  }
+  canvas.addEventListener("mousemove", (e) => {
+    if (!geo) return;
+    const r = canvas.getBoundingClientRect(), x = e.clientX - r.left, k = Math.min(geo.cols - 1, Math.max(0, Math.floor(x / geo.colW)));
+    const { a, b, c } = geo.counts[k], n = b - a;
+    const lines = STACK.filter((v) => c[v]).map((v) => `<div><span class="sw" style="background:var(${VCOL[v]})"></span>${({ ACT: "Acted", ABSTAIN: "Abstained", ESCALATE: "Escalated", BLOCK: "Blocked" })[v]} ${pct(c[v] / n)}</div>`).join("");
+    tip.innerHTML = `<b>Decisions ${(a + 1).toLocaleString("en-IN")}–${b.toLocaleString("en-IN")}</b>${lines}<div>Autonomous losses ${inr(geo.losses[k])} per decision</div>`;
+    const bw = box.clientWidth, tw = 220, left = Math.min(bw - tw - 8, Math.max(8, x + 14));
+    tip.style.left = left + "px"; tip.style.top = "18px"; tip.style.opacity = 1;
+  });
+  canvas.addEventListener("mouseleave", () => { tip.style.opacity = 0; });
+  let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(drawStream, 120); });
+
+  function renderAudit() {
+    const a = BA.silenceAudit(data, current);
+    const tb = document.querySelector("#audit-table tbody");
+    if (!a.rows.length) tb.innerHTML = `<tr><td colspan="6" style="text-align:left;color:var(--muted)">Nothing was held back: every proposal was acted on.</td></tr>`;
+    else tb.innerHTML = a.rows.map((L) => `<tr><td><span class="chip"><i style="background:var(${VCOL[L.verdict]})"></i>${RULE_NAMES[L.rule] || L.rule}</span></td>` +
+      `<td>${L.held.toLocaleString("en-IN")}</td><td>${pct(L.precision)}</td><td>${lakh(L.averted)}</td><td>${lakh(L.spent)}</td>` +
+      `<td class="${L.net < 0 ? "neg" : ""}">${lakh(L.net)}</td></tr>`).join("");
+    $("a-recall").textContent = pct(a.recall);
+    $("a-harm").textContent = a.harmful.toLocaleString("en-IN");
+  }
+
+  // --------------------------------------------------------------- ledger
+  let entries = [], original = null, focus = 0, sealT;
+  function scheduleSeal() {
+    $("l-text").textContent = "Sealing the ledger"; $("l-tamper").disabled = true; $("l-restore").disabled = true;
+    clearTimeout(sealT);
+    sealT = setTimeout(() => {
+      const recs = new Array(N);
+      for (let i = 0; i < N; i++) recs[i] = BA.record(data, current, i, policy);
+      entries = BA.seal(recs); original = null;
+      focus = recs.findIndex((r) => r.rule === "sanctions-hit");
+      renderLedger();
+    }, 60);
+  }
+  function renderLedger(brokenAt) {
+    const v = BA.verify(entries);
+    const st = $("l-status");
+    st.classList.toggle("broken", !v.ok);
+    $("l-text").textContent = v.ok
+      ? `${entries.length.toLocaleString("en-IN")} entries sealed. Hash chain intact.`
+      : `Tampering detected at entry ${v.brokenAt.toLocaleString("en-IN")}: ${v.reason}.`;
+    const can = focus >= 0;
+    $("l-tamper").disabled = !can || !v.ok;
+    $("l-tamper").textContent = can ? "Rewrite a blocked sanctions alert as approved" : "No blocked sanctions alert to rewrite in this run";
+    $("l-restore").disabled = v.ok;
+    const at = can ? focus : 0, from = Math.max(0, at - 2), to = Math.min(entries.length, at + 3);
+    let html = "";
+    for (let i = from; i < to; i++) {
+      const e = entries[i], r = e.record, bad = !v.ok && i === v.brokenAt, after = !v.ok && i > v.brokenAt;
+      html += `<div class="entry${bad ? " tampered" : ""}${after ? " after" : ""}">` +
+        `<span class="s">#${i.toLocaleString("en-IN")}</span>` +
+        `<span class="v"><span class="chip"><i style="background:var(${VCOL[r.verdict]})"></i>${r.verdict}</span></span>` +
+        `<span class="r">${ACTION_NAMES[r.action]}: ${r.reason}</span>` +
+        `<span class="h">${e.hash.slice(0, 16)}…</span></div>`;
+    }
+    $("l-entries").innerHTML = html;
+  }
+  $("l-tamper").addEventListener("click", () => {
+    if (focus < 0) return;
+    original = JSON.parse(JSON.stringify(entries[focus].record));
+    Object.assign(entries[focus].record, { verdict: "ACT", rule: "confidence-gate", reason: "closed by analyst after review" });
+    renderLedger();
+  });
+  $("l-restore").addEventListener("click", () => {
+    if (original) entries[focus].record = original; original = null; renderLedger();
+  });
+
+  // --------------------------------------------------------------- wiring
+  document.querySelectorAll("[data-preset]").forEach((b) => b.addEventListener("click", () => applyPreset(b.dataset.preset)));
+  for (const k of ["tiers", "block", "abstain", "breaker"]) el[k].addEventListener("change", onControl);
+  el.bar.addEventListener("input", () => { setPresetButtons(null); update(); });
+  applyPreset("bounded");
+})();
+</script>
+</body>
+</html>

@@ -199,14 +199,9 @@ def build() -> list[str]:
     (AG / "data" / "swarm.json").write_text(
         json.dumps(swarm([th for _, th in threads]), indent=1, ensure_ascii=False), encoding="utf-8")
 
-    sm = SITE / "sitemap.xml"
-    if sm.exists():
-        x = sm.read_text(encoding="utf-8")
-        for pid, _ in threads:
-            loc = f"{BASE}t-{pid}.html"
-            if loc not in x:
-                x = x.replace("</urlset>", f"<url><loc>{loc}</loc></url></urlset>")
-        sm.write_text(x, encoding="utf-8")
+    # Thread pages are agent-written and carry noindex (inherited from TEMPLATE's
+    # <head>), so they are deliberately kept out of sitemap.xml.
+    # Rebuild the sitemap with scripts/build_sitemap.py.
     return [pid for pid, _ in threads]
 
 

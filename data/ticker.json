@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T06:04:32Z",
+ "generated_at": "2026-10-14T11:44:55Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://deepmind.google/models/gemini/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50073879",
-  "points": 1172,
-  "comments": 836,
+  "points": 1335,
+  "comments": 929,
   "published": "2026-10-13T16:03:16Z",
   "since": "2026-10-13T20:51:39Z"
  },
@@ -98,7 +98,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1724,
+   "stars": 1914,
    "note": "Python · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -107,8 +107,28 @@
   },
   {
    "kind": "repo",
+   "title": "deeplethe/solid-glass",
+   "stars": 580,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/deeplethe/solid-glass",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "outcrawlai/scout",
+   "stars": 311,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/outcrawlai/scout",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "Ayzzz123/mcd-coupon-strategist",
-   "stars": 278,
+   "stars": 303,
    "note": "Python · new this week",
    "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
    "source": "GitHub",
@@ -118,7 +138,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 271,
+   "stars": 275,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -127,18 +147,8 @@
   },
   {
    "kind": "repo",
-   "title": "deeplethe/solid-glass",
-   "stars": 256,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/deeplethe/solid-glass",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "BlenderGPT3D/blender-ai-addon",
-   "stars": 209,
+   "stars": 211,
    "note": "Python · new this week",
    "url": "https://github.com/BlenderGPT3D/blender-ai-addon",
    "source": "GitHub",
@@ -148,7 +158,7 @@
   {
    "kind": "repo",
    "title": "wheresryan22/anatomy",
-   "stars": 8609,
+   "stars": 9050,
    "note": "JavaScript · new this week",
    "url": "https://github.com/wheresryan22/anatomy",
    "source": "GitHub",
@@ -158,7 +168,7 @@
   {
    "kind": "repo",
    "title": "mhtsec/ARTEX",
-   "stars": 3948,
+   "stars": 4019,
    "note": "Go · new this week",
    "url": "https://github.com/mhtsec/ARTEX",
    "source": "GitHub",
@@ -168,7 +178,7 @@
   {
    "kind": "repo",
    "title": "ARahim3/DigUp",
-   "stars": 2765,
+   "stars": 3152,
    "note": "Swift · new this week",
    "url": "https://github.com/ARahim3/DigUp",
    "source": "GitHub",
@@ -178,7 +188,7 @@
   {
    "kind": "repo",
    "title": "t4t5/omdrop-owl",
-   "stars": 2610,
+   "stars": 2631,
    "note": "Shell · new this week",
    "url": "https://github.com/t4t5/omdrop-owl",
    "source": "GitHub",
@@ -188,7 +198,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 1172,
+   "points": 1335,
    "title": "Gemini 4 Argon",
    "source": "Hacker News",
    "url": "https://deepmind.google/models/gemini/",
@@ -197,7 +207,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 668,
+   "points": 794,
    "title": "Redesigning source control at Anthropic",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
@@ -206,7 +216,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 659,
+   "points": 710,
    "title": "AI is a tool and using it well takes skill",
    "source": "Hacker News",
    "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
@@ -215,47 +225,36 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 507,
-   "title": "OpenAI engineer arrested in bugging of executive conference room",
+   "points": 27,
+   "title": "What agents mean for Rust (and vice versa)",
    "source": "Hacker News",
-   "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-   "discuss": "https://news.ycombinator.com/item?id=50078141"
+   "url": "https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/",
+   "discuss": "https://news.ycombinator.com/item?id=50084416"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 306,
-   "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+   "points": 24,
+   "title": "Show HN: Building an LLM from Scratch in TypeScript",
    "source": "Hacker News",
-   "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-   "discuss": "https://news.ycombinator.com/item?id=50073221"
+   "url": "https://book.humanexperiences.io/",
+   "discuss": "https://news.ycombinator.com/item?id=50085332"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 95,
-   "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+   "points": 10,
+   "title": "AI Laser Locking for Quantum Computers: How QuEra Automates It",
    "source": "Hacker News",
-   "url": "https://pulseos.finance",
-   "discuss": "https://news.ycombinator.com/item?id=50080275"
+   "url": "https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers",
+   "discuss": "https://news.ycombinator.com/item?id=50085302"
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 66,
-   "title": "I built a tool to track what AI leaders say and how their views change on video",
-   "source": "Hacker News",
-   "url": "https://blumify.io/people",
-   "discuss": "https://news.ycombinator.com/item?id=50081151"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 0,
-   "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
-   "source": "Hacker News",
-   "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
-   "discuss": "https://news.ycombinator.com/item?id=50078686"
+   "tag": "AI",
+   "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/"
   },
   {
    "kind": "news",
@@ -277,13 +276,6 @@
    "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Cerebras CEO pushes back on AI doomsday warnings",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/"
   },
   {
    "kind": "news",

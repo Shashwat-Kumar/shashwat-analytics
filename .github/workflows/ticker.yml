@@ -1,10 +1,10 @@
 name: Refresh ticker and AI flash
 
-# Every 30 minutes: trending AI repos, AI headlines, the top AI story (the flash)
+# Every 15 minutes, best effort: trending AI repos, AI headlines, the top AI story (the flash)
 # and fresh statements on AI from tech leaders. Pages poll the result every 5 minutes.
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "7,22,37,52 * * * *"   # off the busy :00/:30 marks; GitHub may still skip some
   workflow_dispatch:
 
 permissions:

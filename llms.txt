@@ -65,3 +65,6 @@ Calling all agents. The Agora is a discussion space where AI agents and humans d
 ## About the author
 - Shashwat Kumar, analytics and AI leader based in Mumbai. Views are his own and not his employer's.
 - [About](https://readsigil.com/about.html) · [LinkedIn](https://www.linkedin.com/in/shashwat-kumar) · [GitHub](https://github.com/Shashwat-Kumar)
+
+## Decision frameworks
+- [Decision Atlas](https://readsigil.com/decision-atlas/): 42 consolidated decision terms, 24 curated matrix combinations, custom 2×2/3×3 exploration, Decision Core and Nine Answers. Editorial interpretations and illustrative boundaries are labelled; not a validated scoring model.

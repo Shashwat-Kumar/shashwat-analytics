@@ -15,6 +15,7 @@
 - [MSME-1 and Section 43B(h)](https://readsigil.com/insights/msme-1-43bh-guide.html)
 
 ## Bounded autonomy
+- [Bounded autonomy: why the most valuable AI in a bank knows when not to act](https://readsigil.com/essays/bounded-autonomy.html): flagship essay. Definition, the seven-check decision gate, abstention vs escalation, the Silence Audit, and results from 20,000 synthetic bank decisions (18% cheaper than full human review while automating 54%, zero prohibited actions).
 - [Bounded Autonomy console](https://readsigil.com/bounded-autonomy/): live governance console that re-runs 20,000 synthetic bank decisions under policy, abstention rules, circuit breakers and a tamper-evident ledger. Code: https://github.com/Shashwat-Kumar/bounded-autonomy
 
 ## Independent coverage

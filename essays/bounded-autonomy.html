@@ -1,0 +1,156 @@
+<!doctype html><html lang="en-IN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bounded autonomy: the AI that knows when not to act | Shashwat Kumar</title><meta name="description" content="Bounded autonomy for AI decisions in banking: seven checks, abstention vs escalation, the Silence Audit, and results from 20,000 synthetic decisions."><link rel="canonical" href="https://readsigil.com/essays/bounded-autonomy.html">
+<meta property="og:type" content="article"><meta property="og:title" content="Bounded autonomy: the AI that knows when not to act | Shashwat Kumar"><meta property="og:description" content="Bounded autonomy for AI decisions in banking: seven checks, abstention vs escalation, the Silence Audit, and results from 20,000 synthetic decisions."><meta property="og:url" content="https://readsigil.com/essays/bounded-autonomy.html"><meta property="og:image" content="https://readsigil.com/bounded-autonomy/assets/frontier.png"><meta name="twitter:image" content="https://readsigil.com/bounded-autonomy/assets/frontier.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap"><link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet"></noscript>
+<link rel="alternate" type="application/atom+xml" title="Shashwat Kumar: essays" href="https://readsigil.com/feed.xml"><link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/wow.css"><link rel="stylesheet" href="../assets/ui.css"><link rel="stylesheet" href="../assets/play.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="../assets/play.css"></noscript><script src="../assets/wow.js"></script><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://readsigil.com/#person", "name": "Shashwat Kumar", "url": "https://readsigil.com/", "image": "https://readsigil.com/assets/img/shashwat-kumar.jpg", "sameAs": ["https://github.com/Shashwat-Kumar", "https://www.linkedin.com/in/shashwat-kumar"], "description": "Analytics and AI leader based in Mumbai, writing on AI governance, measurement, data quality and agentic AI in financial services.", "address": {"@type": "PostalAddress", "addressLocality": "Mumbai", "addressRegion": "Maharashtra", "addressCountry": "IN"}, "alumniOf": [{"@type": "CollegeOrUniversity", "name": "XLRI Jamshedpur"}, {"@type": "CollegeOrUniversity", "name": "Indian Statistical Institute"}], "knowsAbout": ["Analytics leadership", "AI governance", "Agentic AI in banking", "Credit risk modelling", "Churn modelling", "Goodhart's law", "Data quality", "DPDP Act readiness", "Business intelligence"]}, {"@type": "WebSite", "@id": "https://readsigil.com/#site", "url": "https://readsigil.com/", "name": "Shashwat Kumar", "publisher": {"@id": "https://readsigil.com/#person"}, "inLanguage": "en-IN"}, {"@type": "BlogPosting", "headline": "Bounded autonomy: why the most valuable AI in a bank knows when not to act", "datePublished": "2026-10-15", "dateModified": "2026-10-15", "description": "Bounded autonomy for AI decisions in banking: seven checks, abstention vs escalation, the Silence Audit, and results from 20,000 synthetic decisions.", "url": "https://readsigil.com/essays/bounded-autonomy.html", "mainEntityOfPage": "https://readsigil.com/essays/bounded-autonomy.html", "image": "https://readsigil.com/bounded-autonomy/assets/frontier.png", "author": {"@id": "https://readsigil.com/#person"}, "publisher": {"@id": "https://readsigil.com/#person"}, "inLanguage": "en-IN", "isPartOf": {"@id": "https://readsigil.com/#site"}, "about": [{"@type": "DefinedTerm", "@id": "https://readsigil.com/essays/bounded-autonomy.html#definition", "name": "Bounded autonomy", "description": "Bounded autonomy is a way of running AI decisions in which a system acts on its own only inside explicit, pre-agreed limits on what it may do, how much is at stake and how far it can trust its own inputs, and abstains or escalates everywhere else, with every verdict and its reason recorded.", "url": "https://readsigil.com/essays/bounded-autonomy.html#definition"}, {"@type": "DefinedTerm", "name": "Silence Audit", "description": "An assessment of the decisions a system withheld: whether each restraint was warranted, and what each restraint rule costs and saves.", "url": "https://readsigil.com/essays/bounded-autonomy.html#terms"}], "isBasedOn": "https://github.com/Shashwat-Kumar/bounded-autonomy", "citation": ["https://github.com/Shashwat-Kumar/bounded-autonomy", "https://eur-lex.europa.eu/eli/reg/2024/1689/oj", "https://www.rbi.org.in/Scripts/PublicationReportDetails.aspx?UrlPage=&ID=1306"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://readsigil.com/"}, {"@type": "ListItem", "position": 2, "name": "Writing", "item": "https://readsigil.com/writing.html"}, {"@type": "ListItem", "position": 3, "name": "Bounded autonomy", "item": "https://readsigil.com/essays/bounded-autonomy.html"}]}]}</script><link rel="stylesheet" href="../assets/polish.css"><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="icon" href="../favicon.ico" sizes="any"><style>.essay .tbl{overflow-x:auto;margin:24px 0}.essay table{border-collapse:collapse;width:100%;font-size:.92rem}.essay th,.essay td{text-align:left;padding:8px 10px;border-bottom:1px solid #ddd;vertical-align:top}.essay thead th{border-bottom:2px solid #0B5D63;font-weight:600}.essay .def{font-size:1.02rem;color:#222}.essay dl.terms dt{font-weight:600;margin-top:14px}.essay dl.terms dd{margin:2px 0 0}.essay .refs li{margin:6px 0}</style></head><body><div class="ticker" data-src="../data/ticker.json" role="region" aria-label="Live ticker: trending GitHub repositories and AI and data headlines" hidden><span class="tk-label"><i aria-hidden="true"></i>Live</span><div class="tk-view"><div class="tk-track"></div></div><span class="tk-side"><span class="tk-time"></span><button class="tk-pause" type="button" aria-label="Pause ticker">❚❚</button></span></div>
+<header class="top"><div class="wrap bar"><a class="brand" href="../index.html">Shashwat Kumar</a><nav><a href="../writing.html" class=on aria-current=page>Writing</a><a href="../magazine.html">The Signal</a><a href="../agora/index.html">Agora</a><a href="../playground.html">Playground</a><a href="../learn.html">Learn</a><a href="../cases.html">Cases</a><a href="../about.html">About</a><a href="../contact.html">Connect</a></nav></div></header>
+<main><article class="wrap narrow prose essay"><p class="kicker"><a href="../writing.html">Writing</a> · Essay</p><h1>Bounded autonomy: why the most valuable AI in a bank knows when not to act</h1><p class="dek">The dangerous moment for a decisioning model is not when it is unsure. It is when the world has changed, the model has not noticed, and it is still confident.</p><p class="byline mono small">By <a href="../about.html" rel="author">Shashwat Kumar</a></p>
+
+<aside class="aside def" id="definition"><b>Definition.</b> Bounded autonomy is a way of running AI decisions in which a system acts on its own only inside explicit, pre-agreed limits on what it may do, how much is at stake and how far it can trust its own inputs, and abstains or escalates everywhere else, with every verdict and its reason recorded.</aside>
+
+<p>Most of the debate about AI in finance is about capability: how accurate the model is, how much it can automate, how fast it can go. I think that question is now the easier half. The harder half is restraint. A model that is right 95% of the time and cannot tell you which 5% it is about to get wrong is not ready to act alone on someone's money, however good its average.</p>
+
+<p>My thesis is simple. <strong>Mature AI in regulated finance is defined by governed restraint, by knowing when not to act, as much as by what it can do.</strong> That is a claim that should be testable, so I built a test: an open-source decision gate and a synthetic bank of 20,000 decisions you can re-run in your browser. This essay sets out the design and what the numbers say, including where they cut against me.</p>
+
+<h2>The threshold is doing the governing</h2>
+
+<p>In most deployments I have seen, the real governance is a single number. If the model's confidence clears 0.9, the system acts; below that, a person looks. The policy document says more, but the threshold is what actually decides.</p>
+
+<p>A confidence threshold fails in exactly the situation that matters most. When the population drifts, because a new product launches, fraud patterns shift or a data feed quietly goes stale, the model's confidence often stays high while its accuracy falls. Confidence measures how familiar an input looks to the model, not whether the model is right about today's world. It also cannot see things that are not in its features: a sanctions-list match, a customer on a do-not-contact register, a borrower flagged as vulnerable.</p>
+
+<p>In the simulation, the best single threshold, chosen in hindsight on the very data it was scored on, was 0.999. At that setting the model automated 0.9% of decisions, still took two prohibited actions, and cost more per decision than sending everything to a person. Every threshold on the curve lost to full human review. You cannot tune your way out of a missing control.</p>
+
+<h2>Seven checks, in a fixed order</h2>
+
+<p>Bounded autonomy replaces the single number with a short sequence of checks. Each proposal from the model passes through them in order, and the first one that applies decides, so the most restrictive answer always wins.</p>
+
+<div class="tbl"><table>
+<thead><tr><th>#</th><th>Check</th><th>Verdict</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Default deny</td><td>Block</td><td>An action the policy does not name is never taken</td></tr>
+<tr><td>2</td><td>Prohibitions</td><td>Block</td><td>Closing an AML alert that has a sanctions-list match</td></tr>
+<tr><td>3</td><td>Abstention</td><td>Abstain</td><td>Data more than 24 hours old, feature drift, an input unlike the validation set</td></tr>
+<tr><td>4</td><td>Mandatory review</td><td>Escalate</td><td>Collections outreach to a customer flagged as vulnerable</td></tr>
+<tr><td>5</td><td>Circuit breaker</td><td>Escalate</td><td>Recent autonomous errors on this action have passed a set limit</td></tr>
+<tr><td>6</td><td>Stakes ceiling</td><td>Escalate</td><td>Exposure of ₹10 lakh or more is never decided by a machine</td></tr>
+<tr><td>7</td><td>Confidence bar</td><td>Act or escalate</td><td>The bar rises with the stakes, and again if the action cannot be undone</td></tr>
+</tbody></table></div>
+
+<p>Confidence is still there, but it comes last. It only gets a vote once the system has established that the action is permitted, that its inputs are trustworthy, that nobody vulnerable is involved, that it has not been making too many mistakes lately, and that the stakes are within what a machine may decide.</p>
+
+<p>The whole policy lives in one readable file. Risk, compliance and audit can read it, compare versions and sign it off without reading code. Every threshold in it is a governance choice that someone owns, not a parameter an engineer tuned.</p>
+
+<h2>Abstaining is not escalating</h2>
+
+<p>One distinction carries more weight than it first appears to. <em>Escalation</em> means there is a sound basis for a decision, but a person must own it. <em>Abstention</em> means the system has no sound basis to decide at all, and says so.</p>
+
+<p>The difference matters to the reviewer, who should treat an abstained case as one where the model's view is worthless rather than merely uncertain. It matters to the auditor, who needs to know whether the system declined because of the stakes or because of its own blindness. And it matters to whoever owns the model, because a rising abstention rate is an early signal that the population has moved away from what the model was validated on.</p>
+
+<h2>What restraint is worth</h2>
+
+<p>The test bank is synthetic: 20,000 retail decisions across credit-limit increases, card-fraud blocks, AML alert closures and collections outreach, with a drift episode in which the model stays confident while its accuracy collapses. Costs include both the losses from wrong decisions and the cost of human review.</p>
+
+<figure class="plate"><img src="../bounded-autonomy/assets/frontier.png" alt="Chart of cost per decision against automation rate. Bounded autonomy sits below the single confidence-threshold curve at every level of automation." loading="lazy"><figcaption class="small">Cost per decision against automation rate on the synthetic bank. Source: the open benchmark linked below.</figcaption></figure>
+
+<div class="tbl"><table>
+<thead><tr><th></th><th>Bounded autonomy</th><th>Human review of all</th><th>Best single threshold</th><th>Full autonomy</th></tr></thead>
+<tbody>
+<tr><td>Cost per decision</td><td><b>₹813</b></td><td>₹994</td><td>₹1,044</td><td>₹2,904</td></tr>
+<tr><td>Decided autonomously</td><td><b>54.3%</b></td><td>0%</td><td>0.9%</td><td>100%</td></tr>
+<tr><td>Wrong when autonomous</td><td>4.9%</td><td>n/a</td><td>6.4%</td><td>11.8%</td></tr>
+<tr><td>Prohibited actions taken</td><td><b>0</b></td><td>0</td><td>2</td><td>71</td></tr>
+</tbody></table></div>
+
+<p>Bounded autonomy cost 18% less than reviewing every decision by hand while automating more than half of them. Across ten independent runs with different random seeds, the saving ranged from 15% to 23%, with a median of 17.5% and no prohibited action on any run.</p>
+
+<p>Adding the layers one at a time shows where the value comes from:</p>
+
+<div class="tbl"><table>
+<thead><tr><th>Configuration</th><th>Automated</th><th>Wrong when autonomous</th><th>Violations</th><th>Cost per decision</th></tr></thead>
+<tbody>
+<tr><td>Stakes tiers only</td><td>75.0%</td><td>10.8%</td><td>60</td><td>₹1,722</td></tr>
+<tr><td>+ prohibitions and mandatory review</td><td>73.2%</td><td>10.1%</td><td>0</td><td>₹1,049</td></tr>
+<tr><td>+ abstention</td><td>62.5%</td><td>6.3%</td><td>0</td><td>₹852</td></tr>
+<tr><td>+ circuit breakers</td><td>54.3%</td><td>4.9%</td><td>0</td><td><b>₹813</b></td></tr>
+</tbody></table></div>
+
+<p>Prohibitions remove every violation. Abstention removes most of the damage from drift and unfamiliar inputs. The circuit breaker catches what the drift sensor misses, which by design is nearly half of the drifted cases. During the drift episode the system pulls back from about 65% automation to under 20%, and its losses stay flat while those of the unrestrained configuration spike.</p>
+
+<p>The breaker tripped five times. Four trips came during or just after the drift. The fifth was a false alarm in normal conditions: a 12.7% error rate against a 12% limit. I left it in deliberately. A breaker sensitive enough to catch real drift will sometimes fire on noise, and that cost belongs in the accounts rather than out of sight.</p>
+
+<blockquote class="pull"><p>Restraint is cheap per case and expensive in aggregate, and both of those facts belong on the record.</p></blockquote>
+
+<h2>The Silence Audit: grading the decisions not taken</h2>
+
+<p>Most AI assurance asks how often the model was right when it acted. That misses half the behaviour. The Silence Audit asks the opposite question: when the system held back, was it right to?</p>
+
+<p>On the test bank, the system withheld 9,136 of 20,000 decisions. Of all the decisions where acting alone would have done damage, it declined 77%. That is its restraint recall. The other 23%, 533 harmful autonomous actions, are the residual risk the policy owner signs for, stated as a number rather than implied.</p>
+
+<p>The less flattering figure is restraint precision: only about one in five withheld decisions would actually have gone wrong. Four out of five times, a person reviewed a case the machine would have got right. I do not think that is a flaw to hide. It is the price of the protection, and it is affordable because a review costs a few hundred rupees while a wrongly closed sanctions alert costs lakhs. What matters is that the price is measured, rule by rule.</p>
+
+<p>Each restraint rule can be costed: the losses it averted against the review effort it consumed. In this run every rule paid for itself, from the sanctions block (13 cases held, all of them correctly, roughly ₹1.3 crore of loss averted) down to the circuit breaker (2,000 cases held, a net value of about ₹15 lakh). A rule whose net value turns negative is a candidate for retirement. Keeping it anyway, for accountability or conduct reasons, then becomes an explicit, recorded governance decision instead of an invisible one.</p>
+
+<h2>People in the loop are not free</h2>
+
+<p>"Send it to a human" is often treated as the safe default. The numbers do not support that. In the simulation, reviewers are right 97% of the time, which is generous, and still their mistakes make up 48% of the total cost under bounded autonomy. Reviewing everything cost 22% more per decision than bounded autonomy.</p>
+
+<p>Human review is a control with its own error rate, capacity limit and cost. It should be spent where judgement adds most, not spread evenly as reassurance. Oversight also only means something if the person has the information, time and authority to disagree with the machine; otherwise it just moves the blame.</p>
+
+<h2>A record nobody can quietly rewrite</h2>
+
+<p>Every verdict, including each abstention and escalation, is written to a hash-chained ledger. Each entry's fingerprint covers its own record and the previous entry's fingerprint, so editing, deleting or reordering any past decision breaks verification at that exact entry. When an auditor or regulator asks why the system did something eight months ago, the answer should be a lookup, not a reconstruction.</p>
+
+<h2>What would change my mind</h2>
+
+<p>This is a simulation built to make a governance argument testable. It is not evidence about any real institution, and its assumptions sit in one file so they can be argued with. Three of them deserve scrutiny:</p>
+
+<ul>
+<li><b>Feedback is fast.</b> Outcomes reach the circuit breaker after 50 decisions. In real lending the lag is weeks or months, which weakens the breaker and puts more weight on the drift and data checks.</li>
+<li><b>Reviewers do not degrade.</b> They stay 97% accurate during drift. Real reviewers under volume pressure drift too, and some will anchor on the model's view.</li>
+<li><b>Costs are stylised.</b> Review and loss costs are plausible orders of magnitude, not any bank's figures.</li>
+</ul>
+
+<p>I would revise the thesis if a well-calibrated threshold with fast drift detection matched bounded autonomy's cost with fewer moving parts, or if restraint precision in a live setting were so low that review capacity became the binding constraint. If you change an assumption and get a different answer, I want to see it: the benchmark regenerates every table here from one command.</p>
+
+<h2>Where this sits with regulation</h2>
+
+<p>None of this is new as a principle. The EU AI Act requires that people overseeing high-risk systems be able to understand a system's limits, guard against over-reliance on its output, override it case by case and halt it safely. The Reserve Bank of India's FREE-AI framework, published in August 2025, sets out seven principles and 26 recommendations for responsible AI in financial services. What has been missing is the operational layer: controls that are written as reviewable policy, run on every decision and produce evidence. Bounded autonomy is one way to build that layer. It is aligned with these frameworks, not a substitute for reading them.</p>
+
+<h2>Five questions for a board or risk committee</h2>
+
+<ol>
+<li>For each AI decision we run, what may the system do on its own, and where is that written down?</li>
+<li>What happens when its inputs are stale or the population drifts, and how would we know?</li>
+<li>When did the system last decline to act, and was it right to?</li>
+<li>What is the residual risk we have accepted, stated as a number, and who signed for it?</li>
+<li>If a regulator asked tomorrow why a specific decision was taken, how long would the answer take?</li>
+</ol>
+
+<p>Capability will keep improving whether or not we design for it. Restraint will not. It has to be specified, tested, costed and owned, and the institutions that do that work early are the ones that will be able to let their systems do more.</p>
+
+<h2 id="terms">Key terms</h2>
+<dl class="terms">
+<dt>Abstention</dt><dd>The system declines to decide because it has no sound basis to, for example stale data or an input unlike anything it was validated on.</dd>
+<dt>Escalation</dt><dd>The system has a basis to decide, but policy requires a person to own the decision.</dd>
+<dt>Circuit breaker</dt><dd>A rule that withdraws autonomy for an action when its recent error rate passes a set limit, and restores it after a cooling-off period.</dd>
+<dt>Restraint recall</dt><dd>Of all decisions where acting alone would have caused harm, the share the system declined to take.</dd>
+<dt>Silence Audit</dt><dd>An assessment of the decisions a system withheld: whether each restraint was warranted, and what each restraint rule costs and saves.</dd>
+</dl>
+
+<h2>Try it and check it</h2>
+<ul>
+<li><a href="../bounded-autonomy/">Live console</a>: switch governance layers on and off and watch the 20,000 decisions re-run in your browser, then try to rewrite the ledger.</li>
+<li><a href="https://github.com/Shashwat-Kumar/bounded-autonomy">Source code and benchmark</a> (MIT licence). Every figure in this essay comes from its published results.</li>
+</ul>
+
+<h2>References</h2>
+<ol class="refs small">
+<li>Kumar, S. (2026). <i>bounded-autonomy: governed restraint for AI decisions in regulated finance.</i> <a href="https://github.com/Shashwat-Kumar/bounded-autonomy">github.com/Shashwat-Kumar/bounded-autonomy</a></li>
+<li>Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 14: Human oversight. <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">EUR-Lex</a></li>
+<li>Reserve Bank of India (2025). Report of the Committee to develop a Framework for Responsible and Ethical Enablement of Artificial Intelligence (FREE-AI) in the Financial Sector. <a href="https://www.rbi.org.in/Scripts/PublicationReportDetails.aspx?UrlPage=&amp;ID=1306">RBI</a> · <a href="https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61018">press release, 13 August 2025</a></li>
+</ol>
+
+<p class="aside">The test bank and policy are synthetic and illustrative. No customer, employer or bank data, code or policy is used or implied. Views are my own.</p>
+
+<p class="related small">Related: <a href="../essays/brakes.html">Faster cars need better brakes</a> · <a href="../essays/goodhart.html">When the score becomes the goal</a> · <a href="../topics.html#ai-governance">AI governance</a> in the topics glossary</p><hr><p class="next">Next essay<br><a href="../essays/brakes.html">Faster cars need better brakes</a></p></article></main>
+<footer><div class="wrap"><nav class="fnav" aria-label="Footer"><a href="../index.html">Home</a><a href="../writing.html">Writing</a><a href="../ideas.html">Ideas map</a><a href="../topics.html">Topics</a><a href="../playground.html">Playground</a><a href="../learn.html">Learn</a><a href="../cases.html">Case studies</a><a href="../samples.html">Work samples</a><a href="../feed.xml">RSS</a></nav></div><div class="wrap bar"><span>Shashwat Kumar · Mumbai · <span class="pv">Views <img class="counter" src="https://visitor-badge.laobi.icu/badge?page_id=shashwat-kumar.shashwat-analytics&amp;left_text=views&amp;left_color=%23999&amp;right_color=%23999" alt="Site page views" height="18" loading="lazy" referrerpolicy="no-referrer"></span></span><span class="small">Opinions are my own. Work samples use synthetic data about fictional companies. Notes are general information, not legal or tax advice.</span></div></footer></body></html>

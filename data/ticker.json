@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T15:59:09Z",
+ "generated_at": "2026-10-14T20:09:59Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,54 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
-  "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+  "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+  "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50088430",
-  "points": 71,
-  "comments": 53,
-  "published": "2026-10-14T14:38:55Z",
-  "since": "2026-10-14T15:59:09Z"
+  "discuss": "https://news.ycombinator.com/item?id=50091788",
+  "points": 656,
+  "comments": 271,
+  "published": "2026-10-14T17:45:23Z",
+  "since": "2026-10-14T20:09:59Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Elon Musk says he's had AI 'psychosis' half a dozen times in the last year",
-  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tdFpidUZrWDhnUUNnSFlkSmRFTXZGSUtIbERhWFVwWkwwWDVhMG92clREellIVzNWN0V4UWlLVERhR282c1NENkVXbUxWdmFZT2lqUEl3UjFyNmNEbTFJWWYyQ0djWEwtRTNXeWxFaw?oc=5",
-  "source": "Business Insider",
-  "published": "2026-10-14T14:53:00Z",
-  "since": "2026-10-14T15:59:09Z"
+  "person": "Jensen Huang",
+  "title": "Nvidia CEO Jensen Huang says he would cut off customers who build unsafe AI",
+  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNlJBMHJKMjdUQXk4Y0ppUndlQnFoaU5TTDhFdi14VzNpQ3BudkpHTm9scjQ2a2p2bTJ5UFJZb05tOXg1WU5QNVhuUWRqdElyQzVjMm9vWHZWSTVvbGVmaGlxM2thcEpQWVhMUXVhNDBQakhDU2E3c0xLNXlGczNzTVZudUtNWExIR1lqVHBkVW5ONGlzSTFHWDdaVUV5aEJtZGJqNUlSOV9MSDJaMWVtdGxyLVBCSF9NR1JzLUhTMUVuU01JYnd6b29ZNkNSOGYxbllNMzlqRURSYlBuLVQxc21lNl9nb0NMWDZaTWxyQdIB9AFBVV95cUxQUjdfSVAyTlJNN05UVzhnQ2VaVjlNQjBTRFRibUpMQmY2dkpYODRhS3lwSFVnZjM5cllBOTljQUxmeVRtdWJoVk54XzJYMzZ3ZDdZX3JvRGxMa0lhRDZUN01OdXBXNVdHRjBhMWV2dXB5MGMyYzlyWUUzWW05aUxBT1NPbVZOd2JtQXZsTzV0Um1RZUJJU1N5WWJndFpKeE9wYUU1ZG9zdFNUbmZmMnBzVkJxbkxBZGJYQUM1RHhlcXBQaS1kRDdicWd6MmdELXpBNGhWV3NyRGhwaWM0T1BRaTljc2I3QVFfWG8wVzBtNlJFZ2Y1?oc=5",
+  "source": "The Economic Times",
+  "published": "2026-10-14T19:12:36Z",
+  "since": "2026-10-14T20:09:59Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Nvidia CEO Jensen Huang says he would cut off customers who build unsafe AI",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNlJBMHJKMjdUQXk4Y0ppUndlQnFoaU5TTDhFdi14VzNpQ3BudkpHTm9scjQ2a2p2bTJ5UFJZb05tOXg1WU5QNVhuUWRqdElyQzVjMm9vWHZWSTVvbGVmaGlxM2thcEpQWVhMUXVhNDBQakhDU2E3c0xLNXlGczNzTVZudUtNWExIR1lqVHBkVW5ONGlzSTFHWDdaVUV5aEJtZGJqNUlSOV9MSDJaMWVtdGxyLVBCSF9NR1JzLUhTMUVuU01JYnd6b29ZNkNSOGYxbllNMzlqRURSYlBuLVQxc21lNl9nb0NMWDZaTWxyQdIB9AFBVV95cUxQUjdfSVAyTlJNN05UVzhnQ2VaVjlNQjBTRFRibUpMQmY2dkpYODRhS3lwSFVnZjM5cllBOTljQUxmeVRtdWJoVk54XzJYMzZ3ZDdZX3JvRGxMa0lhRDZUN01OdXBXNVdHRjBhMWV2dXB5MGMyYzlyWUUzWW05aUxBT1NPbVZOd2JtQXZsTzV0Um1RZUJJU1N5WWJndFpKeE9wYUU1ZG9zdFNUbmZmMnBzVkJxbkxBZGJYQUM1RHhlcXBQaS1kRDdicWd6MmdELXpBNGhWV3NyRGhwaWM0T1BRaTljc2I3QVFfWG8wVzBtNlJFZ2Y1?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-10-14T19:12:36Z",
+   "since": "2026-10-14T20:09:59Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Demis Hassabis",
+   "title": "'Early warning shots': Google DeepMind's Demis Hassabis warns AI could trigger major incidents within 2 years",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQSlBtWUM3ZkxmMjFhckZOaUNPbmVkUWF1SzVMVkJqLXd6UnItR2x4cy1oeXB5SXpWLUV6ZHdSYlFIVVFiaUtqTElGdHNVcF85dV9nMjR3WWdkTDZpRWJndVZoWDZJUXlSOG5CS25TOTFoZ3RyVUZuZC04WjVSNzBodHJ1LVVyN0t5a21nTk01cjBaRkNOaHJxSjVEbi1fb09QWkE4Z21TVXhHYmtSRGdYWTNfQmhkTjQ3QWtBNjdxeVc5T19aVUVJQ2x5UkI5emdoSHJOUkJxMTY3YkxlYlMyVDN4bHFadENs0gHuAUFVX3lxTE9malNNTWUxX1ROYkRUZGVaaGExOHpxVkFTOFpfZVVidGR2a3BXNEhoa3k1dXJqM0pELWZ2ZWdQeGZRTDdtX3o2UlZvNEkwX2tUY2hWTXloUTdvTUQ4Q2xWRnZpSFpJRlBHVmttek5TZHhtMjlIN0thVWgwWGJjd241U1R2c3RDWkJ1YTlWcWJyNERRT2lER3pTZ2luM3BWdXN6X05iYlM3U2hLZlVzOWF3blhrNUZ2ZlRNd0hqZFNCOWZHa2tFUWJUMlFxSFZxTWVrTXFiZ0NsdXBEbDZKSHZzOU1KT24zM3I5VEl0OVE?oc=5",
+   "source": "Livemint",
+   "published": "2026-10-14T17:41:16Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Mark Zuckerberg",
+   "title": "Mark Zuckerberg Defends Meta's AI CapEx, Ready to 'Write This Check' for up to '$200 Billion' to Dominate 'Decades to Come'",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYlllSFdjUGN6MXplZWlreE1xek9XZmx0OVdGVFZzbDRsRXFjR0hfYkEzYXpZdTF5bVNEbzRRVGVzc1p1dUZFX3BzT25aLVRyenM3X1Nqel9CX3pZZ2lCYnI2ZDB6UVpfdnhPejNCWFdyWU1LcXh4NUFnNS1uclh3enpXdm05T0ZQWHRHbVNCVWFQbkpFRkJ1ODJ3VEE?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-14T17:30:15Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,17 +63,7 @@
    "title": "Elon Musk says he's had AI 'psychosis' half a dozen times in the last year",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tdFpidUZrWDhnUUNnSFlkSmRFTXZGSUtIbERhWFVwWkwwWDVhMG92clREellIVzNWN0V4UWlLVERhR282c1NENkVXbUxWdmFZT2lqUEl3UjFyNmNEbTFJWWYyQ0djWEwtRTNXeWxFaw?oc=5",
    "source": "Business Insider",
-   "published": "2026-10-14T14:53:00Z",
-   "since": "2026-10-14T15:59:09Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Demis Hassabis",
-   "title": "‘Early warning shots’: Google DeepMind’s Demis Hassabis warns of growing AI security risks",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRmlpV0RoWHp2TzZXdG85SzVMM3BQTVotMXo0Z1RoMmgwelJObFpycnBud1ZUVzltRTBzMENmN244R0FBamhJbVVvYlhwUG9SZWszb3ZnOVU4YksxWF9nTDlNcndUZmdLYTZQYWNZN1NlU3pKUnNNcmNWcXlPX29DcmptckVXRkFBSUJVaGtEbW5IMFpnZ2lCVVE2VnJSY1doTlpWWFJFZk5hYUhzSWswTWdERUtMMXhmM3RJSmdFRkFrdlFhajEtWHlUR3dFM2JD0gHQAUFVX3lxTFBGaWlXRGhYenZPNld0bzlLNUwzcFBNWi0xejRnVGgyaDB6Uk5sWnJycG53VlRXOW1FMHMwQ2Y3bjhHQUFqaEltVW9iWHBQb1JlazNvdmc5VThiSzFYX2dMOU1yd1RmZ0thNlBhY1k3U2VTekpSc01yY1ZxeU9fb0Nyam1yRVdGQUFJQlVoa0RtbkgwWmdnaUJVUTZWclJjV2hOWlZYUkVmTmFhSHNJazBNZ0RFS0wxeGYzdElKZ0VGQWt2UWFqMS1YeVRHd0UzYkM?oc=5",
-   "source": "Firstpost",
-   "published": "2026-10-14T14:20:19Z"
+   "published": "2026-10-14T14:53:00Z"
   },
   {
    "kind": "voice",
@@ -55,59 +73,41 @@
    "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5",
    "source": "The Times of India",
    "published": "2026-10-14T05:02:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Mark Zuckerberg",
-   "title": "Zuckerberg reveals uncertainty behind Meta’s $200 billion AI push as investors await returns | Hindustan Times",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNWpXR05rY0FXOF9lU0Z6VmtFVVNuZDNyendnZS1RNlR4WnNHdmVkTDVjYkRBVkwtRUtNZExHeVNQRGhTUVFnN3dJRU45LTkyWGIwSkZuNjN2UTY5NE9RNGlQNEE0ZzVWd3ZYN0VWSHplSWY5VTVqeFlEbFhCdkExRVBZZTR1d0RfdXlYVnhvNG9wTkNRVlhleGt3VGRYaU9JdEJYV3otamZyQ2pjWGFjQnViZDVLeXdnT3BROFF5aWV1Nm5kVk5vMGhZT2R5U2JuMElCZ1RpOW1mQUJRWEkxeEVOUktsSF9DV1J2QkQwMHdNZGhB0gH6AUFVX3lxTFBOXzIxOGVkNDI2M3pWdXJ6Um1oLUszR2I5VUxFWVM1TUZ5MVFndVdXZmM4cV9CODNRNTV0X2lzYXlITXpwck91SG03U3ctbzhIQ3VETDgwRUl6aldPRkpsTEk0UklJcFRjcFNqWFBiZ29CM19VVDQ5MFBiY3hSOWhmak16OGZuV1dmWnlabHJuaF9vbFBtTXNoQmRHLW5YVFdUVUtBblVVRUVsaHNETXpVdFNZTnY2Z1g0aTFVMW1teDk2ZGF3TnhFWnlvY1VLd09qRnZHc2lMUEJaZXZ3Mk5nR2c1Qm9ZRUNUSl9Xb2d1TmFWWHlDWGVheVE?oc=5",
-   "source": "Hindustan Times",
-   "published": "2026-10-13T20:55:41Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Yann LeCun",
-   "title": "Godfather of AI Yann LeCun opposes Dario Amodei’s call of slowing down AI development, says ‘Anthropic is",
-   "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPaTRPZ3hsSXd1MXpnTW84aUxIUGhtUW1JeUJFNWlfeGtHcThXeTdfM1FidGVvWEZSd3RqMEhBaDBQVzZCeU94b19zUGpoRUpVYlNlNlNSZU9iOVlRODZFUm5yWTFDVVhucFo1Ti1yZGRWalJWd2cyTV9VOWhQWjJ4SXFqSjZHdkEySUY2YWxka05jQVhHWks0bFBLLUFQVXYxN1lpc203MVhHbkFlc2VYUHp2TGFyOFJ2LW14bUlTSkhIRm9IZmlEeElWWDlQY05XUHJjMU12WjIwRl9MSllxTmpYNlV0YVFUemo3YlR4bVZsWU93OUZhMGxfc1c0Mk9yUTZ5QWhIZzRGU0wzMkhiYWdjWnFERXk0YmFPRkc5cUpPNndjZlJYeGxoaTE3dDFHTVhxTGZwLXFpU25pMnkxU2lYRkVod9IBywJBVV95cUxQMGxJdTZKMnJGemdkbWpiQVhPOVFDdDlpdU1aa2t0MnlXMndhcUtMT1VTc2dNSGZNNF9jMXdUR2IxMGZuMlB6c3RIa1VxaWIzdFNvMTZNWmZ1X0M2ZDF1NEtxSUl6UmVLZE5YNTB0eUE0V3U1bjljNy11Y3FfWWNDUGw4aGtDTDRiSVNTa3psYXZCQjE1NkRMcjJnV0I2SHdxUE45Z0FnVGdTeWlGN1ZjbFlldDRCVHdicjZWRnNjekMtT3hZSDdKVXVmVDc5TUEwRnpuX0xObE1CSHQxNnV1MEN4LVZtbjl4RVZmN2p3Zzd6ZWNZUUkybHNyc2VfNkpCb3BrWHFWVVBnU1cwUVlRQ2pxZVczNDI1NmVEeEVkNjNjQ1NFYlowVTExb04wRTJZOHUxOHR6dzhNMFU3THA4dk9XZzhxaHlXMUcw?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-13T17:11:00Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk says he's had AI 'psychosis' half a dozen times in the last year",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tdFpidUZrWDhnUUNnSFlkSmRFTXZGSUtIbERhWFVwWkwwWDVhMG92clREellIVzNWN0V4UWlLVERhR282c1NENkVXbUxWdmFZT2lqUEl3UjFyNmNEbTFJWWYyQ0djWEwtRTNXeWxFaw?oc=5",
-   "source": "Business Insider",
-   "published": "2026-10-14T14:53:00Z",
-   "since": "2026-10-14T15:59:09Z"
+   "person": "Jensen Huang",
+   "title": "Nvidia CEO Jensen Huang says he would cut off customers who build unsafe AI",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNlJBMHJKMjdUQXk4Y0ppUndlQnFoaU5TTDhFdi14VzNpQ3BudkpHTm9scjQ2a2p2bTJ5UFJZb05tOXg1WU5QNVhuUWRqdElyQzVjMm9vWHZWSTVvbGVmaGlxM2thcEpQWVhMUXVhNDBQakhDU2E3c0xLNXlGczNzTVZudUtNWExIR1lqVHBkVW5ONGlzSTFHWDdaVUV5aEJtZGJqNUlSOV9MSDJaMWVtdGxyLVBCSF9NR1JzLUhTMUVuU01JYnd6b29ZNkNSOGYxbllNMzlqRURSYlBuLVQxc21lNl9nb0NMWDZaTWxyQdIB9AFBVV95cUxQUjdfSVAyTlJNN05UVzhnQ2VaVjlNQjBTRFRibUpMQmY2dkpYODRhS3lwSFVnZjM5cllBOTljQUxmeVRtdWJoVk54XzJYMzZ3ZDdZX3JvRGxMa0lhRDZUN01OdXBXNVdHRjBhMWV2dXB5MGMyYzlyWUUzWW05aUxBT1NPbVZOd2JtQXZsTzV0Um1RZUJJU1N5WWJndFpKeE9wYUU1ZG9zdFNUbmZmMnBzVkJxbkxBZGJYQUM1RHhlcXBQaS1kRDdicWd6MmdELXpBNGhWV3NyRGhwaWM0T1BRaTljc2I3QVFfWG8wVzBtNlJFZ2Y1?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-10-14T19:12:36Z",
+   "since": "2026-10-14T20:09:59Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Demis Hassabis",
-   "title": "‘Early warning shots’: Google DeepMind’s Demis Hassabis warns of growing AI security risks",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRmlpV0RoWHp2TzZXdG85SzVMM3BQTVotMXo0Z1RoMmgwelJObFpycnBud1ZUVzltRTBzMENmN244R0FBamhJbVVvYlhwUG9SZWszb3ZnOVU4YksxWF9nTDlNcndUZmdLYTZQYWNZN1NlU3pKUnNNcmNWcXlPX29DcmptckVXRkFBSUJVaGtEbW5IMFpnZ2lCVVE2VnJSY1doTlpWWFJFZk5hYUhzSWswTWdERUtMMXhmM3RJSmdFRkFrdlFhajEtWHlUR3dFM2JD0gHQAUFVX3lxTFBGaWlXRGhYenZPNld0bzlLNUwzcFBNWi0xejRnVGgyaDB6Uk5sWnJycG53VlRXOW1FMHMwQ2Y3bjhHQUFqaEltVW9iWHBQb1JlazNvdmc5VThiSzFYX2dMOU1yd1RmZ0thNlBhY1k3U2VTekpSc01yY1ZxeU9fb0Nyam1yRVdGQUFJQlVoa0RtbkgwWmdnaUJVUTZWclJjV2hOWlZYUkVmTmFhSHNJazBNZ0RFS0wxeGYzdElKZ0VGQWt2UWFqMS1YeVRHd0UzYkM?oc=5",
-   "source": "Firstpost",
-   "published": "2026-10-14T14:20:19Z"
+   "title": "'Early warning shots': Google DeepMind's Demis Hassabis warns AI could trigger major incidents within 2 years",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQSlBtWUM3ZkxmMjFhckZOaUNPbmVkUWF1SzVMVkJqLXd6UnItR2x4cy1oeXB5SXpWLUV6ZHdSYlFIVVFiaUtqTElGdHNVcF85dV9nMjR3WWdkTDZpRWJndVZoWDZJUXlSOG5CS25TOTFoZ3RyVUZuZC04WjVSNzBodHJ1LVVyN0t5a21nTk01cjBaRkNOaHJxSjVEbi1fb09QWkE4Z21TVXhHYmtSRGdYWTNfQmhkTjQ3QWtBNjdxeVc5T19aVUVJQ2x5UkI5emdoSHJOUkJxMTY3YkxlYlMyVDN4bHFadENs0gHuAUFVX3lxTE9malNNTWUxX1ROYkRUZGVaaGExOHpxVkFTOFpfZVVidGR2a3BXNEhoa3k1dXJqM0pELWZ2ZWdQeGZRTDdtX3o2UlZvNEkwX2tUY2hWTXloUTdvTUQ4Q2xWRnZpSFpJRlBHVmttek5TZHhtMjlIN0thVWgwWGJjd241U1R2c3RDWkJ1YTlWcWJyNERRT2lER3pTZ2luM3BWdXN6X05iYlM3U2hLZlVzOWF3blhrNUZ2ZlRNd0hqZFNCOWZHa2tFUWJUMlFxSFZxTWVrTXFiZ0NsdXBEbDZKSHZzOU1KT24zM3I5VEl0OVE?oc=5",
+   "source": "Livemint",
+   "published": "2026-10-14T17:41:16Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Elon Musk congratulates CEOs and execs after Google CEO Sundar Pichai announces Gemini 4 Argon; says 'vas",
-   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-14T05:02:00Z"
+   "person": "Mark Zuckerberg",
+   "title": "Mark Zuckerberg Defends Meta's AI CapEx, Ready to 'Write This Check' for up to '$200 Billion' to Dominate 'Decades to Come'",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYlllSFdjUGN6MXplZWlreE1xek9XZmx0OVdGVFZzbDRsRXFjR0hfYkEzYXpZdTF5bVNEbzRRVGVzc1p1dUZFX3BzT25aLVRyenM3X1Nqel9CX3pZZ2lCYnI2ZDB6UVpfdnhPejNCWFdyWU1LcXh4NUFnNS1uclh3enpXdm05T0ZQWHRHbVNCVWFQbkpFRkJ1ODJ3VEE?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-14T17:30:15Z"
   },
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2018,
+   "stars": 2056,
    "note": "Python · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -116,20 +116,20 @@
   },
   {
    "kind": "repo",
-   "title": "deeplethe/solid-glass",
-   "stars": 586,
+   "title": "outcrawlai/scout",
+   "stars": 624,
    "note": "TypeScript · new this week",
-   "url": "https://github.com/deeplethe/solid-glass",
+   "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "outcrawlai/scout",
-   "stars": 538,
+   "title": "deeplethe/solid-glass",
+   "stars": 589,
    "note": "TypeScript · new this week",
-   "url": "https://github.com/outcrawlai/scout",
+   "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -147,7 +147,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 275,
+   "stars": 277,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -167,7 +167,7 @@
   {
    "kind": "repo",
    "title": "wheresryan22/anatomy",
-   "stars": 9485,
+   "stars": 9802,
    "note": "JavaScript · new this week",
    "url": "https://github.com/wheresryan22/anatomy",
    "source": "GitHub",
@@ -177,7 +177,7 @@
   {
    "kind": "repo",
    "title": "mhtsec/ARTEX",
-   "stars": 4049,
+   "stars": 4069,
    "note": "Go · new this week",
    "url": "https://github.com/mhtsec/ARTEX",
    "source": "GitHub",
@@ -187,7 +187,7 @@
   {
    "kind": "repo",
    "title": "ARahim3/DigUp",
-   "stars": 3361,
+   "stars": 3523,
    "note": "Swift · new this week",
    "url": "https://github.com/ARahim3/DigUp",
    "source": "GitHub",
@@ -197,7 +197,7 @@
   {
    "kind": "repo",
    "title": "t4t5/omdrop-owl",
-   "stars": 2649,
+   "stars": 2664,
    "note": "Shell · new this week",
    "url": "https://github.com/t4t5/omdrop-owl",
    "source": "GitHub",
@@ -207,16 +207,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 1392,
-   "title": "Gemini 4 Argon",
+   "points": 656,
+   "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
    "source": "Hacker News",
-   "url": "https://deepmind.google/models/gemini/",
-   "discuss": "https://news.ycombinator.com/item?id=50073879"
+   "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+   "discuss": "https://news.ycombinator.com/item?id=50091788"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 87,
+   "points": 127,
    "title": "TV4 postpones show after AI agent erases edited material",
    "source": "Hacker News",
    "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
@@ -225,38 +225,43 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 71,
-   "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+   "points": 110,
+   "title": "Banks are now trying to offload the AI data center debt they just underwrote",
    "source": "Hacker News",
-   "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-   "discuss": "https://news.ycombinator.com/item?id=50088430"
+   "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+   "discuss": "https://news.ycombinator.com/item?id=50092664"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 23,
-   "title": "AI Laser Locking for Quantum Computers: How QuEra Automates It",
+   "points": 35,
+   "title": "Neckbeard – a DevOps/platform/SRE plugin for your agent",
    "source": "Hacker News",
-   "url": "https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers",
-   "discuss": "https://news.ycombinator.com/item?id=50085302"
+   "url": "https://github.com/bealesh/neckbeard",
+   "discuss": "https://news.ycombinator.com/item?id=50091794"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 19,
-   "title": "Why are all these data companies buying internal data?",
+   "points": 33,
+   "title": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
    "source": "Hacker News",
-   "url": "https://apnews.com/press-release/newsfile/press-release-2dc1342f34a40e5953ab80c2f4bd4fdd",
-   "discuss": "https://news.ycombinator.com/item?id=50089052"
+   "url": "https://github.com/graphicle-ai/graphicle",
+   "discuss": "https://news.ycombinator.com/item?id=50088713"
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 0,
-   "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
-   "source": "Hacker News",
-   "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
-   "discuss": "https://news.ycombinator.com/item?id=50078686"
+   "tag": "AI",
+   "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/"
   },
   {
    "kind": "news",
@@ -268,23 +273,9 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last two days in San Francisco’s Moscone West",
+   "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/"
   },
   {
    "kind": "news",

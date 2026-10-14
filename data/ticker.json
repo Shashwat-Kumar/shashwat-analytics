@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T20:53:27Z",
+ "generated_at": "2026-10-14T00:01:27Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://deepmind.google/models/gemini/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50073879",
-  "points": 724,
-  "comments": 588,
+  "points": 917,
+  "comments": 704,
   "published": "2026-10-13T16:03:16Z",
   "since": "2026-10-13T20:51:39Z"
  },
@@ -21,22 +21,22 @@
   "kind": "voice",
   "tag": "VOICE",
   "person": "Mark Zuckerberg",
-  "title": "Mark Zuckerberg admits he wasn't sure Meta's $200 billion AI bet would pay off",
-  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ScUZOSTUwalpubGdlY1MwSXRHZmU3RDR3ZHdxanFYalBGemNWWVpNaTU2SGRuRWdjQU5ubDgtdmdodE9qTm0yZEVvVmxjb1VIdTF0NVNFSVl6MEFvMmhNYzR5cHRxUjVwcy1SS1ppajR1UFlLRmhHS3NrTXJldw?oc=5",
-  "source": "Quartz",
-  "published": "2026-10-13T20:22:23Z",
-  "since": "2026-10-13T20:51:39Z"
+  "title": "Zuckerberg reveals uncertainty behind Meta’s $200 billion AI push as investors await returns | Hindustan Times",
+  "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNWpXR05rY0FXOF9lU0Z6VmtFVVNuZDNyendnZS1RNlR4WnNHdmVkTDVjYkRBVkwtRUtNZExHeVNQRGhTUVFnN3dJRU45LTkyWGIwSkZuNjN2UTY5NE9RNGlQNEE0ZzVWd3ZYN0VWSHplSWY5VTVqeFlEbFhCdkExRVBZZTR1d0RfdXlYVnhvNG9wTkNRVlhleGt3VGRYaU9JdEJYV3otamZyQ2pjWGFjQnViZDVLeXdnT3BROFF5aWV1Nm5kVk5vMGhZT2R5U2JuMElCZ1RpOW1mQUJRWEkxeEVOUktsSF9DV1J2QkQwMHdNZGhB0gH6AUFVX3lxTFBOXzIxOGVkNDI2M3pWdXJ6Um1oLUszR2I5VUxFWVM1TUZ5MVFndVdXZmM4cV9CODNRNTV0X2lzYXlITXpwck91SG03U3ctbzhIQ3VETDgwRUl6aldPRkpsTEk0UklJcFRjcFNqWFBiZ29CM19VVDQ5MFBiY3hSOWhmak16OGZuV1dmWnlabHJuaF9vbFBtTXNoQmRHLW5YVFdUVUtBblVVRUVsaHNETXpVdFNZTnY2Z1g0aTFVMW1teDk2ZGF3TnhFWnlvY1VLd09qRnZHc2lMUEJaZXZ3Mk5nR2c1Qm9ZRUNUSl9Xb2d1TmFWWHlDWGVheVE?oc=5",
+  "source": "Hindustan Times",
+  "published": "2026-10-13T20:55:41Z",
+  "since": "2026-10-14T00:01:27Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Mark Zuckerberg",
-   "title": "Mark Zuckerberg admits he wasn't sure Meta's $200 billion AI bet would pay off",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ScUZOSTUwalpubGdlY1MwSXRHZmU3RDR3ZHdxanFYalBGemNWWVpNaTU2SGRuRWdjQU5ubDgtdmdodE9qTm0yZEVvVmxjb1VIdTF0NVNFSVl6MEFvMmhNYzR5cHRxUjVwcy1SS1ppajR1UFlLRmhHS3NrTXJldw?oc=5",
-   "source": "Quartz",
-   "published": "2026-10-13T20:22:23Z",
-   "since": "2026-10-13T20:51:39Z"
+   "title": "Zuckerberg reveals uncertainty behind Meta’s $200 billion AI push as investors await returns | Hindustan Times",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNWpXR05rY0FXOF9lU0Z6VmtFVVNuZDNyendnZS1RNlR4WnNHdmVkTDVjYkRBVkwtRUtNZExHeVNQRGhTUVFnN3dJRU45LTkyWGIwSkZuNjN2UTY5NE9RNGlQNEE0ZzVWd3ZYN0VWSHplSWY5VTVqeFlEbFhCdkExRVBZZTR1d0RfdXlYVnhvNG9wTkNRVlhleGt3VGRYaU9JdEJYV3otamZyQ2pjWGFjQnViZDVLeXdnT3BROFF5aWV1Nm5kVk5vMGhZT2R5U2JuMElCZ1RpOW1mQUJRWEkxeEVOUktsSF9DV1J2QkQwMHdNZGhB0gH6AUFVX3lxTFBOXzIxOGVkNDI2M3pWdXJ6Um1oLUszR2I5VUxFWVM1TUZ5MVFndVdXZmM4cV9CODNRNTV0X2lzYXlITXpwck91SG03U3ctbzhIQ3VETDgwRUl6aldPRkpsTEk0UklJcFRjcFNqWFBiZ29CM19VVDQ5MFBiY3hSOWhmak16OGZuV1dmWnlabHJuaF9vbFBtTXNoQmRHLW5YVFdUVUtBblVVRUVsaHNETXpVdFNZTnY2Z1g0aTFVMW1teDk2ZGF3TnhFWnlvY1VLd09qRnZHc2lMUEJaZXZ3Mk5nR2c1Qm9ZRUNUSl9Xb2d1TmFWWHlDWGVheVE?oc=5",
+   "source": "Hindustan Times",
+   "published": "2026-10-13T20:55:41Z",
+   "since": "2026-10-14T00:01:27Z"
   },
   {
    "kind": "voice",
@@ -71,11 +71,11 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Mark Zuckerberg",
-   "title": "Mark Zuckerberg admits he wasn't sure Meta's $200 billion AI bet would pay off",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ScUZOSTUwalpubGdlY1MwSXRHZmU3RDR3ZHdxanFYalBGemNWWVpNaTU2SGRuRWdjQU5ubDgtdmdodE9qTm0yZEVvVmxjb1VIdTF0NVNFSVl6MEFvMmhNYzR5cHRxUjVwcy1SS1ppajR1UFlLRmhHS3NrTXJldw?oc=5",
-   "source": "Quartz",
-   "published": "2026-10-13T20:22:23Z",
-   "since": "2026-10-13T20:51:39Z"
+   "title": "Zuckerberg reveals uncertainty behind Meta’s $200 billion AI push as investors await returns | Hindustan Times",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNWpXR05rY0FXOF9lU0Z6VmtFVVNuZDNyendnZS1RNlR4WnNHdmVkTDVjYkRBVkwtRUtNZExHeVNQRGhTUVFnN3dJRU45LTkyWGIwSkZuNjN2UTY5NE9RNGlQNEE0ZzVWd3ZYN0VWSHplSWY5VTVqeFlEbFhCdkExRVBZZTR1d0RfdXlYVnhvNG9wTkNRVlhleGt3VGRYaU9JdEJYV3otamZyQ2pjWGFjQnViZDVLeXdnT3BROFF5aWV1Nm5kVk5vMGhZT2R5U2JuMElCZ1RpOW1mQUJRWEkxeEVOUktsSF9DV1J2QkQwMHdNZGhB0gH6AUFVX3lxTFBOXzIxOGVkNDI2M3pWdXJ6Um1oLUszR2I5VUxFWVM1TUZ5MVFndVdXZmM4cV9CODNRNTV0X2lzYXlITXpwck91SG03U3ctbzhIQ3VETDgwRUl6aldPRkpsTEk0UklJcFRjcFNqWFBiZ29CM19VVDQ5MFBiY3hSOWhmak16OGZuV1dmWnlabHJuaF9vbFBtTXNoQmRHLW5YVFdUVUtBblVVRUVsaHNETXpVdFNZTnY2Z1g0aTFVMW1teDk2ZGF3TnhFWnlvY1VLd09qRnZHc2lMUEJaZXZ3Mk5nR2c1Qm9ZRUNUSl9Xb2d1TmFWWHlDWGVheVE?oc=5",
+   "source": "Hindustan Times",
+   "published": "2026-10-13T20:55:41Z",
+   "since": "2026-10-14T00:01:27Z"
   },
   {
    "kind": "voice",
@@ -98,7 +98,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1469,
+   "stars": 1504,
    "note": "Python · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -118,7 +118,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 268,
+   "stars": 269,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -128,7 +128,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 247,
+   "stars": 252,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -137,18 +137,8 @@
   },
   {
    "kind": "repo",
-   "title": "storytold/wordcraft",
-   "stars": 10904,
-   "note": "Rust · new this week",
-   "url": "https://github.com/storytold/wordcraft",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "wheresryan22/anatomy",
-   "stars": 8035,
+   "stars": 8160,
    "note": "JavaScript · new this week",
    "url": "https://github.com/wheresryan22/anatomy",
    "source": "GitHub",
@@ -157,20 +147,30 @@
   },
   {
    "kind": "repo",
-   "title": "storytold/gridcraft",
-   "stars": 4400,
-   "note": "Rust · new this week",
-   "url": "https://github.com/storytold/gridcraft",
+   "title": "mhtsec/ARTEX",
+   "stars": 3870,
+   "note": "Go · new this week",
+   "url": "https://github.com/mhtsec/ARTEX",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "repo",
-   "title": "storytold/cadcraft",
-   "stars": 4129,
-   "note": "Rust · new this week",
-   "url": "https://github.com/storytold/cadcraft",
+   "title": "t4t5/omdrop-owl",
+   "stars": 2583,
+   "note": "Shell · new this week",
+   "url": "https://github.com/t4t5/omdrop-owl",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "ARahim3/DigUp",
+   "stars": 2346,
+   "note": "Swift · new this week",
+   "url": "https://github.com/ARahim3/DigUp",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -178,7 +178,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 724,
+   "points": 917,
    "title": "Gemini 4 Argon",
    "source": "Hacker News",
    "url": "https://deepmind.google/models/gemini/",
@@ -187,16 +187,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 356,
-   "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
-   "source": "Hacker News",
-   "url": "https://eg2.haku.sh/",
-   "discuss": "https://news.ycombinator.com/item?id=50069971"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 326,
+   "points": 480,
    "title": "Redesigning source control at Anthropic",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
@@ -205,7 +196,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 237,
+   "points": 380,
+   "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+   "source": "Hacker News",
+   "url": "https://eg2.haku.sh/",
+   "discuss": "https://news.ycombinator.com/item?id=50069971"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 343,
+   "title": "OpenAI engineer arrested in bugging of executive conference room",
+   "source": "Hacker News",
+   "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+   "discuss": "https://news.ycombinator.com/item?id=50078141"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 274,
    "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
    "source": "Hacker News",
    "url": "https://blog.character.ai/an-update-on-character-ai/",
@@ -214,7 +223,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 184,
+   "points": 228,
    "title": "I posted to HN, and then my website was flooded with AI bot traffic",
    "source": "Hacker News",
    "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
@@ -223,7 +232,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 141,
+   "points": 175,
    "title": "Gemini 4 Argon for Robotics",
    "source": "Hacker News",
    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
@@ -232,7 +241,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 86,
+   "points": 119,
    "title": "How to engineer an AI harness for game development",
    "source": "Hacker News",
    "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
@@ -240,40 +249,31 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 50,
-   "title": "OpenAI finds recording device in one of their offices",
-   "source": "Hacker News",
-   "url": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
-   "discuss": "https://news.ycombinator.com/item?id=50077703"
+   "tag": "AI",
+   "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+   "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/"
+   "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+   "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/"
+   "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Facebook is giving users more control over their algorithm",
+   "title": "Cerebras CEO pushes back on AI doomsday warnings",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/"
+   "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/"
   },
   {
    "kind": "news",

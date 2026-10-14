@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T11:44:55Z",
+ "generated_at": "2026-10-14T15:59:09Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,45 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Gemini 4 Argon",
-  "url": "https://deepmind.google/models/gemini/",
+  "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+  "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50073879",
-  "points": 1335,
-  "comments": 929,
-  "published": "2026-10-13T16:03:16Z",
-  "since": "2026-10-13T20:51:39Z"
+  "discuss": "https://news.ycombinator.com/item?id=50088430",
+  "points": 71,
+  "comments": 53,
+  "published": "2026-10-14T14:38:55Z",
+  "since": "2026-10-14T15:59:09Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sundar Pichai",
-  "title": "Elon Musk congratulates CEOs and execs after Google CEO Sundar Pichai announces Gemini 4 Argon; says 'vas",
-  "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5",
-  "source": "The Times of India",
-  "published": "2026-10-14T05:02:00Z",
-  "since": "2026-10-14T06:04:32Z"
+  "person": "Elon Musk",
+  "title": "Elon Musk says he's had AI 'psychosis' half a dozen times in the last year",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tdFpidUZrWDhnUUNnSFlkSmRFTXZGSUtIbERhWFVwWkwwWDVhMG92clREellIVzNWN0V4UWlLVERhR282c1NENkVXbUxWdmFZT2lqUEl3UjFyNmNEbTFJWWYyQ0djWEwtRTNXeWxFaw?oc=5",
+  "source": "Business Insider",
+  "published": "2026-10-14T14:53:00Z",
+  "since": "2026-10-14T15:59:09Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk says he's had AI 'psychosis' half a dozen times in the last year",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tdFpidUZrWDhnUUNnSFlkSmRFTXZGSUtIbERhWFVwWkwwWDVhMG92clREellIVzNWN0V4UWlLVERhR282c1NENkVXbUxWdmFZT2lqUEl3UjFyNmNEbTFJWWYyQ0djWEwtRTNXeWxFaw?oc=5",
+   "source": "Business Insider",
+   "published": "2026-10-14T14:53:00Z",
+   "since": "2026-10-14T15:59:09Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Demis Hassabis",
+   "title": "‘Early warning shots’: Google DeepMind’s Demis Hassabis warns of growing AI security risks",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRmlpV0RoWHp2TzZXdG85SzVMM3BQTVotMXo0Z1RoMmgwelJObFpycnBud1ZUVzltRTBzMENmN244R0FBamhJbVVvYlhwUG9SZWszb3ZnOVU4YksxWF9nTDlNcndUZmdLYTZQYWNZN1NlU3pKUnNNcmNWcXlPX29DcmptckVXRkFBSUJVaGtEbW5IMFpnZ2lCVVE2VnJSY1doTlpWWFJFZk5hYUhzSWswTWdERUtMMXhmM3RJSmdFRkFrdlFhajEtWHlUR3dFM2JD0gHQAUFVX3lxTFBGaWlXRGhYenZPNld0bzlLNUwzcFBNWi0xejRnVGgyaDB6Uk5sWnJycG53VlRXOW1FMHMwQ2Y3bjhHQUFqaEltVW9iWHBQb1JlazNvdmc5VThiSzFYX2dMOU1yd1RmZ0thNlBhY1k3U2VTekpSc01yY1ZxeU9fb0Nyam1yRVdGQUFJQlVoa0RtbkgwWmdnaUJVUTZWclJjV2hOWlZYUkVmTmFhSHNJazBNZ0RFS0wxeGYzdElKZ0VGQWt2UWFqMS1YeVRHd0UzYkM?oc=5",
+   "source": "Firstpost",
+   "published": "2026-10-14T14:20:19Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,8 +54,7 @@
    "title": "Elon Musk congratulates CEOs and execs after Google CEO Sundar Pichai announces Gemini 4 Argon; says 'vas",
    "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5",
    "source": "The Times of India",
-   "published": "2026-10-14T05:02:00Z",
-   "since": "2026-10-14T06:04:32Z"
+   "published": "2026-10-14T05:02:00Z"
   },
   {
    "kind": "voice",
@@ -55,50 +73,41 @@
    "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPaTRPZ3hsSXd1MXpnTW84aUxIUGhtUW1JeUJFNWlfeGtHcThXeTdfM1FidGVvWEZSd3RqMEhBaDBQVzZCeU94b19zUGpoRUpVYlNlNlNSZU9iOVlRODZFUm5yWTFDVVhucFo1Ti1yZGRWalJWd2cyTV9VOWhQWjJ4SXFqSjZHdkEySUY2YWxka05jQVhHWks0bFBLLUFQVXYxN1lpc203MVhHbkFlc2VYUHp2TGFyOFJ2LW14bUlTSkhIRm9IZmlEeElWWDlQY05XUHJjMU12WjIwRl9MSllxTmpYNlV0YVFUemo3YlR4bVZsWU93OUZhMGxfc1c0Mk9yUTZ5QWhIZzRGU0wzMkhiYWdjWnFERXk0YmFPRkc5cUpPNndjZlJYeGxoaTE3dDFHTVhxTGZwLXFpU25pMnkxU2lYRkVod9IBywJBVV95cUxQMGxJdTZKMnJGemdkbWpiQVhPOVFDdDlpdU1aa2t0MnlXMndhcUtMT1VTc2dNSGZNNF9jMXdUR2IxMGZuMlB6c3RIa1VxaWIzdFNvMTZNWmZ1X0M2ZDF1NEtxSUl6UmVLZE5YNTB0eUE0V3U1bjljNy11Y3FfWWNDUGw4aGtDTDRiSVNTa3psYXZCQjE1NkRMcjJnV0I2SHdxUE45Z0FnVGdTeWlGN1ZjbFlldDRCVHdicjZWRnNjekMtT3hZSDdKVXVmVDc5TUEwRnpuX0xObE1CSHQxNnV1MEN4LVZtbjl4RVZmN2p3Zzd6ZWNZUUkybHNyc2VfNkpCb3BrWHFWVVBnU1cwUVlRQ2pxZVczNDI1NmVEeEVkNjNjQ1NFYlowVTExb04wRTJZOHUxOHR6dzhNMFU3THA4dk9XZzhxaHlXMUcw?oc=5",
    "source": "The Times of India",
    "published": "2026-10-13T17:11:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk Says ‘No Crying in the Casino’ After Broadcom CEO Warns AI Frenzy Is Getting Out of Hand",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RdEU2OWItTHotZG1RWWVPb25XYy1xYmEtQ1BzTlZ4Vk5BaGRlSk5mX1RqQ2VJWlVVQUM4UnV4dG5EYzFub0FpY190blY1Tl94X3dPUmludzktYnc4eExCZXpfT2FYXzBzQmRVRUtEd25HVTdmNEZqajdHemk?oc=5",
-   "source": "Barron's",
-   "published": "2026-10-13T16:56:00Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk says he's had AI 'psychosis' half a dozen times in the last year",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tdFpidUZrWDhnUUNnSFlkSmRFTXZGSUtIbERhWFVwWkwwWDVhMG92clREellIVzNWN0V4UWlLVERhR282c1NENkVXbUxWdmFZT2lqUEl3UjFyNmNEbTFJWWYyQ0djWEwtRTNXeWxFaw?oc=5",
+   "source": "Business Insider",
+   "published": "2026-10-14T14:53:00Z",
+   "since": "2026-10-14T15:59:09Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Demis Hassabis",
+   "title": "‘Early warning shots’: Google DeepMind’s Demis Hassabis warns of growing AI security risks",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRmlpV0RoWHp2TzZXdG85SzVMM3BQTVotMXo0Z1RoMmgwelJObFpycnBud1ZUVzltRTBzMENmN244R0FBamhJbVVvYlhwUG9SZWszb3ZnOVU4YksxWF9nTDlNcndUZmdLYTZQYWNZN1NlU3pKUnNNcmNWcXlPX29DcmptckVXRkFBSUJVaGtEbW5IMFpnZ2lCVVE2VnJSY1doTlpWWFJFZk5hYUhzSWswTWdERUtMMXhmM3RJSmdFRkFrdlFhajEtWHlUR3dFM2JD0gHQAUFVX3lxTFBGaWlXRGhYenZPNld0bzlLNUwzcFBNWi0xejRnVGgyaDB6Uk5sWnJycG53VlRXOW1FMHMwQ2Y3bjhHQUFqaEltVW9iWHBQb1JlazNvdmc5VThiSzFYX2dMOU1yd1RmZ0thNlBhY1k3U2VTekpSc01yY1ZxeU9fb0Nyam1yRVdGQUFJQlVoa0RtbkgwWmdnaUJVUTZWclJjV2hOWlZYUkVmTmFhSHNJazBNZ0RFS0wxeGYzdElKZ0VGQWt2UWFqMS1YeVRHd0UzYkM?oc=5",
+   "source": "Firstpost",
+   "published": "2026-10-14T14:20:19Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Sundar Pichai",
    "title": "Elon Musk congratulates CEOs and execs after Google CEO Sundar Pichai announces Gemini 4 Argon; says 'vas",
    "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5",
    "source": "The Times of India",
-   "published": "2026-10-14T05:02:00Z",
-   "since": "2026-10-14T06:04:32Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Mark Zuckerberg",
-   "title": "Zuckerberg reveals uncertainty behind Meta’s $200 billion AI push as investors await returns | Hindustan Times",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNWpXR05rY0FXOF9lU0Z6VmtFVVNuZDNyendnZS1RNlR4WnNHdmVkTDVjYkRBVkwtRUtNZExHeVNQRGhTUVFnN3dJRU45LTkyWGIwSkZuNjN2UTY5NE9RNGlQNEE0ZzVWd3ZYN0VWSHplSWY5VTVqeFlEbFhCdkExRVBZZTR1d0RfdXlYVnhvNG9wTkNRVlhleGt3VGRYaU9JdEJYV3otamZyQ2pjWGFjQnViZDVLeXdnT3BROFF5aWV1Nm5kVk5vMGhZT2R5U2JuMElCZ1RpOW1mQUJRWEkxeEVOUktsSF9DV1J2QkQwMHdNZGhB0gH6AUFVX3lxTFBOXzIxOGVkNDI2M3pWdXJ6Um1oLUszR2I5VUxFWVM1TUZ5MVFndVdXZmM4cV9CODNRNTV0X2lzYXlITXpwck91SG03U3ctbzhIQ3VETDgwRUl6aldPRkpsTEk0UklJcFRjcFNqWFBiZ29CM19VVDQ5MFBiY3hSOWhmak16OGZuV1dmWnlabHJuaF9vbFBtTXNoQmRHLW5YVFdUVUtBblVVRUVsaHNETXpVdFNZTnY2Z1g0aTFVMW1teDk2ZGF3TnhFWnlvY1VLd09qRnZHc2lMUEJaZXZ3Mk5nR2c1Qm9ZRUNUSl9Xb2d1TmFWWHlDWGVheVE?oc=5",
-   "source": "Hindustan Times",
-   "published": "2026-10-13T20:55:41Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Yann LeCun",
-   "title": "Godfather of AI Yann LeCun opposes Dario Amodei’s call of slowing down AI development, says ‘Anthropic is",
-   "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPaTRPZ3hsSXd1MXpnTW84aUxIUGhtUW1JeUJFNWlfeGtHcThXeTdfM1FidGVvWEZSd3RqMEhBaDBQVzZCeU94b19zUGpoRUpVYlNlNlNSZU9iOVlRODZFUm5yWTFDVVhucFo1Ti1yZGRWalJWd2cyTV9VOWhQWjJ4SXFqSjZHdkEySUY2YWxka05jQVhHWks0bFBLLUFQVXYxN1lpc203MVhHbkFlc2VYUHp2TGFyOFJ2LW14bUlTSkhIRm9IZmlEeElWWDlQY05XUHJjMU12WjIwRl9MSllxTmpYNlV0YVFUemo3YlR4bVZsWU93OUZhMGxfc1c0Mk9yUTZ5QWhIZzRGU0wzMkhiYWdjWnFERXk0YmFPRkc5cUpPNndjZlJYeGxoaTE3dDFHTVhxTGZwLXFpU25pMnkxU2lYRkVod9IBywJBVV95cUxQMGxJdTZKMnJGemdkbWpiQVhPOVFDdDlpdU1aa2t0MnlXMndhcUtMT1VTc2dNSGZNNF9jMXdUR2IxMGZuMlB6c3RIa1VxaWIzdFNvMTZNWmZ1X0M2ZDF1NEtxSUl6UmVLZE5YNTB0eUE0V3U1bjljNy11Y3FfWWNDUGw4aGtDTDRiSVNTa3psYXZCQjE1NkRMcjJnV0I2SHdxUE45Z0FnVGdTeWlGN1ZjbFlldDRCVHdicjZWRnNjekMtT3hZSDdKVXVmVDc5TUEwRnpuX0xObE1CSHQxNnV1MEN4LVZtbjl4RVZmN2p3Zzd6ZWNZUUkybHNyc2VfNkpCb3BrWHFWVVBnU1cwUVlRQ2pxZVczNDI1NmVEeEVkNjNjQ1NFYlowVTExb04wRTJZOHUxOHR6dzhNMFU3THA4dk9XZzhxaHlXMUcw?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-13T17:11:00Z"
+   "published": "2026-10-14T05:02:00Z"
   },
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1914,
+   "stars": 2018,
    "note": "Python · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -108,7 +117,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 580,
+   "stars": 586,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -118,7 +127,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 311,
+   "stars": 538,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -148,7 +157,7 @@
   {
    "kind": "repo",
    "title": "BlenderGPT3D/blender-ai-addon",
-   "stars": 211,
+   "stars": 212,
    "note": "Python · new this week",
    "url": "https://github.com/BlenderGPT3D/blender-ai-addon",
    "source": "GitHub",
@@ -158,7 +167,7 @@
   {
    "kind": "repo",
    "title": "wheresryan22/anatomy",
-   "stars": 9050,
+   "stars": 9485,
    "note": "JavaScript · new this week",
    "url": "https://github.com/wheresryan22/anatomy",
    "source": "GitHub",
@@ -168,7 +177,7 @@
   {
    "kind": "repo",
    "title": "mhtsec/ARTEX",
-   "stars": 4019,
+   "stars": 4049,
    "note": "Go · new this week",
    "url": "https://github.com/mhtsec/ARTEX",
    "source": "GitHub",
@@ -178,7 +187,7 @@
   {
    "kind": "repo",
    "title": "ARahim3/DigUp",
-   "stars": 3152,
+   "stars": 3361,
    "note": "Swift · new this week",
    "url": "https://github.com/ARahim3/DigUp",
    "source": "GitHub",
@@ -188,7 +197,7 @@
   {
    "kind": "repo",
    "title": "t4t5/omdrop-owl",
-   "stars": 2631,
+   "stars": 2649,
    "note": "Shell · new this week",
    "url": "https://github.com/t4t5/omdrop-owl",
    "source": "GitHub",
@@ -198,7 +207,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 1335,
+   "points": 1392,
    "title": "Gemini 4 Argon",
    "source": "Hacker News",
    "url": "https://deepmind.google/models/gemini/",
@@ -207,43 +216,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 794,
-   "title": "Redesigning source control at Anthropic",
+   "points": 87,
+   "title": "TV4 postpones show after AI agent erases edited material",
    "source": "Hacker News",
-   "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-   "discuss": "https://news.ycombinator.com/item?id=50073633"
+   "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+   "discuss": "https://news.ycombinator.com/item?id=50085323"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 710,
-   "title": "AI is a tool and using it well takes skill",
+   "points": 71,
+   "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
    "source": "Hacker News",
-   "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "discuss": "https://news.ycombinator.com/item?id=50063427"
+   "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+   "discuss": "https://news.ycombinator.com/item?id=50088430"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 27,
-   "title": "What agents mean for Rust (and vice versa)",
-   "source": "Hacker News",
-   "url": "https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/",
-   "discuss": "https://news.ycombinator.com/item?id=50084416"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 24,
-   "title": "Show HN: Building an LLM from Scratch in TypeScript",
-   "source": "Hacker News",
-   "url": "https://book.humanexperiences.io/",
-   "discuss": "https://news.ycombinator.com/item?id=50085332"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 10,
+   "points": 23,
    "title": "AI Laser Locking for Quantum Computers: How QuEra Automates It",
    "source": "Hacker News",
    "url": "https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers",
@@ -251,31 +242,49 @@
   },
   {
    "kind": "news",
-   "tag": "AI",
-   "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/"
+   "tag": "HN",
+   "points": 19,
+   "title": "Why are all these data companies buying internal data?",
+   "source": "Hacker News",
+   "url": "https://apnews.com/press-release/newsfile/press-release-2dc1342f34a40e5953ab80c2f4bd4fdd",
+   "discuss": "https://news.ycombinator.com/item?id=50089052"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 0,
+   "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+   "source": "Hacker News",
+   "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+   "discuss": "https://news.ycombinator.com/item?id=50078686"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+   "title": "Deezer will soon let you filter out AI-generated music",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/"
+   "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+   "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last two days in San Francisco’s Moscone West",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
+   "url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+   "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/"
+   "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/"
   },
   {
    "kind": "news",

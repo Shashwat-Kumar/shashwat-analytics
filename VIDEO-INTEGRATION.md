@@ -1,6 +1,6 @@
 # ReadSigil: curated video integration — 14 October 2026
 
-**Status: staging / not ready to merge.** The corresponding optimized videos and posters have been prepared in a downloadable ReadSigil integration ZIP in the ChatGPT conversation. This branch contains page markup and responsive CSS only; add the eight video/poster binaries before merging.
+**Status: media files committed; ready to publish.** All four optimized MP4 videos and four corresponding JPG posters have been committed to `assets/video/`, alongside page markup and responsive CSS. Uploaded GitHub blob hashes were verified against local originals.
 
 | Page | File required in assets/video | On-page heading | Editorial role |
 | --- | --- | --- | --- |
@@ -15,11 +15,10 @@ Two near-duplicate uploaded takes are deliberately not placed: `VID_20261014_222
 
 **Editorial disclosure:** synthetic footage is explicitly labelled. It must never be described as actual documentary, interview, conference or banking footage. Adjacent text is editorial framing, not a transcript. Before publication, verify spoken audio and, where needed, add accurately transcribed captions.
 
-## Before merge
-1. Extract the supplied ChatGPT integration ZIP; copy `assets/video/*.mp4` and `*.jpg` into this repository's `assets/video/`.
-2. Verify exact case-sensitive paths above.
-3. Run a local static server; test homepage, About, Decision Atlas and Media on mobile and desktop. Confirm poster loads and all video links return 200.
-4. Confirm audio quality, generated likeness/provenance disclosure, text-to-clip relevance, and accessible captions when finalized.
-5. Commit the binary assets to this branch, then mark the PR ready for review and merge. Confirm live deployment after GitHub Pages build.
+## Post-publication verification
+1. On `readsigil.com`, check homepage, About, Decision Atlas, and Media with the page-specific video captions and disclosures.
+2. Confirm all four MP4 and four JPG asset URLs return 200 after GitHub Pages deployment.
+3. Check playback with sound, keyboard accessibility, and mobile layout. If intelligible generated speech is present, add accurate closed captions in a subsequent enhancement.
+4. Keep original press coverage separate from the generated field-note section.
 
 Existing homepage `assets/video/intro.mp4` and `intro.webm` are intentionally **not** deleted to make rollback easy.

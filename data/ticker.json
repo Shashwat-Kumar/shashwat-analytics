@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T20:09:59Z",
+ "generated_at": "2026-10-14T23:19:10Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,12 +8,12 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+  "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
   "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50091788",
-  "points": 656,
-  "comments": 271,
+  "points": 801,
+  "comments": 420,
   "published": "2026-10-14T17:45:23Z",
   "since": "2026-10-14T20:09:59Z"
  },
@@ -21,22 +21,22 @@
   "kind": "voice",
   "tag": "VOICE",
   "person": "Jensen Huang",
-  "title": "Nvidia CEO Jensen Huang says he would cut off customers who build unsafe AI",
-  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNlJBMHJKMjdUQXk4Y0ppUndlQnFoaU5TTDhFdi14VzNpQ3BudkpHTm9scjQ2a2p2bTJ5UFJZb05tOXg1WU5QNVhuUWRqdElyQzVjMm9vWHZWSTVvbGVmaGlxM2thcEpQWVhMUXVhNDBQakhDU2E3c0xLNXlGczNzTVZudUtNWExIR1lqVHBkVW5ONGlzSTFHWDdaVUV5aEJtZGJqNUlSOV9MSDJaMWVtdGxyLVBCSF9NR1JzLUhTMUVuU01JYnd6b29ZNkNSOGYxbllNMzlqRURSYlBuLVQxc21lNl9nb0NMWDZaTWxyQdIB9AFBVV95cUxQUjdfSVAyTlJNN05UVzhnQ2VaVjlNQjBTRFRibUpMQmY2dkpYODRhS3lwSFVnZjM5cllBOTljQUxmeVRtdWJoVk54XzJYMzZ3ZDdZX3JvRGxMa0lhRDZUN01OdXBXNVdHRjBhMWV2dXB5MGMyYzlyWUUzWW05aUxBT1NPbVZOd2JtQXZsTzV0Um1RZUJJU1N5WWJndFpKeE9wYUU1ZG9zdFNUbmZmMnBzVkJxbkxBZGJYQUM1RHhlcXBQaS1kRDdicWd6MmdELXpBNGhWV3NyRGhwaWM0T1BRaTljc2I3QVFfWG8wVzBtNlJFZ2Y1?oc=5",
-  "source": "The Economic Times",
-  "published": "2026-10-14T19:12:36Z",
-  "since": "2026-10-14T20:09:59Z"
+  "title": "Nvidia's Jensen Huang responds to Pope Leo's AI safety criticism—'We all care about the same thing'",
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcE1vZ2xQLVlBMVh6RkFoMjF0bWMxZW9qMzNWYkdRU3gxUjhIRXMwcVVPRTBVM2Jpc0xWNVNLNVJQVnVHbHUybkV1akFVUWdtMEQ5SDFtaXRZVXZ6V19wbjZ3ejZ0RGxqVngzY0dOa09DaTJaVmdERFc5Nks0amNFZWUxU1pBM0tZdGx4dk1kMGE1YTVfTFJiSUVGSk1IaDN4c2N0RDNMeHByYi1iSzZEdlNERlBHYUJ1ZVAtRktPcjk0ZXAzaVE?oc=5",
+  "source": "Fortune",
+  "published": "2026-10-14T19:21:00Z",
+  "since": "2026-10-14T23:19:10Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Nvidia CEO Jensen Huang says he would cut off customers who build unsafe AI",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNlJBMHJKMjdUQXk4Y0ppUndlQnFoaU5TTDhFdi14VzNpQ3BudkpHTm9scjQ2a2p2bTJ5UFJZb05tOXg1WU5QNVhuUWRqdElyQzVjMm9vWHZWSTVvbGVmaGlxM2thcEpQWVhMUXVhNDBQakhDU2E3c0xLNXlGczNzTVZudUtNWExIR1lqVHBkVW5ONGlzSTFHWDdaVUV5aEJtZGJqNUlSOV9MSDJaMWVtdGxyLVBCSF9NR1JzLUhTMUVuU01JYnd6b29ZNkNSOGYxbllNMzlqRURSYlBuLVQxc21lNl9nb0NMWDZaTWxyQdIB9AFBVV95cUxQUjdfSVAyTlJNN05UVzhnQ2VaVjlNQjBTRFRibUpMQmY2dkpYODRhS3lwSFVnZjM5cllBOTljQUxmeVRtdWJoVk54XzJYMzZ3ZDdZX3JvRGxMa0lhRDZUN01OdXBXNVdHRjBhMWV2dXB5MGMyYzlyWUUzWW05aUxBT1NPbVZOd2JtQXZsTzV0Um1RZUJJU1N5WWJndFpKeE9wYUU1ZG9zdFNUbmZmMnBzVkJxbkxBZGJYQUM1RHhlcXBQaS1kRDdicWd6MmdELXpBNGhWV3NyRGhwaWM0T1BRaTljc2I3QVFfWG8wVzBtNlJFZ2Y1?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-10-14T19:12:36Z",
-   "since": "2026-10-14T20:09:59Z"
+   "title": "Nvidia's Jensen Huang responds to Pope Leo's AI safety criticism—'We all care about the same thing'",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcE1vZ2xQLVlBMVh6RkFoMjF0bWMxZW9qMzNWYkdRU3gxUjhIRXMwcVVPRTBVM2Jpc0xWNVNLNVJQVnVHbHUybkV1akFVUWdtMEQ5SDFtaXRZVXZ6V19wbjZ3ejZ0RGxqVngzY0dOa09DaTJaVmdERFc5Nks0amNFZWUxU1pBM0tZdGx4dk1kMGE1YTVfTFJiSUVGSk1IaDN4c2N0RDNMeHByYi1iSzZEdlNERlBHYUJ1ZVAtRktPcjk0ZXAzaVE?oc=5",
+   "source": "Fortune",
+   "published": "2026-10-14T19:21:00Z",
+   "since": "2026-10-14T23:19:10Z"
   },
   {
    "kind": "voice",
@@ -80,11 +80,11 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Nvidia CEO Jensen Huang says he would cut off customers who build unsafe AI",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNlJBMHJKMjdUQXk4Y0ppUndlQnFoaU5TTDhFdi14VzNpQ3BudkpHTm9scjQ2a2p2bTJ5UFJZb05tOXg1WU5QNVhuUWRqdElyQzVjMm9vWHZWSTVvbGVmaGlxM2thcEpQWVhMUXVhNDBQakhDU2E3c0xLNXlGczNzTVZudUtNWExIR1lqVHBkVW5ONGlzSTFHWDdaVUV5aEJtZGJqNUlSOV9MSDJaMWVtdGxyLVBCSF9NR1JzLUhTMUVuU01JYnd6b29ZNkNSOGYxbllNMzlqRURSYlBuLVQxc21lNl9nb0NMWDZaTWxyQdIB9AFBVV95cUxQUjdfSVAyTlJNN05UVzhnQ2VaVjlNQjBTRFRibUpMQmY2dkpYODRhS3lwSFVnZjM5cllBOTljQUxmeVRtdWJoVk54XzJYMzZ3ZDdZX3JvRGxMa0lhRDZUN01OdXBXNVdHRjBhMWV2dXB5MGMyYzlyWUUzWW05aUxBT1NPbVZOd2JtQXZsTzV0Um1RZUJJU1N5WWJndFpKeE9wYUU1ZG9zdFNUbmZmMnBzVkJxbkxBZGJYQUM1RHhlcXBQaS1kRDdicWd6MmdELXpBNGhWV3NyRGhwaWM0T1BRaTljc2I3QVFfWG8wVzBtNlJFZ2Y1?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-10-14T19:12:36Z",
-   "since": "2026-10-14T20:09:59Z"
+   "title": "Nvidia's Jensen Huang responds to Pope Leo's AI safety criticism—'We all care about the same thing'",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcE1vZ2xQLVlBMVh6RkFoMjF0bWMxZW9qMzNWYkdRU3gxUjhIRXMwcVVPRTBVM2Jpc0xWNVNLNVJQVnVHbHUybkV1akFVUWdtMEQ5SDFtaXRZVXZ6V19wbjZ3ejZ0RGxqVngzY0dOa09DaTJaVmdERFc5Nks0amNFZWUxU1pBM0tZdGx4dk1kMGE1YTVfTFJiSUVGSk1IaDN4c2N0RDNMeHByYi1iSzZEdlNERlBHYUJ1ZVAtRktPcjk0ZXAzaVE?oc=5",
+   "source": "Fortune",
+   "published": "2026-10-14T19:21:00Z",
+   "since": "2026-10-14T23:19:10Z"
   },
   {
    "kind": "voice",
@@ -107,7 +107,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2056,
+   "stars": 2067,
    "note": "Python · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -117,7 +117,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 624,
+   "stars": 642,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -127,7 +127,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 589,
+   "stars": 591,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -147,7 +147,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 277,
+   "stars": 278,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -167,7 +167,7 @@
   {
    "kind": "repo",
    "title": "wheresryan22/anatomy",
-   "stars": 9802,
+   "stars": 9963,
    "note": "JavaScript · new this week",
    "url": "https://github.com/wheresryan22/anatomy",
    "source": "GitHub",
@@ -177,7 +177,7 @@
   {
    "kind": "repo",
    "title": "mhtsec/ARTEX",
-   "stars": 4069,
+   "stars": 4073,
    "note": "Go · new this week",
    "url": "https://github.com/mhtsec/ARTEX",
    "source": "GitHub",
@@ -187,7 +187,7 @@
   {
    "kind": "repo",
    "title": "ARahim3/DigUp",
-   "stars": 3523,
+   "stars": 3608,
    "note": "Swift · new this week",
    "url": "https://github.com/ARahim3/DigUp",
    "source": "GitHub",
@@ -197,7 +197,7 @@
   {
    "kind": "repo",
    "title": "t4t5/omdrop-owl",
-   "stars": 2664,
+   "stars": 2674,
    "note": "Shell · new this week",
    "url": "https://github.com/t4t5/omdrop-owl",
    "source": "GitHub",
@@ -207,8 +207,8 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 656,
-   "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+   "points": 801,
+   "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
    "source": "Hacker News",
    "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
    "discuss": "https://news.ycombinator.com/item?id=50091788"
@@ -216,16 +216,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 127,
-   "title": "TV4 postpones show after AI agent erases edited material",
-   "source": "Hacker News",
-   "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
-   "discuss": "https://news.ycombinator.com/item?id=50085323"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 110,
+   "points": 239,
    "title": "Banks are now trying to offload the AI data center debt they just underwrote",
    "source": "Hacker News",
    "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
@@ -234,20 +225,45 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 35,
-   "title": "Neckbeard – a DevOps/platform/SRE plugin for your agent",
+   "points": 199,
+   "title": "Anthropic's Scion is heavily inspired by Mononoke",
    "source": "Hacker News",
-   "url": "https://github.com/bealesh/neckbeard",
-   "discuss": "https://news.ycombinator.com/item?id=50091794"
+   "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+   "discuss": "https://news.ycombinator.com/item?id=50094694"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 33,
-   "title": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
+   "points": 172,
+   "title": "Yandex outage: data shows that instead of going dark, malicious bots moved",
    "source": "Hacker News",
-   "url": "https://github.com/graphicle-ai/graphicle",
-   "discuss": "https://news.ycombinator.com/item?id=50088713"
+   "url": "https://blog.cloudflare.com/yandex-outage/",
+   "discuss": "https://news.ycombinator.com/item?id=50094673"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 61,
+   "title": "Has AI tells",
+   "source": "Hacker News",
+   "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+   "discuss": "https://news.ycombinator.com/item?id=50090799"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 4,
+   "title": "How I manage persistent Claude Code loops: Spool",
+   "source": "Hacker News",
+   "url": "https://github.com/enes-alatas/spool",
+   "discuss": "https://news.ycombinator.com/item?id=50048193"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/"
   },
   {
    "kind": "news",
@@ -269,13 +285,6 @@
    "title": "Deezer will soon let you filter out AI-generated music",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/"
   },
   {
    "kind": "news",

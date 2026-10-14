@@ -77,22 +77,63 @@ var X={
   inp.oninput=f;f()}
 };
 })();
-/* ticker */
-(function(){var d=document;d.addEventListener('DOMContentLoaded',function(){var t=d.querySelector('.ticker');if(!t)return;var tr=t.querySelector('.tk-track');
-function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-function fmt(n){return n>=10000?(n/1000).toFixed(0)+'k':n>=1000?(n/1000).toFixed(1)+'k':String(n)}
-fetch(t.dataset.src,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){
- if(!j.items||!j.items.length)throw 0;
- var h=j.items.map(function(i){var v='';
-  if(i.kind==='repo')v='<span class="tk-v up" title="GitHub stars">▲ '+fmt(i.stars)+'</span>';
-  else if(i.points)v='<span class="tk-v up" title="Hacker News points">▲ '+fmt(i.points)+'</span>';
-  else v='<span class="tk-v src">'+esc(i.source)+'</span>';
-  return '<li><a href="'+esc(i.url)+'" rel="noopener" target="_blank"><span class="tk-chip tk-'+esc(i.tag).toLowerCase()+'">'+esc(i.tag)+'</span><span class="tk-t">'+esc(i.title)+'</span>'+v+'</a></li>'}).join('');
- tr.innerHTML='<ul>'+h+'</ul><ul aria-hidden="true">'+h+'</ul>';tr.querySelectorAll('ul[aria-hidden] a').forEach(function(a){a.tabIndex=-1});
- var u=new Date(j.generated_at);t.querySelector('.tk-time').textContent=u.toLocaleString('en-IN',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Kolkata'})+' IST';
- t.hidden=false;requestAnimationFrame(function(){var w=tr.querySelector('ul').getBoundingClientRect().width;tr.style.setProperty('--dur',Math.round(w/45)+'s')});
- var b=t.querySelector('.tk-pause');b.onclick=function(){var p=t.classList.toggle('paused');b.setAttribute('aria-pressed',p);b.setAttribute('aria-label',p?'Play ticker':'Pause ticker')};
-}).catch(function(){t.remove()})})})();
+/* ticker: poll feed while tab is open; show source age, not just movement. */
+(function(){
+ var d=document;
+ d.addEventListener('DOMContentLoaded',function(){
+  var t=d.querySelector('.ticker');if(!t||!window.fetch)return;
+  var tr=t.querySelector('.tk-track'),clock=t.querySelector('.tk-time'),lastSig=null,lastAttempt=0;
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function fmt(n){return n>=10000?(n/1000).toFixed(0)+'k':n>=1000?(n/1000).toFixed(1)+'k':String(n)}
+  function ageLabel(s){
+   var m=Math.floor((Date.now()-new Date(s).getTime())/60000);
+   if(!Number.isFinite(m)||m<0)return 'Time unknown';
+   if(m<2)return 'just updated';
+   if(m<60)return m+'m ago';
+   return Math.floor(m/60)+'h '+(m%60)+'m ago'
+  }
+  var b=t.querySelector('.tk-pause');
+  if(b)b.onclick=function(){var paused=t.classList.toggle('paused');b.setAttribute('aria-pressed',String(paused));b.setAttribute('aria-label',paused?'Play ticker':'Pause ticker')};
+  function load(){
+   lastAttempt=Date.now();
+   fetch(t.dataset.src+(t.dataset.src.indexOf('?')>=0?'&':'?')+'v='+lastAttempt,{cache:'no-store'})
+    .then(function(r){if(!r.ok)throw new Error('Feed status '+r.status);return r.json()})
+    .then(function(j){
+     if(!Array.isArray(j.items)||!j.items.length)throw new Error('No ticker items');
+     var m=(Date.now()-new Date(j.generated_at).getTime())/60000;
+     var stale=Number.isFinite(m)&&m>45;
+     t.classList.toggle('tk-stale',stale);
+     var when=new Date(j.generated_at);
+     var stamp=Number.isFinite(when.getTime())?when.toLocaleString('en-IN',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Kolkata'})+' IST':'unknown';
+     if(clock){
+      clock.textContent=(stale?'Feed delayed · ':'Updated ')+stamp+' · '+ageLabel(j.generated_at);
+      clock.title=stale?'News source refresh is running behind schedule; displaying last successful snapshot.':'Last successful ticker data generation time';
+     }
+     var signature=JSON.stringify(j.items.map(function(i){return [i.kind,i.url,i.title,i.stars,i.points]}));
+     if(signature!==lastSig){
+      var h=j.items.map(function(i){
+       var v='';
+       if(i.kind==='repo')v='<span class="tk-v up" title="GitHub stars">▲ '+fmt(i.stars)+'</span>';
+       else if(i.points)v='<span class="tk-v up" title="Hacker News points">▲ '+fmt(i.points)+'</span>';
+       else v='<span class="tk-v src">'+esc(i.source)+'</span>';
+       return '<li><a href="'+esc(i.url)+'" rel="noopener" target="_blank"><span class="tk-chip tk-'+esc(i.tag).toLowerCase()+'">'+esc(i.tag)+'</span><span class="tk-t">'+esc(i.title)+'</span>'+v+'</a></li>'
+      }).join('');
+      tr.innerHTML='<ul>'+h+'</ul><ul aria-hidden="true">'+h+'</ul>';
+      tr.querySelectorAll('ul[aria-hidden] a').forEach(function(a){a.tabIndex=-1});
+      requestAnimationFrame(function(){var ul=tr.querySelector('ul');if(ul)tr.style.setProperty('--dur',Math.round(ul.getBoundingClientRect().width/45)+'s')});
+      lastSig=signature;
+     }
+     t.hidden=false;
+    }).catch(function(){
+     if(clock&&lastSig!==null){clock.textContent='Ticker connection delayed · last available snapshot';clock.title='The latest attempt to refresh the news feed failed'}
+     // Keep the last successful items visible; retry on next poll.
+    });
+  }
+  load();
+  setInterval(function(){if(!d.hidden)load()},300000);
+  d.addEventListener('visibilitychange',function(){if(!d.hidden&&Date.now()-lastAttempt>60000)load()});
+ });
+})();
 /* mobile nav */
 document.addEventListener('DOMContentLoaded',function(){var n=document.querySelector('header nav'),bar=document.querySelector('.top .bar');if(!n||!bar)return;
  var b=document.createElement('button');b.className='menu';b.type='button';b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Menu');b.innerHTML='<span></span><span></span>';

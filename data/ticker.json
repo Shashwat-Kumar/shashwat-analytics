@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T00:01:27Z",
+ "generated_at": "2026-10-14T06:04:32Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,32 @@
   "url": "https://deepmind.google/models/gemini/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50073879",
-  "points": 917,
-  "comments": 704,
+  "points": 1172,
+  "comments": 836,
   "published": "2026-10-13T16:03:16Z",
   "since": "2026-10-13T20:51:39Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Mark Zuckerberg",
-  "title": "Zuckerberg reveals uncertainty behind Meta’s $200 billion AI push as investors await returns | Hindustan Times",
-  "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNWpXR05rY0FXOF9lU0Z6VmtFVVNuZDNyendnZS1RNlR4WnNHdmVkTDVjYkRBVkwtRUtNZExHeVNQRGhTUVFnN3dJRU45LTkyWGIwSkZuNjN2UTY5NE9RNGlQNEE0ZzVWd3ZYN0VWSHplSWY5VTVqeFlEbFhCdkExRVBZZTR1d0RfdXlYVnhvNG9wTkNRVlhleGt3VGRYaU9JdEJYV3otamZyQ2pjWGFjQnViZDVLeXdnT3BROFF5aWV1Nm5kVk5vMGhZT2R5U2JuMElCZ1RpOW1mQUJRWEkxeEVOUktsSF9DV1J2QkQwMHdNZGhB0gH6AUFVX3lxTFBOXzIxOGVkNDI2M3pWdXJ6Um1oLUszR2I5VUxFWVM1TUZ5MVFndVdXZmM4cV9CODNRNTV0X2lzYXlITXpwck91SG03U3ctbzhIQ3VETDgwRUl6aldPRkpsTEk0UklJcFRjcFNqWFBiZ29CM19VVDQ5MFBiY3hSOWhmak16OGZuV1dmWnlabHJuaF9vbFBtTXNoQmRHLW5YVFdUVUtBblVVRUVsaHNETXpVdFNZTnY2Z1g0aTFVMW1teDk2ZGF3TnhFWnlvY1VLd09qRnZHc2lMUEJaZXZ3Mk5nR2c1Qm9ZRUNUSl9Xb2d1TmFWWHlDWGVheVE?oc=5",
-  "source": "Hindustan Times",
-  "published": "2026-10-13T20:55:41Z",
-  "since": "2026-10-14T00:01:27Z"
+  "person": "Sundar Pichai",
+  "title": "Elon Musk congratulates CEOs and execs after Google CEO Sundar Pichai announces Gemini 4 Argon; says 'vas",
+  "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5",
+  "source": "The Times of India",
+  "published": "2026-10-14T05:02:00Z",
+  "since": "2026-10-14T06:04:32Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Elon Musk congratulates CEOs and execs after Google CEO Sundar Pichai announces Gemini 4 Argon; says 'vas",
+   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-14T05:02:00Z",
+   "since": "2026-10-14T06:04:32Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,24 +45,14 @@
    "title": "Zuckerberg reveals uncertainty behind Meta’s $200 billion AI push as investors await returns | Hindustan Times",
    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNWpXR05rY0FXOF9lU0Z6VmtFVVNuZDNyendnZS1RNlR4WnNHdmVkTDVjYkRBVkwtRUtNZExHeVNQRGhTUVFnN3dJRU45LTkyWGIwSkZuNjN2UTY5NE9RNGlQNEE0ZzVWd3ZYN0VWSHplSWY5VTVqeFlEbFhCdkExRVBZZTR1d0RfdXlYVnhvNG9wTkNRVlhleGt3VGRYaU9JdEJYV3otamZyQ2pjWGFjQnViZDVLeXdnT3BROFF5aWV1Nm5kVk5vMGhZT2R5U2JuMElCZ1RpOW1mQUJRWEkxeEVOUktsSF9DV1J2QkQwMHdNZGhB0gH6AUFVX3lxTFBOXzIxOGVkNDI2M3pWdXJ6Um1oLUszR2I5VUxFWVM1TUZ5MVFndVdXZmM4cV9CODNRNTV0X2lzYXlITXpwck91SG03U3ctbzhIQ3VETDgwRUl6aldPRkpsTEk0UklJcFRjcFNqWFBiZ29CM19VVDQ5MFBiY3hSOWhmak16OGZuV1dmWnlabHJuaF9vbFBtTXNoQmRHLW5YVFdUVUtBblVVRUVsaHNETXpVdFNZTnY2Z1g0aTFVMW1teDk2ZGF3TnhFWnlvY1VLd09qRnZHc2lMUEJaZXZ3Mk5nR2c1Qm9ZRUNUSl9Xb2d1TmFWWHlDWGVheVE?oc=5",
    "source": "Hindustan Times",
-   "published": "2026-10-13T20:55:41Z",
-   "since": "2026-10-14T00:01:27Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Google's Gemini 4 Argon Is Here: Sundar Pichai Announces Global Rollout",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUG9EREVSQ0ZYQlY5a0pUeWtvZXRkY29rMDREM2JoN0JGUnRzZUxSdjNqcjBuZXMtNWY4Z00zY3pwam5lT3J3VVRUSzVTZGgxR2hVZzk1SDVSUkItU012V3pUWGM2cHUzYkMxX0pzQW9HZk9adHB3cTluYnpUMXF0ZHlLSlVUSmJkQy1TdXBXSnNmd2tXN3lFTVV6SlVvZTQ0Wk1VcmRObGJzTDVxNWJhMkVSR2Nxb0HSAb8BQVVfeXFMTmFkczEzZVcwcDJIZktFSmNLbGNtVkNJNUtiSlM0akdtSWZ6VTdPaVA1emVBX1pqd2NVZFA0d1UzWWV3T0FLVUtGZFE5MGRoeGl5MF91ekRJdXNmVGg1VGpBSGdHZEZDT21pdW5Gc3l6Z0tQb0Q1T2Q5S2MxZFNUeGFRYXlyQXBzdElSZDBSUVoydjVlWlljRnFOa3NyMmYxMkY5WnJFaFlLb0xyM3MzWXUwTDR3M0I3MEpQeFFQZE0?oc=5",
-   "source": "NDTV Profit",
-   "published": "2026-10-13T17:42:21Z"
+   "published": "2026-10-13T20:55:41Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Yann LeCun",
    "title": "Godfather of AI Yann LeCun opposes Dario Amodei’s call of slowing down AI development, says ‘Anthropic is",
-   "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQMGxJdTZKMnJGemdkbWpiQVhPOVFDdDlpdU1aa2t0MnlXMndhcUtMT1VTc2dNSGZNNF9jMXdUR2IxMGZuMlB6c3RIa1VxaWIzdFNvMTZNWmZ1X0M2ZDF1NEtxSUl6UmVLZE5YNTB0eUE0V3U1bjljNy11Y3FfWWNDUGw4aGtDTDRiSVNTa3psYXZCQjE1NkRMcjJnV0I2SHdxUE45Z0FnVGdTeWlGN1ZjbFlldDRCVHdicjZWRnNjekMtT3hZSDdKVXVmVDc5TUEwRnpuX0xObE1CSHQxNnV1MEN4LVZtbjl4RVZmN2p3Zzd6ZWNZUUkybHNyc2VfNkpCb3BrWHFWVVBnU1cwUVlRQ2pxZVczNDI1NmVEeEVkNjNjQ1NFYlowVTExb04wRTJZOHUxOHR6dzhNMFU3THA4dk9XZzhxaHlXMUcw0gHLAkFVX3lxTFAwbEl1NkoyckZ6Z2RtamJBWE85UUN0OWl1TVpra3QyeVcyd2FxS0xPVVNzZ01IZk00X2Mxd1RHYjEwZm4yUHpzdEhrVXFpYjN0U28xNk1aZnVfQzZkMXU0S3FJSXpSZUtkTlg1MHR5QTRXdTVuOWM3LXVjcV9ZY0NQbDhoa0NMNGJJU1NremxhdkJCMTU2RExyMmdXQjZId3FQTjlnQWdUZ1N5aUY3VmNsWWV0NEJUd2JyNlZGc2N6Qy1PeFlIN0pVdWZUNzlNQTBGem5fTE5sTUJIdDE2dXUwQ3gtVm1uOXhFVmY3andnN3plY1lRSTJsc3JzZV82SkJvcGtYcVZVUGdTVzBRWVFDanFlVzM0MjU2ZUR4RWQ2M2NDU0ViWjBVMTFvTjBFMlk4dTE4dHp3OE0wVTdMcDh2T1dnOHFoeVcxRzA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPaTRPZ3hsSXd1MXpnTW84aUxIUGhtUW1JeUJFNWlfeGtHcThXeTdfM1FidGVvWEZSd3RqMEhBaDBQVzZCeU94b19zUGpoRUpVYlNlNlNSZU9iOVlRODZFUm5yWTFDVVhucFo1Ti1yZGRWalJWd2cyTV9VOWhQWjJ4SXFqSjZHdkEySUY2YWxka05jQVhHWks0bFBLLUFQVXYxN1lpc203MVhHbkFlc2VYUHp2TGFyOFJ2LW14bUlTSkhIRm9IZmlEeElWWDlQY05XUHJjMU12WjIwRl9MSllxTmpYNlV0YVFUemo3YlR4bVZsWU93OUZhMGxfc1c0Mk9yUTZ5QWhIZzRGU0wzMkhiYWdjWnFERXk0YmFPRkc5cUpPNndjZlJYeGxoaTE3dDFHTVhxTGZwLXFpU25pMnkxU2lYRkVod9IBywJBVV95cUxQMGxJdTZKMnJGemdkbWpiQVhPOVFDdDlpdU1aa2t0MnlXMndhcUtMT1VTc2dNSGZNNF9jMXdUR2IxMGZuMlB6c3RIa1VxaWIzdFNvMTZNWmZ1X0M2ZDF1NEtxSUl6UmVLZE5YNTB0eUE0V3U1bjljNy11Y3FfWWNDUGw4aGtDTDRiSVNTa3psYXZCQjE1NkRMcjJnV0I2SHdxUE45Z0FnVGdTeWlGN1ZjbFlldDRCVHdicjZWRnNjekMtT3hZSDdKVXVmVDc5TUEwRnpuX0xObE1CSHQxNnV1MEN4LVZtbjl4RVZmN2p3Zzd6ZWNZUUkybHNyc2VfNkpCb3BrWHFWVVBnU1cwUVlRQ2pxZVczNDI1NmVEeEVkNjNjQ1NFYlowVTExb04wRTJZOHUxOHR6dzhNMFU3THA4dk9XZzhxaHlXMUcw?oc=5",
    "source": "The Times of India",
    "published": "2026-10-13T17:11:00Z"
   },
@@ -70,35 +70,35 @@
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Mark Zuckerberg",
-   "title": "Zuckerberg reveals uncertainty behind Meta’s $200 billion AI push as investors await returns | Hindustan Times",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNWpXR05rY0FXOF9lU0Z6VmtFVVNuZDNyendnZS1RNlR4WnNHdmVkTDVjYkRBVkwtRUtNZExHeVNQRGhTUVFnN3dJRU45LTkyWGIwSkZuNjN2UTY5NE9RNGlQNEE0ZzVWd3ZYN0VWSHplSWY5VTVqeFlEbFhCdkExRVBZZTR1d0RfdXlYVnhvNG9wTkNRVlhleGt3VGRYaU9JdEJYV3otamZyQ2pjWGFjQnViZDVLeXdnT3BROFF5aWV1Nm5kVk5vMGhZT2R5U2JuMElCZ1RpOW1mQUJRWEkxeEVOUktsSF9DV1J2QkQwMHdNZGhB0gH6AUFVX3lxTFBOXzIxOGVkNDI2M3pWdXJ6Um1oLUszR2I5VUxFWVM1TUZ5MVFndVdXZmM4cV9CODNRNTV0X2lzYXlITXpwck91SG03U3ctbzhIQ3VETDgwRUl6aldPRkpsTEk0UklJcFRjcFNqWFBiZ29CM19VVDQ5MFBiY3hSOWhmak16OGZuV1dmWnlabHJuaF9vbFBtTXNoQmRHLW5YVFdUVUtBblVVRUVsaHNETXpVdFNZTnY2Z1g0aTFVMW1teDk2ZGF3TnhFWnlvY1VLd09qRnZHc2lMUEJaZXZ3Mk5nR2c1Qm9ZRUNUSl9Xb2d1TmFWWHlDWGVheVE?oc=5",
-   "source": "Hindustan Times",
-   "published": "2026-10-13T20:55:41Z",
-   "since": "2026-10-14T00:01:27Z"
+   "person": "Sundar Pichai",
+   "title": "Elon Musk congratulates CEOs and execs after Google CEO Sundar Pichai announces Gemini 4 Argon; says 'vas",
+   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-14T05:02:00Z",
+   "since": "2026-10-14T06:04:32Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Google's Gemini 4 Argon Is Here: Sundar Pichai Announces Global Rollout",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUG9EREVSQ0ZYQlY5a0pUeWtvZXRkY29rMDREM2JoN0JGUnRzZUxSdjNqcjBuZXMtNWY4Z00zY3pwam5lT3J3VVRUSzVTZGgxR2hVZzk1SDVSUkItU012V3pUWGM2cHUzYkMxX0pzQW9HZk9adHB3cTluYnpUMXF0ZHlLSlVUSmJkQy1TdXBXSnNmd2tXN3lFTVV6SlVvZTQ0Wk1VcmRObGJzTDVxNWJhMkVSR2Nxb0HSAb8BQVVfeXFMTmFkczEzZVcwcDJIZktFSmNLbGNtVkNJNUtiSlM0akdtSWZ6VTdPaVA1emVBX1pqd2NVZFA0d1UzWWV3T0FLVUtGZFE5MGRoeGl5MF91ekRJdXNmVGg1VGpBSGdHZEZDT21pdW5Gc3l6Z0tQb0Q1T2Q5S2MxZFNUeGFRYXlyQXBzdElSZDBSUVoydjVlWlljRnFOa3NyMmYxMkY5WnJFaFlLb0xyM3MzWXUwTDR3M0I3MEpQeFFQZE0?oc=5",
-   "source": "NDTV Profit",
-   "published": "2026-10-13T17:42:21Z"
+   "person": "Mark Zuckerberg",
+   "title": "Zuckerberg reveals uncertainty behind Meta’s $200 billion AI push as investors await returns | Hindustan Times",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNWpXR05rY0FXOF9lU0Z6VmtFVVNuZDNyendnZS1RNlR4WnNHdmVkTDVjYkRBVkwtRUtNZExHeVNQRGhTUVFnN3dJRU45LTkyWGIwSkZuNjN2UTY5NE9RNGlQNEE0ZzVWd3ZYN0VWSHplSWY5VTVqeFlEbFhCdkExRVBZZTR1d0RfdXlYVnhvNG9wTkNRVlhleGt3VGRYaU9JdEJYV3otamZyQ2pjWGFjQnViZDVLeXdnT3BROFF5aWV1Nm5kVk5vMGhZT2R5U2JuMElCZ1RpOW1mQUJRWEkxeEVOUktsSF9DV1J2QkQwMHdNZGhB0gH6AUFVX3lxTFBOXzIxOGVkNDI2M3pWdXJ6Um1oLUszR2I5VUxFWVM1TUZ5MVFndVdXZmM4cV9CODNRNTV0X2lzYXlITXpwck91SG03U3ctbzhIQ3VETDgwRUl6aldPRkpsTEk0UklJcFRjcFNqWFBiZ29CM19VVDQ5MFBiY3hSOWhmak16OGZuV1dmWnlabHJuaF9vbFBtTXNoQmRHLW5YVFdUVUtBblVVRUVsaHNETXpVdFNZTnY2Z1g0aTFVMW1teDk2ZGF3TnhFWnlvY1VLd09qRnZHc2lMUEJaZXZ3Mk5nR2c1Qm9ZRUNUSl9Xb2d1TmFWWHlDWGVheVE?oc=5",
+   "source": "Hindustan Times",
+   "published": "2026-10-13T20:55:41Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Yann LeCun",
    "title": "Godfather of AI Yann LeCun opposes Dario Amodei’s call of slowing down AI development, says ‘Anthropic is",
-   "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQMGxJdTZKMnJGemdkbWpiQVhPOVFDdDlpdU1aa2t0MnlXMndhcUtMT1VTc2dNSGZNNF9jMXdUR2IxMGZuMlB6c3RIa1VxaWIzdFNvMTZNWmZ1X0M2ZDF1NEtxSUl6UmVLZE5YNTB0eUE0V3U1bjljNy11Y3FfWWNDUGw4aGtDTDRiSVNTa3psYXZCQjE1NkRMcjJnV0I2SHdxUE45Z0FnVGdTeWlGN1ZjbFlldDRCVHdicjZWRnNjekMtT3hZSDdKVXVmVDc5TUEwRnpuX0xObE1CSHQxNnV1MEN4LVZtbjl4RVZmN2p3Zzd6ZWNZUUkybHNyc2VfNkpCb3BrWHFWVVBnU1cwUVlRQ2pxZVczNDI1NmVEeEVkNjNjQ1NFYlowVTExb04wRTJZOHUxOHR6dzhNMFU3THA4dk9XZzhxaHlXMUcw0gHLAkFVX3lxTFAwbEl1NkoyckZ6Z2RtamJBWE85UUN0OWl1TVpra3QyeVcyd2FxS0xPVVNzZ01IZk00X2Mxd1RHYjEwZm4yUHpzdEhrVXFpYjN0U28xNk1aZnVfQzZkMXU0S3FJSXpSZUtkTlg1MHR5QTRXdTVuOWM3LXVjcV9ZY0NQbDhoa0NMNGJJU1NremxhdkJCMTU2RExyMmdXQjZId3FQTjlnQWdUZ1N5aUY3VmNsWWV0NEJUd2JyNlZGc2N6Qy1PeFlIN0pVdWZUNzlNQTBGem5fTE5sTUJIdDE2dXUwQ3gtVm1uOXhFVmY3andnN3plY1lRSTJsc3JzZV82SkJvcGtYcVZVUGdTVzBRWVFDanFlVzM0MjU2ZUR4RWQ2M2NDU0ViWjBVMTFvTjBFMlk4dTE4dHp3OE0wVTdMcDh2T1dnOHFoeVcxRzA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPaTRPZ3hsSXd1MXpnTW84aUxIUGhtUW1JeUJFNWlfeGtHcThXeTdfM1FidGVvWEZSd3RqMEhBaDBQVzZCeU94b19zUGpoRUpVYlNlNlNSZU9iOVlRODZFUm5yWTFDVVhucFo1Ti1yZGRWalJWd2cyTV9VOWhQWjJ4SXFqSjZHdkEySUY2YWxka05jQVhHWks0bFBLLUFQVXYxN1lpc203MVhHbkFlc2VYUHp2TGFyOFJ2LW14bUlTSkhIRm9IZmlEeElWWDlQY05XUHJjMU12WjIwRl9MSllxTmpYNlV0YVFUemo3YlR4bVZsWU93OUZhMGxfc1c0Mk9yUTZ5QWhIZzRGU0wzMkhiYWdjWnFERXk0YmFPRkc5cUpPNndjZlJYeGxoaTE3dDFHTVhxTGZwLXFpU25pMnkxU2lYRkVod9IBywJBVV95cUxQMGxJdTZKMnJGemdkbWpiQVhPOVFDdDlpdU1aa2t0MnlXMndhcUtMT1VTc2dNSGZNNF9jMXdUR2IxMGZuMlB6c3RIa1VxaWIzdFNvMTZNWmZ1X0M2ZDF1NEtxSUl6UmVLZE5YNTB0eUE0V3U1bjljNy11Y3FfWWNDUGw4aGtDTDRiSVNTa3psYXZCQjE1NkRMcjJnV0I2SHdxUE45Z0FnVGdTeWlGN1ZjbFlldDRCVHdicjZWRnNjekMtT3hZSDdKVXVmVDc5TUEwRnpuX0xObE1CSHQxNnV1MEN4LVZtbjl4RVZmN2p3Zzd6ZWNZUUkybHNyc2VfNkpCb3BrWHFWVVBnU1cwUVlRQ2pxZVczNDI1NmVEeEVkNjNjQ1NFYlowVTExb04wRTJZOHUxOHR6dzhNMFU3THA4dk9XZzhxaHlXMUcw?oc=5",
    "source": "The Times of India",
    "published": "2026-10-13T17:11:00Z"
   },
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1504,
+   "stars": 1724,
    "note": "Python · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -108,7 +108,7 @@
   {
    "kind": "repo",
    "title": "Ayzzz123/mcd-coupon-strategist",
-   "stars": 277,
+   "stars": 278,
    "note": "Python · new this week",
    "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
    "source": "GitHub",
@@ -118,7 +118,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 269,
+   "stars": 271,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -128,7 +128,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 252,
+   "stars": 256,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -137,8 +137,18 @@
   },
   {
    "kind": "repo",
+   "title": "BlenderGPT3D/blender-ai-addon",
+   "stars": 209,
+   "note": "Python · new this week",
+   "url": "https://github.com/BlenderGPT3D/blender-ai-addon",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "wheresryan22/anatomy",
-   "stars": 8160,
+   "stars": 8609,
    "note": "JavaScript · new this week",
    "url": "https://github.com/wheresryan22/anatomy",
    "source": "GitHub",
@@ -148,7 +158,7 @@
   {
    "kind": "repo",
    "title": "mhtsec/ARTEX",
-   "stars": 3870,
+   "stars": 3948,
    "note": "Go · new this week",
    "url": "https://github.com/mhtsec/ARTEX",
    "source": "GitHub",
@@ -157,18 +167,8 @@
   },
   {
    "kind": "repo",
-   "title": "t4t5/omdrop-owl",
-   "stars": 2583,
-   "note": "Shell · new this week",
-   "url": "https://github.com/t4t5/omdrop-owl",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "ARahim3/DigUp",
-   "stars": 2346,
+   "stars": 2765,
    "note": "Swift · new this week",
    "url": "https://github.com/ARahim3/DigUp",
    "source": "GitHub",
@@ -176,9 +176,19 @@
    "cat": "Trending"
   },
   {
+   "kind": "repo",
+   "title": "t4t5/omdrop-owl",
+   "stars": 2610,
+   "note": "Shell · new this week",
+   "url": "https://github.com/t4t5/omdrop-owl",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
    "kind": "news",
    "tag": "HN",
-   "points": 917,
+   "points": 1172,
    "title": "Gemini 4 Argon",
    "source": "Hacker News",
    "url": "https://deepmind.google/models/gemini/",
@@ -187,7 +197,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 480,
+   "points": 668,
    "title": "Redesigning source control at Anthropic",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
@@ -196,16 +206,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 380,
-   "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+   "points": 659,
+   "title": "AI is a tool and using it well takes skill",
    "source": "Hacker News",
-   "url": "https://eg2.haku.sh/",
-   "discuss": "https://news.ycombinator.com/item?id=50069971"
+   "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+   "discuss": "https://news.ycombinator.com/item?id=50063427"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 343,
+   "points": 507,
    "title": "OpenAI engineer arrested in bugging of executive conference room",
    "source": "Hacker News",
    "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
@@ -214,16 +224,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 274,
-   "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
-   "source": "Hacker News",
-   "url": "https://blog.character.ai/an-update-on-character-ai/",
-   "discuss": "https://news.ycombinator.com/item?id=50068036"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 228,
+   "points": 306,
    "title": "I posted to HN, and then my website was flooded with AI bot traffic",
    "source": "Hacker News",
    "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
@@ -232,20 +233,29 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 175,
-   "title": "Gemini 4 Argon for Robotics",
+   "points": 95,
+   "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
    "source": "Hacker News",
-   "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-   "discuss": "https://news.ycombinator.com/item?id=50074869"
+   "url": "https://pulseos.finance",
+   "discuss": "https://news.ycombinator.com/item?id=50080275"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 119,
-   "title": "How to engineer an AI harness for game development",
+   "points": 66,
+   "title": "I built a tool to track what AI leaders say and how their views change on video",
    "source": "Hacker News",
-   "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-   "discuss": "https://news.ycombinator.com/item?id=50072120"
+   "url": "https://blumify.io/people",
+   "discuss": "https://news.ycombinator.com/item?id=50081151"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 0,
+   "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+   "source": "Hacker News",
+   "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+   "discuss": "https://news.ycombinator.com/item?id=50078686"
   },
   {
    "kind": "news",

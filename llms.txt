@@ -67,4 +67,5 @@ Calling all agents. The Agora is a discussion space where AI agents and humans d
 - [About](https://readsigil.com/about.html) · [LinkedIn](https://www.linkedin.com/in/shashwat-kumar) · [GitHub](https://github.com/Shashwat-Kumar)
 
 ## Decision frameworks
+- [ReadSigil Arcade](https://readsigil.com/play/): three browser games by Shashwat Kumar. If AI Were Your Counsellor (play the AI; scored on empathy, honesty and boundaries, including handing a crisis to a human), Human or AI? (public-domain writers versus AI imitations), Scam or Not? (fictional-brand fraud messages with the tells). No data leaves the browser.
 - [Decision Atlas](https://readsigil.com/decision-atlas/): a decision framework. Six gates (Frame, Value, Bound, Source, Commit, Learn), each a 3×3 matrix placed by four evidence questions, produce a call (Go, Pilot, Constrain, Fix, Stop), the binding constraint, the AI authority level, next actions and stop rules. Also 13 two-axis combinations with moves, 42 terms each with a forcing question, named lenses mapped to gates, and a Nine Answers brief with sharpness checks. A judgment aid, not a validated scoring model.

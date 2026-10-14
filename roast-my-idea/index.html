@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roast My Idea — Give your AI idea a reality check | ReadSigil</title>
+<meta name="description" content="Paste an AI idea, answer six taps, and get roasted by The Idea Undertaker. Your survival score, fatal flaw, and a shareable card. Free, private and instant.">
+<link rel="canonical" href="https://readsigil.com/roast-my-idea/">
+<meta property="og:type" content="website"><meta property="og:title" content="Roast My Idea — The Idea Undertaker | ReadSigil"><meta property="og:description" content="Your brilliant AI idea. Six awkward questions. One merciless verdict. Bring your own shovel."><meta property="og:url" content="https://readsigil.com/roast-my-idea/"><meta property="og:image" content="https://readsigil.com/assets/img/og-image.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+:root{--cream:#f7f4eb;--ink:#191a19;--muted:#6d6c66;--line:#d9d5ca;--lime:#d5f09b;--tangerine:#f09d7d;--red:#c6493e;--white:#fffdf8;--font:"DM Sans",Inter,system-ui,sans-serif;--display:"Space Grotesk",var(--font)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{background:var(--cream);font:16px/1.5 var(--font);color:var(--ink)}button,input{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #558c44;outline-offset:3px}
+.top{background:var(--cream)}.top .bar{max-width:1140px}.top nav{font:600 .72rem var(--font);letter-spacing:.045em;gap:17px}.brand{font-family:var(--display)}
+.shell{max-width:1140px;margin:0 auto;padding:0 24px}.mast{padding:64px 0 45px;border-bottom:1px solid var(--line)}.eyebrow{display:flex;align-items:center;gap:10px;font:700 .73rem var(--font);text-transform:uppercase;letter-spacing:.13em;color:#596346}.eyebrow i{width:9px;height:9px;border-radius:50%;background:#82aa49;display:inline-block;box-shadow:0 0 0 4px #e5ebd5}.mast-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(270px,.75fr);gap:44px;align-items:center}.mast h1{font:700 clamp(3.9rem,9vw,7.6rem)/.95 var(--display);letter-spacing:-.082em;color:var(--ink);margin:25px 0 22px}.mast h1 em{color:#d15f4b;font-style:normal}.mast .sub{font-size:1.16rem;max-width:580px;color:#4f514b;line-height:1.65;margin:0 0 25px}.micro{font:600 .79rem var(--font);color:#777870}.character{position:relative;border-radius:21px;background:#1d201b;min-height:325px;overflow:hidden;padding:30px;color:#f9f8ef;box-shadow:13px 13px 0 #d7dbca}.character .role{font:700 .74rem var(--font);letter-spacing:.16em;text-transform:uppercase;color:#bade78}.character .face{position:relative;font-size:123px;line-height:1.2;text-align:center;filter:drop-shadow(5px 14px 0 rgba(0,0,0,.17));transform:rotate(-7deg);margin:9px 0}.character .quote{font:600 1.25rem/1.25 var(--display);max-width:300px}.character .sig{margin-top:12px;color:#b3bea7;font-size:.75rem}.star{position:absolute;color:#c8f176;font-size:32px}.star.one{top:48px;right:30px}.star.two{bottom:105px;left:27px;font-size:21px}
+.game{padding:45px 0 30px}.step{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:0 0 13px;font:700 .72rem var(--font);letter-spacing:.12em;text-transform:uppercase;color:#726f67}.step .count{color:#a34d3f}.idea-label{font:700 clamp(1.4rem,3vw,2.2rem)/1.3 var(--display);letter-spacing:-.04em;margin:0 0 15px}.input-row{border:2px solid var(--ink);border-radius:15px;background:var(--white);display:flex;align-items:center;padding:8px;gap:8px;box-shadow:7px 7px 0 #ddd6c6}.input-row input{flex:1;min-width:0;border:0;background:transparent;padding:16px 14px;color:var(--ink);font-size:1.05rem;outline:none}.input-row:focus-within{outline:3px solid #b2d78a;outline-offset:3px}.input-row input:focus-visible{outline:none}.counter{font-size:.72rem;color:#777;padding-right:8px;white-space:nowrap}.examples{margin:18px 0 25px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;color:#777;font-size:.77rem}.example{border:1px solid #c9c5b8;background:transparent;border-radius:20px;padding:6px 10px;color:#4f4b43;font:600 .73rem var(--font)}.example:hover{background:#eee9d9}.rule{border:0;border-top:1px solid var(--line);margin:22px 0 28px}
+.q-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:16px}.q-head h2{font:700 clamp(1.3rem,2.7vw,1.9rem) var(--display);letter-spacing:-.04em;margin:0}.q-head p{font-size:.8rem;color:#68685f;margin:0}.questions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.question{background:#fffdf8;border:1px solid #ded8ca;border-radius:14px;padding:19px;display:flex;flex-direction:column;min-width:0}.question-top{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-bottom:10px}.gate{font:800 .68rem var(--font);letter-spacing:.1em;color:#987054}.q-number{font:800 .75rem var(--display);background:#eae5db;padding:4px 8px;border-radius:5px;color:#666}.question h3{font:700 1.1rem/1.26 var(--display);margin:0 0 15px;letter-spacing:-.02em;min-height:2.6em}.choices{display:grid;gap:7px}.choice{border:1px solid #ded9cb;border-radius:8px;background:#f8f6ef;padding:10px 12px;font:600 .82rem/1.35 var(--font);color:#42443e;text-align:left;display:flex;align-items:flex-start;gap:9px;min-height:45px}.choice .dot{border:1.5px solid #999b91;border-radius:50%;min-width:15px;height:15px;margin-top:1px}.choice:hover{border-color:#848779;background:#f0f1e7}.choice.selected{background:#ddecba;border:2px solid #627f3d;color:#28391b;padding:9px 11px}.choice.selected .dot{background:#42612b;border-color:#42612b;box-shadow:inset 0 0 0 3px #ddecba}
+.actionbar{display:flex;gap:15px;align-items:center;justify-content:space-between;margin-top:25px;padding:18px 20px;background:#eae7dc;border-radius:13px}.actionbar p{color:#615f58;font-size:.86rem;margin:0}.primary{background:#21251d;border:2px solid #21251d;color:#f4f6e8;border-radius:10px;padding:13px 20px;font:800 .85rem var(--font);transition:transform .15s,background .15s;white-space:nowrap}.primary:not(:disabled):hover{background:#405335;transform:translateY(-2px)}.primary:disabled{opacity:.42;cursor:not-allowed}
+.result{padding:46px 0 24px;scroll-margin-top:20px}.result[hidden]{display:none}.result-top{display:flex;justify-content:space-between;gap:10px;align-items:center}.result-top .eyebrow{color:#b8503d}.badge{padding:6px 12px;border:1px solid #d3c4b2;border-radius:100px;color:#704a40;font:700 .71rem var(--font)}.verdict-panel{display:grid;grid-template-columns:1fr 1.6fr;gap:28px;margin-top:15px;padding:30px;background:#20251e;color:#f9f8f0;border-radius:20px;position:relative;overflow:hidden}.verdict-panel:after{content:"✷";font-size:130px;color:#323b2c;position:absolute;right:-20px;top:-70px;z-index:0}.verdict-panel>*{z-index:1}.score-label{font:800 .7rem var(--font);letter-spacing:.12em;text-transform:uppercase;color:#c4ceae}.score{font:700 clamp(5rem,10vw,8rem)/.96 var(--display);letter-spacing:-.08em;margin:14px 0 9px;color:#e7b18a}.outcome{font:800 1.12rem var(--display);color:#c9ef94;letter-spacing:-.025em}.mini-note{font-size:.75rem;line-height:1.55;color:#c6c9be;margin:13px 0 0}.roast-label{font:700 .72rem var(--font);letter-spacing:.11em;color:#b8e980;text-transform:uppercase}.roast{font:600 clamp(1.45rem,3.5vw,2.15rem)/1.25 var(--display);letter-spacing:-.048em;margin:17px 0 16px;color:white}.kill{border-top:1px solid #53604c;padding-top:17px;margin-top:15px;font-size:.95rem}.kill strong{display:block;color:#ffbb9d;text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;margin:0 0 8px}.rescue{font-size:.88rem;color:#d6d9c9;margin-top:17px}.rescue strong{color:#e1efbe}
+.card-block{margin-top:27px;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}.card-block h3{font:700 1.5rem var(--display);margin:0 0 5px;letter-spacing:-.04em}.card-block p{font-size:.87rem;color:#6b6b63;margin:0 0 14px;line-height:1.55}.canvas-frame{background:#e6e1d7;border:1px solid #d7d0c4;border-radius:12px;padding:9px}.canvas-frame canvas{display:block;width:100%;height:auto;border-radius:7px}.buttons{display:flex;gap:9px;flex-wrap:wrap}.secondary{background:transparent;color:#252824;border:1px solid #b9b9aa;border-radius:9px;padding:12px 14px;font:700 .8rem var(--font)}.secondary:hover{background:#e8eacb}.status{display:block;margin-top:12px;min-height:1.3em;color:#4e7140;font:600 .78rem var(--font)}.smallprint{padding:38px 0 55px;display:flex;gap:20px;justify-content:space-between;border-top:1px solid var(--line);font-size:.81rem;color:#77736d;line-height:1.65}.smallprint p{max-width:690px;margin:0}.smallprint a{font-weight:700}footer{margin-top:0}
+@media(max-width:800px){.mast-grid{grid-template-columns:1fr}.character{min-height:210px;display:grid;grid-template-columns:120px 1fr;column-gap:18px;align-items:center}.character .role{grid-column:1/-1}.character .face{font-size:83px;grid-row:2/4;margin:0}.character .quote{font-size:1.2rem}.character .sig{margin:0}.questions{grid-template-columns:1fr 1fr}.verdict-panel{grid-template-columns:1fr}.score{font-size:6rem}.card-block{grid-template-columns:1fr}}
+@media(max-width:600px){.shell{padding:0 17px}.mast{padding:43px 0 28px}.mast h1{font-size:clamp(3.7rem,15vw,5.3rem);letter-spacing:-.08em}.character{min-height:175px;padding:17px;grid-template-columns:90px 1fr}.character .face{font-size:69px}.character .quote{font-size:1.05rem}.star.one{font-size:20px}.questions{grid-template-columns:1fr}.question h3{min-height:0}.q-head{align-items:start;flex-direction:column}.q-head p{margin-top:-8px}.input-row{padding:4px}.input-row input{padding:12px 10px;font-size:.95rem}.actionbar{flex-direction:column;align-items:stretch}.primary{width:100%}.verdict-panel{padding:23px}.smallprint{flex-direction:column}.result{padding:32px 0} .top .bar{padding:16px}.top nav{gap:10px;font-size:.68rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.primary{transition:none}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="brand" href="../index.html">Shashwat Kumar</a><nav aria-label="Primary"><a href="../writing.html">Writing</a><a href="../magazine.html">The Signal</a><a href="../agora/index.html">Agora</a><a class="on" href="../playground.html">Playground</a><a href="../learn.html">Learn</a><a href="../about.html">About</a></nav></div></header>
+<main>
+<section class="mast"><div class="shell mast-grid"><div><p class="eyebrow"><i aria-hidden="true"></i> ReadSigil / Bad ideas, beautifully buried</p><h1>Roast<br>My <em>Idea.</em></h1><p class="sub">Got a genius AI idea? Meet <b>The Idea Undertaker</b>. Six painfully simple questions. One brutally honest score. A roast you can share with colleagues who deserve it.</p><p class="micro">Free · About 30 seconds · Zero API calls · Maximum emotional damage*</p></div><aside class="character" aria-label="Meet the fictional Idea Undertaker"><div class="role">Your examiner / The Idea Undertaker</div><div class="face" aria-hidden="true">⚰️</div><div class="quote">"I don't kill ideas. I just read their business cases."</div><div class="sig">— The Idea Undertaker, fictional destroyer of pitch decks</div><span class="star one" aria-hidden="true">✷</span><span class="star two" aria-hidden="true">✳</span></aside></div></section>
+<section class="game shell" id="game"><div class="step"><span>01 / The pitch</span><span class="count" id="input-count">0 / 180</span></div><h2 class="idea-label"><label for="idea">Pitch your idea in one line.</label></h2><div class="input-row"><input id="idea" type="text" maxlength="180" placeholder="e.g. Chatbot that approves personal loans" autocomplete="off" aria-describedby="input-help"></div><div class="examples" id="input-help"><span>Need inspiration?</span><button class="example" type="button" data-example="Chatbot that approves personal loans">Loan approval bot</button><button class="example" type="button" data-example="AI agent that negotiates contracts on its own">Autonomous negotiator</button><button class="example" type="button" data-example="Predict which customers will leave next month">Churn prediction</button></div><hr class="rule"><div class="q-head"><div><p class="step">02 / The interrogation</p><h2>Six questions. No consultant answers.</h2></div><p id="progress" aria-live="polite">0 of 6 answered</p></div><div class="questions" id="questions"></div><div class="actionbar"><p id="action-hint" role="status">Enter an idea and answer all six questions. Your confidence is not evidence.</p><button class="primary" id="roast-btn" type="button" disabled>Roast my idea →</button></div></section>
+<section class="result shell" id="result" hidden tabindex="-1"><div class="result-top"><p class="eyebrow"><i aria-hidden="true"></i> Your official unofficial verdict</p><span class="badge">Self-reported. Not certified.</span></div><div class="verdict-panel"><div><div class="score-label">Idea survival score</div><div class="score" id="score">—</div><div class="outcome" id="outcome"></div><p class="mini-note">A playful screening score, not a probability of success or a risk approval.</p></div><div><div class="roast-label">The Undertaker says</div><p class="roast" id="roast"></p><div class="kill"><strong>☠ The one thing that kills it</strong><span id="killer"></span></div><p class="rescue"><strong>One way out:</strong> <span id="rescue"></span></p></div></div><div class="card-block"><div><h3>Frame the evidence.</h3><p>We made you a card. Download it as an image, post it on LinkedIn, and challenge your friends to survive the Undertaker. It's okay to disagree with a fictional coffin.</p><div class="buttons"><button class="primary" type="button" id="download">↓ Download roast card</button><button class="secondary" type="button" id="share">↗ Share</button><button class="secondary" type="button" id="copy">Copy verdict</button><button class="secondary" type="button" id="again">Try another idea</button></div><span class="status" id="status" role="status" aria-live="polite"></span><p style="margin-top:18px">Want the rigorous version? <a href="../decision-atlas/">Explore Decision Atlas →</a></p></div><div class="canvas-frame"><canvas id="card" width="1200" height="630" role="img" aria-label="Preview of your shareable ReadSigil roast card"></canvas></div></div></section>
+<section class="smallprint shell"><p><b>*No ideas were harmed in the making of this game.</b> The six questions are a fast, simplified take on ReadSigil's <a href="../decision-atlas/">Decision Atlas</a> gates: Frame, Value, Bound, Source, Commit and Learn. The answers, scoring and one-liners run entirely in your browser; the text you enter is not sent to ReadSigil or an AI provider. This is entertainment and structured reflection, not lending, legal, safety or investment advice.</p><p><a href="../index.html">ReadSigil home ↗</a></p></section>
+</main><footer><div class="wrap bar"><span>© 2026 Shashwat Kumar · ReadSigil</span><span>Better questions. Worse jokes.</span></div></footer>
+<script>
+(function(){
+"use strict";
+var Q=[
+ {id:"frame",gate:"FRAME",q:"Is there an actual decision here?",choices:["No. It's a cool AI thing.","Sort of. We know the use case.","Yes. A clear action, owner and user."],weight:18,kill:"Nobody can name the decision this is supposed to improve.",fix:"Write one sentence: who decides what, when, and what changes."},
+ {id:"value",gate:"VALUE",q:"What happens if it works?",choices:["We get a great demo.","Someone expects time or money savings.","We have a baseline and a measurable payoff."],weight:18,kill:"There is no testable business benefit.",fix:"Pick a baseline and one metric that money or users would notice."},
+ {id:"bound",gate:"BOUND",q:"How much freedom does the AI get?",choices:["It can act on its own. YOLO.","A person approves consequential actions.","Only narrow, reversible actions; escalation is explicit."],weight:18,kill:"Consequential decisions could be made without an effective guardrail.",fix:"Limit authority, require approval for high-stakes actions and provide an emergency stop."},
+ {id:"source",gate:"SOURCE",q:"Can you trust the inputs?",choices:["The data will probably turn up.","We know the source; quality needs checking.","Rights, lineage and data quality are tested."],weight:16,kill:"Unproven data rights, quality or provenance could sink it.",fix:"Confirm lawful access, data quality and ownership before a pilot."},
+ {id:"commit",gate:"COMMIT",q:"Who's stuck running this on Monday?",choices:["The PowerPoint has an owner.","A team could run a pilot.","An accountable owner, integration path and support exist."],weight:16,kill:"Nobody owns the last mile or the incident queue.",fix:"Name one operational owner and prove the workflow end to end."},
+ {id:"learn",gate:"LEARN",q:"How will you know when to pull the plug?",choices:["If it's live, it's a success.","We will monitor some KPIs.","A comparison group, review date and stop rule are set."],weight:14,kill:"No measurable failure signal or stop rule exists.",fix:"Pre-commit a holdout or comparison, review date and shutdown trigger."}
+];
+var $=function(id){return document.getElementById(id);};
+var answers=[null,null,null,null,null,null], last=null;
+var examples=document.querySelectorAll("[data-example]");
+var killerByGate={frame:"You cannot automate a decision nobody has defined.",value:"'AI-powered' is not a unit of financial value.",bound:"The machine has authority. The adult supervision is still hiring.",source:"Garbage in. Confidence out. Congratulations on the upgrade.",commit:"IT has just muted this meeting.",learn:"If it fails quietly, you'll call that 'adoption'."};
+var categoryLines=[
+ [/loan|lending|credit|underwrit|mortgage|approval|bank/i,"A bot approving loans? Collections would like to introduce itself."],
+ [/fraud|mule|scam|risk detect|aml/i,"Fraudsters love agility. Please don't give them a free accelerator."],
+ [/agent|autonomous|negotiat|act on its own|self.direct/i,"You gave an agent the keys. I hope you kept a spare brake pedal."],
+ [/chatbot|virtual assistant|customer service/i,"Another chatbot. Because hold music wasn't frustrating enough."],
+ [/hir(e|ing)|recruit|candidate|resume|cv screen|employee/i,"Automating hiring? Brilliant. Accountability remains permanently understaffed."],
+ [/diagnos|patient|hospital|medical|health/i,"A confident diagnosis isn't the same thing as a correct one."],
+ [/churn|next.best|upsell|cross.sell|lead score|marketing|personaliz/i,"Excellent. Another model to be ignored by the sales team."],
+ [/forecast|predict|dashboard|report|analytics/i,"Lovely chart. Does anybody plan to act on it?"],
+ [/contract|legal|compliance|audit/i,"Your legal department just felt a disturbance in the force."]
+];
+function typeLine(idea){for(var i=0;i<categoryLines.length;i++){if(categoryLines[i][0].test(idea))return categoryLines[i][1];}return "This is probably a magnificent slide. Reality has requested a meeting.";}
+function paintQuestions(){
+ var host=$("questions");host.replaceChildren();
+ Q.forEach(function(q,i){
+  var block=document.createElement("section");block.className="question";block.setAttribute("aria-label","Question "+(i+1));
+  var top=document.createElement("div");top.className="question-top";
+  var gate=document.createElement("span");gate.className="gate";gate.textContent=q.gate;
+  var num=document.createElement("span");num.className="q-number";num.textContent=("0"+(i+1)).slice(-2)+"/06";top.append(gate,num);
+  var heading=document.createElement("h3");heading.textContent=q.q;
+  var choices=document.createElement("div");choices.className="choices";choices.setAttribute("role","group");choices.setAttribute("aria-label",q.q);
+  q.choices.forEach(function(label,v){var b=document.createElement("button");b.type="button";b.className="choice"+(answers[i]===v?" selected":"");b.setAttribute("aria-pressed",answers[i]===v?"true":"false");var dot=document.createElement("span");dot.className="dot";dot.setAttribute("aria-hidden","true");var text=document.createElement("span");text.textContent=label;b.append(dot,text);b.addEventListener("click",function(){answers[i]=v;Array.from(choices.children).forEach(function(x,j){x.classList.toggle("selected",j===v);x.setAttribute("aria-pressed",j===v?"true":"false");});refresh();});choices.append(b);});
+  block.append(top,heading,choices);host.append(block);
+ });
+}
+function refresh(){
+ var n=answers.filter(function(x){return x!==null;}).length;var s=$("idea").value.trim();
+ $("progress").textContent=n+" of 6 answered";$("input-count").textContent=$("idea").value.length+" / 180";
+ $("roast-btn").disabled=!(s.length>=8&&n===6);
+ $("action-hint").textContent=!s?"Pitch an idea first. Then six awkward questions.":s.length<8?"Give us at least eight characters to work with.":n<6?"Only "+(6-n)+" question"+(6-n===1?"":"s")+" left until the funeral.":"All set. The Undertaker is sharpening a pencil.";
+}
+function compute(){
+ var idea=$("idea").value.trim(),sum=0;Q.forEach(function(q,i){sum+=q.weight*(answers[i]===2?1:answers[i]===1?.5:0);});
+ var score=Math.round(sum), sensitive=/loan|credit|approval|fraud|risk|medical|diagnos|hire|legal|payment|transfer|invest|trade|customer data|personal data|bank/i.test(idea);
+ var blockerIndex=0;
+ var priority=[2,3,5,0,1,4];
+ for(var p=0;p<priority.length;p++){if(answers[priority[p]]===0){blockerIndex=priority[p];break;}}
+ if(!priority.some(function(i){return answers[i]===0;})){var deficit=-1;Q.forEach(function(q,i){var d=q.weight*(2-answers[i]);if(d>deficit){deficit=d;blockerIndex=i;}});}
+ var override=(answers[2]===0&&sensitive)||(answers[3]===0&&sensitive);
+ var verdict=override||score<35?"BURIED":score<55?"NEEDS CPR":score<75?"ON PROBATION":score<90?"SURVIVES. BARELY.":"SUSPICIOUSLY COMPETENT";
+ var opener=typeLine(idea);
+ var joke=opener+" "+killerByGate[Q[blockerIndex].id];
+ return {idea:idea,score:score,verdict:verdict,roast:joke,killer:Q[blockerIndex].kill,rescue:Q[blockerIndex].fix,blocked:override};
+}
+function run(){if($("roast-btn").disabled)return;last=compute();$("score").textContent=last.score+"/100";$("outcome").textContent=last.verdict;$("roast").textContent=last.roast;$("killer").textContent=last.killer;$("rescue").textContent=last.rescue;$("result").hidden=false;$("status").textContent="";drawCard(last);$("result").scrollIntoView({behavior:"smooth",block:"start"});$("result").focus({preventScroll:true});}
+function lines(ctx,text,maxWidth,maxLines){
+ var words=text.split(/\s+/),line="",out=[];for(var i=0;i<words.length;i++){var trial=line?line+" "+words[i]:words[i];if(ctx.measureText(trial).width>maxWidth&&line){out.push(line);line=words[i];}else{line=trial;}}if(line)out.push(line);
+ if(out.length>maxLines){out=out.slice(0,maxLines);var s=out[maxLines-1];while(s.length>1&&ctx.measureText(s+"…").width>maxWidth)s=s.slice(0,-1);out[maxLines-1]=s+"…";}return out;
+}
+function fitLines(ctx,text,x,y,width,maxLines,font,lineHeight,color){
+ ctx.font=font;ctx.fillStyle=color;var arr=lines(ctx,text,width,maxLines);arr.forEach(function(line,i){ctx.fillText(line,x,y+i*lineHeight);});return y+arr.length*lineHeight;
+}
+function roundRect(ctx,x,y,w,h,r){ctx.beginPath();ctx.roundRect(x,y,w,h,r);}
+function drawCard(r){
+ var c=$("card"),ctx=c.getContext("2d");if(!ctx)return;
+ ctx.clearRect(0,0,1200,630);ctx.fillStyle="#20251e";ctx.fillRect(0,0,1200,630);
+ ctx.fillStyle="#30392b";ctx.beginPath();ctx.arc(1100,-10,275,0,Math.PI*2);ctx.fill();
+ ctx.fillStyle="#c8ef92";ctx.font="700 23px sans-serif";ctx.fillText("READSIGIL / ROAST MY IDEA",64,64);
+ ctx.fillStyle="#e8f0dd";ctx.font="600 19px sans-serif";ctx.fillText("IDEA UNDER THE MICROSCOPE",64,119);
+ var lastIdeaY=fitLines(ctx,r.idea,64,165,765,2,"700 38px sans-serif",45,"#ffffff");
+ ctx.fillStyle="#59634e";roundRect(ctx,61,Math.max(242,lastIdeaY+14),1080,2,1);ctx.fill();
+ ctx.fillStyle="#c8ef92";ctx.font="700 22px sans-serif";ctx.fillText("THE UNDERTAKER SAYS",64,297);
+ fitLines(ctx,r.roast,64,343,810,3,"600 28px sans-serif",37,"#f6f1e7");
+ ctx.fillStyle="#f9b298";ctx.font="700 19px sans-serif";ctx.fillText("THE ONE THING THAT KILLS IT",64,490);
+ fitLines(ctx,r.killer,64,526,880,2,"600 22px sans-serif",27,"#f8e8de");
+ ctx.fillStyle="#c8ef92";ctx.font="800 98px sans-serif";ctx.textAlign="right";ctx.fillText(String(r.score),1136,209);
+ ctx.fillStyle="#e3e9d3";ctx.font="600 20px sans-serif";ctx.fillText("/ 100",1136,241);ctx.textAlign="left";
+ ctx.fillStyle="#f7bc9b";ctx.font="800 22px sans-serif";ctx.textAlign="right";
+ var verdictLines=lines(ctx,r.verdict,222,2);verdictLines.forEach(function(s,i){ctx.fillText(s,1136,302+i*28);});ctx.textAlign="left";
+ ctx.fillStyle="#3a4533";ctx.fillRect(0,576,1200,54);
+ ctx.fillStyle="#ffffff";ctx.font="700 22px sans-serif";ctx.fillText("readsigil.com/roast-my-idea/",64,612);
+ ctx.fillStyle="#c8ef92";ctx.font="600 17px sans-serif";ctx.textAlign="right";ctx.fillText("Six questions. One merciless verdict.",1136,611);ctx.textAlign="left";
+}
+function copyText(r){return "I pitched: "+r.idea+"\n\nThe Idea Undertaker gave me "+r.score+"/100 — "+r.verdict+"\n\n"+r.roast+"\n\nFatal flaw: "+r.killer+"\n\nRoast yours: https://readsigil.com/roast-my-idea/\n#RoastMyIdea #ReadSigil";}
+async function clipboard(text){try{await navigator.clipboard.writeText(text);return true;}catch(e){var ta=document.createElement("textarea");ta.value=text;ta.style.position="fixed";ta.style.opacity="0";document.body.append(ta);ta.select();var ok=false;try{ok=document.execCommand("copy");}catch(err){}ta.remove();return ok;}}
+function cardBlob(){return new Promise(function(resolve){$("card").toBlob(resolve,"image/png");});}
+function saveBlob(blob,name){var url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},1500);}
+async function download(){if(!last)return;var blob=await cardBlob();if(!blob){$("status").textContent="Could not generate image on this browser.";return;}saveBlob(blob,"readsigil-roast-my-idea.png");$("status").textContent="Downloaded. Upload the card to a LinkedIn post to show your score.";}
+async function share(){if(!last)return;var blob=await cardBlob();var text=copyText(last);
+ if(blob&&navigator.share&&navigator.canShare){var file=new File([blob],"readsigil-roast.png",{type:"image/png"});if(navigator.canShare({files:[file]})){try{await navigator.share({files:[file],text:text,title:"Roast My Idea — ReadSigil"});$("status").textContent="Share sheet opened.";return;}catch(e){if(e.name==="AbortError")return;}}}
+ var ok=await clipboard(text);$("status").textContent=ok?"Result copied. Download the card to attach it to your LinkedIn post.":"Use Download and paste your verdict manually.";
+}
+function reset(){last=null;answers=[null,null,null,null,null,null];$("idea").value="";$("result").hidden=true;paintQuestions();refresh();$("idea").focus();window.scrollTo({top:0,behavior:"smooth"});}
+$("idea").addEventListener("input",refresh);$("idea").addEventListener("keydown",function(e){if(e.key==="Enter"&&!$("roast-btn").disabled)run();});
+examples.forEach(function(b){b.addEventListener("click",function(){$("idea").value=b.dataset.example;refresh();$("idea").focus();});});
+$("roast-btn").addEventListener("click",run);$("again").addEventListener("click",reset);
+$("download").addEventListener("click",download);$("share").addEventListener("click",share);
+$("copy").addEventListener("click",async function(){if(!last)return;var ok=await clipboard(copyText(last));$("status").textContent=ok?"Verdict copied. Dare a colleague.":"Copy unavailable on this browser.";});
+paintQuestions();refresh();
+})();
+</script>
+</body></html>

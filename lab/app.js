@@ -1,7 +1,7 @@
 // Prompt Lab: client-side prompt optimizer. Your key stays in this tab (optional localStorage) and is sent only to the provider you pick.
 (()=>{
 const $=s=>document.querySelector(s);
-const PROV={groq:{url:"https://api.groq.com/openai/v1",target:"llama-3.1-8b-instant",opt:"llama-3.3-70b-versatile"},
+const PROV={groq:{url:"https://api.groq.com/openai/v1",target:"openai/gpt-oss-20b",opt:"openai/gpt-oss-120b"},
  openrouter:{url:"https://openrouter.ai/api/v1",target:"meta-llama/llama-3.1-8b-instruct",opt:"meta-llama/llama-3.3-70b-instruct"},
  gemini:{url:"https://generativelanguage.googleapis.com/v1beta/openai",target:"gemini-2.0-flash-lite",opt:"gemini-2.0-flash"},
  openai:{url:"https://api.openai.com/v1",target:"gpt-4o-mini",opt:"gpt-4o"}};
@@ -25,7 +25,7 @@ function diff(a,b){a=a.split("\n");b=b.split("\n");const n=a.length,m=b.length,L
  while(i<n)o.push('<span class="del">- '+esc(a[i++])+"</span>");while(j<m)o.push('<span class="add">+ '+esc(b[j++])+"</span>");return o.join("\n");}
 let stop=false;
 async function chat(cfg,model,prompt,system,temperature=0){const msgs=(system?[{role:"system",content:system}]:[]).concat([{role:"user",content:prompt}]);
- for(let a=0;a<5;a++){const t0=performance.now();const r=await fetch(cfg.url+"/chat/completions",{method:"POST",headers:{"Content-Type":"application/json",Authorization:"Bearer "+cfg.key},body:JSON.stringify({model,messages:msgs,temperature,max_tokens:1024})});
+ for(let a=0;a<5;a++){const t0=performance.now();const r=await fetch(cfg.url+"/chat/completions",{method:"POST",headers:{"Content-Type":"application/json",Authorization:"Bearer "+cfg.key},body:JSON.stringify({model,messages:msgs,temperature,max_tokens:4096})});
   if(r.status===429||r.status>=500){await new Promise(s=>setTimeout(s,3000*2**a));continue}
   if(!r.ok)throw new Error(model+": HTTP "+r.status+" "+(await r.text()).slice(0,200));
   const d=await r.json();const u=d.usage||{};return{text:d.choices[0].message.content||"",lat:(performance.now()-t0)/1000,tok:(u.prompt_tokens||0)+(u.completion_tokens||0)}}

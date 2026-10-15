@@ -1,4 +1,4 @@
-// Prompt Lab: client-side prompt optimizer. Your key stays in this tab (optional localStorage) and is sent only to the provider you pick.
+// Prompt Lab: client-side prompt optimizer. Your key stays in this tab (optional sessionStorage, cleared when the tab closes) and is sent only to the provider you pick.
 (()=>{
 const $=s=>document.querySelector(s);
 const PROV={groq:{url:"https://api.groq.com/openai/v1",target:"openai/gpt-oss-20b",opt:"openai/gpt-oss-120b"},
@@ -60,7 +60,7 @@ function parseSamples(t){return t.split("\n").map(l=>l.trim()).filter(Boolean).m
 async function run(){stop=false;$("#rounds").innerHTML="";$("#final").hidden=true;$("#status").textContent="";
  const p=$("#prov").value;const cfg={url:PROV[p].url,key:$("#key").value.trim(),target:$("#target").value.trim(),opt:$("#opt").value.trim()};
  if(!cfg.key){$("#status").textContent="Paste your API key first, or press “Try a demo”.";return}
- if($("#remember").checked)localStorage.setItem("pl_key_"+p,cfg.key);else localStorage.removeItem("pl_key_"+p);
+ try{localStorage.removeItem("pl_key_"+p)}catch(e){}if($("#remember").checked)sessionStorage.setItem("pl_key_"+p,cfg.key);else sessionStorage.removeItem("pl_key_"+p);
  let samples;try{samples=parseSamples($("#samples").value)}catch(e){$("#status").textContent="Samples must be one JSON object per line.";return}
  const tpl=$("#tpl").value,rubric=$("#rubric").value,maxR=+$("#rounds-n").value;$("#go").disabled=true;
  try{$("#status").textContent="Round 0: scoring your original prompt…";let cur=await evaluate(cfg,tpl,samples,rubric);
@@ -79,7 +79,7 @@ async function run(){stop=false;$("#rounds").innerHTML="";$("#final").hidden=tru
 async function demo(){$("#rounds").innerHTML="";$("#final").hidden=true;
  const d=await fetch("demo-run.json").then(r=>r.json());$("#status").textContent=`Replaying a real run (${d.target} target, ${d.optimizer} optimizer and judge, ${d.provider}, ${d.ran_at}).`;
  for(const r of d.rounds){showRound(r,r.template===d.best);await new Promise(s=>setTimeout(s,900))}showFinal(d.baseline,d.best,d.baseline_score,d.best_score,d.compare);}
-function fill(){const p=$("#prov").value;$("#target").value=PROV[p].target;$("#opt").value=PROV[p].opt;$("#key").value=localStorage.getItem("pl_key_"+p)||"";}
+function fill(){const p=$("#prov").value;$("#target").value=PROV[p].target;$("#opt").value=PROV[p].opt;try{localStorage.removeItem("pl_key_"+p)}catch(e){}$("#key").value=sessionStorage.getItem("pl_key_"+p)||"";}
 $("#prov").onchange=fill;fill();$("#tpl").value=PRESET.template;$("#samples").value=PRESET.samples;$("#rubric").value=PRESET.rubric;
 $("#go").onclick=run;$("#stop").onclick=()=>{stop=true};
 fetch("demo-run.json",{method:"HEAD"}).then(r=>{if(r.ok){$("#demo").hidden=false;$("#demo").onclick=demo}});

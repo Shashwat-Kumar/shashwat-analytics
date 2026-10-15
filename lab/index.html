@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-IN">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; media-src 'self' blob: data:; connect-src 'self' https://hn.algolia.com https://api.groq.com https://generativelanguage.googleapis.com https://openrouter.ai https://api.openai.com; worker-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Prompt Lab | Optimize a prompt in your browser with any model | ReadSigil</title>
 <meta name="description" content="An open, model-agnostic prompt optimizer that runs in your browser. Paste a template, test samples and criteria; watch it score, diagnose and rewrite the prompt round by round.">
 <link rel="canonical" href="https://readsigil.com/lab/">
@@ -9,8 +9,7 @@
 <meta property="og:description" content="Open prompt optimization in your browser with your own Groq, Gemini, OpenRouter or OpenAI key.">
 <meta property="og:url" content="https://readsigil.com/lab/"><meta property="og:image" content="https://readsigil.com/assets/img/og-image.png">
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link href="/assets/fonts/f-94aad54b8c.css" rel="stylesheet">
 <link rel="stylesheet" href="lab.css"><script src="app.js" defer></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Prompt Lab","url":"https://readsigil.com/lab/","applicationCategory":"DeveloperApplication","operatingSystem":"Web browser","isAccessibleForFree":true,"author":{"@type":"Person","name":"Shashwat Kumar"},"codeRepository":"https://github.com/Shashwat-Kumar/promptlab"}</script>
 </head>
@@ -28,7 +27,7 @@
 <div class="row"><div><label for="prov">Provider</label><select id="prov"><option value="groq">Groq (free tier)</option><option value="gemini">Google Gemini</option><option value="openrouter">OpenRouter</option><option value="openai">OpenAI</option></select></div>
 <div><label for="rounds-n">Max rounds</label><input id="rounds-n" type="number" min="1" max="8" value="4"></div></div>
 <label for="key">API key</label><input id="key" type="password" autocomplete="off" placeholder="stays in your browser">
-<label class="note" style="text-transform:none"><input id="remember" type="checkbox" style="width:auto"> remember on this device (localStorage)</label>
+<label class="note" style="text-transform:none"><input id="remember" type="checkbox" style="width:auto"> remember for this tab only (sessionStorage)</label><p class="note" style="text-transform:none">Off by default. If ticked, the key is kept in this browser tab until you close it. Use a low-limit or free-tier key, and do not tick this on a shared or public computer.</p>
 <div class="row"><div><label for="target">Target model</label><input id="target"></div><div><label for="opt">Optimizer + judge model</label><input id="opt"></div></div>
 <label for="tpl">Prompt template ({{variables}})</label><textarea id="tpl"></textarea>
 <label for="samples">Samples (one JSON per line: {"inputs":{…},"expected":"…"})</label><textarea id="samples"></textarea>

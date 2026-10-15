@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T12:02:28Z",
+ "generated_at": "2026-10-15T16:53:12Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,35 +8,35 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
-  "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+  "title": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
+  "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50091788",
-  "points": 916,
-  "comments": 550,
-  "published": "2026-10-14T17:45:23Z",
-  "since": "2026-10-14T20:09:59Z"
+  "discuss": "https://news.ycombinator.com/item?id=50104654",
+  "points": 108,
+  "comments": 72,
+  "published": "2026-10-15T14:58:48Z",
+  "since": "2026-10-15T16:53:12Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
   "person": "Jensen Huang",
-  "title": "Nvidia CEO Jensen Huang urges AI safety dialogue with China",
-  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oR1BWcUU4WE5OYlZxV25NNWI1RFNIdFNqcEtmTTFRdnNDU1doWUJpMEkwdFRNNExpQmRuQ09ORXB2M1JXbTFRWm4yV1dMRUV1R3hRcTBYcExxX3VqenRVVXZRV1BRSGVnT2ROYVBIc04yQmVM?oc=5",
-  "source": "Quartz",
-  "published": "2026-10-15T11:45:08Z",
-  "since": "2026-10-15T12:02:28Z"
+  "title": "Jensen Huang Says Nvidia Must Work With China on AI Safety",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT2hZSXNMSklFNmJqTXVZcmtuV25XZ2NMdmxVR1pJWUpIQUtqNUVDTG5LODZSTkhFcEx1bjdMdUQxV05RWHNsNlhYNHpSUlpiRmxJMFZGMVJGeEZhXzZyZUhpcnkzNjdRcHcwaVh4NERkOGZIWDBtclh6SUFBOGp0bEpHWjAtSjVLXzJJbHBnbUVGeTVFZzZ3OQ?oc=5",
+  "source": "Yahoo Finance",
+  "published": "2026-10-15T13:15:08Z",
+  "since": "2026-10-15T16:53:12Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Nvidia CEO Jensen Huang urges AI safety dialogue with China",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oR1BWcUU4WE5OYlZxV25NNWI1RFNIdFNqcEtmTTFRdnNDU1doWUJpMEkwdFRNNExpQmRuQ09ORXB2M1JXbTFRWm4yV1dMRUV1R3hRcTBYcExxX3VqenRVVXZRV1BRSGVnT2ROYVBIc04yQmVM?oc=5",
-   "source": "Quartz",
-   "published": "2026-10-15T11:45:08Z",
-   "since": "2026-10-15T12:02:28Z"
+   "title": "Jensen Huang Says Nvidia Must Work With China on AI Safety",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT2hZSXNMSklFNmJqTXVZcmtuV25XZ2NMdmxVR1pJWUpIQUtqNUVDTG5LODZSTkhFcEx1bjdMdUQxV05RWHNsNlhYNHpSUlpiRmxJMFZGMVJGeEZhXzZyZUhpcnkzNjdRcHcwaVh4NERkOGZIWDBtclh6SUFBOGp0bEpHWjAtSjVLXzJJbHBnbUVGeTVFZzZ3OQ?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-15T13:15:08Z",
+   "since": "2026-10-15T16:53:12Z"
   },
   {
    "kind": "voice",
@@ -80,11 +80,11 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Nvidia CEO Jensen Huang urges AI safety dialogue with China",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oR1BWcUU4WE5OYlZxV25NNWI1RFNIdFNqcEtmTTFRdnNDU1doWUJpMEkwdFRNNExpQmRuQ09ORXB2M1JXbTFRWm4yV1dMRUV1R3hRcTBYcExxX3VqenRVVXZRV1BRSGVnT2ROYVBIc04yQmVM?oc=5",
-   "source": "Quartz",
-   "published": "2026-10-15T11:45:08Z",
-   "since": "2026-10-15T12:02:28Z"
+   "title": "Jensen Huang Says Nvidia Must Work With China on AI Safety",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT2hZSXNMSklFNmJqTXVZcmtuV25XZ2NMdmxVR1pJWUpIQUtqNUVDTG5LODZSTkhFcEx1bjdMdUQxV05RWHNsNlhYNHpSUlpiRmxJMFZGMVJGeEZhXzZyZUhpcnkzNjdRcHcwaVh4NERkOGZIWDBtclh6SUFBOGp0bEpHWjAtSjVLXzJJbHBnbUVGeTVFZzZ3OQ?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-15T13:15:08Z",
+   "since": "2026-10-15T16:53:12Z"
   },
   {
    "kind": "voice",
@@ -107,7 +107,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2258,
+   "stars": 2345,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -117,7 +117,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 937,
+   "stars": 954,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -127,7 +127,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 794,
+   "stars": 810,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -137,7 +137,7 @@
   {
    "kind": "repo",
    "title": "Ayzzz123/mcd-coupon-strategist",
-   "stars": 329,
+   "stars": 342,
    "note": "Python · new this week",
    "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
    "source": "GitHub",
@@ -147,7 +147,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 282,
+   "stars": 285,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -157,7 +157,7 @@
   {
    "kind": "repo",
    "title": "BlenderGPT3D/blender-ai-addon",
-   "stars": 213,
+   "stars": 214,
    "note": "Python · new this week",
    "url": "https://github.com/BlenderGPT3D/blender-ai-addon",
    "source": "GitHub",
@@ -166,18 +166,8 @@
   },
   {
    "kind": "repo",
-   "title": "storytold/craft-launcher",
-   "stars": 2771,
-   "note": "Rust · new this week",
-   "url": "https://github.com/storytold/craft-launcher",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 2721,
+   "stars": 2988,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -186,8 +176,18 @@
   },
   {
    "kind": "repo",
+   "title": "storytold/craft-launcher",
+   "stars": 2812,
+   "note": "Rust · new this week",
+   "url": "https://github.com/storytold/craft-launcher",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2321,
+   "stars": 2332,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -197,7 +197,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1726,
+   "stars": 1897,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -207,66 +207,66 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 916,
-   "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+   "points": 108,
+   "title": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
    "source": "Hacker News",
-   "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "discuss": "https://news.ycombinator.com/item?id=50091788"
+   "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+   "discuss": "https://news.ycombinator.com/item?id=50104654"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 231,
-   "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+   "points": 48,
+   "title": "Using AI to reverse engineer hardware",
    "source": "Hacker News",
-   "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-   "discuss": "https://news.ycombinator.com/item?id=50097369"
+   "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+   "discuss": "https://news.ycombinator.com/item?id=50104299"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 86,
-   "title": "Ask HN: CAD for wood working with LLM support?",
+   "points": 21,
+   "title": "Krea 3 – Frontier Image Model 4× faster than Nano Banana Pro",
    "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50067325",
-   "discuss": "https://news.ycombinator.com/item?id=50067325"
+   "url": "https://www.krea.ai/krea-3",
+   "discuss": "https://news.ycombinator.com/item?id=50105648"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 13,
-   "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+   "points": 21,
+   "title": "Neural Networks Are Already Clean",
    "source": "Hacker News",
-   "url": "https://github.com/awslabs/aidlc-workflows",
-   "discuss": "https://news.ycombinator.com/item?id=50100387"
+   "url": "https://already-clean.goodfire.com/",
+   "discuss": "https://news.ycombinator.com/item?id=50105647"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Figma announces new features to define how agents work on its platform",
+   "title": "AI agents are coming to Rivian’s cars",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/"
+   "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+   "title": "Google’s Universal Cart shopping tool launches in the US",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"
+   "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+   "title": "TechCrunch Disrupt 2026: Last day",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/"
+   "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+   "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/"
+   "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
   },
   {
    "kind": "news",

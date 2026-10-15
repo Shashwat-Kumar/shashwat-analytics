@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T01:35:04Z",
+ "generated_at": "2026-10-15T06:25:27Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,41 @@
   "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50091788",
-  "points": 836,
-  "comments": 444,
+  "points": 868,
+  "comments": 502,
   "published": "2026-10-14T17:45:23Z",
   "since": "2026-10-14T20:09:59Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Jensen Huang",
-  "title": "Nvidia’s Jensen Huang responds to Pope Leo’s AI safety criticism: ‘We all care about the same thing’",
-  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcE1vZ2xQLVlBMVh6RkFoMjF0bWMxZW9qMzNWYkdRU3gxUjhIRXMwcVVPRTBVM2Jpc0xWNVNLNVJQVnVHbHUybkV1akFVUWdtMEQ5SDFtaXRZVXZ6V19wbjZ3ejZ0RGxqVngzY0dOa09DaTJaVmdERFc5Nks0amNFZWUxU1pBM0tZdGx4dk1kMGE1YTVfTFJiSUVGSk1IaDN4c2N0RDNMeHByYi1iSzZEdlNERlBHYUJ1ZVAtRktPcjk0ZXAzaVE?oc=5",
-  "source": "Fortune",
-  "published": "2026-10-14T19:21:00Z",
-  "since": "2026-10-14T23:19:10Z"
+  "person": "Demis Hassabis",
+  "title": "Demis Hassabis warns there could be major AI hacking incidents by next year",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbnFVZ1cwR3lqYUx0b2E0TlV3ajdBbW4wWUhfaVhaUUo4S0RXZnFCTjJtdmR5bC04ZWFiWHRVVXV6T25yNDBOa2UxckUySWtnRXdSemt4alFWSnNWVWVWZ0g2eHBBajRoR2M1MmRCcXZhQ0l0d3o2aUtBbmhOcGQxLW5fV0YtSVl5QzZ6Q1NLWnJfeS1TMWROV1p4bzd4dG4xYWQ1ZXVmOW1mVlVZX0ZvbUpYNGtETWM0QjJMQXpTM0JJVWNlQkxIdXNZRC12Uk5MdTdkRzdSaF9FUdIB3wFBVV95cUxQclpSb2d6bEQyVTU2eEdRQmNlRDlubG5DbVBOOS1tcHJ2c0IwR196dWJRTVRfYnFWYURVZ2xfbEYxRmhuNGhBMTcyaTNNYXM1S190QVJFeFVEQU1oRGxtOTlqaG82Q0pFa1NsSTcyV0VFRl9mOFZlMU1kcTAyYkZlVV92Z0t0V0Z1RGp3UEo1TzFOSnFpUmJGMGM1NEZCejEzUFljbG9qZUxfSm5XbEtma0g2SEkyQ2gwNlltVEwycjJlMXdxUGl1Szh1MnJpaVJRYkdBNkR1dHBYUTN6aTRV?oc=5",
+  "source": "India Today",
+  "published": "2026-10-15T06:19:34Z",
+  "since": "2026-10-15T06:25:27Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Demis Hassabis",
+   "title": "Demis Hassabis warns there could be major AI hacking incidents by next year",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbnFVZ1cwR3lqYUx0b2E0TlV3ajdBbW4wWUhfaVhaUUo4S0RXZnFCTjJtdmR5bC04ZWFiWHRVVXV6T25yNDBOa2UxckUySWtnRXdSemt4alFWSnNWVWVWZ0g2eHBBajRoR2M1MmRCcXZhQ0l0d3o2aUtBbmhOcGQxLW5fV0YtSVl5QzZ6Q1NLWnJfeS1TMWROV1p4bzd4dG4xYWQ1ZXVmOW1mVlVZX0ZvbUpYNGtETWM0QjJMQXpTM0JJVWNlQkxIdXNZRC12Uk5MdTdkRzdSaF9FUdIB3wFBVV95cUxQclpSb2d6bEQyVTU2eEdRQmNlRDlubG5DbVBOOS1tcHJ2c0IwR196dWJRTVRfYnFWYURVZ2xfbEYxRmhuNGhBMTcyaTNNYXM1S190QVJFeFVEQU1oRGxtOTlqaG82Q0pFa1NsSTcyV0VFRl9mOFZlMU1kcTAyYkZlVV92Z0t0V0Z1RGp3UEo1TzFOSnFpUmJGMGM1NEZCejEzUFljbG9qZUxfSm5XbEtma0g2SEkyQ2gwNlltVEwycjJlMXdxUGl1Szh1MnJpaVJRYkdBNkR1dHBYUTN6aTRV?oc=5",
+   "source": "India Today",
+   "published": "2026-10-15T06:19:34Z",
+   "since": "2026-10-15T06:25:27Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Elon Musk congratulates CEOs and execs after Google CEO Sundar Pichai announces Gemini 4 Argon; says 'vas",
+   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-15T02:42:00Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,17 +54,7 @@
    "title": "Nvidia’s Jensen Huang responds to Pope Leo’s AI safety criticism: ‘We all care about the same thing’",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcE1vZ2xQLVlBMVh6RkFoMjF0bWMxZW9qMzNWYkdRU3gxUjhIRXMwcVVPRTBVM2Jpc0xWNVNLNVJQVnVHbHUybkV1akFVUWdtMEQ5SDFtaXRZVXZ6V19wbjZ3ejZ0RGxqVngzY0dOa09DaTJaVmdERFc5Nks0amNFZWUxU1pBM0tZdGx4dk1kMGE1YTVfTFJiSUVGSk1IaDN4c2N0RDNMeHByYi1iSzZEdlNERlBHYUJ1ZVAtRktPcjk0ZXAzaVE?oc=5",
    "source": "Fortune",
-   "published": "2026-10-14T19:21:00Z",
-   "since": "2026-10-14T23:19:10Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Demis Hassabis",
-   "title": "'Early warning shots': Google DeepMind's Demis Hassabis warns AI could trigger major incidents within 2 years",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQSlBtWUM3ZkxmMjFhckZOaUNPbmVkUWF1SzVMVkJqLXd6UnItR2x4cy1oeXB5SXpWLUV6ZHdSYlFIVVFiaUtqTElGdHNVcF85dV9nMjR3WWdkTDZpRWJndVZoWDZJUXlSOG5CS25TOTFoZ3RyVUZuZC04WjVSNzBodHJ1LVVyN0t5a21nTk01cjBaRkNOaHJxSjVEbi1fb09QWkE4Z21TVXhHYmtSRGdYWTNfQmhkTjQ3QWtBNjdxeVc5T19aVUVJQ2x5UkI5emdoSHJOUkJxMTY3YkxlYlMyVDN4bHFadENs0gHuAUFVX3lxTE9malNNTWUxX1ROYkRUZGVaaGExOHpxVkFTOFpfZVVidGR2a3BXNEhoa3k1dXJqM0pELWZ2ZWdQeGZRTDdtX3o2UlZvNEkwX2tUY2hWTXloUTdvTUQ4Q2xWRnZpSFpJRlBHVmttek5TZHhtMjlIN0thVWgwWGJjd241U1R2c3RDWkJ1YTlWcWJyNERRT2lER3pTZ2luM3BWdXN6X05iYlM3U2hLZlVzOWF3blhrNUZ2ZlRNd0hqZFNCOWZHa2tFUWJUMlFxSFZxTWVrTXFiZ0NsdXBEbDZKSHZzOU1KT24zM3I5VEl0OVE?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-14T17:41:16Z"
+   "published": "2026-10-14T19:21:00Z"
   },
   {
    "kind": "voice",
@@ -64,6 +73,18 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tdFpidUZrWDhnUUNnSFlkSmRFTXZGSUtIbERhWFVwWkwwWDVhMG92clREellIVzNWN0V4UWlLVERhR282c1NENkVXbUxWdmFZT2lqUEl3UjFyNmNEbTFJWWYyQ0djWEwtRTNXeWxFaw?oc=5",
    "source": "Business Insider",
    "published": "2026-10-14T14:53:00Z"
+  }
+ ],
+ "items": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Demis Hassabis",
+   "title": "Demis Hassabis warns there could be major AI hacking incidents by next year",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbnFVZ1cwR3lqYUx0b2E0TlV3ajdBbW4wWUhfaVhaUUo4S0RXZnFCTjJtdmR5bC04ZWFiWHRVVXV6T25yNDBOa2UxckUySWtnRXdSemt4alFWSnNWVWVWZ0g2eHBBajRoR2M1MmRCcXZhQ0l0d3o2aUtBbmhOcGQxLW5fV0YtSVl5QzZ6Q1NLWnJfeS1TMWROV1p4bzd4dG4xYWQ1ZXVmOW1mVlVZX0ZvbUpYNGtETWM0QjJMQXpTM0JJVWNlQkxIdXNZRC12Uk5MdTdkRzdSaF9FUdIB3wFBVV95cUxQclpSb2d6bEQyVTU2eEdRQmNlRDlubG5DbVBOOS1tcHJ2c0IwR196dWJRTVRfYnFWYURVZ2xfbEYxRmhuNGhBMTcyaTNNYXM1S190QVJFeFVEQU1oRGxtOTlqaG82Q0pFa1NsSTcyV0VFRl9mOFZlMU1kcTAyYkZlVV92Z0t0V0Z1RGp3UEo1TzFOSnFpUmJGMGM1NEZCejEzUFljbG9qZUxfSm5XbEtma0g2SEkyQ2gwNlltVEwycjJlMXdxUGl1Szh1MnJpaVJRYkdBNkR1dHBYUTN6aTRV?oc=5",
+   "source": "India Today",
+   "published": "2026-10-15T06:19:34Z",
+   "since": "2026-10-15T06:25:27Z"
   },
   {
    "kind": "voice",
@@ -72,10 +93,8 @@
    "title": "Elon Musk congratulates CEOs and execs after Google CEO Sundar Pichai announces Gemini 4 Argon; says 'vas",
    "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5",
    "source": "The Times of India",
-   "published": "2026-10-14T05:02:00Z"
-  }
- ],
- "items": [
+   "published": "2026-10-15T02:42:00Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -83,32 +102,13 @@
    "title": "Nvidia’s Jensen Huang responds to Pope Leo’s AI safety criticism: ‘We all care about the same thing’",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcE1vZ2xQLVlBMVh6RkFoMjF0bWMxZW9qMzNWYkdRU3gxUjhIRXMwcVVPRTBVM2Jpc0xWNVNLNVJQVnVHbHUybkV1akFVUWdtMEQ5SDFtaXRZVXZ6V19wbjZ3ejZ0RGxqVngzY0dOa09DaTJaVmdERFc5Nks0amNFZWUxU1pBM0tZdGx4dk1kMGE1YTVfTFJiSUVGSk1IaDN4c2N0RDNMeHByYi1iSzZEdlNERlBHYUJ1ZVAtRktPcjk0ZXAzaVE?oc=5",
    "source": "Fortune",
-   "published": "2026-10-14T19:21:00Z",
-   "since": "2026-10-14T23:19:10Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Demis Hassabis",
-   "title": "'Early warning shots': Google DeepMind's Demis Hassabis warns AI could trigger major incidents within 2 years",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQSlBtWUM3ZkxmMjFhckZOaUNPbmVkUWF1SzVMVkJqLXd6UnItR2x4cy1oeXB5SXpWLUV6ZHdSYlFIVVFiaUtqTElGdHNVcF85dV9nMjR3WWdkTDZpRWJndVZoWDZJUXlSOG5CS25TOTFoZ3RyVUZuZC04WjVSNzBodHJ1LVVyN0t5a21nTk01cjBaRkNOaHJxSjVEbi1fb09QWkE4Z21TVXhHYmtSRGdYWTNfQmhkTjQ3QWtBNjdxeVc5T19aVUVJQ2x5UkI5emdoSHJOUkJxMTY3YkxlYlMyVDN4bHFadENs0gHuAUFVX3lxTE9malNNTWUxX1ROYkRUZGVaaGExOHpxVkFTOFpfZVVidGR2a3BXNEhoa3k1dXJqM0pELWZ2ZWdQeGZRTDdtX3o2UlZvNEkwX2tUY2hWTXloUTdvTUQ4Q2xWRnZpSFpJRlBHVmttek5TZHhtMjlIN0thVWgwWGJjd241U1R2c3RDWkJ1YTlWcWJyNERRT2lER3pTZ2luM3BWdXN6X05iYlM3U2hLZlVzOWF3blhrNUZ2ZlRNd0hqZFNCOWZHa2tFUWJUMlFxSFZxTWVrTXFiZ0NsdXBEbDZKSHZzOU1KT24zM3I5VEl0OVE?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-14T17:41:16Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Mark Zuckerberg",
-   "title": "Mark Zuckerberg Defends Meta's AI CapEx, Ready to 'Write This Check' for up to '$200 Billion' to Dominate 'Decades to Come'",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYlllSFdjUGN6MXplZWlreE1xek9XZmx0OVdGVFZzbDRsRXFjR0hfYkEzYXpZdTF5bVNEbzRRVGVzc1p1dUZFX3BzT25aLVRyenM3X1Nqel9CX3pZZ2lCYnI2ZDB6UVpfdnhPejNCWFdyWU1LcXh4NUFnNS1uclh3enpXdm05T0ZQWHRHbVNCVWFQbkpFRkJ1ODJ3VEE?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-14T17:30:15Z"
+   "published": "2026-10-14T19:21:00Z"
   },
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2095,
-   "note": "Python · new this week",
+   "stars": 2180,
+   "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
    "tag": "GH",
@@ -116,18 +116,8 @@
   },
   {
    "kind": "repo",
-   "title": "outcrawlai/scout",
-   "stars": 656,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/outcrawlai/scout",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 603,
+   "stars": 786,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -136,8 +126,18 @@
   },
   {
    "kind": "repo",
+   "title": "outcrawlai/scout",
+   "stars": 713,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/outcrawlai/scout",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "Ayzzz123/mcd-coupon-strategist",
-   "stars": 303,
+   "stars": 321,
    "note": "Python · new this week",
    "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
    "source": "GitHub",
@@ -147,7 +147,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 278,
+   "stars": 280,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -167,7 +167,7 @@
   {
    "kind": "repo",
    "title": "storytold/craft-launcher",
-   "stars": 2657,
+   "stars": 2712,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/craft-launcher",
    "source": "GitHub",
@@ -176,18 +176,8 @@
   },
   {
    "kind": "repo",
-   "title": "liseami/CCBaga",
-   "stars": 2254,
-   "note": "Rust · new this week",
-   "url": "https://github.com/liseami/CCBaga",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 2169,
+   "stars": 2461,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -196,8 +186,18 @@
   },
   {
    "kind": "repo",
+   "title": "liseami/CCBaga",
+   "stars": 2288,
+   "note": "Rust · new this week",
+   "url": "https://github.com/liseami/CCBaga",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1258,
+   "stars": 1466,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -207,7 +207,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 836,
+   "points": 868,
    "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
    "source": "Hacker News",
    "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
@@ -216,16 +216,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 280,
-   "title": "Banks are now trying to offload the AI data center debt they just underwrote",
-   "source": "Hacker News",
-   "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "discuss": "https://news.ycombinator.com/item?id=50092664"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 249,
+   "points": 341,
    "title": "Anthropic's Scion is heavily inspired by Mononoke",
    "source": "Hacker News",
    "url": "https://sunshowers.io/posts/anthropic-mononoke/",
@@ -234,25 +225,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 206,
-   "title": "Yandex outage: data shows that instead of going dark, malicious bots moved",
-   "source": "Hacker News",
-   "url": "https://blog.cloudflare.com/yandex-outage/",
-   "discuss": "https://news.ycombinator.com/item?id=50094673"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 78,
-   "title": "Has AI tells",
-   "source": "Hacker News",
-   "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
-   "discuss": "https://news.ycombinator.com/item?id=50090799"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 62,
+   "points": 156,
    "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
    "source": "Hacker News",
    "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
@@ -261,7 +234,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 23,
+   "points": 107,
+   "title": "Has AI tells",
+   "source": "Hacker News",
+   "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+   "discuss": "https://news.ycombinator.com/item?id=50090799"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 56,
    "title": "Ask HN: CAD for wood working with LLM support?",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50067325",
@@ -269,12 +251,10 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 9,
-   "title": "A new model for open source: closed to pull requests, open to remix",
-   "source": "Hacker News",
-   "url": "https://ghuntley.com/remix/",
-   "discuss": "https://news.ycombinator.com/item?id=50097182"
+   "tag": "AI",
+   "title": "Figma announces new features to define how agents work on its platform",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/"
   },
   {
    "kind": "news",
@@ -296,13 +276,6 @@
    "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
   },
   {
    "kind": "news",

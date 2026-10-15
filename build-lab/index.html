@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Build Lab | Build an agent, chatbot and dashboard step by step | ReadSigil</title>
+<meta name="description" content="Three hands-on, free, browser-based lessons. Build a decision agent, a grounded FAQ chatbot and a KPI dashboard. Configure, test and export working starter code.">
+<link rel="canonical" href="https://readsigil.com/build-lab/">
+<meta property="og:type" content="website"><meta property="og:title" content="Build Lab — Don't just read about AI. Build something.">
+<meta property="og:description" content="Three guided builds: a decision agent, a grounded FAQ chatbot and a KPI dashboard. Live previews and downloadable code.">
+<meta property="og:url" content="https://readsigil.com/build-lab/"><meta property="og:image" content="https://readsigil.com/assets/img/og-image.png">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="lab.css"><script src="lab.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"ReadSigil Build Lab","url":"https://readsigil.com/build-lab/","educationalLevel":"Beginner to intermediate","teaches":["Workflow agents","Grounded chatbot design","KPI dashboard design"],"isAccessibleForFree":true}</script>
+</head>
+<body>
+<header class="site-head"><div class="container head-inner"><a class="brand" href="../index.html">Read<span>Sigil</span><small> / BUILD LAB</small></a><nav aria-label="Site"><a href="../index.html">Home</a><a href="../learn.html">Learn</a><a href="../playground.html">Playground</a><a href="../decision-atlas/">Decision Atlas</a></nav></div></header>
+<main>
+<section class="hero container"><p class="eyebrow"><span class="dot"></span> READSIGIL / INTERACTIVE WORKSHOP</p><div class="hero-grid"><div><h1>Don't just read about AI.<br><em>Build something.</em></h1><p class="sub">Make an agent, a chatbot or a decision dashboard yourself. Five short steps. Change the inputs, try to break it, inspect the logic, then take the source code home.</p><div class="hero-points"><span>✳ Runs in your browser</span><span>✳ No signup or API key</span><span>✳ Export real starter files</span></div></div><div class="terminal" aria-hidden="true"><div class="terminal-top"><span>● ● ●</span><span>build-lab / lesson.json</span></div><pre><span class="code-muted">// your first useful build</span>
+{
+  <span class="code-key">"define"</span>: <span class="code-val">"the task"</span>,
+  <span class="code-key">"bound"</span>: <span class="code-val">"the action"</span>,
+  <span class="code-key">"test"</span>: <span class="code-val">"the failure"</span>,
+  <span class="code-key">"ship"</span>: <span class="code-val">"the artifact"</span>
+}</pre><div class="terminal-foot">YOU CONTROL THE LOGIC <b>↗</b></div></div></div></section>
+<section class="course container" aria-labelledby="choose-title"><p class="eyebrow muted">01 / PICK YOUR BUILD</p><h2 id="choose-title">Three ways to make something useful.</h2><div class="track-grid" id="trackGrid">
+<button type="button" class="track-card selected" data-track="agent" aria-pressed="true"><span class="card-index">01 <span>◈ INTERMEDIATE</span></span><span class="card-symbol">⤳</span><strong>Build a decision agent</strong><span>Design a workflow with evidence retrieval, a stop rule, escalation and a visible execution trace.</span><span class="card-meta">≈ 15 MIN · PYTHON / LANGGRAPH <b>↗</b></span></button>
+<button type="button" class="track-card" data-track="bot" aria-pressed="false"><span class="card-index">02 <span>◈ BEGINNER</span></span><span class="card-symbol">◎</span><strong>Build a knowledge chatbot</strong><span>Give a bot a small FAQ, choose how it answers and test how it handles what it doesn't know.</span><span class="card-meta">≈ 10 MIN · HTML / JS <b>↗</b></span></button>
+<button type="button" class="track-card" data-track="dash" aria-pressed="false"><span class="card-index">03 <span>◈ BEGINNER</span></span><span class="card-symbol">▥</span><strong>Build a KPI dashboard</strong><span>Turn a small funnel into a board-friendly metric, comparison, insight and downloadable page.</span><span class="card-meta">≈ 10 MIN · HTML / JS <b>↗</b></span></button>
+</div></section>
+<section class="work container" id="workshop" aria-labelledby="work-title"><div class="work-head"><div><p class="eyebrow muted">02 / BUILD IT YOURSELF</p><h2 id="work-title">Your workshop.</h2><p id="work-sub">Build a decision agent, one bounded step at a time.</p></div><div class="progress-indicator"><span id="progressCount">STEP 1 / 5</span><div class="progress-track"><i id="progressFill"></i></div></div></div>
+<div class="work-grid">
+<aside class="steps-box"><p class="mini-label">YOUR ROADMAP</p><ol id="steps" aria-label="Build steps"></ol><div class="privacy"><b>LOCAL-FIRST</b><p>Everything you type stays in this browser. Nothing here calls an AI model, uploads your data, or executes generated Python on this site.</p></div></aside>
+<section class="editor-panel" aria-labelledby="stepTitle"><div class="panel-top"><span id="stepNumber">01 / 05</span><span id="stepTag">DEFINE</span></div><h3 id="stepTitle">Define the task</h3><p id="stepText"></p><form id="builderForm" autocomplete="off"><div id="fields"></div></form><p id="fieldError" role="alert" class="error" hidden></p><div class="editor-actions"><button type="button" class="btn ghost" id="backBtn">← Back</button><button type="button" class="btn primary" id="nextBtn">Next step →</button></div><div class="tip"><span>WHY THIS MATTERS</span><p id="stepWhy"></p></div></section>
+<aside class="preview-panel"><div class="preview-top"><span>↗ LIVE WORKBENCH</span><span class="live"><i></i> BROWSER DEMO</span></div><div id="preview" aria-live="polite"></div><div id="traceBox" class="trace-box" hidden><div class="trace-head">EXECUTION TRACE <span id="traceStatus"></span></div><ol id="trace"></ol></div></aside>
+</div>
+<div class="build-bottom"><span>Rule of thumb: if you can't explain what your build does when it fails, you're not finished.</span><button class="text-btn" type="button" id="restartBtn">Reset this build ↺</button></div></section>
+<section class="learn-more container"><p class="eyebrow muted">03 / WHAT YOU ACTUALLY MADE</p><div class="learn-grid"><div><h2>Something small.<br>Something you understand.</h2><p>These are deliberately inspectable builds, not magic demos. The chatbot uses local FAQ matching, not a hidden language model. The agent's live trace is a deterministic simulation; its downloadable Python starter uses a real LangGraph state machine once you install the package. The dashboard is a real standalone HTML artifact.</p></div><div class="reading"><strong>Keep learning</strong><a href="https://docs.langchain.com/oss/python/langgraph/quickstart" target="_blank" rel="noopener noreferrer">LangGraph official quickstart ↗</a><a href="../decision-atlas/">Decision Atlas: decide what to automate ↗</a><a href="../playground.html">Playground: test trade-offs ↗</a><a href="../learn.html">Learn: six bite-size explainers ↗</a></div></div></section>
+</main>
+<footer><div class="container foot-inner"><span>© ReadSigil · Build Lab · Fictional examples only</span><span>Built to teach design, boundaries and evidence — not to process real customer data.</span></div></footer>
+</body></html>

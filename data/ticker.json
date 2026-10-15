@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T23:19:10Z",
+ "generated_at": "2026-10-15T01:35:04Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50091788",
-  "points": 801,
-  "comments": 420,
+  "points": 836,
+  "comments": 444,
   "published": "2026-10-14T17:45:23Z",
   "since": "2026-10-14T20:09:59Z"
  },
@@ -21,7 +21,7 @@
   "kind": "voice",
   "tag": "VOICE",
   "person": "Jensen Huang",
-  "title": "Nvidia's Jensen Huang responds to Pope Leo's AI safety criticism—'We all care about the same thing'",
+  "title": "Nvidia’s Jensen Huang responds to Pope Leo’s AI safety criticism: ‘We all care about the same thing’",
   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcE1vZ2xQLVlBMVh6RkFoMjF0bWMxZW9qMzNWYkdRU3gxUjhIRXMwcVVPRTBVM2Jpc0xWNVNLNVJQVnVHbHUybkV1akFVUWdtMEQ5SDFtaXRZVXZ6V19wbjZ3ejZ0RGxqVngzY0dOa09DaTJaVmdERFc5Nks0amNFZWUxU1pBM0tZdGx4dk1kMGE1YTVfTFJiSUVGSk1IaDN4c2N0RDNMeHByYi1iSzZEdlNERlBHYUJ1ZVAtRktPcjk0ZXAzaVE?oc=5",
   "source": "Fortune",
   "published": "2026-10-14T19:21:00Z",
@@ -32,7 +32,7 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Nvidia's Jensen Huang responds to Pope Leo's AI safety criticism—'We all care about the same thing'",
+   "title": "Nvidia’s Jensen Huang responds to Pope Leo’s AI safety criticism: ‘We all care about the same thing’",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcE1vZ2xQLVlBMVh6RkFoMjF0bWMxZW9qMzNWYkdRU3gxUjhIRXMwcVVPRTBVM2Jpc0xWNVNLNVJQVnVHbHUybkV1akFVUWdtMEQ5SDFtaXRZVXZ6V19wbjZ3ejZ0RGxqVngzY0dOa09DaTJaVmdERFc5Nks0amNFZWUxU1pBM0tZdGx4dk1kMGE1YTVfTFJiSUVGSk1IaDN4c2N0RDNMeHByYi1iSzZEdlNERlBHYUJ1ZVAtRktPcjk0ZXAzaVE?oc=5",
    "source": "Fortune",
    "published": "2026-10-14T19:21:00Z",
@@ -80,7 +80,7 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Nvidia's Jensen Huang responds to Pope Leo's AI safety criticism—'We all care about the same thing'",
+   "title": "Nvidia’s Jensen Huang responds to Pope Leo’s AI safety criticism: ‘We all care about the same thing’",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcE1vZ2xQLVlBMVh6RkFoMjF0bWMxZW9qMzNWYkdRU3gxUjhIRXMwcVVPRTBVM2Jpc0xWNVNLNVJQVnVHbHUybkV1akFVUWdtMEQ5SDFtaXRZVXZ6V19wbjZ3ejZ0RGxqVngzY0dOa09DaTJaVmdERFc5Nks0amNFZWUxU1pBM0tZdGx4dk1kMGE1YTVfTFJiSUVGSk1IaDN4c2N0RDNMeHByYi1iSzZEdlNERlBHYUJ1ZVAtRktPcjk0ZXAzaVE?oc=5",
    "source": "Fortune",
    "published": "2026-10-14T19:21:00Z",
@@ -107,7 +107,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2067,
+   "stars": 2095,
    "note": "Python · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -117,7 +117,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 642,
+   "stars": 656,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -127,7 +127,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 591,
+   "stars": 603,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -157,7 +157,7 @@
   {
    "kind": "repo",
    "title": "BlenderGPT3D/blender-ai-addon",
-   "stars": 212,
+   "stars": 213,
    "note": "Python · new this week",
    "url": "https://github.com/BlenderGPT3D/blender-ai-addon",
    "source": "GitHub",
@@ -166,40 +166,40 @@
   },
   {
    "kind": "repo",
-   "title": "wheresryan22/anatomy",
-   "stars": 9963,
-   "note": "JavaScript · new this week",
-   "url": "https://github.com/wheresryan22/anatomy",
+   "title": "storytold/craft-launcher",
+   "stars": 2657,
+   "note": "Rust · new this week",
+   "url": "https://github.com/storytold/craft-launcher",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "repo",
-   "title": "mhtsec/ARTEX",
-   "stars": 4073,
-   "note": "Go · new this week",
-   "url": "https://github.com/mhtsec/ARTEX",
+   "title": "liseami/CCBaga",
+   "stars": 2254,
+   "note": "Rust · new this week",
+   "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "repo",
-   "title": "ARahim3/DigUp",
-   "stars": 3608,
-   "note": "Swift · new this week",
-   "url": "https://github.com/ARahim3/DigUp",
+   "title": "jhaizhou-ops/d2r-mobile",
+   "stars": 2169,
+   "note": "C · new this week",
+   "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "repo",
-   "title": "t4t5/omdrop-owl",
-   "stars": 2674,
-   "note": "Shell · new this week",
-   "url": "https://github.com/t4t5/omdrop-owl",
+   "title": "Arekejoker/qwen21-nsfw-pose-skill",
+   "stars": 1258,
+   "note": "Python · new this week",
+   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -207,7 +207,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 801,
+   "points": 836,
    "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
    "source": "Hacker News",
    "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
@@ -216,7 +216,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 239,
+   "points": 280,
    "title": "Banks are now trying to offload the AI data center debt they just underwrote",
    "source": "Hacker News",
    "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
@@ -225,7 +225,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 199,
+   "points": 249,
    "title": "Anthropic's Scion is heavily inspired by Mononoke",
    "source": "Hacker News",
    "url": "https://sunshowers.io/posts/anthropic-mononoke/",
@@ -234,7 +234,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 172,
+   "points": 206,
    "title": "Yandex outage: data shows that instead of going dark, malicious bots moved",
    "source": "Hacker News",
    "url": "https://blog.cloudflare.com/yandex-outage/",
@@ -243,7 +243,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 61,
+   "points": 78,
    "title": "Has AI tells",
    "source": "Hacker News",
    "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
@@ -252,11 +252,43 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 4,
-   "title": "How I manage persistent Claude Code loops: Spool",
+   "points": 62,
+   "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
    "source": "Hacker News",
-   "url": "https://github.com/enes-alatas/spool",
-   "discuss": "https://news.ycombinator.com/item?id=50048193"
+   "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+   "discuss": "https://news.ycombinator.com/item?id=50097369"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 23,
+   "title": "Ask HN: CAD for wood working with LLM support?",
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50067325",
+   "discuss": "https://news.ycombinator.com/item?id=50067325"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 9,
+   "title": "A new model for open source: closed to pull requests, open to remix",
+   "source": "Hacker News",
+   "url": "https://ghuntley.com/remix/",
+   "discuss": "https://news.ycombinator.com/item?id=50097182"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/"
   },
   {
    "kind": "news",
@@ -271,20 +303,6 @@
    "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Deezer will soon let you filter out AI-generated music",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
   },
   {
    "kind": "news",

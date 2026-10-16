@@ -126,3 +126,15 @@ body.cb-body{background:var(--cb-paper);color:var(--cb-ink);font:400 16px/1.7 va
 
 /* Case pages on phones: keep the subtitle clear of the rule below it */
 @media(max-width:760px){.cb-story-hero{padding-bottom:32px}}
+
+/* Fictional-case notice: part of the sticky header, so it stays on screen outside the case text */
+.cb-fiction{border-top:1px solid var(--cb-rule);background:#f3efe6}
+.cb-fiction .cb-wrap{padding-top:7px;padding-bottom:7px;font:500 12px/1.45 var(--cb-sans);color:#5b4a2e}
+.cb-fiction b{font:700 10.5px var(--cb-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--cb-amber)}
+@media(max-width:680px){.cb-fiction span{display:none}}
+/* Case endnotes and readings */
+.cb-refs{font:400 13px/1.65 var(--cb-sans);color:var(--cb-sub);padding-left:20px;margin:22px 0 0}
+.cb-refs li{margin:5px 0}
+.cb-article .cb-keyline{margin:56px 0 8px}
+.cb-sidebar h3+a{margin-top:2px}
+@media(max-width:760px){.cb-story-hero .cb-crumb{margin-top:12px}}

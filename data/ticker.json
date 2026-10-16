@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:36:32Z",
+ "generated_at": "2026-10-16T19:01:38Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Neural networks are clean",
-  "url": "https://already-clean.goodfire.com/",
+  "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+  "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50105647",
-  "points": 767,
-  "comments": 300,
-  "published": "2026-10-15T16:04:01Z",
-  "since": "2026-10-15T23:07:13Z"
+  "discuss": "https://news.ycombinator.com/item?id=50121179",
+  "points": 181,
+  "comments": 152,
+  "published": "2026-10-16T17:08:38Z",
+  "since": "2026-10-16T19:01:38Z"
  },
  "voice": {
   "kind": "voice",
@@ -71,7 +71,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2791,
+   "stars": 2835,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1328,
+   "stars": 1348,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 884,
+   "stars": 890,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -121,7 +121,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 284,
+   "stars": 293,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -131,7 +131,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3483,
+   "stars": 3514,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -141,7 +141,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2433,
+   "stars": 2479,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -151,7 +151,7 @@
   {
    "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2392,
+   "stars": 2399,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -161,7 +161,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 1601,
+   "stars": 1665,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -171,25 +171,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 767,
-   "title": "Neural networks are clean",
-   "source": "Hacker News",
-   "url": "https://already-clean.goodfire.com/",
-   "discuss": "https://news.ycombinator.com/item?id=50105647"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 78,
-   "title": "AI-assisted PCB design for KiCad 10",
-   "source": "Hacker News",
-   "url": "https://github.com/mixelpixx/Konnect",
-   "discuss": "https://news.ycombinator.com/item?id=50085553"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 41,
+   "points": 192,
    "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
    "source": "Hacker News",
    "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
@@ -198,7 +180,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 28,
+   "points": 181,
+   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+   "source": "Hacker News",
+   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+   "discuss": "https://news.ycombinator.com/item?id=50121179"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 128,
    "title": "Show HN: Gemini 4 Argon plays StarCraft",
    "source": "Hacker News",
    "url": "https://starskirmish.com/bench/v0-2/",
@@ -207,7 +198,34 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 6,
+   "points": 123,
+   "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+   "source": "Hacker News",
+   "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+   "discuss": "https://news.ycombinator.com/item?id=50119991"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 117,
+   "title": "AI-assisted PCB design for KiCad 10",
+   "source": "Hacker News",
+   "url": "https://github.com/mixelpixx/Konnect",
+   "discuss": "https://news.ycombinator.com/item?id=50085553"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 37,
+   "title": "Show HN: rStation – A shared research lab for your AI agents",
+   "source": "Hacker News",
+   "url": "https://rstation.ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50118876"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 34,
    "title": "How to make System 1 LLMs show System 2 competencies?",
    "source": "Hacker News",
    "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
@@ -215,31 +233,40 @@
   },
   {
    "kind": "news",
-   "tag": "AI",
-   "title": "Jev is Vercel’s fastest-adopted AI model ever",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/"
+   "tag": "HN",
+   "points": 31,
+   "title": "Anthropic assigned highest junk credit rating in June",
+   "source": "Hacker News",
+   "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+   "discuss": "https://news.ycombinator.com/item?id=50122112"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+   "title": "India becomes the latest country to report rogue AI agent activity",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/"
+   "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+   "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/"
+   "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+   "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/"
+   "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Elorian’s first AI model wants to reason with images, not just about them",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
   },
   {
    "kind": "news",

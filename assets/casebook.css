@@ -138,3 +138,21 @@ body.cb-body{background:var(--cb-paper);color:var(--cb-ink);font:400 16px/1.7 va
 .cb-article .cb-keyline{margin:56px 0 8px}
 .cb-sidebar h3+a{margin-top:2px}
 @media(max-width:760px){.cb-story-hero .cb-crumb{margin-top:12px}}
+
+/* Participant decision gate: commentary appears only after an explicit response. */
+.cb-body [hidden]{display:none!important}
+.cb-commit{margin:55px 0 45px;padding:35px 38px;background:#ebf2ec;border-left:4px solid #1a6b50}
+.cb-commit .cb-eyebrow{margin:0 0 10px}
+.cb-commit h2{font:400 clamp(28px,3vw,42px)/1.16 var(--cb-serif);letter-spacing:-.035em;margin:0 0 17px}
+.cb-commit p{max-width:650px}
+.cb-commit label{display:block;font-weight:700;margin:24px 0 10px}
+.cb-commit textarea{display:block;min-height:150px;width:100%;padding:15px;border:1px solid #b4c9bf;background:#fff;color:var(--cb-ink);border-radius:0;line-height:1.6;resize:vertical}
+.cb-commit textarea[readonly]{background:#f6faf7}
+.cb-commit-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:18px}
+.cb-commit-actions button{padding:13px 20px;border:1px solid var(--cb-accent);background:var(--cb-accent);color:#fff;font-weight:700;cursor:pointer}
+.cb-commit-actions #case-reset{background:transparent;color:var(--cb-accent)}
+.cb-commit-status{color:var(--cb-accent);font-size:.83rem;font-weight:600}
+.cb-commit-privacy{font-size:.73rem;color:var(--cb-sub)}
+.cb-case-debrief{scroll-margin-top:100px;margin:28px 0}
+.cb-case-debrief .cb-keyline{margin-top:25px}
+@media(max-width:640px){.cb-commit{padding:23px 18px}.cb-commit-actions button{width:100%}}

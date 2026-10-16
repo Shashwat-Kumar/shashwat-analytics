@@ -31,7 +31,7 @@ function home(){
  a.addEventListener('click',()=>open(c.id));a.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open(c.id)}});$('#catalogue').append(a);
  });
 }
-function open(id){current=D.find(x=>x.id===id);if(!current)return home();document.title=current.name+' · ReadSigil';const r=store();if(r.answers.length>=current.steps.length){report();return}step();}
+function open(id){current=D.find(x=>x.id===id);if(!current)return home();document.title=current.name+' · ReadSigil';const r=store();if(r.answers.length>=current.steps.length){if(r.finished)report();else conclusion();return}step();}
 function step(){
  if(!current)return home();const r=store(),idx=r.answers.length;if(idx>=current.steps.length)return conclusion();
  const s=current.steps[idx];localChoice=null;localRoute=null;routeLocked=false;answerLocked=false;hintUsed=false;

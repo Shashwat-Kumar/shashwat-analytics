@@ -47,3 +47,17 @@ h1,h2,h3,.brand{color:var(--h)}nav a,.lead,.dek,.item p,.small,.aside,footer{col
 /* Search identity: the person's name is the primary homepage heading. */
 .hero-x .identity-name{font-size:clamp(2.4rem,4vw,3.1rem);line-height:1.1;letter-spacing:-.035em;font-weight:650;margin:16px 0 18px}
 .hero-x h2.display{font-size:clamp(1.65rem,2.6vw,2.2rem);line-height:1.3;margin:0 0 22px}
+
+/* Independent ReadSigil brand identity */
+.hero-x .brand-name{font-size:clamp(3.6rem,6.2vw,6.4rem);font-weight:650;letter-spacing:-.075em;line-height:1.05;margin:12px 0 26px;color:var(--h)}
+.hero-x .display{font-size:clamp(1.6rem,2.5vw,2.5rem);line-height:1.2;letter-spacing:-.025em;margin-bottom:22px}
+.hero-x .rs-founders-line{margin:22px 0 0;font-size:.84rem;color:var(--mut);letter-spacing:.01em}
+.rs-founders-line a{color:var(--fg);text-underline-offset:3px}
+.hero-x .rs-brand-panel{border:1px solid var(--rule);border-radius:9px;background:color-mix(in srgb,var(--bg) 90%,var(--accent) 10%);padding:24px 24px 20px;box-shadow:0 24px 50px -42px rgba(0,0,0,.4);font-family:Inter,system-ui,sans-serif}
+.rs-brand-panel-label{font-size:.64rem;font-weight:700;letter-spacing:.12em;color:var(--mut);margin:0 0 22px}
+.rs-brand-panel>a{display:block;border-top:1px solid var(--rule);padding:15px 0;text-decoration:none;color:var(--h)}
+.rs-brand-panel>a span{display:block;font-size:.65rem;color:var(--accent);letter-spacing:.09em;margin-bottom:5px;font-weight:700}
+.rs-brand-panel>a strong{display:block;font:600 1.06rem/1.4 Inter,system-ui,sans-serif}
+.rs-brand-panel>a small{display:block;color:var(--mut);font-size:.77rem;line-height:1.55;margin-top:3px}
+.rs-panel-bottom{font:500 .74rem/1.5 Inter,system-ui,sans-serif;color:var(--mut);letter-spacing:.03em;margin-top:11px}
+@media(max-width:860px){.hero-x .rs-brand-panel{padding:20px;max-width:600px}.hero-x .brand-name{font-size:clamp(3.2rem,11vw,5rem)}}

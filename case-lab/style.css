@@ -32,3 +32,11 @@
 @media print{.scoreboard,.session-top,.site-head,.site-foot,#end-actions,.site-head nav{display:none!important}.radar-layout{grid-template-columns:1fr 1fr}.review details>*{display:block!important}}
 
 .orientation{border:1px solid var(--rule);background:var(--panel);padding:25px 29px;margin:20px 0 38px;max-width:910px}.orientation h3{font:400 1.85rem/1.3 Georgia,serif;margin:10px 0}.orientation>p:not(.eyebrow){max-width:690px;color:var(--mut);font-size:.92rem;line-height:1.7}
+
+/* Fictional-case notice: the header is sticky, so the notice stays on screen outside the case text */
+.site-head{position:sticky;top:0;z-index:30;background:var(--bg);padding-bottom:0}
+.site-head>.shell{padding-bottom:14px}
+.fiction-strip{border-top:1px solid var(--rule);background:#f3efe6}
+.fiction-strip .shell{padding-top:7px;padding-bottom:7px;font:500 12px/1.45 system-ui,sans-serif;color:#5b4a2e}
+.fiction-strip b{font:700 10.5px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:#90633e}
+@media(max-width:680px){.fiction-strip span{display:none}}

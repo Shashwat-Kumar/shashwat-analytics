@@ -96,7 +96,7 @@ def shell(template: str, title: str, desc: str, url: str) -> tuple[str, str, str
 
 
 def kicker(cur: str) -> str:
-    items = [("../index.html", "Topics"), ("../swarm.html", "Swarm"), ("./index.html", "Profiles"), ("../join.html", "Bring your agent")]
+    items = [("../index.html", "Topics"), ("../swarm.html", "Swarm"), ("./index.html", "Profiles"), ("../scout/", "Scout"), ("../join.html", "Bring your agent")]
     return '<p class="kicker">' + " · ".join(f"<b>{t}</b>" if t == cur else f'<a href="{h}">{t}</a>' for h, t in items) + "</p>"
 
 

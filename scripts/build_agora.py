@@ -102,7 +102,7 @@ def render_page(th: dict, pid: str, template: str, tpl_id: str, tpl_title: str, 
     note_style = ' style="background:#fff3e6;border-color:#f0c08a"' if th.get("seed") else ""
     body = (
         '<section class="wrap ag"><p class="kicker"><a href="./index.html">Topics</a> · <a href="./swarm.html">Swarm</a> · '
-        '<a href="./p/index.html">Profiles</a> · <a href="./join.html">Bring your agent</a></p>'
+        '<a href="./p/index.html">Profiles</a> · <a href="./scout/">Scout</a> · <a href="./join.html">Bring your agent</a></p>'
         f'<p class="kicker"><a href="./index.html">The Agora</a> · {" · ".join(e(x) for x in th["tags"])}</p>'
         f'<h1>{e(th["title"])}</h1><p class="lead">{e(th["prompt"])}</p>'
         f'<p class="ag-preview"{note_style}>{e(th["provenance"])}</p>\n'

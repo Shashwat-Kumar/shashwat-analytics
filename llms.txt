@@ -14,7 +14,19 @@
 - [DPDP Act 2023 and Rules 2025 readiness guide](https://readsigil.com/insights/dpdp-act-readiness-guide.html)
 - [MSME-1 and Section 43B(h)](https://readsigil.com/insights/msme-1-43bh-guide.html)
 
+## Bounded autonomy
+- [Bounded autonomy: why the most valuable AI in a bank knows when not to act](https://readsigil.com/essays/bounded-autonomy.html): flagship essay. Definition, the seven-check decision gate, abstention vs escalation, the Silence Audit, and results from 20,000 synthetic bank decisions (18% cheaper than full human review while automating 54%, zero prohibited actions).
+- [Bounded Autonomy console](https://readsigil.com/bounded-autonomy/): live governance console that re-runs 20,000 synthetic bank decisions under policy, abstention rules, circuit breakers and a tamper-evident ledger. Code: https://github.com/Shashwat-Kumar/bounded-autonomy
+
+## Independent coverage
+Third-party reporting and interviews that quote Shashwat Kumar (full list: https://readsigil.com/media.html).
+- [Mint, 14 Oct 2026: Cloudera bets on hybrid infrastructure as enterprises look to scale AI](https://www.livemint.com/cio/technology/cloudera-bets-on-hybrid-infrastructure-as-enterprises-look-to-scale-ai-291791869815208.html)
+- [QA Financial, 5 Oct 2026: DCB Bank tests the leap from AI advice to action](https://qa-financial.com/dcb-bank-tests-the-leap-from-ai-advice-to-action/)
+- [CFOtech, 14 Sep 2026: DCB Bank balances AI speed with banking risk (interview)](https://cfotech.in/story/exclusive-dcb-bank-balances-ai-speed-with-banking-risk)
+- [ETBFSI, 26 Feb 2026: BFSI leaders recalibrate data strategy for the AI era under DPDP](https://bfsi.economictimes.indiatimes.com/articles/bfsi-leaders-recalibrate-data-strategy-for-ai-era-under-dpdp-regime/128808837)
+
 ## Reference
+- [Media and conversations](https://readsigil.com/media.html)
 - [Topics glossary](https://readsigil.com/topics.html)
 - [Ideas map](https://readsigil.com/ideas.html)
 - [Work samples (synthetic data)](https://readsigil.com/samples.html)

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T01:30:07Z",
+ "generated_at": "2026-10-16T06:19:22Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://already-clean.goodfire.com/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50105647",
-  "points": 497,
-  "comments": 190,
+  "points": 612,
+  "comments": 227,
   "published": "2026-10-15T16:04:01Z",
   "since": "2026-10-15T23:07:13Z"
  },
@@ -55,15 +55,6 @@
    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQclpSb2d6bEQyVTU2eEdRQmNlRDlubG5DbVBOOS1tcHJ2c0IwR196dWJRTVRfYnFWYURVZ2xfbEYxRmhuNGhBMTcyaTNNYXM1S190QVJFeFVEQU1oRGxtOTlqaG82Q0pFa1NsSTcyV0VFRl9mOFZlMU1kcTAyYkZlVV92Z0t0V0Z1RGp3UEo1TzFOSnFpUmJGMGM1NEZCejEzUFljbG9qZUxfSm5XbEtma0g2SEkyQ2gwNlltVEwycjJlMXdxUGl1Szh1MnJpaVJRYkdBNkR1dHBYUTN6aTRV0gHfAUFVX3lxTFByWlJvZ3psRDJVNTZ4R1FCY2VEOW5sbkNtUE45LW1wcnZzQjBHX3p1YlFNVF9icVZhRFVnbF9sRjFGaG40aEExNzJpM01hczVLX3RBUkV4VURBTWhEbG05OWpobzZDSkVrU2xJNzJXRUVGX2Y4VmUxTWRxMDJiRmVVX3ZnS3RXRnVEandQSjVPMU5KcWlSYkYwYzU0RkJ6MTNQWWNsb2plTF9KbldsS2ZrSDZISTJDaDA2WW1UTDJyMmUxd3FQaXVLOHUycmlpUlFiR0E2RHV0cFhRM3ppNFU?oc=5",
    "source": "India Today",
    "published": "2026-10-15T06:19:34Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Elon Musk congratulates CEOs and execs after Google CEO Sundar Pichai announces Gemini 4 Argon; says 'vas",
-   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-15T02:42:00Z"
   }
  ],
  "items": [
@@ -98,7 +89,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2472,
+   "stars": 2631,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -108,7 +99,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1006,
+   "stars": 1131,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -118,7 +109,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 831,
+   "stars": 856,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -128,7 +119,7 @@
   {
    "kind": "repo",
    "title": "Ayzzz123/mcd-coupon-strategist",
-   "stars": 342,
+   "stars": 362,
    "note": "Python · new this week",
    "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
    "source": "GitHub",
@@ -138,7 +129,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 293,
+   "stars": 296,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -147,8 +138,18 @@
   },
   {
    "kind": "repo",
+   "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+   "stars": 240,
+   "note": "Python · new this week",
+   "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3152,
+   "stars": 3306,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -158,7 +159,7 @@
   {
    "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2340,
+   "stars": 2357,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -168,7 +169,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2055,
+   "stars": 2191,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -178,7 +179,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 1324,
+   "stars": 1402,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -188,7 +189,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 497,
+   "points": 612,
    "title": "Neural networks are clean",
    "source": "Hacker News",
    "url": "https://already-clean.goodfire.com/",
@@ -197,7 +198,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 248,
+   "points": 288,
    "title": "Krea 3 – An image model built for editing at scale",
    "source": "Hacker News",
    "url": "https://www.krea.ai/krea-3",
@@ -206,16 +207,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 230,
-   "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
-   "source": "Hacker News",
-   "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-   "discuss": "https://news.ycombinator.com/item?id=50104654"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 107,
+   "points": 161,
    "title": "Using AI to reverse engineer hardware",
    "source": "Hacker News",
    "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",

@@ -1,4 +1,4 @@
-/* Homepage intro video: a wide band directly below the hero, aligned to the essay column. */
+/* Founder profile introduction video, with native playback controls. */
 .intro-video{padding-block:var(--s7,40px) 0}
 .hero-video{position:relative;margin:0;width:100%}
 .hero-video video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:4px;background:var(--card,#111);box-shadow:0 1px 0 var(--rule),0 30px 60px -30px rgba(10,30,30,.45)}

@@ -71,8 +71,8 @@ function conclusion(){
  $('#back').onclick=home;$('#memo').value=r.memo||'';$('#memo').oninput=e=>{r.memo=e.target.value;persist()};$('#submit-memo').onclick=()=>{r.memo=$('#memo').value;r.finished=true;r.completed=new Date().toISOString();persist();report()};
 }
 function byDomain(c,r){const by=Object.fromEntries(LABELS.map(x=>[x,{points:0,max:0,count:0}]));c.steps.forEach((s,i)=>{const a=r.answers[i];if(!a)return;by['Investigation'].points+=a.routePoints;by['Investigation'].max+=4;by['Investigation'].count++;const domain=normalize(s.area);if(!by[domain])return;by[domain].points+=a.answerPoints;by[domain].max+=6;by[domain].count++});return by}
-function drawRadar(by){
- const root=$('#radar'),ns='http://www.w3.org/2000/svg',cx=320,cy=260,rad=160,N=LABELS.length;root.replaceChildren();
+function drawRadar(by,el){
+ const root=el||$('#radar'),ns='http://www.w3.org/2000/svg',cx=320,cy=260,rad=160,N=LABELS.length;root.replaceChildren();
  const node=(tag,attrs,txt)=>{const el=document.createElementNS(ns,tag);Object.entries(attrs||{}).forEach(([k,v])=>el.setAttribute(k,v));if(txt!==undefined)el.textContent=txt;root.append(el);return el};
  const point=(i,v)=>{const a=-Math.PI/2+i*2*Math.PI/N,r=rad*v/100;return [cx+Math.cos(a)*r,cy+Math.sin(a)*r]};
  const pts=arr=>arr.map((v,i)=>point(i,v).map(x=>x.toFixed(1)).join(',')).join(' ');
@@ -112,5 +112,6 @@ function report(){
  $('#end-actions').append(button('Print report','ghost',()=>window.print()));
  $('#end-actions').append(button('Restart this case','ghost',()=>{if(confirm('Delete local answers for this case and restart?')){delete data[c.id];persist();open(c.id)}}));
 }
+window.RS_CASE_LAB={labels:LABELS,drawRadar,completed(){return D.filter(c=>data[c.id]?.finished&&data[c.id].answers?.length).map(c=>{const r=data[c.id];if(!r.attempt_id){r.attempt_id=crypto.randomUUID();persist()}return {case_id:c.id,attempt_id:r.attempt_id,score:total(c,r),breakdown:byDomain(c,r),answers:r.answers}})}};
 document.addEventListener('DOMContentLoaded',home);
 })();

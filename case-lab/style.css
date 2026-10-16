@@ -40,3 +40,4 @@
 .fiction-strip .shell{padding-top:7px;padding-bottom:7px;font:500 12px/1.45 system-ui,sans-serif;color:#5b4a2e}
 .fiction-strip b{font:700 10.5px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:#90633e}
 @media(max-width:680px){.fiction-strip span{display:none}}
+.account{margin:2rem auto;padding:1rem 0;border-top:1px solid #d9dcd7}.account-panel{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}.account-panel input{padding:.5rem;min-width:14rem}#account-history{display:flex;flex-wrap:wrap;gap:1rem}.history-item{border:1px solid #d9dcd7;padding:.5rem}

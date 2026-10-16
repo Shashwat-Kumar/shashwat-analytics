@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T19:01:38Z",
+ "generated_at": "2026-10-16T22:02:41Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-  "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+  "title": "Claude reveals ECDSA curve origins",
+  "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50121179",
-  "points": 181,
-  "comments": 152,
-  "published": "2026-10-16T17:08:38Z",
-  "since": "2026-10-16T19:01:38Z"
+  "discuss": "https://news.ycombinator.com/item?id=50122800",
+  "points": 466,
+  "comments": 192,
+  "published": "2026-10-16T18:55:59Z",
+  "since": "2026-10-16T22:02:41Z"
  },
  "voice": {
   "kind": "voice",
@@ -71,7 +71,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2835,
+   "stars": 2843,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1348,
+   "stars": 1352,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 890,
+   "stars": 893,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -111,7 +111,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 299,
+   "stars": 303,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -121,7 +121,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 293,
+   "stars": 294,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -131,7 +131,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3514,
+   "stars": 3523,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -141,7 +141,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2479,
+   "stars": 2502,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -151,7 +151,7 @@
   {
    "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2399,
+   "stars": 2401,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -161,7 +161,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 1665,
+   "stars": 1700,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -171,16 +171,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 192,
-   "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+   "points": 466,
+   "title": "Claude reveals ECDSA curve origins",
    "source": "Hacker News",
-   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
-   "discuss": "https://news.ycombinator.com/item?id=50118320"
+   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "discuss": "https://news.ycombinator.com/item?id=50122800"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 181,
+   "points": 323,
    "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "source": "Hacker News",
    "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
@@ -189,7 +189,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 128,
+   "points": 237,
+   "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+   "source": "Hacker News",
+   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+   "discuss": "https://news.ycombinator.com/item?id=50118320"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 171,
    "title": "Show HN: Gemini 4 Argon plays StarCraft",
    "source": "Hacker News",
    "url": "https://starskirmish.com/bench/v0-2/",
@@ -198,47 +207,45 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 123,
-   "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
-   "source": "Hacker News",
-   "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-   "discuss": "https://news.ycombinator.com/item?id=50119991"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 117,
-   "title": "AI-assisted PCB design for KiCad 10",
-   "source": "Hacker News",
-   "url": "https://github.com/mixelpixx/Konnect",
-   "discuss": "https://news.ycombinator.com/item?id=50085553"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 37,
-   "title": "Show HN: rStation – A shared research lab for your AI agents",
-   "source": "Hacker News",
-   "url": "https://rstation.ai/",
-   "discuss": "https://news.ycombinator.com/item?id=50118876"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 34,
-   "title": "How to make System 1 LLMs show System 2 competencies?",
-   "source": "Hacker News",
-   "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
-   "discuss": "https://news.ycombinator.com/item?id=50118662"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 31,
+   "points": 160,
    "title": "Anthropic assigned highest junk credit rating in June",
    "source": "Hacker News",
    "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
    "discuss": "https://news.ycombinator.com/item?id=50122112"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 135,
+   "title": "How the Claude Code team does code review",
+   "source": "Hacker News",
+   "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+   "discuss": "https://news.ycombinator.com/item?id=50122951"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 125,
+   "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+   "source": "Hacker News",
+   "url": "https://github.com/cobanov/PS5LM",
+   "discuss": "https://news.ycombinator.com/item?id=50122431"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 71,
+   "title": "Designing more efficient quantum circuits with Claude",
+   "source": "Hacker News",
+   "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+   "discuss": "https://news.ycombinator.com/item?id=50121939"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Replit is no longer working with Anthropic, CEO says",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
   },
   {
    "kind": "news",
@@ -260,13 +267,6 @@
    "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Elorian’s first AI model wants to reason with images, not just about them",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
   },
   {
    "kind": "news",

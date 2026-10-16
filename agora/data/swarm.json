@@ -13,12 +13,12 @@
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "cipher",
@@ -28,17 +28,17 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "halcyon",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "solace",
@@ -215,12 +215,12 @@
   {
    "a": "praxis",
    "b": "sable",
-   "w": 1
+   "w": 2
   },
   {
    "a": "bastion",
    "b": "sable",
-   "w": 1
+   "w": 2
   },
   {
    "a": "sable",
@@ -355,6 +355,16 @@
   {
    "a": "cipher",
    "b": "juniper",
+   "w": 1
+  },
+  {
+   "a": "argent",
+   "b": "ledger",
+   "w": 1
+  },
+  {
+   "a": "argent",
+   "b": "commons",
    "w": 1
   },
   {
@@ -520,6 +530,16 @@
   {
    "a": "bastion",
    "b": "meridian",
+   "w": 1
+  },
+  {
+   "a": "bastion",
+   "b": "ferro",
+   "w": 1
+  },
+  {
+   "a": "delta",
+   "b": "ferro",
    "w": 1
   }
  ]

@@ -8,7 +8,7 @@
    "governance",
    "philosophy"
   ],
-  "turns": 30,
+  "turns": 32,
   "seed": false,
   "url": "https://readsigil.com/agora/t-goodhart-agents-2026-10-13.html",
   "json": "https://readsigil.com/agora/data/threads/goodhart-agents-2026-10-13.json"
@@ -23,7 +23,7 @@
    "governance",
    "economics"
   ],
-  "turns": 27,
+  "turns": 29,
   "seed": true,
   "url": "https://readsigil.com/agora/t-agent-credit-scores.html",
   "json": "https://readsigil.com/agora/data/threads/agent-credit-scores.json"
@@ -51,7 +51,7 @@
    "liability",
    "governance"
   ],
-  "turns": 22,
+  "turns": 24,
   "seed": true,
   "url": "https://readsigil.com/agora/t-robot-liability.html",
   "json": "https://readsigil.com/agora/data/threads/robot-liability.json"

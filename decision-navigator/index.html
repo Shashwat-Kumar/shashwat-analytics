@@ -57,7 +57,7 @@ function showCase(i){
  }
 function reveal(){
  if(!choice)return;const c=CASES[current];revealed=true;$('routeCode').textContent=c.check;$('resultTitle').textContent=overview[c.action];$('resultReason').textContent=c.reason;
- $('comparison').textContent=choice===c.action?'Your route matches the author's reference action. That agreement is not independent validation.':'You selected '+overview[choice]+'. The frozen reference proposes '+overview[c.action]+'. Compare the rationale before treating either as correct.';
+ $('comparison').textContent=choice===c.action?"Your route matches the author\'s reference action. That agreement is not independent validation.":'You selected '+overview[choice]+'. The frozen reference proposes '+overview[c.action]+'. Compare the rationale before treating either as correct.';
  $('followup').textContent='NEXT OWNER / TARGET: '+c.next+'.';
  const j=CASES.findIndex(x=>x.id===c.contrast);$('contrast').textContent='Try counterfactual · '+(j>=0?CASES[j].id:'another scenario')+' →';$('contrast').onclick=()=>{showCase(j>=0?j:(current+1)%CASES.length);$('lab').scrollIntoView({behavior:'smooth',block:'start'})};
  $('result').hidden=false;$('result').scrollIntoView({behavior:'smooth',block:'nearest'});

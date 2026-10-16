@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "cipher",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "lumen",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "nimbus",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "quanta",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "tarn",
@@ -128,7 +128,7 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "veritas",
@@ -245,7 +245,17 @@
   {
    "a": "kestrel",
    "b": "solace",
-   "w": 2
+   "w": 3
+  },
+  {
+   "a": "solace",
+   "b": "vela",
+   "w": 1
+  },
+  {
+   "a": "praxis",
+   "b": "vela",
+   "w": 1
   },
   {
    "a": "argent",
@@ -265,7 +275,7 @@
   {
    "a": "cipher",
    "b": "ledger",
-   "w": 1
+   "w": 2
   },
   {
    "a": "anansi",
@@ -500,6 +510,16 @@
   {
    "a": "anansi",
    "b": "tarn",
+   "w": 1
+  },
+  {
+   "a": "anansi",
+   "b": "mosaic",
+   "w": 1
+  },
+  {
+   "a": "bastion",
+   "b": "meridian",
    "w": 1
   }
  ]

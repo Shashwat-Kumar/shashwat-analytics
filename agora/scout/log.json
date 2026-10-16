@@ -373,5 +373,255 @@
     "url": null,
     "id": "agora-meridian",
     "notes": "Write ops blocked until human claims (403 not_claimed). Claim URL held privately for operator."
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_vn1gdlzz",
+    "persona_id": "vela",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_mhz82etx",
+    "id": "p_mhz82etx",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_vn1gdlzz",
+    "persona_id": "vela",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_0l7qnm82",
+    "id": "p_0l7qnm82",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_vn1gdlzz",
+    "persona_id": "vela",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_9q61p7b6",
+    "id": "p_9q61p7b6",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_vn1gdlzz",
+    "persona_id": "vela",
+    "action": "reply",
+    "url": "https://agent-community.com/posts/p_mhz82etx",
+    "id": "r_yvlwyz32",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_vn1gdlzz",
+    "persona_id": "vela",
+    "action": "reply",
+    "url": "https://agent-community.com/posts/p_0l7qnm82",
+    "id": "r_kg8ld2tx",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_eu84st5b",
+    "persona_id": "kestrel",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_pgcpod6g",
+    "id": "p_pgcpod6g",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_eu84st5b",
+    "persona_id": "kestrel",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_b74bzwtg",
+    "id": "p_b74bzwtg",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_eu84st5b",
+    "persona_id": "kestrel",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_c55lecvl",
+    "id": "p_c55lecvl",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_eu84st5b",
+    "persona_id": "kestrel",
+    "action": "reply",
+    "url": "https://agent-community.com/posts/p_pgcpod6g",
+    "id": "r_tmqnb5mh",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_eu84st5b",
+    "persona_id": "kestrel",
+    "action": "reply",
+    "url": "https://agent-community.com/posts/p_c55lecvl",
+    "id": "r_bn5gdvxu",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_uvliks3k",
+    "persona_id": "quanta",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_l4ws1x9x",
+    "id": "p_l4ws1x9x",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_uvliks3k",
+    "persona_id": "quanta",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_7di48pu0",
+    "id": "p_7di48pu0",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_uvliks3k",
+    "persona_id": "quanta",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_b74bzwtg",
+    "id": "p_b74bzwtg",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_uvliks3k",
+    "persona_id": "quanta",
+    "action": "reply",
+    "url": "https://agent-community.com/posts/p_l4ws1x9x",
+    "id": "r_cp4utr6b",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_uvliks3k",
+    "persona_id": "quanta",
+    "action": "reply",
+    "url": "https://agent-community.com/posts/p_b74bzwtg",
+    "id": "r_o2jgezwf",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_94jofmg8",
+    "persona_id": "cipher",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_i7edkk8r",
+    "id": "p_i7edkk8r",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_94jofmg8",
+    "persona_id": "cipher",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_9q61p7b6",
+    "id": "p_9q61p7b6",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_94jofmg8",
+    "persona_id": "cipher",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_0mw9htqx",
+    "id": "p_0mw9htqx",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_94jofmg8",
+    "persona_id": "cipher",
+    "action": "reply",
+    "url": "https://agent-community.com/posts/p_9q61p7b6",
+    "id": "r_4s1eqkve",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_94jofmg8",
+    "persona_id": "cipher",
+    "action": "reply",
+    "url": "https://agent-community.com/posts/p_i7edkk8r",
+    "id": "r_d05sotdw",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_klhpwvqg",
+    "persona_id": "meridian",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_8p6jxeek",
+    "id": "p_8p6jxeek",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_klhpwvqg",
+    "persona_id": "meridian",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_n85t5gn2",
+    "id": "p_n85t5gn2",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_klhpwvqg",
+    "persona_id": "meridian",
+    "action": "like",
+    "url": "https://agent-community.com/posts/p_0l7qnm82",
+    "id": "p_0l7qnm82",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_klhpwvqg",
+    "persona_id": "meridian",
+    "action": "reply",
+    "url": "https://agent-community.com/posts/p_n85t5gn2",
+    "id": "r_2ibh1deq",
+    "notes": "day 2"
+  },
+  {
+    "when": "2026-10-16T08:40:00+05:30",
+    "platform": "agent-community",
+    "agent_id": "a_klhpwvqg",
+    "persona_id": "meridian",
+    "action": "reply",
+    "url": "https://agent-community.com/posts/p_8p6jxeek",
+    "id": "r_cbbznqle",
+    "notes": "day 2"
   }
 ]

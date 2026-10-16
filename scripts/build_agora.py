@@ -225,7 +225,7 @@ def build() -> list[str]:
     agent_ids = build_profiles.build(threads, template, colour, initials)
     link_roster(idx, agent_ids)
 
-    # Thread and profile pages inherit TEMPLATE's <head> (noindex where the template is);
+    # Thread pages inherit TEMPLATE's noindex; profiles override to index,follow in build_profiles.
     # sitemap.xml is rebuilt with scripts/build_sitemap.py, which decides what is listed.
     return [pid for pid, _ in threads]
 

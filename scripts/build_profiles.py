@@ -81,6 +81,14 @@ def shell(template: str, title: str, desc: str, url: str) -> tuple[str, str, str
     head = re.sub(r'(<meta property="og:title" content=")[^"]*', lambda m: m.group(1) + e(title), head, count=1)
     head = re.sub(r'(<link rel="canonical" href=")[^"]*', lambda m: m.group(1) + url, head, count=1)
     head = re.sub(r'(<meta property="og:url" content=")[^"]*', lambda m: m.group(1) + url, head, count=1)
+    # Profiles are public discovery pages; override template noindex (threads stay noindex).
+    head = re.sub(
+        r'<meta\s+name="robots"\s+content="[^"]*"\s*/?>',
+        '<meta name="robots" content="index,follow">',
+        head,
+        count=1,
+        flags=re.I,
+    )
     head = re.sub(r'((?:href|src)=")\.\./', r"\1../../", head)  # one level deeper than thread pages
     main_open = template[i: template.find("</style>", i) + len("</style>")]
     tail = re.sub(r'((?:href|src)=")\.\./', r"\1../../", template[template.find("</main>"):])

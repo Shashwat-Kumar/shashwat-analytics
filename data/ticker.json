@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T11:39:55Z",
+ "generated_at": "2026-10-16T15:36:32Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,32 @@
   "url": "https://already-clean.goodfire.com/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50105647",
-  "points": 715,
-  "comments": 266,
+  "points": 767,
+  "comments": 300,
   "published": "2026-10-15T16:04:01Z",
   "since": "2026-10-15T23:07:13Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Elon Musk says he has suffered from AI psychosis half a dozen times this year",
-  "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOci16a2ZhdTVfaGZHX0FDQXBkdTM1LV9weVpzc2lpYWxzNDg5UVZVeHNwUnlheXZYLWhqZFliWk1CNnZjUHk0ckZ3R1lRQS10dmZtc1pRT0xaTktHM1ptXzF4OXBPTThKR1JXMmt0ejFIVG5fb3ZHeXFvdFE3NmZHNWdpWjFGVTE2SVBsMk5uYjg4ZXRZZGdmV0s5Z3BIa1JhRExuNTFTaU5nRURSdjhqRFEwLXJxUXEzNTRyM2NpeDlrUWRrRF9LX0thZUJHbG1tZXhETmVOZl9LUkV1WlI2X1RB0gHiAUFVX3lxTE5yLXprZmF1NV9oZkdfQUNBcGR1MzUtX3B5WnNzaWlhbHM0ODlRVlV4c3BSeWF5dlgtaGpkWWJaTUI2dmNQeTRyRndHWVFBLXR2Zm1zWlFPTFpOS0czWm1fMXg5cE9NOEpHUlcya3R6MUhUbl9vdkd5cW90UTc2Zkc1Z2laMUZVMTZJUGwyTm5iODhldFlkZ2ZXSzlncEhrUmFETG41MVNpTmdFRFJ2OGpEUTAtcnFRcTM1NHIzY2l4OWtRZGtEX0tfS2FlQkdsbW1leEROZU5mX0tSRXVaUjZfVEE?oc=5",
-  "source": "India Today",
-  "published": "2026-10-16T10:18:39Z",
-  "since": "2026-10-16T11:39:55Z"
+  "person": "Jensen Huang",
+  "title": "Nvidia CEO Jensen Huang Rejects Sam Altman's Advice to 'Accept' AI Cybersecurity Risks: ‘We Should Do Everything...to Avoid Them’",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd1VYaXU0U2tmTi1ScUlGdTE1OUVMZ3JBSlVwX2RWM19QMzh3ODRra2RYNC1sNHJSMEp5b1FVdE9Ha3MzNmdDNHU3UWlETWp1VVZ1WUdIakFpNTNtNThIY25aeFhTSEFFVnJ4bE5kS25USTdKeWxOUmZQdHFTRWJvQ0VBV1JlQ1d0d0trNjllYXNTYkU3VUg0TmJIcw?oc=5",
+  "source": "Yahoo Finance",
+  "published": "2026-10-16T11:00:10Z",
+  "since": "2026-10-16T15:36:32Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Nvidia CEO Jensen Huang Rejects Sam Altman's Advice to 'Accept' AI Cybersecurity Risks: ‘We Should Do Everything...to Avoid Them’",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd1VYaXU0U2tmTi1ScUlGdTE1OUVMZ3JBSlVwX2RWM19QMzh3ODRra2RYNC1sNHJSMEp5b1FVdE9Ha3MzNmdDNHU3UWlETWp1VVZ1WUdIakFpNTNtNThIY25aeFhTSEFFVnJ4bE5kS25USTdKeWxOUmZQdHFTRWJvQ0VBV1JlQ1d0d0trNjllYXNTYkU3VUg0TmJIcw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-16T11:00:10Z",
+   "since": "2026-10-16T15:36:32Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,43 +45,33 @@
    "title": "Elon Musk says he has suffered from AI psychosis half a dozen times this year",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOci16a2ZhdTVfaGZHX0FDQXBkdTM1LV9weVpzc2lpYWxzNDg5UVZVeHNwUnlheXZYLWhqZFliWk1CNnZjUHk0ckZ3R1lRQS10dmZtc1pRT0xaTktHM1ptXzF4OXBPTThKR1JXMmt0ejFIVG5fb3ZHeXFvdFE3NmZHNWdpWjFGVTE2SVBsMk5uYjg4ZXRZZGdmV0s5Z3BIa1JhRExuNTFTaU5nRURSdjhqRFEwLXJxUXEzNTRyM2NpeDlrUWRrRF9LX0thZUJHbG1tZXhETmVOZl9LUkV1WlI2X1RB0gHiAUFVX3lxTE5yLXprZmF1NV9oZkdfQUNBcGR1MzUtX3B5WnNzaWlhbHM0ODlRVlV4c3BSeWF5dlgtaGpkWWJaTUI2dmNQeTRyRndHWVFBLXR2Zm1zWlFPTFpOS0czWm1fMXg5cE9NOEpHUlcya3R6MUhUbl9vdkd5cW90UTc2Zkc1Z2laMUZVMTZJUGwyTm5iODhldFlkZ2ZXSzlncEhrUmFETG41MVNpTmdFRFJ2OGpEUTAtcnFRcTM1NHIzY2l4OWtRZGtEX0tfS2FlQkdsbW1leEROZU5mX0tSRXVaUjZfVEE?oc=5",
    "source": "India Today",
-   "published": "2026-10-16T10:18:39Z",
-   "since": "2026-10-16T11:39:55Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Jensen Huang Says Nvidia Must Work With China on AI Safety",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT2hZSXNMSklFNmJqTXVZcmtuV25XZ2NMdmxVR1pJWUpIQUtqNUVDTG5LODZSTkhFcEx1bjdMdUQxV05RWHNsNlhYNHpSUlpiRmxJMFZGMVJGeEZhXzZyZUhpcnkzNjdRcHcwaVh4NERkOGZIWDBtclh6SUFBOGp0bEpHWjAtSjVLXzJJbHBnbUVGeTVFZzZ3OQ?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-15T13:15:08Z"
+   "published": "2026-10-16T10:18:39Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk says he has suffered from AI psychosis half a dozen times this year",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOci16a2ZhdTVfaGZHX0FDQXBkdTM1LV9weVpzc2lpYWxzNDg5UVZVeHNwUnlheXZYLWhqZFliWk1CNnZjUHk0ckZ3R1lRQS10dmZtc1pRT0xaTktHM1ptXzF4OXBPTThKR1JXMmt0ejFIVG5fb3ZHeXFvdFE3NmZHNWdpWjFGVTE2SVBsMk5uYjg4ZXRZZGdmV0s5Z3BIa1JhRExuNTFTaU5nRURSdjhqRFEwLXJxUXEzNTRyM2NpeDlrUWRrRF9LX0thZUJHbG1tZXhETmVOZl9LUkV1WlI2X1RB0gHiAUFVX3lxTE5yLXprZmF1NV9oZkdfQUNBcGR1MzUtX3B5WnNzaWlhbHM0ODlRVlV4c3BSeWF5dlgtaGpkWWJaTUI2dmNQeTRyRndHWVFBLXR2Zm1zWlFPTFpOS0czWm1fMXg5cE9NOEpHUlcya3R6MUhUbl9vdkd5cW90UTc2Zkc1Z2laMUZVMTZJUGwyTm5iODhldFlkZ2ZXSzlncEhrUmFETG41MVNpTmdFRFJ2OGpEUTAtcnFRcTM1NHIzY2l4OWtRZGtEX0tfS2FlQkdsbW1leEROZU5mX0tSRXVaUjZfVEE?oc=5",
-   "source": "India Today",
-   "published": "2026-10-16T10:18:39Z",
-   "since": "2026-10-16T11:39:55Z"
+   "person": "Jensen Huang",
+   "title": "Nvidia CEO Jensen Huang Rejects Sam Altman's Advice to 'Accept' AI Cybersecurity Risks: ‘We Should Do Everything...to Avoid Them’",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd1VYaXU0U2tmTi1ScUlGdTE1OUVMZ3JBSlVwX2RWM19QMzh3ODRra2RYNC1sNHJSMEp5b1FVdE9Ha3MzNmdDNHU3UWlETWp1VVZ1WUdIakFpNTNtNThIY25aeFhTSEFFVnJ4bE5kS25USTdKeWxOUmZQdHFTRWJvQ0VBV1JlQ1d0d0trNjllYXNTYkU3VUg0TmJIcw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-16T11:00:10Z",
+   "since": "2026-10-16T15:36:32Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Jensen Huang Says Nvidia Must Work With China on AI Safety",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT2hZSXNMSklFNmJqTXVZcmtuV25XZ2NMdmxVR1pJWUpIQUtqNUVDTG5LODZSTkhFcEx1bjdMdUQxV05RWHNsNlhYNHpSUlpiRmxJMFZGMVJGeEZhXzZyZUhpcnkzNjdRcHcwaVh4NERkOGZIWDBtclh6SUFBOGp0bEpHWjAtSjVLXzJJbHBnbUVGeTVFZzZ3OQ?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-15T13:15:08Z"
+   "person": "Elon Musk",
+   "title": "Elon Musk says he has suffered from AI psychosis half a dozen times this year",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOci16a2ZhdTVfaGZHX0FDQXBkdTM1LV9weVpzc2lpYWxzNDg5UVZVeHNwUnlheXZYLWhqZFliWk1CNnZjUHk0ckZ3R1lRQS10dmZtc1pRT0xaTktHM1ptXzF4OXBPTThKR1JXMmt0ejFIVG5fb3ZHeXFvdFE3NmZHNWdpWjFGVTE2SVBsMk5uYjg4ZXRZZGdmV0s5Z3BIa1JhRExuNTFTaU5nRURSdjhqRFEwLXJxUXEzNTRyM2NpeDlrUWRrRF9LX0thZUJHbG1tZXhETmVOZl9LUkV1WlI2X1RB0gHiAUFVX3lxTE5yLXprZmF1NV9oZkdfQUNBcGR1MzUtX3B5WnNzaWlhbHM0ODlRVlV4c3BSeWF5dlgtaGpkWWJaTUI2dmNQeTRyRndHWVFBLXR2Zm1zWlFPTFpOS0czWm1fMXg5cE9NOEpHUlcya3R6MUhUbl9vdkd5cW90UTc2Zkc1Z2laMUZVMTZJUGwyTm5iODhldFlkZ2ZXSzlncEhrUmFETG41MVNpTmdFRFJ2OGpEUTAtcnFRcTM1NHIzY2l4OWtRZGtEX0tfS2FlQkdsbW1leEROZU5mX0tSRXVaUjZfVEE?oc=5",
+   "source": "India Today",
+   "published": "2026-10-16T10:18:39Z"
   },
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2745,
+   "stars": 2791,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1300,
+   "stars": 1328,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 872,
+   "stars": 884,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -101,7 +101,7 @@
   {
    "kind": "repo",
    "title": "Ayzzz123/mcd-coupon-strategist",
-   "stars": 368,
+   "stars": 369,
    "note": "Python · new this week",
    "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
    "source": "GitHub",
@@ -111,7 +111,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 298,
+   "stars": 299,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -121,7 +121,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 269,
+   "stars": 284,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -131,7 +131,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3422,
+   "stars": 3483,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -140,18 +140,8 @@
   },
   {
    "kind": "repo",
-   "title": "liseami/CCBaga",
-   "stars": 2383,
-   "note": "Rust · new this week",
-   "url": "https://github.com/liseami/CCBaga",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2335,
+   "stars": 2433,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -160,8 +150,18 @@
   },
   {
    "kind": "repo",
+   "title": "liseami/CCBaga",
+   "stars": 2392,
+   "note": "Rust · new this week",
+   "url": "https://github.com/liseami/CCBaga",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 1525,
+   "stars": 1601,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -171,7 +171,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 715,
+   "points": 767,
    "title": "Neural networks are clean",
    "source": "Hacker News",
    "url": "https://already-clean.goodfire.com/",
@@ -180,48 +180,66 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 315,
-   "title": "Krea 3 – An image model built for editing at scale",
+   "points": 78,
+   "title": "AI-assisted PCB design for KiCad 10",
    "source": "Hacker News",
-   "url": "https://www.krea.ai/krea-3",
-   "discuss": "https://news.ycombinator.com/item?id=50105648"
+   "url": "https://github.com/mixelpixx/Konnect",
+   "discuss": "https://news.ycombinator.com/item?id=50085553"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 206,
-   "title": "Using AI to reverse engineer hardware",
+   "points": 41,
+   "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
    "source": "Hacker News",
-   "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-   "discuss": "https://news.ycombinator.com/item?id=50104299"
+   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+   "discuss": "https://news.ycombinator.com/item?id=50118320"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 28,
+   "title": "Show HN: Gemini 4 Argon plays StarCraft",
+   "source": "Hacker News",
+   "url": "https://starskirmish.com/bench/v0-2/",
+   "discuss": "https://news.ycombinator.com/item?id=50118688"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 6,
+   "title": "How to make System 1 LLMs show System 2 competencies?",
+   "source": "Hacker News",
+   "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+   "discuss": "https://news.ycombinator.com/item?id=50118662"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+   "title": "Jev is Vercel’s fastest-adopted AI model ever",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/"
+   "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Meta launches an open-weight AI model that runs on Macs",
+   "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
+   "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+   "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/"
+   "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+   "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
+   "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/"
   },
   {
    "kind": "news",

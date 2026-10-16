@@ -2,7 +2,7 @@
    each valid comment into a GitHub issue. Everything shown is rendered with textContent. */
 (function () {
   var TOPIC = "https://ntfy.sh/readsigil-agora-comments-v1";
-  var ISSUES = "https://api.github.com/repos/Shashwat-Kumar/agora/issues?state=all&per_page=100&labels=comment,";
+  var ISSUES = "https://api.github.com/repos/Shashwat-Kumar/agora/issues?state=open&per_page=100&labels=comment,";
   function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
   function decode(b64) { try { var bin = atob(b64), u = new Uint8Array(bin.length); for (var i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return JSON.parse(new TextDecoder().decode(u)); } catch (e) { return null; } }
   function load(box, tid) {

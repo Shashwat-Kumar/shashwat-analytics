@@ -123,3 +123,6 @@ body.cb-body{background:var(--cb-paper);color:var(--cb-ink);font:400 16px/1.7 va
 @media(max-width:970px){.cb-story-grid{grid-template-columns:1fr;gap:25px}.cb-sidebar{position:static;border-top:1px solid var(--cb-rule);display:flex;flex-wrap:wrap;gap:8px}.cb-sidebar h3,.cb-sidebar p{width:100%}.cb-sidebar a{padding:9px 10px;border:1px solid var(--cb-rule);border-radius:3px}.cb-hero{grid-template-columns:1fr;gap:25px}}
 @media(max-width:680px){.cb-wrap{padding:0 20px}.cb-nav{padding:14px 0;align-items:start;gap:12px;flex-direction:column}.cb-links{gap:13px}.cb-links a{font-size:11px}.cb-hero{padding:47px 0}.cb-hero h1{font-size:49px}.cb-story-hero h1{font-size:42px}.cb-section{padding-top:38px}.cb-section-head{display:block}.cb-section-head p{margin:10px 0 0}.cb-case-list,.cb-reference-list{grid-template-columns:1fr}.cb-case-card,.cb-case-card:not(:first-child){padding:22px 0 25px;border-left:0}.cb-card-sub{min-height:0}.cb-metrics{margin:13px 0}.cb-takeaways{grid-template-columns:1fr}.cb-diagnostic{grid-template-columns:1fr}.cb-answer{padding:22px}.cb-steps li{grid-template-columns:70px 1fr;gap:10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Case pages on phones: keep the subtitle clear of the rule below it */
+@media(max-width:760px){.cb-story-hero{padding-bottom:32px}}

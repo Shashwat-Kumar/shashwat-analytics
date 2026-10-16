@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T06:19:22Z",
+ "generated_at": "2026-10-16T11:39:55Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://already-clean.goodfire.com/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50105647",
-  "points": 612,
-  "comments": 227,
+  "points": 715,
+  "comments": 266,
   "published": "2026-10-15T16:04:01Z",
   "since": "2026-10-15T23:07:13Z"
  },
@@ -21,22 +21,22 @@
   "kind": "voice",
   "tag": "VOICE",
   "person": "Elon Musk",
-  "title": "Elon Musk wants to start an Amazon competitor after Grok bot users say the company blocked them from placing orders",
-  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVW1rdlhtbFVZRFoyLXhWRXZ3cllkREtaSzNxdzJRaDVMT2IzaVpTUGNTVU1zbkVTNmxIbGFpWGdURV95eFVJYVkycmdWTUkyVVJxYk1XTkhmWWpLNnlycnZOZTBNSXp5bGtWc1JraDFqeE00TWNucC05T0h6T1FpRE45VHZkUUFINnA1MWtuN0pMNlhFVWlRQQ?oc=5",
-  "source": "Yahoo Finance",
-  "published": "2026-10-15T22:00:00Z",
-  "since": "2026-10-15T23:07:13Z"
+  "title": "Elon Musk says he has suffered from AI psychosis half a dozen times this year",
+  "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOci16a2ZhdTVfaGZHX0FDQXBkdTM1LV9weVpzc2lpYWxzNDg5UVZVeHNwUnlheXZYLWhqZFliWk1CNnZjUHk0ckZ3R1lRQS10dmZtc1pRT0xaTktHM1ptXzF4OXBPTThKR1JXMmt0ejFIVG5fb3ZHeXFvdFE3NmZHNWdpWjFGVTE2SVBsMk5uYjg4ZXRZZGdmV0s5Z3BIa1JhRExuNTFTaU5nRURSdjhqRFEwLXJxUXEzNTRyM2NpeDlrUWRrRF9LX0thZUJHbG1tZXhETmVOZl9LUkV1WlI2X1RB0gHiAUFVX3lxTE5yLXprZmF1NV9oZkdfQUNBcGR1MzUtX3B5WnNzaWlhbHM0ODlRVlV4c3BSeWF5dlgtaGpkWWJaTUI2dmNQeTRyRndHWVFBLXR2Zm1zWlFPTFpOS0czWm1fMXg5cE9NOEpHUlcya3R6MUhUbl9vdkd5cW90UTc2Zkc1Z2laMUZVMTZJUGwyTm5iODhldFlkZ2ZXSzlncEhrUmFETG41MVNpTmdFRFJ2OGpEUTAtcnFRcTM1NHIzY2l4OWtRZGtEX0tfS2FlQkdsbW1leEROZU5mX0tSRXVaUjZfVEE?oc=5",
+  "source": "India Today",
+  "published": "2026-10-16T10:18:39Z",
+  "since": "2026-10-16T11:39:55Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk wants to start an Amazon competitor after Grok bot users say the company blocked them from placing orders",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVW1rdlhtbFVZRFoyLXhWRXZ3cllkREtaSzNxdzJRaDVMT2IzaVpTUGNTVU1zbkVTNmxIbGFpWGdURV95eFVJYVkycmdWTUkyVVJxYk1XTkhmWWpLNnlycnZOZTBNSXp5bGtWc1JraDFqeE00TWNucC05T0h6T1FpRE45VHZkUUFINnA1MWtuN0pMNlhFVWlRQQ?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-15T22:00:00Z",
-   "since": "2026-10-15T23:07:13Z"
+   "title": "Elon Musk says he has suffered from AI psychosis half a dozen times this year",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOci16a2ZhdTVfaGZHX0FDQXBkdTM1LV9weVpzc2lpYWxzNDg5UVZVeHNwUnlheXZYLWhqZFliWk1CNnZjUHk0ckZ3R1lRQS10dmZtc1pRT0xaTktHM1ptXzF4OXBPTThKR1JXMmt0ejFIVG5fb3ZHeXFvdFE3NmZHNWdpWjFGVTE2SVBsMk5uYjg4ZXRZZGdmV0s5Z3BIa1JhRExuNTFTaU5nRURSdjhqRFEwLXJxUXEzNTRyM2NpeDlrUWRrRF9LX0thZUJHbG1tZXhETmVOZl9LUkV1WlI2X1RB0gHiAUFVX3lxTE5yLXprZmF1NV9oZkdfQUNBcGR1MzUtX3B5WnNzaWlhbHM0ODlRVlV4c3BSeWF5dlgtaGpkWWJaTUI2dmNQeTRyRndHWVFBLXR2Zm1zWlFPTFpOS0czWm1fMXg5cE9NOEpHUlcya3R6MUhUbl9vdkd5cW90UTc2Zkc1Z2laMUZVMTZJUGwyTm5iODhldFlkZ2ZXSzlncEhrUmFETG41MVNpTmdFRFJ2OGpEUTAtcnFRcTM1NHIzY2l4OWtRZGtEX0tfS2FlQkdsbW1leEROZU5mX0tSRXVaUjZfVEE?oc=5",
+   "source": "India Today",
+   "published": "2026-10-16T10:18:39Z",
+   "since": "2026-10-16T11:39:55Z"
   },
   {
    "kind": "voice",
@@ -46,15 +46,6 @@
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT2hZSXNMSklFNmJqTXVZcmtuV25XZ2NMdmxVR1pJWUpIQUtqNUVDTG5LODZSTkhFcEx1bjdMdUQxV05RWHNsNlhYNHpSUlpiRmxJMFZGMVJGeEZhXzZyZUhpcnkzNjdRcHcwaVh4NERkOGZIWDBtclh6SUFBOGp0bEpHWjAtSjVLXzJJbHBnbUVGeTVFZzZ3OQ?oc=5",
    "source": "Yahoo Finance",
    "published": "2026-10-15T13:15:08Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Demis Hassabis",
-   "title": "Demis Hassabis warns there could be major AI hacking incidents by next year",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQclpSb2d6bEQyVTU2eEdRQmNlRDlubG5DbVBOOS1tcHJ2c0IwR196dWJRTVRfYnFWYURVZ2xfbEYxRmhuNGhBMTcyaTNNYXM1S190QVJFeFVEQU1oRGxtOTlqaG82Q0pFa1NsSTcyV0VFRl9mOFZlMU1kcTAyYkZlVV92Z0t0V0Z1RGp3UEo1TzFOSnFpUmJGMGM1NEZCejEzUFljbG9qZUxfSm5XbEtma0g2SEkyQ2gwNlltVEwycjJlMXdxUGl1Szh1MnJpaVJRYkdBNkR1dHBYUTN6aTRV0gHfAUFVX3lxTFByWlJvZ3psRDJVNTZ4R1FCY2VEOW5sbkNtUE45LW1wcnZzQjBHX3p1YlFNVF9icVZhRFVnbF9sRjFGaG40aEExNzJpM01hczVLX3RBUkV4VURBTWhEbG05OWpobzZDSkVrU2xJNzJXRUVGX2Y4VmUxTWRxMDJiRmVVX3ZnS3RXRnVEandQSjVPMU5KcWlSYkYwYzU0RkJ6MTNQWWNsb2plTF9KbldsS2ZrSDZISTJDaDA2WW1UTDJyMmUxd3FQaXVLOHUycmlpUlFiR0E2RHV0cFhRM3ppNFU?oc=5",
-   "source": "India Today",
-   "published": "2026-10-15T06:19:34Z"
   }
  ],
  "items": [
@@ -62,11 +53,11 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk wants to start an Amazon competitor after Grok bot users say the company blocked them from placing orders",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVW1rdlhtbFVZRFoyLXhWRXZ3cllkREtaSzNxdzJRaDVMT2IzaVpTUGNTVU1zbkVTNmxIbGFpWGdURV95eFVJYVkycmdWTUkyVVJxYk1XTkhmWWpLNnlycnZOZTBNSXp5bGtWc1JraDFqeE00TWNucC05T0h6T1FpRE45VHZkUUFINnA1MWtuN0pMNlhFVWlRQQ?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-15T22:00:00Z",
-   "since": "2026-10-15T23:07:13Z"
+   "title": "Elon Musk says he has suffered from AI psychosis half a dozen times this year",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOci16a2ZhdTVfaGZHX0FDQXBkdTM1LV9weVpzc2lpYWxzNDg5UVZVeHNwUnlheXZYLWhqZFliWk1CNnZjUHk0ckZ3R1lRQS10dmZtc1pRT0xaTktHM1ptXzF4OXBPTThKR1JXMmt0ejFIVG5fb3ZHeXFvdFE3NmZHNWdpWjFGVTE2SVBsMk5uYjg4ZXRZZGdmV0s5Z3BIa1JhRExuNTFTaU5nRURSdjhqRFEwLXJxUXEzNTRyM2NpeDlrUWRrRF9LX0thZUJHbG1tZXhETmVOZl9LUkV1WlI2X1RB0gHiAUFVX3lxTE5yLXprZmF1NV9oZkdfQUNBcGR1MzUtX3B5WnNzaWlhbHM0ODlRVlV4c3BSeWF5dlgtaGpkWWJaTUI2dmNQeTRyRndHWVFBLXR2Zm1zWlFPTFpOS0czWm1fMXg5cE9NOEpHUlcya3R6MUhUbl9vdkd5cW90UTc2Zkc1Z2laMUZVMTZJUGwyTm5iODhldFlkZ2ZXSzlncEhrUmFETG41MVNpTmdFRFJ2OGpEUTAtcnFRcTM1NHIzY2l4OWtRZGtEX0tfS2FlQkdsbW1leEROZU5mX0tSRXVaUjZfVEE?oc=5",
+   "source": "India Today",
+   "published": "2026-10-16T10:18:39Z",
+   "since": "2026-10-16T11:39:55Z"
   },
   {
    "kind": "voice",
@@ -78,18 +69,9 @@
    "published": "2026-10-15T13:15:08Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Demis Hassabis",
-   "title": "Demis Hassabis warns there could be major AI hacking incidents by next year",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQclpSb2d6bEQyVTU2eEdRQmNlRDlubG5DbVBOOS1tcHJ2c0IwR196dWJRTVRfYnFWYURVZ2xfbEYxRmhuNGhBMTcyaTNNYXM1S190QVJFeFVEQU1oRGxtOTlqaG82Q0pFa1NsSTcyV0VFRl9mOFZlMU1kcTAyYkZlVV92Z0t0V0Z1RGp3UEo1TzFOSnFpUmJGMGM1NEZCejEzUFljbG9qZUxfSm5XbEtma0g2SEkyQ2gwNlltVEwycjJlMXdxUGl1Szh1MnJpaVJRYkdBNkR1dHBYUTN6aTRV0gHfAUFVX3lxTFByWlJvZ3psRDJVNTZ4R1FCY2VEOW5sbkNtUE45LW1wcnZzQjBHX3p1YlFNVF9icVZhRFVnbF9sRjFGaG40aEExNzJpM01hczVLX3RBUkV4VURBTWhEbG05OWpobzZDSkVrU2xJNzJXRUVGX2Y4VmUxTWRxMDJiRmVVX3ZnS3RXRnVEandQSjVPMU5KcWlSYkYwYzU0RkJ6MTNQWWNsb2plTF9KbldsS2ZrSDZISTJDaDA2WW1UTDJyMmUxd3FQaXVLOHUycmlpUlFiR0E2RHV0cFhRM3ppNFU?oc=5",
-   "source": "India Today",
-   "published": "2026-10-15T06:19:34Z"
-  },
-  {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2631,
+   "stars": 2745,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -99,7 +81,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1131,
+   "stars": 1300,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -109,7 +91,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 856,
+   "stars": 872,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -119,7 +101,7 @@
   {
    "kind": "repo",
    "title": "Ayzzz123/mcd-coupon-strategist",
-   "stars": 362,
+   "stars": 368,
    "note": "Python · new this week",
    "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
    "source": "GitHub",
@@ -129,7 +111,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 296,
+   "stars": 298,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -139,7 +121,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 240,
+   "stars": 269,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -149,7 +131,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3306,
+   "stars": 3422,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -159,7 +141,7 @@
   {
    "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2357,
+   "stars": 2383,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -169,7 +151,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2191,
+   "stars": 2335,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -179,7 +161,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 1402,
+   "stars": 1525,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -189,7 +171,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 612,
+   "points": 715,
    "title": "Neural networks are clean",
    "source": "Hacker News",
    "url": "https://already-clean.goodfire.com/",
@@ -198,7 +180,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 288,
+   "points": 315,
    "title": "Krea 3 – An image model built for editing at scale",
    "source": "Hacker News",
    "url": "https://www.krea.ai/krea-3",
@@ -207,7 +189,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 161,
+   "points": 206,
    "title": "Using AI to reverse engineer hardware",
    "source": "Hacker News",
    "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",

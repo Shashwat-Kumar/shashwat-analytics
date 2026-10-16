@@ -99,7 +99,7 @@ function el(tag,cls,txt){const x=document.createElement(tag);if(cls)x.className=
 function clear(x){x.replaceChildren()}
 function renderScenarios(){
  const box=$('scenarios');clear(box);
- for(const id of Object.keys(STORIES)){const t=STORIES[id],b=el('button');b.type='button';b.setAttribute('aria-pressed',String(id===current));b.append(el('strong',null,t.name),el('small',null,t.tag));b.onclick=()=>{current=id;lensId=STORIES[id].lenses[0].id;selected=null;metric=null;combination=null;render()};box.append(b)}
+ for(const id of Object.keys(STORIES)){const t=STORIES[id],b=el('button');b.type='button';b.setAttribute('aria-pressed',String(id===current));b.append(el('strong',null,t.name),el('small',null,t.tag));b.onclick=()=>{current=id;lensId=STORIES[id].lenses[0].id;criterion='net';scale=1;selected=null;metric=null;combination=null;render()};box.append(b)}
  const t=STORIES[current];$('objectiveTitle').textContent=t.objective;$('objectiveContext').textContent=t.context;
 }
 function renderLenses(){const box=$('lenses');clear(box);for(const l of STORIES[current].lenses){const b=el('button',null,l.name);b.type='button';b.setAttribute('aria-pressed',String(l.id===lensId));b.onclick=()=>{lensId=l.id;selected=null;render()};box.append(b)}
@@ -125,13 +125,14 @@ function renderDiagnosis(){
  const box=$('assumptions');clear(box);
  const pairs=[['Part of total population',n(d.n)],['Eligible & reachable',n(d.reach)],['Expected incremental actions',n(d.actions,1)],['Estimated net opportunity',val(d.net)],['Assigned setup cost',val(d.fixed)]];
  for(const [a,b] of pairs){const x=el('div','assumption');x.append(el('span',null,a),el('b',null,b));box.append(x)}
- if(!metric||!s.metricNames.includes(metric))metric=s.metricNames[0];
+ if(!metric||!METRICS.has(metric))metric=s.metricNames[0];
  const opts=$('metric');clear(opts);
- for(const m of s.metricNames){const o=el('option',null,m);o.value=m;opts.append(o)}opts.value=metric;
+ const important=el('optgroup');important.label='Most relevant for this problem';for(const m of s.metricNames){const o=el('option',null,m);o.value=m;important.append(o)}opts.append(important);
+ const rest=el('optgroup');rest.label='Explore all other defined measures';for(const m of A.terms.map(x=>x.name).filter(x=>!s.metricNames.includes(x)).sort()){const o=el('option',null,m);o.value=m;rest.append(o)}opts.append(rest);opts.value=metric;
  const def=METRICS.get(metric),out=$('metricExplainer');clear(out);
  if(def){out.append(el('h4',null,def.name),el('p',null,def.definition),el('p','test','Measure: '+def.measure),el('p',null,'Challenge: '+def.ask))}else out.append(el('p',null,'Metric definition not in library.'));
- if(!combination||!s.comboQuestions.includes(combination))combination=s.comboQuestions[0];
- const co=$('combination');clear(co);for(const q of s.comboQuestions){const o=el('option',null,q);o.value=q;co.append(o)}co.value=combination;
+ if(!combination||!A.combos.some(x=>x.q===combination))combination=s.comboQuestions[0];
+ const co=$('combination');clear(co);const recommended=el('optgroup');recommended.label='Most relevant pairings';for(const q of s.comboQuestions){const o=el('option',null,q);o.value=q;recommended.append(o)}co.append(recommended);const allOther=el('optgroup');allOther.label='All other original combinations';for(const q of A.combos.map(x=>x.q).filter(x=>!s.comboQuestions.includes(x))){const o=el('option',null,q);o.value=q;allOther.append(o)}co.append(allOther);co.value=combination;
  const combo=A.combos.find(o=>o.q===combination),cx=$('comboExplainer');clear(cx);
  if(combo)cx.append(el('h4',null,combo.q),el('p','test',combo.x+' × '+combo.y),el('p',null,'Use this relationship to ask why the selected segment is not delivering the outcome. The matrix is a diagnostic prompt, not an automatic verdict.'));
 }

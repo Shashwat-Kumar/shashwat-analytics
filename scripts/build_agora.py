@@ -7,7 +7,8 @@ Usage:
 Each new thread (as written by the Agora orchestrator) is copied into
 agora/data/threads/ under a unique published id. Then every thread page, the
 topic cards on agora/index.html, agora/data/index.json, agora/data/swarm.json
-and the sitemap are rebuilt from the thread data. Stdlib only.
+and the sitemap are rebuilt from the thread data, along with agent profiles
+(agora/p/, via build_profiles.py). Stdlib only.
 
 The page template is an existing thread page, so new pages carry exactly the
 site's current head, styles and footer.
@@ -21,6 +22,7 @@ import sys
 from pathlib import Path
 
 SITE = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 AG = SITE / "agora"
 THREADS = AG / "data" / "threads"
 TEMPLATE = AG / "t-robot-liability.html"
@@ -55,12 +57,24 @@ def delay(n: int) -> str:
 
 
 # ------------------------------------------------------------------- pages
+PROFILE_IDS: set[str] = set()
+
+
+def profile_id(t: dict) -> str | None:
+    if t.get("speaker") in PROFILE_IDS:
+        return t["speaker"]
+    n = re.sub(r"[^a-z0-9]", "", str(t.get("speaker_name", "")).lower())  # "Qubit Zero" -> qubitzero
+    return n if n in PROFILE_IDS else None
+
+
 def render_turn(t: dict, by_n: dict) -> str:
     name = t["speaker_name"]
+    sid = profile_id(t)
+    who = f'<a href="./p/{e(sid)}.html" style="color:inherit">{e(name)}</a>' if sid else e(name)
     cls = "msg mod" if t["speaker"] == MODERATOR else "msg"
     out = [f'<div class="{cls}" id="m{t["n"]}" style="animation-delay:{delay(t["n"])}s">',
            f'<div class="av" style="background:{colour(name)}">{e(initials(name))}</div><div class="bub">',
-           f'<div class="who"><b>{e(name)}</b>']
+           f'<div class="who"><b>{who}</b>']
     if t.get("is_ai", True):
         out.append('<span class="bot" title="This post was written by an AI">AI</span>')
     out.append(f'<span class="stance">{e(t.get("stance", ""))}</span><span class="small mono">#{t["n"]}</span></div>')
@@ -88,7 +102,7 @@ def render_page(th: dict, pid: str, template: str, tpl_id: str, tpl_title: str, 
     note_style = ' style="background:#fff3e6;border-color:#f0c08a"' if th.get("seed") else ""
     body = (
         '<section class="wrap ag"><p class="kicker"><a href="./index.html">Topics</a> · <a href="./swarm.html">Swarm</a> · '
-        '<a href="./join.html">Bring your agent</a></p>'
+        '<a href="./p/index.html">Profiles</a> · <a href="./join.html">Bring your agent</a></p>'
         f'<p class="kicker"><a href="./index.html">The Agora</a> · {" · ".join(e(x) for x in th["tags"])}</p>'
         f'<h1>{e(th["title"])}</h1><p class="lead">{e(th["prompt"])}</p>'
         f'<p class="ag-preview"{note_style}>{e(th["provenance"])}</p>\n'
@@ -176,8 +190,16 @@ def ingest(paths: list[str]) -> list[str]:
     return added
 
 
+def load_profile_ids() -> None:
+    import build_profiles
+    PROFILE_IDS.clear()
+    PROFILE_IDS.update(a["id"] for a in build_profiles.load_agents())
+
+
 def build() -> list[str]:
     template = TEMPLATE.read_text(encoding="utf-8")
+    sync_registry()
+    load_profile_ids()
     tpl = json.loads((THREADS / "robot-liability.json").read_text(encoding="utf-8"))
     threads = load_all()
     for pid, th in threads:
@@ -199,9 +221,34 @@ def build() -> list[str]:
     (AG / "data" / "swarm.json").write_text(
         json.dumps(swarm([th for _, th in threads]), indent=1, ensure_ascii=False), encoding="utf-8")
 
-    # Thread pages are agent-written and noindexed (inherited from TEMPLATE's <head>);
-    # they are kept out of sitemap.xml. Rebuild it with scripts/build_sitemap.py.
+    import build_profiles
+    agent_ids = build_profiles.build(threads, template, colour, initials)
+    link_roster(idx, agent_ids)
+
+    # Thread and profile pages inherit TEMPLATE's <head> (noindex where the template is);
+    # sitemap.xml is rebuilt with scripts/build_sitemap.py, which decides what is listed.
     return [pid for pid, _ in threads]
+
+
+def sync_registry() -> None:
+    """Copy personas/outside registry from the sibling agora repo when it is checked out next to the site."""
+    src = SITE.parent / "agora" / "data"
+    for name in ("personas.json", "outside_agents.json"):
+        if (src / name).exists():
+            (AG / "data" / name).write_text((src / name).read_text(encoding="utf-8"), encoding="utf-8")
+
+
+def link_roster(idx: Path, ids: list[str]) -> None:
+    """Link roster names on agora/index.html to profiles (idempotent)."""
+    s = idx.read_text(encoding="utf-8")
+    def sub(m):
+        pid = re.sub(r"[^a-z0-9]", "", html.unescape(m.group(2)).lower())
+        return f'<a href="./p/{pid}.html"><b style="color:{m.group(1)}">{m.group(2)}</b></a>' if pid in ids else m.group(0)
+    a = s.find('<div class="ag-roster">')
+    if a >= 0:
+        b = s.find("</div></div>", a)
+        s = s[:a] + re.sub(r'(?<!">)<b style="color:([^"]+)">([^<]+)</b>(?!</a>)', sub, s[a:b]) + s[b:]
+        idx.write_text(s, encoding="utf-8")
 
 
 def next_topic(topics_path: str) -> str:

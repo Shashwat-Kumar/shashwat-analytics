@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T23:07:13Z",
+ "generated_at": "2026-10-16T01:30:07Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://already-clean.goodfire.com/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50105647",
-  "points": 444,
-  "comments": 163,
+  "points": 497,
+  "comments": 190,
   "published": "2026-10-15T16:04:01Z",
   "since": "2026-10-15T23:07:13Z"
  },
@@ -42,10 +42,10 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Jensen Huang Says Nvidia Must Work With Chinese AI Firms",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMGVZSDVkQ0Y5RWU0WnRSaG1VdTZFNGNLSEVnN0xGY1oxNkpIV0t6WGlfWUI4dVhVbHFsNU5yaWtnUmN5S3JHbXVIOGVXRk0yUThjWkk4SkphMGRJUnFQMXRWRXg0bFQzWDg5WlUyXzZhOTJfTlZvenZNMFVudzA0TFpBTFRBQWJIOS1nZ0FUV1NZWWR0cjdlRQ?oc=5",
+   "title": "Jensen Huang Says Nvidia Must Work With China on AI Safety",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT2hZSXNMSklFNmJqTXVZcmtuV25XZ2NMdmxVR1pJWUpIQUtqNUVDTG5LODZSTkhFcEx1bjdMdUQxV05RWHNsNlhYNHpSUlpiRmxJMFZGMVJGeEZhXzZyZUhpcnkzNjdRcHcwaVh4NERkOGZIWDBtclh6SUFBOGp0bEpHWjAtSjVLXzJJbHBnbUVGeTVFZzZ3OQ?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-15T18:30:19Z"
+   "published": "2026-10-15T13:15:08Z"
   },
   {
    "kind": "voice",
@@ -81,10 +81,10 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Jensen Huang Says Nvidia Must Work With Chinese AI Firms",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMGVZSDVkQ0Y5RWU0WnRSaG1VdTZFNGNLSEVnN0xGY1oxNkpIV0t6WGlfWUI4dVhVbHFsNU5yaWtnUmN5S3JHbXVIOGVXRk0yUThjWkk4SkphMGRJUnFQMXRWRXg0bFQzWDg5WlUyXzZhOTJfTlZvenZNMFVudzA0TFpBTFRBQWJIOS1nZ0FUV1NZWWR0cjdlRQ?oc=5",
+   "title": "Jensen Huang Says Nvidia Must Work With China on AI Safety",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT2hZSXNMSklFNmJqTXVZcmtuV25XZ2NMdmxVR1pJWUpIQUtqNUVDTG5LODZSTkhFcEx1bjdMdUQxV05RWHNsNlhYNHpSUlpiRmxJMFZGMVJGeEZhXzZyZUhpcnkzNjdRcHcwaVh4NERkOGZIWDBtclh6SUFBOGp0bEpHWjAtSjVLXzJJbHBnbUVGeTVFZzZ3OQ?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-15T18:30:19Z"
+   "published": "2026-10-15T13:15:08Z"
   },
   {
    "kind": "voice",
@@ -98,7 +98,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2418,
+   "stars": 2472,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -108,7 +108,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 962,
+   "stars": 1006,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -118,7 +118,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 829,
+   "stars": 831,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -138,7 +138,7 @@
   {
    "kind": "repo",
    "title": "NousResearch/hermes-official-plugins",
-   "stars": 291,
+   "stars": 293,
    "note": "Python · new this week",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
    "source": "GitHub",
@@ -147,18 +147,8 @@
   },
   {
    "kind": "repo",
-   "title": "BlenderGPT3D/blender-ai-addon",
-   "stars": 214,
-   "note": "Python · new this week",
-   "url": "https://github.com/BlenderGPT3D/blender-ai-addon",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3072,
+   "stars": 3152,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -167,18 +157,8 @@
   },
   {
    "kind": "repo",
-   "title": "storytold/craft-launcher",
-   "stars": 2856,
-   "note": "Rust · new this week",
-   "url": "https://github.com/storytold/craft-launcher",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2338,
+   "stars": 2340,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -188,7 +168,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1994,
+   "stars": 2055,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -196,9 +176,19 @@
    "cat": "Trending"
   },
   {
+   "kind": "repo",
+   "title": "HeyPuter/everything",
+   "stars": 1324,
+   "note": "JavaScript · new this week",
+   "url": "https://github.com/HeyPuter/everything",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
    "kind": "news",
    "tag": "HN",
-   "points": 444,
+   "points": 497,
    "title": "Neural networks are clean",
    "source": "Hacker News",
    "url": "https://already-clean.goodfire.com/",
@@ -207,7 +197,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 226,
+   "points": 248,
    "title": "Krea 3 – An image model built for editing at scale",
    "source": "Hacker News",
    "url": "https://www.krea.ai/krea-3",
@@ -216,7 +206,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 215,
+   "points": 230,
    "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
    "source": "Hacker News",
    "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
@@ -225,11 +215,18 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 77,
+   "points": 107,
    "title": "Using AI to reverse engineer hardware",
    "source": "Hacker News",
    "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
    "discuss": "https://news.ycombinator.com/item?id=50104299"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/"
   },
   {
    "kind": "news",
@@ -251,13 +248,6 @@
    "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/"
   },
   {
    "kind": "news",

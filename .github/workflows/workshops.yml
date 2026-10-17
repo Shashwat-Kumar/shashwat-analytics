@@ -3,9 +3,9 @@ name: Workshops end to end
 on:
   push:
     branches: [main]
-    paths: ['build-lab/close-the-books/**', 'assets/engines/**', 'tests/workshops/**', '.github/workflows/workshops.yml']
+    paths: ['build-lab/close-the-books/**', 'build-lab/post-once/**', 'assets/engines/**', 'tests/workshops/**', '.github/workflows/workshops.yml']
   pull_request:
-    paths: ['build-lab/close-the-books/**', 'assets/engines/**', 'tests/workshops/**', '.github/workflows/workshops.yml']
+    paths: ['build-lab/close-the-books/**', 'build-lab/post-once/**', 'assets/engines/**', 'tests/workshops/**', '.github/workflows/workshops.yml']
   workflow_dispatch:
     inputs:
       base_url:
@@ -40,6 +40,7 @@ jobs:
           python tests/workshops/serve_https.py 8443 "$RUNNER_TEMP/cert.pem" "$RUNNER_TEMP/key.pem" >/dev/null 2>&1 &
           sleep 2
           python tests/workshops/close_the_books_e2e.py
+          python tests/workshops/post_once_e2e.py
       - name: Keep screenshots
         if: always()
         uses: actions/upload-artifact@v5

@@ -206,11 +206,11 @@ footer .small{font-size:.8rem}
       <thead><tr><th>Workshop</th><th>Situation</th><th>Cloudera/Hadoop counterpart</th></tr></thead>
       <tbody>
         <tr><td class="k">1 · Postgres, DuckDB</td><td>UPI settlement does not tie to the ledger</td><td>Core banking replica; Impala or Hive over HDFS/Ozone</td></tr>
-        <tr><td class="k">2 · Kafka <span class="soon">In preparation</span></td><td>UPI events arrive out of order; consumer lag builds at month end</td><td>Kafka (Cloudera Streams Messaging)</td></tr>
-        <tr><td class="k">3 · Spark <span class="soon">In preparation</span></td><td>The EOD batch slows because one corporate account fills one partition</td><td>Spark on CDP, Cloudera Data Engineering</td></tr>
+        <tr><td class="k"><a href="/build-lab/post-once/">2 · Kafka</a></td><td>Post every transaction once, through repeats, crashes and month-end volume</td><td>Kafka (Cloudera Streams Messaging)</td></tr>
+        <tr><td class="k">3 · Airflow <span class="soon">In preparation</span></td><td>The end-of-day pipeline fails at 02:10; backfill without posting twice</td><td>Oozie; Airflow in Cloudera Data Engineering</td></tr>
         <tr><td class="k">4 · Iceberg <span class="soon">In preparation</span></td><td>Restate the March book after a late correction</td><td>Iceberg tables in CDP</td></tr>
         <tr><td class="k">5 · dbt Core <span class="soon">In preparation</span></td><td>One definition of CASA ratio across fourteen reports</td><td>Hive and Impala SQL jobs; dbt-hive and dbt-impala adapters</td></tr>
-        <tr><td class="k">6 · Airflow <span class="soon">In preparation</span></td><td>The EOD pipeline fails at 02:10; backfill without posting twice</td><td>Oozie; Airflow in Cloudera Data Engineering</td></tr>
+        <tr><td class="k">6 · Spark <span class="soon">In preparation</span></td><td>The EOD batch slows because one corporate account fills one partition</td><td>Spark on CDP, Cloudera Data Engineering</td></tr>
         <tr><td class="k">7 · Metabase <span class="soon">In preparation</span></td><td>The MD's morning dashboard, built on reconciled numbers only</td><td>Cloudera Data Visualization, Hue</td></tr>
         <tr><td class="k">8 · Capstone <span class="soon">In preparation</span></td><td>Run the whole end-of-day pipeline yourself</td><td>Docker on your laptop</td></tr>
       </tbody>

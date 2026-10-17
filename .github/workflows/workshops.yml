@@ -1,0 +1,50 @@
+name: Workshops end to end
+
+on:
+  push:
+    branches: [main]
+    paths: ['build-lab/close-the-books/**', 'build-lab/post-once/**', 'assets/engines/**', 'tests/workshops/**', '.github/workflows/workshops.yml']
+  pull_request:
+    paths: ['build-lab/close-the-books/**', 'build-lab/post-once/**', 'assets/engines/**', 'tests/workshops/**', '.github/workflows/workshops.yml']
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: 'Site to test. Leave empty to test this commit; use https://readsigil.com to test production.'
+        required: false
+        default: ''
+
+jobs:
+  close-the-books:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chromium, webkit]
+        run: [1, 2]  # every change is tested twice per browser, to catch flaky engine behaviour
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install Playwright
+        run: |
+          pip install playwright==1.56.0
+          python -m playwright install --with-deps ${{ matrix.browser }}
+      - name: Run workshop 1 end to end (${{ matrix.browser }}, phone size)
+        env:
+          BASE_URL: ${{ inputs.base_url || 'https://localhost:8443' }}
+          BROWSER: ${{ matrix.browser }}
+          SHOTS: test-results
+        run: |
+          openssl req -x509 -newkey rsa:2048 -nodes -subj /CN=localhost -keyout "$RUNNER_TEMP/key.pem" -out "$RUNNER_TEMP/cert.pem" -days 1 2>/dev/null
+          python tests/workshops/serve_https.py 8443 "$RUNNER_TEMP/cert.pem" "$RUNNER_TEMP/key.pem" >/dev/null 2>&1 &
+          sleep 2
+          python tests/workshops/close_the_books_e2e.py
+          python tests/workshops/post_once_e2e.py
+      - name: Keep screenshots
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: close-the-books-${{ matrix.browser }}-${{ matrix.run }}
+          path: test-results

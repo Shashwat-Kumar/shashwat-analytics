@@ -123,6 +123,7 @@ try:
         ok(page.locator("#sql-c").input_value().startswith("SELECT txn_ref, COUNT(*)"), "start over restores starter SQL")
         ok(not errs, "no page errors " + json.dumps(errs[:3]))
 
+        ctx.close()  # free the engines before the next scenario
         # Engine download failure, then recovery
         c2 = b.new_context(**MOBILE); p2 = c2.new_page(); block_fonts(p2)
         p2.route("**/assets/engines/duckdb-eh.wasm", lambda r: r.fulfill(status=503, body="down"))
@@ -133,12 +134,15 @@ try:
         p2.locator("#inv-b .out table").wait_for(timeout=60000)
         ok(True, "engine recovers on the next run")
         p2.screenshot(path=f"{SH}/{BROWSER}-paths.png")
+        c2.close()
 
         # Dark and desktop
         c3 = b.new_context(**MOBILE, color_scheme="dark"); p3 = c3.new_page(); block_fonts(p3)
         p3.goto(ART); p3.locator("#path-a").click(); p3.wait_for_timeout(300); p3.screenshot(path=f"{SH}/{BROWSER}-dark.png")
+        c3.close()
         c4 = b.new_context(viewport={"width": 1280, "height": 900}, ignore_https_errors=True); p4 = c4.new_page(); block_fonts(p4)
         p4.goto(ART); p4.screenshot(path=f"{SH}/{BROWSER}-desktop.png", full_page=True)
+        c4.close()
 
         # ReadSigil build under its strict CSP
         c5 = b.new_context(**MOBILE); p5 = c5.new_page()

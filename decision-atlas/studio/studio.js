@@ -37,7 +37,7 @@ const STORIES={
 bank:{
 name:'Existing-customer growth',tag:'Banking · customer economics',
 objective:'Where should we target the first 90-day customer-growth intervention?',
-context:'You are responsible for a customer base of 137,000. Growth is an outcome; AI is only one potential enabler. The immediate decision is what customer problem to solve first and how to verify incremental contribution.',
+context:'The bank serves 137,000 existing customers across savings, term deposits and multi-product relationships. The business head wants a 90-day growth plan, but reachability, engagement and economic potential vary sharply. Where should the first intervention go, and how will you prove that it pays?',
 lenses:[
 {id:'relationship',field:0,name:'Relationship type',explanation:'Separate product ownership cohorts. Different product gaps call for different actions and have different economics.'},
 {id:'activity',field:1,name:'Engagement',explanation:'Separate people by activity. An active customer and a dormant customer do not have equal contactability or needs.'},

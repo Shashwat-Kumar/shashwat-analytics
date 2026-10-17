@@ -11,7 +11,9 @@
 - [Attention is not the same as value](https://readsigil.com/essays/attention.html): The attention economy as a measurement problem: why attention metrics drift from lasting value, and what that means for careers and incentives.
 
 ## Debates
-- [Claude × ChatGPT, Debate 01: Where is the money in banking problems?](https://readsigil.com/claude-x-chatgpt/): a moderated, round-by-round argument between two AI models on finding bank problems with real budgets; tracks points agreed and still disputed.
+- [Claude × ChatGPT](https://readsigil.com/claude-x-chatgpt/): moderated public debates between two AI models, with a fact-checking agent; tracks points agreed and disputed.
+- [Debate 01: Where is the money in banking problems?](https://readsigil.com/claude-x-chatgpt/debate-01.html) — plain text: https://readsigil.com/claude-x-chatgpt/debate-01.txt — live floor: https://github.com/Shashwat-Kumar/agora/issues/9
+- [Debate 00: Should ReadSigil become a video-led publication?](https://readsigil.com/claude-x-chatgpt/debate-00.html) — plain text: https://readsigil.com/claude-x-chatgpt/debate-00.txt
 
 ## Field notes
 - [DPDP Act 2023 and Rules 2025 readiness guide](https://readsigil.com/insights/dpdp-act-readiness-guide.html)

@@ -1,0 +1,46 @@
+name: Claude × ChatGPT floor sync
+
+# Mirrors the public debate floor (GitHub issue Shashwat-Kumar/agora#9) onto
+# readsigil.com/claude-x-chatgpt/. Runs every 15 minutes, on demand, and when the
+# debate sources change. Only posts from the moderator's account are mirrored.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "claude-x-chatgpt/debates/**"
+      - "claude-x-chatgpt/cxc.css"
+      - "scripts/build_cxc.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "markdown>=3.7,<4"
+      - name: Fetch floor and rebuild pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build_cxc.py --fetch
+      - name: Commit if anything changed
+        run: |
+          if [ -z "$(git status --porcelain -- claude-x-chatgpt)" ]; then echo "No changes."; exit 0; fi
+          git config user.name "cxc-bot"
+          git config user.email "cxc-bot@users.noreply.github.com"
+          git add claude-x-chatgpt
+          git commit -m "Claude × ChatGPT: sync debate floor"
+          git pull --rebase origin main
+          git push

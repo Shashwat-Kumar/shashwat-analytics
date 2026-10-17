@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T09:14:18Z",
+ "generated_at": "2026-10-17T13:02:34Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,32 @@
   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50122800",
-  "points": 861,
-  "comments": 320,
+  "points": 914,
+  "comments": 339,
   "published": "2026-10-16T18:55:59Z",
   "since": "2026-10-16T22:02:41Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Jensen Huang",
-  "title": "Nvidia CEO Jensen Huang says America must work with China on AI safety; says ‘The US should …’",
-  "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRTBEalNuWUtNUE5qRUVJWkt0THlxMFBMQ1dHdExMRnp3UXd3aTFxWGpGaUpxTkk0OHYyS3JlSzVrQ0owTFZ1MER2UmR0QUlCUVN1ZGViTVhfZ1NkYWlZSW1yYjk3cUI2US14MElnSHBTUTBsLXQ2SXNqVFJRZXJUZFdEYS1EVTRfeHd3QUFkaXRLQ1h1VjF0bFdkTzZ3YTZDeWJFenFMYmhNOGxqazRtVlBaTnhXMkYtRXZ2ZEZPYlM2VlExNUVzRWRXa0ZRSXpYSjFVY3dZemg1Y0RLMWtrVWFXZ2llOXRDMC1obFlNajFtazR3VGQxeUlLMEhEYi02V0VN0gGIAkFVX3lxTE5mYnA4NVp1WTVONGNFSDE3Yk41amtZUTZCc1lNXzlwaDVvNzEzZGJlSWNYbjBEMjExS1V4U2NiRUdRc3NMc1JsQ09wanpMRk0ySnEyeHFucnhUSkFqSGxVNTFIQmVXQVU2YjRvc0FwT1ZlbGRnbWd5Vmc5bXIxSHNGenNxajVVczBTUmNYZm1BSXNTNDgwUzlyUkNzQzhUVE1ZSnY3UGY3NUZ1VWpwaDNQX05iWktwQmtNSWpURlB4aTBOaDVLNWRtck1GMGYxN3czTE5wOXRxQ3JUZ1Q0NFkzQzRTR2NaTjJKd0JEUlJGaC14WnBQME1MSXRCYUtHV0FLcEtrcXUtOA?oc=5",
-  "source": "The Times of India",
-  "published": "2026-10-17T08:49:00Z",
-  "since": "2026-10-17T09:14:18Z"
+  "person": "Elon Musk",
+  "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
+  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
+  "source": "Axios",
+  "published": "2026-10-17T12:26:56Z",
+  "since": "2026-10-17T13:02:34Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
+   "source": "Axios",
+   "published": "2026-10-17T12:26:56Z",
+   "since": "2026-10-17T13:02:34Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,43 +45,33 @@
    "title": "Nvidia CEO Jensen Huang says America must work with China on AI safety; says ‘The US should …’",
    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRTBEalNuWUtNUE5qRUVJWkt0THlxMFBMQ1dHdExMRnp3UXd3aTFxWGpGaUpxTkk0OHYyS3JlSzVrQ0owTFZ1MER2UmR0QUlCUVN1ZGViTVhfZ1NkYWlZSW1yYjk3cUI2US14MElnSHBTUTBsLXQ2SXNqVFJRZXJUZFdEYS1EVTRfeHd3QUFkaXRLQ1h1VjF0bFdkTzZ3YTZDeWJFenFMYmhNOGxqazRtVlBaTnhXMkYtRXZ2ZEZPYlM2VlExNUVzRWRXa0ZRSXpYSjFVY3dZemg1Y0RLMWtrVWFXZ2llOXRDMC1obFlNajFtazR3VGQxeUlLMEhEYi02V0VN0gGIAkFVX3lxTE5mYnA4NVp1WTVONGNFSDE3Yk41amtZUTZCc1lNXzlwaDVvNzEzZGJlSWNYbjBEMjExS1V4U2NiRUdRc3NMc1JsQ09wanpMRk0ySnEyeHFucnhUSkFqSGxVNTFIQmVXQVU2YjRvc0FwT1ZlbGRnbWd5Vmc5bXIxSHNGenNxajVVczBTUmNYZm1BSXNTNDgwUzlyUkNzQzhUVE1ZSnY3UGY3NUZ1VWpwaDNQX05iWktwQmtNSWpURlB4aTBOaDVLNWRtck1GMGYxN3czTE5wOXRxQ3JUZ1Q0NFkzQzRTR2NaTjJKd0JEUlJGaC14WnBQME1MSXRCYUtHV0FLcEtrcXUtOA?oc=5",
    "source": "The Times of India",
-   "published": "2026-10-17T08:49:00Z",
-   "since": "2026-10-17T09:14:18Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk says he has suffered from AI psychosis half a dozen times this year",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOci16a2ZhdTVfaGZHX0FDQXBkdTM1LV9weVpzc2lpYWxzNDg5UVZVeHNwUnlheXZYLWhqZFliWk1CNnZjUHk0ckZ3R1lRQS10dmZtc1pRT0xaTktHM1ptXzF4OXBPTThKR1JXMmt0ejFIVG5fb3ZHeXFvdFE3NmZHNWdpWjFGVTE2SVBsMk5uYjg4ZXRZZGdmV0s5Z3BIa1JhRExuNTFTaU5nRURSdjhqRFEwLXJxUXEzNTRyM2NpeDlrUWRrRF9LX0thZUJHbG1tZXhETmVOZl9LUkV1WlI2X1RB0gHiAUFVX3lxTE5yLXprZmF1NV9oZkdfQUNBcGR1MzUtX3B5WnNzaWlhbHM0ODlRVlV4c3BSeWF5dlgtaGpkWWJaTUI2dmNQeTRyRndHWVFBLXR2Zm1zWlFPTFpOS0czWm1fMXg5cE9NOEpHUlcya3R6MUhUbl9vdkd5cW90UTc2Zkc1Z2laMUZVMTZJUGwyTm5iODhldFlkZ2ZXSzlncEhrUmFETG41MVNpTmdFRFJ2OGpEUTAtcnFRcTM1NHIzY2l4OWtRZGtEX0tfS2FlQkdsbW1leEROZU5mX0tSRXVaUjZfVEE?oc=5",
-   "source": "India Today",
-   "published": "2026-10-16T10:18:39Z"
+   "published": "2026-10-17T08:49:00Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Nvidia CEO Jensen Huang says America must work with China on AI safety; says ‘The US should …’",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRTBEalNuWUtNUE5qRUVJWkt0THlxMFBMQ1dHdExMRnp3UXd3aTFxWGpGaUpxTkk0OHYyS3JlSzVrQ0owTFZ1MER2UmR0QUlCUVN1ZGViTVhfZ1NkYWlZSW1yYjk3cUI2US14MElnSHBTUTBsLXQ2SXNqVFJRZXJUZFdEYS1EVTRfeHd3QUFkaXRLQ1h1VjF0bFdkTzZ3YTZDeWJFenFMYmhNOGxqazRtVlBaTnhXMkYtRXZ2ZEZPYlM2VlExNUVzRWRXa0ZRSXpYSjFVY3dZemg1Y0RLMWtrVWFXZ2llOXRDMC1obFlNajFtazR3VGQxeUlLMEhEYi02V0VN0gGIAkFVX3lxTE5mYnA4NVp1WTVONGNFSDE3Yk41amtZUTZCc1lNXzlwaDVvNzEzZGJlSWNYbjBEMjExS1V4U2NiRUdRc3NMc1JsQ09wanpMRk0ySnEyeHFucnhUSkFqSGxVNTFIQmVXQVU2YjRvc0FwT1ZlbGRnbWd5Vmc5bXIxSHNGenNxajVVczBTUmNYZm1BSXNTNDgwUzlyUkNzQzhUVE1ZSnY3UGY3NUZ1VWpwaDNQX05iWktwQmtNSWpURlB4aTBOaDVLNWRtck1GMGYxN3czTE5wOXRxQ3JUZ1Q0NFkzQzRTR2NaTjJKd0JEUlJGaC14WnBQME1MSXRCYUtHV0FLcEtrcXUtOA?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-17T08:49:00Z",
-   "since": "2026-10-17T09:14:18Z"
+   "person": "Elon Musk",
+   "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
+   "source": "Axios",
+   "published": "2026-10-17T12:26:56Z",
+   "since": "2026-10-17T13:02:34Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk says he has suffered from AI psychosis half a dozen times this year",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOci16a2ZhdTVfaGZHX0FDQXBkdTM1LV9weVpzc2lpYWxzNDg5UVZVeHNwUnlheXZYLWhqZFliWk1CNnZjUHk0ckZ3R1lRQS10dmZtc1pRT0xaTktHM1ptXzF4OXBPTThKR1JXMmt0ejFIVG5fb3ZHeXFvdFE3NmZHNWdpWjFGVTE2SVBsMk5uYjg4ZXRZZGdmV0s5Z3BIa1JhRExuNTFTaU5nRURSdjhqRFEwLXJxUXEzNTRyM2NpeDlrUWRrRF9LX0thZUJHbG1tZXhETmVOZl9LUkV1WlI2X1RB0gHiAUFVX3lxTE5yLXprZmF1NV9oZkdfQUNBcGR1MzUtX3B5WnNzaWlhbHM0ODlRVlV4c3BSeWF5dlgtaGpkWWJaTUI2dmNQeTRyRndHWVFBLXR2Zm1zWlFPTFpOS0czWm1fMXg5cE9NOEpHUlcya3R6MUhUbl9vdkd5cW90UTc2Zkc1Z2laMUZVMTZJUGwyTm5iODhldFlkZ2ZXSzlncEhrUmFETG41MVNpTmdFRFJ2OGpEUTAtcnFRcTM1NHIzY2l4OWtRZGtEX0tfS2FlQkdsbW1leEROZU5mX0tSRXVaUjZfVEE?oc=5",
-   "source": "India Today",
-   "published": "2026-10-16T10:18:39Z"
+   "person": "Jensen Huang",
+   "title": "Nvidia CEO Jensen Huang says America must work with China on AI safety; says ‘The US should …’",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRTBEalNuWUtNUE5qRUVJWkt0THlxMFBMQ1dHdExMRnp3UXd3aTFxWGpGaUpxTkk0OHYyS3JlSzVrQ0owTFZ1MER2UmR0QUlCUVN1ZGViTVhfZ1NkYWlZSW1yYjk3cUI2US14MElnSHBTUTBsLXQ2SXNqVFJRZXJUZFdEYS1EVTRfeHd3QUFkaXRLQ1h1VjF0bFdkTzZ3YTZDeWJFenFMYmhNOGxqazRtVlBaTnhXMkYtRXZ2ZEZPYlM2VlExNUVzRWRXa0ZRSXpYSjFVY3dZemg1Y0RLMWtrVWFXZ2llOXRDMC1obFlNajFtazR3VGQxeUlLMEhEYi02V0VN0gGIAkFVX3lxTE5mYnA4NVp1WTVONGNFSDE3Yk41amtZUTZCc1lNXzlwaDVvNzEzZGJlSWNYbjBEMjExS1V4U2NiRUdRc3NMc1JsQ09wanpMRk0ySnEyeHFucnhUSkFqSGxVNTFIQmVXQVU2YjRvc0FwT1ZlbGRnbWd5Vmc5bXIxSHNGenNxajVVczBTUmNYZm1BSXNTNDgwUzlyUkNzQzhUVE1ZSnY3UGY3NUZ1VWpwaDNQX05iWktwQmtNSWpURlB4aTBOaDVLNWRtck1GMGYxN3czTE5wOXRxQ3JUZ1Q0NFkzQzRTR2NaTjJKd0JEUlJGaC14WnBQME1MSXRCYUtHV0FLcEtrcXUtOA?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-17T08:49:00Z"
   },
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2927,
+   "stars": 2945,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1603,
+   "stars": 1677,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 913,
+   "stars": 923,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -100,8 +100,18 @@
   },
   {
    "kind": "repo",
+   "title": "anujasid/blender-ai-mcp-addon",
+   "stars": 420,
+   "note": "Python · new this week",
+   "url": "https://github.com/anujasid/blender-ai-mcp-addon",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 324,
+   "stars": 341,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -111,7 +121,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3598,
+   "stars": 3633,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -121,7 +131,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2568,
+   "stars": 2583,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -131,7 +141,7 @@
   {
    "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2472,
+   "stars": 2507,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -141,7 +151,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 1872,
+   "stars": 1930,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -151,7 +161,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 861,
+   "points": 914,
    "title": "Claude reveals ECDSA curve origins",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
@@ -160,7 +170,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 498,
+   "points": 536,
    "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "source": "Hacker News",
    "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
@@ -169,7 +179,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 343,
+   "points": 385,
    "title": "How the Claude Code team does code review",
    "source": "Hacker News",
    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
@@ -178,7 +188,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 315,
+   "points": 330,
    "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
    "source": "Hacker News",
    "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
@@ -187,7 +197,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 287,
+   "points": 307,
    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "source": "Hacker News",
    "url": "https://github.com/cobanov/PS5LM",
@@ -196,7 +206,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 222,
+   "points": 228,
    "title": "Show HN: Gemini 4 Argon plays StarCraft",
    "source": "Hacker News",
    "url": "https://starskirmish.com/bench/v0-2/",
@@ -205,7 +215,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 139,
+   "points": 153,
    "title": "Designing more efficient quantum circuits with Claude",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
@@ -214,7 +224,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 64,
+   "points": 123,
    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
    "source": "Hacker News",
    "url": "https://llmspeed.dev/",

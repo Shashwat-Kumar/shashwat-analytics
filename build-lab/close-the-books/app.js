@@ -267,17 +267,30 @@ async function seedDuck(conn) {
   await conn.query(`DROP TABLE IF EXISTS npci_raw; DROP TABLE IF EXISTS npci_net_settlement; DROP TABLE IF EXISTS ledger_extract; DROP TABLE IF EXISTS gl_accounts; DROP TABLE IF EXISTS accounts;`);
   await conn.query(SEED_DUCK);
 }
-function getDuck() {
-  return duckP ||= (async () => {
-    const [duck, wasm] = await Promise.all([import(new URL('duckdb.js', base).href), load('duckdb-eh.wasm', 'application/wasm')]);
-    const worker = new Worker(new URL('duckdb-eh.worker.js', base));
-    const failed = new Promise((_, rej) => worker.addEventListener('error', () => rej(new Error('DuckDB could not start in this browser. Reload the page and run again.'))));
+async function startDuck() {
+  const [duck, wasm] = await Promise.all([import(new URL('duckdb.js', base).href), load('duckdb-eh.wasm', 'application/wasm')]);
+  const worker = new Worker(new URL('duckdb-eh.worker.js', base));
+  let timer;
+  const failed = new Promise((_, rej) => {
+    worker.addEventListener('error', () => rej(new Error('DuckDB could not start in this browser. Reload the page and run again.')));
+    timer = setTimeout(() => rej(new Error('DuckDB took too long to start.')), 45000);
+  });
+  try {
     const db = new duck.AsyncDuckDB(new duck.VoidLogger(), worker);
     await Promise.race([db.instantiate(URL.createObjectURL(wasm)), failed]);
-    const conn = await db.connect();
+    const conn = await Promise.race([db.connect(), failed]);
     await seedDuck(conn);
     return conn;
-  })().catch((e) => { duckP = null; throw e; });
+  } catch (e) {
+    worker.terminate();
+    throw e;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+function getDuck() {
+  // One automatic retry: a stalled or crashed worker is replaced by a fresh one.
+  return duckP ||= startDuck().catch((e) => (/HTTP \d/.test(e.message) ? Promise.reject(e) : startDuck())).catch((e) => { duckP = null; throw e; });
 }
 const NUMT = new Set([20, 21, 23, 700, 701, 1700]);
 async function runPg(sql) {

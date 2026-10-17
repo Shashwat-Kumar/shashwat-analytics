@@ -132,13 +132,16 @@ try:
         ctx.close()  # free the engines before the next scenario
         # Engine download failure, then recovery
         c2 = b.new_context(**MOBILE); p2 = c2.new_page(); block_fonts(p2)
+        p2.on("console", lambda m: errs.append("[recovery page] " + m.text) if m.type == "error" else None)
+        p2.on("pageerror", lambda e: errs.append("[recovery page] " + str(e)))
         p2.route("**/assets/engines/duckdb-eh.wasm", lambda r: r.fulfill(status=503, body="down"))
         p2.goto(ART); p2.locator("#path-b").click(); p2.locator("#inv-b .run").click()
         p2.locator("#inv-b .out .err").wait_for(timeout=30000)
         ok("HTTP 503" in p2.locator("#inv-b .out").inner_text(), "download failure shows a clear error: " + one(p2.locator("#inv-b .out").inner_text()))
         p2.unroute("**/assets/engines/duckdb-eh.wasm"); p2.locator("#inv-b .run").click()
-        p2.locator("#inv-b .out table").wait_for(timeout=60000)
+        p2.locator("#inv-b .out table").wait_for(timeout=150000)
         ok(True, "engine recovers on the next run")
+        errs[:] = [e for e in errs if not e.startswith("[recovery page]")]
         p2.screenshot(path=f"{SH}/{BROWSER}-paths.png")
         c2.close()
 

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T13:02:34Z",
+ "generated_at": "2026-10-17T16:20:12Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,32 @@
   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50122800",
-  "points": 914,
-  "comments": 339,
+  "points": 968,
+  "comments": 350,
   "published": "2026-10-16T18:55:59Z",
   "since": "2026-10-16T22:02:41Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
-  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
-  "source": "Axios",
-  "published": "2026-10-17T12:26:56Z",
-  "since": "2026-10-17T13:02:34Z"
+  "person": "Dario Amodei",
+  "title": "Anthropic’s Dario Amodei is steering a possible $2 trillion IPO—but he says up to 40% of his time goes to making sure company culture is good",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVndFZDV2OEU0dmx1U1N1Ri1MTnRjeFBpOHlGU040ekJHZ1VHZkhkcWhvYV9qVFdKNXdjdFpZZ0JWbW1wN1BWcGNHakgwY29GYjZRanRXLXl1QTlPaVhiNGg0WDhOZXhYQnNzUEhtRkREVl9nOGRDMXRieDhMUTNPLXNuWF9LSlByZGpqSXFxZEpWWmd5OC0wZDBzclNVUnh0dk1PeHRzR2o?oc=5",
+  "source": "Fortune",
+  "published": "2026-10-17T13:28:00Z",
+  "since": "2026-10-17T16:20:12Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Dario Amodei",
+   "title": "Anthropic’s Dario Amodei is steering a possible $2 trillion IPO—but he says up to 40% of his time goes to making sure company culture is good",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVndFZDV2OEU0dmx1U1N1Ri1MTnRjeFBpOHlGU040ekJHZ1VHZkhkcWhvYV9qVFdKNXdjdFpZZ0JWbW1wN1BWcGNHakgwY29GYjZRanRXLXl1QTlPaVhiNGg0WDhOZXhYQnNzUEhtRkREVl9nOGRDMXRieDhMUTNPLXNuWF9LSlByZGpqSXFxZEpWWmd5OC0wZDBzclNVUnh0dk1PeHRzR2o?oc=5",
+   "source": "Fortune",
+   "published": "2026-10-17T13:28:00Z",
+   "since": "2026-10-17T16:20:12Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,8 +45,7 @@
    "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
    "source": "Axios",
-   "published": "2026-10-17T12:26:56Z",
-   "since": "2026-10-17T13:02:34Z"
+   "published": "2026-10-17T12:26:56Z"
   },
   {
    "kind": "voice",
@@ -52,12 +61,21 @@
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Dario Amodei",
+   "title": "Anthropic’s Dario Amodei is steering a possible $2 trillion IPO—but he says up to 40% of his time goes to making sure company culture is good",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVndFZDV2OEU0dmx1U1N1Ri1MTnRjeFBpOHlGU040ekJHZ1VHZkhkcWhvYV9qVFdKNXdjdFpZZ0JWbW1wN1BWcGNHakgwY29GYjZRanRXLXl1QTlPaVhiNGg0WDhOZXhYQnNzUEhtRkREVl9nOGRDMXRieDhMUTNPLXNuWF9LSlByZGpqSXFxZEpWWmd5OC0wZDBzclNVUnh0dk1PeHRzR2o?oc=5",
+   "source": "Fortune",
+   "published": "2026-10-17T13:28:00Z",
+   "since": "2026-10-17T16:20:12Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Elon Musk",
    "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
    "source": "Axios",
-   "published": "2026-10-17T12:26:56Z",
-   "since": "2026-10-17T13:02:34Z"
+   "published": "2026-10-17T12:26:56Z"
   },
   {
    "kind": "voice",
@@ -71,7 +89,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2945,
+   "stars": 2972,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -81,7 +99,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1677,
+   "stars": 1685,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -91,7 +109,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 923,
+   "stars": 929,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -101,7 +119,7 @@
   {
    "kind": "repo",
    "title": "anujasid/blender-ai-mcp-addon",
-   "stars": 420,
+   "stars": 517,
    "note": "Python · new this week",
    "url": "https://github.com/anujasid/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -111,7 +129,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 341,
+   "stars": 349,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -121,7 +139,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3633,
+   "stars": 3676,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -131,7 +149,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2583,
+   "stars": 2606,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -141,7 +159,7 @@
   {
    "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2507,
+   "stars": 2546,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -151,7 +169,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 1930,
+   "stars": 1973,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -161,7 +179,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 914,
+   "points": 968,
    "title": "Claude reveals ECDSA curve origins",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
@@ -170,25 +188,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 536,
-   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-   "source": "Hacker News",
-   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "discuss": "https://news.ycombinator.com/item?id=50121179"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 385,
-   "title": "How the Claude Code team does code review",
-   "source": "Hacker News",
-   "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "discuss": "https://news.ycombinator.com/item?id=50122951"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 330,
+   "points": 341,
    "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
    "source": "Hacker News",
    "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
@@ -197,7 +197,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 307,
+   "points": 336,
    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "source": "Hacker News",
    "url": "https://github.com/cobanov/PS5LM",
@@ -206,29 +206,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 228,
-   "title": "Show HN: Gemini 4 Argon plays StarCraft",
-   "source": "Hacker News",
-   "url": "https://starskirmish.com/bench/v0-2/",
-   "discuss": "https://news.ycombinator.com/item?id=50118688"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 153,
-   "title": "Designing more efficient quantum circuits with Claude",
-   "source": "Hacker News",
-   "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-   "discuss": "https://news.ycombinator.com/item?id=50121939"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 123,
+   "points": 180,
    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
    "source": "Hacker News",
    "url": "https://llmspeed.dev/",
    "discuss": "https://news.ycombinator.com/item?id=50127979"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 161,
+   "title": "Designing more efficient quantum circuits with Claude",
+   "source": "Hacker News",
+   "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+   "discuss": "https://news.ycombinator.com/item?id=50121939"
   },
   {
    "kind": "news",

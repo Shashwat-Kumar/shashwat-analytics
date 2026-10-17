@@ -35,7 +35,7 @@ try:
         errs = []
         page.on("pageerror", lambda e: errs.append(str(e)))
         page.on("console", lambda m: errs.append(m.text) if m.type == "error" and "fonts" not in m.text and "ERR_FAILED" not in m.text and "net::" not in m.text else None)
-        page.on("requestfailed", lambda r: errs.append("request failed: " + r.url + " " + str(r.failure)) if r.url.startswith(BASE) else None)
+        page.on("requestfailed", lambda r: errs.append("request failed: " + r.url + " " + str(r.failure)) if r.url.startswith(BASE) and "/cdn-cgi/" not in r.url else None)
         page.goto(ART); page.wait_for_load_state("domcontentloaded")
         page.screenshot(path=f"{SH}/{BROWSER}-top.png")
         ok(page.locator("#evGap").inner_text() == "₹61,250.00", "evidence shows ₹61,250.00 difference")

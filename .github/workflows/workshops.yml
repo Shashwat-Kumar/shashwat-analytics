@@ -7,6 +7,11 @@ on:
   pull_request:
     paths: ['build-lab/close-the-books/**', 'assets/engines/**', 'tests/workshops/**', '.github/workflows/workshops.yml']
   workflow_dispatch:
+    inputs:
+      base_url:
+        description: 'Site to test. Leave empty to test this commit; use https://readsigil.com to test production.'
+        required: false
+        default: ''
 
 jobs:
   close-the-books:
@@ -27,7 +32,7 @@ jobs:
           python -m playwright install --with-deps ${{ matrix.browser }}
       - name: Run workshop 1 end to end (${{ matrix.browser }}, phone size)
         env:
-          BASE_URL: https://localhost:8443
+          BASE_URL: ${{ inputs.base_url || 'https://localhost:8443' }}
           BROWSER: ${{ matrix.browser }}
           SHOTS: test-results
         run: |

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T04:56:29Z",
+ "generated_at": "2026-10-17T09:14:18Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50122800",
-  "points": 770,
-  "comments": 293,
+  "points": 861,
+  "comments": 320,
   "published": "2026-10-16T18:55:59Z",
   "since": "2026-10-16T22:02:41Z"
  },
@@ -21,22 +21,22 @@
   "kind": "voice",
   "tag": "VOICE",
   "person": "Jensen Huang",
-  "title": "Nvidia CEO Jensen Huang Rejects Sam Altman's Advice to 'Accept' AI Cybersecurity Risks: ‘We Should Do Everything...to Avoid Them’",
-  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd1VYaXU0U2tmTi1ScUlGdTE1OUVMZ3JBSlVwX2RWM19QMzh3ODRra2RYNC1sNHJSMEp5b1FVdE9Ha3MzNmdDNHU3UWlETWp1VVZ1WUdIakFpNTNtNThIY25aeFhTSEFFVnJ4bE5kS25USTdKeWxOUmZQdHFTRWJvQ0VBV1JlQ1d0d0trNjllYXNTYkU3VUg0TmJIcw?oc=5",
-  "source": "Yahoo Finance",
-  "published": "2026-10-16T11:00:10Z",
-  "since": "2026-10-16T15:36:32Z"
+  "title": "Nvidia CEO Jensen Huang says America must work with China on AI safety; says ‘The US should …’",
+  "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRTBEalNuWUtNUE5qRUVJWkt0THlxMFBMQ1dHdExMRnp3UXd3aTFxWGpGaUpxTkk0OHYyS3JlSzVrQ0owTFZ1MER2UmR0QUlCUVN1ZGViTVhfZ1NkYWlZSW1yYjk3cUI2US14MElnSHBTUTBsLXQ2SXNqVFJRZXJUZFdEYS1EVTRfeHd3QUFkaXRLQ1h1VjF0bFdkTzZ3YTZDeWJFenFMYmhNOGxqazRtVlBaTnhXMkYtRXZ2ZEZPYlM2VlExNUVzRWRXa0ZRSXpYSjFVY3dZemg1Y0RLMWtrVWFXZ2llOXRDMC1obFlNajFtazR3VGQxeUlLMEhEYi02V0VN0gGIAkFVX3lxTE5mYnA4NVp1WTVONGNFSDE3Yk41amtZUTZCc1lNXzlwaDVvNzEzZGJlSWNYbjBEMjExS1V4U2NiRUdRc3NMc1JsQ09wanpMRk0ySnEyeHFucnhUSkFqSGxVNTFIQmVXQVU2YjRvc0FwT1ZlbGRnbWd5Vmc5bXIxSHNGenNxajVVczBTUmNYZm1BSXNTNDgwUzlyUkNzQzhUVE1ZSnY3UGY3NUZ1VWpwaDNQX05iWktwQmtNSWpURlB4aTBOaDVLNWRtck1GMGYxN3czTE5wOXRxQ3JUZ1Q0NFkzQzRTR2NaTjJKd0JEUlJGaC14WnBQME1MSXRCYUtHV0FLcEtrcXUtOA?oc=5",
+  "source": "The Times of India",
+  "published": "2026-10-17T08:49:00Z",
+  "since": "2026-10-17T09:14:18Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Nvidia CEO Jensen Huang Rejects Sam Altman's Advice to 'Accept' AI Cybersecurity Risks: ‘We Should Do Everything...to Avoid Them’",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd1VYaXU0U2tmTi1ScUlGdTE1OUVMZ3JBSlVwX2RWM19QMzh3ODRra2RYNC1sNHJSMEp5b1FVdE9Ha3MzNmdDNHU3UWlETWp1VVZ1WUdIakFpNTNtNThIY25aeFhTSEFFVnJ4bE5kS25USTdKeWxOUmZQdHFTRWJvQ0VBV1JlQ1d0d0trNjllYXNTYkU3VUg0TmJIcw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-16T11:00:10Z",
-   "since": "2026-10-16T15:36:32Z"
+   "title": "Nvidia CEO Jensen Huang says America must work with China on AI safety; says ‘The US should …’",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRTBEalNuWUtNUE5qRUVJWkt0THlxMFBMQ1dHdExMRnp3UXd3aTFxWGpGaUpxTkk0OHYyS3JlSzVrQ0owTFZ1MER2UmR0QUlCUVN1ZGViTVhfZ1NkYWlZSW1yYjk3cUI2US14MElnSHBTUTBsLXQ2SXNqVFJRZXJUZFdEYS1EVTRfeHd3QUFkaXRLQ1h1VjF0bFdkTzZ3YTZDeWJFenFMYmhNOGxqazRtVlBaTnhXMkYtRXZ2ZEZPYlM2VlExNUVzRWRXa0ZRSXpYSjFVY3dZemg1Y0RLMWtrVWFXZ2llOXRDMC1obFlNajFtazR3VGQxeUlLMEhEYi02V0VN0gGIAkFVX3lxTE5mYnA4NVp1WTVONGNFSDE3Yk41amtZUTZCc1lNXzlwaDVvNzEzZGJlSWNYbjBEMjExS1V4U2NiRUdRc3NMc1JsQ09wanpMRk0ySnEyeHFucnhUSkFqSGxVNTFIQmVXQVU2YjRvc0FwT1ZlbGRnbWd5Vmc5bXIxSHNGenNxajVVczBTUmNYZm1BSXNTNDgwUzlyUkNzQzhUVE1ZSnY3UGY3NUZ1VWpwaDNQX05iWktwQmtNSWpURlB4aTBOaDVLNWRtck1GMGYxN3czTE5wOXRxQ3JUZ1Q0NFkzQzRTR2NaTjJKd0JEUlJGaC14WnBQME1MSXRCYUtHV0FLcEtrcXUtOA?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-17T08:49:00Z",
+   "since": "2026-10-17T09:14:18Z"
   },
   {
    "kind": "voice",
@@ -53,11 +53,11 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Nvidia CEO Jensen Huang Rejects Sam Altman's Advice to 'Accept' AI Cybersecurity Risks: ‘We Should Do Everything...to Avoid Them’",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd1VYaXU0U2tmTi1ScUlGdTE1OUVMZ3JBSlVwX2RWM19QMzh3ODRra2RYNC1sNHJSMEp5b1FVdE9Ha3MzNmdDNHU3UWlETWp1VVZ1WUdIakFpNTNtNThIY25aeFhTSEFFVnJ4bE5kS25USTdKeWxOUmZQdHFTRWJvQ0VBV1JlQ1d0d0trNjllYXNTYkU3VUg0TmJIcw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-16T11:00:10Z",
-   "since": "2026-10-16T15:36:32Z"
+   "title": "Nvidia CEO Jensen Huang says America must work with China on AI safety; says ‘The US should …’",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRTBEalNuWUtNUE5qRUVJWkt0THlxMFBMQ1dHdExMRnp3UXd3aTFxWGpGaUpxTkk0OHYyS3JlSzVrQ0owTFZ1MER2UmR0QUlCUVN1ZGViTVhfZ1NkYWlZSW1yYjk3cUI2US14MElnSHBTUTBsLXQ2SXNqVFJRZXJUZFdEYS1EVTRfeHd3QUFkaXRLQ1h1VjF0bFdkTzZ3YTZDeWJFenFMYmhNOGxqazRtVlBaTnhXMkYtRXZ2ZEZPYlM2VlExNUVzRWRXa0ZRSXpYSjFVY3dZemg1Y0RLMWtrVWFXZ2llOXRDMC1obFlNajFtazR3VGQxeUlLMEhEYi02V0VN0gGIAkFVX3lxTE5mYnA4NVp1WTVONGNFSDE3Yk41amtZUTZCc1lNXzlwaDVvNzEzZGJlSWNYbjBEMjExS1V4U2NiRUdRc3NMc1JsQ09wanpMRk0ySnEyeHFucnhUSkFqSGxVNTFIQmVXQVU2YjRvc0FwT1ZlbGRnbWd5Vmc5bXIxSHNGenNxajVVczBTUmNYZm1BSXNTNDgwUzlyUkNzQzhUVE1ZSnY3UGY3NUZ1VWpwaDNQX05iWktwQmtNSWpURlB4aTBOaDVLNWRtck1GMGYxN3czTE5wOXRxQ3JUZ1Q0NFkzQzRTR2NaTjJKd0JEUlJGaC14WnBQME1MSXRCYUtHV0FLcEtrcXUtOA?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-17T08:49:00Z",
+   "since": "2026-10-17T09:14:18Z"
   },
   {
    "kind": "voice",
@@ -71,7 +71,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2892,
+   "stars": 2927,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1490,
+   "stars": 1603,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 902,
+   "stars": 913,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -101,7 +101,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 314,
+   "stars": 324,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -111,7 +111,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3562,
+   "stars": 3598,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -121,7 +121,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2550,
+   "stars": 2568,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -131,7 +131,7 @@
   {
    "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2419,
+   "stars": 2472,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -141,7 +141,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 1785,
+   "stars": 1872,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -151,7 +151,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 770,
+   "points": 861,
    "title": "Claude reveals ECDSA curve origins",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
@@ -160,7 +160,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 445,
+   "points": 498,
    "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "source": "Hacker News",
    "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
@@ -169,16 +169,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 287,
-   "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
-   "source": "Hacker News",
-   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
-   "discuss": "https://news.ycombinator.com/item?id=50118320"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 281,
+   "points": 343,
    "title": "How the Claude Code team does code review",
    "source": "Hacker News",
    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
@@ -187,7 +178,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 231,
+   "points": 315,
+   "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+   "source": "Hacker News",
+   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+   "discuss": "https://news.ycombinator.com/item?id=50118320"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 287,
    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "source": "Hacker News",
    "url": "https://github.com/cobanov/PS5LM",
@@ -196,7 +196,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 202,
+   "points": 222,
    "title": "Show HN: Gemini 4 Argon plays StarCraft",
    "source": "Hacker News",
    "url": "https://starskirmish.com/bench/v0-2/",
@@ -205,11 +205,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 119,
+   "points": 139,
    "title": "Designing more efficient quantum circuits with Claude",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
    "discuss": "https://news.ycombinator.com/item?id=50121939"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 64,
+   "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+   "source": "Hacker News",
+   "url": "https://llmspeed.dev/",
+   "discuss": "https://news.ycombinator.com/item?id=50127979"
   },
   {
    "kind": "news",

@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; form-action 'none'; frame-src 'none'; object-src 'none'; base-uri 'self'">
-<title>Decision Atlas Navigator | Research Preview · ReadSigil</title>
-<meta name="description" content="An interactive, browser-only research preview of Decision Atlas's four-action navigation method. Try fifteen executive decision scenarios.">
+<title>Decision Atlas Navigator | ReadSigil</title>
+<meta name="description" content="An interactive Decision Atlas case navigator. Try fifteen executive decision scenarios.">
 <link rel="canonical" href="https://readsigil.com/decision-navigator/">
 <meta property="og:title" content="Decision Atlas Navigator — Find the next defensible move">
 <meta property="og:description" content="Fifteen decision cases. Four possible moves. One next step to defend.">
@@ -31,7 +31,7 @@ header{background:#fff;border-bottom:1px solid var(--line)}.bar{max-width:1160px
 <div class="lab"><div class="panel"><div class="panelhead"><strong>Scenario library</strong><small>15 decisions · choose a case</small></div><div class="case-scroll" id="caseList" aria-label="Choose a scenario"></div></div><div class="panel"><div class="workspace">
 <div class="stepnum" id="stepnum"></div><h3 id="caseTitle"></h3><p class="scene" id="scene"></p><div class="facts"><strong>THE GOVERNING QUESTION</strong><p id="governing"></p></div><div class="divider"></div><h4>What should happen next?</h4>
 <div class="choices" id="choices"></div><div class="bottom"><button class="solid" id="reveal" disabled>Compare with the reference route →</button><button class="light" id="reset">Clear choice</button><span class="hint">Make your call before revealing the trace.</span></div>
-<div class="result" id="result" aria-live="polite" hidden><div class="route">REFERENCE ROUTE <span class="routecode" id="routeCode"></span></div><h4 id="resultTitle"></h4><p id="resultReason"></p><p class="compar" id="comparison"></p><p class="footline" id="followup"></p><button class="light" id="contrast" style="margin-top:8px">Try a counterfactual →</button><details class="details"><summary>What this does and does not establish</summary><p>These are synthetic cases with outcomes written in their author's expectations and calculated by the frozen Python kernel during development. An agreement does not establish a correct real-world decision. Economic assumptions, feasible choices and approval rights still require independent evidence. All results are provisional and subject to review.</p></details></div>
+<div class="result" id="result" aria-live="polite" hidden><div class="route">REFERENCE ROUTE <span class="routecode" id="routeCode"></span></div><h4 id="resultTitle"></h4><p id="resultReason"></p><p class="compar" id="comparison"></p><p class="footline" id="followup"></p><button class="light" id="contrast" style="margin-top:8px">Try a counterfactual →</button></div>
 </div></div></div></section>
 <section class="wrap section" id="method"><div class="eyebrow" style="color:var(--accent)">02 / THE ROUTING RULE</div><h2>Five checks. One proposed next action.</h2><p class="intro">Why investigate further, and when is it time to act? See how five questions guide the next step.</p><div class="methods">
 <div class="method"><span class="index">01 / DUTY</span><h3>Can we act lawfully?</h3><p>Identify binding requirements, the authority holder and whether an authorised option can meet the deadline.</p></div>
@@ -57,7 +57,7 @@ function showCase(i){
  }
 function reveal(){
  if(!choice)return;const c=CASES[current];revealed=true;$('routeCode').textContent=c.check;$('resultTitle').textContent=overview[c.action];$('resultReason').textContent=c.reason;
- $('comparison').textContent=choice===c.action?"Your route matches the author\'s reference action. That agreement is not independent validation.":'You selected '+overview[choice]+'. The reference route proposes '+overview[c.action]+'. Compare the rationale before treating either as correct.';
+ $('comparison').textContent=choice===c.action?"Your route matches the reference action. Compare the reasoning before you agree.":'You selected '+overview[choice]+'. The reference route proposes '+overview[c.action]+'. Compare the rationale before treating either as correct.';
  $('followup').textContent='NEXT OWNER / TARGET: '+c.next+'.';
  const j=CASES.findIndex(x=>x.id===c.contrast);$('contrast').textContent='Try counterfactual · '+(j>=0?CASES[j].id:'another scenario')+' →';$('contrast').onclick=()=>{showCase(j>=0?j:(current+1)%CASES.length);$('lab').scrollIntoView({behavior:'smooth',block:'start'})};
  $('result').hidden=false;$('result').scrollIntoView({behavior:'smooth',block:'nearest'});

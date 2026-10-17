@@ -231,18 +231,30 @@ async function seedPg(db) {
   await db.exec(SEED_PG);
   await db.exec(`INSERT INTO correction_requests VALUES ${[...D.requests, ...state.requests].map(requestValues).join(',')};`);
 }
+const timeline = [];
+const mark = (what) => timeline.push(`${Math.round(performance.now())}ms ${what}`);
+const within = (ms, what, p) => Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error(`${what} took too long.`)), ms))]);
+async function startPg() {
+  mark('pg: download');
+  const [mod, w, i, data] = await Promise.all([
+    import(new URL('pglite/index.js', base).href),
+    load('pglite.wasm', 'application/wasm'), load('initdb.wasm', 'application/wasm'), load('pglite.data.wasm', 'application/octet-stream'),
+  ]);
+  mark('pg: compile');
+  const [pm, im] = await Promise.all([WebAssembly.compile(await w.arrayBuffer()), WebAssembly.compile(await i.arrayBuffer())]);
+  mark('pg: create');
+  const keep = (v) => v;
+  const db = await mod.PGlite.create({ pgliteWasmModule: pm, initdbWasmModule: im, fsBundle: data, parsers: { 20: (v) => Number(v), 1082: keep, 1114: keep, 1184: keep, 1700: keep } });
+  mark('pg: seed');
+  await seedPg(db);
+  mark('pg: ready');
+  return db;
+}
 function getPg() {
-  return pgP ||= (async () => {
-    const [mod, w, i, data] = await Promise.all([
-      import(new URL('pglite/index.js', base).href),
-      load('pglite.wasm', 'application/wasm'), load('initdb.wasm', 'application/wasm'), load('pglite.data.wasm', 'application/octet-stream'),
-    ]);
-    const [pm, im] = await Promise.all([WebAssembly.compile(await w.arrayBuffer()), WebAssembly.compile(await i.arrayBuffer())]);
-    const keep = (v) => v;
-    const db = await mod.PGlite.create({ pgliteWasmModule: pm, initdbWasmModule: im, fsBundle: data, parsers: { 20: (v) => Number(v), 1082: keep, 1114: keep, 1184: keep, 1700: keep } });
-    await seedPg(db);
-    return db;
-  })().catch((e) => { pgP = null; throw e; });
+  // A start that stalls is abandoned after 40 s and tried once more with a fresh engine.
+  return pgP ||= within(40000, 'Starting Postgres', startPg())
+    .catch((e) => { mark('pg: retry after ' + e.message); return /HTTP \d/.test(e.message) ? Promise.reject(e) : within(60000, 'Starting Postgres', startPg()); })
+    .catch((e) => { pgP = null; mark('pg: failed ' + e.message); throw e; });
 }
 // If the Postgres engine itself fails (a WebAssembly trap, not a SQL error), start a fresh
 // engine from the 06:00 ledger plus approved requests and retry once. The reader is told.
@@ -702,4 +714,4 @@ $('#resetAll').addEventListener('click', async () => {
   renderRequests(); paint(); window.scrollTo(0, 0);
   msg('Started over.');
 });
-window.__ws = { A, S, run, D, state: () => state, restarts: () => engineRestarts };
+window.__ws = { A, S, run, D, state: () => state, restarts: () => engineRestarts, timeline: () => timeline };

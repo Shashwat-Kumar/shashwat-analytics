@@ -171,6 +171,11 @@ except Exception as e:
     print(tb, flush=True)
     res.append(False)
     if GHA:
+        for _pg in [v for k, v in list(globals().items()) if k in ("page", "p2", "p5")]:
+            try:
+                print(f"::error title={BROWSER} engine timeline::" + " / ".join(_pg.evaluate("window.__ws ? window.__ws.timeline() : []"))[-900:], flush=True)
+            except Exception:
+                pass
         print(f"::error title={BROWSER} console::" + " | ".join(globals().get("errs", [])[:6])[:900], flush=True)
         print(f"::error title={BROWSER} crashed after {len(res)-1} checks::" + (str(e).splitlines() or [""])[0][:400] + " | " + " / ".join(tb.strip().splitlines()[-4:])[:500], flush=True)
 summary = f"[{BROWSER}] " + (f"ALL {len(res)} CHECKS PASS" if all(res) else f"{res.count(False)} of {len(res)} FAILED")

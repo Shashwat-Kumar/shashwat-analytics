@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T00:22:58Z",
+ "generated_at": "2026-10-17T04:56:29Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50122800",
-  "points": 613,
-  "comments": 254,
+  "points": 770,
+  "comments": 293,
   "published": "2026-10-16T18:55:59Z",
   "since": "2026-10-16T22:02:41Z"
  },
@@ -71,7 +71,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2853,
+   "stars": 2892,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1373,
+   "stars": 1490,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 894,
+   "stars": 902,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -101,7 +101,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 298,
+   "stars": 314,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -111,7 +111,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3529,
+   "stars": 3562,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -121,7 +121,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2516,
+   "stars": 2550,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -131,7 +131,7 @@
   {
    "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2402,
+   "stars": 2419,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -141,7 +141,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 1725,
+   "stars": 1785,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -151,7 +151,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 613,
+   "points": 770,
    "title": "Claude reveals ECDSA curve origins",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
@@ -160,7 +160,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 377,
+   "points": 445,
    "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "source": "Hacker News",
    "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
@@ -169,7 +169,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 256,
+   "points": 287,
    "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
    "source": "Hacker News",
    "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
@@ -178,7 +178,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 206,
+   "points": 281,
    "title": "How the Claude Code team does code review",
    "source": "Hacker News",
    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
@@ -187,16 +187,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 182,
-   "title": "Show HN: Gemini 4 Argon plays StarCraft",
-   "source": "Hacker News",
-   "url": "https://starskirmish.com/bench/v0-2/",
-   "discuss": "https://news.ycombinator.com/item?id=50118688"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 163,
+   "points": 231,
    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "source": "Hacker News",
    "url": "https://github.com/cobanov/PS5LM",
@@ -205,7 +196,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 87,
+   "points": 202,
+   "title": "Show HN: Gemini 4 Argon plays StarCraft",
+   "source": "Hacker News",
+   "url": "https://starskirmish.com/bench/v0-2/",
+   "discuss": "https://news.ycombinator.com/item?id=50118688"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 119,
    "title": "Designing more efficient quantum circuits with Claude",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",

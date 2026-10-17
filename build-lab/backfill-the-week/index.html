@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https:; connect-src 'self' https://cloudflareinsights.com; worker-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Backfill the Week | Airflow end-of-day pipeline workshop | ReadSigil</title>
+<meta name="description" content="Harbour Bank's end-of-day pipeline published Treasury's position twice for one night and not at all for three. Backfill the week on real Apache Airflow so each night is published once, through reruns, a late file and a short file.">
+<link rel="canonical" href="https://readsigil.com/build-lab/backfill-the-week/">
+<meta property="og:type" content="article"><meta property="og:title" content="Backfill the week. Publish each night once."><meta property="og:description" content="Harbour Bank's end-of-day pipeline published Treasury's position twice for one night and not at all for three. Backfill the week on real Apache Airflow so each night is published once, through reruns, a late file and a short file."><meta property="og:url" content="https://readsigil.com/build-lab/backfill-the-week/"><meta property="og:image" content="https://readsigil.com/assets/img/og-image.png">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link href="/assets/fonts/f-7f379b564b.css" rel="stylesheet">
+<style>
+/* Layout: one 760px reading column in ReadSigil's system. The incident and its evidence come first; investigation consoles open only when the reader chooses them. */
+:root{
+  --bg:#fbfaf7; --card:#ffffff; --fg:#262624; --h:#111110; --mut:#5c5c58; --rule:#e7e4dd; --wash:#f3f1eb;
+  --accent:#0b5d63; --pop:#c2410c; --ok:#0a7a55; --ok-wash:#e7f5ef; --bad:#b42318; --bad-wash:#fdeceb; --code-bg:#f6f4ef;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif; --sans:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1211; --card:#161a19; --fg:#d9dcd8; --h:#f3f2ee; --mut:#b9b8b2; --rule:#2a2e2c; --wash:#1b201e;
+  --accent:#7fd0c9; --pop:#ff8a63; --ok:#5fe0b0; --ok-wash:#12261f; --bad:#ff8a7a; --bad-wash:#2a1615; --code-bg:#121615; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1211; --card:#161a19; --fg:#d9dcd8; --h:#f3f2ee; --mut:#b9b8b2; --rule:#2a2e2c; --wash:#1b201e;
+  --accent:#7fd0c9; --pop:#ff8a63; --ok:#5fe0b0; --ok-wash:#12261f; --bad:#ff8a7a; --bad-wash:#2a1615; --code-bg:#121615; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:17px/1.7 var(--serif);margin:0}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--accent);text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+h1,h2,h3{color:var(--h);text-wrap:balance;font-family:var(--serif);font-weight:600;line-height:1.15}
+.top{border-bottom:1px solid var(--rule)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.brand{font:600 1.1rem/1 var(--serif);color:var(--h);text-decoration:none}
+.top nav{display:flex;gap:18px;font:500 .9rem/1 var(--sans)}
+.top nav a{color:var(--mut);text-decoration:none}.top nav a[aria-current]{color:var(--h)}
+.kicker{font:600 .75rem/1.4 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin:44px 0 10px}
+h1{font-size:clamp(2.1rem,1.3rem + 3.4vw,3.3rem);letter-spacing:-.02em;margin:0 0 14px}
+.sit{font:500 .95rem/1.5 var(--sans);color:var(--mut);margin:0 0 22px}
+.memo{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;margin:0 0 18px;font:400 .95rem/1.55 var(--sans)}
+.memo .hd{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 14px;color:var(--mut);font-size:.8rem;margin-bottom:6px}
+.memo p{margin:0}
+.ev{border:1px solid var(--rule);border-radius:10px;background:var(--card);overflow:hidden;margin:0 0 36px;font-family:var(--sans)}
+.evrow{padding:14px 16px;border-bottom:1px solid var(--rule)}
+.evrow:last-child{border-bottom:0}
+.evlab{display:flex;justify-content:space-between;gap:10px;font:600 .72rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--mut);margin-bottom:8px}
+.pill{font:600 .7rem/1 var(--sans);letter-spacing:.04em;padding:4px 8px;border-radius:999px;text-transform:uppercase}
+.pill.ok{background:var(--ok-wash);color:var(--ok)}.pill.no{background:var(--bad-wash);color:var(--bad)}
+.figs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.figs div{min-width:0}
+.figs small{display:block;font:400 .78rem/1.35 var(--sans);color:var(--mut)}
+.figs b{display:block;font:500 1.05rem/1.35 var(--mono);color:var(--h);font-variant-numeric:tabular-nums;margin-top:3px;white-space:nowrap}
+.figs b.gap{color:var(--pop)}
+h2.sec{font-size:1.6rem;margin:0 0 6px}
+.secsub{font:400 .95rem/1.55 var(--sans);color:var(--mut);margin:0 0 16px}
+button.b{min-height:44px;padding:0 18px;border-radius:999px;font:600 .9rem/1 var(--sans);cursor:pointer;border:1px solid var(--h);background:var(--h);color:var(--bg)}
+button.b.alt{background:transparent;color:var(--h);border-color:var(--rule)}
+button.b.alt:hover{border-color:var(--mut)}
+button.b:disabled{opacity:.5;cursor:progress}
+.status{font:500 .8rem/1.4 var(--sans);color:var(--mut);margin:0 0 6px}
+code.i{font:400 .85em/1 var(--mono);background:var(--wash);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+details.bridge{margin-top:16px;border-top:1px solid var(--rule);padding-top:12px;font-family:var(--sans)}
+details.bridge summary{cursor:pointer;font:600 .85rem/1.4 var(--sans);color:var(--accent)}
+details.bridge p{font-size:.92rem;line-height:1.6;margin:10px 0 0}
+.mtx{overflow-x:auto;border:1px solid var(--rule);border-radius:10px;background:var(--card);margin:0 0 14px}
+.mtx table{border-collapse:collapse;width:100%;font:400 .88rem/1.45 var(--sans)}
+.mtx th{text-align:left;font-weight:600;color:var(--h);background:var(--wash);padding:9px 12px;border-bottom:1px solid var(--rule)}
+.mtx td{padding:9px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+.mtx tr:last-child td{border-bottom:0}
+.mtx td.k{color:var(--h);font-weight:500}
+.mtx td.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.soon{font:600 .7rem/1 var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--mut);white-space:nowrap}
+.series h2{font-size:1.5rem;margin:48px 0 8px}
+footer{border-top:1px solid var(--rule);margin-top:56px}
+footer .wrap{padding-block:22px 36px;font:400 .82rem/1.6 var(--sans);color:var(--mut)}
+footer p{margin:0 0 6px}
+footer .fnav{display:flex;flex-wrap:wrap;gap:6px 16px;padding-block:18px 6px}
+footer .fnav a{color:var(--mut);text-decoration:none;font:500 .85rem/1.4 var(--sans)}
+footer .bar{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;padding-block:6px 30px;font:400 .8rem/1.5 var(--sans);color:var(--mut)}
+footer .small{font-size:.8rem}
+@media (max-width:560px){
+  .figs{grid-template-columns:1fr;gap:6px}.figs div{display:flex;justify-content:space-between;align-items:baseline;gap:12px}.figs b{margin-top:0;font-size:.98rem}
+  .actions{display:grid;grid-template-columns:1fr 1fr}.actions .b{padding:0 10px}
+  .inv,.step{padding:18px 14px 16px}
+  .top .wrap{flex-wrap:wrap;gap:6px 16px}.top nav{min-width:0;max-width:100%;overflow-x:auto;scrollbar-width:none;gap:16px;padding-bottom:2px}.top nav a{white-space:nowrap;padding-block:6px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 10px}
+a.b{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;font:600 .92rem/1 var(--sans);text-decoration:none;border:1px solid var(--h);background:var(--h);color:var(--bg)}
+a.b.alt{background:transparent;color:var(--h);border-color:var(--rule)}
+.cmd{position:relative;margin:10px 0 0}
+.cmd pre{margin:0;background:var(--code-bg);border:1px solid var(--rule);border-radius:10px;padding:14px 14px;overflow:auto;font:400 .84rem/1.65 var(--mono);color:var(--h)}
+.cmd button{position:absolute;top:8px;right:8px;min-height:32px;padding:0 12px;border-radius:999px;border:1px solid var(--rule);background:var(--card);color:var(--h);font:600 .78rem/1 var(--sans);cursor:pointer}
+.steps{display:grid;gap:12px;margin:0 0 28px;padding:0;list-style:none;counter-reset:s}
+.steps li{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:14px 16px;font:400 .95rem/1.55 var(--sans);counter-increment:s;display:grid;grid-template-columns:28px 1fr;gap:10px}
+.steps li::before{content:counter(s);font:600 .8rem/1.9 var(--mono);color:var(--mut)}
+.proof{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;font:400 .88rem/1.5 var(--sans);color:var(--mut);margin:14px 0 34px}
+.proof img{height:20px;width:auto}
+section{margin-bottom:8px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="brand" href="/index.html">ReadSigil</a><nav><a href="/writing.html">Writing</a><a href="/magazine.html">The Signal</a><a href="/agora/index.html">Agora</a><a href="/lab/">Prompt Crucible</a><a href="/learn.html" class=on aria-current=page>Learn</a><a href="/cases.html">Cases</a><a href="/about-readsigil.html">About</a><a href="/contact.html">Connect</a></nav></div></header>
+
+<main class="wrap">
+  <p class="kicker">Build · Banking data stack · Workshop 3 of 8</p>
+  <h1>Backfill the week. Publish each night once.</h1>
+  <p class="sit">Harbour Bank · Sunday 18 October, 08:30 · Treasury reads the position table at 09:00.</p>
+
+  <div class="memo" role="note" aria-label="Message from Treasury">
+    <div class="hd"><span><strong>Treasury</strong> to Data Platform</span><span>08:30</span></div>
+    <p>The position table has no figures for 13, 14 or 15 October and three for 16 October, all different. I cannot fund tomorrow's settlement from that. Tell me when each night shows one number I can rely on.</p>
+  </div>
+
+  <div class="ev" aria-label="The position table this morning">
+    <div class="evrow">
+      <div class="evlab"><span>treasury_position, 13 to 16 Oct</span><span class="pill no">Not reliable</span></div>
+      <div class="figs"><div><small>Nights with no position</small><b>3</b></div><div><small>Rows for 16 Oct</small><b>3</b></div><div><small>Files waiting in landing</small><b>4</b></div></div>
+    </div>
+  </div>
+
+  <h2 class="sec">What the week left behind</h2>
+  <p class="secsub">Tuesday's deploy changed how the pipeline decides which night it is processing. On-call reran it when NPCI's 16 October file landed late, while the file was still being written. NPCI's 14 October file is one record short of its own control totals. You own the DAG.</p>
+
+  <h2 class="sec" style="margin-top:30px">The test Treasury will rely on</h2>
+  <p class="secsub">Your DAG runs on real Apache Airflow: a backfill of 13 to 16 October, on-call reruns of two nights, then NPCI's corrected 14 October file. Six controls are then audited against NPCI's files and the ledger.</p>
+  <div class="mtx"><table>
+    <thead><tr><th>Control</th><th>What it proves</th></tr></thead>
+    <tbody>
+      <tr><td class="k">One published position per business date</td><td>Treasury sees one figure per night</td></tr>
+      <tr><td class="k">Published figures agree with NPCI and the ledger</td><td>The numbers are right, not just present</td></tr>
+      <tr><td class="k">A rerun changes nothing</td><td>On-call can rerun any night without making it worse</td></tr>
+      <tr><td class="k">Late file waited for, not read half-written</td><td>The pipeline waits for NPCI to finish</td></tr>
+      <tr><td class="k">Each run processed its own business date</td><td>A backfill does what it says</td></tr>
+      <tr><td class="k">A file that fails its control totals is not published</td><td>A wrong file stops the run instead of reaching Treasury</td></tr>
+    </tbody>
+  </table></div>
+  <p class="secsub">You start from the DAG that has been in production since Tuesday. It fails all six.</p>
+
+  <h2 class="sec" style="margin-top:34px">Start</h2>
+  <p class="secsub">This workshop runs Apache Airflow 3.2 and Postgres 17, so it needs a machine rather than a browser tab. In a free GitHub Codespace, Airflow is installed for you. GitHub Free includes about 60 hours a month on the 2-core machine it uses.</p>
+  <div class="cta"><a class="b" href="https://codespaces.new/shashwat-kumar/readsigil-data-stack" target="_blank" rel="noopener">Open in GitHub Codespaces</a><a class="b alt" href="https://github.com/shashwat-kumar/readsigil-data-stack/tree/main/workshops/03-airflow" target="_blank" rel="noopener">Read the workshop guide</a></div>
+  <p class="secsub" style="margin-top:18px">Or on a laptop with Docker and Python 3.10 to 3.13:</p>
+  <div class="cmd"><pre id="cmd-local">git clone https://github.com/shashwat-kumar/readsigil-data-stack
+cd readsigil-data-stack
+docker compose up -d --wait postgres
+./scripts/install-airflow.sh</pre><button type="button" data-copy="cmd-local">Copy</button></div>
+  <p class="secsub" style="margin-top:22px">Then, in either:</p>
+  <ol class="steps">
+    <li><span>Start Airflow with <code class="i">airflow standalone</code> and run <code class="i">harbour ws3 reset</code> to put NPCI's four files in the landing folder.</span></li>
+    <li><span>Run one night with <code class="i">airflow dags test harbour_eod 2026-10-13</code>, then <code class="i">harbour ws3 status</code>. Work out which night it actually processed.</span></li>
+    <li><span>Run <code class="i">harbour check ws3</code>. Fix one failing control at a time. The guide has a hint for each, folded away until you want it.</span></li>
+  </ol>
+
+  <div class="proof"><a href="https://github.com/shashwat-kumar/readsigil-data-stack/actions/workflows/ws3-airflow.yml" target="_blank" rel="noopener"><img src="https://github.com/shashwat-kumar/readsigil-data-stack/actions/workflows/ws3-airflow.yml/badge.svg" alt="Workshop 3 test status"></a><span>On every change, the reference DAG passes all six controls on real Airflow; the production DAG and four broken variants each fail the control that names their bug; and a real scheduler backfill publishes the same figures.</span></div>
+
+  <details class="bridge"><summary>On a Cloudera/Hadoop stack</summary><p>Many Cloudera estates schedule end-of-day work with Oozie coordinators, and Cloudera Data Engineering runs Airflow, so this DAG ports across. The rules are the same: take the business date from the run, replace a date's output rather than adding to it (on Hive or Impala, INSERT OVERWRITE of that date's partition), wait for the trigger or control file, and fail closed when control totals disagree.</p></details>
+
+  <section class="series" aria-labelledby="seriesH">
+    <h2 id="seriesH">The workshop series</h2>
+    <div class="mtx"><table>
+      <thead><tr><th>Workshop</th><th>Situation</th><th>Cloudera/Hadoop counterpart</th></tr></thead>
+      <tbody>
+        <tr><td class="k"><a href="/build-lab/close-the-books/">1 · Postgres, DuckDB</a></td><td>UPI settlement does not tie to the ledger</td><td>Core banking replica; Impala or Hive over HDFS/Ozone</td></tr>
+        <tr><td class="k"><a href="/build-lab/post-once/">2 · Kafka</a></td><td>Post every transaction once, through repeats, crashes and month-end volume</td><td>Kafka (Cloudera Streams Messaging)</td></tr>
+        <tr><td class="k">3 · Airflow</td><td>Backfill a broken week so each night is published once</td><td>Oozie; Airflow in Cloudera Data Engineering</td></tr>
+        <tr><td class="k">4 · Iceberg <span class="soon">In preparation</span></td><td>Restate the March book after a late correction</td><td>Iceberg tables in CDP</td></tr>
+        <tr><td class="k">5 · dbt Core <span class="soon">In preparation</span></td><td>One definition of CASA ratio across fourteen reports</td><td>Hive and Impala SQL jobs; dbt-hive and dbt-impala adapters</td></tr>
+        <tr><td class="k">6 · Spark <span class="soon">In preparation</span></td><td>The EOD batch slows because one corporate account fills one partition</td><td>Spark on CDP, Cloudera Data Engineering</td></tr>
+        <tr><td class="k">7 · Metabase <span class="soon">In preparation</span></td><td>The MD's morning dashboard, built on reconciled numbers only</td><td>Cloudera Data Visualization, Hue</td></tr>
+        <tr><td class="k">8 · Capstone <span class="soon">In preparation</span></td><td>Run the whole end-of-day pipeline yourself</td><td>Docker on your laptop</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+</main>
+<div class="wrap" style="padding-block:8px 0;font:400 .82rem/1.6 var(--sans);color:var(--mut)"><p>Harbour Bank, its accounts and every figure here are fictional. The software, the controls and the failure modes are real.</p></div>
+<footer><div class="wrap"><nav class="fnav" aria-label="Footer"><a href="/index.html">Home</a><a href="/writing.html">Writing</a><a href="/magazine.html">The Signal</a><a href="/ideas.html">Ideas map</a><a href="/topics.html">Topics</a><a href="/learn.html">Learn</a><a href="/cases.html">Case studies</a><a href="/samples.html">Work samples</a><a href="/feed.xml">RSS</a></nav></div><div class="wrap bar"><span>ReadSigil · Independent publication · <span class="pv">Views <img class="counter" src="https://visitor-badge.laobi.icu/badge?page_id=shashwat-kumar.shashwat-analytics&amp;left_text=views&amp;left_color=%23999&amp;right_color=%23999" alt="Site page views" height="18" loading="lazy" referrerpolicy="no-referrer"></span></span><span class="small">Opinions belong to their authors. Work samples use fictional companies and synthetic data. Nothing here is legal, tax or regulatory advice.</span></div></footer>
+<script src="../post-once/copy.js?v=1" defer></script>
+</body>
+</html>

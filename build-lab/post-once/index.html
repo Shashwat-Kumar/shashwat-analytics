@@ -159,7 +159,7 @@ harbour doctor</pre><button type="button" data-copy="cmd-local">Copy</button></d
       <tbody>
         <tr><td class="k"><a href="/build-lab/close-the-books/">1 · Postgres, DuckDB</a></td><td>UPI settlement does not tie to the ledger</td><td>Core banking replica; Impala or Hive over HDFS/Ozone</td></tr>
         <tr><td class="k">2 · Kafka</td><td>Post every transaction once, through repeats, crashes and month-end volume</td><td>Kafka (Cloudera Streams Messaging)</td></tr>
-        <tr><td class="k">3 · Airflow <span class="soon">In preparation</span></td><td>The end-of-day pipeline fails at 02:10; backfill without posting twice</td><td>Oozie; Airflow in Cloudera Data Engineering</td></tr>
+        <tr><td class="k"><a href="/build-lab/backfill-the-week/">3 · Airflow</a></td><td>Backfill a broken week so each night is published once</td><td>Oozie; Airflow in Cloudera Data Engineering</td></tr>
         <tr><td class="k">4 · Iceberg <span class="soon">In preparation</span></td><td>Restate the March book after a late correction</td><td>Iceberg tables in CDP</td></tr>
         <tr><td class="k">5 · dbt Core <span class="soon">In preparation</span></td><td>One definition of CASA ratio across fourteen reports</td><td>Hive and Impala SQL jobs; dbt-hive and dbt-impala adapters</td></tr>
         <tr><td class="k">6 · Spark <span class="soon">In preparation</span></td><td>The EOD batch slows because one corporate account fills one partition</td><td>Spark on CDP, Cloudera Data Engineering</td></tr>

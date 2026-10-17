@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T18:36:59Z",
+ "generated_at": "2026-10-17T20:57:36Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Amazon uses AI to monitor union risk in UK warehouses",
-  "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+  "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+  "url": "https://llmspeed.dev/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50132278",
-  "points": 102,
-  "comments": 38,
-  "published": "2026-10-17T16:04:23Z",
-  "since": "2026-10-17T18:36:59Z"
+  "discuss": "https://news.ycombinator.com/item?id=50127979",
+  "points": 219,
+  "comments": 75,
+  "published": "2026-10-17T04:36:53Z",
+  "since": "2026-10-17T20:57:36Z"
  },
  "voice": {
   "kind": "voice",
@@ -89,7 +89,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2980,
+   "stars": 2986,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -99,7 +99,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1685,
+   "stars": 1687,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -109,7 +109,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 933,
+   "stars": 934,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -119,7 +119,7 @@
   {
    "kind": "repo",
    "title": "anujasid/blender-ai-mcp-addon",
-   "stars": 537,
+   "stars": 577,
    "note": "Python · new this week",
    "url": "https://github.com/anujasid/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -129,7 +129,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 353,
+   "stars": 355,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -139,7 +139,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3691,
+   "stars": 3700,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -149,7 +149,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2619,
+   "stars": 2628,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -159,7 +159,7 @@
   {
    "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2559,
+   "stars": 2566,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -169,7 +169,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 1996,
+   "stars": 2020,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -179,16 +179,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 354,
-   "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-   "source": "Hacker News",
-   "url": "https://github.com/cobanov/PS5LM",
-   "discuss": "https://news.ycombinator.com/item?id=50122431"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 207,
+   "points": 219,
    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
    "source": "Hacker News",
    "url": "https://llmspeed.dev/",
@@ -196,28 +187,17 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 102,
-   "title": "Amazon uses AI to monitor union risk in UK warehouses",
-   "source": "Hacker News",
-   "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-   "discuss": "https://news.ycombinator.com/item?id=50132278"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 74,
-   "title": "OpenAI discloses four more rogue incidents",
-   "source": "Hacker News",
-   "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-   "discuss": "https://news.ycombinator.com/item?id=50132502"
+   "tag": "AI",
+   "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Replit is no longer working with Anthropic, CEO says",
+   "title": "Replit makes OpenAI its default over Anthropic, CEO says",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+   "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
   },
   {
    "kind": "news",
@@ -232,13 +212,6 @@
    "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/"
   },
   {
    "kind": "news",

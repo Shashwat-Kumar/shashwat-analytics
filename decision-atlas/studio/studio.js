@@ -37,7 +37,7 @@ const STORIES={
 bank:{
 name:'Existing-customer growth',tag:'Banking · customer economics',
 objective:'Where should we target the first 90-day customer-growth intervention?',
-context:'Synthetic population of 137,000 customers. Growth is an outcome; AI is only one potential enabler. The immediate decision is what customer problem to solve first and how to verify incremental contribution.',
+context:'You are responsible for a customer base of 137,000. Growth is an outcome; AI is only one potential enabler. The immediate decision is what customer problem to solve first and how to verify incremental contribution.',
 lenses:[
 {id:'relationship',field:0,name:'Relationship type',explanation:'Separate product ownership cohorts. Different product gaps call for different actions and have different economics.'},
 {id:'activity',field:1,name:'Engagement',explanation:'Separate people by activity. An active customer and a dormant customer do not have equal contactability or needs.'},
@@ -62,7 +62,7 @@ actions:{
 service:{
 name:'Customer-service backlog',tag:'Operations · workflow economics',
 objective:'Which part of the service backlog should receive the first process intervention?',
-context:'Synthetic set of 42,600 service cases. The objective is to reduce avoidable human handling hours without worsening resolution quality. A chatbot or model is not the starting hypothesis.',
+context:'Your operations team faces 42,600 service cases. The objective is to reduce avoidable human handling hours without worsening resolution quality. A chatbot or model is not the starting hypothesis.',
 lenses:[
 {id:'issue',field:0,name:'Problem category',explanation:'Separate routine requests, disputes and exceptions; their causes and controls differ.'},
 {id:'age',field:1,name:'Case ageing',explanation:'Isolate long-running cases from newly opened cases; ageing can expose missing approvals and handoffs.'},
@@ -113,7 +113,7 @@ function renderSegments(){
  const all=data.reduce((p,r)=>({n:p.n+r.n,reach:p.reach+r.reach,actions:p.actions+r.actions,net:p.net+r.net}),{n:0,reach:0,actions:0,net:0});
  const top=data[0];const k=$('kpis');clear(k);
  addKpi(k,'Total problem population',n(all.n),'Same population, regardless of the segmentation lens');
- addKpi(k,'Estimated total net benefit',val(all.net),'Synthetic, not a bank forecast');
+ addKpi(k,'Estimated total net benefit',val(all.net),'Based on the current case assumptions');
  addKpi(k,'Highest under chosen objective',top.name,'Current criterion: '+$('criterion').selectedOptions[0].textContent);
  const tb=$('segmentRows');clear(tb);for(const d of data){const tr=el('tr',d.name===selected?'selected':null);const name=el('td','seg-name',d.name);name.append(el('small',null,n(d.members)+' underlying micro-cohorts'));tr.append(name);
   for(const v of [n(d.n),n(d.reach),n(d.actions,1),val(d.net)])tr.append(el('td','right',v));
@@ -121,7 +121,7 @@ function renderSegments(){
  return all;
 }
 function renderDiagnosis(){
- const d=record(),s=STORIES[current];$('focusName').textContent=d.name;$('focusReadout').textContent='A selected slice of '+n(d.n)+' synthetic cases/customers, not a recommendation to act without validation.';
+ const d=record(),s=STORIES[current];$('focusName').textContent=d.name;$('focusReadout').textContent='A selected slice of '+n(d.n)+' cases or customers. Investigate this group before choosing an intervention.';
  const box=$('assumptions');clear(box);
  const pairs=[['Part of total population',n(d.n)],['Eligible & reachable',n(d.reach)],['Expected incremental actions',n(d.actions,1)],['Estimated net opportunity',val(d.net)],['Assigned setup cost',val(d.fixed)]];
  for(const [a,b] of pairs){const x=el('div','assumption');x.append(el('span',null,a),el('b',null,b));box.append(x)}
@@ -137,9 +137,9 @@ function renderDiagnosis(){
  if(combo)cx.append(el('h4',null,combo.q),el('p','test',combo.x+' × '+combo.y),el('p',null,'Use this relationship to ask why the selected segment is not delivering the outcome. The matrix is a diagnostic prompt, not an automatic verdict.'));
 }
 function contractData(){const s=STORIES[current],d=record(),act=s.actions[d.name]||['Investigate the binding constraint.','Verify unit economics and ownership.','Accountable operating owner'];return{
-status:'Unvalidated synthetic teaching illustration',objective:s.objective,partition:STORIES[current].lenses.find(l=>l.id===lensId).name,focus:d.name,criterion,assumption_multiplier:scale,base_population:d.n,reachable_eligible_estimate:Math.round(d.reach),expected_incremental_actions:Math.round(d.actions),estimated_net_benefit:d.net,unit:s.unit,intervention:act[0],segment_question:act[1],route_owner:act[2],accountable_owner:s.owner,diagnostic_metric:metric,paired_metric_question:combination,success_evidence:s.success,stop_rule:s.stop,caveat:'Numbers are synthetic scenarios, not estimates from any real institution. Approvals and validated experiments are required before action.'};}
+status:'Scenario-based intervention brief',objective:s.objective,partition:STORIES[current].lenses.find(l=>l.id===lensId).name,focus:d.name,criterion,assumption_multiplier:scale,base_population:d.n,reachable_eligible_estimate:Math.round(d.reach),expected_incremental_actions:Math.round(d.actions),estimated_net_benefit:d.net,unit:s.unit,intervention:act[0],segment_question:act[1],route_owner:act[2],accountable_owner:s.owner,diagnostic_metric:metric,paired_metric_question:combination,success_evidence:s.success,stop_rule:s.stop,caveat:'Values use scenario assumptions; verify economics, evidence and authority for real deployment.'};}
 function renderContract(){const v=contractData(),box=$('contract');clear(box);for(const [name,text] of [
-['To whom?',v.focus+' · '+n(v.base_population)+' in this synthetic partition'],
+['To whom?',v.focus+' · '+n(v.base_population)+' in this segment'],
 ['To do what?',v.intervention],
 ['Through whom?',v.route_owner],
 ['Why this slice?',v.segment_question],
@@ -151,7 +151,7 @@ function renderContract(){const v=contractData(),box=$('contract');clear(box);fo
 function render(){renderScenarios();renderLenses();$('criterion').value=criterion;$('assumptionScale').value=String(scale);renderSegments();renderDiagnosis();renderContract();}
 function copyText(){const c=contractData();return Object.entries(c).map(([k,v])=>k.replaceAll('_',' ').toUpperCase()+': '+v).join('\n')}
 function download(){const payload=JSON.stringify({...contractData(),formula:'sum(eligible_reachable*action_uplift*unit_net_contribution - eligible_reachable*handling_cost - allocated_setup_cost)',original_metric_library:'/decision-atlas/',research_nav:'/decision-navigator/'},null,2);
- const u=URL.createObjectURL(new Blob([payload],{type:'application/json'})),a=document.createElement('a');a.href=u;a.download='readsigil-decision-atlas-synthetic-brief.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),500);}
+ const u=URL.createObjectURL(new Blob([payload],{type:'application/json'})),a=document.createElement('a');a.href=u;a.download='readsigil-decision-atlas-brief.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),500);}
 function boot(){
 $('criterion').onchange=()=>{criterion=$('criterion').value;renderSegments();renderDiagnosis();renderContract()};
 $('assumptionScale').onchange=()=>{scale=Number($('assumptionScale').value);renderSegments();renderDiagnosis();renderContract()};

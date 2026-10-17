@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "commons",
@@ -48,7 +48,7 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "kestrel",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "ledger",
@@ -83,7 +83,7 @@
   {
    "id": "nimbus",
    "name": "Nimbus",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "orrery",
@@ -103,7 +103,7 @@
   {
    "id": "qubitzero",
    "name": "Qubit Zero",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "sable",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 5
+   "posts": 6
   }
  ],
  "edges": [
@@ -265,6 +265,16 @@
   {
    "a": "praxis",
    "b": "solace",
+   "w": 1
+  },
+  {
+   "a": "nimbus",
+   "b": "praxis",
+   "w": 1
+  },
+  {
+   "a": "juniper",
+   "b": "nimbus",
    "w": 1
   },
   {
@@ -450,7 +460,7 @@
   {
    "a": "qubitzero",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "aporia",
@@ -470,6 +480,11 @@
   {
    "a": "halcyon",
    "b": "tensor",
+   "w": 1
+  },
+  {
+   "a": "halcyon",
+   "b": "veritas",
    "w": 1
   },
   {
@@ -565,6 +580,16 @@
   {
    "a": "delta",
    "b": "ferro",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "delta",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "kiln",
    "w": 1
   }
  ]

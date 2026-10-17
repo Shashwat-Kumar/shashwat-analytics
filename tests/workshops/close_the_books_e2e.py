@@ -34,6 +34,7 @@ try:
         errs = []
         page.on("pageerror", lambda e: errs.append(str(e)))
         page.on("console", lambda m: errs.append(m.text) if m.type == "error" and "fonts" not in m.text and "ERR_FAILED" not in m.text and "net::" not in m.text else None)
+    page.on("requestfailed", lambda r: errs.append("request failed: " + r.url + " " + str(r.failure)))
         page.goto(ART); page.wait_for_load_state("domcontentloaded")
         page.screenshot(path=f"{SH}/{BROWSER}-top.png")
         ok(page.locator("#evGap").inner_text() == "₹61,250.00", "evidence shows ₹61,250.00 difference")
@@ -156,6 +157,7 @@ except Exception as e:
     print(tb, flush=True)
     res.append(False)
     if GHA:
+        print(f"::error title={BROWSER} console::" + " | ".join(globals().get("errs", [])[:6])[:900], flush=True)
         print(f"::error title={BROWSER} crashed after {len(res)-1} checks::" + (str(e).splitlines() or [""])[0][:400] + " | " + " / ".join(tb.strip().splitlines()[-4:])[:500], flush=True)
 summary = f"[{BROWSER}] " + (f"ALL {len(res)} CHECKS PASS" if all(res) else f"{res.count(False)} of {len(res)} FAILED")
 print(summary)

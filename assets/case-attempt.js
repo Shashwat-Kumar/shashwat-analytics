@@ -16,17 +16,17 @@ panel.hidden=!complete;
 box.readOnly=!!complete;
 box.value=complete?r.answer:box.value;
 submit.hidden=!!complete;reset.hidden=!complete;
-status.textContent=complete?'Your decision is locked. The debrief is available below.':'Write a recommendation of at least 45 characters to unlock the debrief.';
+status.textContent=complete?'Recommendation saved. The analysis is below.':'Summarise what you would recommend and why.';
 return complete
 }
 submit.addEventListener('click',function(){
 var v=box.value.trim();
-if(v.length<45){status.textContent='Include your decision and why you chose it (at least 45 characters).';box.focus();return}
-try{localStorage.setItem(key,JSON.stringify({answer:v,submitted:new Date().toISOString()}))}catch(e){status.textContent='Could not save your attempt in this browser. Please enable local storage.';return}
+if(v.length<45){status.textContent='Please add a brief reason for your recommendation (at least 45 characters).';box.focus();return}
+try{localStorage.setItem(key,JSON.stringify({answer:v,submitted:new Date().toISOString()}))}catch(e){status.textContent='Your recommendation could not be saved in this browser. Please enable local storage.';return}
 paint();panel.scrollIntoView({behavior:'smooth',block:'start'});
 });
 reset.addEventListener('click',function(){
-if(!confirm('Clear your current attempt and hide the debrief?'))return;
+if(!confirm('Clear your recommendation and start again?'))return;
 try{localStorage.removeItem(key)}catch(e){}
 box.value='';box.readOnly=false;paint();form.scrollIntoView({behavior:'smooth',block:'start'});
 });

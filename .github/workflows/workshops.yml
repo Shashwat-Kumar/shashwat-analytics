@@ -17,8 +17,8 @@ jobs:
       matrix:
         browser: [chromium, webkit]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Install Playwright
@@ -27,16 +27,17 @@ jobs:
           python -m playwright install --with-deps ${{ matrix.browser }}
       - name: Run workshop 1 end to end (${{ matrix.browser }}, phone size)
         env:
-          BASE_URL: http://localhost:8000
+          BASE_URL: https://localhost:8443
           BROWSER: ${{ matrix.browser }}
           SHOTS: test-results
         run: |
-          python -m http.server 8000 >/dev/null 2>&1 &
+          openssl req -x509 -newkey rsa:2048 -nodes -subj /CN=localhost -keyout "$RUNNER_TEMP/key.pem" -out "$RUNNER_TEMP/cert.pem" -days 1 2>/dev/null
+          python tests/workshops/serve_https.py 8443 "$RUNNER_TEMP/cert.pem" "$RUNNER_TEMP/key.pem" >/dev/null 2>&1 &
           sleep 2
           python tests/workshops/close_the_books_e2e.py
       - name: Keep screenshots
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: close-the-books-${{ matrix.browser }}
           path: test-results

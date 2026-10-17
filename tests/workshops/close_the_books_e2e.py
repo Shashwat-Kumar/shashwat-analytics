@@ -2,13 +2,14 @@
 Runs the whole workshop in a real browser against the static site: both engines, every
 investigation, the maker-checker flow, the correction job and its retry, reset and failure states.
 
-  python -m http.server 8000 &   (from the repo root)
-  BASE_URL=http://localhost:8000 BROWSER=chromium python tests/workshops/close_the_books_e2e.py
+  openssl req -x509 -newkey rsa:2048 -nodes -subj /CN=localhost -keyout key.pem -out cert.pem -days 1
+  python tests/workshops/serve_https.py 8443 cert.pem key.pem &   (from the repo root)
+  BASE_URL=https://localhost:8443 BROWSER=chromium python tests/workshops/close_the_books_e2e.py
 """
 import os, sys, json, time, re
 from playwright.sync_api import sync_playwright
 
-BASE = os.environ.get("BASE_URL", "http://localhost:8000").rstrip("/")
+BASE = os.environ.get("BASE_URL", "https://localhost:8443").rstrip("/")
 ART = SITE = BASE + "/build-lab/close-the-books/"
 BROWSER = os.environ.get("BROWSER", "chromium")
 SH = os.environ.get("SHOTS", "test-results")
@@ -28,7 +29,7 @@ def block_fonts(page):
 try:
     with sync_playwright() as p:
         bt = getattr(p, BROWSER); b = bt.launch()
-        MOBILE = p.devices["iPhone 13"] if BROWSER == "webkit" else {"viewport": {"width": 390, "height": 844}, "device_scale_factor": 2}
+        MOBILE = dict(p.devices["iPhone 13"] if BROWSER == "webkit" else {"viewport": {"width": 390, "height": 844}, "device_scale_factor": 2}, ignore_https_errors=True)
         ctx = b.new_context(**MOBILE)
         page = ctx.new_page(); block_fonts(page)
         errs = []
@@ -136,7 +137,7 @@ try:
         # Dark and desktop
         c3 = b.new_context(**MOBILE, color_scheme="dark"); p3 = c3.new_page(); block_fonts(p3)
         p3.goto(ART); p3.locator("#path-a").click(); p3.wait_for_timeout(300); p3.screenshot(path=f"{SH}/{BROWSER}-dark.png")
-        c4 = b.new_context(viewport={"width": 1280, "height": 900}); p4 = c4.new_page(); block_fonts(p4)
+        c4 = b.new_context(viewport={"width": 1280, "height": 900}, ignore_https_errors=True); p4 = c4.new_page(); block_fonts(p4)
         p4.goto(ART); p4.screenshot(path=f"{SH}/{BROWSER}-desktop.png", full_page=True)
 
         # ReadSigil build under its strict CSP

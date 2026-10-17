@@ -22,7 +22,7 @@ function total(c,r){return Math.round(((r?.answers||[]).reduce((v,a)=>v+(a.route
 function normalize(a){return ({'Problem framing':'Framing','Evidence':'Evidence & data','Economics':'Commercial reasoning','Decision design':'AI & controls','Execution':'Execution'})[a]||a}
 function home(){
  current=null;document.title='Case Lab · ReadSigil';const root=$('#app');root.replaceChildren();
- root.innerHTML='<section class="lab-hero"><p class="eyebrow">READSIGIL / CASE LAB</p><h1>Your next call.<br><em>Four high-stakes cases.</em></h1><p class="deck">You are responsible for the decision. Ask to see the reports you need, respond as new facts emerge, and recommend what management should do. Once you finish, review the reasoning and results.</p></section><section class="cases-grid" id="catalogue" aria-label="Choose a decision case"></section><section class="note"><p><strong>How to play:</strong> Open a case and follow the evidence. The choices you make are recorded, and you can review the consequences at the end.</p></section>';
+ root.innerHTML='<section class="lab-hero"><p class="eyebrow">READSIGIL / CASE LAB</p><h1>Your next call.<br><em>Four high-stakes cases.</em></h1><p class="deck">You are responsible for the decision. Ask to see the reports you need, respond as new facts emerge, and recommend what management should do. Once you finish, review the reasoning and results.</p></section><section class="cases-grid" id="catalogue" aria-label="Choose a decision case"></section>';
  D.forEach(c=>{
  const p=data[c.id],a=n('article','case-card');a.tabIndex=0;a.setAttribute('role','button');a.setAttribute('aria-label','Open case '+c.name);
  a.innerHTML='<div class="case-meta">CASE FILE '+String(D.indexOf(c)+1).padStart(3,'0')+' · '+esc(c.sector)+'</div><h2>'+esc(c.name)+'</h2><p>'+esc(c.teaser||'A decision taken on incomplete information.')+'</p><div class="case-bottom"><span>'+c.steps.length+' decisions · 50–70 minutes</span><strong>'+(p?.finished?'Review assessment':p?.answers?.length?'Resume investigation':'Open case file')+' →</strong></div>';
@@ -35,7 +35,7 @@ function step(){
  const s=current.steps[idx];localChoice=null;localRoute=null;routeLocked=false;answerLocked=false;hintUsed=false;
  const root=$('#app');root.replaceChildren();
  const earned=r.answers.reduce((v,a)=>v+(a.routePoints||0)+(a.answerPoints||0),0);
- root.innerHTML='<div class="session-top"><a href="../cases.html">← Casebook</a><button id="leave" type="button">All cases</button></div><div class="scoreboard" role="group" aria-label="Live case scoreboard"><div><small>DECISIONS REMAINING</small><strong>'+ (current.steps.length-idx)+'</strong></div><div><small>DECISIONS REVIEWED</small><strong>'+idx+' <span>/ '+current.steps.length+'</span></strong></div><div><small>ANALYSIS</small><strong>After your recommendation</strong></div><div><small>REPORT</small><strong>After final decision</strong></div></div><div class="session-meta"><span>'+esc(current.sector)+'</span><span>'+esc(s.phase||'Investigation')+' · '+(idx+1)+' / '+current.steps.length+'</span></div><div class="meter" aria-hidden="true"><i style="width:'+Math.round(idx/current.steps.length*100)+'%"></i></div><section class="case-body"><aside class="evidence"><p class="eyebrow">YOUR MANDATE</p><h2>'+esc(current.name)+'</h2><p>'+esc(current.mandate)+'</p><div class="roles"><strong>Role</strong><span>'+esc(current.role)+'</span></div><div class="notebook"><h3>Evidence inventory</h3><p>'+idx+' exhibit'+(idx===1?'':'s')+' reviewed. Earlier findings remain in the case debrief.</p><button class="ghost" id="notes">My working notes</button><textarea id="scratch" aria-label="Private working notes" rows="5" placeholder="Hypotheses, calculations, unanswered questions..."></textarea></div></aside><section class="work"><p class="eyebrow">DECISION '+String(idx+1).padStart(2,'0')+' / '+esc(s.phase||'DISCOVERY')+'</p><h1>'+esc(s.title)+'</h1><p class="lead">'+esc(s.prompt)+'</p><section id="activity"></section><section id="exhibit" hidden></section><section id="decision" hidden></section><section id="feedback" aria-live="polite"></section></section></section>';
+ root.innerHTML='<div class="session-top"><a href="../cases.html">← Casebook</a><button id="leave" type="button">All cases</button></div><div class="scoreboard" role="group" aria-label="Live case scoreboard"><div><small>STEPS LEFT</small><strong>'+ (current.steps.length-idx)+'</strong></div><div><small>STEPS COMPLETED</small><strong>'+idx+' <span>/ '+current.steps.length+'</span></strong></div><div><small>ANALYSIS</small><strong>After your call</strong></div><div><small>BOARD REVIEW</small><strong>After your recommendation</strong></div></div><div class="session-meta"><span>'+esc(current.sector)+'</span><span>'+esc(s.phase||'Investigation')+' · '+(idx+1)+' / '+current.steps.length+'</span></div><div class="meter" aria-hidden="true"><i style="width:'+Math.round(idx/current.steps.length*100)+'%"></i></div><section class="case-body"><aside class="evidence"><p class="eyebrow">YOUR MANDATE</p><h2>'+esc(current.name)+'</h2><p>'+esc(current.mandate)+'</p><div class="roles"><strong>Role</strong><span>'+esc(current.role)+'</span></div><div class="notebook"><h3>Evidence inventory</h3><p>'+idx+' exhibit'+(idx===1?'':'s')+' reviewed. Earlier findings remain in the case debrief.</p><button class="ghost" id="notes">My working notes</button><textarea id="scratch" aria-label="Private working notes" rows="5" placeholder="Hypotheses, calculations, unanswered questions..."></textarea></div></aside><section class="work"><p class="eyebrow">DECISION '+String(idx+1).padStart(2,'0')+' / '+esc(s.phase||'DISCOVERY')+'</p><h1>'+esc(s.title)+'</h1><p class="lead">'+esc(s.prompt)+'</p><section id="activity"></section><section id="exhibit" hidden></section><section id="decision" hidden></section><section id="feedback" aria-live="polite"></section></section></section>';
  $('#leave').onclick=home;
  const scratch=$('#scratch');scratch.value=r.notes||'';scratch.oninput=()=>{r.notes=scratch.value;persist()};
  $('#notes').onclick=()=>{scratch.hidden=!scratch.hidden};scratch.hidden=true;
@@ -48,23 +48,81 @@ function step(){
  }));
 }
 function showQuestion(s,routePoints){
- const d=$('#decision');d.hidden=false;d.innerHTML='<h3>The next decision</h3><p class="micro">Your first submitted response is used in the assessment. Numeric answers must use the displayed unit.</p><p class="question">'+esc(s.question)+'</p>';localChoice=null;
- if(s.type==='number'){const row=n('div','number-answer');const input=n('input','numeric');input.type='number';input.step='any';input.inputMode='decimal';input.placeholder='Your estimate';input.setAttribute('aria-label','Enter numeric answer in '+s.unit);input.oninput=()=>{localChoice=input.value};row.append(input,n('span','unit',s.unit||''));d.append(row)}
- else{const opts=n('div','options');s.choices.forEach((x,i)=>{const b=button(x,'option',()=>{localChoice=i;[...opts.children].forEach(v=>v.classList.remove('selected'));b.classList.add('selected')});opts.append(b)});d.append(opts)}
- const actions=n('div','controls');const hint=button('See a clue (−2 points)','ghost',()=>{hintUsed=true;hint.disabled=true;d.append(n('p','hint',s.hint||'Find the outcome, its counterfactual and the binding constraint. Distinguish a credible diagnosis from a plausible intervention.'))});actions.append(hint);
- actions.append(button('Lock decision →','primary',()=>{if(answerLocked||localChoice===null||localChoice==='')return;
- const v=s.type==='number'?Number(localChoice):localChoice;if(s.type==='number'&&!Number.isFinite(v))return;
- const correct=s.type==='number'?Math.abs(v-s.answer)<=s.tolerance:v===s.answer;const answerPoints=correct?(hintUsed?4:6):0;answerLocked=true;
- const r=store();r.answers.push({route:localRoute,routePoints,answer:v,answerPoints,correct,hintUsed,area:normalize(s.area),phase:s.phase||''});persist();
- d.querySelectorAll('button,input').forEach(e=>e.disabled=true);
- const f=$('#feedback');const fb=n('div','feedback');
- fb.innerHTML='<p class="eyebrow">'+(mode==='learn'?'EVIDENCE REVIEW':'DECISION RECORDED')+'</p><h3>To be reviewed when you finish</h3>'+(mode==='learn'?'<p>'+esc(s.reason)+'</p>':'<p>The supporting analysis will be available after you finish the case.</p>')+'<div class="controls" id="continue"></div>';
- if(mode==='learn'&&s.optionNotes&&s.type!=='number'){const p=n('p','micro','On your choice: '+(s.optionNotes[v]||''));fb.insertBefore(p,fb.lastChild)}
- f.append(fb);
- $('#continue').append(button(r.answers.length===current.steps.length?'Final executive defence →':'Proceed to next evidence →','primary',()=>{if(r.answers.length===current.steps.length)conclusion();else step();window.scrollTo(0,0)}));
- }));
+ const d=$('#decision');d.hidden=false;d.innerHTML='<h3>What would you do?</h3><p class="question">'+esc(s.question)+'</p>';
+ localChoice=null;
+ const actions=n('div','controls');
+ const send=button('Confirm and continue →','primary',submit);
+ send.disabled=true;
+ let numericInput=null;
+ let errorBox=null;
+ function valid(){
+  if(s.type==='number')return numericInput!==null&&numericInput.value.trim()!==''&&numericInput.validity.valid&&Number.isFinite(Number(numericInput.value));
+  return Number.isInteger(localChoice);
+ }
+ function refresh(){
+  send.disabled=!valid()||answerLocked;
+  if(errorBox){errorBox.hidden=true;errorBox.textContent='';}
+  if(numericInput)numericInput.setAttribute('aria-invalid','false');
+ }
+ if(s.type==='number'){
+  const row=n('div','number-answer'),label=n('label','answer-label','Your figure'),input=n('input','numeric');
+  input.type='number';input.step='any';input.inputMode='decimal';input.autocomplete='off';
+  input.placeholder='Enter a number';input.id='case-number-answer';
+  label.setAttribute('for',input.id);
+  input.setAttribute('aria-label','Your figure in '+(s.unit||'the stated units'));
+  input.oninput=()=>{localChoice=input.value;refresh()};
+  input.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();submit()}};
+  numericInput=input;
+  row.append(label,input);
+  if(s.unit)row.append(n('span','unit',s.unit));
+  errorBox=n('p','input-error','');errorBox.id='case-number-error';errorBox.hidden=true;errorBox.setAttribute('role','alert');
+  input.setAttribute('aria-describedby',errorBox.id);
+  d.append(row,errorBox);
+ } else {
+  const opts=n('div','options');
+  s.choices.forEach((x,i)=>{const b=button(x,'option',()=>{
+   localChoice=i;
+   [...opts.children].forEach(v=>{v.classList.remove('selected');v.setAttribute('aria-pressed','false')});
+   b.classList.add('selected');b.setAttribute('aria-pressed','true');refresh();
+  });
+  b.setAttribute('aria-pressed','false');opts.append(b)});
+  d.append(opts);
+ }
+ const hint=button('Need a hint? (−2 points)','ghost',()=>{
+  if(hintUsed)return;
+  hintUsed=true;hint.disabled=true;
+  d.insertBefore(n('p','hint',s.hint||'Think about which facts would change the financial or operating decision.'),actions);
+ });
+ actions.append(send,hint);
  d.append(actions);
+ function submit(){
+  if(answerLocked)return;
+  if(!valid()){
+   if(numericInput){
+    errorBox.hidden=false;errorBox.textContent='Enter a valid number'+(s.unit?' in '+s.unit:'')+'.';
+    numericInput.setAttribute('aria-invalid','true');numericInput.focus();
+   }
+   return;
+  }
+  const v=s.type==='number'?Number(numericInput.value):localChoice;
+  const correct=s.type==='number'?Math.abs(v-s.answer)<=s.tolerance:v===s.answer;
+  const answerPoints=correct?(hintUsed?4:6):0;
+  answerLocked=true;
+  const r=store();
+  r.answers.push({route:localRoute,routePoints,answer:v,answerPoints,correct,hintUsed,area:normalize(s.area),phase:s.phase||''});
+  persist();
+  d.querySelectorAll('button,input').forEach(e=>e.disabled=true);
+  const f=$('#feedback');const fb=n('div','feedback');
+  fb.innerHTML='<p class="eyebrow">'+(mode==='learn'?'ANALYST VIEW':'DECISION NOTED')+'</p><h3>'+ (mode==='learn'?'What the analysis shows':'Next') +'</h3>'+(mode==='learn'?'<p>'+esc(s.reason)+'</p>':'<p>We will review the reasoning once you finish the case.</p>')+'<div class="controls" id="continue"></div>';
+  if(mode==='learn'&&s.optionNotes&&s.type!=='number'){const p=n('p','micro','On your choice: '+(s.optionNotes[v]||''));fb.insertBefore(p,fb.lastChild)}
+  f.append(fb);
+  $('#continue').append(button(r.answers.length===current.steps.length?'Present your recommendation →':'Next development →','primary',()=>{
+   if(r.answers.length===current.steps.length)conclusion();else step();
+   window.scrollTo(0,0);
+  }));
+ }
 }
+
 function conclusion(){
  const r=store(),root=$('#app');root.replaceChildren();
  root.innerHTML='<div class="session-top"><button id="back">← Case Lab</button><span>Executive defence</span></div><section class="work memo"><p class="eyebrow">BOARDROOM / FINAL RESPONSE</p><h1>Your recommendation</h1><p class="lead">You have seen the evidence. The board wants a decision. Write a short recommendation based on the facts available, stating your financial and risk assumptions.</p><label for="memo">Your executive memo</label><textarea id="memo" rows="12" placeholder="Decision requested; root cause and evidence; business, process, data and technology intervention; AI boundary (if relevant); fully loaded economics and counterfactual; accountable owners, staging, stop rules..."></textarea><p class="micro">Your written response is saved in this browser and is not scored.</p><div class="controls"><button class="primary" id="submit-memo">View complete assessment →</button></div></section>';

@@ -1,0 +1,42 @@
+name: Workshops end to end
+
+on:
+  push:
+    branches: [main]
+    paths: ['build-lab/close-the-books/**', 'assets/engines/**', 'tests/workshops/**', '.github/workflows/workshops.yml']
+  pull_request:
+    paths: ['build-lab/close-the-books/**', 'assets/engines/**', 'tests/workshops/**', '.github/workflows/workshops.yml']
+  workflow_dispatch:
+
+jobs:
+  close-the-books:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chromium, webkit]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Playwright
+        run: |
+          pip install playwright==1.56.0
+          python -m playwright install --with-deps ${{ matrix.browser }}
+      - name: Run workshop 1 end to end (${{ matrix.browser }}, phone size)
+        env:
+          BASE_URL: http://localhost:8000
+          BROWSER: ${{ matrix.browser }}
+          SHOTS: test-results
+        run: |
+          python -m http.server 8000 >/dev/null 2>&1 &
+          sleep 2
+          python tests/workshops/close_the_books_e2e.py
+      - name: Keep screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: close-the-books-${{ matrix.browser }}
+          path: test-results

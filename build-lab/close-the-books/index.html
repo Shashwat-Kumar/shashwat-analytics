@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https:; connect-src 'self' blob: https://cloudflareinsights.com; worker-src 'self' blob:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Close the Books | UPI reconciliation workshop with Postgres and DuckDB | ReadSigil</title>
+<meta name="description" content="UPI settlement does not tie to the ledger and Finance signs off at 09:30. Investigate with real Postgres and DuckDB in your browser, raise corrections and run a retry-safe correction job.">
+<link rel="canonical" href="https://readsigil.com/build-lab/close-the-books/">
+<meta property="og:type" content="article"><meta property="og:title" content="The numbers match. The money doesn't."><meta property="og:description" content="UPI settlement does not tie to the ledger and Finance signs off at 09:30. Investigate with real Postgres and DuckDB in your browser, raise corrections and run a retry-safe correction job."><meta property="og:url" content="https://readsigil.com/build-lab/close-the-books/"><meta property="og:image" content="https://readsigil.com/assets/img/og-image.png">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link href="/assets/fonts/f-7f379b564b.css" rel="stylesheet">
+<style>
+/* Layout: one 760px reading column in ReadSigil's system. The incident and its evidence come first; investigation consoles open only when the reader chooses them. */
+:root{
+  --bg:#fbfaf7; --card:#ffffff; --fg:#262624; --h:#111110; --mut:#5c5c58; --rule:#e7e4dd; --wash:#f3f1eb;
+  --accent:#0b5d63; --pop:#c2410c; --ok:#0a7a55; --ok-wash:#e7f5ef; --bad:#b42318; --bad-wash:#fdeceb; --code-bg:#f6f4ef;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif; --sans:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1211; --card:#161a19; --fg:#d9dcd8; --h:#f3f2ee; --mut:#b9b8b2; --rule:#2a2e2c; --wash:#1b201e;
+  --accent:#7fd0c9; --pop:#ff8a63; --ok:#5fe0b0; --ok-wash:#12261f; --bad:#ff8a7a; --bad-wash:#2a1615; --code-bg:#121615; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1211; --card:#161a19; --fg:#d9dcd8; --h:#f3f2ee; --mut:#b9b8b2; --rule:#2a2e2c; --wash:#1b201e;
+  --accent:#7fd0c9; --pop:#ff8a63; --ok:#5fe0b0; --ok-wash:#12261f; --bad:#ff8a7a; --bad-wash:#2a1615; --code-bg:#121615; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:17px/1.7 var(--serif);margin:0}
+body.tracking{padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--accent);text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+h1,h2,h3{color:var(--h);text-wrap:balance;font-family:var(--serif);font-weight:600;line-height:1.15}
+.top{border-bottom:1px solid var(--rule)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.brand{font:600 1.1rem/1 var(--serif);color:var(--h);text-decoration:none}
+.top nav{display:flex;gap:18px;font:500 .9rem/1 var(--sans)}
+.top nav a{color:var(--mut);text-decoration:none}.top nav a[aria-current]{color:var(--h)}
+.kicker{font:600 .75rem/1.4 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin:44px 0 10px}
+h1{font-size:clamp(2.1rem,1.3rem + 3.4vw,3.3rem);letter-spacing:-.02em;margin:0 0 14px}
+.sit{font:500 .95rem/1.5 var(--sans);color:var(--mut);margin:0 0 22px}
+.memo{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;margin:0 0 18px;font:400 .95rem/1.55 var(--sans)}
+.memo .hd{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 14px;color:var(--mut);font-size:.8rem;margin-bottom:6px}
+.memo p{margin:0}
+.ev{border:1px solid var(--rule);border-radius:10px;background:var(--card);overflow:hidden;margin:0 0 36px;font-family:var(--sans)}
+.evrow{padding:14px 16px;border-bottom:1px solid var(--rule)}
+.evrow:last-child{border-bottom:0}
+.evlab{display:flex;justify-content:space-between;gap:10px;font:600 .72rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--mut);margin-bottom:8px}
+.pill{font:600 .7rem/1 var(--sans);letter-spacing:.04em;padding:4px 8px;border-radius:999px;text-transform:uppercase}
+.pill.ok{background:var(--ok-wash);color:var(--ok)}.pill.no{background:var(--bad-wash);color:var(--bad)}
+.figs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.figs div{min-width:0}
+.figs small{display:block;font:400 .78rem/1.35 var(--sans);color:var(--mut)}
+.figs b{display:block;font:500 1.05rem/1.35 var(--mono);color:var(--h);font-variant-numeric:tabular-nums;margin-top:3px;white-space:nowrap}
+.figs b.gap{color:var(--pop)}
+h2.sec{font-size:1.6rem;margin:0 0 6px}
+.secsub{font:400 .95rem/1.55 var(--sans);color:var(--mut);margin:0 0 16px}
+.paths{display:grid;gap:10px;margin:0 0 28px}
+.path{display:grid;grid-template-columns:1fr auto;gap:4px 14px;align-items:center;width:100%;text-align:left;background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:14px 16px;cursor:pointer;color:var(--fg);font-family:var(--sans);min-height:44px}
+.path:hover{border-color:var(--mut)}
+.path strong{font:600 1rem/1.35 var(--sans);color:var(--h)}
+.path span.q{font-size:.88rem;color:var(--mut);grid-column:1}
+.path .st{grid-column:2;grid-row:1/span 2;font:600 .72rem/1 var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--mut);white-space:nowrap}
+.path[aria-expanded="true"]{border-color:var(--accent)}
+.path.done .st{color:var(--ok)}
+.inv,.step{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:22px 20px 20px;margin:0 0 22px;scroll-margin-top:16px}
+.inv.done,.step.done{border-color:color-mix(in srgb,var(--ok) 45%,var(--rule))}
+.eye{font:600 .75rem/1 var(--sans);letter-spacing:.06em;color:var(--mut);text-transform:uppercase;margin:0 0 8px}
+.inv h3,.step h3{font-size:1.4rem;margin:0 0 10px}
+.inv p,.step p{margin:0 0 12px}
+.ask{font:500 .95rem/1.5 var(--sans);color:var(--h);background:var(--wash);border-radius:8px;padding:10px 12px;margin:4px 0 14px}
+.console{border:1px solid var(--rule);border-radius:10px;overflow:hidden;background:var(--code-bg)}
+.chead{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 12px;border-bottom:1px solid var(--rule);font:500 .78rem/1.2 var(--sans);color:var(--mut)}
+.kbd{font:400 .72rem/1 var(--mono)}
+@media (hover:none){.kbd{display:none}}
+textarea{display:block;width:100%;border:0;resize:vertical;min-height:120px;padding:12px 14px;background:transparent;color:var(--h);font:400 15px/1.6 var(--mono);tab-size:2;outline:none;white-space:pre;overflow-x:auto;overflow-wrap:normal}
+.console:focus-within{border-color:var(--accent)}
+details.tbls{border-top:1px solid var(--rule);font-family:var(--sans)}
+details.tbls summary{cursor:pointer;padding:8px 12px;font:500 .8rem/1.3 var(--sans);color:var(--mut)}
+.tbl{padding:0 12px 10px}
+.tbl h4{margin:0 0 2px;font:500 .8rem/1.4 var(--mono);color:var(--h)}
+.tbl p{margin:0 0 2px;font-size:.8rem;color:var(--mut)}
+.tbl code{font:400 .76rem/1.55 var(--mono);color:var(--fg);display:block;overflow-wrap:anywhere}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+button.b{min-height:44px;padding:0 18px;border-radius:999px;font:600 .9rem/1 var(--sans);cursor:pointer;border:1px solid var(--h);background:var(--h);color:var(--bg)}
+button.b.alt{background:transparent;color:var(--h);border-color:var(--rule)}
+button.b.alt:hover{border-color:var(--mut)}
+button.b:disabled{opacity:.5;cursor:progress}
+.out{margin-top:12px}
+.status{font:500 .8rem/1.4 var(--sans);color:var(--mut);margin:0 0 6px}
+.grid{overflow:auto;max-height:340px;border:1px solid var(--rule);border-radius:8px;background:var(--card)}
+table.r{border-collapse:collapse;font:400 .82rem/1.4 var(--mono);font-variant-numeric:tabular-nums;width:max-content;min-width:100%}
+table.r th{position:sticky;top:0;background:var(--wash);color:var(--h);font-weight:500;text-align:left;padding:7px 10px;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.r td{padding:6px 10px;border-bottom:1px solid var(--rule);white-space:nowrap;color:var(--fg)}
+table.r .n{text-align:right}
+table.r tr:last-child td{border-bottom:0}
+.nul{color:var(--mut)}
+.err{font:400 .85rem/1.5 var(--mono);color:var(--bad);background:var(--bad-wash);border-radius:8px;padding:10px 12px;white-space:pre-wrap;overflow-wrap:anywhere}
+.fb{font:400 .95rem/1.55 var(--sans);border-radius:8px;padding:12px 14px;margin-top:12px}
+.fb.ok{background:var(--ok-wash);color:var(--h)}.fb.ok strong{color:var(--ok)}
+.fb.no{background:var(--bad-wash);color:var(--h)}.fb.no strong{color:var(--bad)}
+.fb p{margin:0 0 6px}.fb p:last-child{margin:0}
+.hint{font:400 .92rem/1.55 var(--sans);background:var(--wash);border-radius:8px;padding:12px 14px;margin-top:12px}
+.sol{margin-top:12px}
+.sol pre,pre.code{margin:0;background:var(--code-bg);border:1px solid var(--rule);border-radius:8px;padding:12px 14px;overflow:auto;font:400 .82rem/1.6 var(--mono);color:var(--h)}
+.sol .b{margin-top:8px}
+code.i{font:400 .85em/1 var(--mono);background:var(--wash);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+details.bridge{margin-top:16px;border-top:1px solid var(--rule);padding-top:12px;font-family:var(--sans)}
+details.bridge summary{cursor:pointer;font:600 .85rem/1.4 var(--sans);color:var(--accent)}
+details.bridge p{font-size:.92rem;line-height:1.6;margin:10px 0 0}
+.reg{border:1px solid var(--rule);border-radius:12px;background:var(--card);padding:18px 18px 8px;margin:0 0 26px;font-family:var(--sans)}
+.reg h2{font-size:1.3rem;margin:0 0 4px}
+.reghd{display:flex;flex-wrap:wrap;gap:4px 16px;align-items:baseline;justify-content:space-between;margin-bottom:10px}
+.reghd .m{font:500 .95rem/1.4 var(--mono);color:var(--h);font-variant-numeric:tabular-nums}
+.reglist{list-style:none;margin:0;padding:0}
+.reglist li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:10px 0;border-top:1px solid var(--rule);font-size:.9rem}
+.reglist li .d{color:var(--mut);font-size:.82rem;grid-column:1;overflow-wrap:anywhere}
+.reglist li .a{grid-column:2;grid-row:1/span 2;font:500 .9rem/1.3 var(--mono);color:var(--h);text-align:right;align-self:center}
+.reglist li.empty{display:block;color:var(--mut)}
+form.req{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-family:var(--sans);margin:4px 0 0}
+form.req label{display:flex;flex-direction:column;gap:5px;font:500 .82rem/1.3 var(--sans);color:var(--h);min-width:0}
+form.req .full{grid-column:1/-1}
+form.req input,form.req select{min-height:44px;border:1px solid var(--rule);border-radius:8px;background:var(--bg);color:var(--h);font:400 16px/1.3 var(--sans);padding:8px 10px;width:100%}
+form.req input:focus,form.req select:focus{border-color:var(--accent);outline:none}
+form.req .hintline{font-weight:400;color:var(--mut);font-size:.78rem}
+.locked{font:400 .92rem/1.55 var(--sans);color:var(--mut);background:var(--wash);border-radius:8px;padding:12px 14px}
+.mtx{overflow-x:auto;border:1px solid var(--rule);border-radius:10px;background:var(--card);margin:0 0 14px}
+.mtx table{border-collapse:collapse;width:100%;font:400 .88rem/1.45 var(--sans)}
+.mtx th{text-align:left;font-weight:600;color:var(--h);background:var(--wash);padding:9px 12px;border-bottom:1px solid var(--rule)}
+.mtx td{padding:9px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+.mtx tr:last-child td{border-bottom:0}
+.mtx td.k{color:var(--h);font-weight:500}
+.mtx td.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.soon{font:600 .7rem/1 var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--mut);white-space:nowrap}
+.debrief{margin:8px 0 0}
+.debrief h2{font-size:1.9rem;margin:40px 0 10px}
+.debrief h3{font-size:1.15rem;margin:26px 0 8px}
+.debrief p,.debrief li{font-size:1rem}
+.series h2{font-size:1.5rem;margin:48px 0 8px}
+.tracker{position:fixed;left:0;right:0;bottom:0;z-index:5;background:var(--card);border-top:1px solid var(--rule);padding-bottom:env(safe-area-inset-bottom,0px)}
+.tracker .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:10px;font:500 .85rem/1.3 var(--sans);color:var(--mut)}
+.tracker b{font:500 .95rem/1.3 var(--mono);color:var(--h)}
+.tracker b.zero{color:var(--ok)}
+footer{border-top:1px solid var(--rule);margin-top:56px}
+footer .wrap{padding-block:22px 36px;font:400 .82rem/1.6 var(--sans);color:var(--mut)}
+footer p{margin:0 0 6px}
+footer .fnav{display:flex;flex-wrap:wrap;gap:6px 16px;padding-block:18px 6px}
+footer .fnav a{color:var(--mut);text-decoration:none;font:500 .85rem/1.4 var(--sans)}
+footer .bar{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;padding-block:6px 30px;font:400 .8rem/1.5 var(--sans);color:var(--mut)}
+footer .small{font-size:.8rem}
+.linkbtn{background:none;border:0;color:var(--accent);font:500 .82rem/1 var(--sans);cursor:pointer;padding:10px 0;text-decoration:underline;text-underline-offset:3px;margin-right:16px}
+@media (max-width:560px){
+  textarea{font-size:16px}
+  .figs{grid-template-columns:1fr;gap:6px}.figs div{display:flex;justify-content:space-between;align-items:baseline;gap:12px}.figs b{margin-top:0;font-size:.98rem}
+  .actions{display:grid;grid-template-columns:1fr 1fr}.actions .b{padding:0 10px}
+  .inv,.step{padding:18px 14px 16px}
+  form.req{grid-template-columns:1fr}
+  .top .wrap{flex-wrap:wrap;gap:6px 16px}.top nav{min-width:0;max-width:100%;overflow-x:auto;scrollbar-width:none;gap:16px;padding-bottom:2px}.top nav a{white-space:nowrap;padding-block:6px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="brand" href="/index.html">ReadSigil</a><nav><a href="/writing.html">Writing</a><a href="/magazine.html">The Signal</a><a href="/agora/index.html">Agora</a><a href="/lab/">Prompt Crucible</a><a href="/learn.html" class=on aria-current=page>Learn</a><a href="/cases.html">Cases</a><a href="/about-readsigil.html">About</a><a href="/contact.html">Connect</a></nav></div></header>
+
+<main class="wrap">
+  <p class="kicker">Build · Banking data stack · Workshop 1 of 8</p>
+  <h1>The numbers match. The money doesn't.</h1>
+  <p class="sit">Harbour Bank · Saturday 17 October, 07:42 · UPI settlement for 16 October is due for sign-off at 09:30.</p>
+
+  <div class="memo" role="note" aria-label="Message from Finance Control">
+    <div class="hd"><span><strong>Finance Control</strong> to Data Platform</span><span>07:42</span></div>
+    <p>The overnight check passed, but the settlement GL does not agree with NPCI's net settlement for 16 Oct. I can't sign off a difference I can't explain. I need the cause and the corrections approved before 09:30.</p>
+  </div>
+
+  <div class="ev" aria-label="Evidence">
+    <div class="evrow">
+      <div class="evlab"><span>Overnight count check</span><span class="pill ok">Matched</span></div>
+      <div class="figs"><div><small>NPCI raw file</small><b>1,800</b></div><div><small>Ledger UPI postings</small><b>1,800</b></div><div><small>Difference</small><b>0</b></div></div>
+    </div>
+    <div class="evrow">
+      <div class="evlab"><span>Settlement position, 16 Oct</span><span class="pill no">Not agreed</span></div>
+      <div class="figs"><div><small>NPCI net settlement, payable</small><b id="evNpci"></b></div><div><small>UPI settlement GL, payable</small><b id="evGl"></b></div><div><small>Difference</small><b class="gap" id="evGap"></b></div></div>
+    </div>
+  </div>
+
+  <h2 class="sec">Where do you start?</h2>
+  <p class="secsub">Pick a line of inquiry. You can follow all three, in any order.</p>
+  <div class="paths" id="paths"></div>
+  <div id="invs"></div>
+
+  <section class="reg" id="register" aria-labelledby="regH" hidden>
+    <div class="reghd"><h2 id="regH">Break register</h2><span class="m" id="regSum"></span></div>
+    <ul class="reglist" id="regList"></ul>
+  </section>
+
+  <section id="correct" hidden>
+    <h2 class="sec">Correct the books</h2>
+    <p class="secsub">Data Platform cannot post to the core ledger. Each correction goes to Finance Control for approval, then the correction job posts what was approved. One break is on the clock: under RBI's turnaround-time rules, a beneficiary bank has until T+1, which is today, to credit the customer or return the money. After that it owes the customer ₹100 a day.</p>
+    <div id="steps"></div>
+  </section>
+
+  <section class="debrief" id="debrief" hidden aria-labelledby="dbH"></section>
+
+  <section class="series" aria-labelledby="seriesH">
+    <h2 id="seriesH">The workshop series</h2>
+    <p class="secsub">Eight workshops on one fictional bank's end-of-day pipeline. Each maps the open-source tool to its counterpart on a Cloudera/Hadoop estate.</p>
+    <div class="mtx"><table>
+      <thead><tr><th>Workshop</th><th>Situation</th><th>Cloudera/Hadoop counterpart</th></tr></thead>
+      <tbody>
+        <tr><td class="k">1 · Postgres, DuckDB</td><td>UPI settlement does not tie to the ledger</td><td>Core banking replica; Impala or Hive over HDFS/Ozone</td></tr>
+        <tr><td class="k">2 · Kafka <span class="soon">In preparation</span></td><td>UPI events arrive out of order; consumer lag builds at month end</td><td>Kafka (Cloudera Streams Messaging)</td></tr>
+        <tr><td class="k">3 · Spark <span class="soon">In preparation</span></td><td>The EOD batch slows because one corporate account fills one partition</td><td>Spark on CDP, Cloudera Data Engineering</td></tr>
+        <tr><td class="k">4 · Iceberg <span class="soon">In preparation</span></td><td>Restate the March book after a late correction</td><td>Iceberg tables in CDP</td></tr>
+        <tr><td class="k">5 · dbt Core <span class="soon">In preparation</span></td><td>One definition of CASA ratio across fourteen reports</td><td>Hive and Impala SQL jobs; dbt-hive and dbt-impala adapters</td></tr>
+        <tr><td class="k">6 · Airflow <span class="soon">In preparation</span></td><td>The EOD pipeline fails at 02:10; backfill without posting twice</td><td>Oozie; Airflow in Cloudera Data Engineering</td></tr>
+        <tr><td class="k">7 · Metabase <span class="soon">In preparation</span></td><td>The MD's morning dashboard, built on reconciled numbers only</td><td>Cloudera Data Visualization, Hue</td></tr>
+        <tr><td class="k">8 · Capstone <span class="soon">In preparation</span></td><td>Run the whole end-of-day pipeline yourself</td><td>Docker on your laptop</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+</main>
+
+<div class="tracker" id="tracker" hidden><div class="wrap"><span>Unexplained <b id="trkAmt"></b></span><span id="trkSteps"></span></div></div>
+
+<div class="wrap" style="padding-block:8px 0;font:400 .82rem/1.6 var(--sans);color:var(--mut)"><p>Harbour Bank, its accounts and every figure here are fictional. The SQL, the controls and the failure modes are real. Postgres runs through PGlite and DuckDB through DuckDB-WASM, inside your browser. Your progress is kept in this browser only.</p><p><button class="linkbtn" id="resetData" type="button">Reset ledger to 06:00</button><button class="linkbtn" id="resetAll" type="button">Start over</button><span id="resetMsg" role="status"></span></p></div>
+<footer><div class="wrap"><nav class="fnav" aria-label="Footer"><a href="/index.html">Home</a><a href="/writing.html">Writing</a><a href="/magazine.html">The Signal</a><a href="/ideas.html">Ideas map</a><a href="/topics.html">Topics</a><a href="/learn.html">Learn</a><a href="/cases.html">Case studies</a><a href="/samples.html">Work samples</a><a href="/feed.xml">RSS</a></nav></div><div class="wrap bar"><span>ReadSigil · Independent publication · <span class="pv">Views <img class="counter" src="https://visitor-badge.laobi.icu/badge?page_id=shashwat-kumar.shashwat-analytics&amp;left_text=views&amp;left_color=%23999&amp;right_color=%23999" alt="Site page views" height="18" loading="lazy" referrerpolicy="no-referrer"></span></span><span class="small">Opinions belong to their authors. Work samples use fictional companies and synthetic data. Nothing here is legal, tax or regulatory advice.</span></div></footer>
+
+<script type="module" src="app.js?v=2"></script>
+</body>
+</html>

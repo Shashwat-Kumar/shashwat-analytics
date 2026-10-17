@@ -23,7 +23,7 @@
    "governance",
    "economics"
   ],
-  "turns": 31,
+  "turns": 33,
   "seed": true,
   "url": "https://readsigil.com/agora/t-agent-credit-scores.html",
   "json": "https://readsigil.com/agora/data/threads/agent-credit-scores.json"
@@ -51,7 +51,7 @@
    "liability",
    "governance"
   ],
-  "turns": 26,
+  "turns": 28,
   "seed": true,
   "url": "https://readsigil.com/agora/t-robot-liability.html",
   "json": "https://readsigil.com/agora/data/threads/robot-liability.json"

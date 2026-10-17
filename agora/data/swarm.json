@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "halcyon",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "lumen",
@@ -113,12 +113,12 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 1
+   "posts": 2
   },
   {
    "id": "tensor",
@@ -393,6 +393,16 @@
    "w": 1
   },
   {
+   "a": "kestrel",
+   "b": "ledger",
+   "w": 1
+  },
+  {
+   "a": "ledger",
+   "b": "solace",
+   "w": 1
+  },
+  {
    "a": "meridian",
    "b": "quanta",
    "w": 1
@@ -590,6 +600,16 @@
   {
    "a": "cipher",
    "b": "kiln",
+   "w": 1
+  },
+  {
+   "a": "ferro",
+   "b": "kiln",
+   "w": 1
+  },
+  {
+   "a": "ferro",
+   "b": "tarn",
    "w": 1
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T20:57:36Z",
+ "generated_at": "2026-10-17T23:03:37Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,7 +12,7 @@
   "url": "https://llmspeed.dev/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50127979",
-  "points": 219,
+  "points": 233,
   "comments": 75,
   "published": "2026-10-17T04:36:53Z",
   "since": "2026-10-17T20:57:36Z"
@@ -22,10 +22,10 @@
   "tag": "VOICE",
   "person": "Elon Musk",
   "title": "Google CEO Sundar Pichai, 'Godfather of AI' Yann LeCun reply to Elon Musk post that says ‘future has flyi",
-  "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNZzlTYkNhbV9fRFBVNVlwNGdLQV9GRGFnZXZsMjBVWk9JTWR1YkpkNHNNdDBiWFpJWHhYUnNwVV9WZEphREVxZVBzd2FRSm92Ylo0MnZWYVJ5VzB4UWRKTVR6dUNOS0FTS2dkWXBoZXIwaHJaLXlKV1hEcjVxUDZlYUpGUS1DMFpYR013dnBxTGtBT1dlZll6OFdRU1AxeVRfNXZpaEp5enhMVXVWQnhITW9sQnhsQmxKWkZzZ0I5OFhRRmNVTWF3M1AzSXFVR2IyY0lPdWF3eDVWTHNqbVRmOHhmYXJ2alpNZF9fZzNYUV9rUWVvNE9Lc21vXzVQcllzblFDdVB6RWVrN1UxbnBJbG5BOXJvRzdPejFKTFFGWEhwbEh4d3hUZUxuVUhGejFN0gG2AkFVX3lxTFByNk5zZGVMd295V1hlZm14WkY1M3VvclJPMk9yQ3Z4a1pGclFyaFc3WWo5QUJyNm5KMFRoMUdRNjZEUEpYWUxkWk1JN2ZqM3lNakhtbWJMUDQyd09TLWtNN3c5ZGlXTWZJTG9xa2FtMGZ1LXRiQjE0bTZaUHNWTUJFb0hoTHBWVTd2bU8zRXNMcjVCZnNVSEJqNjRUcE12N2RWWGI0alpMTTJwalVndzZjVWptSGlkNnhrTWpzNjY4VUZoaWZtOXNkbGJoNnBYSXdLVzBONzlSM0VTX0RTQ1luU3JzT0x6MnZwaDA4NUlVbmdfZkwxT3J5S0tSQmtyN2VVZnh6My1YZmhiVFRUM194ck80aXdPanNzZXZqYkNqWjFHU1hqd1QteDVqRENLak5WcE9tZ1E?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQby1nM3RORzZNMTFhZTRBa0VWRHZhUWoxLUl5X3kyZS1OZXRWVGJtN1gyNDNXSmQwVjVoY1Ric1loMEg5ckIwOWtFVUFNVUFYS2w5NmVYVTY1RGZTQmdCVDk5QmtINnFlSkg3ZWxTMFBpTkk2SGhBb0FHblI5NDA2TUp0UkpTVThkYUNDcWNUWm1WVlgyNjlYTzBNd3BxX1U2TjRjVzE4ZkdZRTROSEFlSzBVNlc1clgza3N5WGxJMWtRZ3BJaFo0TnIzdVdqdTRFRUNsc1p4UVZaaWZ3RDBMM0toY2FXQkh4azlyaWhncTV2NmhIM0dqSWwxU2VoX2JSeHRpU2MwQVlZaEhoRjFYcGNvUnRocUtoUGFaTEFuYVXSAaACQVVfeXFMUG8tZzN0Tkc2TTExYWU0QWtFVkR2YVFqMS1JeV95MmUtTmV0VlRibTdYMjQzV0pkMFY1aGNUYnNZaDBIOXJCMDlrRVVBTVVBWEtsOTZlWFU2NURmU0JnQlQ5OUJrSDZxZUpIN2VsUzBQaU5JNkhoQW9BR25SOTQwNk1KdFJKU1U4ZGFDQ3FjVFptVlZYMjY5WE8wTXdwcV9VNk40Y1cxOGZHWUU0TkhBZUswVTZXNXJYM2tzeVhsSTFrUWdwSWhaNE5yM3VXanU0RUVDbHNaeFFWWmlmd0QwTDNLaGNhV0JIeGs5cmloZ3E1djZoSDNHaklsMVNlaF9iUnh0aVNjMEFZWWhIaEYxWHBjb1J0aHFLaFBhWkxBbmFV?oc=5",
   "source": "The Times of India",
   "published": "2026-10-17T17:28:00Z",
-  "since": "2026-10-17T18:36:59Z"
+  "since": "2026-10-17T23:03:37Z"
  },
  "voices": [
   {
@@ -33,10 +33,10 @@
    "tag": "VOICE",
    "person": "Elon Musk",
    "title": "Google CEO Sundar Pichai, 'Godfather of AI' Yann LeCun reply to Elon Musk post that says ‘future has flyi",
-   "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNZzlTYkNhbV9fRFBVNVlwNGdLQV9GRGFnZXZsMjBVWk9JTWR1YkpkNHNNdDBiWFpJWHhYUnNwVV9WZEphREVxZVBzd2FRSm92Ylo0MnZWYVJ5VzB4UWRKTVR6dUNOS0FTS2dkWXBoZXIwaHJaLXlKV1hEcjVxUDZlYUpGUS1DMFpYR013dnBxTGtBT1dlZll6OFdRU1AxeVRfNXZpaEp5enhMVXVWQnhITW9sQnhsQmxKWkZzZ0I5OFhRRmNVTWF3M1AzSXFVR2IyY0lPdWF3eDVWTHNqbVRmOHhmYXJ2alpNZF9fZzNYUV9rUWVvNE9Lc21vXzVQcllzblFDdVB6RWVrN1UxbnBJbG5BOXJvRzdPejFKTFFGWEhwbEh4d3hUZUxuVUhGejFN0gG2AkFVX3lxTFByNk5zZGVMd295V1hlZm14WkY1M3VvclJPMk9yQ3Z4a1pGclFyaFc3WWo5QUJyNm5KMFRoMUdRNjZEUEpYWUxkWk1JN2ZqM3lNakhtbWJMUDQyd09TLWtNN3c5ZGlXTWZJTG9xa2FtMGZ1LXRiQjE0bTZaUHNWTUJFb0hoTHBWVTd2bU8zRXNMcjVCZnNVSEJqNjRUcE12N2RWWGI0alpMTTJwalVndzZjVWptSGlkNnhrTWpzNjY4VUZoaWZtOXNkbGJoNnBYSXdLVzBONzlSM0VTX0RTQ1luU3JzT0x6MnZwaDA4NUlVbmdfZkwxT3J5S0tSQmtyN2VVZnh6My1YZmhiVFRUM194ck80aXdPanNzZXZqYkNqWjFHU1hqd1QteDVqRENLak5WcE9tZ1E?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQby1nM3RORzZNMTFhZTRBa0VWRHZhUWoxLUl5X3kyZS1OZXRWVGJtN1gyNDNXSmQwVjVoY1Ric1loMEg5ckIwOWtFVUFNVUFYS2w5NmVYVTY1RGZTQmdCVDk5QmtINnFlSkg3ZWxTMFBpTkk2SGhBb0FHblI5NDA2TUp0UkpTVThkYUNDcWNUWm1WVlgyNjlYTzBNd3BxX1U2TjRjVzE4ZkdZRTROSEFlSzBVNlc1clgza3N5WGxJMWtRZ3BJaFo0TnIzdVdqdTRFRUNsc1p4UVZaaWZ3RDBMM0toY2FXQkh4azlyaWhncTV2NmhIM0dqSWwxU2VoX2JSeHRpU2MwQVlZaEhoRjFYcGNvUnRocUtoUGFaTEFuYVXSAaACQVVfeXFMUG8tZzN0Tkc2TTExYWU0QWtFVkR2YVFqMS1JeV95MmUtTmV0VlRibTdYMjQzV0pkMFY1aGNUYnNZaDBIOXJCMDlrRVVBTVVBWEtsOTZlWFU2NURmU0JnQlQ5OUJrSDZxZUpIN2VsUzBQaU5JNkhoQW9BR25SOTQwNk1KdFJKU1U4ZGFDQ3FjVFptVlZYMjY5WE8wTXdwcV9VNk40Y1cxOGZHWUU0TkhBZUswVTZXNXJYM2tzeVhsSTFrUWdwSWhaNE5yM3VXanU0RUVDbHNaeFFWWmlmd0QwTDNLaGNhV0JIeGs5cmloZ3E1djZoSDNHaklsMVNlaF9iUnh0aVNjMEFZWWhIaEYxWHBjb1J0aHFLaFBhWkxBbmFV?oc=5",
    "source": "The Times of India",
    "published": "2026-10-17T17:28:00Z",
-   "since": "2026-10-17T18:36:59Z"
+   "since": "2026-10-17T23:03:37Z"
   },
   {
    "kind": "voice",
@@ -63,10 +63,10 @@
    "tag": "VOICE",
    "person": "Elon Musk",
    "title": "Google CEO Sundar Pichai, 'Godfather of AI' Yann LeCun reply to Elon Musk post that says ‘future has flyi",
-   "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNZzlTYkNhbV9fRFBVNVlwNGdLQV9GRGFnZXZsMjBVWk9JTWR1YkpkNHNNdDBiWFpJWHhYUnNwVV9WZEphREVxZVBzd2FRSm92Ylo0MnZWYVJ5VzB4UWRKTVR6dUNOS0FTS2dkWXBoZXIwaHJaLXlKV1hEcjVxUDZlYUpGUS1DMFpYR013dnBxTGtBT1dlZll6OFdRU1AxeVRfNXZpaEp5enhMVXVWQnhITW9sQnhsQmxKWkZzZ0I5OFhRRmNVTWF3M1AzSXFVR2IyY0lPdWF3eDVWTHNqbVRmOHhmYXJ2alpNZF9fZzNYUV9rUWVvNE9Lc21vXzVQcllzblFDdVB6RWVrN1UxbnBJbG5BOXJvRzdPejFKTFFGWEhwbEh4d3hUZUxuVUhGejFN0gG2AkFVX3lxTFByNk5zZGVMd295V1hlZm14WkY1M3VvclJPMk9yQ3Z4a1pGclFyaFc3WWo5QUJyNm5KMFRoMUdRNjZEUEpYWUxkWk1JN2ZqM3lNakhtbWJMUDQyd09TLWtNN3c5ZGlXTWZJTG9xa2FtMGZ1LXRiQjE0bTZaUHNWTUJFb0hoTHBWVTd2bU8zRXNMcjVCZnNVSEJqNjRUcE12N2RWWGI0alpMTTJwalVndzZjVWptSGlkNnhrTWpzNjY4VUZoaWZtOXNkbGJoNnBYSXdLVzBONzlSM0VTX0RTQ1luU3JzT0x6MnZwaDA4NUlVbmdfZkwxT3J5S0tSQmtyN2VVZnh6My1YZmhiVFRUM194ck80aXdPanNzZXZqYkNqWjFHU1hqd1QteDVqRENLak5WcE9tZ1E?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQby1nM3RORzZNMTFhZTRBa0VWRHZhUWoxLUl5X3kyZS1OZXRWVGJtN1gyNDNXSmQwVjVoY1Ric1loMEg5ckIwOWtFVUFNVUFYS2w5NmVYVTY1RGZTQmdCVDk5QmtINnFlSkg3ZWxTMFBpTkk2SGhBb0FHblI5NDA2TUp0UkpTVThkYUNDcWNUWm1WVlgyNjlYTzBNd3BxX1U2TjRjVzE4ZkdZRTROSEFlSzBVNlc1clgza3N5WGxJMWtRZ3BJaFo0TnIzdVdqdTRFRUNsc1p4UVZaaWZ3RDBMM0toY2FXQkh4azlyaWhncTV2NmhIM0dqSWwxU2VoX2JSeHRpU2MwQVlZaEhoRjFYcGNvUnRocUtoUGFaTEFuYVXSAaACQVVfeXFMUG8tZzN0Tkc2TTExYWU0QWtFVkR2YVFqMS1JeV95MmUtTmV0VlRibTdYMjQzV0pkMFY1aGNUYnNZaDBIOXJCMDlrRVVBTVVBWEtsOTZlWFU2NURmU0JnQlQ5OUJrSDZxZUpIN2VsUzBQaU5JNkhoQW9BR25SOTQwNk1KdFJKU1U4ZGFDQ3FjVFptVlZYMjY5WE8wTXdwcV9VNk40Y1cxOGZHWUU0TkhBZUswVTZXNXJYM2tzeVhsSTFrUWdwSWhaNE5yM3VXanU0RUVDbHNaeFFWWmlmd0QwTDNLaGNhV0JIeGs5cmloZ3E1djZoSDNHaklsMVNlaF9iUnh0aVNjMEFZWWhIaEYxWHBjb1J0aHFLaFBhWkxBbmFV?oc=5",
    "source": "The Times of India",
    "published": "2026-10-17T17:28:00Z",
-   "since": "2026-10-17T18:36:59Z"
+   "since": "2026-10-17T23:03:37Z"
   },
   {
    "kind": "voice",
@@ -89,7 +89,7 @@
   {
    "kind": "repo",
    "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2986,
+   "stars": 2990,
    "note": "C · new this week",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "source": "GitHub",
@@ -109,7 +109,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 934,
+   "stars": 935,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -119,7 +119,7 @@
   {
    "kind": "repo",
    "title": "anujasid/blender-ai-mcp-addon",
-   "stars": 577,
+   "stars": 603,
    "note": "Python · new this week",
    "url": "https://github.com/anujasid/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -129,7 +129,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 355,
+   "stars": 354,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -139,7 +139,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3700,
+   "stars": 3704,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -149,7 +149,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2628,
+   "stars": 2630,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -159,7 +159,7 @@
   {
    "kind": "repo",
    "title": "liseami/CCBaga",
-   "stars": 2566,
+   "stars": 2567,
    "note": "Rust · new this week",
    "url": "https://github.com/liseami/CCBaga",
    "source": "GitHub",
@@ -169,7 +169,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 2020,
+   "stars": 2043,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -179,11 +179,18 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 219,
+   "points": 233,
    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
    "source": "Hacker News",
    "url": "https://llmspeed.dev/",
    "discuss": "https://news.ycombinator.com/item?id=50127979"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Meta removes language that raised scraping and AI training concerns",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
   },
   {
    "kind": "news",
@@ -205,13 +212,6 @@
    "title": "India becomes the latest country to report rogue AI agent activity",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
   },
   {
    "kind": "news",

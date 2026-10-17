@@ -1,6 +1,8 @@
 name: Engine reliability (manual)
 
 on:
+  push:
+    paths: ['tests/workshops/engine_stress.py', '.github/workflows/engine-stress.yml']
   workflow_dispatch:
     inputs:
       rounds:
@@ -25,7 +27,7 @@ jobs:
           python -m playwright install --with-deps ${{ matrix.browser }}
       - env:
           BROWSER: ${{ matrix.browser }}
-          ROUNDS: ${{ inputs.rounds }}
+          ROUNDS: ${{ inputs.rounds || '10' }}
         run: |
           openssl req -x509 -newkey rsa:2048 -nodes -subj /CN=localhost -keyout "$RUNNER_TEMP/key.pem" -out "$RUNNER_TEMP/cert.pem" -days 1 2>/dev/null
           python tests/workshops/serve_https.py 8443 "$RUNNER_TEMP/cert.pem" "$RUNNER_TEMP/key.pem" >/dev/null 2>&1 &

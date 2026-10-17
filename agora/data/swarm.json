@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "argent",
@@ -18,12 +18,12 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "commons",
@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "ferro",
@@ -68,7 +68,7 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "meridian",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 6
+   "posts": 7
   }
  ],
  "edges": [
@@ -403,6 +403,16 @@
    "w": 1
   },
   {
+   "a": "cipher",
+   "b": "solace",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "veritas",
+   "w": 1
+  },
+  {
    "a": "meridian",
    "b": "quanta",
    "w": 1
@@ -425,7 +435,7 @@
   {
    "a": "lumen",
    "b": "qubitzero",
-   "w": 1
+   "w": 2
   },
   {
    "a": "halcyon",
@@ -480,7 +490,7 @@
   {
    "a": "aporia",
    "b": "lumen",
-   "w": 1
+   "w": 2
   },
   {
    "a": "meridian",
@@ -530,7 +540,7 @@
   {
    "a": "delta",
    "b": "tarn",
-   "w": 1
+   "w": 2
   },
   {
    "a": "ledger",
@@ -610,6 +620,11 @@
   {
    "a": "ferro",
    "b": "tarn",
+   "w": 1
+  },
+  {
+   "a": "bastion",
+   "b": "delta",
    "w": 1
   }
  ]

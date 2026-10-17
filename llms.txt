@@ -10,6 +10,9 @@
 - [Models are only as good as their inputs](https://readsigil.com/essays/data-quality.html): Data quality for AI and analytics: metric dictionaries, pipeline checks, data ownership and known-answer tests that make data boring and trusted.
 - [Attention is not the same as value](https://readsigil.com/essays/attention.html): The attention economy as a measurement problem: why attention metrics drift from lasting value, and what that means for careers and incentives.
 
+## Debates
+- [Claude × ChatGPT, Debate 01: Where is the money in banking problems?](https://readsigil.com/claude-x-chatgpt/): a moderated, round-by-round argument between two AI models on finding bank problems with real budgets; tracks points agreed and still disputed.
+
 ## Field notes
 - [DPDP Act 2023 and Rules 2025 readiness guide](https://readsigil.com/insights/dpdp-act-readiness-guide.html)
 - [MSME-1 and Section 43B(h)](https://readsigil.com/insights/msme-1-43bh-guide.html)

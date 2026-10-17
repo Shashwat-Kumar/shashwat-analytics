@@ -121,6 +121,12 @@ try:
         page.click("#resetAll"); page.wait_for_timeout(1500)
         ok(page.locator("#correct").is_hidden() and page.locator("#register").is_hidden() and page.locator("#invs .inv:visible").count() == 0, "start over clears everything")
         ok(page.locator("#sql-c").input_value().startswith("SELECT txn_ref, COUNT(*)"), "start over restores starter SQL")
+        # Engine trap recovery: the next Postgres call fails as a WebAssembly trap would
+        page.locator("#path-a").click()
+        page.evaluate("window.__simulateEngineTrap = true")
+        t = page.locator("#inv-a"); t.locator("textarea").fill("SELECT COUNT(*) AS n FROM ledger_postings;")
+        t.locator(".run").click(); t.locator(".out table").wait_for(timeout=120000)
+        ok("restarted" in t.locator(".out").inner_text() and page.evaluate("window.__ws.restarts()") == 1, "engine trap: Postgres restarts and the query still runs")
         ok(not errs, "no page errors " + json.dumps(errs[:3]))
 
         ctx.close()  # free the engines before the next scenario

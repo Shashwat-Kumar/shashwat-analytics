@@ -244,6 +244,25 @@ function getPg() {
     return db;
   })().catch((e) => { pgP = null; throw e; });
 }
+// If the Postgres engine itself fails (a WebAssembly trap, not a SQL error), start a fresh
+// engine from the 06:00 ledger plus approved requests and retry once. The reader is told.
+const engineCrash = (e) => e && !e.severity && !e.code && (e instanceof WebAssembly.RuntimeError || /RuntimeError|null reference|unreachable|getWasmTableEntry|memory access out of bounds/i.test(String(e && (e.message || e))));
+let engineRestarts = 0;
+async function withPg(fn) {
+  try {
+    const db = await getPg();
+    if (window.__simulateEngineTrap) { window.__simulateEngineTrap = false; throw new WebAssembly.RuntimeError('simulated engine trap (test hook)'); }
+    return await fn(db);
+  }
+  catch (e) {
+    if (!engineCrash(e)) throw e;
+    engineRestarts++;
+    pgP = null;
+    const r = await fn(await getPg());
+    if (r && typeof r === 'object') r.restarted = true;
+    return r;
+  }
+}
 async function seedDuck(conn) {
   await conn.query(`DROP TABLE IF EXISTS npci_raw; DROP TABLE IF EXISTS npci_net_settlement; DROP TABLE IF EXISTS ledger_extract; DROP TABLE IF EXISTS gl_accounts; DROP TABLE IF EXISTS accounts;`);
   await conn.query(SEED_DUCK);
@@ -262,7 +281,9 @@ function getDuck() {
 }
 const NUMT = new Set([20, 21, 23, 700, 701, 1700]);
 async function runPg(sql) {
-  const db = await getPg();
+  return withPg((db) => runPgOn(db, sql));
+}
+async function runPgOn(db, sql) {
   const res = await db.exec(sql);
   const last = [...res].reverse().find((r) => r.fields && r.fields.length) || null;
   const affected = res.reduce((t, r) => t + (r.affectedRows || 0), 0);
@@ -401,7 +422,7 @@ function wireConsole(el, c, onCheck) {
     busy(true); fbw.innerHTML = '';
     out.innerHTML = `<p class="status">${started(c.eng) ? 'Running…' : startMsg[c.eng]}</p>`;
     const t0 = performance.now();
-    try { const res = await run(c.eng, ta.value); out.innerHTML = renderResult(res, Math.round(performance.now() - t0)); return res; }
+    try { const res = await run(c.eng, ta.value); out.innerHTML = (res.restarted ? '<p class="status">The Postgres engine stopped unexpectedly and was restarted from the 06:00 ledger. Your query ran on the fresh copy.</p>' : '') + renderResult(res, Math.round(performance.now() - t0)); return res; }
     catch (e) { out.innerHTML = `<div class="err">${esc(e.message || e)}</div>`; return null; }
     finally { busy(false); }
   };
@@ -496,8 +517,8 @@ async function reconcile(db) {
 }
 const breakTable = (b) => `<div class="grid" style="margin-top:8px"><table class="r"><thead><tr><th>account_id</th><th class="n">ledger</th><th class="n">NPCI</th><th class="n">difference</th></tr></thead><tbody>${b.slice(0, 8).map((x) => `<tr><td>${x.k}</td><td class="n">${inr(x.l)}</td><td class="n">${inr(x.s)}</td><td class="n">${inr(x.l - x.s)}</td></tr>`).join('')}</tbody></table></div>`;
 let baseline = null;
-JOB.customCheck = async (sql) => {
-  const db = await getPg();
+JOB.customCheck = (sql) => withPg((db) => jobCheck(db, sql));
+async function jobCheck(db, sql) {
   await seedPg(db);
   baseline ||= await integrity(db);
   const statuses = Object.fromEntries([...D.requests, ...state.requests].map((r) => [r.request_id, r.status]));
@@ -522,7 +543,7 @@ JOB.customCheck = async (sql) => {
   const s2 = await stage('retry');
   if (s2.err) return { ok: false, html: s2.err };
   if (s2.rows !== s1.rows) return { ok: false, html: `<p><strong>First run: books agree with NPCI. Retry: ${s2.rows - s1.rows} more posting${s2.rows - s1.rows === 1 ? '' : 's'}.</strong></p><p>The retry posted the corrections again. That is the same failure that created the duplicate this morning. Make the job skip any request whose legs are already in the ledger.</p>${breakTable(s2.rec.breaks)}` };
-  return { ok: true, html: `<p><strong>Books agree with NPCI.</strong> The first run posted ${s1.rows - baseline.n} legs for ${approved().length} approved requests and the retry posted none. The rejected requests were left alone.</p><p>The settlement GL now shows ${inr(-A.npciNet)} payable, the same as NPCI. The duplicate debit is still in the ledger, with its reversal beside it: that is the trail audit expects.</p>` };
+  return { ok: true, html: `<p><strong>Books agree with NPCI.</strong> The first run posted ${s1.rows - baseline.n} legs for ${approved().length} approved requests and the retry posted none. The rejected requests were left alone.</p><p>The settlement GL now shows ${inr(-A.npciNet)} payable, the same as NPCI. The duplicate debit is still in the ledger, with its reversal beside it: that is the trail audit expects.</p>` }
 };
 
 const stepsEl = $('#steps');
@@ -564,8 +585,7 @@ $('#reqForm').addEventListener('submit', async (e) => {
   if (r.dupe) { fb.innerHTML = `<div class="fb ok"><p>${r.note}</p></div>`; return; }
   const btn = $('#fSend'); btn.disabled = true; btn.textContent = 'With Finance Control…';
   try {
-    const db = await getPg();
-    await db.exec(`INSERT INTO correction_requests VALUES ${requestValues(r.req)};`);
+    await withPg((db) => db.exec(`INSERT INTO correction_requests VALUES ${requestValues(r.req)};`).then(() => ({})));
     state.requests.push(r.req); save();
   } catch (err) { state.seq--; fb.innerHTML = `<div class="err">${esc(err.message || err)}</div>`; btn.disabled = false; btn.textContent = 'Send for approval'; return; }
   await new Promise((res) => setTimeout(res, 700));
@@ -669,4 +689,4 @@ $('#resetAll').addEventListener('click', async () => {
   renderRequests(); paint(); window.scrollTo(0, 0);
   msg('Started over.');
 });
-window.__ws = { A, S, run, D, state: () => state };
+window.__ws = { A, S, run, D, state: () => state, restarts: () => engineRestarts };

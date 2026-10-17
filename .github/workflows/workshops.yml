@@ -21,6 +21,7 @@ jobs:
       fail-fast: false
       matrix:
         browser: [chromium, webkit]
+        run: [1, 2]  # every change is tested twice per browser, to catch flaky engine behaviour
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -45,5 +46,5 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v5
         with:
-          name: close-the-books-${{ matrix.browser }}
+          name: close-the-books-${{ matrix.browser }}-${{ matrix.run }}
           path: test-results

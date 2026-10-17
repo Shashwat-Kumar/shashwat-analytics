@@ -4,7 +4,7 @@ const D=window.RS_CASES||[], KEY='rs_case_lab_v2', LABELS=['Framing','Investigat
 const target=85;
 const coaching={
 'Framing':'Frame the controllable management decision, target denominator, time horizon and constraints before prescribing work.',
-'Investigation':'Request evidence that separates competing causal hypotheses. Explain its information value and opportunity cost.',
+'Investigation':'Check the facts that would distinguish the possible explanations before spending time or money on the wrong answer.',
 'Evidence & data':'Test entity identity, timeframe, definitions, selection bias, data lineage and real-world decision usability.',
 'Commercial reasoning':'Build fully-loaded unit economics and holdout-adjusted value; stress-test marginal economics as you scale.',
 'Technology design':'Trace source-to-decision lineage, integration contracts, freshness, logging, latency and failure fallback.',
@@ -39,11 +39,11 @@ function step(){
  $('#leave').onclick=home;
  const scratch=$('#scratch');scratch.value=r.notes||'';scratch.oninput=()=>{r.notes=scratch.value;persist()};
  $('#notes').onclick=()=>{scratch.hidden=!scratch.hidden};scratch.hidden=true;
- const activity=$('#activity');activity.innerHTML='<h3>Where do you direct the investigation?</h3><p class="micro">Choose the one information request with the highest immediate decision value. Other lines of enquiry may remain useful later.</p>';
+ const activity=$('#activity');activity.innerHTML='<h3>Where would you look first?</h3><p class="micro">You can only check one thing right now. What would you ask the team to show you?</p>';
  const opts=n('div','options');s.find.forEach((q,i)=>{const b=button(q,'option',()=>{localRoute=i;[...opts.children].forEach(o=>o.classList.remove('selected'));b.classList.add('selected')});opts.append(b)});activity.append(opts);
- activity.append(button('Request evidence →','primary',()=>{if(localRoute===null||routeLocked)return;routeLocked=true;const routeGood=localRoute===s.best;
- activity.replaceChildren();const panel=n('div','decision-call');panel.innerHTML='<small>INFORMATION REQUEST RECORDED</small><p>'+(mode==='learn'?esc(s.why):'Your choice is recorded. Its merits will be discussed in the final review.')+'</p><p class="micro">Your request is recorded. Continue to the decision.</p>';activity.append(panel);
- const ex=$('#exhibit');ex.hidden=false;ex.innerHTML='<p class="eyebrow">EVIDENCE ROOM / RELEASE '+String(idx+1).padStart(2,'0')+'</p><h3>New evidence</h3><p>'+esc(s.exhibit)+'</p><p class="micro">Read the denominators and limitations before choosing a conclusion.</p>';
+ activity.append(button('Get the information →','primary',()=>{if(localRoute===null||routeLocked)return;routeLocked=true;const routeGood=localRoute===s.best;
+ activity.replaceChildren();const panel=n('div','decision-call');panel.innerHTML='<small>YOU ASKED TO SEE</small><p>'+(mode==='learn'?esc(s.why):'We will come back to whether this was the most useful place to start.')+'</p><p class="micro">See what you found, then decide what to do.</p>';activity.append(panel);
+ const ex=$('#exhibit');ex.hidden=false;ex.innerHTML='<p class="eyebrow">REPORT / '+String(idx+1).padStart(2,'0')+'</p><h3>Here is what came back</h3><p>'+esc(s.exhibit)+'</p><p class="micro">Check what the figures actually measure before making the call.</p>';
  showQuestion(s,routeGood?4:0);
  }));
 }

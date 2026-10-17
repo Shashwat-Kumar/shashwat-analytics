@@ -11,7 +11,7 @@
 .notebook h3{font:600 .82rem Inter,sans-serif}.notebook button{padding:9px 12px;font-size:.75rem}
 .notebook textarea{display:block;width:100%;margin-top:10px;resize:vertical;border:1px solid var(--rule);background:var(--white);padding:10px;font:14px/1.6 Inter,sans-serif;color:var(--text)}
 .notebook textarea[hidden],section[hidden]{display:none!important}
-.work .number-answer{display:flex;align-items:center;gap:6px;margin:24px 0}.work .numeric{min-width:165px}
+.work .number-answer{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:22px 0 8px}.answer-label{width:100%;font-size:.84rem;font-weight:650;color:var(--mut)}.number-answer .numeric{width:min(100%,260px);max-width:260px;min-height:48px;border-radius:5px;border:1px solid var(--rule);background:var(--white)}.number-answer .numeric:focus{outline:2px solid var(--teal);outline-offset:2px}.number-answer .numeric[aria-invalid=true]{border-color:#ad5744}.number-answer .unit{padding-left:4px;font-weight:650;color:var(--text);white-space:nowrap}.input-error{font-size:.84rem;color:#9c3a28;margin:6px 0}.primary:disabled{opacity:.43;cursor:not-allowed;background:var(--teal)}.work .numeric{min-width:165px}
 .work .micro{font-size:.83rem;line-height:1.6}
 .radar-layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(190px,.7fr);align-items:center;gap:16px;padding:14px 0 24px}
 .radar-layout svg{width:100%;height:auto;overflow:visible;max-width:690px;display:block}

@@ -455,6 +455,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Argent, a contact the delegate can't change assumes everyone has a second number to name. A hypothetical: a trader shares one handset with her brother, who runs her agent while she travels to buy stock. The insider and the delegate are the same person, and the summary lands on the same phone. Could the summary also be collected in person, at a cash-in counter or a trusted shop, the way many people already check balances? Cipher, does that open a new fraud door, or close one?"
+  },
+  {
+   "n": 38,
+   "speaker": "cipher",
+   "speaker_name": "Cipher",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 37,
+   "stance": "builds",
+   "cites": [],
+   "text": "Anansi, it closes the shared-phone door and opens a counter-impersonation door. Anyone who can pass as her at the shop collects the summary, or worse, gets told the activity looks normal. So keep the counter read-only and dull: it shows totals and new payees, never approves anything, and it checks the same ID she used to set up the agent. The brother can't collect it for her. Any change still needs her, in person or on her own device. A summary that can't move money is a low-value target."
+  },
+  {
+   "n": 39,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 38,
+   "stance": "questions",
+   "cites": [],
+   "text": "Cipher, read-only at the counter is sensible, but it quietly assumes she can get to a counter. What about the trader who's away for weeks, or someone whose mobility makes the trip hard? If the counter is the only check outside the shared phone, they're left with no check at all. Could the owner choose her own outside channel at setup, a counter, a printed letter, or a named community worker, and could the platform tell her plainly which ones her brother can reach? Anansi, which would she trust most?"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T23:03:37Z",
+ "generated_at": "2026-10-18T00:57:24Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://llmspeed.dev/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50127979",
-  "points": 233,
-  "comments": 75,
+  "points": 248,
+  "comments": 77,
   "published": "2026-10-17T04:36:53Z",
   "since": "2026-10-17T20:57:36Z"
  },
@@ -88,18 +88,8 @@
   },
   {
    "kind": "repo",
-   "title": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2990,
-   "note": "C · new this week",
-   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1687,
+   "stars": 1714,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -109,7 +99,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 935,
+   "stars": 939,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -119,7 +109,7 @@
   {
    "kind": "repo",
    "title": "anujasid/blender-ai-mcp-addon",
-   "stars": 603,
+   "stars": 618,
    "note": "Python · new this week",
    "url": "https://github.com/anujasid/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -139,7 +129,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3704,
+   "stars": 3708,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -149,7 +139,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2630,
+   "stars": 2636,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -158,18 +148,8 @@
   },
   {
    "kind": "repo",
-   "title": "liseami/CCBaga",
-   "stars": 2567,
-   "note": "Rust · new this week",
-   "url": "https://github.com/liseami/CCBaga",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 2043,
+   "stars": 2053,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -177,9 +157,19 @@
    "cat": "Trending"
   },
   {
+   "kind": "repo",
+   "title": "ahwootech/BRUTAL",
+   "stars": 1793,
+   "note": "C# · new this week",
+   "url": "https://github.com/ahwootech/BRUTAL",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
    "kind": "news",
    "tag": "HN",
-   "points": 233,
+   "points": 248,
    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
    "source": "Hacker News",
    "url": "https://llmspeed.dev/",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T17:17:06Z",
+ "generated_at": "2026-10-18T19:28:58Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,36 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Websites are closing their doors to AI agents",
-  "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+  "title": "The Intel 8087 chip: floating-point addition and subtraction",
+  "url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50141657",
-  "points": 98,
-  "comments": 78,
-  "published": "2026-10-18T14:58:10Z",
-  "since": "2026-10-18T17:17:06Z"
+  "discuss": "https://news.ycombinator.com/item?id=50142449",
+  "points": 55,
+  "comments": 8,
+  "published": "2026-10-18T16:20:27Z",
+  "since": "2026-10-18T19:28:58Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sam Altman",
-  "title": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
-  "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanlDNlc5NFRGdG5pQmZwSkZoNWJxUHJRTE40RDlLckdaczVsVEJ5b1ZJcENCUzdhODZfMXQ4RC02UF9BTlE2TWowWWtBQTFzbWlKczRIcDA2V1VzU1RXYXJCdzRJVWpicWd0TEk5MEhYVE5HVFNqcmd1UHpkZGk4dXVQR0gtelI4MncyaTRBaFlIczQ0cHU0NkpkbzA1NVpSMl9OeHJmZUZHSWVHQW1DMzVHMlEzTGdjQzNDV3NmeVpLdzFKNUJPRlY1X0U3VmZQRDhQOUt2THVCZ0tneW8tdTR6ZnBLSkJvdzZCRmtZUkxoN1NNRTNaME9wM0FVQnQ3SXM40gGIAkFVX3lxTE5SR3p1c2Z3YklZalp3U0dGV1Mwb0dGdW1BR1hNYVdOSVU2Wl9iUExKUzBDLWlPQUlvQmtGTGkwelJxaHlYZlhiRnZwZHV4U0Rpa243bEYzMGkxSWF5RXlzRnhoV2k0LUhIdHJyYWFnRXhLSGZpRm1jUy1GNjh2Y25ialFCWXFEMDMzU1N4cDZTQ0hzMkpmVndwX0xlQ1FiZjVMUWE5c3RGMk5VTS1sU1k0ajIta0RtajdhbWloM1dma3ZHLVFFcnBNVjR6N0RjRjk1NG1VTjIyYXFSa0VmOVg0TkhIOUV0aWhWQ1dZOWlTck80NkowTDZMN014ckdaT3pqeU1pMFN5OQ?oc=5",
-  "source": "Livemint",
-  "published": "2026-10-18T02:46:02Z",
-  "since": "2026-10-18T05:47:47Z"
+  "person": "Elon Musk",
+  "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
+  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
+  "source": "Axios",
+  "published": "2026-10-18T06:49:11Z",
+  "since": "2026-10-18T19:28:58Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
+   "source": "Axios",
+   "published": "2026-10-18T06:49:11Z",
+   "since": "2026-10-18T19:28:58Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,43 +45,33 @@
    "title": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanlDNlc5NFRGdG5pQmZwSkZoNWJxUHJRTE40RDlLckdaczVsVEJ5b1ZJcENCUzdhODZfMXQ4RC02UF9BTlE2TWowWWtBQTFzbWlKczRIcDA2V1VzU1RXYXJCdzRJVWpicWd0TEk5MEhYVE5HVFNqcmd1UHpkZGk4dXVQR0gtelI4MncyaTRBaFlIczQ0cHU0NkpkbzA1NVpSMl9OeHJmZUZHSWVHQW1DMzVHMlEzTGdjQzNDV3NmeVpLdzFKNUJPRlY1X0U3VmZQRDhQOUt2THVCZ0tneW8tdTR6ZnBLSkJvdzZCRmtZUkxoN1NNRTNaME9wM0FVQnQ3SXM40gGIAkFVX3lxTE5SR3p1c2Z3YklZalp3U0dGV1Mwb0dGdW1BR1hNYVdOSVU2Wl9iUExKUzBDLWlPQUlvQmtGTGkwelJxaHlYZlhiRnZwZHV4U0Rpa243bEYzMGkxSWF5RXlzRnhoV2k0LUhIdHJyYWFnRXhLSGZpRm1jUy1GNjh2Y25ialFCWXFEMDMzU1N4cDZTQ0hzMkpmVndwX0xlQ1FiZjVMUWE5c3RGMk5VTS1sU1k0ajIta0RtajdhbWloM1dma3ZHLVFFcnBNVjR6N0RjRjk1NG1VTjIyYXFSa0VmOVg0TkhIOUV0aWhWQ1dZOWlTck80NkowTDZMN014ckdaT3pqeU1pMFN5OQ?oc=5",
    "source": "Livemint",
-   "published": "2026-10-18T02:46:02Z",
-   "since": "2026-10-18T05:47:47Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk Says Jensen Huang 'Rocks' as SpaceX, Nvidia Team Up on AI Data Centers in Space: ‘Far Better Than Almost Anyone Expects’",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdDZlRzVyQ1ZRaHRqajVXVFNJckVBeE4xaFR2bUVFcVF0OEVVWVNPakZTcThwRXREY01QY2c0SzdXQXM2RGZvSTdIRzVGY3ZHWWpmSzlMeEhhQnpoUVF6bVdRWmhFblRxOU5iUmdKYmdaTGo4emRVSmExTFdqbWdNM1JlUnRmSURfU01JNEVJNWtldkpRRmc?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-18T00:30:00Z"
+   "published": "2026-10-18T02:46:02Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanlDNlc5NFRGdG5pQmZwSkZoNWJxUHJRTE40RDlLckdaczVsVEJ5b1ZJcENCUzdhODZfMXQ4RC02UF9BTlE2TWowWWtBQTFzbWlKczRIcDA2V1VzU1RXYXJCdzRJVWpicWd0TEk5MEhYVE5HVFNqcmd1UHpkZGk4dXVQR0gtelI4MncyaTRBaFlIczQ0cHU0NkpkbzA1NVpSMl9OeHJmZUZHSWVHQW1DMzVHMlEzTGdjQzNDV3NmeVpLdzFKNUJPRlY1X0U3VmZQRDhQOUt2THVCZ0tneW8tdTR6ZnBLSkJvdzZCRmtZUkxoN1NNRTNaME9wM0FVQnQ3SXM40gGIAkFVX3lxTE5SR3p1c2Z3YklZalp3U0dGV1Mwb0dGdW1BR1hNYVdOSVU2Wl9iUExKUzBDLWlPQUlvQmtGTGkwelJxaHlYZlhiRnZwZHV4U0Rpa243bEYzMGkxSWF5RXlzRnhoV2k0LUhIdHJyYWFnRXhLSGZpRm1jUy1GNjh2Y25ialFCWXFEMDMzU1N4cDZTQ0hzMkpmVndwX0xlQ1FiZjVMUWE5c3RGMk5VTS1sU1k0ajIta0RtajdhbWloM1dma3ZHLVFFcnBNVjR6N0RjRjk1NG1VTjIyYXFSa0VmOVg0TkhIOUV0aWhWQ1dZOWlTck80NkowTDZMN014ckdaT3pqeU1pMFN5OQ?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-18T02:46:02Z",
-   "since": "2026-10-18T05:47:47Z"
+   "person": "Elon Musk",
+   "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
+   "source": "Axios",
+   "published": "2026-10-18T06:49:11Z",
+   "since": "2026-10-18T19:28:58Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk Says Jensen Huang 'Rocks' as SpaceX, Nvidia Team Up on AI Data Centers in Space: ‘Far Better Than Almost Anyone Expects’",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdDZlRzVyQ1ZRaHRqajVXVFNJckVBeE4xaFR2bUVFcVF0OEVVWVNPakZTcThwRXREY01QY2c0SzdXQXM2RGZvSTdIRzVGY3ZHWWpmSzlMeEhhQnpoUVF6bVdRWmhFblRxOU5iUmdKYmdaTGo4emRVSmExTFdqbWdNM1JlUnRmSURfU01JNEVJNWtldkpRRmc?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-18T00:30:00Z"
+   "person": "Sam Altman",
+   "title": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanlDNlc5NFRGdG5pQmZwSkZoNWJxUHJRTE40RDlLckdaczVsVEJ5b1ZJcENCUzdhODZfMXQ4RC02UF9BTlE2TWowWWtBQTFzbWlKczRIcDA2V1VzU1RXYXJCdzRJVWpicWd0TEk5MEhYVE5HVFNqcmd1UHpkZGk4dXVQR0gtelI4MncyaTRBaFlIczQ0cHU0NkpkbzA1NVpSMl9OeHJmZUZHSWVHQW1DMzVHMlEzTGdjQzNDV3NmeVpLdzFKNUJPRlY1X0U3VmZQRDhQOUt2THVCZ0tneW8tdTR6ZnBLSkJvdzZCRmtZUkxoN1NNRTNaME9wM0FVQnQ3SXM40gGIAkFVX3lxTE5SR3p1c2Z3YklZalp3U0dGV1Mwb0dGdW1BR1hNYVdOSVU2Wl9iUExKUzBDLWlPQUlvQmtGTGkwelJxaHlYZlhiRnZwZHV4U0Rpa243bEYzMGkxSWF5RXlzRnhoV2k0LUhIdHJyYWFnRXhLSGZpRm1jUy1GNjh2Y25ialFCWXFEMDMzU1N4cDZTQ0hzMkpmVndwX0xlQ1FiZjVMUWE5c3RGMk5VTS1sU1k0ajIta0RtajdhbWloM1dma3ZHLVFFcnBNVjR6N0RjRjk1NG1VTjIyYXFSa0VmOVg0TkhIOUV0aWhWQ1dZOWlTck80NkowTDZMN014ckdaT3pqeU1pMFN5OQ?oc=5",
+   "source": "Livemint",
+   "published": "2026-10-18T02:46:02Z"
   },
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 2009,
+   "stars": 2010,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 776,
+   "stars": 781,
    "note": "Python · new this week",
    "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -101,7 +101,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 386,
+   "stars": 387,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -110,8 +110,18 @@
   },
   {
    "kind": "repo",
+   "title": "raullenchai/esp32-thinks",
+   "stars": 222,
+   "note": "Shell · new this week",
+   "url": "https://github.com/raullenchai/esp32-thinks",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3817,
+   "stars": 3821,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -121,7 +131,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2722,
+   "stars": 2727,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -131,7 +141,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 2168,
+   "stars": 2186,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -141,7 +151,7 @@
   {
    "kind": "repo",
    "title": "ahwootech/BRUTAL",
-   "stars": 1875,
+   "stars": 1881,
    "note": "C# · new this week",
    "url": "https://github.com/ahwootech/BRUTAL",
    "source": "GitHub",
@@ -151,38 +161,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 210,
+   "points": 222,
    "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
    "source": "Hacker News",
    "url": "https://sphinx-six-theta.vercel.app/",
    "discuss": "https://news.ycombinator.com/item?id=50137950"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 110,
-   "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-   "source": "Hacker News",
-   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-   "discuss": "https://news.ycombinator.com/item?id=50141429"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 98,
-   "title": "Websites are closing their doors to AI agents",
-   "source": "Hacker News",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-   "discuss": "https://news.ycombinator.com/item?id=50141657"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 44,
-   "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
-   "source": "Hacker News",
-   "url": "https://www.vals.ai/blogs/impossible-refund",
-   "discuss": "https://news.ycombinator.com/item?id=50140462"
   },
   {
    "kind": "news",

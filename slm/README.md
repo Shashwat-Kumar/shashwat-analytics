@@ -21,6 +21,15 @@ python train.py --train data/train.jsonl --eval data/eval.jsonl --epochs 3 --ran
 
 The script fetches the public model weights on first use (internet required), tests the unfine-tuned base, fine-tunes a LoRA adapter, and tests the adapted model on the same held-out examples. Inspect `out/metrics.json` and `out/individual_predictions.json`; the trained adapter is saved in `out/adapter/`.
 
+### Run the classical baseline first
+
+```bash
+python -m pip install scikit-learn
+python baseline_classic.py
+```
+
+A TF-IDF character n-gram classifier with logistic regression, trained on the same 75 messages and scored on the same 25. Settings were fixed before the test set was scored; do not tune them against `data/eval.jsonl`. Our recorded run on 18 October 2026 (scikit-learn 1.9.1, CPU) scored **25/25 in 0.19 s**. A fine-tuned model has to justify its cost against that, and a perfect score also means this test is too easy to separate methods: write harder held-out messages (mixed languages, typos, two requests in one) before drawing conclusions. Results are saved to `out/classic_metrics.json`.
+
 To change the exercise, try `--epochs 1` vs `--epochs 3`, or `--rank 4` vs `--rank 16`, **then repeat the held-out test**. More parameters or epochs are not guaranteed to improve results.
 
 ## Do not confuse these

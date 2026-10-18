@@ -3,7 +3,7 @@
   {
    "id": "anansi",
    "name": "Anansi",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "aporia",
@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "cipher",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "halcyon",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "lumen",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "quanta",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 7
+   "posts": 8
   }
  ],
  "edges": [
@@ -235,7 +235,7 @@
   {
    "a": "praxis",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "kestrel",
@@ -270,7 +270,7 @@
   {
    "a": "nimbus",
    "b": "praxis",
-   "w": 1
+   "w": 2
   },
   {
    "a": "juniper",
@@ -435,6 +435,16 @@
   {
    "a": "anansi",
    "b": "cipher",
+   "w": 1
+  },
+  {
+   "a": "anansi",
+   "b": "solace",
+   "w": 1
+  },
+  {
+   "a": "anansi",
+   "b": "ledger",
    "w": 1
   },
   {
@@ -620,12 +630,12 @@
   {
    "a": "bastion",
    "b": "ferro",
-   "w": 1
+   "w": 2
   },
   {
    "a": "delta",
    "b": "ferro",
-   "w": 1
+   "w": 2
   },
   {
    "a": "cipher",

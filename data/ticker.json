@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T05:47:47Z",
+ "generated_at": "2026-10-18T09:57:20Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,12 +8,12 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
+  "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
   "url": "https://sphinx-six-theta.vercel.app/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50137950",
-  "points": 30,
-  "comments": 11,
+  "points": 128,
+  "comments": 32,
   "published": "2026-10-18T04:33:49Z",
   "since": "2026-10-18T05:47:47Z"
  },
@@ -55,15 +55,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVndFZDV2OEU0dmx1U1N1Ri1MTnRjeFBpOHlGU040ekJHZ1VHZkhkcWhvYV9qVFdKNXdjdFpZZ0JWbW1wN1BWcGNHakgwY29GYjZRanRXLXl1QTlPaVhiNGg0WDhOZXhYQnNzUEhtRkREVl9nOGRDMXRieDhMUTNPLXNuWF9LSlByZGpqSXFxZEpWWmd5OC0wZDBzclNVUnh0dk1PeHRzR2o?oc=5",
    "source": "Fortune",
    "published": "2026-10-17T13:28:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Nvidia CEO Jensen Huang says America must work with China on AI safety; says ‘The US should …’",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRTBEalNuWUtNUE5qRUVJWkt0THlxMFBMQ1dHdExMRnp3UXd3aTFxWGpGaUpxTkk0OHYyS3JlSzVrQ0owTFZ1MER2UmR0QUlCUVN1ZGViTVhfZ1NkYWlZSW1yYjk3cUI2US14MElnSHBTUTBsLXQ2SXNqVFJRZXJUZFdEYS1EVTRfeHd3QUFkaXRLQ1h1VjF0bFdkTzZ3YTZDeWJFenFMYmhNOGxqazRtVlBaTnhXMkYtRXZ2ZEZPYlM2VlExNUVzRWRXa0ZRSXpYSjFVY3dZemg1Y0RLMWtrVWFXZ2llOXRDMC1obFlNajFtazR3VGQxeUlLMEhEYi02V0VN0gGIAkFVX3lxTE5mYnA4NVp1WTVONGNFSDE3Yk41amtZUTZCc1lNXzlwaDVvNzEzZGJlSWNYbjBEMjExS1V4U2NiRUdRc3NMc1JsQ09wanpMRk0ySnEyeHFucnhUSkFqSGxVNTFIQmVXQVU2YjRvc0FwT1ZlbGRnbWd5Vmc5bXIxSHNGenNxajVVczBTUmNYZm1BSXNTNDgwUzlyUkNzQzhUVE1ZSnY3UGY3NUZ1VWpwaDNQX05iWktwQmtNSWpURlB4aTBOaDVLNWRtck1GMGYxN3czTE5wOXRxQ3JUZ1Q0NFkzQzRTR2NaTjJKd0JEUlJGaC14WnBQME1MSXRCYUtHV0FLcEtrcXUtOA?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-17T08:49:00Z"
   }
  ],
  "items": [
@@ -98,7 +89,7 @@
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1843,
+   "stars": 1946,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -108,7 +99,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 943,
+   "stars": 945,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -117,10 +108,10 @@
   },
   {
    "kind": "repo",
-   "title": "anujasid/blender-ai-mcp-addon",
-   "stars": 657,
+   "title": "LiCinCan/blender-ai-mcp-addon",
+   "stars": 703,
    "note": "Python · new this week",
-   "url": "https://github.com/anujasid/blender-ai-mcp-addon",
+   "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -128,7 +119,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 364,
+   "stars": 371,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -138,7 +129,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3743,
+   "stars": 3762,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -148,7 +139,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2664,
+   "stars": 2685,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -158,7 +149,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 2085,
+   "stars": 2111,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -168,7 +159,7 @@
   {
    "kind": "repo",
    "title": "ahwootech/BRUTAL",
-   "stars": 1812,
+   "stars": 1831,
    "note": "C# · new this week",
    "url": "https://github.com/ahwootech/BRUTAL",
    "source": "GitHub",
@@ -178,7 +169,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 271,
+   "points": 293,
    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
    "source": "Hacker News",
    "url": "https://llmspeed.dev/",
@@ -187,8 +178,8 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 30,
-   "title": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
+   "points": 128,
+   "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
    "source": "Hacker News",
    "url": "https://sphinx-six-theta.vercel.app/",
    "discuss": "https://news.ycombinator.com/item?id=50137950"

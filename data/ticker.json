@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T09:57:20Z",
+ "generated_at": "2026-10-18T13:57:02Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://sphinx-six-theta.vercel.app/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50137950",
-  "points": 128,
-  "comments": 32,
+  "points": 178,
+  "comments": 55,
   "published": "2026-10-18T04:33:49Z",
   "since": "2026-10-18T05:47:47Z"
  },
@@ -42,19 +42,10 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk Says Jensen Huang 'Rocks' as SpaceX, Nvidia Team Up on AI Data Centers in Space: ‘Far Better Than Almost Anyone Expects’",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdDZlRzVyQ1ZRaHRqajVXVFNJckVBeE4xaFR2bUVFcVF0OEVVWVNPakZTcThwRXREY01QY2c0SzdXQXM2RGZvSTdIRzVGY3ZHWWpmSzlMeEhhQnpoUVF6bVdRWmhFblRxOU5iUmdKYmdaTGo4emRVSmExTFdqbWdNM1JlUnRmSURfU01JNEVJNWtldkpRRmc?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-18T00:30:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Anthropic’s Dario Amodei is steering a possible $2 trillion IPO—but he says up to 40% of his time goes to making sure company culture is good",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVndFZDV2OEU0dmx1U1N1Ri1MTnRjeFBpOHlGU040ekJHZ1VHZkhkcWhvYV9qVFdKNXdjdFpZZ0JWbW1wN1BWcGNHakgwY29GYjZRanRXLXl1QTlPaVhiNGg0WDhOZXhYQnNzUEhtRkREVl9nOGRDMXRieDhMUTNPLXNuWF9LSlByZGpqSXFxZEpWWmd5OC0wZDBzclNVUnh0dk1PeHRzR2o?oc=5",
-   "source": "Fortune",
-   "published": "2026-10-17T13:28:00Z"
+   "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
+   "source": "Axios",
+   "published": "2026-10-18T00:46:17Z"
   }
  ],
  "items": [
@@ -72,24 +63,15 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk Says Jensen Huang 'Rocks' as SpaceX, Nvidia Team Up on AI Data Centers in Space: ‘Far Better Than Almost Anyone Expects’",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdDZlRzVyQ1ZRaHRqajVXVFNJckVBeE4xaFR2bUVFcVF0OEVVWVNPakZTcThwRXREY01QY2c0SzdXQXM2RGZvSTdIRzVGY3ZHWWpmSzlMeEhhQnpoUVF6bVdRWmhFblRxOU5iUmdKYmdaTGo4emRVSmExTFdqbWdNM1JlUnRmSURfU01JNEVJNWtldkpRRmc?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-18T00:30:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Anthropic’s Dario Amodei is steering a possible $2 trillion IPO—but he says up to 40% of his time goes to making sure company culture is good",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVndFZDV2OEU0dmx1U1N1Ri1MTnRjeFBpOHlGU040ekJHZ1VHZkhkcWhvYV9qVFdKNXdjdFpZZ0JWbW1wN1BWcGNHakgwY29GYjZRanRXLXl1QTlPaVhiNGg0WDhOZXhYQnNzUEhtRkREVl9nOGRDMXRieDhMUTNPLXNuWF9LSlByZGpqSXFxZEpWWmd5OC0wZDBzclNVUnh0dk1PeHRzR2o?oc=5",
-   "source": "Fortune",
-   "published": "2026-10-17T13:28:00Z"
+   "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
+   "source": "Axios",
+   "published": "2026-10-18T00:46:17Z"
   },
   {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1946,
+   "stars": 2002,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -109,7 +91,7 @@
   {
    "kind": "repo",
    "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 703,
+   "stars": 735,
    "note": "Python · new this week",
    "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -119,7 +101,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 371,
+   "stars": 380,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -129,7 +111,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3762,
+   "stars": 3790,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -139,7 +121,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2685,
+   "stars": 2704,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -149,7 +131,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 2111,
+   "stars": 2145,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -159,7 +141,7 @@
   {
    "kind": "repo",
    "title": "ahwootech/BRUTAL",
-   "stars": 1831,
+   "stars": 1852,
    "note": "C# · new this week",
    "url": "https://github.com/ahwootech/BRUTAL",
    "source": "GitHub",
@@ -169,16 +151,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 293,
-   "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-   "source": "Hacker News",
-   "url": "https://llmspeed.dev/",
-   "discuss": "https://news.ycombinator.com/item?id=50127979"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 128,
+   "points": 178,
    "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
    "source": "Hacker News",
    "url": "https://sphinx-six-theta.vercel.app/",

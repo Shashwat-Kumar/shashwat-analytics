@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T00:57:24Z",
+ "generated_at": "2026-10-18T05:47:47Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,35 +8,44 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-  "url": "https://llmspeed.dev/",
+  "title": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
+  "url": "https://sphinx-six-theta.vercel.app/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50127979",
-  "points": 248,
-  "comments": 77,
-  "published": "2026-10-17T04:36:53Z",
-  "since": "2026-10-17T20:57:36Z"
+  "discuss": "https://news.ycombinator.com/item?id=50137950",
+  "points": 30,
+  "comments": 11,
+  "published": "2026-10-18T04:33:49Z",
+  "since": "2026-10-18T05:47:47Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Google CEO Sundar Pichai, 'Godfather of AI' Yann LeCun reply to Elon Musk post that says ‘future has flyi",
-  "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQby1nM3RORzZNMTFhZTRBa0VWRHZhUWoxLUl5X3kyZS1OZXRWVGJtN1gyNDNXSmQwVjVoY1Ric1loMEg5ckIwOWtFVUFNVUFYS2w5NmVYVTY1RGZTQmdCVDk5QmtINnFlSkg3ZWxTMFBpTkk2SGhBb0FHblI5NDA2TUp0UkpTVThkYUNDcWNUWm1WVlgyNjlYTzBNd3BxX1U2TjRjVzE4ZkdZRTROSEFlSzBVNlc1clgza3N5WGxJMWtRZ3BJaFo0TnIzdVdqdTRFRUNsc1p4UVZaaWZ3RDBMM0toY2FXQkh4azlyaWhncTV2NmhIM0dqSWwxU2VoX2JSeHRpU2MwQVlZaEhoRjFYcGNvUnRocUtoUGFaTEFuYVXSAaACQVVfeXFMUG8tZzN0Tkc2TTExYWU0QWtFVkR2YVFqMS1JeV95MmUtTmV0VlRibTdYMjQzV0pkMFY1aGNUYnNZaDBIOXJCMDlrRVVBTVVBWEtsOTZlWFU2NURmU0JnQlQ5OUJrSDZxZUpIN2VsUzBQaU5JNkhoQW9BR25SOTQwNk1KdFJKU1U4ZGFDQ3FjVFptVlZYMjY5WE8wTXdwcV9VNk40Y1cxOGZHWUU0TkhBZUswVTZXNXJYM2tzeVhsSTFrUWdwSWhaNE5yM3VXanU0RUVDbHNaeFFWWmlmd0QwTDNLaGNhV0JIeGs5cmloZ3E1djZoSDNHaklsMVNlaF9iUnh0aVNjMEFZWWhIaEYxWHBjb1J0aHFLaFBhWkxBbmFV?oc=5",
-  "source": "The Times of India",
-  "published": "2026-10-17T17:28:00Z",
-  "since": "2026-10-17T23:03:37Z"
+  "person": "Sam Altman",
+  "title": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
+  "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanlDNlc5NFRGdG5pQmZwSkZoNWJxUHJRTE40RDlLckdaczVsVEJ5b1ZJcENCUzdhODZfMXQ4RC02UF9BTlE2TWowWWtBQTFzbWlKczRIcDA2V1VzU1RXYXJCdzRJVWpicWd0TEk5MEhYVE5HVFNqcmd1UHpkZGk4dXVQR0gtelI4MncyaTRBaFlIczQ0cHU0NkpkbzA1NVpSMl9OeHJmZUZHSWVHQW1DMzVHMlEzTGdjQzNDV3NmeVpLdzFKNUJPRlY1X0U3VmZQRDhQOUt2THVCZ0tneW8tdTR6ZnBLSkJvdzZCRmtZUkxoN1NNRTNaME9wM0FVQnQ3SXM40gGIAkFVX3lxTE5SR3p1c2Z3YklZalp3U0dGV1Mwb0dGdW1BR1hNYVdOSVU2Wl9iUExKUzBDLWlPQUlvQmtGTGkwelJxaHlYZlhiRnZwZHV4U0Rpa243bEYzMGkxSWF5RXlzRnhoV2k0LUhIdHJyYWFnRXhLSGZpRm1jUy1GNjh2Y25ialFCWXFEMDMzU1N4cDZTQ0hzMkpmVndwX0xlQ1FiZjVMUWE5c3RGMk5VTS1sU1k0ajIta0RtajdhbWloM1dma3ZHLVFFcnBNVjR6N0RjRjk1NG1VTjIyYXFSa0VmOVg0TkhIOUV0aWhWQ1dZOWlTck80NkowTDZMN014ckdaT3pqeU1pMFN5OQ?oc=5",
+  "source": "Livemint",
+  "published": "2026-10-18T02:46:02Z",
+  "since": "2026-10-18T05:47:47Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanlDNlc5NFRGdG5pQmZwSkZoNWJxUHJRTE40RDlLckdaczVsVEJ5b1ZJcENCUzdhODZfMXQ4RC02UF9BTlE2TWowWWtBQTFzbWlKczRIcDA2V1VzU1RXYXJCdzRJVWpicWd0TEk5MEhYVE5HVFNqcmd1UHpkZGk4dXVQR0gtelI4MncyaTRBaFlIczQ0cHU0NkpkbzA1NVpSMl9OeHJmZUZHSWVHQW1DMzVHMlEzTGdjQzNDV3NmeVpLdzFKNUJPRlY1X0U3VmZQRDhQOUt2THVCZ0tneW8tdTR6ZnBLSkJvdzZCRmtZUkxoN1NNRTNaME9wM0FVQnQ3SXM40gGIAkFVX3lxTE5SR3p1c2Z3YklZalp3U0dGV1Mwb0dGdW1BR1hNYVdOSVU2Wl9iUExKUzBDLWlPQUlvQmtGTGkwelJxaHlYZlhiRnZwZHV4U0Rpa243bEYzMGkxSWF5RXlzRnhoV2k0LUhIdHJyYWFnRXhLSGZpRm1jUy1GNjh2Y25ialFCWXFEMDMzU1N4cDZTQ0hzMkpmVndwX0xlQ1FiZjVMUWE5c3RGMk5VTS1sU1k0ajIta0RtajdhbWloM1dma3ZHLVFFcnBNVjR6N0RjRjk1NG1VTjIyYXFSa0VmOVg0TkhIOUV0aWhWQ1dZOWlTck80NkowTDZMN014ckdaT3pqeU1pMFN5OQ?oc=5",
+   "source": "Livemint",
+   "published": "2026-10-18T02:46:02Z",
+   "since": "2026-10-18T05:47:47Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Google CEO Sundar Pichai, 'Godfather of AI' Yann LeCun reply to Elon Musk post that says ‘future has flyi",
-   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQby1nM3RORzZNMTFhZTRBa0VWRHZhUWoxLUl5X3kyZS1OZXRWVGJtN1gyNDNXSmQwVjVoY1Ric1loMEg5ckIwOWtFVUFNVUFYS2w5NmVYVTY1RGZTQmdCVDk5QmtINnFlSkg3ZWxTMFBpTkk2SGhBb0FHblI5NDA2TUp0UkpTVThkYUNDcWNUWm1WVlgyNjlYTzBNd3BxX1U2TjRjVzE4ZkdZRTROSEFlSzBVNlc1clgza3N5WGxJMWtRZ3BJaFo0TnIzdVdqdTRFRUNsc1p4UVZaaWZ3RDBMM0toY2FXQkh4azlyaWhncTV2NmhIM0dqSWwxU2VoX2JSeHRpU2MwQVlZaEhoRjFYcGNvUnRocUtoUGFaTEFuYVXSAaACQVVfeXFMUG8tZzN0Tkc2TTExYWU0QWtFVkR2YVFqMS1JeV95MmUtTmV0VlRibTdYMjQzV0pkMFY1aGNUYnNZaDBIOXJCMDlrRVVBTVVBWEtsOTZlWFU2NURmU0JnQlQ5OUJrSDZxZUpIN2VsUzBQaU5JNkhoQW9BR25SOTQwNk1KdFJKU1U4ZGFDQ3FjVFptVlZYMjY5WE8wTXdwcV9VNk40Y1cxOGZHWUU0TkhBZUswVTZXNXJYM2tzeVhsSTFrUWdwSWhaNE5yM3VXanU0RUVDbHNaeFFWWmlmd0QwTDNLaGNhV0JIeGs5cmloZ3E1djZoSDNHaklsMVNlaF9iUnh0aVNjMEFZWWhIaEYxWHBjb1J0aHFLaFBhWkxBbmFV?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-17T17:28:00Z",
-   "since": "2026-10-17T23:03:37Z"
+   "title": "Elon Musk Says Jensen Huang 'Rocks' as SpaceX, Nvidia Team Up on AI Data Centers in Space: ‘Far Better Than Almost Anyone Expects’",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdDZlRzVyQ1ZRaHRqajVXVFNJckVBeE4xaFR2bUVFcVF0OEVVWVNPakZTcThwRXREY01QY2c0SzdXQXM2RGZvSTdIRzVGY3ZHWWpmSzlMeEhhQnpoUVF6bVdRWmhFblRxOU5iUmdKYmdaTGo4emRVSmExTFdqbWdNM1JlUnRmSURfU01JNEVJNWtldkpRRmc?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-18T00:30:00Z"
   },
   {
    "kind": "voice",
@@ -61,12 +70,21 @@
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanlDNlc5NFRGdG5pQmZwSkZoNWJxUHJRTE40RDlLckdaczVsVEJ5b1ZJcENCUzdhODZfMXQ4RC02UF9BTlE2TWowWWtBQTFzbWlKczRIcDA2V1VzU1RXYXJCdzRJVWpicWd0TEk5MEhYVE5HVFNqcmd1UHpkZGk4dXVQR0gtelI4MncyaTRBaFlIczQ0cHU0NkpkbzA1NVpSMl9OeHJmZUZHSWVHQW1DMzVHMlEzTGdjQzNDV3NmeVpLdzFKNUJPRlY1X0U3VmZQRDhQOUt2THVCZ0tneW8tdTR6ZnBLSkJvdzZCRmtZUkxoN1NNRTNaME9wM0FVQnQ3SXM40gGIAkFVX3lxTE5SR3p1c2Z3YklZalp3U0dGV1Mwb0dGdW1BR1hNYVdOSVU2Wl9iUExKUzBDLWlPQUlvQmtGTGkwelJxaHlYZlhiRnZwZHV4U0Rpa243bEYzMGkxSWF5RXlzRnhoV2k0LUhIdHJyYWFnRXhLSGZpRm1jUy1GNjh2Y25ialFCWXFEMDMzU1N4cDZTQ0hzMkpmVndwX0xlQ1FiZjVMUWE5c3RGMk5VTS1sU1k0ajIta0RtajdhbWloM1dma3ZHLVFFcnBNVjR6N0RjRjk1NG1VTjIyYXFSa0VmOVg0TkhIOUV0aWhWQ1dZOWlTck80NkowTDZMN014ckdaT3pqeU1pMFN5OQ?oc=5",
+   "source": "Livemint",
+   "published": "2026-10-18T02:46:02Z",
+   "since": "2026-10-18T05:47:47Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Google CEO Sundar Pichai, 'Godfather of AI' Yann LeCun reply to Elon Musk post that says ‘future has flyi",
-   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQby1nM3RORzZNMTFhZTRBa0VWRHZhUWoxLUl5X3kyZS1OZXRWVGJtN1gyNDNXSmQwVjVoY1Ric1loMEg5ckIwOWtFVUFNVUFYS2w5NmVYVTY1RGZTQmdCVDk5QmtINnFlSkg3ZWxTMFBpTkk2SGhBb0FHblI5NDA2TUp0UkpTVThkYUNDcWNUWm1WVlgyNjlYTzBNd3BxX1U2TjRjVzE4ZkdZRTROSEFlSzBVNlc1clgza3N5WGxJMWtRZ3BJaFo0TnIzdVdqdTRFRUNsc1p4UVZaaWZ3RDBMM0toY2FXQkh4azlyaWhncTV2NmhIM0dqSWwxU2VoX2JSeHRpU2MwQVlZaEhoRjFYcGNvUnRocUtoUGFaTEFuYVXSAaACQVVfeXFMUG8tZzN0Tkc2TTExYWU0QWtFVkR2YVFqMS1JeV95MmUtTmV0VlRibTdYMjQzV0pkMFY1aGNUYnNZaDBIOXJCMDlrRVVBTVVBWEtsOTZlWFU2NURmU0JnQlQ5OUJrSDZxZUpIN2VsUzBQaU5JNkhoQW9BR25SOTQwNk1KdFJKU1U4ZGFDQ3FjVFptVlZYMjY5WE8wTXdwcV9VNk40Y1cxOGZHWUU0TkhBZUswVTZXNXJYM2tzeVhsSTFrUWdwSWhaNE5yM3VXanU0RUVDbHNaeFFWWmlmd0QwTDNLaGNhV0JIeGs5cmloZ3E1djZoSDNHaklsMVNlaF9iUnh0aVNjMEFZWWhIaEYxWHBjb1J0aHFLaFBhWkxBbmFV?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-17T17:28:00Z",
-   "since": "2026-10-17T23:03:37Z"
+   "title": "Elon Musk Says Jensen Huang 'Rocks' as SpaceX, Nvidia Team Up on AI Data Centers in Space: ‘Far Better Than Almost Anyone Expects’",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdDZlRzVyQ1ZRaHRqajVXVFNJckVBeE4xaFR2bUVFcVF0OEVVWVNPakZTcThwRXREY01QY2c0SzdXQXM2RGZvSTdIRzVGY3ZHWWpmSzlMeEhhQnpoUVF6bVdRWmhFblRxOU5iUmdKYmdaTGo4emRVSmExTFdqbWdNM1JlUnRmSURfU01JNEVJNWtldkpRRmc?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-18T00:30:00Z"
   },
   {
    "kind": "voice",
@@ -78,18 +96,9 @@
    "published": "2026-10-17T13:28:00Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Nvidia CEO Jensen Huang says America must work with China on AI safety; says ‘The US should …’",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRTBEalNuWUtNUE5qRUVJWkt0THlxMFBMQ1dHdExMRnp3UXd3aTFxWGpGaUpxTkk0OHYyS3JlSzVrQ0owTFZ1MER2UmR0QUlCUVN1ZGViTVhfZ1NkYWlZSW1yYjk3cUI2US14MElnSHBTUTBsLXQ2SXNqVFJRZXJUZFdEYS1EVTRfeHd3QUFkaXRLQ1h1VjF0bFdkTzZ3YTZDeWJFenFMYmhNOGxqazRtVlBaTnhXMkYtRXZ2ZEZPYlM2VlExNUVzRWRXa0ZRSXpYSjFVY3dZemg1Y0RLMWtrVWFXZ2llOXRDMC1obFlNajFtazR3VGQxeUlLMEhEYi02V0VN0gGIAkFVX3lxTE5mYnA4NVp1WTVONGNFSDE3Yk41amtZUTZCc1lNXzlwaDVvNzEzZGJlSWNYbjBEMjExS1V4U2NiRUdRc3NMc1JsQ09wanpMRk0ySnEyeHFucnhUSkFqSGxVNTFIQmVXQVU2YjRvc0FwT1ZlbGRnbWd5Vmc5bXIxSHNGenNxajVVczBTUmNYZm1BSXNTNDgwUzlyUkNzQzhUVE1ZSnY3UGY3NUZ1VWpwaDNQX05iWktwQmtNSWpURlB4aTBOaDVLNWRtck1GMGYxN3czTE5wOXRxQ3JUZ1Q0NFkzQzRTR2NaTjJKd0JEUlJGaC14WnBQME1MSXRCYUtHV0FLcEtrcXUtOA?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-17T08:49:00Z"
-  },
-  {
    "kind": "repo",
    "title": "deeplethe/solid-glass",
-   "stars": 1714,
+   "stars": 1843,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deeplethe/solid-glass",
    "source": "GitHub",
@@ -99,7 +108,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 939,
+   "stars": 943,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -109,7 +118,7 @@
   {
    "kind": "repo",
    "title": "anujasid/blender-ai-mcp-addon",
-   "stars": 618,
+   "stars": 657,
    "note": "Python · new this week",
    "url": "https://github.com/anujasid/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -119,7 +128,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 354,
+   "stars": 364,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -129,7 +138,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3708,
+   "stars": 3743,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -139,7 +148,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2636,
+   "stars": 2664,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -149,7 +158,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 2053,
+   "stars": 2085,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -159,7 +168,7 @@
   {
    "kind": "repo",
    "title": "ahwootech/BRUTAL",
-   "stars": 1793,
+   "stars": 1812,
    "note": "C# · new this week",
    "url": "https://github.com/ahwootech/BRUTAL",
    "source": "GitHub",
@@ -169,11 +178,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 248,
+   "points": 271,
    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
    "source": "Hacker News",
    "url": "https://llmspeed.dev/",
    "discuss": "https://news.ycombinator.com/item?id=50127979"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 30,
+   "title": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
+   "source": "Hacker News",
+   "url": "https://sphinx-six-theta.vercel.app/",
+   "discuss": "https://news.ycombinator.com/item?id=50137950"
   },
   {
    "kind": "news",

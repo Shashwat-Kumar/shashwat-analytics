@@ -1,0 +1,75 @@
+{"message":"My debit card was declined at the supermarket.","label":"cards"}
+{"message":"The ATM kept my card and did not return it.","label":"cards"}
+{"message":"I need a replacement for my damaged credit card.","label":"cards"}
+{"message":"The card PIN is not working at the cash machine.","label":"cards"}
+{"message":"How can I change the limit on my debit card?","label":"cards"}
+{"message":"My new card has arrived but activation is failing.","label":"cards"}
+{"message":"Contactless payment on my card is not working.","label":"cards"}
+{"message":"I was charged twice for a card purchase.","label":"cards"}
+{"message":"I want to know when my replacement card will arrive.","label":"cards"}
+{"message":"The merchant says my card payment was reversed.","label":"cards"}
+{"message":"I cannot find the option to block my debit card.","label":"cards"}
+{"message":"Please explain the annual fee on my credit card.","label":"cards"}
+{"message":"My card has expired and the renewed one hasn't come.","label":"cards"}
+{"message":"The POS terminal says my card is invalid.","label":"cards"}
+{"message":"I forgot my card PIN and need help resetting it.","label":"cards"}
+{"message":"My UPI transfer is pending and the amount was debited.","label":"payments"}
+{"message":"I sent money by IMPS but the beneficiary has not received it.","label":"payments"}
+{"message":"My NEFT transfer shows failed but the balance went down.","label":"payments"}
+{"message":"Why is my UPI collect request not showing up?","label":"payments"}
+{"message":"I cannot add my bank account to a UPI app.","label":"payments"}
+{"message":"The QR payment at a shop did not go through.","label":"payments"}
+{"message":"A scheduled transfer has not been processed.","label":"payments"}
+{"message":"I need a reference number for yesterday's fund transfer.","label":"payments"}
+{"message":"My UPI ID stopped receiving transfers.","label":"payments"}
+{"message":"Please check the status of my RTGS transfer.","label":"payments"}
+{"message":"The beneficiary says the payment is still not credited.","label":"payments"}
+{"message":"A UPI payment is stuck in processing.","label":"payments"}
+{"message":"My standing instruction for rent did not run.","label":"payments"}
+{"message":"I see a transfer debit and then a reversal.","label":"payments"}
+{"message":"My transaction failed when I tried to pay a bill.","label":"payments"}
+{"message":"Please help me download my savings account statement.","label":"account"}
+{"message":"I want to update the mobile number linked to my account.","label":"account"}
+{"message":"How do I request a new cheque book?","label":"account"}
+{"message":"The address on my account needs correcting.","label":"account"}
+{"message":"I need the IFSC code for my branch.","label":"account"}
+{"message":"Can I change the nominee on my account?","label":"account"}
+{"message":"My monthly bank statement has not arrived.","label":"account"}
+{"message":"How do I see the interest credited to my savings account?","label":"account"}
+{"message":"I have forgotten my internet banking login ID.","label":"account"}
+{"message":"Please tell me how to close an unused savings account.","label":"account"}
+{"message":"I need a balance certificate for my account.","label":"account"}
+{"message":"The email address on my banking profile is outdated.","label":"account"}
+{"message":"I want to change the communication language on my account.","label":"account"}
+{"message":"How can I request a passbook update?","label":"account"}
+{"message":"Internet banking asks me to reset my password.","label":"account"}
+{"message":"Where can I find the nearest branch on a Sunday?","label":"other"}
+{"message":"Does the bank offer lockers at this location?","label":"other"}
+{"message":"What are the hours of your customer support line?","label":"other"}
+{"message":"Can you explain the bank's holiday schedule?","label":"other"}
+{"message":"Do you have any student internship opportunities?","label":"other"}
+{"message":"I want the address of your head office.","label":"other"}
+{"message":"Where can I read the bank's annual report?","label":"other"}
+{"message":"Can I book an appointment at a branch?","label":"other"}
+{"message":"Which documents are needed for an education loan enquiry?","label":"other"}
+{"message":"Where can I find information about your mobile app?","label":"other"}
+{"message":"Do you publish a list of holidays for branches?","label":"other"}
+{"message":"I would like the contact details for customer care.","label":"other"}
+{"message":"How do I lodge general feedback on the website?","label":"other"}
+{"message":"What does your bank's abbreviation stand for?","label":"other"}
+{"message":"Can I get accessibility support at your offices?","label":"other"}
+{"message":"Hello, can someone help?","label":"unknown"}
+{"message":"I have a question.","label":"unknown"}
+{"message":"Something is wrong, not sure what.","label":"unknown"}
+{"message":"Please call me when free.","label":"unknown"}
+{"message":"I need information.","label":"unknown"}
+{"message":"I am unhappy.","label":"unknown"}
+{"message":"Can you look into this?","label":"unknown"}
+{"message":"Help me please.","label":"unknown"}
+{"message":"Is anybody there?","label":"unknown"}
+{"message":"I have a banking problem.","label":"unknown"}
+{"message":"Please get back to me.","label":"unknown"}
+{"message":"Can somebody explain?","label":"unknown"}
+{"message":"Need urgent assistance.","label":"unknown"}
+{"message":"This is confusing.","label":"unknown"}
+{"message":"I would like support.","label":"unknown"}

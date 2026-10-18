@@ -1,0 +1,25 @@
+{"message":"My card keeps getting rejected when I tap to pay.","label":"cards"}
+{"message":"The replacement debit card has not been delivered.","label":"cards"}
+{"message":"I need to reset the ATM PIN for my credit card.","label":"cards"}
+{"message":"Why is there an extra fee on my card bill?","label":"cards"}
+{"message":"Can I freeze a missing card from the app?","label":"cards"}
+{"message":"A transfer via UPI shows completed but my friend sees nothing.","label":"payments"}
+{"message":"The bank debited my account for a failed IMPS transfer.","label":"payments"}
+{"message":"Please trace the reference ID for my RTGS remittance.","label":"payments"}
+{"message":"My electricity bill payment is still being processed.","label":"payments"}
+{"message":"The UPI QR code fails when I scan it.","label":"payments"}
+{"message":"Could you email a statement for the last quarter?","label":"account"}
+{"message":"I want to modify my nominee details.","label":"account"}
+{"message":"I can't get into online banking after changing the password.","label":"account"}
+{"message":"Is there a way to order a cheque book in the app?","label":"account"}
+{"message":"My registered address has changed.","label":"account"}
+{"message":"When does the branch open on Saturday?","label":"other"}
+{"message":"How can I apply for a summer internship?","label":"other"}
+{"message":"Where can I find the bank's latest annual results?","label":"other"}
+{"message":"Can I get the address of the nearest ATM?","label":"other"}
+{"message":"Does your branch have safe deposit lockers?","label":"other"}
+{"message":"I need help with something.","label":"unknown"}
+{"message":"Can you assist?","label":"unknown"}
+{"message":"Please respond.","label":"unknown"}
+{"message":"There is an issue.","label":"unknown"}
+{"message":"I have a query.","label":"unknown"}

@@ -3,7 +3,7 @@
   {
    "id": "anansi",
    "name": "Anansi",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "aporia",
@@ -13,7 +13,7 @@
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "bastion",
@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "commons",
@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "ferro",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "quanta",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "tensor",
@@ -278,6 +278,16 @@
    "w": 1
   },
   {
+   "a": "juniper",
+   "b": "praxis",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "praxis",
+   "w": 2
+  },
+  {
    "a": "argent",
    "b": "meridian",
    "w": 1
@@ -300,7 +310,7 @@
   {
    "a": "anansi",
    "b": "argent",
-   "w": 1
+   "w": 2
   },
   {
    "a": "anansi",
@@ -409,6 +419,11 @@
   },
   {
    "a": "cipher",
+   "b": "veritas",
+   "w": 1
+  },
+  {
+   "a": "argent",
    "b": "veritas",
    "w": 1
   },
@@ -540,7 +555,7 @@
   {
    "a": "delta",
    "b": "tarn",
-   "w": 2
+   "w": 3
   },
   {
    "a": "ledger",
@@ -554,11 +569,6 @@
   },
   {
    "a": "mosaic",
-   "b": "praxis",
-   "w": 1
-  },
-  {
-   "a": "cipher",
    "b": "praxis",
    "w": 1
   },
@@ -625,6 +635,11 @@
   {
    "a": "bastion",
    "b": "delta",
+   "w": 1
+  },
+  {
+   "a": "bastion",
+   "b": "tarn",
    "w": 1
   }
  ]

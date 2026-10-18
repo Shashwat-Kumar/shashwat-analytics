@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Small Language Models: what works, what doesn't, and build one | ReadSigil</title>
-<meta name="description" content="A practical guide to small language models: debunk common myths, choose the right task and fine-tune a 0.5B model with a real held-out evaluation.">
+<meta name="description" content="A practical guide to small language models: ten common claims tested, choose the right task and fine-tune a 0.5B model with a real held-out evaluation.">
 <link rel="canonical" href="https://readsigil.com/slm/">
 <meta property="og:type" content="article"><meta property="og:title" content="Small language models. Big claims. Let's test them.">
 <meta property="og:description" content="What SLMs solve, what they don't, and a real step-by-step fine-tuning lab with downloadable code.">
@@ -14,8 +14,8 @@
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
 <link href="/assets/fonts/f-57dabf14c8.css" rel="stylesheet">
 <link rel="stylesheet" href="../build-lab/lab.css">
-<link rel="stylesheet" href="slm.css">
-<script src="slm.js" defer></script>
+<link rel="stylesheet" href="slm.css?v=2">
+<script src="slm.js?v=2" defer></script>
 </head>
 <body>
 <header class="site-head"><div class="container head-inner"><a class="brand" href="../index.html">Read<span>Sigil</span><small> / FIELD GUIDE</small></a><nav aria-label="Site"><a href="../index.html">Home</a><a href="../build-lab/">Build Lab</a><a href="../learn.html">Learn</a><a href="../cases.html">Cases</a></nav></div></header>
@@ -34,15 +34,162 @@
  <div class="three"><article class="plain-card"><span class="kicker">PROMPT</span><h3>Tell it what to do.</h3><p>Instructions and examples improve behaviour without changing model weights. Try this first; it may be enough.</p></article><article class="plain-card"><span class="kicker">RETRIEVE</span><h3>Give it what it needs.</h3><p>RAG supplies relevant information at request time. Better for current documents and changing policies than memorising facts in weights.</p></article><article class="plain-card"><span class="kicker">FINE-TUNE</span><h3>Teach a repeatable behaviour.</h3><p>Adapt weights using labelled examples. Most practical 'build an SLM' exercises start from an existing model, not random initialisation.</p></article></div>
 </section>
 <section class="container section" id="myths">
- <p class="eyebrow muted">02 / MYTHBUSTERS</p><h2>Six claims worth interrogating.</h2>
- <p class="section-intro">Open each claim before you make a technology decision. The answer is usually more interesting than yes or no.</p>
- <div class="myth-grid">
- <details><summary><span>01</span> A smaller model is always cheaper. <b>+</b></summary><p><strong>False.</strong> Weight size helps, but total cost depends on hardware, utilization, throughput, prompt length, support, monitoring and rework. Benchmark cost per successful task on your own workload.</p></details>
- <details><summary><span>02</span> Small models are automatically private. <b>+</b></summary><p><strong>False.</strong> Local deployment can keep inference data within your boundary. Privacy still depends on logging, access controls, data handling, hosting, retention and training-data rights.</p></details>
- <details><summary><span>03</span> Fine-tuning uploads all company knowledge. <b>+</b></summary><p><strong>Wrong tool.</strong> Fine-tuning is useful for output format, style or a narrow task. For changing reference facts, use retrieval, a database or governed tools. Training is not a reliable knowledge store.</p></details>
- <details><summary><span>04</span> An SLM never hallucinates on a narrow task. <b>+</b></summary><p><strong>False.</strong> It can invent labels, mishandle ambiguity or fail on unfamiliar language. Constrain outputs, validate them and let the system abstain or escalate.</p></details>
- <details><summary><span>05</span> Quantization and fine-tuning are the same. <b>+</b></summary><p><strong>No.</strong> Quantization changes how numerical weights are represented to reduce memory. Fine-tuning updates learned parameters. LoRA trains small adapter weights; it is not a quantization method.</p></details>
- <details><summary><span>06</span> More training data always fixes a bad model. <b>+</b></summary><p><strong>Not necessarily.</strong> Labels, representativeness, duplicates, data leakage and task definition matter. A simple classifier or deterministic rules can outperform a generative SLM on a narrow categorisation problem.</p></details>
+ <p class="eyebrow muted">02 / MYTHBUSTERS</p><h2>Ten claims you will hear in the next AI meeting.</h2>
+ <p class="section-intro">Make your call on each one before you see the evidence. Every claim has a grain of truth. The catch is where budgets, timelines and audits go wrong.</p>
+ <div class="claim-ledger" id="claimLedger">
+
+ <div class="claim-group">
+  <h3>Cost and capacity</h3>
+
+  <article class="claim" data-verdict="depends">
+   <div class="claim-head"><span class="claim-no">01</span><h4 class="claim-text" id="c01">“A smaller model is always cheaper and faster.”</h4>
+   <div class="claim-call" role="group" aria-labelledby="c01"><button type="button" data-call="agree" aria-pressed="false">Agree</button><button type="button" data-call="disagree" aria-pressed="false">Disagree</button></div></div>
+   <div class="claim-body" id="c01-body"><p class="verdict v-depends">Depends</p><dl>
+    <dt>Why people believe it</dt><dd>Fewer parameters need less memory and cost less per token.</dd>
+    <dt>The catch</dt><dd>At low volume, idle GPUs, serving engineers and monitoring can cost more than a hosted API. Long prompts and poor batching wipe out the speed gain.</dd>
+    <dt>Test it</dt><dd>Work out cost per <em>correct</em> output at your real volume: infrastructure, operations and the cost of errors, divided by correct outputs. Start with <a href="#step3">step 03</a>.</dd>
+   </dl></div>
+   <button type="button" class="claim-reveal" aria-expanded="false" aria-controls="c01-body">Show the evidence</button>
+  </article>
+
+  <article class="claim" data-verdict="partly">
+   <div class="claim-head"><span class="claim-no">02</span><h4 class="claim-text" id="c02">“Open weights mean free, with no lock&#8209;in.”</h4>
+   <div class="claim-call" role="group" aria-labelledby="c02"><button type="button" data-call="agree" aria-pressed="false">Agree</button><button type="button" data-call="disagree" aria-pressed="false">Disagree</button></div></div>
+   <div class="claim-body" id="c02-body"><p class="verdict v-partly">Partly true</p><dl>
+    <dt>Why people believe it</dt><dd>You can download the weights and host them yourself.</dd>
+    <dt>The catch</dt><dd>Many “open” models ship under custom licences with usage conditions, and few meet the Open Source Initiative’s definition. You also inherit the base model’s roadmap: a new version means retraining and revalidating.</dd>
+    <dt>Test it</dt><dd>Read the licence file before the benchmark. Price one full revalidation cycle.</dd>
+    <dt>Source</dt><dd><a href="https://opensource.org/ai" target="_blank" rel="noopener noreferrer">OSI Open Source AI Definition 1.0 ↗</a></dd>
+   </dl></div>
+   <button type="button" class="claim-reveal" aria-expanded="false" aria-controls="c02-body">Show the evidence</button>
+  </article>
+
+  <article class="claim" data-verdict="busted">
+   <div class="claim-head"><span class="claim-no">03</span><h4 class="claim-text" id="c03">“You need a GPU cluster and a research team to build one.”</h4>
+   <div class="claim-call" role="group" aria-labelledby="c03"><button type="button" data-call="agree" aria-pressed="false">Agree</button><button type="button" data-call="disagree" aria-pressed="false">Disagree</button></div></div>
+   <div class="claim-body" id="c03-body"><p class="verdict v-busted">Busted</p><dl>
+    <dt>Why people believe it</dt><dd>Training a model from scratch does need that.</dd>
+    <dt>The catch</dt><dd>Almost nobody trains from scratch. LoRA freezes the base model and trains a small adapter: well under 1% of the weights. This lab runs on a single GPU or a free notebook, and the script prints the exact figure.</dd>
+    <dt>Test it</dt><dd>Run <a href="#step4">step 04</a> in Colab.</dd>
+    <dt>Source</dt><dd><a href="https://arxiv.org/abs/2106.09685" target="_blank" rel="noopener noreferrer">Hu et al., LoRA (2021) ↗</a> and <a href="https://arxiv.org/abs/2305.14314" target="_blank" rel="noopener noreferrer">Dettmers et al., QLoRA (2023) ↗</a></dd>
+   </dl></div>
+   <button type="button" class="claim-reveal" aria-expanded="false" aria-controls="c03-body">Show the evidence</button>
+  </article>
+ </div>
+
+ <div class="claim-group">
+  <h3>Risk and governance</h3>
+
+  <article class="claim" data-verdict="busted">
+   <div class="claim-head"><span class="claim-no">04</span><h4 class="claim-text" id="c04">“A small model running in-house is automatically private.”</h4>
+   <div class="claim-call" role="group" aria-labelledby="c04"><button type="button" data-call="agree" aria-pressed="false">Agree</button><button type="button" data-call="disagree" aria-pressed="false">Disagree</button></div></div>
+   <div class="claim-body" id="c04-body"><p class="verdict v-busted">Busted</p><dl>
+    <dt>Why people believe it</dt><dd>Local inference keeps prompts inside your boundary.</dd>
+    <dt>The catch</dt><dd>Logging, access and retention still decide privacy. And a fine-tuned model can memorise training examples and repeat them when prompted the right way.</dd>
+    <dt>Test it</dt><dd>Prompt your adapted model with the first half of a training record. See what it completes.</dd>
+    <dt>Source</dt><dd><a href="https://arxiv.org/abs/2012.07805" target="_blank" rel="noopener noreferrer">Carlini et al., Extracting Training Data from Large Language Models (2021) ↗</a></dd>
+   </dl></div>
+   <button type="button" class="claim-reveal" aria-expanded="false" aria-controls="c04-body">Show the evidence</button>
+  </article>
+
+  <article class="claim" data-verdict="busted">
+   <div class="claim-head"><span class="claim-no">05</span><h4 class="claim-text" id="c05">“On a narrow task, it won’t hallucinate.”</h4>
+   <div class="claim-call" role="group" aria-labelledby="c05"><button type="button" data-call="agree" aria-pressed="false">Agree</button><button type="button" data-call="disagree" aria-pressed="false">Disagree</button></div></div>
+   <div class="claim-body" id="c05-body"><p class="verdict v-busted">Busted</p><dl>
+    <dt>Why people believe it</dt><dd>A narrow task leaves less room to go wrong.</dd>
+    <dt>The catch</dt><dd>It can still invent a label, force a confident answer onto a vague message, or break on phrasing it has not seen.</dd>
+    <dt>Test it</dt><dd>Track invalid labels and how often the model says <code>unknown</code>, not accuracy alone. That is why this lab has an <code>unknown</code> label. See <a href="#step1">step 01</a>.</dd>
+   </dl></div>
+   <button type="button" class="claim-reveal" aria-expanded="false" aria-controls="c05-body">Show the evidence</button>
+  </article>
+
+  <article class="claim" data-verdict="busted">
+   <div class="claim-head"><span class="claim-no">06</span><h4 class="claim-text" id="c06">“If we host it ourselves, where the model came from doesn’t matter.”</h4>
+   <div class="claim-call" role="group" aria-labelledby="c06"><button type="button" data-call="agree" aria-pressed="false">Agree</button><button type="button" data-call="disagree" aria-pressed="false">Disagree</button></div></div>
+   <div class="claim-body" id="c06-body"><p class="verdict v-busted">Busted</p><dl>
+    <dt>Why people believe it</dt><dd>The data never leaves your infrastructure.</dd>
+    <dt>The catch</dt><dd>Auditors and regulators look at the supply chain: who built the model, its licence, what it was trained on, the file format and the jurisdiction of origin.</dd>
+    <dt>A note on this lab</dt><dd>We teach with Qwen2.5 because it is small and permissively licensed. That is a choice for learning, not a production endorsement. The script is model-agnostic: pass <code>--model</code> to swap the base.</dd>
+    <dt>Source</dt><dd><a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer">NIST AI Risk Management Framework ↗</a> and <a href="https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61018" target="_blank" rel="noopener noreferrer">RBI FREE-AI Committee report (2025) ↗</a></dd>
+   </dl></div>
+   <button type="button" class="claim-reveal" aria-expanded="false" aria-controls="c06-body">Show the evidence</button>
+  </article>
+
+  <article class="claim" data-verdict="busted">
+   <div class="claim-head"><span class="claim-no">07</span><h4 class="claim-text" id="c07">“Smaller means easier to explain and harder to attack.”</h4>
+   <div class="claim-call" role="group" aria-labelledby="c07"><button type="button" data-call="agree" aria-pressed="false">Agree</button><button type="button" data-call="disagree" aria-pressed="false">Disagree</button></div></div>
+   <div class="claim-body" id="c07-body"><p class="verdict v-busted">Busted</p><dl>
+    <dt>Why people believe it</dt><dd>Fewer parameters sounds like more transparency.</dd>
+    <dt>The catch</dt><dd>Half a billion parameters is still opaque, and prompt injection works at any size. What an auditor can check is the system around the model: logged inputs and outputs, versioned adapters and stored test results.</dd>
+    <dt>Test it</dt><dd>Hide an instruction inside a test message and see whether the label changes.</dd>
+    <dt>Source</dt><dd><a href="https://owasp.org/www-project-top-10-for-large-language-model-applications/" target="_blank" rel="noopener noreferrer">OWASP Top 10 for LLM Applications ↗</a></dd>
+   </dl></div>
+   <button type="button" class="claim-reveal" aria-expanded="false" aria-controls="c07-body">Show the evidence</button>
+  </article>
+ </div>
+
+ <div class="claim-group">
+  <h3>Engineering choices</h3>
+
+  <article class="claim" data-verdict="wrongtool">
+   <div class="claim-head"><span class="claim-no">08</span><h4 class="claim-text" id="c08">“Fine-tune it on our policies and it will know them.”</h4>
+   <div class="claim-call" role="group" aria-labelledby="c08"><button type="button" data-call="agree" aria-pressed="false">Agree</button><button type="button" data-call="disagree" aria-pressed="false">Disagree</button></div></div>
+   <div class="claim-body" id="c08-body"><p class="verdict v-wrongtool">Wrong tool</p><dl>
+    <dt>Why people believe it</dt><dd>Training changes behaviour, so it should teach facts too.</dd>
+    <dt>The catch</dt><dd>Fine-tuning teaches format and narrow behaviour. Facts belong in retrieval or a database, where they can be updated. Research finds that fine-tuning on facts a model does not already know makes it more likely to hallucinate.</dd>
+    <dt>Source</dt><dd><a href="https://arxiv.org/abs/2005.11401" target="_blank" rel="noopener noreferrer">Lewis et al., RAG (2020) ↗</a> and <a href="https://arxiv.org/abs/2405.05904" target="_blank" rel="noopener noreferrer">Gekhman et al. (2024) ↗</a></dd>
+   </dl></div>
+   <button type="button" class="claim-reveal" aria-expanded="false" aria-controls="c08-body">Show the evidence</button>
+  </article>
+
+  <article class="claim" data-verdict="busted">
+   <div class="claim-head"><span class="claim-no">09</span><h4 class="claim-text" id="c09">“A higher benchmark score means a better model for our task.”</h4>
+   <div class="claim-call" role="group" aria-labelledby="c09"><button type="button" data-call="agree" aria-pressed="false">Agree</button><button type="button" data-call="disagree" aria-pressed="false">Disagree</button></div></div>
+   <div class="claim-body" id="c09-body"><p class="verdict v-busted">Busted</p><dl>
+    <dt>Why people believe it</dt><dd>On broad, open-ended work, stronger general models usually do better.</dd>
+    <dt>The catch</dt><dd>Public benchmarks rarely look like your task. On this page’s own 25 test messages, a classical text classifier with no language model at all scored 25 out of 25.</dd>
+    <dt>Test it</dt><dd>We ran it. <a href="#tested">See the result</a>, then run <code>baseline_classic.py</code> yourself.</dd>
+   </dl></div>
+   <button type="button" class="claim-reveal" aria-expanded="false" aria-controls="c09-body">Show the evidence</button>
+  </article>
+
+  <article class="claim" data-verdict="depends">
+   <div class="claim-head"><span class="claim-no">10</span><h4 class="claim-text" id="c10">“Quantization is free compression.”</h4>
+   <div class="claim-call" role="group" aria-labelledby="c10"><button type="button" data-call="agree" aria-pressed="false">Agree</button><button type="button" data-call="disagree" aria-pressed="false">Disagree</button></div></div>
+   <div class="claim-body" id="c10-body"><p class="verdict v-depends">Depends</p><dl>
+    <dt>Why people believe it</dt><dd>At 8 bits, models often lose very little.</dd>
+    <dt>The catch</dt><dd>Losses at 4 bits depend on the task, and rare categories tend to suffer first.</dd>
+    <dt>Test it</dt><dd>Re-run the same 25 test messages after quantizing. Never assume the scores carry over.</dd>
+    <dt>Source</dt><dd><a href="https://arxiv.org/abs/2210.17323" target="_blank" rel="noopener noreferrer">Frantar et al., GPTQ (2022) ↗</a></dd>
+   </dl></div>
+   <button type="button" class="claim-reveal" aria-expanded="false" aria-controls="c10-body">Show the evidence</button>
+  </article>
+ </div>
+
+  <div class="claim-tally" aria-live="polite">
+   <p id="tallyCount">Make your call on each claim. Your tally appears here.</p>
+   <p id="tallyVerdict" class="tally-verdict" hidden>None of the ten holds as stated. Three hold only under conditions you would have to measure.</p>
+  </div>
+ </div>
+
+ <div class="tested" id="tested">
+  <figure class="tested-video">
+   <video controls playsinline preload="none" poster="../assets/video/slm-baseline-test.jpg" aria-describedby="testedTranscript">
+    <source src="../assets/video/slm-baseline-test.mp4" type="video/mp4">
+    Your browser cannot play this video. The transcript below covers it in full.
+   </video>
+   <figcaption>Recorded 18 October 2026 from a real run of <code>baseline_classic.py</code> on this workshop’s data. No sound.</figcaption>
+  </figure>
+  <div class="tested-copy">
+   <h3>We tested claim 09 on a laptop CPU.</h3>
+   <p class="tested-result"><strong>25 of 25</strong> held-out messages sorted correctly by a classical text classifier, trained in 0.19 seconds on the same 75 messages the workshop uses.</p>
+   <p>No GPU and no model download. The settings were fixed before the test set was scored.</p>
+   <p>A perfect score is also a warning. Twenty-five clean, single-language messages are too easy to tell models apart. Real customer messages mix languages, misspell words and ask two things at once. That is where the comparison starts to mean something.</p>
+   <p class="tested-actions"><a class="btn primary" href="baseline_classic.py" download>Download the baseline</a><a class="btn ghost" href="#workshop">Try to beat it</a></p>
+   <details class="transcript" id="testedTranscript"><summary>Read the video transcript</summary>
+    <p>Claim 09: a higher benchmark score means a better model for our task. We tested it on this page’s own data: 75 training messages, 25 held-out messages, five labels. The method is a TF-IDF character n-gram classifier with logistic regression, and no language model. Command: python baseline_classic.py. Output: trained in 0.19 seconds on CPU; 25 of 25 correct; every label 5 of 5. A perfect score is a warning too: this test is too clean to separate models. Beat the baseline before you fine-tune.</p>
+   </details>
+  </div>
  </div>
 </section>
 <section class="container section" id="use-cases">
@@ -58,7 +205,8 @@
  <div class="step-list">
   <article class="lab-step" id="step1"><div class="step-head"><span>01 / DEFINE</span><h3>Choose one bounded job.</h3></div><p>Input: one fictional support message. Output: a single lowercase label. No account action, advice, or financial decision.</p><div class="label-pills"><code>cards</code><code>payments</code><code>account</code><code>other</code><code>unknown</code></div><p class="why">Why <code>unknown</code>? Some messages contain too little information. Forcing a confident answer hides a failure.</p></article>
   <article class="lab-step" id="step2"><div class="step-head"><span>02 / DATA</span><h3>See what the model learns from.</h3></div><p>Training: 75 invented and labelled messages. Held-out check: 25 separately authored messages, five per category. This tiny dataset teaches the process, not production performance.</p><div class="sample-browser"><label for="sampleCategory">Look at a labelled training example</label><select id="sampleCategory"><option value="cards">Cards</option><option value="payments">Payments</option><option value="account">Accounts</option><option value="other">Other enquiries</option><option value="unknown">Too vague to classify</option></select><div class="sample-output"><span>MESSAGE</span><p id="sampleText">My debit card was declined at the supermarket.</p><span>EXPECTED OUTPUT</span><code id="sampleLabel">cards</code></div></div><p class="file-links"><a href="data/train.jsonl" download>Training examples ↓</a><a href="data/eval.jsonl" download>Separate test examples ↓</a></p></article>
-  <article class="lab-step" id="step3"><div class="step-head"><span>03 / BASELINE</span><h3>Find out if you need to train at all.</h3></div><p>The supplied Python script first runs the unmodified model against the 25 held-out messages. You will later run the adapted model on the exact same set. For a credible production comparison, also try prompting and a non-generative classifier.</p><div class="flow-diagram" aria-label="Comparison sequence"><span>Base model</span><i>→</i><span>25 untouched tests</span><i>→</i><span>Record results</span></div><p class="why">We don't display invented accuracy or simulated model responses here. The scores appear only when you actually run the script.</p></article>
+  <article class="lab-step" id="step3"><div class="step-head"><span>03 / BASELINE</span><h3>Find out if you need to train at all.</h3></div><p>The supplied Python script first runs the unmodified model against the 25 held-out messages. You will later run the adapted model on the exact same set. For a credible comparison, also run a classical classifier that uses no language model. On this test it scored 25 of 25, so a fine-tuned model has to justify its cost against that.</p><div class="flow-diagram" aria-label="Comparison sequence"><span>Base model</span><i>→</i><span>25 untouched tests</span><i>→</i><span>Record results</span></div><p class="cmd-label">The cheapest baseline, in seconds on any laptop:</p><pre class="command">python -m pip install scikit-learn
+python baseline_classic.py</pre><p class="why">We don't display invented accuracy or simulated model responses here. The scores appear only when you actually run the script.</p></article>
   <article class="lab-step" id="step4"><div class="step-head"><span>04 / TRAIN</span><h3>Fine-tune a model, not a slide.</h3></div><p>LoRA freezes the foundation weights and trains a small adapter. You can adjust rank and training epochs; the script will report trainable parameters and save the adapter.</p><div class="settings"><label>LoRA rank<select id="rank"><option value="4">4 · lighter</option><option value="8" selected>8 · default</option><option value="16">16 · larger adapter</option></select></label><label>Training epochs<select id="epochs"><option value="1">1 · quick baseline</option><option value="3" selected>3 · default</option><option value="5">5 · watch for overfitting</option></select></label></div>
   <p class="cmd-label">In a terminal, from the <code>slm</code> directory:</p><pre class="command" id="command">python -m pip install -r requirements.txt
 python train.py --train data/train.jsonl --eval data/eval.jsonl --epochs 3 --rank 8</pre><div class="command-actions"><button type="button" class="btn primary" id="copyCommand">Copy commands</button><a class="btn ghost" href="train.py" download>Download training code ↓</a><a class="btn ghost" href="requirements.txt" download>Requirements ↓</a></div><p class="why">To run it, you must obtain the model weights and install the dependencies. No model training happens in this web page.</p></article>
@@ -71,7 +219,7 @@ python train.py --train data/train.jsonl --eval data/eval.jsonl --epochs 3 --ran
  <p class="section-intro">Start only when the workflow is narrow, frequent, measurable and stable. If an SLM can't beat a cheaper baseline on the metrics that matter, don't deploy it just because the model is fashionable.</p>
  <div class="three"><article class="plain-card"><span class="kicker">REPEATABLE</span><h3>Clear input, clear output.</h3><p>Can reviewers agree on the correct answer consistently?</p></article><article class="plain-card"><span class="kicker">MEASURABLE</span><h3>Known failure costs.</h3><p>Do you have held-out examples and an explicit threshold for intervention?</p></article><article class="plain-card"><span class="kicker">OPERABLE</span><h3>Governed end to end.</h3><p>Can you monitor quality, protect data and roll back safely?</p></article></div>
 </section>
-<section class="container section reading"><h2>Go to the primary sources.</h2><p><a href="https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct" target="_blank" rel="noopener noreferrer">Qwen2.5 0.5B model card ↗</a> · <a href="https://huggingface.co/docs/peft/quicktour" target="_blank" rel="noopener noreferrer">PEFT / LoRA documentation ↗</a> · <a href="https://huggingface.co/docs/transformers/training" target="_blank" rel="noopener noreferrer">Hugging Face training guide ↗</a></p></section>
+<section class="container section reading"><h2>Go to the primary sources.</h2><p><a href="https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct" target="_blank" rel="noopener noreferrer">Qwen2.5 0.5B model card ↗</a> · <a href="https://huggingface.co/docs/peft/quicktour" target="_blank" rel="noopener noreferrer">PEFT / LoRA documentation ↗</a> · <a href="https://huggingface.co/docs/transformers/training" target="_blank" rel="noopener noreferrer">Hugging Face training guide ↗</a></p><p>The research behind the claims: <a href="https://arxiv.org/abs/2106.09685" target="_blank" rel="noopener noreferrer">LoRA ↗</a> · <a href="https://arxiv.org/abs/2305.14314" target="_blank" rel="noopener noreferrer">QLoRA ↗</a> · <a href="https://arxiv.org/abs/2012.07805" target="_blank" rel="noopener noreferrer">Training-data extraction ↗</a> · <a href="https://arxiv.org/abs/2005.11401" target="_blank" rel="noopener noreferrer">Retrieval-augmented generation ↗</a> · <a href="https://arxiv.org/abs/2405.05904" target="_blank" rel="noopener noreferrer">Fine-tuning and hallucination ↗</a> · <a href="https://arxiv.org/abs/2210.17323" target="_blank" rel="noopener noreferrer">GPTQ quantization ↗</a> · <a href="https://owasp.org/www-project-top-10-for-large-language-model-applications/" target="_blank" rel="noopener noreferrer">OWASP LLM Top 10 ↗</a> · <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer">NIST AI RMF ↗</a> · <a href="https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61018" target="_blank" rel="noopener noreferrer">RBI FREE-AI ↗</a> · <a href="https://opensource.org/ai" target="_blank" rel="noopener noreferrer">OSI Open Source AI Definition ↗</a></p><p class="reviewed">Claims and sources last reviewed 18 October 2026.</p></section>
 </main>
 <footer><div class="container foot-inner"><span>© ReadSigil · Independent practical learning</span><span><a href="../build-lab/">More builds</a> · <a href="../index.html">Home</a></span></div></footer>
 </body></html>

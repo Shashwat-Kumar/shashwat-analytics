@@ -52,3 +52,44 @@ const updateResult=()=>{
   result.textContent=`Your measured exact-label accuracy: base ${(100*b/25).toFixed(0)}%; adapted ${(100*a/25).toFixed(0)}%. Performance ${phrase}${diff}. This small invented test is instructional; inspect errors and test on representative independent data before claiming a real-world gain.`;
 };
 if(base&&adapted){base.addEventListener("input",updateResult);adapted.addEventListener("input",updateResult);}
+const ledger=document.querySelector("#claimLedger");
+if(ledger){
+  ledger.classList.add("js-ledger");
+  const claims=[...ledger.querySelectorAll(".claim")];
+  const count=document.querySelector("#tallyCount");
+  const verdict=document.querySelector("#tallyVerdict");
+  const open=(claim,state)=>{
+    claim.classList.toggle("is-open",state);
+    const reveal=claim.querySelector(".claim-reveal");
+    reveal.setAttribute("aria-expanded",String(state));
+    reveal.textContent=state?"Hide the evidence":"Show the evidence";
+  };
+  const updateTally=()=>{
+    const called=claims.filter(c=>c.dataset.call);
+    const agreed=called.filter(c=>c.dataset.call==="agree").length;
+    if(!called.length){
+      count.textContent="Make your call on each claim. Your tally appears here.";
+    }else if(called.length<claims.length){
+      count.textContent=`You have called ${called.length} of ${claims.length}. You agreed with ${agreed}.`;
+    }else{
+      count.textContent=`You called all ${claims.length} and agreed with ${agreed}.`;
+    }
+    verdict.hidden=called.length<claims.length;
+  };
+  claims.forEach(claim=>{
+    const buttons=[...claim.querySelectorAll("[data-call]")];
+    buttons.forEach(button=>button.addEventListener("click",()=>{
+      claim.dataset.call=button.dataset.call;
+      buttons.forEach(b=>{
+        const chosen=b===button;
+        b.setAttribute("aria-pressed",String(chosen));
+        b.classList.toggle("is-other",!chosen);
+      });
+      open(claim,true);
+      updateTally();
+    }));
+    claim.querySelector(".claim-reveal").addEventListener("click",()=>{
+      open(claim,!claim.classList.contains("is-open"));
+    });
+  });
+}

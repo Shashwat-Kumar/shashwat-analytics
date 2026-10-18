@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T21:48:45Z",
+ "generated_at": "2026-10-18T23:44:38Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://arxiv.org/abs/2610.18861",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50145337",
-  "points": 38,
-  "comments": 15,
+  "points": 147,
+  "comments": 85,
   "published": "2026-10-18T20:48:14Z",
   "since": "2026-10-18T21:48:45Z"
  },
@@ -24,7 +24,7 @@
   "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
   "source": "Axios",
-  "published": "2026-10-18T06:49:11Z",
+  "published": "2026-10-18T11:09:42Z",
   "since": "2026-10-18T19:28:58Z"
  },
  "voices": [
@@ -35,7 +35,7 @@
    "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
    "source": "Axios",
-   "published": "2026-10-18T06:49:11Z",
+   "published": "2026-10-18T11:09:42Z",
    "since": "2026-10-18T19:28:58Z"
   },
   {
@@ -56,7 +56,7 @@
    "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
    "source": "Axios",
-   "published": "2026-10-18T06:49:11Z",
+   "published": "2026-10-18T11:09:42Z",
    "since": "2026-10-18T19:28:58Z"
   },
   {
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 784,
+   "stars": 785,
    "note": "Python · new this week",
    "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -121,7 +121,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/d2r-mobile",
-   "stars": 3825,
+   "stars": 3828,
    "note": "C · new this week",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "GitHub",
@@ -131,7 +131,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2729,
+   "stars": 2734,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -140,8 +140,18 @@
   },
   {
    "kind": "repo",
+   "title": "feder-cr/git-ai",
+   "stars": 2293,
+   "note": "Go · new this week",
+   "url": "https://github.com/feder-cr/git-ai",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 2201,
+   "stars": 2210,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -149,19 +159,9 @@
    "cat": "Trending"
   },
   {
-   "kind": "repo",
-   "title": "ahwootech/BRUTAL",
-   "stars": 1891,
-   "note": "C# · new this week",
-   "url": "https://github.com/ahwootech/BRUTAL",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
    "kind": "news",
    "tag": "HN",
-   "points": 234,
+   "points": 238,
    "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
    "source": "Hacker News",
    "url": "https://sphinx-six-theta.vercel.app/",
@@ -170,20 +170,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 38,
+   "points": 147,
    "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "source": "Hacker News",
    "url": "https://arxiv.org/abs/2610.18861",
    "discuss": "https://news.ycombinator.com/item?id=50145337"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 15,
-   "title": "I built a programming language that LLMs can't use",
-   "source": "Hacker News",
-   "url": "https://blog.picheta.me/post/killswitch-lang/",
-   "discuss": "https://news.ycombinator.com/item?id=50135762"
   },
   {
    "kind": "news",

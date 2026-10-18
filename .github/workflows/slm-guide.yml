@@ -1,0 +1,47 @@
+name: SLM Field Guide checks
+on:
+  pull_request:
+    paths:
+      - 'slm/**'
+      - 'index.html'
+      - 'build-lab/**'
+      - '.github/workflows/slm-guide.yml'
+  push:
+    paths:
+      - 'slm/**'
+      - 'index.html'
+      - 'build-lab/**'
+      - '.github/workflows/slm-guide.yml'
+jobs:
+  content-and-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check Python and notebook
+        run: |
+          python -m py_compile slm/train.py
+          python -m json.tool slm/workshop.ipynb > /dev/null
+      - name: Validate data separation and page wiring
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          train=[json.loads(v) for v in Path("slm/data/train.jsonl").read_text().splitlines() if v.strip()]
+          test=[json.loads(v) for v in Path("slm/data/eval.jsonl").read_text().splitlines() if v.strip()]
+          allowed={"cards","payments","account","other","unknown"}
+          assert len(train)==75 and len(test)==25
+          assert all(x["label"] in allowed and x["message"].strip() for x in train+test)
+          assert not ({x["message"] for x in train} & {x["message"] for x in test})
+          assert len({x["message"] for x in train})==len(train)
+          assert len({x["message"] for x in test})==len(test)
+          assert 'href="slm/"' in Path("index.html").read_text()
+          assert 'href="../slm/"' in Path("build-lab/index.html").read_text()
+          for name in ("slm.js", "slm.css", "train.py", "requirements.txt", "data/train.jsonl", "data/eval.jsonl"):
+              assert Path("slm",name).exists(), name
+          print("Data: 75 train, 25 held-out, no exact contamination; site linked")
+          PY
+      - name: Check browser JavaScript
+        run: node --check slm/slm.js

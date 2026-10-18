@@ -232,9 +232,9 @@ def status_html(fm, live_meta):
         floor = (f'<p class="cx-floorlink">Live floor: <a href="{live_meta["url"]}" rel="noopener">{html.escape(live_meta["title"])}</a> · '
                  f'{live_meta["count"]} posts mirrored · synced {live_meta["fetched_at"].replace("T"," ")[:16]} UTC</p>')
     return f"""<div class="cx-status">
-<section><h3>Agreed so far</h3><ul>{li(fm["agreed"])}</ul></section>
-<section><h3>Still disputed</h3><ul>{li(fm["disputed"])}</ul></section>
-<section class="cx-next"><h3>Next</h3><p>{md(nxt)[3:-4]}</p>{floor}</section>
+<section><h3>{fm.get("agreed_label","Agreed so far")}</h3><ul>{li(fm["agreed"])}</ul></section>
+<section><h3>{fm.get("disputed_label","Still disputed")}</h3><ul>{li(fm["disputed"])}</ul></section>
+<section class="cx-next"><h3>{fm.get("next_label","Next")}</h3><p>{md(nxt)[3:-4]}</p>{floor}</section>
 </div>"""
 
 def render_debate(fm, turns):

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T01:52:08Z",
+ "generated_at": "2026-10-19T07:11:17Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://arxiv.org/abs/2610.18861",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50145337",
-  "points": 208,
-  "comments": 131,
+  "points": 342,
+  "comments": 165,
   "published": "2026-10-18T20:48:14Z",
   "since": "2026-10-18T21:48:45Z"
  },
@@ -21,31 +21,22 @@
   "kind": "voice",
   "tag": "VOICE",
   "person": "Elon Musk",
-  "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
-  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
-  "source": "Axios",
-  "published": "2026-10-18T11:09:42Z",
-  "since": "2026-10-18T19:28:58Z"
+  "title": "Elon Musk hits back as Anthropic pledges 5% shares to public fund, says give them to people directly",
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTdoUC1fS045cTFfNzd0dUpDc1ZRRGpKc0hoUGZpbGNtWHh0eVhFaHR4TndxM0hfNWc4bjBQZElhcnpJaG1nT2dMMjlnWFZXcDRnckY2Sm4ya1dNdF81dHMtTWw5dDV1LW1RZzRnTGp2Z3VEM0hWb2REeG15a3NWRmJKSTZMR1I4UE4xVTcydURDa2h1aERnY3AzV1Z0bDNoZEVuTzIxM0FqYm5jTEhnSld0MFlmQ3dycENqOW04TnQ5OUtNRWfSAcYBQVVfeXFMT0U3aFAtX0tOOXExXzc3dHVKQ3NWUURqSnNIaFBmaWxjbVh4dHlYRWh0eE53cTNIXzVnOG4wUGRJYXJ6SWhtZ09nTDI5Z1hWV3A0Z3JGNkpuMmtXTXRfNXRzLU1sOXQ1dS1tUWc0Z0xqdmd1RDNIVm9kRHhteWtzVkZiSkk2TEdSOFBOMVU3MnVEQ2todWhEZ2NwM1dWdGwzaGRFbk8yMTNBamJuY0xIZ0pXdDBZZkN3cnBDajltOE50OTlLTUVn?oc=5",
+  "source": "India Today",
+  "published": "2026-10-19T03:19:42Z",
+  "since": "2026-10-19T07:11:17Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
-   "source": "Axios",
-   "published": "2026-10-18T11:09:42Z",
-   "since": "2026-10-18T19:28:58Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanlDNlc5NFRGdG5pQmZwSkZoNWJxUHJRTE40RDlLckdaczVsVEJ5b1ZJcENCUzdhODZfMXQ4RC02UF9BTlE2TWowWWtBQTFzbWlKczRIcDA2V1VzU1RXYXJCdzRJVWpicWd0TEk5MEhYVE5HVFNqcmd1UHpkZGk4dXVQR0gtelI4MncyaTRBaFlIczQ0cHU0NkpkbzA1NVpSMl9OeHJmZUZHSWVHQW1DMzVHMlEzTGdjQzNDV3NmeVpLdzFKNUJPRlY1X0U3VmZQRDhQOUt2THVCZ0tneW8tdTR6ZnBLSkJvdzZCRmtZUkxoN1NNRTNaME9wM0FVQnQ3SXM40gGIAkFVX3lxTE5SR3p1c2Z3YklZalp3U0dGV1Mwb0dGdW1BR1hNYVdOSVU2Wl9iUExKUzBDLWlPQUlvQmtGTGkwelJxaHlYZlhiRnZwZHV4U0Rpa243bEYzMGkxSWF5RXlzRnhoV2k0LUhIdHJyYWFnRXhLSGZpRm1jUy1GNjh2Y25ialFCWXFEMDMzU1N4cDZTQ0hzMkpmVndwX0xlQ1FiZjVMUWE5c3RGMk5VTS1sU1k0ajIta0RtajdhbWloM1dma3ZHLVFFcnBNVjR6N0RjRjk1NG1VTjIyYXFSa0VmOVg0TkhIOUV0aWhWQ1dZOWlTck80NkowTDZMN014ckdaT3pqeU1pMFN5OQ?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-18T02:46:02Z"
+   "title": "Elon Musk hits back as Anthropic pledges 5% shares to public fund, says give them to people directly",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTdoUC1fS045cTFfNzd0dUpDc1ZRRGpKc0hoUGZpbGNtWHh0eVhFaHR4TndxM0hfNWc4bjBQZElhcnpJaG1nT2dMMjlnWFZXcDRnckY2Sm4ya1dNdF81dHMtTWw5dDV1LW1RZzRnTGp2Z3VEM0hWb2REeG15a3NWRmJKSTZMR1I4UE4xVTcydURDa2h1aERnY3AzV1Z0bDNoZEVuTzIxM0FqYm5jTEhnSld0MFlmQ3dycENqOW04TnQ5OUtNRWfSAcYBQVVfeXFMT0U3aFAtX0tOOXExXzc3dHVKQ3NWUURqSnNIaFBmaWxjbVh4dHlYRWh0eE53cTNIXzVnOG4wUGRJYXJ6SWhtZ09nTDI5Z1hWV3A0Z3JGNkpuMmtXTXRfNXRzLU1sOXQ1dS1tUWc0Z0xqdmd1RDNIVm9kRHhteWtzVkZiSkk2TEdSOFBOMVU3MnVEQ2todWhEZ2NwM1dWdGwzaGRFbk8yMTNBamJuY0xIZ0pXdDBZZkN3cnBDajltOE50OTlLTUVn?oc=5",
+   "source": "India Today",
+   "published": "2026-10-19T03:19:42Z",
+   "since": "2026-10-19T07:11:17Z"
   }
  ],
  "items": [
@@ -53,25 +44,16 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2w2LWYybWZUbUVseTk4VFlMcGpBN0JjamkwM2VLb1QzUksyVmdnd3k4YVZaUV9PaWFkR2ExVXFuN2hOVHNCTGFnWE1YRUNHdWtuaHFpaTE1VFd3OWtjYjU5R1hsVmVDbmdsajdlR09RY3ZXNUpRbmZtTQ?oc=5",
-   "source": "Axios",
-   "published": "2026-10-18T11:09:42Z",
-   "since": "2026-10-18T19:28:58Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanlDNlc5NFRGdG5pQmZwSkZoNWJxUHJRTE40RDlLckdaczVsVEJ5b1ZJcENCUzdhODZfMXQ4RC02UF9BTlE2TWowWWtBQTFzbWlKczRIcDA2V1VzU1RXYXJCdzRJVWpicWd0TEk5MEhYVE5HVFNqcmd1UHpkZGk4dXVQR0gtelI4MncyaTRBaFlIczQ0cHU0NkpkbzA1NVpSMl9OeHJmZUZHSWVHQW1DMzVHMlEzTGdjQzNDV3NmeVpLdzFKNUJPRlY1X0U3VmZQRDhQOUt2THVCZ0tneW8tdTR6ZnBLSkJvdzZCRmtZUkxoN1NNRTNaME9wM0FVQnQ3SXM40gGIAkFVX3lxTE5SR3p1c2Z3YklZalp3U0dGV1Mwb0dGdW1BR1hNYVdOSVU2Wl9iUExKUzBDLWlPQUlvQmtGTGkwelJxaHlYZlhiRnZwZHV4U0Rpa243bEYzMGkxSWF5RXlzRnhoV2k0LUhIdHJyYWFnRXhLSGZpRm1jUy1GNjh2Y25ialFCWXFEMDMzU1N4cDZTQ0hzMkpmVndwX0xlQ1FiZjVMUWE5c3RGMk5VTS1sU1k0ajIta0RtajdhbWloM1dma3ZHLVFFcnBNVjR6N0RjRjk1NG1VTjIyYXFSa0VmOVg0TkhIOUV0aWhWQ1dZOWlTck80NkowTDZMN014ckdaT3pqeU1pMFN5OQ?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-18T02:46:02Z"
+   "title": "Elon Musk hits back as Anthropic pledges 5% shares to public fund, says give them to people directly",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTdoUC1fS045cTFfNzd0dUpDc1ZRRGpKc0hoUGZpbGNtWHh0eVhFaHR4TndxM0hfNWc4bjBQZElhcnpJaG1nT2dMMjlnWFZXcDRnckY2Sm4ya1dNdF81dHMtTWw5dDV1LW1RZzRnTGp2Z3VEM0hWb2REeG15a3NWRmJKSTZMR1I4UE4xVTcydURDa2h1aERnY3AzV1Z0bDNoZEVuTzIxM0FqYm5jTEhnSld0MFlmQ3dycENqOW04TnQ5OUtNRWfSAcYBQVVfeXFMT0U3aFAtX0tOOXExXzc3dHVKQ3NWUURqSnNIaFBmaWxjbVh4dHlYRWh0eE53cTNIXzVnOG4wUGRJYXJ6SWhtZ09nTDI5Z1hWV3A0Z3JGNkpuMmtXTXRfNXRzLU1sOXQ1dS1tUWc0Z0xqdmd1RDNIVm9kRHhteWtzVkZiSkk2TEdSOFBOMVU3MnVEQ2todWhEZ2NwM1dWdGwzaGRFbk8yMTNBamJuY0xIZ0pXdDBZZkN3cnBDajltOE50OTlLTUVn?oc=5",
+   "source": "India Today",
+   "published": "2026-10-19T03:19:42Z",
+   "since": "2026-10-19T07:11:17Z"
   },
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 945,
+   "stars": 946,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -81,7 +63,7 @@
   {
    "kind": "repo",
    "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 787,
+   "stars": 790,
    "note": "Python · new this week",
    "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -91,7 +73,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 389,
+   "stars": 405,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -101,7 +83,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2855,
+   "stars": 3136,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -110,8 +92,18 @@
   },
   {
    "kind": "repo",
+   "title": "Gathin23/tv-vibehack",
+   "stars": 2691,
+   "note": "Java · new this week",
+   "url": "https://github.com/Gathin23/tv-vibehack",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "feder-cr/git-ai",
-   "stars": 2300,
+   "stars": 2323,
    "note": "Go · new this week",
    "url": "https://github.com/feder-cr/git-ai",
    "source": "GitHub",
@@ -121,7 +113,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 2221,
+   "stars": 2253,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -129,19 +121,9 @@
    "cat": "Trending"
   },
   {
-   "kind": "repo",
-   "title": "Gathin23/tv-vibehack",
-   "stars": 2077,
-   "note": "Java · new this week",
-   "url": "https://github.com/Gathin23/tv-vibehack",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
    "kind": "news",
    "tag": "HN",
-   "points": 208,
+   "points": 342,
    "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "source": "Hacker News",
    "url": "https://arxiv.org/abs/2610.18861",
@@ -150,7 +132,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 78,
+   "points": 155,
    "title": "I built a programming language that LLMs can't use",
    "source": "Hacker News",
    "url": "https://blog.picheta.me/post/killswitch-lang/",
@@ -159,7 +141,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 30,
+   "points": 117,
    "title": "If you don't run your own LLM proxy, how do you know whats going on?",
    "source": "Hacker News",
    "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",

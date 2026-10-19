@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T14:46:25Z",
+ "generated_at": "2026-10-19T20:15:24Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,35 +8,35 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
-  "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+  "title": "Timestral: Mistral's time-series foundation models",
+  "url": "https://mistral.ai/news/timestral/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50150750",
-  "points": 518,
-  "comments": 247,
-  "published": "2026-10-19T10:45:14Z",
-  "since": "2026-10-19T14:46:25Z"
+  "discuss": "https://news.ycombinator.com/item?id=50150434",
+  "points": 463,
+  "comments": 86,
+  "published": "2026-10-19T09:59:32Z",
+  "since": "2026-10-19T20:15:24Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
   "person": "Elon Musk",
-  "title": "Elon Musk hits back as Anthropic pledges 5% shares to public fund, says give them to people directly",
-  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTdoUC1fS045cTFfNzd0dUpDc1ZRRGpKc0hoUGZpbGNtWHh0eVhFaHR4TndxM0hfNWc4bjBQZElhcnpJaG1nT2dMMjlnWFZXcDRnckY2Sm4ya1dNdF81dHMtTWw5dDV1LW1RZzRnTGp2Z3VEM0hWb2REeG15a3NWRmJKSTZMR1I4UE4xVTcydURDa2h1aERnY3AzV1Z0bDNoZEVuTzIxM0FqYm5jTEhnSld0MFlmQ3dycENqOW04TnQ5OUtNRWfSAcYBQVVfeXFMT0U3aFAtX0tOOXExXzc3dHVKQ3NWUURqSnNIaFBmaWxjbVh4dHlYRWh0eE53cTNIXzVnOG4wUGRJYXJ6SWhtZ09nTDI5Z1hWV3A0Z3JGNkpuMmtXTXRfNXRzLU1sOXQ1dS1tUWc0Z0xqdmd1RDNIVm9kRHhteWtzVkZiSkk2TEdSOFBOMVU3MnVEQ2todWhEZ2NwM1dWdGwzaGRFbk8yMTNBamJuY0xIZ0pXdDBZZkN3cnBDajltOE50OTlLTUVn?oc=5",
-  "source": "India Today",
-  "published": "2026-10-19T03:19:42Z",
-  "since": "2026-10-19T07:11:17Z"
+  "title": "'This Is What I Will Be Doing’: Elon Musk Says He’ll Give Shares To The Public After Anthropic Announces 5% Fund",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMEotUF9MOEdVUFV3Z2FRRUI4U1BELXNlcExoWkFyVFg0UWJzemJKQVpISk1jY1UtcnlpQ2JmNVc4c1ZQSjJKN3liMHE0WWxRSTFyaE52emJZU09BZXgtcjJ5MXJrZzJIRlllbWt1a054aWVHTVBlYmFIaFJNWUF0V2NnbEt4M0lGWnpsbjVjVU0?oc=5",
+  "source": "Yahoo Finance",
+  "published": "2026-10-19T03:46:00Z",
+  "since": "2026-10-19T20:15:24Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk hits back as Anthropic pledges 5% shares to public fund, says give them to people directly",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTdoUC1fS045cTFfNzd0dUpDc1ZRRGpKc0hoUGZpbGNtWHh0eVhFaHR4TndxM0hfNWc4bjBQZElhcnpJaG1nT2dMMjlnWFZXcDRnckY2Sm4ya1dNdF81dHMtTWw5dDV1LW1RZzRnTGp2Z3VEM0hWb2REeG15a3NWRmJKSTZMR1I4UE4xVTcydURDa2h1aERnY3AzV1Z0bDNoZEVuTzIxM0FqYm5jTEhnSld0MFlmQ3dycENqOW04TnQ5OUtNRWfSAcYBQVVfeXFMT0U3aFAtX0tOOXExXzc3dHVKQ3NWUURqSnNIaFBmaWxjbVh4dHlYRWh0eE53cTNIXzVnOG4wUGRJYXJ6SWhtZ09nTDI5Z1hWV3A0Z3JGNkpuMmtXTXRfNXRzLU1sOXQ1dS1tUWc0Z0xqdmd1RDNIVm9kRHhteWtzVkZiSkk2TEdSOFBOMVU3MnVEQ2todWhEZ2NwM1dWdGwzaGRFbk8yMTNBamJuY0xIZ0pXdDBZZkN3cnBDajltOE50OTlLTUVn?oc=5",
-   "source": "India Today",
-   "published": "2026-10-19T03:19:42Z",
-   "since": "2026-10-19T07:11:17Z"
+   "title": "'This Is What I Will Be Doing’: Elon Musk Says He’ll Give Shares To The Public After Anthropic Announces 5% Fund",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMEotUF9MOEdVUFV3Z2FRRUI4U1BELXNlcExoWkFyVFg0UWJzemJKQVpISk1jY1UtcnlpQ2JmNVc4c1ZQSjJKN3liMHE0WWxRSTFyaE52emJZU09BZXgtcjJ5MXJrZzJIRlllbWt1a054aWVHTVBlYmFIaFJNWUF0V2NnbEt4M0lGWnpsbjVjVU0?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-19T03:46:00Z",
+   "since": "2026-10-19T20:15:24Z"
   }
  ],
  "items": [
@@ -44,26 +44,16 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk hits back as Anthropic pledges 5% shares to public fund, says give them to people directly",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTdoUC1fS045cTFfNzd0dUpDc1ZRRGpKc0hoUGZpbGNtWHh0eVhFaHR4TndxM0hfNWc4bjBQZElhcnpJaG1nT2dMMjlnWFZXcDRnckY2Sm4ya1dNdF81dHMtTWw5dDV1LW1RZzRnTGp2Z3VEM0hWb2REeG15a3NWRmJKSTZMR1I4UE4xVTcydURDa2h1aERnY3AzV1Z0bDNoZEVuTzIxM0FqYm5jTEhnSld0MFlmQ3dycENqOW04TnQ5OUtNRWfSAcYBQVVfeXFMT0U3aFAtX0tOOXExXzc3dHVKQ3NWUURqSnNIaFBmaWxjbVh4dHlYRWh0eE53cTNIXzVnOG4wUGRJYXJ6SWhtZ09nTDI5Z1hWV3A0Z3JGNkpuMmtXTXRfNXRzLU1sOXQ1dS1tUWc0Z0xqdmd1RDNIVm9kRHhteWtzVkZiSkk2TEdSOFBOMVU3MnVEQ2todWhEZ2NwM1dWdGwzaGRFbk8yMTNBamJuY0xIZ0pXdDBZZkN3cnBDajltOE50OTlLTUVn?oc=5",
-   "source": "India Today",
-   "published": "2026-10-19T03:19:42Z",
-   "since": "2026-10-19T07:11:17Z"
-  },
-  {
-   "kind": "repo",
-   "title": "outcrawlai/scout",
-   "stars": 948,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/outcrawlai/scout",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
+   "title": "'This Is What I Will Be Doing’: Elon Musk Says He’ll Give Shares To The Public After Anthropic Announces 5% Fund",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMEotUF9MOEdVUFV3Z2FRRUI4U1BELXNlcExoWkFyVFg0UWJzemJKQVpISk1jY1UtcnlpQ2JmNVc4c1ZQSjJKN3liMHE0WWxRSTFyaE52emJZU09BZXgtcjJ5MXJrZzJIRlllbWt1a054aWVHTVBlYmFIaFJNWUF0V2NnbEt4M0lGWnpsbjVjVU0?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-19T03:46:00Z",
+   "since": "2026-10-19T20:15:24Z"
   },
   {
    "kind": "repo",
    "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 860,
+   "stars": 952,
    "note": "Python · new this week",
    "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -72,8 +62,18 @@
   },
   {
    "kind": "repo",
+   "title": "outcrawlai/scout",
+   "stars": 949,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/outcrawlai/scout",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 421,
+   "stars": 429,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 3815,
+   "stars": 4649,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3318,
+   "stars": 3353,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "feder-cr/git-ai",
-   "stars": 2401,
+   "stars": 2438,
    "note": "Go · new this week",
    "url": "https://github.com/feder-cr/git-ai",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 2294,
+   "stars": 2322,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -123,35 +123,8 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 518,
-   "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
-   "source": "Hacker News",
-   "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
-   "discuss": "https://news.ycombinator.com/item?id=50150750"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 464,
-   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-   "source": "Hacker News",
-   "url": "https://arxiv.org/abs/2610.18861",
-   "discuss": "https://news.ycombinator.com/item?id=50145337"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 245,
-   "title": "If you don't run your own LLM proxy, how do you know whats going on?",
-   "source": "Hacker News",
-   "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-   "discuss": "https://news.ycombinator.com/item?id=50145507"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 224,
-   "title": "Timestral: Mistral release time-series foundation models",
+   "points": 463,
+   "title": "Timestral: Mistral's time-series foundation models",
    "source": "Hacker News",
    "url": "https://mistral.ai/news/timestral/",
    "discuss": "https://news.ycombinator.com/item?id=50150434"
@@ -159,66 +132,100 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 107,
-   "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+   "points": 95,
+   "title": "The obscure trust looming over Anthropic's IPO",
    "source": "Hacker News",
-   "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
-   "discuss": "https://news.ycombinator.com/item?id=50151390"
+   "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+   "discuss": "https://news.ycombinator.com/item?id=50151376"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 97,
-   "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+   "points": 78,
+   "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
    "source": "Hacker News",
-   "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
-   "discuss": "https://news.ycombinator.com/item?id=50148855"
+   "url": "https://news.ycombinator.com/item?id=50151036",
+   "discuss": "https://news.ycombinator.com/item?id=50151036"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 74,
-   "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+   "points": 78,
+   "title": "RuneScape Bench: MMOs for Agents [video]",
    "source": "Hacker News",
-   "url": "https://100toolkit.com/blog/deslop-model/",
-   "discuss": "https://news.ycombinator.com/item?id=50151928"
+   "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
+   "discuss": "https://news.ycombinator.com/item?id=50136126"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 37,
-   "title": "Harness2 by Google Research – Recursive Agent Harnessing",
+   "points": 34,
+   "title": "Launch HN: Laminar (YC S24) – Open-source observability for AI agents",
    "source": "Hacker News",
-   "url": "https://github.com/google-research/harness2",
-   "discuss": "https://news.ycombinator.com/item?id=50151059"
+   "url": "https://news.ycombinator.com/item?id=50154029",
+   "discuss": "https://news.ycombinator.com/item?id=50154029"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 33,
+   "title": "Maxwell: A new kind of model that sits between code and hardware",
+   "source": "Hacker News",
+   "url": "https://heymaxwell.ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50152466"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 18,
+   "title": "Cairn: Open windows into AI-driven cyber operations",
+   "source": "Hacker News",
+   "url": "https://norforge.com/blog/inside_cairn",
+   "discuss": "https://news.ycombinator.com/item?id=50152302"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 10,
+   "title": "Towards Company World Models",
+   "source": "Hacker News",
+   "url": "https://www.beaconholdings.com/research/towards-company-world-models",
+   "discuss": "https://news.ycombinator.com/item?id=50156332"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+   "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+   "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+   "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Meta removes language that raised scraping and AI training concerns",
+   "title": "Tolan snags $30M for its AI companion that helps users navigate life",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+   "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+   "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+   "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
   },
   {
    "kind": "news",
@@ -233,13 +240,6 @@
    "title": "Open models have real benefits. Do they outweigh the risks?",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "AI labs are buying data from dead startups to train their models",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
   }
  ],
  "errors": []

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T07:11:17Z",
+ "generated_at": "2026-10-19T14:46:25Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-  "url": "https://arxiv.org/abs/2610.18861",
+  "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
+  "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50145337",
-  "points": 342,
-  "comments": 165,
-  "published": "2026-10-18T20:48:14Z",
-  "since": "2026-10-18T21:48:45Z"
+  "discuss": "https://news.ycombinator.com/item?id=50150750",
+  "points": 518,
+  "comments": 247,
+  "published": "2026-10-19T10:45:14Z",
+  "since": "2026-10-19T14:46:25Z"
  },
  "voice": {
   "kind": "voice",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "outcrawlai/scout",
-   "stars": 946,
+   "stars": 948,
    "note": "TypeScript · new this week",
    "url": "https://github.com/outcrawlai/scout",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 790,
+   "stars": 860,
    "note": "Python · new this week",
    "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 405,
+   "stars": 421,
    "note": "Python · new this week",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "source": "GitHub",
@@ -82,8 +82,18 @@
   },
   {
    "kind": "repo",
+   "title": "Gathin23/cleanyourtv",
+   "stars": 3815,
+   "note": "Java · new this week",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3136,
+   "stars": 3318,
    "note": "Python · new this week",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "source": "GitHub",
@@ -92,18 +102,8 @@
   },
   {
    "kind": "repo",
-   "title": "Gathin23/tv-vibehack",
-   "stars": 2691,
-   "note": "Java · new this week",
-   "url": "https://github.com/Gathin23/tv-vibehack",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "feder-cr/git-ai",
-   "stars": 2323,
+   "stars": 2401,
    "note": "Go · new this week",
    "url": "https://github.com/feder-cr/git-ai",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "HeyPuter/everything",
-   "stars": 2253,
+   "stars": 2294,
    "note": "JavaScript · new this week",
    "url": "https://github.com/HeyPuter/everything",
    "source": "GitHub",
@@ -123,7 +123,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 342,
+   "points": 518,
+   "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
+   "source": "Hacker News",
+   "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+   "discuss": "https://news.ycombinator.com/item?id=50150750"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 464,
    "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "source": "Hacker News",
    "url": "https://arxiv.org/abs/2610.18861",
@@ -132,20 +141,56 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 155,
-   "title": "I built a programming language that LLMs can't use",
-   "source": "Hacker News",
-   "url": "https://blog.picheta.me/post/killswitch-lang/",
-   "discuss": "https://news.ycombinator.com/item?id=50135762"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 117,
+   "points": 245,
    "title": "If you don't run your own LLM proxy, how do you know whats going on?",
    "source": "Hacker News",
    "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
    "discuss": "https://news.ycombinator.com/item?id=50145507"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 224,
+   "title": "Timestral: Mistral release time-series foundation models",
+   "source": "Hacker News",
+   "url": "https://mistral.ai/news/timestral/",
+   "discuss": "https://news.ycombinator.com/item?id=50150434"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 107,
+   "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+   "source": "Hacker News",
+   "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+   "discuss": "https://news.ycombinator.com/item?id=50151390"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 97,
+   "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+   "source": "Hacker News",
+   "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+   "discuss": "https://news.ycombinator.com/item?id=50148855"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 74,
+   "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+   "source": "Hacker News",
+   "url": "https://100toolkit.com/blog/deslop-model/",
+   "discuss": "https://news.ycombinator.com/item?id=50151928"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 37,
+   "title": "Harness2 by Google Research – Recursive Agent Harnessing",
+   "source": "Hacker News",
+   "url": "https://github.com/google-research/harness2",
+   "discuss": "https://news.ycombinator.com/item?id=50151059"
   },
   {
    "kind": "news",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T17:56:45Z",
+ "generated_at": "2026-10-20T21:32:52Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,12 +8,12 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+  "title": "DeepInfer: High-performance inference framework for DeepSeek models",
   "url": "https://github.com/deepseek-ai/DeepInfer",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50163277",
-  "points": 1870,
-  "comments": 708,
+  "points": 2026,
+  "comments": 791,
   "published": "2026-10-20T09:08:54Z",
   "since": "2026-10-20T17:56:45Z"
  },
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/DeepInfer",
-   "stars": 10846,
+   "stars": 11714,
    "note": "Python · new this week",
    "url": "https://github.com/deepseek-ai/DeepInfer",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 10602,
+   "stars": 11248,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -101,7 +101,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 2600,
+   "stars": 2714,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -110,10 +110,10 @@
   },
   {
    "kind": "repo",
-   "title": "feder-cr/git-ai",
-   "stars": 2536,
-   "note": "Go · new this week",
-   "url": "https://github.com/feder-cr/git-ai",
+   "title": "ahwootech/BRUTAL",
+   "stars": 2049,
+   "note": "C# · new this week",
+   "url": "https://github.com/ahwootech/BRUTAL",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -121,8 +121,8 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 1870,
-   "title": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+   "points": 2026,
+   "title": "DeepInfer: High-performance inference framework for DeepSeek models",
    "source": "Hacker News",
    "url": "https://github.com/deepseek-ai/DeepInfer",
    "discuss": "https://news.ycombinator.com/item?id=50163277"
@@ -130,16 +130,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 690,
-   "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-   "source": "Hacker News",
-   "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "discuss": "https://news.ycombinator.com/item?id=50159341"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 215,
+   "points": 294,
    "title": "Publish fake stats, get cited in LLMs",
    "source": "Hacker News",
    "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
@@ -148,34 +139,34 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 77,
-   "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+   "points": 274,
+   "title": "Google Cloud outage affects almost all banking and other operations in Europe",
    "source": "Hacker News",
-   "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
-   "discuss": "https://news.ycombinator.com/item?id=50168190"
+   "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+   "discuss": "https://news.ycombinator.com/item?id=50163961"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 42,
-   "title": "Show HN: Jev Cards, Can you beat a vision model at a picture quiz?",
+   "points": 53,
+   "title": "Claude designed protein binders against scorpion neurotoxins",
    "source": "Hacker News",
-   "url": "https://jevcards.com",
-   "discuss": "https://news.ycombinator.com/item?id=50167617"
+   "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+   "discuss": "https://news.ycombinator.com/item?id=50170021"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 32,
-   "title": "Show HN: Penmentor – Claude marks up your handwritten math like a teacher",
+   "points": 43,
+   "title": "On AI writing",
    "source": "Hacker News",
-   "url": "https://github.com/AbdullahAlhariri/penmentor",
-   "discuss": "https://news.ycombinator.com/item?id=50167604"
+   "url": "https://www.bolkunov.com/p/on-ai-writing",
+   "discuss": "https://news.ycombinator.com/item?id=50171771"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 25,
+   "points": 33,
    "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50167583",
@@ -184,51 +175,51 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+   "title": "Anthropic’s cloud partnerships are getting messy",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/"
+   "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+   "title": "SpaceX’s AI business is beating expectations",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/"
+   "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+   "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/"
+   "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+   "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/"
+   "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Making the internet better for AI agents might make it worse for everyone else",
+   "title": "The new economics of enterprise AI",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
+   "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+   "title": "AI adoption by industry shows what other sectors can learn",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/"
+   "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+   "title": "A visit to Samsung’s massive new semiconductor hub",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
+   "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/"
   }
  ],
  "errors": []

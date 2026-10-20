@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T02:11:01Z",
+ "generated_at": "2026-10-20T07:44:49Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,52 +8,52 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Timestral: Mistral's time-series foundation models",
-  "url": "https://mistral.ai/news/timestral/",
+  "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+  "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50150434",
-  "points": 556,
-  "comments": 104,
-  "published": "2026-10-19T09:59:32Z",
-  "since": "2026-10-19T20:15:24Z"
+  "discuss": "https://news.ycombinator.com/item?id=50159341",
+  "points": 340,
+  "comments": 79,
+  "published": "2026-10-19T23:22:18Z",
+  "since": "2026-10-20T07:44:49Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Elon Musk hits back as Anthropic pledges 5% shares to public fund, says give them to people directly",
-  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTdoUC1fS045cTFfNzd0dUpDc1ZRRGpKc0hoUGZpbGNtWHh0eVhFaHR4TndxM0hfNWc4bjBQZElhcnpJaG1nT2dMMjlnWFZXcDRnckY2Sm4ya1dNdF81dHMtTWw5dDV1LW1RZzRnTGp2Z3VEM0hWb2REeG15a3NWRmJKSTZMR1I4UE4xVTcydURDa2h1aERnY3AzV1Z0bDNoZEVuTzIxM0FqYm5jTEhnSld0MFlmQ3dycENqOW04TnQ5OUtNRWfSAcYBQVVfeXFMT0U3aFAtX0tOOXExXzc3dHVKQ3NWUURqSnNIaFBmaWxjbVh4dHlYRWh0eE53cTNIXzVnOG4wUGRJYXJ6SWhtZ09nTDI5Z1hWV3A0Z3JGNkpuMmtXTXRfNXRzLU1sOXQ1dS1tUWc0Z0xqdmd1RDNIVm9kRHhteWtzVkZiSkk2TEdSOFBOMVU3MnVEQ2todWhEZ2NwM1dWdGwzaGRFbk8yMTNBamJuY0xIZ0pXdDBZZkN3cnBDajltOE50OTlLTUVn?oc=5",
+  "person": "Sam Altman",
+  "title": "Sam Altman warns staff of nightmare scenario where one AI lab melts everyone's GPUs",
+  "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVFBiVXNkUkpaV1Y0SlZoamYydzV3MUdZU041YXdUa0E3dUJKTTF2RlJvaWVyMlExUjRaVjVCTEtGOVRWYTE3NWpPcnZDUHROSWQ5YVN5LVpaTTdFUzE5Q0JOd2QtSVRFdGppSUdSdWN5bllLM1c5bm4yUkUwQXYxNVpoN29XXzY1OUFmVE9ZR2hpWmExdE5VYmstY256WF9PeDR0V0VCdW4ycFZ6M1A5aklreEpTNi1MTTk3N0tYM3R5TW9relQxU3dCYUtPX0hrNV9scFVNMDJTOFRidWhFQWh5RdIB6AFBVV95cUxQVklhQ25YM242ZElkeEc2Zl91X3B4T3FhZlhJTXozdnh2STZURVJxblAzeERjQXJyS0VvR1p0VVM5b19IQUduLUEwRVFGVTVGUTZpRWZCUDVvWkk0OXNuSHBVLTRoOTRYM0RSdWo2MFU4S0NqSEZtTXU4OGp5RlM4TkU0TkdtNU03RXllYTJqUHNndXZ0aW5xU1djZ1JZOHYtcjFESW9ZVWpvMURkTVUzT3gxZE1reGphZU80XzhaS1BEdnRiaWUzOVhOcVZrRXlMN1BkaURBaUl1ZWZNWXNucUhlcFFyM1Jl?oc=5",
   "source": "India Today",
-  "published": "2026-10-19T03:19:42Z",
-  "since": "2026-10-19T23:48:22Z"
+  "published": "2026-10-20T04:51:06Z",
+  "since": "2026-10-20T07:44:49Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk hits back as Anthropic pledges 5% shares to public fund, says give them to people directly",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTdoUC1fS045cTFfNzd0dUpDc1ZRRGpKc0hoUGZpbGNtWHh0eVhFaHR4TndxM0hfNWc4bjBQZElhcnpJaG1nT2dMMjlnWFZXcDRnckY2Sm4ya1dNdF81dHMtTWw5dDV1LW1RZzRnTGp2Z3VEM0hWb2REeG15a3NWRmJKSTZMR1I4UE4xVTcydURDa2h1aERnY3AzV1Z0bDNoZEVuTzIxM0FqYm5jTEhnSld0MFlmQ3dycENqOW04TnQ5OUtNRWfSAcYBQVVfeXFMT0U3aFAtX0tOOXExXzc3dHVKQ3NWUURqSnNIaFBmaWxjbVh4dHlYRWh0eE53cTNIXzVnOG4wUGRJYXJ6SWhtZ09nTDI5Z1hWV3A0Z3JGNkpuMmtXTXRfNXRzLU1sOXQ1dS1tUWc0Z0xqdmd1RDNIVm9kRHhteWtzVkZiSkk2TEdSOFBOMVU3MnVEQ2todWhEZ2NwM1dWdGwzaGRFbk8yMTNBamJuY0xIZ0pXdDBZZkN3cnBDajltOE50OTlLTUVn?oc=5",
+   "person": "Sam Altman",
+   "title": "Sam Altman warns staff of nightmare scenario where one AI lab melts everyone's GPUs",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVFBiVXNkUkpaV1Y0SlZoamYydzV3MUdZU041YXdUa0E3dUJKTTF2RlJvaWVyMlExUjRaVjVCTEtGOVRWYTE3NWpPcnZDUHROSWQ5YVN5LVpaTTdFUzE5Q0JOd2QtSVRFdGppSUdSdWN5bllLM1c5bm4yUkUwQXYxNVpoN29XXzY1OUFmVE9ZR2hpWmExdE5VYmstY256WF9PeDR0V0VCdW4ycFZ6M1A5aklreEpTNi1MTTk3N0tYM3R5TW9relQxU3dCYUtPX0hrNV9scFVNMDJTOFRidWhFQWh5RdIB6AFBVV95cUxQVklhQ25YM242ZElkeEc2Zl91X3B4T3FhZlhJTXozdnh2STZURVJxblAzeERjQXJyS0VvR1p0VVM5b19IQUduLUEwRVFGVTVGUTZpRWZCUDVvWkk0OXNuSHBVLTRoOTRYM0RSdWo2MFU4S0NqSEZtTXU4OGp5RlM4TkU0TkdtNU03RXllYTJqUHNndXZ0aW5xU1djZ1JZOHYtcjFESW9ZVWpvMURkTVUzT3gxZE1reGphZU80XzhaS1BEdnRiaWUzOVhOcVZrRXlMN1BkaURBaUl1ZWZNWXNucUhlcFFyM1Jl?oc=5",
    "source": "India Today",
-   "published": "2026-10-19T03:19:42Z",
-   "since": "2026-10-19T23:48:22Z"
+   "published": "2026-10-20T04:51:06Z",
+   "since": "2026-10-20T07:44:49Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk hits back as Anthropic pledges 5% shares to public fund, says give them to people directly",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTdoUC1fS045cTFfNzd0dUpDc1ZRRGpKc0hoUGZpbGNtWHh0eVhFaHR4TndxM0hfNWc4bjBQZElhcnpJaG1nT2dMMjlnWFZXcDRnckY2Sm4ya1dNdF81dHMtTWw5dDV1LW1RZzRnTGp2Z3VEM0hWb2REeG15a3NWRmJKSTZMR1I4UE4xVTcydURDa2h1aERnY3AzV1Z0bDNoZEVuTzIxM0FqYm5jTEhnSld0MFlmQ3dycENqOW04TnQ5OUtNRWfSAcYBQVVfeXFMT0U3aFAtX0tOOXExXzc3dHVKQ3NWUURqSnNIaFBmaWxjbVh4dHlYRWh0eE53cTNIXzVnOG4wUGRJYXJ6SWhtZ09nTDI5Z1hWV3A0Z3JGNkpuMmtXTXRfNXRzLU1sOXQ1dS1tUWc0Z0xqdmd1RDNIVm9kRHhteWtzVkZiSkk2TEdSOFBOMVU3MnVEQ2todWhEZ2NwM1dWdGwzaGRFbk8yMTNBamJuY0xIZ0pXdDBZZkN3cnBDajltOE50OTlLTUVn?oc=5",
+   "person": "Sam Altman",
+   "title": "Sam Altman warns staff of nightmare scenario where one AI lab melts everyone's GPUs",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVFBiVXNkUkpaV1Y0SlZoamYydzV3MUdZU041YXdUa0E3dUJKTTF2RlJvaWVyMlExUjRaVjVCTEtGOVRWYTE3NWpPcnZDUHROSWQ5YVN5LVpaTTdFUzE5Q0JOd2QtSVRFdGppSUdSdWN5bllLM1c5bm4yUkUwQXYxNVpoN29XXzY1OUFmVE9ZR2hpWmExdE5VYmstY256WF9PeDR0V0VCdW4ycFZ6M1A5aklreEpTNi1MTTk3N0tYM3R5TW9relQxU3dCYUtPX0hrNV9scFVNMDJTOFRidWhFQWh5RdIB6AFBVV95cUxQVklhQ25YM242ZElkeEc2Zl91X3B4T3FhZlhJTXozdnh2STZURVJxblAzeERjQXJyS0VvR1p0VVM5b19IQUduLUEwRVFGVTVGUTZpRWZCUDVvWkk0OXNuSHBVLTRoOTRYM0RSdWo2MFU4S0NqSEZtTXU4OGp5RlM4TkU0TkdtNU03RXllYTJqUHNndXZ0aW5xU1djZ1JZOHYtcjFESW9ZVWpvMURkTVUzT3gxZE1reGphZU80XzhaS1BEdnRiaWUzOVhOcVZrRXlMN1BkaURBaUl1ZWZNWXNucUhlcFFyM1Jl?oc=5",
    "source": "India Today",
-   "published": "2026-10-19T03:19:42Z",
-   "since": "2026-10-19T23:48:22Z"
+   "published": "2026-10-20T04:51:06Z",
+   "since": "2026-10-20T07:44:49Z"
   },
   {
    "kind": "repo",
    "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 921,
+   "stars": 925,
    "note": "Python · new this week",
    "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 5634,
+   "stars": 7339,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "feder-cr/git-ai",
-   "stars": 2461,
+   "stars": 2482,
    "note": "Go · new this week",
    "url": "https://github.com/feder-cr/git-ai",
    "source": "GitHub",
@@ -82,8 +82,18 @@
   },
   {
    "kind": "repo",
+   "title": "ly05010419/MacNativeGames",
+   "stars": 2148,
+   "note": "C · new this week",
+   "url": "https://github.com/ly05010419/MacNativeGames",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "ahwootech/BRUTAL",
-   "stars": 1997,
+   "stars": 2010,
    "note": "C# · new this week",
    "url": "https://github.com/ahwootech/BRUTAL",
    "source": "GitHub",
@@ -91,28 +101,9 @@
    "cat": "Trending"
   },
   {
-   "kind": "repo",
-   "title": "chenglou/handwired",
-   "stars": 1815,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/chenglou/handwired",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
    "kind": "news",
    "tag": "HN",
-   "points": 556,
-   "title": "Timestral: Mistral's time-series foundation models",
-   "source": "Hacker News",
-   "url": "https://mistral.ai/news/timestral/",
-   "discuss": "https://news.ycombinator.com/item?id=50150434"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 276,
+   "points": 400,
    "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50151036",
@@ -121,7 +112,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 158,
+   "points": 340,
+   "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+   "source": "Hacker News",
+   "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+   "discuss": "https://news.ycombinator.com/item?id=50159341"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 187,
    "title": "RuneScape Bench: MMOs for Agents [video]",
    "source": "Hacker News",
    "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
@@ -130,7 +130,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 51,
+   "points": 102,
+   "title": "How abliterated models can get you pwned",
+   "source": "Hacker News",
+   "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+   "discuss": "https://news.ycombinator.com/item?id=50159245"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 88,
    "title": "Agentic Monitoring",
    "source": "Hacker News",
    "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/",
@@ -139,7 +148,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 48,
+   "points": 52,
    "title": "Launch HN: Laminar (YC S24) – RL-trained model that finds errors in agent traces",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50154029",
@@ -148,20 +157,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 34,
-   "title": "“bonsoir, Elliot”: How abliterated models can get you pwned",
+   "points": 22,
+   "title": "Vite+ an excellent toolchain for AI agent development",
    "source": "Hacker News",
-   "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
-   "discuss": "https://news.ycombinator.com/item?id=50159245"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 27,
-   "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-   "source": "Hacker News",
-   "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "discuss": "https://news.ycombinator.com/item?id=50159341"
+   "url": "https://janmichalek.com/blog/vite-plus-agentni-vyvoj?lang=en",
+   "discuss": "https://news.ycombinator.com/item?id=50162198"
   },
   {
    "kind": "news",
@@ -194,23 +194,23 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+   "title": "Making the internet better for AI agents might make it worse for everyone else",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
+   "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Open models have real benefits. Do they outweigh the risks?",
+   "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/"
+   "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "AI labs are buying data from dead startups to train their models",
+   "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
+   "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
   }
  ],
  "errors": []

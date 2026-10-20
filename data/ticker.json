@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T23:48:22Z",
+ "generated_at": "2026-10-20T02:11:01Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://mistral.ai/news/timestral/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50150434",
-  "points": 528,
-  "comments": 97,
+  "points": 556,
+  "comments": 104,
   "published": "2026-10-19T09:59:32Z",
   "since": "2026-10-19T20:15:24Z"
  },
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 954,
+   "stars": 921,
    "note": "Python · new this week",
    "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -62,28 +62,8 @@
   },
   {
    "kind": "repo",
-   "title": "outcrawlai/scout",
-   "stars": 950,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/outcrawlai/scout",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "stars": 430,
-   "note": "Python · new this week",
-   "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 5137,
+   "stars": 5634,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -92,18 +72,8 @@
   },
   {
    "kind": "repo",
-   "title": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3362,
-   "note": "Python · new this week",
-   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "feder-cr/git-ai",
-   "stars": 2451,
+   "stars": 2461,
    "note": "Go · new this week",
    "url": "https://github.com/feder-cr/git-ai",
    "source": "GitHub",
@@ -112,10 +82,20 @@
   },
   {
    "kind": "repo",
-   "title": "HeyPuter/everything",
-   "stars": 2332,
-   "note": "JavaScript · new this week",
-   "url": "https://github.com/HeyPuter/everything",
+   "title": "ahwootech/BRUTAL",
+   "stars": 1997,
+   "note": "C# · new this week",
+   "url": "https://github.com/ahwootech/BRUTAL",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "chenglou/handwired",
+   "stars": 1815,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/chenglou/handwired",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -123,7 +103,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 528,
+   "points": 556,
    "title": "Timestral: Mistral's time-series foundation models",
    "source": "Hacker News",
    "url": "https://mistral.ai/news/timestral/",
@@ -132,7 +112,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 222,
+   "points": 276,
    "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50151036",
@@ -141,7 +121,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 136,
+   "points": 158,
    "title": "RuneScape Bench: MMOs for Agents [video]",
    "source": "Hacker News",
    "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
@@ -150,7 +130,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 44,
+   "points": 51,
+   "title": "Agentic Monitoring",
+   "source": "Hacker News",
+   "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/",
+   "discuss": "https://news.ycombinator.com/item?id=50153225"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 48,
    "title": "Launch HN: Laminar (YC S24) – RL-trained model that finds errors in agent traces",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50154029",
@@ -159,16 +148,32 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 21,
-   "title": "Agentic Monitoring",
+   "points": 34,
+   "title": "“bonsoir, Elliot”: How abliterated models can get you pwned",
    "source": "Hacker News",
-   "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/",
-   "discuss": "https://news.ycombinator.com/item?id=50153225"
+   "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+   "discuss": "https://news.ycombinator.com/item?id=50159245"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 27,
+   "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+   "source": "Hacker News",
+   "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+   "discuss": "https://news.ycombinator.com/item?id=50159341"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+   "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
   },
@@ -189,20 +194,6 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
    "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
@@ -213,6 +204,13 @@
    "title": "Open models have real benefits. Do they outweigh the risks?",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "AI labs are buying data from dead startups to train their models",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
   }
  ],
  "errors": []

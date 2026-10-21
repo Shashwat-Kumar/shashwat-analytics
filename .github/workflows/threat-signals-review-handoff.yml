@@ -1,0 +1,101 @@
+# Event-driven handoff for the Threat Signals red-team review.
+# It does NOT deploy the site or approve a release.
+# This workflow must be on the default branch for issue_comment triggers.
+name: Threat Signals - immediate review handoff
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: read
+
+jobs:
+  report-arrived:
+    # Read only the designated review issue, from the repository owner's
+    # authenticated GitHub account. Claude must publish a clear verdict line.
+    if: ${{ github.event.issue.number == 12 && github.event.comment.user.login == 'Shashwat-Kumar' && !github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - name: Detect verdict and notify owner
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          REVIEW_BODY: ${{ github.event.comment.body }}
+          REVIEW_COMMENT_URL: ${{ github.event.comment.html_url }}
+          REVIEW_COMMENT_ID: ${{ github.event.comment.id }}
+          # Optional private HTTPS event receiver; configure both Secrets
+          # READSIGIL_REVIEW_WEBHOOK_URL and READSIGIL_REVIEW_WEBHOOK_TOKEN.
+          # The receiver can invoke an OpenAI API reviewer with private
+          # code access. This action never transmits report text to it.
+          REVIEW_HOOK_URL: ${{ secrets.READSIGIL_REVIEW_WEBHOOK_URL }}
+          REVIEW_HOOK_TOKEN: ${{ secrets.READSIGIL_REVIEW_WEBHOOK_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json, os, re, sys, urllib.request, urllib.parse
+
+          body = os.environ.get("REVIEW_BODY", "")
+          # Verdict marker deliberately required; otherwise general
+          # discussion does not generate needless review notifications.
+          if not re.search(r"(?im)^\s*(?:\*\*)?(?:final\s+|release\s+|red-team\s+)?verdict\s*(?:\*\*)?\s*[:\-]", body):
+              print("No explicit verdict line; ignoring unrelated comment.")
+              sys.exit(0)
+
+          repo = os.environ["GH_REPOSITORY"]
+          comment_url = os.environ["REVIEW_COMMENT_URL"]
+          issue = os.environ["ISSUE_NUMBER"]
+          token = os.environ["GH_TOKEN"]
+          hook_url = os.environ.get("REVIEW_HOOK_URL", "").strip()
+          hook_token = os.environ.get("REVIEW_HOOK_TOKEN", "").strip()
+
+          def call(url, payload, bearer, accept="application/vnd.github+json"):
+              data = json.dumps(payload).encode("utf-8")
+              req = urllib.request.Request(
+                  url, data=data, method="POST",
+                  headers={"Authorization": "Bearer " + bearer,
+                           "Accept": accept,
+                           "Content-Type": "application/json",
+                           "User-Agent": "ReadSigil-review-handoff"})
+              with urllib.request.urlopen(req, timeout=15) as res:
+                  return res.status
+
+          status = "Review report detected and ready for a private reviewer."
+          if hook_url and hook_token:
+              parsed = urllib.parse.urlparse(hook_url)
+              if parsed.scheme != "https" or not parsed.netloc or parsed.username or parsed.password:
+                  status = "Private reviewer webhook is configured with an invalid URL; handoff not sent."
+              else:
+                  # Event metadata only. No private code, ZIPs, report text or secrets.
+                  event = {"event":"readsigil.claude_review_posted",
+                           "repository":repo,"issue":int(issue),
+                           "comment_id":int(os.environ["REVIEW_COMMENT_ID"]),
+                           "comment_url":comment_url}
+                  try:
+                      call(hook_url, event, hook_token, "application/json")
+                      status = "Private reviewer event delivered. This does not mean review or approval is complete."
+                  except Exception as exc:
+                      print("Private handoff failed:", type(exc).__name__)
+                      status = "Private reviewer webhook delivery failed; manual follow-up required."
+          elif hook_url or hook_token:
+              status = "Private reviewer webhook setup is incomplete (URL and token required)."
+          else:
+              status = "No private reviewer webhook is configured; automatic ChatGPT/API review has NOT started."
+
+          # Public issue gets ONLY a status message. Avoid vulnerability text.
+          message = (
+              "@Shashwat-Kumar **Event-driven red-team handoff**\n\n"
+              f"A verdict-bearing review comment was detected: {comment_url}\n\n"
+              f"{status}\n\n"
+              "**Release remains BLOCKED.** A webhook cannot wake an existing "
+              "ChatGPT conversation; explicit joint sign-off on the same immutable "
+              "artifact and owner approval remain mandatory.")
+          call(
+              f"https://api.github.com/repos/{repo}/issues/{issue}/comments",
+              {"body":message}, token)
+          print("Owner notified on GitHub; no publication performed.")
+          PY

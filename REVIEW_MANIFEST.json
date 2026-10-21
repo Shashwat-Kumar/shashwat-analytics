@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "fingerprintCanonicalSha256": "6f664c85027615895ad28648239ec1d963e8429b697fa3d4ac21e5467984ae3f",
+  "pageSha256": "1b3df887c2c0b1a2fbd8398bbebfe1eaf8e0233b0c277e26b6b2e0eec83f2aef",
+  "hostConfigRequired": [
+    "Content-Security-Policy header with frame-ancestors none",
+    "X-Content-Type-Options",
+    "Referrer-Policy",
+    "X-Robots-Tag noindex for private staging"
+  ],
+  "releaseState": "DO_NOT_DEPLOY",
+  "publisherApproval": "PENDING_CLAUDE_AND_OWNER"
+}

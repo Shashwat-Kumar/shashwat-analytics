@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T21:32:52Z",
+ "generated_at": "2026-10-21T00:06:40Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://github.com/deepseek-ai/DeepInfer",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50163277",
-  "points": 2026,
-  "comments": 791,
+  "points": 2099,
+  "comments": 818,
   "published": "2026-10-20T09:08:54Z",
   "since": "2026-10-20T17:56:45Z"
  },
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/DeepInfer",
-   "stars": 11714,
+   "stars": 12130,
    "note": "Python · new this week",
    "url": "https://github.com/deepseek-ai/DeepInfer",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 11248,
+   "stars": 11651,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -101,7 +101,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 2714,
+   "stars": 2800,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -110,10 +110,10 @@
   },
   {
    "kind": "repo",
-   "title": "ahwootech/BRUTAL",
-   "stars": 2049,
-   "note": "C# · new this week",
-   "url": "https://github.com/ahwootech/BRUTAL",
+   "title": "Leonxlnx/earshot",
+   "stars": 1945,
+   "note": "Python · new this week",
+   "url": "https://github.com/Leonxlnx/earshot",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -121,7 +121,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 2026,
+   "points": 2099,
    "title": "DeepInfer: High-performance inference framework for DeepSeek models",
    "source": "Hacker News",
    "url": "https://github.com/deepseek-ai/DeepInfer",
@@ -130,16 +130,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 294,
-   "title": "Publish fake stats, get cited in LLMs",
-   "source": "Hacker News",
-   "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-   "discuss": "https://news.ycombinator.com/item?id=50165801"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 274,
+   "points": 321,
    "title": "Google Cloud outage affects almost all banking and other operations in Europe",
    "source": "Hacker News",
    "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
@@ -148,7 +139,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 53,
+   "points": 87,
    "title": "Claude designed protein binders against scorpion neurotoxins",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
@@ -157,20 +148,34 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 43,
-   "title": "On AI writing",
-   "source": "Hacker News",
-   "url": "https://www.bolkunov.com/p/on-ai-writing",
-   "discuss": "https://news.ycombinator.com/item?id=50171771"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 33,
+   "points": 41,
    "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50167583",
    "discuss": "https://news.ycombinator.com/item?id=50167583"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 12,
+   "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
+   "source": "Hacker News",
+   "url": "https://research.poh.org/bot-benchmarking-2026/",
+   "discuss": "https://news.ycombinator.com/item?id=50169506"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/"
   },
   {
    "kind": "news",
@@ -189,27 +194,6 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The new economics of enterprise AI",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
    "title": "AI adoption by industry shows what other sectors can learn",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/"
@@ -220,6 +204,13 @@
    "title": "A visit to Samsung’s massive new semiconductor hub",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Making the internet better for AI agents might make it worse for everyone else",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
   }
  ],
  "errors": []

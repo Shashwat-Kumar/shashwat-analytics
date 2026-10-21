@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T18:59:33Z",
+ "generated_at": "2026-10-21T22:17:04Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,45 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
-  "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+  "title": "Claude Duet",
+  "url": "https://claude.com/product/claude-duet",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50181175",
-  "points": 176,
-  "comments": 105,
-  "published": "2026-10-21T14:03:43Z",
-  "since": "2026-10-21T18:59:33Z"
+  "discuss": "https://news.ycombinator.com/item?id=50186037",
+  "points": 223,
+  "comments": 196,
+  "published": "2026-10-21T19:14:01Z",
+  "since": "2026-10-21T22:17:04Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Jensen Huang",
-  "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
-  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
-  "source": "Barron's",
-  "published": "2026-10-21T17:37:00Z",
-  "since": "2026-10-21T14:42:36Z"
+  "person": "Mark Zuckerberg",
+  "title": "Meta CEO Mark Zuckerberg says 10 million people have set up a Muse AI agent",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUW1hWWpzWDJieFNnczZwbTZPQmxwRlRlMHV0NXRPVHNFeE1fZ254cmEzcE5fbjhNVktCR2wwNDc1Uzl3UEhvSWJJZjd2aWRuMW9PYzBIMFNzdUJseGtRRmYwRVhIWElYNm8zam96WmZZNmRrd0kyYWJicUdzSUdnUEtvdkhQbXY3RWJhVHNuN2lac0RXTUlqTXduRQ?oc=5",
+  "source": "Business Insider",
+  "published": "2026-10-21T20:57:00Z",
+  "since": "2026-10-21T22:17:04Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Mark Zuckerberg",
+   "title": "Meta CEO Mark Zuckerberg says 10 million people have set up a Muse AI agent",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUW1hWWpzWDJieFNnczZwbTZPQmxwRlRlMHV0NXRPVHNFeE1fZ254cmEzcE5fbjhNVktCR2wwNDc1Uzl3UEhvSWJJZjd2aWRuMW9PYzBIMFNzdUJseGtRRmYwRVhIWElYNm8zam96WmZZNmRrd0kyYWJicUdzSUdnUEtvdkhQbXY3RWJhVHNuN2lac0RXTUlqTXduRQ?oc=5",
+   "source": "Business Insider",
+   "published": "2026-10-21T20:57:00Z",
+   "since": "2026-10-21T22:17:04Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "AI Boom Boosts Fortunes of Several Tech Leaders as Elon Musk Leads Gains, BestBrokers.com Says",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQVpaelBEWUV2V2hlWnpQOWZXX2FaenNoWThiOGpSbmJmczVSb0psVnB3bW9YZnJxYnlJR0c2cEcyVG9EUUhMT1Zob01FS0dZVE5ZaW9zUERqRGR4RjRLalJjSXcwWTJPZmVEbHhSa0s4N0VkeDRtOFhFYzN0QVkteG5lcXY1Rk41bG9aX0ttbDhJaUw3QjAzYUh0UQ?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-21T19:24:17Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,17 +54,7 @@
    "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
    "source": "Barron's",
-   "published": "2026-10-21T17:37:00Z",
-   "since": "2026-10-21T14:42:36Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "AI Rivals Are Thirsty for SpaceX's Compute, Elon Musk Says",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZkYtWVBwUnNTdzNkTnZ4aDBObmtNbHNuS0dnY1VvZ2VxRDNnSElRVHBCVFJkQk4tZEozRUVKQW8yQ1p2RXh2NWc1ejAwbFl4eHJ3dUwzQzE4Y1FjMTlhOEVXZzVaSVpobHhkR2VXa0UyVWltZTNUTzdySHdDcG44SEJZV0E2SkZGMUEyN3FHTTIyZw?oc=5",
-   "source": "Business Insider",
-   "published": "2026-10-21T17:06:39Z"
+   "published": "2026-10-21T17:37:00Z"
   },
   {
    "kind": "voice",
@@ -70,35 +79,35 @@
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
-   "source": "Barron's",
-   "published": "2026-10-21T17:37:00Z",
-   "since": "2026-10-21T14:42:36Z"
+   "person": "Mark Zuckerberg",
+   "title": "Meta CEO Mark Zuckerberg says 10 million people have set up a Muse AI agent",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUW1hWWpzWDJieFNnczZwbTZPQmxwRlRlMHV0NXRPVHNFeE1fZ254cmEzcE5fbjhNVktCR2wwNDc1Uzl3UEhvSWJJZjd2aWRuMW9PYzBIMFNzdUJseGtRRmYwRVhIWElYNm8zam96WmZZNmRrd0kyYWJicUdzSUdnUEtvdkhQbXY3RWJhVHNuN2lac0RXTUlqTXduRQ?oc=5",
+   "source": "Business Insider",
+   "published": "2026-10-21T20:57:00Z",
+   "since": "2026-10-21T22:17:04Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "AI Rivals Are Thirsty for SpaceX's Compute, Elon Musk Says",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZkYtWVBwUnNTdzNkTnZ4aDBObmtNbHNuS0dnY1VvZ2VxRDNnSElRVHBCVFJkQk4tZEozRUVKQW8yQ1p2RXh2NWc1ejAwbFl4eHJ3dUwzQzE4Y1FjMTlhOEVXZzVaSVpobHhkR2VXa0UyVWltZTNUTzdySHdDcG44SEJZV0E2SkZGMUEyN3FHTTIyZw?oc=5",
-   "source": "Business Insider",
-   "published": "2026-10-21T17:06:39Z"
+   "title": "AI Boom Boosts Fortunes of Several Tech Leaders as Elon Musk Leads Gains, BestBrokers.com Says",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQVpaelBEWUV2V2hlWnpQOWZXX2FaenNoWThiOGpSbmJmczVSb0psVnB3bW9YZnJxYnlJR0c2cEcyVG9EUUhMT1Zob01FS0dZVE5ZaW9zUERqRGR4RjRLalJjSXcwWTJPZmVEbHhSa0s4N0VkeDRtOFhFYzN0QVkteG5lcXY1Rk41bG9aX0ttbDhJaUw3QjAzYUh0UQ?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-21T19:24:17Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Why Google CEO Sundar Pichai thinks asking 'how much code AI writes' is the wrong question",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSUktckNUWFhSejNzNGpnVlNJVUxTV1NTSmtNcnNJSUpvZlBST2dhd3lDTjBVLU1mMzVLU3lkNXYtR1F0SWo3S0x6VGkwTWRjbm1qNktvb0xHb0dHeTUtU1NkcmVNNmNCX1FFdGd6SmxQajZNRThGS05tU1BCMDJpeE4wWjBfYkJVVXBTZUJvNE1PQ0dvRGNtanhSWXFqc182c2Z6MXJkYUhEaW5CYzlYN2lVYWljUFNUQ0tQM3VLZUVzWFZMOHJISUVnWUlOUjZ2SHfSAdcBQVVfeXFMTWFSUzJhM1llYTMzRzZGY3BQTXpoaFp5TXBSYWFXYi1JLXdlRU9qdWpwS1g4ZktXR0NzRkV3TzNUdk02QmZmeDhyeE9OMjVCM3Y5QXZFY2FGa3ZqcGhBeTQ2V2NESHNoQ1BUbVFhbWlOTG1JcVlRajdzRGhqcWZRem0yRWFpa19MeExPLU5lSTdtTWVTVXdZUUJ0b0FGQllmTzgtRmh6cGlyZ2x4VU1FS2dGVC1NZThpbGhzQUZEODE2dXRPY3BMUmluUVdjLXBGRVdoanVZcDA?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-21T16:04:20Z"
+   "person": "Jensen Huang",
+   "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
+   "source": "Barron's",
+   "published": "2026-10-21T17:37:00Z"
   },
   {
    "kind": "repo",
    "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 971,
+   "stars": 975,
    "note": "Python · new this week",
    "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -108,7 +117,7 @@
   {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 268,
+   "stars": 275,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -118,7 +127,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 18118,
+   "stars": 18767,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -128,7 +137,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/DeepInfer",
-   "stars": 17563,
+   "stars": 17714,
    "note": "Python · new this week",
    "url": "https://github.com/deepseek-ai/DeepInfer",
    "source": "GitHub",
@@ -138,7 +147,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 3729,
+   "stars": 3811,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -148,7 +157,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 2548,
+   "stars": 2671,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -158,7 +167,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 176,
+   "points": 223,
+   "title": "Claude Duet",
+   "source": "Hacker News",
+   "url": "https://claude.com/product/claude-duet",
+   "discuss": "https://news.ycombinator.com/item?id=50186037"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 210,
    "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
    "source": "Hacker News",
    "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
@@ -167,7 +185,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 126,
+   "points": 192,
    "title": "OpenAI models are coming to Google Cloud",
    "source": "Hacker News",
    "url": "https://openai.com/index/openai-models-google-cloud/",
@@ -176,7 +194,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 95,
+   "points": 119,
    "title": "Using thousands of AI agents to uncover new leads in biological data",
    "source": "Hacker News",
    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
@@ -185,25 +203,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 51,
-   "title": "C++ futures part 1: The mental model",
+   "points": 81,
+   "title": "Google staff resign in backlash over its AI contracts with military",
    "source": "Hacker News",
-   "url": "https://devblogs.microsoft.com/oldnewthing/20261012-00/?p=112767/",
-   "discuss": "https://news.ycombinator.com/item?id=50155751"
+   "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+   "discuss": "https://news.ycombinator.com/item?id=50186043"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 28,
-   "title": "Texas data center boom could erase decades of progress on air quality",
-   "source": "Hacker News",
-   "url": "https://www.texastribune.org/2026/10/20/data-centers-texas-air-quality-report-pollution-health-risks/",
-   "discuss": "https://news.ycombinator.com/item?id=50184712"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 22,
+   "points": 45,
    "title": "The bridge to agent-scale Git infrastructure",
    "source": "Hacker News",
    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
@@ -212,20 +221,39 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 21,
-   "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
+   "points": 27,
+   "title": "Claude Duet",
    "source": "Hacker News",
-   "url": "https://alterauth.com/",
-   "discuss": "https://news.ycombinator.com/item?id=50176908"
+   "url": "https://claude.com/resources/articles/claude-duet",
+   "discuss": "https://news.ycombinator.com/item?id=50186455"
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 9,
-   "title": "Anthropic's Public Benefit Charter",
-   "source": "Hacker News",
-   "url": "https://www.anthropic.com/public-benefit-charter",
-   "discuss": "https://news.ycombinator.com/item?id=50185438"
+   "tag": "AI",
+   "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Meta says Muse has over 10M users, with shopping a top activity",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
   },
   {
    "kind": "news",
@@ -249,7 +277,5 @@
    "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/"
   }
  ],
- "errors": [
-  "TechCrunch AI:HTTP Error 403: Forbidden"
- ]
+ "errors": []
 }

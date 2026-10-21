@@ -1,1 +1,176 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Physical AI Decision Lab | ReadSigil</title><meta name="description" content="Explore physical AI with an interactive robot navigation experiment and a practical deployment decision checklist."><link rel="canonical" href="https://readsigil.com/physical-ai/"><style>body{font:16px system-ui;background:#101820;color:#edf4f5;max-width:950px;margin:auto;padding:30px}a{color:#83d7cb}button,select{padding:12px;margin:5px;background:#243d45;color:white;border:1px solid #7ba7a8;border-radius:7px}button:focus-visible{outline:3px solid gold}canvas{background:#f0f4ed;width:100%;max-width:650px;border-radius:10px}section{padding:18px 0;border-bottom:1px solid #47606a}.muted{color:#bdd0d0}</style><main><p>READSIGIL / INTERACTIVE LAB</p><h1>Physical AI: when decisions move objects</h1><p>Software can recommend a route. A robot must take it, while the world changes around it. Explore the difference between a plan and a safe action.</p><section><h2>Robot Decision Lab</h2><p>Choose a policy, then run a simple warehouse simulation. The robot starts at the left, aims for the destination on the right, and encounters a stationary obstacle.</p><label for="policy">Robot policy</label><select id="policy"><option value="stop">Stop when blocked</option><option value="detour">Attempt a detour</option><option value="rush">Ignore obstacle (unsafe)</option></select><button id="run">Run simulation</button><button id="reset">Reset</button><p id="status" role="status" aria-live="polite">Ready</p><canvas id="scene" width="650" height="240" role="img" aria-label="Robot navigation simulation with obstacle and goal"></canvas><p class="muted">Illustrative deterministic simulation, not a real robot controller or a validated safety model. Collision and completion counts are specific to this toy scenario.</p></section><section><h2>Would you deploy it?</h2><p>A warehouse vendor promises faster picking. Before buying, which evidence would you require?</p><label><input type="checkbox" class="proof"> Failure and near-miss rates across operating conditions</label><p><label><input type="checkbox" class="proof"> Human override and safe-stop testing</label></p><p><label><input type="checkbox" class="proof"> Total operating cost including downtime and maintenance</label></p><button id="evaluate">Evaluate evidence</button><p id="feedback" role="status"></p></section><section><h2>Five checks before deployment</h2><p><strong>Perception:</strong> Can it detect relevant changes? <strong>Action:</strong> Does it stay within physical limits? <strong>Recovery:</strong> What happens when sensors fail? <strong>Oversight:</strong> Can a person stop it? <strong>Economics:</strong> Does the benefit survive real downtime?</p><h2>Mythbusters</h2><p><strong>Myth:</strong> More capable AI always means safer robots. <strong>Reality:</strong> Capabilities and safety assurance are separate engineering questions.</p><p><strong>Myth:</strong> Every useful robot must be humanoid. <strong>Reality:</strong> Purpose-built systems can be better suited to constrained tasks.</p></section><section><h2>Primary reading</h2><p><a href="https://www.nist.gov/el/intelligent-systems-division-73500/robotics">NIST Robotics</a> · <a href="https://www.iso.org/standard/65694.html">ISO 10218-1 industrial robot safety</a> · <a href="https://arxiv.org/abs/2307.15818">RT-2: Vision-Language-Action Models</a></p></section></main><script>const c=document.querySelector('#scene'),ctx=c.getContext('2d'),status=document.querySelector('#status');let timer=null,x=45,y=120,steps=0;function draw(){ctx.clearRect(0,0,650,240);ctx.fillStyle='#b8d9ca';ctx.fillRect(570,75,48,90);ctx.fillStyle='#c75d4b';ctx.fillRect(300,85,52,70);ctx.fillStyle='#176b8a';ctx.beginPath();ctx.arc(x,y,17,0,Math.PI*2);ctx.fill();ctx.fillStyle='#263238';ctx.font='15px sans-serif';ctx.fillText('START',12,35);ctx.fillText('OBSTACLE',280,70);ctx.fillText('GOAL',575,65)}function reset(){clearInterval(timer);timer=null;x=45;y=120;steps=0;status.textContent='Ready';draw()}document.querySelector('#reset').onclick=reset;document.querySelector('#run').onclick=()=>{reset();const policy=document.querySelector('#policy').value;timer=setInterval(()=>{steps++;if(x>=550){status.textContent='Goal reached after '+steps+' steps';clearInterval(timer);return}if(x+17>=300&&x-17<=352&&y+17>=85&&y-17<=155){if(policy==='stop'){status.textContent='Safe stop: obstacle detected';clearInterval(timer);return}if(policy==='rush'){status.textContent='Collision: unsafe policy';clearInterval(timer);return}}if(policy==='detour'&&x>=245&&x<=395){y=45}else if(policy==='detour'&&x>395){y=120}x+=5;draw()},35)};document.querySelector('#evaluate').onclick=()=>{const n=[...document.querySelectorAll('.proof')].filter(e=>e.checked).length;document.querySelector('#feedback').textContent=n===3?'All three are necessary starting points. Also validate integration, cybersecurity and regulatory requirements.':'You selected '+n+' of 3 essential evidence categories. A deployment decision needs all three.'};draw();</script></html>
+<!doctype html><html lang="en-IN"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; media-src 'self' blob: data:; connect-src 'self' https://hn.algolia.com https://cloudflareinsights.com; worker-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Physical AI Decision Lab | ReadSigil</title><meta name="description" content="For leaders deciding whether to put robots on the floor: the arithmetic of reliability, a working warehouse simulation, a vendor pitch to interrogate and a deployment gate to take into the meeting."><link rel="canonical" href="https://readsigil.com/physical-ai/">
+<meta property="og:type" content="website"><meta property="og:title" content="Physical AI Decision Lab | ReadSigil"><meta property="og:description" content="A robot that is right 99% of the time still needs rescuing twenty times a shift. Run the floor, question the vendor, decide what evidence would let you say yes."><meta property="og:url" content="https://readsigil.com/physical-ai/"><meta property="og:image" content="https://readsigil.com/assets/img/og-image.png"><meta name="twitter:card" content="summary_large_image">
+<link href="/assets/fonts/f-7f379b564b.css" rel="stylesheet">
+<link rel="alternate" type="application/atom+xml" title="Shashwat Kumar: essays" href="https://readsigil.com/feed.xml"><link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/wow.css"><link rel="stylesheet" href="../assets/ui.css"><link rel="stylesheet" href="../assets/polish.css"><link rel="stylesheet" href="lab.css?v=20261021"><script src="../assets/wow.js"></script><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="icon" href="../favicon.ico" sizes="any">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LearningResource","name":"Physical AI Decision Lab","description":"Interactive lab for leaders deciding whether to deploy robots: reliability arithmetic, a working warehouse simulation, a vendor-pitch case and a deployment gate.","url":"https://readsigil.com/physical-ai/","author":{"@id":"https://readsigil.com/#person"},"isAccessibleForFree":true,"learningResourceType":["Simulation","Case study","Checklist"],"about":["Physical AI","Robotics safety","Autonomous mobile robots","Technology deployment decisions"],"inLanguage":"en-IN","dateModified":"2026-10-21"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://readsigil.com/"},{"@type":"ListItem","position":2,"name":"Physical AI Decision Lab","item":"https://readsigil.com/physical-ai/"}]}]}</script>
+</head><body class="pai">
+<header class="top"><div class="wrap bar"><a class="brand" href="../index.html">ReadSigil</a><nav><a href="../writing.html">Writing</a><a href="../magazine.html">The Signal</a><a href="../agora/index.html">Agora</a><a href="../lab/">Prompt Crucible</a><a href="../learn.html">Learn</a><a href="./" class="on" aria-current="page">Physical AI</a><a href="../cases.html">Cases</a><a href="../media.html">Media</a><a href="../about-readsigil.html">About</a><a href="../contact.html">Connect</a></nav></div></header>
+<main>
+<nav class="crumbs wrap" aria-label="Breadcrumb"><ol><li><a href="../index.html">Home</a></li><li aria-current="page">Physical AI Decision Lab</li></ol></nav>
+
+<section class="wrap pai-hero">
+ <div>
+  <p class="eyebrow">Physical AI Decision Lab</p>
+  <h1>A robot that is right 99% of the time still needs rescuing <em>twenty times</em> a shift.</h1>
+  <p class="dek">Software that makes a bad call can be rolled back. A robot that makes one has already moved. This lab is for the person who signs off the deployment: run the floor, question the vendor, and decide what evidence would let you say yes.</p>
+  <div class="row"><a class="btn primary" href="#floor">Run the floor</a><a class="btn" href="#pitch">Take the vendor pitch</a></div>
+ </div>
+ <figure class="pai-stage" style="margin:0">
+  <canvas id="heroCanvas" width="728" height="364" role="img" aria-label="A robot crossing a warehouse floor while pickers move between racks. The robot stops whenever its sensors see a person in its path."></canvas>
+  <figcaption class="cap"><span>LIVE · stop-and-wait robot · <b>8</b> pickers</span><span>jobs <b id="heroTasks">0</b> · safety stops <b id="heroStops">0</b></span></figcaption>
+  <div class="pai-legend" aria-hidden="true"><span><i style="background:var(--accent)"></i>Robot</span><span><i style="background:var(--accent2)"></i>Picker</span><span><i style="background:transparent;border:2px solid var(--accent)"></i>Seen by sensors</span><span><i style="background:var(--mut);opacity:.35"></i>Racks block line of sight</span></div>
+ </figure>
+</section>
+
+<div class="wrap" role="navigation" aria-label="Lab stations"><ol class="pai-toc">
+ <li><a href="#nines"><small>01</small><strong>The arithmetic of nines</strong><span>Why 99% is not good enough</span></a></li>
+ <li><a href="#floor"><small>02</small><strong>The floor</strong><span>Speed, safety, throughput: test the trade-off</span></a></li>
+ <li><a href="#pitch"><small>03</small><strong>The vendor pitch</strong><span>Three reports, one board decision</span></a></li>
+ <li><a href="#gate"><small>04</small><strong>The deployment gate</strong><span>What evidence lets you say yes</span></a></li>
+</ol></div>
+
+<!-- 01 -->
+<section class="wrap station" id="nines">
+ <header><div class="sn">01</div><div><h2>The arithmetic of nines</h2><p>Vendors quote success per action. Your operation experiences success per job. A pick is a dozen small actions in a row, and every one must go right. Move the dials and watch where the human hours go.</p></div></header>
+ <div class="grid2 wide">
+  <div class="panel">
+   <div class="ctl"><label for="nP">Success rate per action <output id="nPo">99%</output></label><input id="nP" type="range" min="0" max="9" step="1" value="4" aria-describedby="nPh"><p class="hint" id="nPh">Detect, approach, align, grasp, lift, verify, place: each one counts.</p></div>
+   <div class="ctl"><label for="nK">Actions per job <output id="nKo">12</output></label><input id="nK" type="range" min="1" max="40" value="12"></div>
+   <div class="ctl"><label for="nT">Jobs per robot per hour <output id="nTo">20</output></label><input id="nT" type="range" min="2" max="60" value="20"></div>
+   <div class="ctl"><label for="nM">Minutes for a person to recover a failed job <output id="nMo">4 min</output></label><input id="nM" type="range" min="1" max="20" value="4"></div>
+   <div class="ctl"><label for="nF">Fleet size <output id="nFo">40 robots</output></label><input id="nF" type="range" min="1" max="200" value="40"></div>
+  </div>
+  <div>
+   <div class="kpis" aria-live="polite">
+    <div class="kpi" id="kJob"><small>Jobs completed without help</small><b id="nJob">—</b><span id="nJobS"></span></div>
+    <div class="kpi" id="kEvery"><small>Each robot needs a person every</small><b id="nEvery">—</b><span>of operation</span></div>
+    <div class="kpi" id="kRatio"><small>Robots one person can keep running</small><b id="nRatio">—</b><span>at 70% of their hour on recoveries</span></div>
+    <div class="kpi" id="kStaff"><small>Recovery staff for the fleet, per shift</small><b id="nStaff">—</b><span id="nStaffS"></span></div>
+   </div>
+   <p class="verdict" id="nVerdict"></p>
+  </div>
+ </div>
+ <div class="tablewrap" style="margin-top:var(--s5)"><table aria-label="Effect of each additional nine at your settings"><thead><tr><th>Per-action success</th><th class="n">Jobs without help</th><th class="n">Failed jobs per robot-hour</th><th class="n">Robots per person</th></tr></thead><tbody id="nTable"></tbody></table></div>
+ <p class="note">Arithmetic, not a forecast: it assumes failures are independent and every failed job needs a person. Real failures cluster around particular items, shelves and shifts, which is why the next station runs a floor instead of a formula.</p>
+</section>
+
+<!-- 02 -->
+<section class="wrap station" id="floor">
+ <header><div class="sn">02</div><div><h2>The floor</h2><p>One robot, a set of pickers and a warehouse with racks that block line of sight. Choose how the robot behaves, how fast it may go and how good its sensors are. Then run 40 shift segments and see what you bought: throughput, or near misses.</p></div></header>
+ <div class="presets"><div class="lbl">Start from a situation</div><div class="seg" id="presets">
+  <button type="button" data-p="night">Quiet night shift</button><button type="button" data-p="peak">Peak season</button><button type="button" data-p="dirty">Dusty sensor</button><button type="button" data-p="push">Vendor demo settings</button>
+ </div></div>
+ <div class="grid2 wide">
+  <div>
+   <div class="floor"><canvas id="floorCanvas" width="728" height="364" role="img" aria-label="Warehouse floor simulation"></canvas>
+    <div class="cap"><span id="floorCap">Press “Watch one segment” to see a single run.</span><span id="floorClock"></span></div>
+    <div class="progress-bar" aria-hidden="true"><i id="prog"></i></div>
+   </div>
+   <div class="row" style="margin-top:12px"><button class="btn primary" id="runBatch" type="button">Run 40 segments</button><button class="btn" id="watch" type="button">Watch one segment</button><button class="btn" id="clearExp" type="button">Clear experiments</button></div>
+  </div>
+  <div class="panel">
+   <div class="ctl"><span class="lbl" id="polL">Robot policy</span><div class="seg" id="policy" role="group" aria-labelledby="polL">
+    <button type="button" data-v="stop" aria-pressed="true">Stop and wait</button><button type="button" data-v="replan" aria-pressed="false">Slow and reroute</button><button type="button" data-v="speed" aria-pressed="false">Keep moving</button></div>
+    <p class="hint" id="polH"></p></div>
+   <div class="ctl"><label for="sV">Speed limit <output id="sVo">2 m/s</output></label><input id="sV" type="range" min="1" max="3" step="1" value="2"></div>
+   <div class="ctl"><label for="sR">Sensor range <output id="sRo">5 m</output></label><input id="sR" type="range" min="2" max="9" value="5"></div>
+   <div class="ctl"><label for="sD">Missed detections <output id="sDo">5%</output></label><input id="sD" type="range" min="0" max="40" step="5" value="5"><p class="hint">Share of sensor readings that miss a visible person: glare, dust, a dirty lens.</p></div>
+   <div class="ctl"><label for="sN">Pickers on the floor <output id="sNo">8</output></label><input id="sN" type="range" min="0" max="14" value="8"></div>
+  </div>
+ </div>
+ <div class="kpis kpis4" style="margin-top:var(--s4)" id="floorKpis" aria-live="polite">
+  <div class="kpi"><small>Jobs per robot-hour</small><b id="fT">—</b><span id="fTs">run the floor to measure</span></div>
+  <div class="kpi" id="fCk"><small>Contacts with a person</small><b id="fC">—</b><span id="fCs">in 10 robot-hours</span></div>
+  <div class="kpi" id="fNk"><small>Near misses per robot-hour</small><b id="fN">—</b><span>unseen in front, or passed at speed</span></div>
+  <div class="kpi"><small>Time halted for safety</small><b id="fS">—</b><span>stopped or waiting</span></div>
+ </div>
+ <p class="verdict" id="fVerdict">Every setting you run is plotted below, so you can see the trade-off you are choosing rather than a single number.</p>
+ <div class="frontier panel"><svg id="frontier" viewBox="0 0 640 270" role="img" aria-label="Your experiments: throughput against risk events"></svg>
+  <p class="note" style="margin:6px 0 0">Each dot is one setting, run over the same 40 segments with the same random seeds, so differences come from your choices. Lower and further right is better. Risk events = contacts × 10 + near misses, per robot-hour.</p></div>
+ <details class="note" style="margin-top:var(--s3)"><summary>How the floor works</summary><p>The floor is a 26 × 13 grid of one-metre cells; one step is one second. Pickers walk to random shelf faces, pause to pick and move on, and they step aside for a robot they can see. The robot fetches from a random shelf and returns to the dock. Its sensors see a person only within range, only along a clear line of sight past the racks, and miss a share of observations at the rate you set; a tracked person is remembered for two seconds. Braking is limited to 1 m/s², so stopping distance grows with speed. A contact is the robot entering a cell a person occupies, usually because someone stepped out inside its stopping distance; each costs 20 seconds of downtime. A near miss is a person found directly in front and unseen, or passed within a metre at 2 m/s or more. Each segment is 15 simulated minutes; 40 segments make 10 robot-hours. It is a working model that runs in your browser, not a validated safety case for any product.</p></details>
+</section>
+
+<!-- 03 -->
+<section class="wrap station" id="pitch">
+ <header><div class="sn">03</div><div><h2>The vendor pitch</h2><p>You run operations for a four-site warehouse network. A robotics vendor wants Site 2. The board meets on Friday, and you have time to read three reports before then. Which would you check first?</p></div></header>
+ <article class="memo" aria-label="Vendor proposal">
+  <div class="memo-head"><div class="from">PROPOSAL · Halden Autonomy → Operations Committee · Site 2, Bhiwandi</div><h3>40 autonomous picking robots. ₹14 crore upfront, ₹1.6 crore a year in service.</h3><p style="margin:0;font:400 .95rem/1.55 var(--sans);color:var(--mut)">“Proven at a reference customer. Certified safe around people. Pays for itself in just over a year.”</p></div>
+  <div class="claims"><div><b>99.5%</b><span>pick success</span></div><div><b>2.6×</b><span>picks per labour-hour</span></div><div><b>14 mo</b><span>payback</span></div><div><b>Certified</b><span>safe around people</span></div></div>
+  <div class="memo-foot">Vendor benefit case: ₹13.6 crore a year from labour and throughput, at 98% fleet availability, on a 36-month contract.</div>
+ </article>
+ <div class="budget"><span>Reports you can still read</span><span class="dots" id="dots"><i></i><i></i><i></i></span></div>
+ <div class="reports" id="reports"></div>
+ <h3 style="margin-top:var(--s6)">Your recommendation to the board</h3>
+ <div class="choices" id="choices">
+  <label class="choice"><input type="radio" name="rec" value="buy"><div><strong>Approve the full fleet</strong><span>Sign for 40 robots at Site 2 on the vendor’s terms.</span></div></label>
+  <label class="choice"><input type="radio" name="rec" value="pilot"><div><strong>Approve a bounded pilot</strong><span>A few robots for a fixed period, with written conditions for stopping or scaling.</span></div></label>
+  <label class="choice"><input type="radio" name="rec" value="decline"><div><strong>Decline for now</strong><span>Revisit when the technology or the offer improves.</span></div></label>
+ </div>
+ <div class="row"><button class="btn primary" id="submitRec" type="button" disabled>Submit recommendation</button><span class="note" id="recNote" style="margin:0">Read at least one report, then choose.</span></div>
+ <div class="analysis" id="analysis" hidden></div>
+</section>
+
+<!-- 04 -->
+<section class="wrap station" id="gate">
+ <header><div class="sn">04</div><div><h2>The deployment gate</h2><p>Take this into the meeting. For each question, mark what you have actually seen. A claim is not evidence, and evidence from someone else’s floor is not evidence from yours.</p></div></header>
+ <div class="grid2 wide">
+  <div class="gates" id="gates"></div>
+  <aside class="panel gate-out" aria-live="polite"><p class="eyebrow" style="margin:0">Your gate</p><div class="big" id="gVerdict">—</div><p id="gWhy" style="font:400 .92rem/1.55 var(--sans);margin:0"></p><ul id="gAsk"></ul><button class="btn" id="gCopy" type="button">Copy gate as text</button> <span class="note" id="gCopied" role="status"></span></aside>
+ </div>
+
+ <h3 style="margin-top:var(--s7)">The evidence ladder</h3>
+ <p style="max-width:64ch">Rate every claim by the rung it stands on. A launch video is rung one, however good it looks. A sound deployment decision rests on rungs four and five.</p>
+ <ol class="ladder">
+  <li><span class="rung">1</span><div><strong>Demonstration</strong><p>A video or live demo. Shows the robot can do the task at least once, in conditions someone chose.</p></div></li>
+  <li><span class="rung">2</span><div><strong>Vendor-run trials</strong><p>Success rates from the vendor’s own sites. Ask how success was defined, whether retries counted and who was standing nearby.</p></div></li>
+  <li class="hi"><span class="rung">3</span><div><strong>Pre-set evaluation in unseen places</strong><p>Fixed criteria, held-out environments, failures counted strictly. Figure’s Helix 2.5 reported 56% full-task success in 30 homes it had never seen, with safety interventions counted as failures. <a href="../magazine/helix-30-homes.html">Read the analysis</a>.</p></div></li>
+  <li><span class="rung">4</span><div><strong>Independent operating data</strong><p>Intervention logs, availability and incident records from a customer like you, obtained from that customer rather than from the deck.</p></div></li>
+  <li><span class="rung">5</span><div><strong>Your floor, your data</strong><p>A bounded pilot in your own layout and traffic, with a comparison area, stop conditions and an incident log you own.</p></div></li>
+ </ol>
+</section>
+
+<section class="wrap station">
+ <header><div class="sn">∴</div><div><h2>Four beliefs that cost money</h2><p>Each sounds reasonable in a boardroom and fails on a warehouse floor.</p></div></header>
+ <div class="myths">
+  <div class="myth"><s>A more capable robot is a safer robot.</s><p>Capability and assurance are separate engineering problems. A smarter model can be confidently wrong in a situation nobody tested. Safety comes from limits, stops and supervision that still work when the model does not.</p></div>
+  <div class="myth"><s>A safety stop is a failure.</s><p>A stop is the system knowing when not to act. Measure stops, explain them and reduce them, but never tune them away to hit a throughput target. <a href="../essays/bounded-autonomy.html">On bounded autonomy</a>.</p></div>
+  <div class="myth"><s>If the pilot worked, the rollout will.</s><p>Pilots run with vendor engineers on site, a tidy zone and an attentive team. Scale runs on your night shift. Write down which pilot conditions will not exist at scale, then test without them.</p></div>
+  <div class="myth"><s>The goal is a humanoid.</s><p>The shape should follow the task. In structured spaces, wheels, conveyors and fixed arms often do the job with fewer ways to fail. A human shape earns its cost where the environment was built for people and cannot change.</p></div>
+ </div>
+</section>
+
+<section class="wrap station">
+ <header><div class="sn">§</div><div><h2>The rulebook is catching up</h2><p>Responsibility is moving explicitly onto the organisation that runs the robots, not only the one that builds them.</p></div></header>
+ <div class="rules">
+  <div class="rule"><div class="when">PUBLISHED · 2025</div><h4>ISO 10218-1:2025</h4><p>The revised international safety standard for industrial robots, the baseline robot makers design against.</p></div>
+  <div class="rule"><div class="when">PUBLISHED · OCT 2026</div><h4>ANSI/A3 R15.08-3</h4><p>The US mobile-robot standard’s part for users: risk assessment, management of change, training and periodic review in day-to-day operation.</p></div>
+  <div class="rule"><div class="when">APPLIES · 20 JAN 2027</div><h4>EU Machinery Regulation 2023/1230</h4><p>Replaces the Machinery Directive and addresses machinery whose safety functions rely on AI that learns.</p></div>
+ </div>
+ <p class="note">For deployments in India, confirm the requirements that apply to your site with your own safety and legal advisers. Nothing here is legal or regulatory advice.</p>
+</section>
+
+<section class="wrap station" style="border-bottom:0">
+ <h2 style="margin-top:0">Primary reading</h2>
+ <ul class="reading">
+  <li><a href="https://www.iso.org/standard/73933.html">ISO 10218-1:2025</a>, Robotics: safety requirements for industrial robots.</li>
+  <li><a href="https://www.iso.org/standard/83545.html">ISO 3691-4:2023</a>, Safety of driverless industrial trucks and their systems.</li>
+  <li><a href="https://www.robotics247.com/article/a3-announces-r15.08-part-3-safety-standard-for-industrial-mobile-robot-users-is-now-available/association_for_advancing_automation">A3 announces R15.08 Part 3</a> for users of industrial mobile robots, October 2026.</li>
+  <li><a href="https://osha.europa.eu/en/legislation/directive/regulation-20231230eu-machinery">Regulation (EU) 2023/1230 on machinery</a>, EU-OSHA summary.</li>
+  <li><a href="https://www.nist.gov/el/intelligent-systems-division-73500/robotics">NIST robotics programme</a>, performance and safety measurement.</li>
+  <li><a href="https://arxiv.org/abs/2307.15818">RT-2: Vision-Language-Action Models</a>, Google DeepMind, 2023.</li>
+ </ul>
+ <h2>Further on ReadSigil</h2>
+ <ul class="reading">
+  <li><a href="../magazine/helix-30-homes.html">Thirty homes, fifty-six percent, no partial credit</a></li>
+  <li><a href="../magazine/humanoid-hype-gap.html">The humanoid hype gap, measured</a></li>
+  <li><a href="../magazine/autonomy-ladder.html">The robot autonomy ladder</a></li>
+  <li><a href="../magazine/robotaxi-capital.html">The robotaxi business learns to borrow</a></li>
+  <li><a href="../essays/brakes.html">Faster cars need better brakes</a></li>
+  <li><a href="../agora/t-robot-liability.html">Agora: who’s liable when a robot errs?</a></li>
+ </ul>
+</section>
+</main>
+<footer><div class="wrap"><nav class="fnav" aria-label="Footer"><a href="../index.html">Home</a><a href="../writing.html">Writing</a><a href="../magazine.html">The Signal</a><a href="../ideas.html">Ideas map</a><a href="../topics.html">Topics</a><a href="../learn.html">Learn</a><a href="../cases.html">Case studies</a><a href="../samples.html">Work samples</a><a href="../media.html">Media</a><a href="../feed.xml">RSS</a></nav></div><div class="wrap bar"><span>ReadSigil · <span class="pv">Views <img class="counter" src="https://visitor-badge.laobi.icu/badge?page_id=shashwat-kumar.shashwat-analytics&amp;left_text=views&amp;left_color=%23999&amp;right_color=%23999" alt="Site page views" height="18" loading="lazy" referrerpolicy="no-referrer"></span></span><span class="small">ReadSigil is independent. <a href="../case-notes.html">About the exercises &amp; how the examples are constructed</a>.</span></div></footer>
+<script src="lab.js?v=20261021"></script>
+</body></html>

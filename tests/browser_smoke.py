@@ -25,7 +25,9 @@ with sync_playwright() as p:
         with page.expect_download() as dl:page.locator('#export').click()
         with tempfile.TemporaryDirectory() as tmp:
             path=Path(tmp)/'record.json';dl.value.save_as(path);data=json.loads(path.read_text())
-            assert data['appVersion']=='threat-signals-0.2.0'
+            assert data['appVersion']=='threat-signals-0.3.0'
+            manifest=json.loads((ROOT/'REVIEW_MANIFEST.json').read_text())
+            assert data['codeFingerprint']==manifest['sourceTemplateSha256']
             assert data['integrity'].startswith('none')
             assert data['controls'][0]['selfReportedEvidence']
             assert len(data['decisions'])==3

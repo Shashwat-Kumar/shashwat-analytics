@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T04:40:26Z",
+ "generated_at": "2026-10-21T09:42:22Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,66 +12,66 @@
   "url": "https://github.com/deepseek-ai/DeepInfer",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50163277",
-  "points": 2184,
-  "comments": 845,
+  "points": 2247,
+  "comments": 856,
   "published": "2026-10-20T09:08:54Z",
   "since": "2026-10-20T17:56:45Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "BE Stock Leads Energy Rally After SpaceX CEO Elon Musk Says AI’s Real Constraint Is Power And Cooling, Not Chips",
-  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcktJeVpOa1VISTJBZTlPdGNGdmtJNVZZOEFpT0RYamFxU3F5N3lXMkJFWmJPa0lWUFc0ZGhNajYyQ21IRkpXX0Z5RDY3T1pfbmF0dHpCZ282WFlIRmw4MEp0OUctN28xYWtkbEE1bzJ3Mzd4ektFMFBCTTk5d2E3bk1zRThwMGZKWVdyNXcxTFZldw?oc=5",
-  "source": "Yahoo Finance",
-  "published": "2026-10-21T01:23:00Z",
-  "since": "2026-10-21T04:40:26Z"
+  "person": "Dario Amodei",
+  "title": "Dario Amodei says Anthropic has made many mistakes in race to the top, will do better",
+  "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeHh3dlJhRlF0bDE5amFFOHp3eXh3eHFxbjYxUU9OdHZ3RVpUSnZiUmJiZ0YtU3I4dGJZYWZZRkhaajJOMzhoZnBiVUt2Z2c3aURrS0JLa1VOVF82eVdWcHBuVG9ENDVFb013b3dTRm1ndXprSldMcUl4Y1ZKMU1EMlYyWG10QmdrYnlpNDhlX0pNbTNtb2RuQnVHcll2V3NtZXkyOThibE5CYjhDWUJidGlGb2ZIYzhWVGNfdkRibTU4SWNjeUtLTDhQWGpTUjlyTEZBRFJGaHVGWjR4YmdWMy1STHVPMUFTLU1v0gHrAUFVX3lxTE14eHd2UmFGUXRsMTlqYUU4end5eHd4cXFuNjFRT050dndFWlRKdmJSYmJnRi1Tcjh0YllhZllGSFpqMk4zOGhmcGJVS3ZnZzdpRGtLQktrVU5UXzZ5V1ZwcG5Ub0Q0NUVvTXdvd1NGbWd1emtKV0xxSXhjVkoxTUQyVjJYbXRCZ2tieWk0OGVfSk1tM21vZG5CdUdyWXZXc21leTI5OGJsTkJiOENZQmJ0aUZvZkhjOFZUY192RGJtNThJY2N5S0tMOFBYalNSOXJMRkFEUkZodUZaNHhiZ1YzLVJMdU8xQVMtTW8?oc=5",
+  "source": "India Today",
+  "published": "2026-10-21T07:29:17Z",
+  "since": "2026-10-21T09:42:22Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "BE Stock Leads Energy Rally After SpaceX CEO Elon Musk Says AI’s Real Constraint Is Power And Cooling, Not Chips",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcktJeVpOa1VISTJBZTlPdGNGdmtJNVZZOEFpT0RYamFxU3F5N3lXMkJFWmJPa0lWUFc0ZGhNajYyQ21IRkpXX0Z5RDY3T1pfbmF0dHpCZ282WFlIRmw4MEp0OUctN28xYWtkbEE1bzJ3Mzd4ektFMFBCTTk5d2E3bk1zRThwMGZKWVdyNXcxTFZldw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-21T01:23:00Z",
-   "since": "2026-10-21T04:40:26Z"
+   "person": "Dario Amodei",
+   "title": "Dario Amodei says Anthropic has made many mistakes in race to the top, will do better",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeHh3dlJhRlF0bDE5amFFOHp3eXh3eHFxbjYxUU9OdHZ3RVpUSnZiUmJiZ0YtU3I4dGJZYWZZRkhaajJOMzhoZnBiVUt2Z2c3aURrS0JLa1VOVF82eVdWcHBuVG9ENDVFb013b3dTRm1ndXprSldMcUl4Y1ZKMU1EMlYyWG10QmdrYnlpNDhlX0pNbTNtb2RuQnVHcll2V3NtZXkyOThibE5CYjhDWUJidGlGb2ZIYzhWVGNfdkRibTU4SWNjeUtLTDhQWGpTUjlyTEZBRFJGaHVGWjR4YmdWMy1STHVPMUFTLU1v0gHrAUFVX3lxTE14eHd2UmFGUXRsMTlqYUU4end5eHd4cXFuNjFRT050dndFWlRKdmJSYmJnRi1Tcjh0YllhZllGSFpqMk4zOGhmcGJVS3ZnZzdpRGtLQktrVU5UXzZ5V1ZwcG5Ub0Q0NUVvTXdvd1NGbWd1emtKV0xxSXhjVkoxTUQyVjJYbXRCZ2tieWk0OGVfSk1tM21vZG5CdUdyWXZXc21leTI5OGJsTkJiOENZQmJ0aUZvZkhjOFZUY192RGJtNThJY2N5S0tMOFBYalNSOXJMRkFEUkZodUZaNHhiZ1YzLVJMdU8xQVMtTW8?oc=5",
+   "source": "India Today",
+   "published": "2026-10-21T07:29:17Z",
+   "since": "2026-10-21T09:42:22Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman warns staff of nightmare scenario where one AI lab melts everyone's GPUs",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVFBiVXNkUkpaV1Y0SlZoamYydzV3MUdZU041YXdUa0E3dUJKTTF2RlJvaWVyMlExUjRaVjVCTEtGOVRWYTE3NWpPcnZDUHROSWQ5YVN5LVpaTTdFUzE5Q0JOd2QtSVRFdGppSUdSdWN5bllLM1c5bm4yUkUwQXYxNVpoN29XXzY1OUFmVE9ZR2hpWmExdE5VYmstY256WF9PeDR0V0VCdW4ycFZ6M1A5aklreEpTNi1MTTk3N0tYM3R5TW9relQxU3dCYUtPX0hrNV9scFVNMDJTOFRidWhFQWh5RdIB6AFBVV95cUxQVklhQ25YM242ZElkeEc2Zl91X3B4T3FhZlhJTXozdnh2STZURVJxblAzeERjQXJyS0VvR1p0VVM5b19IQUduLUEwRVFGVTVGUTZpRWZCUDVvWkk0OXNuSHBVLTRoOTRYM0RSdWo2MFU4S0NqSEZtTXU4OGp5RlM4TkU0TkdtNU03RXllYTJqUHNndXZ0aW5xU1djZ1JZOHYtcjFESW9ZVWpvMURkTVUzT3gxZE1reGphZU80XzhaS1BEdnRiaWUzOVhOcVZrRXlMN1BkaURBaUl1ZWZNWXNucUhlcFFyM1Jl?oc=5",
-   "source": "India Today",
-   "published": "2026-10-20T04:51:06Z"
+   "person": "Elon Musk",
+   "title": "Elon Musk says ‘people will find ways to be happy’ if AI makes money and work obsolete in future | Trending",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcHZWb3NaUVdPQ2RRX0xhVWF1LUJZSFdrTnM4MG1wMHFwcjhKTnJ1YU9ZVi1yUTlzMDFuMWh2MlB1cGpNamh1aGtwQmdBWFV2c21PUzh2ZUZBUXRMRVJCdHpXWmRudXlZOXA4aW9oc2RHRHdHNUsySGpVUmpGZjhhTElXMnJPUVRWVEdxa2kzakgxcmtlbzVvY0FEakZTam5ERUc1clZNS3YyZTNDMWZNNmg0V0gtVWNscWVVNWlPZmtEN2JUbkpib1k5UnRtNnVSZHFqZERSaXVpZ3liUDlNUUxQU1hJbTBiZVM40gHwAUFVX3lxTE01OV85SXZWVGk0T2F0bnpNcUEwbG8zWnMwV3lDcVNLdlQ2UURmcjF1bjQ1eTkzbEZwLWpUR1B5RzRwMlozVGM1M3Q3UTBFUmpPeTN1czRUMkxQMDlZemVFWHhVX3VaZFFiOVNRR000ZlplS25kdGZrd2xQSzZHRm80ZTBTR0Z5X3ZYdlFBRmFleHlXVlNqTkcyWTYzSUdJM3JiWFNaSGNmSklBVGI2SnhwNnhvSVNaZXlsRVVNZ3hsbTNCMnRKN19SSkpkSVM4X18wdkh5dEdCRkVXTGRmQlh3SnFCbTI3YlVKZklfVmJRbQ?oc=5",
+   "source": "Hindustan Times",
+   "published": "2026-10-21T06:55:47Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "BE Stock Leads Energy Rally After SpaceX CEO Elon Musk Says AI’s Real Constraint Is Power And Cooling, Not Chips",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcktJeVpOa1VISTJBZTlPdGNGdmtJNVZZOEFpT0RYamFxU3F5N3lXMkJFWmJPa0lWUFc0ZGhNajYyQ21IRkpXX0Z5RDY3T1pfbmF0dHpCZ282WFlIRmw4MEp0OUctN28xYWtkbEE1bzJ3Mzd4ektFMFBCTTk5d2E3bk1zRThwMGZKWVdyNXcxTFZldw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-21T01:23:00Z",
-   "since": "2026-10-21T04:40:26Z"
+   "person": "Dario Amodei",
+   "title": "Dario Amodei says Anthropic has made many mistakes in race to the top, will do better",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeHh3dlJhRlF0bDE5amFFOHp3eXh3eHFxbjYxUU9OdHZ3RVpUSnZiUmJiZ0YtU3I4dGJZYWZZRkhaajJOMzhoZnBiVUt2Z2c3aURrS0JLa1VOVF82eVdWcHBuVG9ENDVFb013b3dTRm1ndXprSldMcUl4Y1ZKMU1EMlYyWG10QmdrYnlpNDhlX0pNbTNtb2RuQnVHcll2V3NtZXkyOThibE5CYjhDWUJidGlGb2ZIYzhWVGNfdkRibTU4SWNjeUtLTDhQWGpTUjlyTEZBRFJGaHVGWjR4YmdWMy1STHVPMUFTLU1v0gHrAUFVX3lxTE14eHd2UmFGUXRsMTlqYUU4end5eHd4cXFuNjFRT050dndFWlRKdmJSYmJnRi1Tcjh0YllhZllGSFpqMk4zOGhmcGJVS3ZnZzdpRGtLQktrVU5UXzZ5V1ZwcG5Ub0Q0NUVvTXdvd1NGbWd1emtKV0xxSXhjVkoxTUQyVjJYbXRCZ2tieWk0OGVfSk1tM21vZG5CdUdyWXZXc21leTI5OGJsTkJiOENZQmJ0aUZvZkhjOFZUY192RGJtNThJY2N5S0tMOFBYalNSOXJMRkFEUkZodUZaNHhiZ1YzLVJMdU8xQVMtTW8?oc=5",
+   "source": "India Today",
+   "published": "2026-10-21T07:29:17Z",
+   "since": "2026-10-21T09:42:22Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman warns staff of nightmare scenario where one AI lab melts everyone's GPUs",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVFBiVXNkUkpaV1Y0SlZoamYydzV3MUdZU041YXdUa0E3dUJKTTF2RlJvaWVyMlExUjRaVjVCTEtGOVRWYTE3NWpPcnZDUHROSWQ5YVN5LVpaTTdFUzE5Q0JOd2QtSVRFdGppSUdSdWN5bllLM1c5bm4yUkUwQXYxNVpoN29XXzY1OUFmVE9ZR2hpWmExdE5VYmstY256WF9PeDR0V0VCdW4ycFZ6M1A5aklreEpTNi1MTTk3N0tYM3R5TW9relQxU3dCYUtPX0hrNV9scFVNMDJTOFRidWhFQWh5RdIB6AFBVV95cUxQVklhQ25YM242ZElkeEc2Zl91X3B4T3FhZlhJTXozdnh2STZURVJxblAzeERjQXJyS0VvR1p0VVM5b19IQUduLUEwRVFGVTVGUTZpRWZCUDVvWkk0OXNuSHBVLTRoOTRYM0RSdWo2MFU4S0NqSEZtTXU4OGp5RlM4TkU0TkdtNU03RXllYTJqUHNndXZ0aW5xU1djZ1JZOHYtcjFESW9ZVWpvMURkTVUzT3gxZE1reGphZU80XzhaS1BEdnRiaWUzOVhOcVZrRXlMN1BkaURBaUl1ZWZNWXNucUhlcFFyM1Jl?oc=5",
-   "source": "India Today",
-   "published": "2026-10-20T04:51:06Z"
+   "person": "Elon Musk",
+   "title": "Elon Musk says ‘people will find ways to be happy’ if AI makes money and work obsolete in future | Trending",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcHZWb3NaUVdPQ2RRX0xhVWF1LUJZSFdrTnM4MG1wMHFwcjhKTnJ1YU9ZVi1yUTlzMDFuMWh2MlB1cGpNamh1aGtwQmdBWFV2c21PUzh2ZUZBUXRMRVJCdHpXWmRudXlZOXA4aW9oc2RHRHdHNUsySGpVUmpGZjhhTElXMnJPUVRWVEdxa2kzakgxcmtlbzVvY0FEakZTam5ERUc1clZNS3YyZTNDMWZNNmg0V0gtVWNscWVVNWlPZmtEN2JUbkpib1k5UnRtNnVSZHFqZERSaXVpZ3liUDlNUUxQU1hJbTBiZVM40gHwAUFVX3lxTE01OV85SXZWVGk0T2F0bnpNcUEwbG8zWnMwV3lDcVNLdlQ2UURmcjF1bjQ1eTkzbEZwLWpUR1B5RzRwMlozVGM1M3Q3UTBFUmpPeTN1czRUMkxQMDlZemVFWHhVX3VaZFFiOVNRR000ZlplS25kdGZrd2xQSzZHRm80ZTBTR0Z5X3ZYdlFBRmFleHlXVlNqTkcyWTYzSUdJM3JiWFNaSGNmSklBVGI2SnhwNnhvSVNaZXlsRVVNZ3hsbTNCMnRKN19SSkpkSVM4X18wdkh5dEdCRkVXTGRmQlh3SnFCbTI3YlVKZklfVmJRbQ?oc=5",
+   "source": "Hindustan Times",
+   "published": "2026-10-21T06:55:47Z"
   },
   {
    "kind": "repo",
    "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 940,
+   "stars": 955,
    "note": "Python · new this week",
    "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 222,
+   "stars": 243,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/DeepInfer",
-   "stars": 14404,
+   "stars": 16243,
    "note": "Python · new this week",
    "url": "https://github.com/deepseek-ai/DeepInfer",
    "source": "GitHub",
@@ -101,7 +101,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 13145,
+   "stars": 14899,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -111,7 +111,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 3003,
+   "stars": 3260,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -120,10 +120,10 @@
   },
   {
    "kind": "repo",
-   "title": "Leonxlnx/earshot",
-   "stars": 1984,
-   "note": "Python · new this week",
-   "url": "https://github.com/Leonxlnx/earshot",
+   "title": "simbasjungles/free-my-tv",
+   "stars": 2181,
+   "note": "Java · new this week",
+   "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -131,7 +131,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 2184,
+   "points": 2247,
    "title": "DeepInfer: High-performance inference framework for DeepSeek models",
    "source": "Hacker News",
    "url": "https://github.com/deepseek-ai/DeepInfer",
@@ -140,29 +140,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 356,
-   "title": "Google Cloud outage affects almost all banking and other operations in Europe",
+   "points": 46,
+   "title": "Using Claude to reduce the attack surface of code",
    "source": "Hacker News",
-   "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
-   "discuss": "https://news.ycombinator.com/item?id=50163961"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 36,
-   "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
-   "source": "Hacker News",
-   "url": "https://research.poh.org/bot-benchmarking-2026/",
-   "discuss": "https://news.ycombinator.com/item?id=50169506"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 21,
-   "title": "To Make, or to Buy: The Economics of Decision Models",
-   "source": "Hacker News",
-   "url": "https://pncnmnp.github.io/blogs/economics-decision-models.html",
-   "discuss": "https://news.ycombinator.com/item?id=50143360"
+   "url": "https://www.anthropic.com/research/attack-surface-reduction",
+   "discuss": "https://news.ycombinator.com/item?id=50175779"
   },
   {
    "kind": "news",

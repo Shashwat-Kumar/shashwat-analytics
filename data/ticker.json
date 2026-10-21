@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T09:42:22Z",
+ "generated_at": "2026-10-21T14:42:36Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,35 +8,44 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-  "url": "https://github.com/deepseek-ai/DeepInfer",
+  "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+  "url": "https://www.wiz.io/blog/php2shell-php-rce",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50163277",
-  "points": 2247,
-  "comments": 856,
-  "published": "2026-10-20T09:08:54Z",
-  "since": "2026-10-20T17:56:45Z"
+  "discuss": "https://news.ycombinator.com/item?id=50180836",
+  "points": 111,
+  "comments": 25,
+  "published": "2026-10-21T13:43:19Z",
+  "since": "2026-10-21T14:42:36Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Dario Amodei",
-  "title": "Dario Amodei says Anthropic has made many mistakes in race to the top, will do better",
-  "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeHh3dlJhRlF0bDE5amFFOHp3eXh3eHFxbjYxUU9OdHZ3RVpUSnZiUmJiZ0YtU3I4dGJZYWZZRkhaajJOMzhoZnBiVUt2Z2c3aURrS0JLa1VOVF82eVdWcHBuVG9ENDVFb013b3dTRm1ndXprSldMcUl4Y1ZKMU1EMlYyWG10QmdrYnlpNDhlX0pNbTNtb2RuQnVHcll2V3NtZXkyOThibE5CYjhDWUJidGlGb2ZIYzhWVGNfdkRibTU4SWNjeUtLTDhQWGpTUjlyTEZBRFJGaHVGWjR4YmdWMy1STHVPMUFTLU1v0gHrAUFVX3lxTE14eHd2UmFGUXRsMTlqYUU4end5eHd4cXFuNjFRT050dndFWlRKdmJSYmJnRi1Tcjh0YllhZllGSFpqMk4zOGhmcGJVS3ZnZzdpRGtLQktrVU5UXzZ5V1ZwcG5Ub0Q0NUVvTXdvd1NGbWd1emtKV0xxSXhjVkoxTUQyVjJYbXRCZ2tieWk0OGVfSk1tM21vZG5CdUdyWXZXc21leTI5OGJsTkJiOENZQmJ0aUZvZkhjOFZUY192RGJtNThJY2N5S0tMOFBYalNSOXJMRkFEUkZodUZaNHhiZ1YzLVJMdU8xQVMtTW8?oc=5",
-  "source": "India Today",
-  "published": "2026-10-21T07:29:17Z",
-  "since": "2026-10-21T09:42:22Z"
+  "person": "Jensen Huang",
+  "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
+  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
+  "source": "Barron's",
+  "published": "2026-10-21T12:17:00Z",
+  "since": "2026-10-21T14:42:36Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
+   "source": "Barron's",
+   "published": "2026-10-21T12:17:00Z",
+   "since": "2026-10-21T14:42:36Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Dario Amodei",
    "title": "Dario Amodei says Anthropic has made many mistakes in race to the top, will do better",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeHh3dlJhRlF0bDE5amFFOHp3eXh3eHFxbjYxUU9OdHZ3RVpUSnZiUmJiZ0YtU3I4dGJZYWZZRkhaajJOMzhoZnBiVUt2Z2c3aURrS0JLa1VOVF82eVdWcHBuVG9ENDVFb013b3dTRm1ndXprSldMcUl4Y1ZKMU1EMlYyWG10QmdrYnlpNDhlX0pNbTNtb2RuQnVHcll2V3NtZXkyOThibE5CYjhDWUJidGlGb2ZIYzhWVGNfdkRibTU4SWNjeUtLTDhQWGpTUjlyTEZBRFJGaHVGWjR4YmdWMy1STHVPMUFTLU1v0gHrAUFVX3lxTE14eHd2UmFGUXRsMTlqYUU4end5eHd4cXFuNjFRT050dndFWlRKdmJSYmJnRi1Tcjh0YllhZllGSFpqMk4zOGhmcGJVS3ZnZzdpRGtLQktrVU5UXzZ5V1ZwcG5Ub0Q0NUVvTXdvd1NGbWd1emtKV0xxSXhjVkoxTUQyVjJYbXRCZ2tieWk0OGVfSk1tM21vZG5CdUdyWXZXc21leTI5OGJsTkJiOENZQmJ0aUZvZkhjOFZUY192RGJtNThJY2N5S0tMOFBYalNSOXJMRkFEUkZodUZaNHhiZ1YzLVJMdU8xQVMtTW8?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUnZyOFRGa01JZF93akJDdXQ3Q1JjUExmcXN1MTd2cWF4ZUtVREpqWTRZSG1NLWJ6Tm9PZjk1NTFNd19WNmxvbkNCMzdOX0stZFRfcEtpcElrNUFvVUhkYlNZTXdHbkNOVHhvcVpXaFdWZEl5dVl1VzlRSlN5WnFFcTJzeTFmRVRlQlhxbnlrSkxyVDFZdldJeFBNbTUwZl9rbWFFVG45R193NHVlekEyNWxSYzZ2SEN1ZkZrQ1BQT0lWSzVvUXdGeHJHVG5abUQ0dVo3YnE3TWk3cEpQTTk3TmkyNlZMUQ?oc=5",
    "source": "India Today",
-   "published": "2026-10-21T07:29:17Z",
-   "since": "2026-10-21T09:42:22Z"
+   "published": "2026-10-21T07:29:17Z"
   },
   {
    "kind": "voice",
@@ -52,12 +61,21 @@
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
+   "source": "Barron's",
+   "published": "2026-10-21T12:17:00Z",
+   "since": "2026-10-21T14:42:36Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Dario Amodei",
    "title": "Dario Amodei says Anthropic has made many mistakes in race to the top, will do better",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeHh3dlJhRlF0bDE5amFFOHp3eXh3eHFxbjYxUU9OdHZ3RVpUSnZiUmJiZ0YtU3I4dGJZYWZZRkhaajJOMzhoZnBiVUt2Z2c3aURrS0JLa1VOVF82eVdWcHBuVG9ENDVFb013b3dTRm1ndXprSldMcUl4Y1ZKMU1EMlYyWG10QmdrYnlpNDhlX0pNbTNtb2RuQnVHcll2V3NtZXkyOThibE5CYjhDWUJidGlGb2ZIYzhWVGNfdkRibTU4SWNjeUtLTDhQWGpTUjlyTEZBRFJGaHVGWjR4YmdWMy1STHVPMUFTLU1v0gHrAUFVX3lxTE14eHd2UmFGUXRsMTlqYUU4end5eHd4cXFuNjFRT050dndFWlRKdmJSYmJnRi1Tcjh0YllhZllGSFpqMk4zOGhmcGJVS3ZnZzdpRGtLQktrVU5UXzZ5V1ZwcG5Ub0Q0NUVvTXdvd1NGbWd1emtKV0xxSXhjVkoxTUQyVjJYbXRCZ2tieWk0OGVfSk1tM21vZG5CdUdyWXZXc21leTI5OGJsTkJiOENZQmJ0aUZvZkhjOFZUY192RGJtNThJY2N5S0tMOFBYalNSOXJMRkFEUkZodUZaNHhiZ1YzLVJMdU8xQVMtTW8?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUnZyOFRGa01JZF93akJDdXQ3Q1JjUExmcXN1MTd2cWF4ZUtVREpqWTRZSG1NLWJ6Tm9PZjk1NTFNd19WNmxvbkNCMzdOX0stZFRfcEtpcElrNUFvVUhkYlNZTXdHbkNOVHhvcVpXaFdWZEl5dVl1VzlRSlN5WnFFcTJzeTFmRVRlQlhxbnlrSkxyVDFZdldJeFBNbTUwZl9rbWFFVG45R193NHVlekEyNWxSYzZ2SEN1ZkZrQ1BQT0lWSzVvUXdGeHJHVG5abUQ0dVo3YnE3TWk3cEpQTTk3TmkyNlZMUQ?oc=5",
    "source": "India Today",
-   "published": "2026-10-21T07:29:17Z",
-   "since": "2026-10-21T09:42:22Z"
+   "published": "2026-10-21T07:29:17Z"
   },
   {
    "kind": "voice",
@@ -71,7 +89,7 @@
   {
    "kind": "repo",
    "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 955,
+   "stars": 964,
    "note": "Python · new this week",
    "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -81,7 +99,7 @@
   {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 243,
+   "stars": 258,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -91,7 +109,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/DeepInfer",
-   "stars": 16243,
+   "stars": 17117,
    "note": "Python · new this week",
    "url": "https://github.com/deepseek-ai/DeepInfer",
    "source": "GitHub",
@@ -101,7 +119,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 14899,
+   "stars": 16759,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -111,7 +129,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 3260,
+   "stars": 3515,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -121,7 +139,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 2181,
+   "stars": 2347,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -131,20 +149,63 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 2247,
-   "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+   "points": 111,
+   "title": "PHP2Shell: AI uncovers critical RCE in PHP",
    "source": "Hacker News",
-   "url": "https://github.com/deepseek-ai/DeepInfer",
-   "discuss": "https://news.ycombinator.com/item?id=50163277"
+   "url": "https://www.wiz.io/blog/php2shell-php-rce",
+   "discuss": "https://news.ycombinator.com/item?id=50180836"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 46,
+   "points": 104,
    "title": "Using Claude to reduce the attack surface of code",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/attack-surface-reduction",
    "discuss": "https://news.ycombinator.com/item?id=50175779"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 43,
+   "title": "OpenAI: Patch the Planet. Global response coordination as AI uncovers PHP vulns",
+   "source": "Hacker News",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+   "discuss": "https://news.ycombinator.com/item?id=50181175"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 34,
+   "title": "LayerFS: The filesystem for AI coding agents",
+   "source": "Hacker News",
+   "url": "https://layerfs.ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50179857"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 9,
+   "title": "OpenAI: Using AI agents to uncover new leads in biological data",
+   "source": "Hacker News",
+   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+   "discuss": "https://news.ycombinator.com/item?id=50180752"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 7,
+   "title": "C++ futures part 1: The mental model",
+   "source": "Hacker News",
+   "url": "https://devblogs.microsoft.com/oldnewthing/20261012-00/?p=112767/",
+   "discuss": "https://news.ycombinator.com/item?id=50155751"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/"
   },
   {
    "kind": "news",
@@ -166,13 +227,6 @@
    "title": "Anthropic’s cloud partnerships are getting messy",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "SpaceX’s AI business is beating expectations",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/"
   },
   {
    "kind": "news",

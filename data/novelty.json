@@ -1,0 +1,17 @@
+{
+  "updated": "2026-10-22",
+  "note": "Free, limited-shelf-life items. Expiry dates are real; downloads come down when an item expires. No prices, no checkout, no counts.",
+  "items": [
+    {
+      "id": "festive-scam-prompt-pack",
+      "name": "Festive-Season Scam Watch prompt pack",
+      "type": "Free prompt pack (Markdown)",
+      "added": "2026-10-22",
+      "available_until": "2026-10-30T23:59:00+05:30",
+      "available_until_label": "Friday 30 October 2026, 11:59 PM IST",
+      "hook": "Urgency tied to a real seasonal window, plus loss aversion: the pack is most useful before the festive shopping peak, and it comes down after 30 October.",
+      "asset": "novelty/festive-scam-prompt-pack.md",
+      "status": "live"
+    }
+  ]
+}

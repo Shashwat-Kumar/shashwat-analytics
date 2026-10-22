@@ -1,0 +1,20 @@
+# No write access, no network fetches, and no publishing on pull requests.
+name: Threat Radar - PR security and parser tests
+on:
+  pull_request:
+    paths:
+      - '.github/scripts/readsigil_threat_radar.py'
+      - '.github/workflows/threat-radar*.yml'
+      - 'tests/test_readsigil_threat_radar.py'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest discover -s tests -p 'test_readsigil_threat_radar.py' -v

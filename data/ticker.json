@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T19:33:54Z",
+ "generated_at": "2026-10-22T22:44:04Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,36 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-  "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+  "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+  "url": "https://github.com/NVIDIA/OpenShell",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50190363",
-  "points": 455,
-  "comments": 145,
-  "published": "2026-10-22T02:18:41Z",
-  "since": "2026-10-22T10:35:55Z"
+  "discuss": "https://news.ycombinator.com/item?id=50198675",
+  "points": 242,
+  "comments": 127,
+  "published": "2026-10-22T17:44:06Z",
+  "since": "2026-10-22T22:44:04Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Mustafa Suleyman",
-  "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-  "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5",
-  "source": "TechCrunch",
-  "published": "2026-10-22T18:43:53Z",
-  "since": "2026-10-22T19:33:54Z"
+  "person": "Sundar Pichai",
+  "title": "Pichai Says Google Cloud Is Giving Up Revenue to Feed AI Research. Here’s What That Means for Alphabet Stock",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS3BaMXM5aS1GM01SY01JV05ZS3BnWkJPSUJEbkRtMW9Kcm10ME9NQTJKX3k1ZXpHUURQTHhlMVpXRGc5WkF4d091UjgtUEI0Y3pLZWVIenY1d1dYR1FwM295NFlTMWROcUxZdjg4UVhBR2ZtMFFGU0tpMHVHMThGNFdDWDlYME5GWHVCQzdXSG5YMjRNY2xKTnJzcEI?oc=5",
+  "source": "Yahoo Finance",
+  "published": "2026-10-22T20:01:39Z",
+  "since": "2026-10-22T22:44:04Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Pichai Says Google Cloud Is Giving Up Revenue to Feed AI Research. Here’s What That Means for Alphabet Stock",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS3BaMXM5aS1GM01SY01JV05ZS3BnWkJPSUJEbkRtMW9Kcm10ME9NQTJKX3k1ZXpHUURQTHhlMVpXRGc5WkF4d091UjgtUEI0Y3pLZWVIenY1d1dYR1FwM295NFlTMWROcUxZdjg4UVhBR2ZtMFFGU0tpMHVHMThGNFdDWDlYME5GWHVCQzdXSG5YMjRNY2xKTnJzcEI?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-22T20:01:39Z",
+   "since": "2026-10-22T22:44:04Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,8 +45,7 @@
    "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5",
    "source": "TechCrunch",
-   "published": "2026-10-22T18:43:53Z",
-   "since": "2026-10-22T19:33:54Z"
+   "published": "2026-10-22T18:43:53Z"
   },
   {
    "kind": "voice",
@@ -70,12 +79,21 @@
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Pichai Says Google Cloud Is Giving Up Revenue to Feed AI Research. Here’s What That Means for Alphabet Stock",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS3BaMXM5aS1GM01SY01JV05ZS3BnWkJPSUJEbkRtMW9Kcm10ME9NQTJKX3k1ZXpHUURQTHhlMVpXRGc5WkF4d091UjgtUEI0Y3pLZWVIenY1d1dYR1FwM295NFlTMWROcUxZdjg4UVhBR2ZtMFFGU0tpMHVHMThGNFdDWDlYME5GWHVCQzdXSG5YMjRNY2xKTnJzcEI?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-22T20:01:39Z",
+   "since": "2026-10-22T22:44:04Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Mustafa Suleyman",
    "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5",
    "source": "TechCrunch",
-   "published": "2026-10-22T18:43:53Z",
-   "since": "2026-10-22T19:33:54Z"
+   "published": "2026-10-22T18:43:53Z"
   },
   {
    "kind": "voice",
@@ -87,18 +105,9 @@
    "published": "2026-10-22T16:38:00Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
-   "source": "Barron's",
-   "published": "2026-10-22T12:56:00Z"
-  },
-  {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 334,
+   "stars": 335,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -108,7 +117,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 23396,
+   "stars": 23810,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -118,7 +127,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/DeepInfer",
-   "stars": 19762,
+   "stars": 19821,
    "note": "Python · new this week",
    "url": "https://github.com/deepseek-ai/DeepInfer",
    "source": "GitHub",
@@ -128,7 +137,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 4417,
+   "stars": 4452,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -138,7 +147,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 3263,
+   "stars": 3391,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -148,7 +157,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 455,
+   "points": 484,
    "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
    "source": "Hacker News",
    "url": "https://simedw.com/2026/10/21/world-model-terminal/",
@@ -157,25 +166,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 28,
-   "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+   "points": 242,
+   "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
    "source": "Hacker News",
-   "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
-   "discuss": "https://news.ycombinator.com/item?id=50198940"
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "discuss": "https://news.ycombinator.com/item?id=50198675"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 21,
-   "title": "Award-Winning AI Literature",
+   "points": 152,
+   "title": "Every AI model has the same \"controversial\" take on humans",
    "source": "Hacker News",
-   "url": "https://jamesyu.org/award-winning-ai-literature/",
-   "discuss": "https://news.ycombinator.com/item?id=50199232"
+   "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+   "discuss": "https://news.ycombinator.com/item?id=50197313"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 20,
+   "points": 87,
    "title": "AI and the Enclosure of the Scientific Commons",
    "source": "Hacker News",
    "url": "https://arxiv.org/abs/2610.27251",
@@ -184,7 +193,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 19,
+   "points": 71,
+   "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+   "source": "Hacker News",
+   "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+   "discuss": "https://news.ycombinator.com/item?id=50198940"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 64,
    "title": "Show HN: UI micro interactions prompts for AI",
    "source": "Hacker News",
    "url": "https://www.typeui.sh/micro-interactions",
@@ -193,20 +211,27 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 10,
-   "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+   "points": 53,
+   "title": "Award-winning AI literature",
    "source": "Hacker News",
-   "url": "https://github.com/rbartoli/agent-usage-guard",
-   "discuss": "https://news.ycombinator.com/item?id=50198936"
+   "url": "https://jamesyu.org/award-winning-ai-literature/",
+   "discuss": "https://news.ycombinator.com/item?id=50199232"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 4,
+   "points": 27,
    "title": "Show HN: Turn regular JavaScript into a neural net",
    "source": "Hacker News",
    "url": "https://chenglou.me/handwired/",
    "discuss": "https://news.ycombinator.com/item?id=50172984"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
   },
   {
    "kind": "news",
@@ -228,13 +253,6 @@
    "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/"
   },
   {
    "kind": "news",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T10:35:55Z",
+ "generated_at": "2026-10-22T15:38:39Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,32 @@
   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50190363",
-  "points": 222,
-  "comments": 68,
+  "points": 395,
+  "comments": 121,
   "published": "2026-10-22T02:18:41Z",
   "since": "2026-10-22T10:35:55Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sam Altman",
-  "title": "Sam Altman says AI will keep coder busier than ever despite fears of job losses",
-  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObS1KVHhIVVp5YjA2MUtyMzRERUhsU0s4VUhuM0pBWG1tbnhOOU8yMnUtczZhM2dIYmFHNHI0STVxOEFVM09mNEJZNDNOdEVJa19aTHJHNnQySFR4NVNIOGMyYUl4UlBrcW1JdUhTMllQZWdjcUFkbkd1cWhHaUZYRjRTRXJPUlBRZldXOXdIUHZhV2RYZDY1R1dIRDZ0Tmt5VlZicmh2QzJGY29PRTVzU3I1Z0pIc1ZQQmk3RVYyd1hxREZnWEJR0gHHAUFVX3lxTE5tLUpUeEhVWnliMDYxS3IzNERFSGxTSzhVSG4zSkFYbW1ueE45TzIydS1zNmEzZ0hiYUc0cjRJNXE4QVUzT2Y0Qlk0M050RUlrX1pMckc2dDJIVHg1U0g4YzJhSXhSUGtxbUl1SFMyWVBlZ2NxQWRuR3VxaEdpRlhGNFNFck9SUFFmV1c5d0hQdmFXZFhkNjVHV0hENnROa3lWVmJyaHZDMkZjb09FNXNTcjVnSkhzVlBCaTdFVjJ3WHFERmdYQlE?oc=5",
-  "source": "Firstpost",
-  "published": "2026-10-22T08:14:20Z",
-  "since": "2026-10-22T10:35:55Z"
+  "person": "Jensen Huang",
+  "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
+  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
+  "source": "Barron's",
+  "published": "2026-10-22T12:56:00Z",
+  "since": "2026-10-22T15:38:39Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
+   "source": "Barron's",
+   "published": "2026-10-22T12:56:00Z",
+   "since": "2026-10-22T15:38:39Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,8 +45,7 @@
    "title": "Sam Altman says AI will keep coder busier than ever despite fears of job losses",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObS1KVHhIVVp5YjA2MUtyMzRERUhsU0s4VUhuM0pBWG1tbnhOOU8yMnUtczZhM2dIYmFHNHI0STVxOEFVM09mNEJZNDNOdEVJa19aTHJHNnQySFR4NVNIOGMyYUl4UlBrcW1JdUhTMllQZWdjcUFkbkd1cWhHaUZYRjRTRXJPUlBRZldXOXdIUHZhV2RYZDY1R1dIRDZ0Tmt5VlZicmh2QzJGY29PRTVzU3I1Z0pIc1ZQQmk3RVYyd1hxREZnWEJR0gHHAUFVX3lxTE5tLUpUeEhVWnliMDYxS3IzNERFSGxTSzhVSG4zSkFYbW1ueE45TzIydS1zNmEzZ0hiYUc0cjRJNXE4QVUzT2Y0Qlk0M050RUlrX1pMckc2dDJIVHg1U0g4YzJhSXhSUGtxbUl1SFMyWVBlZ2NxQWRuR3VxaEdpRlhGNFNFck9SUFFmV1c5d0hQdmFXZFhkNjVHV0hENnROa3lWVmJyaHZDMkZjb09FNXNTcjVnSkhzVlBCaTdFVjJ3WHFERmdYQlE?oc=5",
    "source": "Firstpost",
-   "published": "2026-10-22T08:14:20Z",
-   "since": "2026-10-22T10:35:55Z"
+   "published": "2026-10-22T08:14:20Z"
   },
   {
    "kind": "voice",
@@ -46,15 +55,6 @@
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeDRFREtLOXA4QWJmZnZUd2pBSzVGX2VNRHVZT05rcncxb2JNc1B4bkQ0cEZTMnU0YWk0cEhPSUctOGJOaEc4Uk1tMWVneW5uQ1JRcjRNUW5GV2l4a1lKS0VhN0N1UERTZUt4YjBEazJQd3V5MmFqbWoyTnhLSXNOVDJfSGozRFIyWUt4aVRYS0R3S1BMZWNuT2FGdw?oc=5",
    "source": "Yahoo Finance",
    "published": "2026-10-22T07:26:43Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Jensen Huang Says the Next Wave of AI Is Physical. Forget Nvidia and Tesla, I’d Bet on These 2 Mid-Cap Stocks Instead.",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZnlKaEhDWXEwSzdXT2twR3AyZjM5cUlUMXJ0dk1vbW1oUTE5RVM2elRydDg4engwc2g1dmFZZlZ4ZmxwWms3V3MwbVpvTFNvbnp2alBlcFZLc0tPY1EwV09LRWd5ZEYxZjNKSDE5LVl6clhzSERLbHE2QTFWZ1l1NFlIcnRjYnhldXFtdVZ0YnpEUkpMWUE?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-21T22:25:32Z"
   },
   {
    "kind": "voice",
@@ -73,18 +73,19 @@
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSUktckNUWFhSejNzNGpnVlNJVUxTV1NTSmtNcnNJSUpvZlBST2dhd3lDTjBVLU1mMzVLU3lkNXYtR1F0SWo3S0x6VGkwTWRjbm1qNktvb0xHb0dHeTUtU1NkcmVNNmNCX1FFdGd6SmxQajZNRThGS05tU1BCMDJpeE4wWjBfYkJVVXBTZUJvNE1PQ0dvRGNtanhSWXFqc182c2Z6MXJkYUhEaW5CYzlYN2lVYWljUFNUQ0tQM3VLZUVzWFZMOHJISUVnWUlOUjZ2SHfSAdcBQVVfeXFMTWFSUzJhM1llYTMzRzZGY3BQTXpoaFp5TXBSYWFXYi1JLXdlRU9qdWpwS1g4ZktXR0NzRkV3TzNUdk02QmZmeDhyeE9OMjVCM3Y5QXZFY2FGa3ZqcGhBeTQ2V2NESHNoQ1BUbVFhbWlOTG1JcVlRajdzRGhqcWZRem0yRWFpa19MeExPLU5lSTdtTWVTVXdZUUJ0b0FGQllmTzgtRmh6cGlyZ2x4VU1FS2dGVC1NZThpbGhzQUZEODE2dXRPY3BMUmluUVdjLXBGRVdoanVZcDA?oc=5",
    "source": "Livemint",
    "published": "2026-10-21T16:04:20Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Anthropic CEO Dario Amodei defends AI safety record against critics, says firm must stay in ‘race to the to...",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUUhGV1FBVnNYNHV3YzJUMC1XaWRrdjRIajJVaFN5NmpGbkctRmtzR25oOGNvbVozMnFnUlBLczRvSDQ5U1FrSHA4Q1dERXZiMTRpN3BrSm5QdWtwVElLRHZET1NXdzRPRWVqa0xNMHh2Q0l2eWdPM2VKa2ZXZmdQYWFNQmJNNTJ6S3pxSWtLTEFsb0pZVUdNelc2bWxtTF81enJQN1lJNGlxSjIwU1hpNUdzWFdmdnl1UEFQREhEa2hoUmhHUUlwS0d6RkdfS1k3alpSLWk1LVViWnVTQmJmWlZqc1hpQdIB6wFBVV95cUxNSmJNcmd2UC1vUHEtbWlyVF9tbWdkR2Vtd2ItRFVPZWpBMkhtOG1RcXFmSVd4aHhBVHRvY1F1VE1KSVRQVXVzSkRjNjVteXVrRzQ4MWN4clgxN29fN21PQmdfZllCWkZIQk5ZOE9CX0VJS3NyQWg4N1hyRUl6aXJNM2xXc1FtdjJ3dVowVTc1dnhKckdYQk15Qk9xaTNqZDd6VGVhc05uT01sUHQxZ2tBZHR5R3lUbjBrNGViaG9OUzE4WENZZi1wYTF4eFU3VHBOb1JCRlBMLXYwYXZKc0l5a0tVZ3otS040M0I4?oc=5",
-   "source": "Firstpost",
-   "published": "2026-10-21T13:14:45Z"
   }
  ],
  "items": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
+   "source": "Barron's",
+   "published": "2026-10-22T12:56:00Z",
+   "since": "2026-10-22T15:38:39Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -92,8 +93,7 @@
    "title": "Sam Altman says AI will keep coder busier than ever despite fears of job losses",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObS1KVHhIVVp5YjA2MUtyMzRERUhsU0s4VUhuM0pBWG1tbnhOOU8yMnUtczZhM2dIYmFHNHI0STVxOEFVM09mNEJZNDNOdEVJa19aTHJHNnQySFR4NVNIOGMyYUl4UlBrcW1JdUhTMllQZWdjcUFkbkd1cWhHaUZYRjRTRXJPUlBRZldXOXdIUHZhV2RYZDY1R1dIRDZ0Tmt5VlZicmh2QzJGY29PRTVzU3I1Z0pIc1ZQQmk3RVYyd1hxREZnWEJR0gHHAUFVX3lxTE5tLUpUeEhVWnliMDYxS3IzNERFSGxTSzhVSG4zSkFYbW1ueE45TzIydS1zNmEzZ0hiYUc0cjRJNXE4QVUzT2Y0Qlk0M050RUlrX1pMckc2dDJIVHg1U0g4YzJhSXhSUGtxbUl1SFMyWVBlZ2NxQWRuR3VxaEdpRlhGNFNFck9SUFFmV1c5d0hQdmFXZFhkNjVHV0hENnROa3lWVmJyaHZDMkZjb09FNXNTcjVnSkhzVlBCaTdFVjJ3WHFERmdYQlE?oc=5",
    "source": "Firstpost",
-   "published": "2026-10-22T08:14:20Z",
-   "since": "2026-10-22T10:35:55Z"
+   "published": "2026-10-22T08:14:20Z"
   },
   {
    "kind": "voice",
@@ -105,18 +105,9 @@
    "published": "2026-10-22T07:26:43Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Jensen Huang Says the Next Wave of AI Is Physical. Forget Nvidia and Tesla, I’d Bet on These 2 Mid-Cap Stocks Instead.",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZnlKaEhDWXEwSzdXT2twR3AyZjM5cUlUMXJ0dk1vbW1oUTE5RVM2elRydDg4engwc2g1dmFZZlZ4ZmxwWms3V3MwbVpvTFNvbnp2alBlcFZLc0tPY1EwV09LRWd5ZEYxZjNKSDE5LVl6clhzSERLbHE2QTFWZ1l1NFlIcnRjYnhldXFtdVZ0YnpEUkpMWUE?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-21T22:25:32Z"
-  },
-  {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 310,
+   "stars": 329,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -124,49 +115,9 @@
    "cat": "AI/ML"
   },
   {
-   "kind": "repo",
-   "title": "Gathin23/cleanyourtv",
-   "stars": 21668,
-   "note": "Java · new this week",
-   "url": "https://github.com/Gathin23/cleanyourtv",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
-   "title": "deepseek-ai/DeepInfer",
-   "stars": 19097,
-   "note": "Python · new this week",
-   "url": "https://github.com/deepseek-ai/DeepInfer",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
-   "title": "ly05010419/MacNativeGames",
-   "stars": 4231,
-   "note": "C · new this week",
-   "url": "https://github.com/ly05010419/MacNativeGames",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
-   "title": "simbasjungles/free-my-tv",
-   "stars": 2991,
-   "note": "Java · new this week",
-   "url": "https://github.com/simbasjungles/free-my-tv",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
    "kind": "news",
    "tag": "HN",
-   "points": 392,
+   "points": 491,
    "title": "Claude Duet",
    "source": "Hacker News",
    "url": "https://claude.com/product/claude-duet",
@@ -175,16 +126,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 293,
-   "title": "OpenAI models are coming to Google Cloud",
-   "source": "Hacker News",
-   "url": "https://openai.com/index/openai-models-google-cloud/",
-   "discuss": "https://news.ycombinator.com/item?id=50180079"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 222,
+   "points": 395,
    "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
    "source": "Hacker News",
    "url": "https://simedw.com/2026/10/21/world-model-terminal/",
@@ -193,7 +135,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 125,
+   "points": 200,
    "title": "OpenAI CLI",
    "source": "Hacker News",
    "url": "https://github.com/openai/openai-cli",
@@ -202,7 +144,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 98,
+   "points": 152,
    "title": "Using LLM for confidence scoring is a bad idea",
    "source": "Hacker News",
    "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
@@ -210,52 +152,53 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 81,
-   "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
-   "source": "Hacker News",
-   "url": "https://github.com/omnara-ai/omnara",
-   "discuss": "https://news.ycombinator.com/item?id=50183892"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 25,
-   "title": "Achieving AI-style reasoning without an LLM",
-   "source": "Hacker News",
-   "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
-   "discuss": "https://news.ycombinator.com/item?id=50192868"
+   "tag": "AI",
+   "title": "Spotify’s current AI bet is about being the music service that agents choose",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+   "title": "Claude Duet app is Anthropic’s bet on agents",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/"
+   "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+   "title": "Nirva raises $33M for a pendant that only listens to you",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/"
+   "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Meta says Muse has over 10M users, with shopping a top activity",
+   "title": "DeepSeek reportedly raises $15B days after US restrictions",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/"
+   "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
+   "title": "Making the case for context-aware AI",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "AI’s hidden storage bill: What inference leaves behind",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "The new economics of enterprise AI",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/"
   }
  ],
- "errors": [
-  "MIT Technology Review:HTTP Error 403: Forbidden"
- ]
+ "errors": []
 }

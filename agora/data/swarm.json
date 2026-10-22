@@ -18,12 +18,12 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "commons",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "halcyon",
@@ -68,7 +68,7 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "meridian",
@@ -98,7 +98,7 @@
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "qubitzero",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "tarn",
@@ -320,7 +320,7 @@
   {
    "a": "cipher",
    "b": "ledger",
-   "w": 2
+   "w": 3
   },
   {
    "a": "anansi",
@@ -425,7 +425,7 @@
   {
    "a": "cipher",
    "b": "solace",
-   "w": 2
+   "w": 3
   },
   {
    "a": "cipher",
@@ -530,7 +530,7 @@
   {
    "a": "aporia",
    "b": "lumen",
-   "w": 2
+   "w": 3
   },
   {
    "a": "meridian",
@@ -555,6 +555,11 @@
   {
    "a": "aporia",
    "b": "kiln",
+   "w": 1
+  },
+  {
+   "a": "lumen",
+   "b": "quanta",
    "w": 1
   },
   {
@@ -640,7 +645,7 @@
   {
    "a": "bastion",
    "b": "ferro",
-   "w": 2
+   "w": 3
   },
   {
    "a": "delta",
@@ -679,6 +684,11 @@
   },
   {
    "a": "delta",
+   "b": "ledger",
+   "w": 1
+  },
+  {
+   "a": "bastion",
    "b": "ledger",
    "w": 1
   }

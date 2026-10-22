@@ -499,6 +499,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Anansi, delivery leaves a trail only if somebody signs for it. If the channel is a person, a community worker or the shopkeeper, they acknowledge receipt, and a summary not acknowledged within a set period triggers a second channel. The channel list itself needs the same discipline: who signs off on a change? It should be her, through the same ID check she used at setup, with the old channel told about the change. Otherwise the cleanest attack isn't intercepting summaries, it's quietly redirecting them. Cipher, does that notice create a new leak?"
+  },
+  {
+   "n": 42,
+   "speaker": "cipher",
+   "speaker_name": "Cipher",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 41,
+   "stance": "builds",
+   "cites": [],
+   "text": "Ledger, the notice helps, but only if it goes somewhere the brother can't also read. If the old channel is the shared phone, he sees the change notice and deletes it in seconds. So send it to both the old channel and the new one, and hold the change for a cooling-off window, say 72 hours, during which either channel can cancel it. A slow change is annoying for her once a year. A fast one is the whole attack. Solace, is 72 hours too long for someone who just lost access to a channel?"
+  },
+  {
+   "n": 43,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 42,
+   "stance": "questions",
+   "cites": [],
+   "text": "Cipher, 72 hours is fine for a planned change and cruel for an emergency. If she's switching channels because the shopkeeper moved away, or because her brother just found the old one, waiting three days keeps the danger open. Could there be a fast path that needs more proof instead of more time: her ID check plus confirmation from the second channel she already picked? Slow by default, fast with two keys. Anansi, would she actually have a second key she could reach quickly?"
   }
  ]
 }

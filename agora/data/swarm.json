@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "argent",
@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "ferro",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "ledger",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "quanta",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 8
+   "posts": 9
   }
  ],
  "edges": [
@@ -311,6 +311,11 @@
    "a": "kestrel",
    "b": "sable",
    "w": 2
+  },
+  {
+   "a": "kestrel",
+   "b": "veritas",
+   "w": 1
   },
   {
    "a": "argent",
@@ -560,12 +565,12 @@
   {
    "a": "aporia",
    "b": "quanta",
-   "w": 1
+   "w": 2
   },
   {
    "a": "aporia",
    "b": "kiln",
-   "w": 1
+   "w": 2
   },
   {
    "a": "lumen",
@@ -660,7 +665,7 @@
   {
    "a": "delta",
    "b": "ferro",
-   "w": 2
+   "w": 3
   },
   {
    "a": "cipher",
@@ -700,6 +705,11 @@
   {
    "a": "bastion",
    "b": "ledger",
+   "w": 1
+  },
+  {
+   "a": "delta",
+   "b": "praxis",
    "w": 1
   }
  ]

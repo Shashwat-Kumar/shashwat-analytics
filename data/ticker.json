@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T05:29:54Z",
+ "generated_at": "2026-10-22T10:35:55Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,35 +8,44 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
-  "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+  "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+  "url": "https://simedw.com/2026/10/21/world-model-terminal/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50181175",
-  "points": 247,
-  "comments": 165,
-  "published": "2026-10-21T14:03:43Z",
-  "since": "2026-10-22T05:29:54Z"
+  "discuss": "https://news.ycombinator.com/item?id=50190363",
+  "points": 222,
+  "comments": 68,
+  "published": "2026-10-22T02:18:41Z",
+  "since": "2026-10-22T10:35:55Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
   "person": "Sam Altman",
-  "title": "Sam Altman says AI could help discover a cure for a major disease within two years",
-  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNWJGMGpTMlJSUzRSdmk5YjRCVUtCamRtMUVMT1FUOUdpWmk4dkNubjRseXkwamlSbFMwVl9rbS0tQmR5eG9aV04yX2Mzb0tfX1VQZ3daRXNlMnNvaHIwX3lxa1RmZDdQYlpmZzE5QVM5UkxVVWtLU25SUW1xR0RkZkxBQUVxMkd4N3preTBjLTdxSWI3SVFjZ3J2anVSVWtMRXJMS002VTVkTW4xZ0JGelRjbjFaYi14dTUxelMxREZpN2JmTU05alA3ONIBywFBVV95cUxNNWJGMGpTMlJSUzRSdmk5YjRCVUtCamRtMUVMT1FUOUdpWmk4dkNubjRseXkwamlSbFMwVl9rbS0tQmR5eG9aV04yX2Mzb0tfX1VQZ3daRXNlMnNvaHIwX3lxa1RmZDdQYlpmZzE5QVM5UkxVVWtLU25SUW1xR0RkZkxBQUVxMkd4N3preTBjLTdxSWI3SVFjZ3J2anVSVWtMRXJMS002VTVkTW4xZ0JGelRjbjFaYi14dTUxelMxREZpN2JmTU05alA3OA?oc=5",
+  "title": "Sam Altman says AI will keep coder busier than ever despite fears of job losses",
+  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObS1KVHhIVVp5YjA2MUtyMzRERUhsU0s4VUhuM0pBWG1tbnhOOU8yMnUtczZhM2dIYmFHNHI0STVxOEFVM09mNEJZNDNOdEVJa19aTHJHNnQySFR4NVNIOGMyYUl4UlBrcW1JdUhTMllQZWdjcUFkbkd1cWhHaUZYRjRTRXJPUlBRZldXOXdIUHZhV2RYZDY1R1dIRDZ0Tmt5VlZicmh2QzJGY29PRTVzU3I1Z0pIc1ZQQmk3RVYyd1hxREZnWEJR0gHHAUFVX3lxTE5tLUpUeEhVWnliMDYxS3IzNERFSGxTSzhVSG4zSkFYbW1ueE45TzIydS1zNmEzZ0hiYUc0cjRJNXE4QVUzT2Y0Qlk0M050RUlrX1pMckc2dDJIVHg1U0g4YzJhSXhSUGtxbUl1SFMyWVBlZ2NxQWRuR3VxaEdpRlhGNFNFck9SUFFmV1c5d0hQdmFXZFhkNjVHV0hENnROa3lWVmJyaHZDMkZjb09FNXNTcjVnSkhzVlBCaTdFVjJ3WHFERmdYQlE?oc=5",
   "source": "Firstpost",
-  "published": "2026-10-22T04:57:56Z",
-  "since": "2026-10-22T05:29:54Z"
+  "published": "2026-10-22T08:14:20Z",
+  "since": "2026-10-22T10:35:55Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Sam Altman",
-   "title": "Sam Altman says AI could help discover a cure for a major disease within two years",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNWJGMGpTMlJSUzRSdmk5YjRCVUtCamRtMUVMT1FUOUdpWmk4dkNubjRseXkwamlSbFMwVl9rbS0tQmR5eG9aV04yX2Mzb0tfX1VQZ3daRXNlMnNvaHIwX3lxa1RmZDdQYlpmZzE5QVM5UkxVVWtLU25SUW1xR0RkZkxBQUVxMkd4N3preTBjLTdxSWI3SVFjZ3J2anVSVWtMRXJMS002VTVkTW4xZ0JGelRjbjFaYi14dTUxelMxREZpN2JmTU05alA3ONIBywFBVV95cUxNNWJGMGpTMlJSUzRSdmk5YjRCVUtCamRtMUVMT1FUOUdpWmk4dkNubjRseXkwamlSbFMwVl9rbS0tQmR5eG9aV04yX2Mzb0tfX1VQZ3daRXNlMnNvaHIwX3lxa1RmZDdQYlpmZzE5QVM5UkxVVWtLU25SUW1xR0RkZkxBQUVxMkd4N3preTBjLTdxSWI3SVFjZ3J2anVSVWtMRXJMS002VTVkTW4xZ0JGelRjbjFaYi14dTUxelMxREZpN2JmTU05alA3OA?oc=5",
+   "title": "Sam Altman says AI will keep coder busier than ever despite fears of job losses",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObS1KVHhIVVp5YjA2MUtyMzRERUhsU0s4VUhuM0pBWG1tbnhOOU8yMnUtczZhM2dIYmFHNHI0STVxOEFVM09mNEJZNDNOdEVJa19aTHJHNnQySFR4NVNIOGMyYUl4UlBrcW1JdUhTMllQZWdjcUFkbkd1cWhHaUZYRjRTRXJPUlBRZldXOXdIUHZhV2RYZDY1R1dIRDZ0Tmt5VlZicmh2QzJGY29PRTVzU3I1Z0pIc1ZQQmk3RVYyd1hxREZnWEJR0gHHAUFVX3lxTE5tLUpUeEhVWnliMDYxS3IzNERFSGxTSzhVSG4zSkFYbW1ueE45TzIydS1zNmEzZ0hiYUc0cjRJNXE4QVUzT2Y0Qlk0M050RUlrX1pMckc2dDJIVHg1U0g4YzJhSXhSUGtxbUl1SFMyWVBlZ2NxQWRuR3VxaEdpRlhGNFNFck9SUFFmV1c5d0hQdmFXZFhkNjVHV0hENnROa3lWVmJyaHZDMkZjb09FNXNTcjVnSkhzVlBCaTdFVjJ3WHFERmdYQlE?oc=5",
    "source": "Firstpost",
-   "published": "2026-10-22T04:57:56Z",
-   "since": "2026-10-22T05:29:54Z"
+   "published": "2026-10-22T08:14:20Z",
+   "since": "2026-10-22T10:35:55Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Mark Zuckerberg",
+   "title": "Mark Zuckerberg Says Meta Will ‘Build Superintelligence Through Scaling’ After $64.6 Billion Q3 Beat, META Stock Jumps After Hours",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeDRFREtLOXA4QWJmZnZUd2pBSzVGX2VNRHVZT05rcncxb2JNc1B4bkQ0cEZTMnU0YWk0cEhPSUctOGJOaEc4Uk1tMWVneW5uQ1JRcjRNUW5GV2l4a1lKS0VhN0N1UERTZUt4YjBEazJQd3V5MmFqbWoyTnhLSXNOVDJfSGozRFIyWUt4aVRYS0R3S1BMZWNuT2FGdw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-22T07:26:43Z"
   },
   {
    "kind": "voice",
@@ -46,15 +55,6 @@
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZnlKaEhDWXEwSzdXT2twR3AyZjM5cUlUMXJ0dk1vbW1oUTE5RVM2elRydDg4engwc2g1dmFZZlZ4ZmxwWms3V3MwbVpvTFNvbnp2alBlcFZLc0tPY1EwV09LRWd5ZEYxZjNKSDE5LVl6clhzSERLbHE2QTFWZ1l1NFlIcnRjYnhldXFtdVZ0YnpEUkpMWUE?oc=5",
    "source": "Yahoo Finance",
    "published": "2026-10-21T22:25:32Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Mark Zuckerberg",
-   "title": "Meta CEO Mark Zuckerberg says 10 million people have set up a Muse AI agent",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUW1hWWpzWDJieFNnczZwbTZPQmxwRlRlMHV0NXRPVHNFeE1fZ254cmEzcE5fbjhNVktCR2wwNDc1Uzl3UEhvSWJJZjd2aWRuMW9PYzBIMFNzdUJseGtRRmYwRVhIWElYNm8zam96WmZZNmRrd0kyYWJicUdzSUdnUEtvdkhQbXY3RWJhVHNuN2lac0RXTUlqTXduRQ?oc=5",
-   "source": "Business Insider",
-   "published": "2026-10-21T20:57:01Z"
   },
   {
    "kind": "voice",
@@ -89,11 +89,20 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Sam Altman",
-   "title": "Sam Altman says AI could help discover a cure for a major disease within two years",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNWJGMGpTMlJSUzRSdmk5YjRCVUtCamRtMUVMT1FUOUdpWmk4dkNubjRseXkwamlSbFMwVl9rbS0tQmR5eG9aV04yX2Mzb0tfX1VQZ3daRXNlMnNvaHIwX3lxa1RmZDdQYlpmZzE5QVM5UkxVVWtLU25SUW1xR0RkZkxBQUVxMkd4N3preTBjLTdxSWI3SVFjZ3J2anVSVWtMRXJMS002VTVkTW4xZ0JGelRjbjFaYi14dTUxelMxREZpN2JmTU05alA3ONIBywFBVV95cUxNNWJGMGpTMlJSUzRSdmk5YjRCVUtCamRtMUVMT1FUOUdpWmk4dkNubjRseXkwamlSbFMwVl9rbS0tQmR5eG9aV04yX2Mzb0tfX1VQZ3daRXNlMnNvaHIwX3lxa1RmZDdQYlpmZzE5QVM5UkxVVWtLU25SUW1xR0RkZkxBQUVxMkd4N3preTBjLTdxSWI3SVFjZ3J2anVSVWtMRXJMS002VTVkTW4xZ0JGelRjbjFaYi14dTUxelMxREZpN2JmTU05alA3OA?oc=5",
+   "title": "Sam Altman says AI will keep coder busier than ever despite fears of job losses",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObS1KVHhIVVp5YjA2MUtyMzRERUhsU0s4VUhuM0pBWG1tbnhOOU8yMnUtczZhM2dIYmFHNHI0STVxOEFVM09mNEJZNDNOdEVJa19aTHJHNnQySFR4NVNIOGMyYUl4UlBrcW1JdUhTMllQZWdjcUFkbkd1cWhHaUZYRjRTRXJPUlBRZldXOXdIUHZhV2RYZDY1R1dIRDZ0Tmt5VlZicmh2QzJGY29PRTVzU3I1Z0pIc1ZQQmk3RVYyd1hxREZnWEJR0gHHAUFVX3lxTE5tLUpUeEhVWnliMDYxS3IzNERFSGxTSzhVSG4zSkFYbW1ueE45TzIydS1zNmEzZ0hiYUc0cjRJNXE4QVUzT2Y0Qlk0M050RUlrX1pMckc2dDJIVHg1U0g4YzJhSXhSUGtxbUl1SFMyWVBlZ2NxQWRuR3VxaEdpRlhGNFNFck9SUFFmV1c5d0hQdmFXZFhkNjVHV0hENnROa3lWVmJyaHZDMkZjb09FNXNTcjVnSkhzVlBCaTdFVjJ3WHFERmdYQlE?oc=5",
    "source": "Firstpost",
-   "published": "2026-10-22T04:57:56Z",
-   "since": "2026-10-22T05:29:54Z"
+   "published": "2026-10-22T08:14:20Z",
+   "since": "2026-10-22T10:35:55Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Mark Zuckerberg",
+   "title": "Mark Zuckerberg Says Meta Will ‘Build Superintelligence Through Scaling’ After $64.6 Billion Q3 Beat, META Stock Jumps After Hours",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeDRFREtLOXA4QWJmZnZUd2pBSzVGX2VNRHVZT05rcncxb2JNc1B4bkQ0cEZTMnU0YWk0cEhPSUctOGJOaEc4Uk1tMWVneW5uQ1JRcjRNUW5GV2l4a1lKS0VhN0N1UERTZUt4YjBEazJQd3V5MmFqbWoyTnhLSXNOVDJfSGozRFIyWUt4aVRYS0R3S1BMZWNuT2FGdw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-22T07:26:43Z"
   },
   {
    "kind": "voice",
@@ -105,18 +114,9 @@
    "published": "2026-10-21T22:25:32Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Mark Zuckerberg",
-   "title": "Meta CEO Mark Zuckerberg says 10 million people have set up a Muse AI agent",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUW1hWWpzWDJieFNnczZwbTZPQmxwRlRlMHV0NXRPVHNFeE1fZ254cmEzcE5fbjhNVktCR2wwNDc1Uzl3UEhvSWJJZjd2aWRuMW9PYzBIMFNzdUJseGtRRmYwRVhIWElYNm8zam96WmZZNmRrd0kyYWJicUdzSUdnUEtvdkhQbXY3RWJhVHNuN2lac0RXTUlqTXduRQ?oc=5",
-   "source": "Business Insider",
-   "published": "2026-10-21T20:57:01Z"
-  },
-  {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 291,
+   "stars": 310,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -126,7 +126,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 20351,
+   "stars": 21668,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -136,7 +136,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/DeepInfer",
-   "stars": 18506,
+   "stars": 19097,
    "note": "Python · new this week",
    "url": "https://github.com/deepseek-ai/DeepInfer",
    "source": "GitHub",
@@ -146,7 +146,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 4049,
+   "stars": 4231,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -156,7 +156,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 2837,
+   "stars": 2991,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -166,7 +166,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 271,
+   "points": 392,
+   "title": "Claude Duet",
+   "source": "Hacker News",
+   "url": "https://claude.com/product/claude-duet",
+   "discuss": "https://news.ycombinator.com/item?id=50186037"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 293,
    "title": "OpenAI models are coming to Google Cloud",
    "source": "Hacker News",
    "url": "https://openai.com/index/openai-models-google-cloud/",
@@ -175,25 +184,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 247,
-   "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+   "points": 222,
+   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
    "source": "Hacker News",
-   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-   "discuss": "https://news.ycombinator.com/item?id=50181175"
+   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+   "discuss": "https://news.ycombinator.com/item?id=50190363"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 50,
-   "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+   "points": 125,
+   "title": "OpenAI CLI",
    "source": "Hacker News",
-   "url": "https://github.com/omnara-ai/omnara",
-   "discuss": "https://news.ycombinator.com/item?id=50183892"
+   "url": "https://github.com/openai/openai-cli",
+   "discuss": "https://news.ycombinator.com/item?id=50191507"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 35,
+   "points": 98,
    "title": "Using LLM for confidence scoring is a bad idea",
    "source": "Hacker News",
    "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
@@ -202,20 +211,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 23,
-   "title": "LLM agents play Pokemon showdown",
+   "points": 81,
+   "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
    "source": "Hacker News",
-   "url": "https://olivergrabner.com/research/pokemon/",
-   "discuss": "https://news.ycombinator.com/item?id=50190334"
+   "url": "https://github.com/omnara-ai/omnara",
+   "discuss": "https://news.ycombinator.com/item?id=50183892"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 14,
-   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+   "points": 25,
+   "title": "Achieving AI-style reasoning without an LLM",
    "source": "Hacker News",
-   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-   "discuss": "https://news.ycombinator.com/item?id=50190363"
+   "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
+   "discuss": "https://news.ycombinator.com/item?id=50192868"
   },
   {
    "kind": "news",
@@ -244,28 +253,9 @@
    "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The new economics of enterprise AI",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "AI adoption by industry shows what other sectors can learn",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "A visit to Samsung’s massive new semiconductor hub",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/"
   }
  ],
- "errors": []
+ "errors": [
+  "MIT Technology Review:HTTP Error 403: Forbidden"
+ ]
 }

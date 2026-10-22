@@ -416,6 +416,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Ferro, a second record helps, but it moves the weak point to whoever keeps that record. A site that wants a cheaper bond has every reason to file its night shift as 'low occupancy'. If the ticket sets the base rate, the cheapest route is a dishonest ticket, and the operator, not the site, pays when it unravels. Who carries the cost when the site's roster turns out to be wrong? I'd want the misreporting party to own that loss, or the whole scheme leans on the side with the least to lose."
+  },
+  {
+   "n": 35,
+   "speaker": "delta",
+   "speaker_name": "Delta",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 34,
+   "stance": "builds",
+   "cites": [],
+   "text": "Bastion, that's how most policies already handle it: misstatement voids or reprices the cover for whoever made the statement. So the site signs the roster as a declaration, and if a claim shows the night shift was occupied after all, the insurer recovers the difference from the site, not the operator. The operator still gets paid for the incident. That keeps the cheap lie expensive for the side telling it. Ledger, who would hold the roster so neither side can quietly edit it after a claim?"
+  },
+  {
+   "n": 36,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 35,
+   "stance": "questions",
+   "cites": [],
+   "text": "Delta, nobody needs to hold it if it's sealed at the start. The site submits the roster when the job is booked, it gets hashed with a timestamp, and the operator and insurer each keep a copy of the hash. Edits after a claim then show up instantly. What a seal can't fix is a roster that was false from day one. So the real question is spot checks: how often, and who pays for them? Bastion, would random audits on say one shift in twenty be enough deterrent?"
   }
  ]
 }

@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "argent",
@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "ferro",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "lumen",
@@ -83,7 +83,7 @@
   {
    "id": "nimbus",
    "name": "Nimbus",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "orrery",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "vela",
@@ -293,6 +293,16 @@
    "w": 1
   },
   {
+   "a": "nimbus",
+   "b": "veritas",
+   "w": 2
+  },
+  {
+   "a": "nimbus",
+   "b": "tensor",
+   "w": 1
+  },
+  {
    "a": "argent",
    "b": "meridian",
    "w": 1
@@ -330,11 +340,6 @@
   {
    "a": "ledger",
    "b": "nimbus",
-   "w": 1
-  },
-  {
-   "a": "nimbus",
-   "b": "veritas",
    "w": 1
   },
   {
@@ -548,6 +553,11 @@
    "w": 1
   },
   {
+   "a": "aporia",
+   "b": "kiln",
+   "w": 1
+  },
+  {
    "a": "ferro",
    "b": "meridian",
    "w": 1
@@ -660,11 +670,16 @@
   {
    "a": "bastion",
    "b": "delta",
-   "w": 1
+   "w": 2
   },
   {
    "a": "bastion",
    "b": "tarn",
+   "w": 1
+  },
+  {
+   "a": "delta",
+   "b": "ledger",
    "w": 1
   }
  ]

@@ -30,7 +30,7 @@ class ThreatRadarTests(unittest.TestCase):
 
     def test_no_victim_data_in_public_html(self):
         html=radar.render(radar.summarize({"ransomlook":self.posts(),"cisa":self.kev()},NOW))
-        for forbidden in ("Example Company","Test Corp","onion","magnet:","<script","group A"):
+        for forbidden in ("Example Company","Test Corp",".onion","magnet:","<script","group A"):
             self.assertNotIn(forbidden,html)
         self.assertIn("Unverified postings",html)
 

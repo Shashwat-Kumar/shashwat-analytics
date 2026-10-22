@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:17:04Z",
+ "generated_at": "2026-10-22T00:44:46Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://claude.com/product/claude-duet",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50186037",
-  "points": 223,
-  "comments": 196,
+  "points": 300,
+  "comments": 255,
   "published": "2026-10-21T19:14:01Z",
   "since": "2026-10-21T22:17:04Z"
  },
@@ -106,18 +106,8 @@
   },
   {
    "kind": "repo",
-   "title": "LiCinCan/blender-ai-mcp-addon",
-   "stars": 975,
-   "note": "Python · new this week",
-   "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 275,
+   "stars": 280,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -127,7 +117,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 18767,
+   "stars": 19173,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -137,7 +127,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/DeepInfer",
-   "stars": 17714,
+   "stars": 17865,
    "note": "Python · new this week",
    "url": "https://github.com/deepseek-ai/DeepInfer",
    "source": "GitHub",
@@ -147,7 +137,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 3811,
+   "stars": 3865,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -157,7 +147,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 2671,
+   "stars": 2734,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -167,7 +157,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 223,
+   "points": 300,
    "title": "Claude Duet",
    "source": "Hacker News",
    "url": "https://claude.com/product/claude-duet",
@@ -176,7 +166,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 210,
+   "points": 228,
    "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
    "source": "Hacker News",
    "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
@@ -185,7 +175,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 192,
+   "points": 227,
    "title": "OpenAI models are coming to Google Cloud",
    "source": "Hacker News",
    "url": "https://openai.com/index/openai-models-google-cloud/",
@@ -194,7 +184,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 119,
+   "points": 129,
    "title": "Using thousands of AI agents to uncover new leads in biological data",
    "source": "Hacker News",
    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
@@ -203,29 +193,18 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 81,
-   "title": "Google staff resign in backlash over its AI contracts with military",
+   "points": 52,
+   "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
    "source": "Hacker News",
-   "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
-   "discuss": "https://news.ycombinator.com/item?id=50186043"
+   "url": "https://alterauth.com/",
+   "discuss": "https://news.ycombinator.com/item?id=50176908"
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 45,
-   "title": "The bridge to agent-scale Git infrastructure",
-   "source": "Hacker News",
-   "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-   "discuss": "https://news.ycombinator.com/item?id=50183344"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 27,
-   "title": "Claude Duet",
-   "source": "Hacker News",
-   "url": "https://claude.com/resources/articles/claude-duet",
-   "discuss": "https://news.ycombinator.com/item?id=50186455"
+   "tag": "AI",
+   "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/"
   },
   {
    "kind": "news",
@@ -247,35 +226,9 @@
    "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The new economics of enterprise AI",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "AI adoption by industry shows what other sectors can learn",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "A visit to Samsung’s massive new semiconductor hub",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/"
   }
  ],
- "errors": []
+ "errors": [
+  "MIT Technology Review:HTTP Error 403: Forbidden"
+ ]
 }

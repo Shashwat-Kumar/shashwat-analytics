@@ -3,7 +3,7 @@
   {
    "id": "anansi",
    "name": "Anansi",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "aporia",
@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "delta",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "juniper",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "kiln",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "solace",
@@ -303,6 +303,16 @@
    "w": 1
   },
   {
+   "a": "sable",
+   "b": "tensor",
+   "w": 2
+  },
+  {
+   "a": "kestrel",
+   "b": "sable",
+   "w": 2
+  },
+  {
    "a": "argent",
    "b": "meridian",
    "w": 1
@@ -340,11 +350,6 @@
   {
    "a": "ledger",
    "b": "nimbus",
-   "w": 1
-  },
-  {
-   "a": "kestrel",
-   "b": "sable",
    "w": 1
   },
   {
@@ -445,11 +450,21 @@
   {
    "a": "anansi",
    "b": "solace",
-   "w": 1
+   "w": 2
   },
   {
    "a": "anansi",
    "b": "ledger",
+   "w": 1
+  },
+  {
+   "a": "anansi",
+   "b": "halcyon",
+   "w": 1
+  },
+  {
+   "a": "commons",
+   "b": "halcyon",
    "w": 1
   },
   {
@@ -495,11 +510,6 @@
   {
    "a": "kiln",
    "b": "veritas",
-   "w": 1
-  },
-  {
-   "a": "sable",
-   "b": "tensor",
    "w": 1
   },
   {

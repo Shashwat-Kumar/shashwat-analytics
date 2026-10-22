@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T15:38:39Z",
+ "generated_at": "2026-10-22T19:33:54Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,41 @@
   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50190363",
-  "points": 395,
-  "comments": 121,
+  "points": 455,
+  "comments": 145,
   "published": "2026-10-22T02:18:41Z",
   "since": "2026-10-22T10:35:55Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Jensen Huang",
-  "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
-  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
-  "source": "Barron's",
-  "published": "2026-10-22T12:56:00Z",
-  "since": "2026-10-22T15:38:39Z"
+  "person": "Mustafa Suleyman",
+  "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+  "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5",
+  "source": "TechCrunch",
+  "published": "2026-10-22T18:43:53Z",
+  "since": "2026-10-22T19:33:54Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Mustafa Suleyman",
+   "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5",
+   "source": "TechCrunch",
+   "published": "2026-10-22T18:43:53Z",
+   "since": "2026-10-22T19:33:54Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "OpenAI CEO Sam Altman says mathematicians have already gone from 'we're cooked' to accepting AI",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQzJiYzBMVmxxN21YUzR5SXJQLWF2SzVGTWdncU0zalRsR3dwcG9aLVZpSWdpTTdneW0zbU1Kalh0bHp0dDdwbWFYb0tIMnZ5N3pCblNnMTh6Z0FsWkFiWWc0d1Y2THMyTFJOYU1VdUl5a0dmNVhqSGlZSVp3VlVHbUFReHdUWXB5ajNJVHpld3V1ZXBSM3BQTGlCMGhqNGVybWU3Nw?oc=5",
+   "source": "Business Insider",
+   "published": "2026-10-22T16:38:00Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,17 +54,7 @@
    "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
    "source": "Barron's",
-   "published": "2026-10-22T12:56:00Z",
-   "since": "2026-10-22T15:38:39Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman says AI will keep coder busier than ever despite fears of job losses",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObS1KVHhIVVp5YjA2MUtyMzRERUhsU0s4VUhuM0pBWG1tbnhOOU8yMnUtczZhM2dIYmFHNHI0STVxOEFVM09mNEJZNDNOdEVJa19aTHJHNnQySFR4NVNIOGMyYUl4UlBrcW1JdUhTMllQZWdjcUFkbkd1cWhHaUZYRjRTRXJPUlBRZldXOXdIUHZhV2RYZDY1R1dIRDZ0Tmt5VlZicmh2QzJGY29PRTVzU3I1Z0pIc1ZQQmk3RVYyd1hxREZnWEJR0gHHAUFVX3lxTE5tLUpUeEhVWnliMDYxS3IzNERFSGxTSzhVSG4zSkFYbW1ueE45TzIydS1zNmEzZ0hiYUc0cjRJNXE4QVUzT2Y0Qlk0M050RUlrX1pMckc2dDJIVHg1U0g4YzJhSXhSUGtxbUl1SFMyWVBlZ2NxQWRuR3VxaEdpRlhGNFNFck9SUFFmV1c5d0hQdmFXZFhkNjVHV0hENnROa3lWVmJyaHZDMkZjb09FNXNTcjVnSkhzVlBCaTdFVjJ3WHFERmdYQlE?oc=5",
-   "source": "Firstpost",
-   "published": "2026-10-22T08:14:20Z"
+   "published": "2026-10-22T12:56:00Z"
   },
   {
    "kind": "voice",
@@ -55,59 +64,41 @@
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeDRFREtLOXA4QWJmZnZUd2pBSzVGX2VNRHVZT05rcncxb2JNc1B4bkQ0cEZTMnU0YWk0cEhPSUctOGJOaEc4Uk1tMWVneW5uQ1JRcjRNUW5GV2l4a1lKS0VhN0N1UERTZUt4YjBEazJQd3V5MmFqbWoyTnhLSXNOVDJfSGozRFIyWUt4aVRYS0R3S1BMZWNuT2FGdw?oc=5",
    "source": "Yahoo Finance",
    "published": "2026-10-22T07:26:43Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "AI Boom Boosts Fortunes of Several Tech Leaders as Elon Musk Leads Gains, BestBrokers.com Says",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQVpaelBEWUV2V2hlWnpQOWZXX2FaenNoWThiOGpSbmJmczVSb0psVnB3bW9YZnJxYnlJR0c2cEcyVG9EUUhMT1Zob01FS0dZVE5ZaW9zUERqRGR4RjRLalJjSXcwWTJPZmVEbHhSa0s4N0VkeDRtOFhFYzN0QVkteG5lcXY1Rk41bG9aX0ttbDhJaUw3QjAzYUh0UQ?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-21T19:24:17Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Why Google CEO Sundar Pichai thinks asking 'how much code AI writes' is the wrong question",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSUktckNUWFhSejNzNGpnVlNJVUxTV1NTSmtNcnNJSUpvZlBST2dhd3lDTjBVLU1mMzVLU3lkNXYtR1F0SWo3S0x6VGkwTWRjbm1qNktvb0xHb0dHeTUtU1NkcmVNNmNCX1FFdGd6SmxQajZNRThGS05tU1BCMDJpeE4wWjBfYkJVVXBTZUJvNE1PQ0dvRGNtanhSWXFqc182c2Z6MXJkYUhEaW5CYzlYN2lVYWljUFNUQ0tQM3VLZUVzWFZMOHJISUVnWUlOUjZ2SHfSAdcBQVVfeXFMTWFSUzJhM1llYTMzRzZGY3BQTXpoaFp5TXBSYWFXYi1JLXdlRU9qdWpwS1g4ZktXR0NzRkV3TzNUdk02QmZmeDhyeE9OMjVCM3Y5QXZFY2FGa3ZqcGhBeTQ2V2NESHNoQ1BUbVFhbWlOTG1JcVlRajdzRGhqcWZRem0yRWFpa19MeExPLU5lSTdtTWVTVXdZUUJ0b0FGQllmTzgtRmh6cGlyZ2x4VU1FS2dGVC1NZThpbGhzQUZEODE2dXRPY3BMUmluUVdjLXBGRVdoanVZcDA?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-21T16:04:20Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
-   "source": "Barron's",
-   "published": "2026-10-22T12:56:00Z",
-   "since": "2026-10-22T15:38:39Z"
+   "person": "Mustafa Suleyman",
+   "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5",
+   "source": "TechCrunch",
+   "published": "2026-10-22T18:43:53Z",
+   "since": "2026-10-22T19:33:54Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Sam Altman",
-   "title": "Sam Altman says AI will keep coder busier than ever despite fears of job losses",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObS1KVHhIVVp5YjA2MUtyMzRERUhsU0s4VUhuM0pBWG1tbnhOOU8yMnUtczZhM2dIYmFHNHI0STVxOEFVM09mNEJZNDNOdEVJa19aTHJHNnQySFR4NVNIOGMyYUl4UlBrcW1JdUhTMllQZWdjcUFkbkd1cWhHaUZYRjRTRXJPUlBRZldXOXdIUHZhV2RYZDY1R1dIRDZ0Tmt5VlZicmh2QzJGY29PRTVzU3I1Z0pIc1ZQQmk3RVYyd1hxREZnWEJR0gHHAUFVX3lxTE5tLUpUeEhVWnliMDYxS3IzNERFSGxTSzhVSG4zSkFYbW1ueE45TzIydS1zNmEzZ0hiYUc0cjRJNXE4QVUzT2Y0Qlk0M050RUlrX1pMckc2dDJIVHg1U0g4YzJhSXhSUGtxbUl1SFMyWVBlZ2NxQWRuR3VxaEdpRlhGNFNFck9SUFFmV1c5d0hQdmFXZFhkNjVHV0hENnROa3lWVmJyaHZDMkZjb09FNXNTcjVnSkhzVlBCaTdFVjJ3WHFERmdYQlE?oc=5",
-   "source": "Firstpost",
-   "published": "2026-10-22T08:14:20Z"
+   "title": "OpenAI CEO Sam Altman says mathematicians have already gone from 'we're cooked' to accepting AI",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQzJiYzBMVmxxN21YUzR5SXJQLWF2SzVGTWdncU0zalRsR3dwcG9aLVZpSWdpTTdneW0zbU1Kalh0bHp0dDdwbWFYb0tIMnZ5N3pCblNnMTh6Z0FsWkFiWWc0d1Y2THMyTFJOYU1VdUl5a0dmNVhqSGlZSVp3VlVHbUFReHdUWXB5ajNJVHpld3V1ZXBSM3BQTGlCMGhqNGVybWU3Nw?oc=5",
+   "source": "Business Insider",
+   "published": "2026-10-22T16:38:00Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Mark Zuckerberg",
-   "title": "Mark Zuckerberg Says Meta Will ‘Build Superintelligence Through Scaling’ After $64.6 Billion Q3 Beat, META Stock Jumps After Hours",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeDRFREtLOXA4QWJmZnZUd2pBSzVGX2VNRHVZT05rcncxb2JNc1B4bkQ0cEZTMnU0YWk0cEhPSUctOGJOaEc4Uk1tMWVneW5uQ1JRcjRNUW5GV2l4a1lKS0VhN0N1UERTZUt4YjBEazJQd3V5MmFqbWoyTnhLSXNOVDJfSGozRFIyWUt4aVRYS0R3S1BMZWNuT2FGdw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-22T07:26:43Z"
+   "person": "Jensen Huang",
+   "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
+   "source": "Barron's",
+   "published": "2026-10-22T12:56:00Z"
   },
   {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 329,
+   "stars": 334,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -115,18 +106,49 @@
    "cat": "AI/ML"
   },
   {
-   "kind": "news",
-   "tag": "HN",
-   "points": 491,
-   "title": "Claude Duet",
-   "source": "Hacker News",
-   "url": "https://claude.com/product/claude-duet",
-   "discuss": "https://news.ycombinator.com/item?id=50186037"
+   "kind": "repo",
+   "title": "Gathin23/cleanyourtv",
+   "stars": 23396,
+   "note": "Java · new this week",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "deepseek-ai/DeepInfer",
+   "stars": 19762,
+   "note": "Python · new this week",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "ly05010419/MacNativeGames",
+   "stars": 4417,
+   "note": "C · new this week",
+   "url": "https://github.com/ly05010419/MacNativeGames",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "simbasjungles/free-my-tv",
+   "stars": 3263,
+   "note": "Java · new this week",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 395,
+   "points": 455,
    "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
    "source": "Hacker News",
    "url": "https://simedw.com/2026/10/21/world-model-terminal/",
@@ -135,48 +157,84 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 200,
-   "title": "OpenAI CLI",
+   "points": 28,
+   "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
    "source": "Hacker News",
-   "url": "https://github.com/openai/openai-cli",
-   "discuss": "https://news.ycombinator.com/item?id=50191507"
+   "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+   "discuss": "https://news.ycombinator.com/item?id=50198940"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 152,
-   "title": "Using LLM for confidence scoring is a bad idea",
+   "points": 21,
+   "title": "Award-Winning AI Literature",
    "source": "Hacker News",
-   "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
-   "discuss": "https://news.ycombinator.com/item?id=50176082"
+   "url": "https://jamesyu.org/award-winning-ai-literature/",
+   "discuss": "https://news.ycombinator.com/item?id=50199232"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 20,
+   "title": "AI and the Enclosure of the Scientific Commons",
+   "source": "Hacker News",
+   "url": "https://arxiv.org/abs/2610.27251",
+   "discuss": "https://news.ycombinator.com/item?id=50199230"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 19,
+   "title": "Show HN: UI micro interactions prompts for AI",
+   "source": "Hacker News",
+   "url": "https://www.typeui.sh/micro-interactions",
+   "discuss": "https://news.ycombinator.com/item?id=50199290"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 10,
+   "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+   "source": "Hacker News",
+   "url": "https://github.com/rbartoli/agent-usage-guard",
+   "discuss": "https://news.ycombinator.com/item?id=50198936"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 4,
+   "title": "Show HN: Turn regular JavaScript into a neural net",
+   "source": "Hacker News",
+   "url": "https://chenglou.me/handwired/",
+   "discuss": "https://news.ycombinator.com/item?id=50172984"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Spotify’s current AI bet is about being the music service that agents choose",
+   "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/"
+   "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Claude Duet app is Anthropic’s bet on agents",
+   "title": "Canva releases its first image generation model",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/"
+   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nirva raises $33M for a pendant that only listens to you",
+   "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/"
+   "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "DeepSeek reportedly raises $15B days after US restrictions",
+   "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+   "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/"
   },
   {
    "kind": "news",

@@ -4,7 +4,7 @@ The site is static, hosted on GitHub Pages. This feature uses the **existing** S
 
 ## What the implementation does
 - `subscribe.html` gives readers an email subscription and management page without blocking the rest of the site.
-- The page requests a Supabase email magic link; opening that link verifies the email.
+- The page requests a Supabase email magic link; opening that link verifies the email. Management requests do not auto-create new accounts.
 - The visitor confirms subscription or unsubscribe. The site saves `readsigil_newsletter_opt_in` and `readsigil_newsletter_changed_at` in that verified Auth user's metadata.
 - There is no public subscribers endpoint. Existing/readers' addresses are not visible to other visitors.
 - No automated newsletter delivery is configured. This is a **verified registration list**, not a sending service.

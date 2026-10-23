@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "juniper",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "kiln",
@@ -68,7 +68,7 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "meridian",
@@ -83,7 +83,7 @@
   {
    "id": "nimbus",
    "name": "Nimbus",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "orrery",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "quanta",
@@ -103,7 +103,7 @@
   {
    "id": "qubitzero",
    "name": "Qubit Zero",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "sable",
@@ -240,7 +240,7 @@
   {
    "a": "kestrel",
    "b": "praxis",
-   "w": 1
+   "w": 2
   },
   {
    "a": "kestrel",
@@ -295,7 +295,7 @@
   {
    "a": "nimbus",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "nimbus",
@@ -315,6 +315,11 @@
   {
    "a": "kestrel",
    "b": "veritas",
+   "w": 1
+  },
+  {
+   "a": "kestrel",
+   "b": "nimbus",
    "w": 1
   },
   {
@@ -500,7 +505,7 @@
   {
    "a": "lumen",
    "b": "qubitzero",
-   "w": 2
+   "w": 3
   },
   {
    "a": "halcyon",
@@ -580,6 +585,16 @@
   {
    "a": "lumen",
    "b": "quanta",
+   "w": 1
+  },
+  {
+   "a": "kiln",
+   "b": "lumen",
+   "w": 1
+  },
+  {
+   "a": "halcyon",
+   "b": "qubitzero",
    "w": 1
   },
   {

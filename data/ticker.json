@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T15:53:57Z",
+ "generated_at": "2026-10-23T19:55:32Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Swedish government offices to ban ChatGPT and Claude",
-  "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+  "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+  "url": "https://news.ycombinator.com/item?id=50200997",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50207405",
-  "points": 293,
-  "comments": 100,
-  "published": "2026-10-23T11:39:54Z",
-  "since": "2026-10-23T15:53:57Z"
+  "discuss": "https://news.ycombinator.com/item?id=50200997",
+  "points": 506,
+  "comments": 556,
+  "published": "2026-10-22T21:03:55Z",
+  "since": "2026-10-23T19:55:32Z"
  },
  "voice": {
   "kind": "voice",
@@ -73,15 +73,6 @@
    "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOWGNTUTBLakxCS3h2c2w2cWhMNmJ4QWo3MEkxelR6ekhoRFVaQ3FGd0cySUhNcTh5YlRjX1kzMWkyNFI0bVZ1aGI2TFNnNEYwTllXWjQzMGZJMWw4TEd1V1hTclRpMUR2U0lQVVBkWEhpQi1ROGxpR0JLVHpCaS0zRmNiQ1E0WGRZWHpuY0Zvb0wtQ3JuUGZlUWliaTdqdUVJdUlWaDhHV3JuSVNheUtTR19fMElSNmpKNkZVMUtWdGlyeWZvaVUyVW9oYWExR1E3YjZoTkREbmI4UjVzWFk5Z2lSVXlMMm1EN3VmNnR0OWxCR1E4VFE4OEptX28xOHd4R1EwYlI5SURVQnhadXBoYV9kcFBYMV9tTjJtTFBuSmxXblhXZERDTDBFdTBkLWNsUTY0SnptWlTSAb4CQVVfeXFMUDVuUm5YcHNFWnZGWmdReV9KUVR2QmN1Yl9OOGlRYmNVOXBDM2ZpU3k1S19YT2hySFZieWFKbEtrSGRTdUk4R0tsTkRPcndoSVgwQVQtcF9fakVxRjhfS2lMbmhMeDFxVy1IYWJsdXV4N2NKZ3oxcjR1Xy0tdF9FX2pWM1JiMVMxYndCNGZRSzJ3MFBkSzBWaEI4QktOeGQ0czJaWW9ZdUtGRVpTbHRwaVNmLVZWeWotY2wtYVV0WThSZFl6dEFxQlVMc0Zodm9kRGNuVXZxVDcxV25fUllPVkZENHNxNVVIOVAtY25lZnJ6U19qemJmeXhtNEQ1aWh5NHVrMzc2RjZRZnJEZjNUVnhRZjllMFNUSkNvbnU0VFRUQVpSalNpWGlJZ283Vkt6U3RNa3Azb0VWNVhOX1R3?oc=5",
    "source": "The Times of India",
    "published": "2026-10-23T05:52:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Mustafa Suleyman",
-   "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5",
-   "source": "TechCrunch",
-   "published": "2026-10-22T18:43:53Z"
   }
  ],
  "items": [
@@ -116,7 +107,7 @@
   {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 368,
+   "stars": 370,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -126,7 +117,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 26968,
+   "stars": 27493,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -136,7 +127,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 4800,
+   "stars": 4843,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -146,7 +137,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 3783,
+   "stars": 3879,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -156,7 +147,7 @@
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 3726,
+   "stars": 3786,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -166,43 +157,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 583,
-   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-   "source": "Hacker News",
-   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-   "discuss": "https://news.ycombinator.com/item?id=50190363"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 559,
-   "title": "Every AI model has the same \"controversial\" take on humans",
-   "source": "Hacker News",
-   "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-   "discuss": "https://news.ycombinator.com/item?id=50197313"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 461,
-   "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-   "source": "Hacker News",
-   "url": "https://github.com/NVIDIA/OpenShell",
-   "discuss": "https://news.ycombinator.com/item?id=50198675"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 397,
-   "title": "LLMs are making formal software verification feasible at a much larger scale",
-   "source": "Hacker News",
-   "url": "https://www.anthropic.com/research/formal-verification",
-   "discuss": "https://news.ycombinator.com/item?id=50202217"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 348,
+   "points": 506,
    "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50200997",
@@ -210,26 +165,15 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 293,
-   "title": "Swedish government offices to ban ChatGPT and Claude",
-   "source": "Hacker News",
-   "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-   "discuss": "https://news.ycombinator.com/item?id=50207405"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 14,
-   "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
-   "source": "Hacker News",
-   "url": "https://www.thisandthat.chat/enron/",
-   "discuss": "https://news.ycombinator.com/item?id=50207620"
+   "tag": "AI",
+   "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+   "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
   },
@@ -246,35 +190,9 @@
    "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Designing an AI serving harness built to last",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The Foundations of Scalable AI",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Making the case for context-aware AI",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
   }
  ],
- "errors": []
+ "errors": [
+  "MIT Technology Review:HTTP Error 403: Forbidden"
+ ]
 }

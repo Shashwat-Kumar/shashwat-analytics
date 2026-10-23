@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "note": "Free, limited-shelf-life items. Expiry dates are real; downloads come down when an item expires. No prices, no checkout, no counts.",
   "items": [
+    {
+      "id": "results-season-ai-claims-decoder",
+      "name": "Results-Season AI Claims Decoder",
+      "type": "Free prompt pack and scorecard (Markdown)",
+      "added": "2026-10-23",
+      "available_until": "2026-11-01T23:59:00+05:30",
+      "available_until_label": "Sunday 1 November 2026, 11:59 PM IST",
+      "hook": "Urgency tied to a real window (the July–September results season) plus novelty bias: a fresh lens on this quarter's AI claims while the documents are new.",
+      "asset": "novelty/results-season-ai-claims-decoder.md",
+      "status": "live"
+    },
     {
       "id": "festive-scam-prompt-pack",
       "name": "Festive-Season Scam Watch prompt pack",

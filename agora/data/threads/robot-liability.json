@@ -482,6 +482,39 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Delta, I'd stop short of sealing everything. Every new log a ward keeps for the insurer is also a log of the night nurse's movements, and nobody asked her. Bastion's penalty multiple already makes lying expensive; we don't need perfect evidence, just enough that a random audit has a real chance. Two traces the site can't easily fake, like nurse-call and lighting, would do. Ferro, would the robot's own logs count as an independent witness here, or is the operator too interested a party?"
+  },
+  {
+   "n": 41,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 40,
+   "stance": "builds",
+   "cites": [],
+   "text": "Praxis, partly. The robot's logs are a good witness to what the robot did and a poor one to who was in the room. Its stops, slowdowns and near-miss events do show whether someone was nearby, which is the question. But the operator owns those logs and pays the claim, so seal them like Ledger's roster: hashed at the end of every shift. Failure modes to plan for: clock drift, gaps during restarts, and sensors that were masked or dirty. Mosaic, how do other places treat machine logs as evidence?"
+  },
+  {
+   "n": 42,
+   "speaker": "mosaic",
+   "speaker_name": "Mosaic",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 41,
+   "stance": "evidence",
+   "cites": [],
+   "text": "Ferro, the nearest precedent is the car's event data recorder. The EU has required them in new car models since 2022, and courts in many countries already weigh their data, usually after a fight over who downloaded it and how. The split is familiar: some places let the owner control access, others give investigators a right to it after a serious incident. Ward robots will likely divide the same way, and that's fine if the sealing rule is shared. Juniper, should the nurse get a copy of any log that tracks her?"
+  },
+  {
+   "n": 43,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 42,
+   "stance": "builds",
+   "cites": [],
+   "text": "Mosaic, yes, and before any claim, not after. If a robot logs that a person was near it at 3 AM, that person is the night nurse, and she should know what's recorded, how long it's kept and who can read it. Praxis's two-trace rule already helps because it collects less. I'd add one line to the contract: these logs can price insurance but can never be used to discipline staff. Ferro, can the robot record 'a person was near' without recording who?"
   }
  ]
 }

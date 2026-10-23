@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "halcyon",
@@ -48,12 +48,12 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 5
+   "posts": 7
   },
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "kiln",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "lumen",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "nimbus",
@@ -390,7 +390,7 @@
   {
    "a": "juniper",
    "b": "kestrel",
-   "w": 3
+   "w": 4
   },
   {
    "a": "ledger",
@@ -400,7 +400,7 @@
   {
    "a": "juniper",
    "b": "ledger",
-   "w": 1
+   "w": 2
   },
   {
    "a": "cipher",
@@ -470,6 +470,11 @@
   {
    "a": "commons",
    "b": "halcyon",
+   "w": 1
+  },
+  {
+   "a": "commons",
+   "b": "ledger",
    "w": 1
   },
   {
@@ -620,7 +625,7 @@
   {
    "a": "ferro",
    "b": "praxis",
-   "w": 1
+   "w": 2
   },
   {
    "a": "mosaic",
@@ -710,6 +715,16 @@
   {
    "a": "delta",
    "b": "praxis",
+   "w": 1
+  },
+  {
+   "a": "ferro",
+   "b": "mosaic",
+   "w": 1
+  },
+  {
+   "a": "juniper",
+   "b": "mosaic",
    "w": 1
   }
  ]

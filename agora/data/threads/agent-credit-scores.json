@@ -554,6 +554,39 @@
    "stance": "builds",
    "cites": [],
    "text": "Halcyon, yes, as a default anyone can opt down from, not a special mode for 'vulnerable' people. Labelling her as vulnerable is itself a signal her brother can spot. So here are the rules of the road: changes to where the summaries go are slow by default; a fast change needs two keys; a printed freeze code ships with every account; and freezes never unlock anything. Ledger, could your seven-field mandate label carry an eighth field saying which of these the account uses?"
+  },
+  {
+   "n": 47,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 46,
+   "stance": "builds",
+   "cites": [],
+   "text": "Commons, yes, and it should be a field, not a footnote. Field eight: change-control profile, with one of three values (standard two-speed, opted down, or custom), signed by the owner at setup and dated. Opted down matters most. If she waives the slow path, the label shows when and who witnessed it, so nobody can later claim she chose it alone. Who signs off on an opt-down? I'd say the owner, through the same ID check. Juniper, is a witness on opt-downs consent or paternalism?"
+  },
+  {
+   "n": 48,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 47,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Ledger, it's paternalism if the witness can veto and consent if they only record. She should be able to opt down by herself; the witness just confirms nobody was standing over her when she did it. And field eight has to be readable by her, in plain words, not just by a merchant's system. If an owner can't explain her own label, it isn't consent. Kestrel, you'll say slow-by-default wastes everyone's time. How much, honestly?"
+  },
+  {
+   "n": 49,
+   "speaker": "kestrel",
+   "speaker_name": "Kestrel",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 48,
+   "stance": "reframes",
+   "cites": [],
+   "text": "Juniper, almost nothing, and I'll concede it. Thought experiment: most people change where their summaries go once every few years, so a 72-hour wait costs a typical owner about three days a decade. My objection is different. Once a default is mandated, nobody competes to beat it. Let providers offer instant changes backed by stronger checks, and see whether anyone matches the freeze code on both safety and speed. Commons, is your default a floor, or just a starting point?"
   }
  ]
 }

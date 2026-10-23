@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T05:58:46Z",
+ "generated_at": "2026-10-23T11:30:26Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,40 +12,58 @@
   "url": "https://www.anthropic.com/research/formal-verification",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50202217",
-  "points": 240,
-  "comments": 131,
+  "points": 358,
+  "comments": 212,
   "published": "2026-10-22T22:54:43Z",
   "since": "2026-10-23T05:58:46Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sam Altman",
-  "title": "Sam Altman dismisses AI job loss fears, says coding will actually make you busier",
-  "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdzZOeHRKR0tmWEVac2RhcUMwbENmWUpLTF9KTDJKY0VUejZzejJOdEFLNDFsRHNfNXd1N3BUdEszX2NOeXBLU20xQ0FIX2JDUUlLdm5HLVp4VUptc0hXOTA4am1FQl9BWWpaU3hyNl9ST3V2VktCZUFxRzNzYndDNjZfNzIyUGE4Q0MtOG9rd0NwZkY1TllBSFBQNWd4V0c3eEY4STdBaEhqaUZQVFpESlgzSktVM1pHaVdLWTJjUzVYbXBwU2RHbFl3WkpRR1owWUxIaWtxUUk4NUlHM0JvMtIB5gFBVV95cUxOQUNDQmxJcWlDbHNWMTVVdFREc0dHNW1hVDR2Y2FxT3RTVy01b2tfdjNhdmlpaVB0bUx5d2lwSS1DRjQ4d1hHaGdkUmhMbzZzWV94cXFMYkt4RGhpbW1HbzJfUXJ2bnNkUV81MmdpRFd5eE5qTFdCRGdqeVpVSWRqVjhBbnhCLTYyRlU0Q3FBWUllRmt4Tkh2ZTdYQkpKN3RmMjU5NDl2VEpjdzZnUnRwMy1WaHcycjVrbjFqaVFsVlRUdDdKUnlpSE85V01zejgtak1vRXd1WnJlSmdGZ2lVVDRQWHBpdw?oc=5",
-  "source": "India Today",
-  "published": "2026-10-23T04:32:14Z",
-  "since": "2026-10-23T05:58:46Z"
+  "person": "Mark Zuckerberg",
+  "title": "Mark Zuckerberg says Meta is happy with adoption of its chatbot Muse, but admits AI is expensive, and com",
+  "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTkNhcDk2dXlDeDFJTVdhaHFFWHEyb2VUbmtpVlY1VG15Y244TG1LTENteU9ZaGRwWlEtM281S3dhcHhfb3d3d2pyeHVZT2RqdlBOTF96bFpfdWUxTEtiNVNQNlhNc2NKYkpUOWNfWEN6SEdGY1lINlRDTkl6Z2tBR0pUTURXNy1qbGNsUlQzbmVKZ3hfUVhpeFNjQmQwRkpFd0xsN0RXS0pYZzZBMDdZYW14dktkdWx0enhlMk1WdjR0Y3ZoeWNMSXlCTUNFNk9ZUWtjVVl2azFUeGMxUXhLWC1nWXhaVkdIdEdzSE4xcTFISktmRGVHS1hJdk9tUVlHalU1bnBLZzNwUmdJemF2UkdxbEN1WktrN0ZfWGF3Wlp6MUU1WFZXWnVreGtMTUUzVk84MDdzVTdPZlUxekwxaW5R0gHHAkFVX3lxTE13N2lXSC1NOWVDYVVhTDdMM3BmRkI3c200R2V3MEh5c1l6ZVRWS1NvMzN6QUtXMzhwczVLYWUyajFtcHNLOENZWmlPVGNOTGoyOTFvYUJxVmctaHJiNUVjM1ZtNzBJR1E0WHZGaEdHTC1hZy00U0s0d0YyQ2hhZGFjQTNxNHl3N0lQbmE3VnZubE1DWnFqNEwweGFCOFFNS0NQZVlmUE5hRzhxd1dGM1dJOVVKSUFITWk3YzllSFVXd0Q3b1FELUxjTHN0aEFCZ3hjTnRUU2RnSk1pTUh3dFhRanhGNGptNVJXY20xYmF1MnZMa1Y1MTlPaEU4TlBnMGNWbWp5Ul9MTFZMUmVFTldmbTZNSFRLamFmT0lqSFpNQlJvNWJsVjVxcXhLaENWU1V5OUJTZWZ1eEt3VVNZN08waDgzOE5IQQ?oc=5",
+  "source": "The Times of India",
+  "published": "2026-10-23T11:12:00Z",
+  "since": "2026-10-23T11:30:26Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman dismisses AI job loss fears, says coding will actually make you busier",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdzZOeHRKR0tmWEVac2RhcUMwbENmWUpLTF9KTDJKY0VUejZzejJOdEFLNDFsRHNfNXd1N3BUdEszX2NOeXBLU20xQ0FIX2JDUUlLdm5HLVp4VUptc0hXOTA4am1FQl9BWWpaU3hyNl9ST3V2VktCZUFxRzNzYndDNjZfNzIyUGE4Q0MtOG9rd0NwZkY1TllBSFBQNWd4V0c3eEY4STdBaEhqaUZQVFpESlgzSktVM1pHaVdLWTJjUzVYbXBwU2RHbFl3WkpRR1owWUxIaWtxUUk4NUlHM0JvMtIB5gFBVV95cUxOQUNDQmxJcWlDbHNWMTVVdFREc0dHNW1hVDR2Y2FxT3RTVy01b2tfdjNhdmlpaVB0bUx5d2lwSS1DRjQ4d1hHaGdkUmhMbzZzWV94cXFMYkt4RGhpbW1HbzJfUXJ2bnNkUV81MmdpRFd5eE5qTFdCRGdqeVpVSWRqVjhBbnhCLTYyRlU0Q3FBWUllRmt4Tkh2ZTdYQkpKN3RmMjU5NDl2VEpjdzZnUnRwMy1WaHcycjVrbjFqaVFsVlRUdDdKUnlpSE85V01zejgtak1vRXd1WnJlSmdGZ2lVVDRQWHBpdw?oc=5",
-   "source": "India Today",
-   "published": "2026-10-23T04:32:14Z",
-   "since": "2026-10-23T05:58:46Z"
+   "person": "Mark Zuckerberg",
+   "title": "Mark Zuckerberg says Meta is happy with adoption of its chatbot Muse, but admits AI is expensive, and com",
+   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTkNhcDk2dXlDeDFJTVdhaHFFWHEyb2VUbmtpVlY1VG15Y244TG1LTENteU9ZaGRwWlEtM281S3dhcHhfb3d3d2pyeHVZT2RqdlBOTF96bFpfdWUxTEtiNVNQNlhNc2NKYkpUOWNfWEN6SEdGY1lINlRDTkl6Z2tBR0pUTURXNy1qbGNsUlQzbmVKZ3hfUVhpeFNjQmQwRkpFd0xsN0RXS0pYZzZBMDdZYW14dktkdWx0enhlMk1WdjR0Y3ZoeWNMSXlCTUNFNk9ZUWtjVVl2azFUeGMxUXhLWC1nWXhaVkdIdEdzSE4xcTFISktmRGVHS1hJdk9tUVlHalU1bnBLZzNwUmdJemF2UkdxbEN1WktrN0ZfWGF3Wlp6MUU1WFZXWnVreGtMTUUzVk84MDdzVTdPZlUxekwxaW5R0gHHAkFVX3lxTE13N2lXSC1NOWVDYVVhTDdMM3BmRkI3c200R2V3MEh5c1l6ZVRWS1NvMzN6QUtXMzhwczVLYWUyajFtcHNLOENZWmlPVGNOTGoyOTFvYUJxVmctaHJiNUVjM1ZtNzBJR1E0WHZGaEdHTC1hZy00U0s0d0YyQ2hhZGFjQTNxNHl3N0lQbmE3VnZubE1DWnFqNEwweGFCOFFNS0NQZVlmUE5hRzhxd1dGM1dJOVVKSUFITWk3YzllSFVXd0Q3b1FELUxjTHN0aEFCZ3hjTnRUU2RnSk1pTUh3dFhRanhGNGptNVJXY20xYmF1MnZMa1Y1MTlPaEU4TlBnMGNWbWp5Ul9MTFZMUmVFTldmbTZNSFRLamFmT0lqSFpNQlJvNWJsVjVxcXhLaENWU1V5OUJTZWZ1eEt3VVNZN08waDgzOE5IQQ?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-23T11:12:00Z",
+   "since": "2026-10-23T11:30:26Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Sundar Pichai",
-   "title": "Google CEO Sundar Pichai reveals how AI agents help him keep up with company updates",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOU28tdGhPRUdtVjE0V1hXYVBaQ0FPQy1VYUpodXpQZm9MZUZqbkN5RERpZzR5cXZKZjlqNi1rZGNwN3FILTBKVHFDZTZ3R281R3o5ZV9XNS0ySWFuNzByc3pZbEtxaTNfdlQ3WHk4eWNFbWRaMjNhMmJsWWhRVjAzbWJVcHZUeGsycW1GRnJsd1FnZnY4TUJQZzFCMXdvTTdHM3BCelNvd1JqdWdSTGlERFYtamZJLUhBMFpBVDdKLWc5MHZua01BbDV1NWjSAdIBQVVfeXFMUGI1RXB5UzFFUHQ0d2xZdnNOdzlSbE84bDN4eDJBNmZiTl9UeGtNR3ZSUC1DM1pyLW1fOWx1QnAweHVicjYwaW0tcUQ3QVBQR0VaWW1BaTBpQXQ4UnhBT1ZLMTVVZXlOMWVJV0JDRk9Ud2t0NVJWdjRRNmVBUHczMGxadzB0Zm42ckVqbjB0d3VXUTdxT2gxcENicUliOEotNE45UzZKWGtsRlp6MzJuSEpWcVE1WF94VlRNV2p4WF9wQ3RjbXVWNkJESVllQnY4Vll3?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-23T03:57:28Z"
+   "title": "Sundar Pichai says AI now influences almost all code at Google, but fully self-improving AI remains distant | Trending",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSjMyTFNIcHJ2aXRPOG1RZ3M3NmhwUnI1MGo2cWhQd0dVZEJ3anh0ckN0QS1EMzNUd0tyYk04ekNra2hReS1DcmFhUk1xb3NVMnJtMDU2QUpfX2ZKMld5eDdYX3J4MkEyV3FiRFZHRm10RjBIUGY3Y3RSTWJoX0tTUjFhbEZGcEVkcUpzQktiVDA5ODZWbzA2TVA2cGtrRmNmTHZEWUw5eTAyUW11c2E1OXp3cGtzMmlfN0ZnbElUdEczekU1VkFwcmkxbkpZejNUYzlDX3ZjVDZzZjEyeFR3ckhQSVNMTGxrRVZVUXliM2Zza01TelhJY2hpQdIBgAJBVV95cUxNUV9qVTAxbnVxd0RjMDdhR0NsTDlkWU82ZWdjQmhrLXV5YWcxUzVsN3NfbDl5bi1EeE50TjgzVW1kejM3bU1kZFlZa1BWenB6UnZ6M0dIRVJJeTNFVmdfeTJEUWtDNGIzREtseHZwTER5NTFQR1FvQm1mVFV2empwZG5uVGd3UTd1enYzVlJWX0dhVl9PbnVrLXplNVotWFRTZ3ZkOWd6WWhYNXM0NXFINVlmaTlLRXRnaUZYbXhrTEp3MTNESDA5ZmlKclN3eFRTS0toMW1MSnlCMWpJMFRYbE1kcUllMHpPMWVsTUNpOW1PSEtzaEROZVVJQm12dXJH?oc=5",
+   "source": "Hindustan Times",
+   "published": "2026-10-23T10:59:19Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "AI & Robots vs. Tariffs: Musk Doubles Down on His Plan to Tackle $40 Trillion National Debt",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNlhpZ3FwRTRnY25QVDNzemVOZzlQVy1jWWY1eW8tcEpVQ3hrdG52RHNZQXBLWlBZeEpSZ3dLN0pEd0xtalpRUXdQOUtZSkJxc2tDUlczbGF2cXhsUi13bGp3WmFSS0RpdmFlOXlGOVRjWXZfbXB5WVlpT3ZJdTR1blkyX3JWakNKUzFqWGxtQW5nVFp1?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-23T10:00:08Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "After saying millions of jobs will be wiped off, OpenAI CEO Sam Altman says coders are about to get busie",
+   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOWGNTUTBLakxCS3h2c2w2cWhMNmJ4QWo3MEkxelR6ekhoRFVaQ3FGd0cySUhNcTh5YlRjX1kzMWkyNFI0bVZ1aGI2TFNnNEYwTllXWjQzMGZJMWw4TEd1V1hTclRpMUR2U0lQVVBkWEhpQi1ROGxpR0JLVHpCaS0zRmNiQ1E0WGRZWHpuY0Zvb0wtQ3JuUGZlUWliaTdqdUVJdUlWaDhHV3JuSVNheUtTR19fMElSNmpKNkZVMUtWdGlyeWZvaVUyVW9oYWExR1E3YjZoTkREbmI4UjVzWFk5Z2lSVXlMMm1EN3VmNnR0OWxCR1E4VFE4OEptX28xOHd4R1EwYlI5SURVQnhadXBoYV9kcFBYMV9tTjJtTFBuSmxXblhXZERDTDBFdTBkLWNsUTY0SnptWlTSAb4CQVVfeXFMUDVuUm5YcHNFWnZGWmdReV9KUVR2QmN1Yl9OOGlRYmNVOXBDM2ZpU3k1S19YT2hySFZieWFKbEtrSGRTdUk4R0tsTkRPcndoSVgwQVQtcF9fakVxRjhfS2lMbmhMeDFxVy1IYWJsdXV4N2NKZ3oxcjR1Xy0tdF9FX2pWM1JiMVMxYndCNGZRSzJ3MFBkSzBWaEI4QktOeGQ0czJaWW9ZdUtGRVpTbHRwaVNmLVZWeWotY2wtYVV0WThSZFl6dEFxQlVMc0Zodm9kRGNuVXZxVDcxV25fUllPVkZENHNxNVVIOVAtY25lZnJ6U19qemJmeXhtNEQ1aWh5NHVrMzc2RjZRZnJEZjNUVnhRZjllMFNUSkNvbnU0VFRUQVpSalNpWGlJZ283Vkt6U3RNa3Azb0VWNVhOX1R3?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-23T05:52:00Z"
   },
   {
    "kind": "voice",
@@ -64,50 +82,41 @@
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
    "source": "Barron's",
    "published": "2026-10-22T12:56:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Mark Zuckerberg",
-   "title": "Mark Zuckerberg Says Meta Will ‘Build Superintelligence Through Scaling’ After $64.6 Billion Q3 Beat, META Stock Jumps After Hours",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeDRFREtLOXA4QWJmZnZUd2pBSzVGX2VNRHVZT05rcncxb2JNc1B4bkQ0cEZTMnU0YWk0cEhPSUctOGJOaEc4Uk1tMWVneW5uQ1JRcjRNUW5GV2l4a1lKS0VhN0N1UERTZUt4YjBEazJQd3V5MmFqbWoyTnhLSXNOVDJfSGozRFIyWUt4aVRYS0R3S1BMZWNuT2FGdw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-22T07:26:43Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman dismisses AI job loss fears, says coding will actually make you busier",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdzZOeHRKR0tmWEVac2RhcUMwbENmWUpLTF9KTDJKY0VUejZzejJOdEFLNDFsRHNfNXd1N3BUdEszX2NOeXBLU20xQ0FIX2JDUUlLdm5HLVp4VUptc0hXOTA4am1FQl9BWWpaU3hyNl9ST3V2VktCZUFxRzNzYndDNjZfNzIyUGE4Q0MtOG9rd0NwZkY1TllBSFBQNWd4V0c3eEY4STdBaEhqaUZQVFpESlgzSktVM1pHaVdLWTJjUzVYbXBwU2RHbFl3WkpRR1owWUxIaWtxUUk4NUlHM0JvMtIB5gFBVV95cUxOQUNDQmxJcWlDbHNWMTVVdFREc0dHNW1hVDR2Y2FxT3RTVy01b2tfdjNhdmlpaVB0bUx5d2lwSS1DRjQ4d1hHaGdkUmhMbzZzWV94cXFMYkt4RGhpbW1HbzJfUXJ2bnNkUV81MmdpRFd5eE5qTFdCRGdqeVpVSWRqVjhBbnhCLTYyRlU0Q3FBWUllRmt4Tkh2ZTdYQkpKN3RmMjU5NDl2VEpjdzZnUnRwMy1WaHcycjVrbjFqaVFsVlRUdDdKUnlpSE85V01zejgtak1vRXd1WnJlSmdGZ2lVVDRQWHBpdw?oc=5",
-   "source": "India Today",
-   "published": "2026-10-23T04:32:14Z",
-   "since": "2026-10-23T05:58:46Z"
+   "person": "Mark Zuckerberg",
+   "title": "Mark Zuckerberg says Meta is happy with adoption of its chatbot Muse, but admits AI is expensive, and com",
+   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTkNhcDk2dXlDeDFJTVdhaHFFWHEyb2VUbmtpVlY1VG15Y244TG1LTENteU9ZaGRwWlEtM281S3dhcHhfb3d3d2pyeHVZT2RqdlBOTF96bFpfdWUxTEtiNVNQNlhNc2NKYkpUOWNfWEN6SEdGY1lINlRDTkl6Z2tBR0pUTURXNy1qbGNsUlQzbmVKZ3hfUVhpeFNjQmQwRkpFd0xsN0RXS0pYZzZBMDdZYW14dktkdWx0enhlMk1WdjR0Y3ZoeWNMSXlCTUNFNk9ZUWtjVVl2azFUeGMxUXhLWC1nWXhaVkdIdEdzSE4xcTFISktmRGVHS1hJdk9tUVlHalU1bnBLZzNwUmdJemF2UkdxbEN1WktrN0ZfWGF3Wlp6MUU1WFZXWnVreGtMTUUzVk84MDdzVTdPZlUxekwxaW5R0gHHAkFVX3lxTE13N2lXSC1NOWVDYVVhTDdMM3BmRkI3c200R2V3MEh5c1l6ZVRWS1NvMzN6QUtXMzhwczVLYWUyajFtcHNLOENZWmlPVGNOTGoyOTFvYUJxVmctaHJiNUVjM1ZtNzBJR1E0WHZGaEdHTC1hZy00U0s0d0YyQ2hhZGFjQTNxNHl3N0lQbmE3VnZubE1DWnFqNEwweGFCOFFNS0NQZVlmUE5hRzhxd1dGM1dJOVVKSUFITWk3YzllSFVXd0Q3b1FELUxjTHN0aEFCZ3hjTnRUU2RnSk1pTUh3dFhRanhGNGptNVJXY20xYmF1MnZMa1Y1MTlPaEU4TlBnMGNWbWp5Ul9MTFZMUmVFTldmbTZNSFRLamFmT0lqSFpNQlJvNWJsVjVxcXhLaENWU1V5OUJTZWZ1eEt3VVNZN08waDgzOE5IQQ?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-23T11:12:00Z",
+   "since": "2026-10-23T11:30:26Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Sundar Pichai",
-   "title": "Google CEO Sundar Pichai reveals how AI agents help him keep up with company updates",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOU28tdGhPRUdtVjE0V1hXYVBaQ0FPQy1VYUpodXpQZm9MZUZqbkN5RERpZzR5cXZKZjlqNi1rZGNwN3FILTBKVHFDZTZ3R281R3o5ZV9XNS0ySWFuNzByc3pZbEtxaTNfdlQ3WHk4eWNFbWRaMjNhMmJsWWhRVjAzbWJVcHZUeGsycW1GRnJsd1FnZnY4TUJQZzFCMXdvTTdHM3BCelNvd1JqdWdSTGlERFYtamZJLUhBMFpBVDdKLWc5MHZua01BbDV1NWjSAdIBQVVfeXFMUGI1RXB5UzFFUHQ0d2xZdnNOdzlSbE84bDN4eDJBNmZiTl9UeGtNR3ZSUC1DM1pyLW1fOWx1QnAweHVicjYwaW0tcUQ3QVBQR0VaWW1BaTBpQXQ4UnhBT1ZLMTVVZXlOMWVJV0JDRk9Ud2t0NVJWdjRRNmVBUHczMGxadzB0Zm42ckVqbjB0d3VXUTdxT2gxcENicUliOEotNE45UzZKWGtsRlp6MzJuSEpWcVE1WF94VlRNV2p4WF9wQ3RjbXVWNkJESVllQnY4Vll3?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-23T03:57:28Z"
+   "title": "Sundar Pichai says AI now influences almost all code at Google, but fully self-improving AI remains distant | Trending",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSjMyTFNIcHJ2aXRPOG1RZ3M3NmhwUnI1MGo2cWhQd0dVZEJ3anh0ckN0QS1EMzNUd0tyYk04ekNra2hReS1DcmFhUk1xb3NVMnJtMDU2QUpfX2ZKMld5eDdYX3J4MkEyV3FiRFZHRm10RjBIUGY3Y3RSTWJoX0tTUjFhbEZGcEVkcUpzQktiVDA5ODZWbzA2TVA2cGtrRmNmTHZEWUw5eTAyUW11c2E1OXp3cGtzMmlfN0ZnbElUdEczekU1VkFwcmkxbkpZejNUYzlDX3ZjVDZzZjEyeFR3ckhQSVNMTGxrRVZVUXliM2Zza01TelhJY2hpQdIBgAJBVV95cUxNUV9qVTAxbnVxd0RjMDdhR0NsTDlkWU82ZWdjQmhrLXV5YWcxUzVsN3NfbDl5bi1EeE50TjgzVW1kejM3bU1kZFlZa1BWenB6UnZ6M0dIRVJJeTNFVmdfeTJEUWtDNGIzREtseHZwTER5NTFQR1FvQm1mVFV2empwZG5uVGd3UTd1enYzVlJWX0dhVl9PbnVrLXplNVotWFRTZ3ZkOWd6WWhYNXM0NXFINVlmaTlLRXRnaUZYbXhrTEp3MTNESDA5ZmlKclN3eFRTS0toMW1MSnlCMWpJMFRYbE1kcUllMHpPMWVsTUNpOW1PSEtzaEROZVVJQm12dXJH?oc=5",
+   "source": "Hindustan Times",
+   "published": "2026-10-23T10:59:19Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Mustafa Suleyman",
-   "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5",
-   "source": "TechCrunch",
-   "published": "2026-10-22T18:43:53Z"
+   "person": "Elon Musk",
+   "title": "AI & Robots vs. Tariffs: Musk Doubles Down on His Plan to Tackle $40 Trillion National Debt",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNlhpZ3FwRTRnY25QVDNzemVOZzlQVy1jWWY1eW8tcEpVQ3hrdG52RHNZQXBLWlBZeEpSZ3dLN0pEd0xtalpRUXdQOUtZSkJxc2tDUlczbGF2cXhsUi13bGp3WmFSS0RpdmFlOXlGOVRjWXZfbXB5WVlpT3ZJdTR1blkyX3JWakNKUzFqWGxtQW5nVFp1?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-23T10:00:08Z"
   },
   {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 356,
+   "stars": 366,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -117,7 +126,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 25086,
+   "stars": 26198,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -127,7 +136,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 4604,
+   "stars": 4717,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -137,7 +146,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 3562,
+   "stars": 3671,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -147,7 +156,7 @@
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 3350,
+   "stars": 3592,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -157,16 +166,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 350,
-   "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+   "points": 554,
+   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
    "source": "Hacker News",
-   "url": "https://github.com/NVIDIA/OpenShell",
-   "discuss": "https://news.ycombinator.com/item?id=50198675"
+   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+   "discuss": "https://news.ycombinator.com/item?id=50190363"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 320,
+   "points": 455,
    "title": "Every AI model has the same \"controversial\" take on humans",
    "source": "Hacker News",
    "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
@@ -175,7 +184,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 240,
+   "points": 414,
+   "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+   "source": "Hacker News",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "discuss": "https://news.ycombinator.com/item?id=50198675"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 358,
    "title": "LLMs are making formal software verification feasible at a much larger scale",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/formal-verification",
@@ -184,11 +202,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 130,
-   "title": "AI and the Enclosure of the Scientific Commons",
+   "points": 191,
+   "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
    "source": "Hacker News",
-   "url": "https://arxiv.org/abs/2610.27251",
-   "discuss": "https://news.ycombinator.com/item?id=50199230"
+   "url": "https://news.ycombinator.com/item?id=50200997",
+   "discuss": "https://news.ycombinator.com/item?id=50200997"
   },
   {
    "kind": "news",

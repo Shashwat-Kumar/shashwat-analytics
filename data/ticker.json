@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T11:30:26Z",
+ "generated_at": "2026-10-23T15:53:57Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,36 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "LLMs are making formal software verification feasible at a much larger scale",
-  "url": "https://www.anthropic.com/research/formal-verification",
+  "title": "Swedish government offices to ban ChatGPT and Claude",
+  "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50202217",
-  "points": 358,
-  "comments": 212,
-  "published": "2026-10-22T22:54:43Z",
-  "since": "2026-10-23T05:58:46Z"
+  "discuss": "https://news.ycombinator.com/item?id=50207405",
+  "points": 293,
+  "comments": 100,
+  "published": "2026-10-23T11:39:54Z",
+  "since": "2026-10-23T15:53:57Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Mark Zuckerberg",
-  "title": "Mark Zuckerberg says Meta is happy with adoption of its chatbot Muse, but admits AI is expensive, and com",
-  "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTkNhcDk2dXlDeDFJTVdhaHFFWHEyb2VUbmtpVlY1VG15Y244TG1LTENteU9ZaGRwWlEtM281S3dhcHhfb3d3d2pyeHVZT2RqdlBOTF96bFpfdWUxTEtiNVNQNlhNc2NKYkpUOWNfWEN6SEdGY1lINlRDTkl6Z2tBR0pUTURXNy1qbGNsUlQzbmVKZ3hfUVhpeFNjQmQwRkpFd0xsN0RXS0pYZzZBMDdZYW14dktkdWx0enhlMk1WdjR0Y3ZoeWNMSXlCTUNFNk9ZUWtjVVl2azFUeGMxUXhLWC1nWXhaVkdIdEdzSE4xcTFISktmRGVHS1hJdk9tUVlHalU1bnBLZzNwUmdJemF2UkdxbEN1WktrN0ZfWGF3Wlp6MUU1WFZXWnVreGtMTUUzVk84MDdzVTdPZlUxekwxaW5R0gHHAkFVX3lxTE13N2lXSC1NOWVDYVVhTDdMM3BmRkI3c200R2V3MEh5c1l6ZVRWS1NvMzN6QUtXMzhwczVLYWUyajFtcHNLOENZWmlPVGNOTGoyOTFvYUJxVmctaHJiNUVjM1ZtNzBJR1E0WHZGaEdHTC1hZy00U0s0d0YyQ2hhZGFjQTNxNHl3N0lQbmE3VnZubE1DWnFqNEwweGFCOFFNS0NQZVlmUE5hRzhxd1dGM1dJOVVKSUFITWk3YzllSFVXd0Q3b1FELUxjTHN0aEFCZ3hjTnRUU2RnSk1pTUh3dFhRanhGNGptNVJXY20xYmF1MnZMa1Y1MTlPaEU4TlBnMGNWbWp5Ul9MTFZMUmVFTldmbTZNSFRLamFmT0lqSFpNQlJvNWJsVjVxcXhLaENWU1V5OUJTZWZ1eEt3VVNZN08waDgzOE5IQQ?oc=5",
-  "source": "The Times of India",
-  "published": "2026-10-23T11:12:00Z",
-  "since": "2026-10-23T11:30:26Z"
+  "person": "Jensen Huang",
+  "title": "Jensen Huang says AI is short on cash — and stock futures are slipping again",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQMlF5N0NJM2hLNE1PZW1zUnQwSkVfLUJuRUVmSnVZNHd2b2VtUlR6ZjNUTE5EZ1FBZWh0MTdVbmMwM3ltZjh4Z1pEcXVpWUtiT3RwSHJmaHQzTkJWbXllZmNWNHFCY3dFTDhuMG9TTi1ScWZNNEI0?oc=5",
+  "source": "Quartz",
+  "published": "2026-10-23T11:32:50Z",
+  "since": "2026-10-23T15:53:57Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Jensen Huang says AI is short on cash — and stock futures are slipping again",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQMlF5N0NJM2hLNE1PZW1zUnQwSkVfLUJuRUVmSnVZNHd2b2VtUlR6ZjNUTE5EZ1FBZWh0MTdVbmMwM3ltZjh4Z1pEcXVpWUtiT3RwSHJmaHQzTkJWbXllZmNWNHFCY3dFTDhuMG9TTi1ScWZNNEI0?oc=5",
+   "source": "Quartz",
+   "published": "2026-10-23T11:32:50Z",
+   "since": "2026-10-23T15:53:57Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,8 +45,7 @@
    "title": "Mark Zuckerberg says Meta is happy with adoption of its chatbot Muse, but admits AI is expensive, and com",
    "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTkNhcDk2dXlDeDFJTVdhaHFFWHEyb2VUbmtpVlY1VG15Y244TG1LTENteU9ZaGRwWlEtM281S3dhcHhfb3d3d2pyeHVZT2RqdlBOTF96bFpfdWUxTEtiNVNQNlhNc2NKYkpUOWNfWEN6SEdGY1lINlRDTkl6Z2tBR0pUTURXNy1qbGNsUlQzbmVKZ3hfUVhpeFNjQmQwRkpFd0xsN0RXS0pYZzZBMDdZYW14dktkdWx0enhlMk1WdjR0Y3ZoeWNMSXlCTUNFNk9ZUWtjVVl2azFUeGMxUXhLWC1nWXhaVkdIdEdzSE4xcTFISktmRGVHS1hJdk9tUVlHalU1bnBLZzNwUmdJemF2UkdxbEN1WktrN0ZfWGF3Wlp6MUU1WFZXWnVreGtMTUUzVk84MDdzVTdPZlUxekwxaW5R0gHHAkFVX3lxTE13N2lXSC1NOWVDYVVhTDdMM3BmRkI3c200R2V3MEh5c1l6ZVRWS1NvMzN6QUtXMzhwczVLYWUyajFtcHNLOENZWmlPVGNOTGoyOTFvYUJxVmctaHJiNUVjM1ZtNzBJR1E0WHZGaEdHTC1hZy00U0s0d0YyQ2hhZGFjQTNxNHl3N0lQbmE3VnZubE1DWnFqNEwweGFCOFFNS0NQZVlmUE5hRzhxd1dGM1dJOVVKSUFITWk3YzllSFVXd0Q3b1FELUxjTHN0aEFCZ3hjTnRUU2RnSk1pTUh3dFhRanhGNGptNVJXY20xYmF1MnZMa1Y1MTlPaEU4TlBnMGNWbWp5Ul9MTFZMUmVFTldmbTZNSFRLamFmT0lqSFpNQlJvNWJsVjVxcXhLaENWU1V5OUJTZWZ1eEt3VVNZN08waDgzOE5IQQ?oc=5",
    "source": "The Times of India",
-   "published": "2026-10-23T11:12:00Z",
-   "since": "2026-10-23T11:30:26Z"
+   "published": "2026-10-23T11:12:00Z"
   },
   {
    "kind": "voice",
@@ -73,18 +82,19 @@
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5",
    "source": "TechCrunch",
    "published": "2026-10-22T18:43:53Z"
-  },
+  }
+ ],
+ "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Nvidia’s Jensen Huang Reveals AI Data Center Quick-Fix. These Stocks Are Winners.",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmUDhYeUJnWWhob3owVVl0czY4VWFJck5oTk84ZHpJa2tFaEd5TElmdGJRUnl5bEcxVTZ1S21QcEUtY2QwZ2pDaUdmemNzdlgwRnY4QnBIVG95dTkzOHRaaXFaX3ZRdE45RTJQb0FiVWhZdE5UbE15elNvTWpPWFE?oc=5",
-   "source": "Barron's",
-   "published": "2026-10-22T12:56:00Z"
-  }
- ],
- "items": [
+   "title": "Jensen Huang says AI is short on cash — and stock futures are slipping again",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQMlF5N0NJM2hLNE1PZW1zUnQwSkVfLUJuRUVmSnVZNHd2b2VtUlR6ZjNUTE5EZ1FBZWh0MTdVbmMwM3ltZjh4Z1pEcXVpWUtiT3RwSHJmaHQzTkJWbXllZmNWNHFCY3dFTDhuMG9TTi1ScWZNNEI0?oc=5",
+   "source": "Quartz",
+   "published": "2026-10-23T11:32:50Z",
+   "since": "2026-10-23T15:53:57Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -92,8 +102,7 @@
    "title": "Mark Zuckerberg says Meta is happy with adoption of its chatbot Muse, but admits AI is expensive, and com",
    "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTkNhcDk2dXlDeDFJTVdhaHFFWHEyb2VUbmtpVlY1VG15Y244TG1LTENteU9ZaGRwWlEtM281S3dhcHhfb3d3d2pyeHVZT2RqdlBOTF96bFpfdWUxTEtiNVNQNlhNc2NKYkpUOWNfWEN6SEdGY1lINlRDTkl6Z2tBR0pUTURXNy1qbGNsUlQzbmVKZ3hfUVhpeFNjQmQwRkpFd0xsN0RXS0pYZzZBMDdZYW14dktkdWx0enhlMk1WdjR0Y3ZoeWNMSXlCTUNFNk9ZUWtjVVl2azFUeGMxUXhLWC1nWXhaVkdIdEdzSE4xcTFISktmRGVHS1hJdk9tUVlHalU1bnBLZzNwUmdJemF2UkdxbEN1WktrN0ZfWGF3Wlp6MUU1WFZXWnVreGtMTUUzVk84MDdzVTdPZlUxekwxaW5R0gHHAkFVX3lxTE13N2lXSC1NOWVDYVVhTDdMM3BmRkI3c200R2V3MEh5c1l6ZVRWS1NvMzN6QUtXMzhwczVLYWUyajFtcHNLOENZWmlPVGNOTGoyOTFvYUJxVmctaHJiNUVjM1ZtNzBJR1E0WHZGaEdHTC1hZy00U0s0d0YyQ2hhZGFjQTNxNHl3N0lQbmE3VnZubE1DWnFqNEwweGFCOFFNS0NQZVlmUE5hRzhxd1dGM1dJOVVKSUFITWk3YzllSFVXd0Q3b1FELUxjTHN0aEFCZ3hjTnRUU2RnSk1pTUh3dFhRanhGNGptNVJXY20xYmF1MnZMa1Y1MTlPaEU4TlBnMGNWbWp5Ul9MTFZMUmVFTldmbTZNSFRLamFmT0lqSFpNQlJvNWJsVjVxcXhLaENWU1V5OUJTZWZ1eEt3VVNZN08waDgzOE5IQQ?oc=5",
    "source": "The Times of India",
-   "published": "2026-10-23T11:12:00Z",
-   "since": "2026-10-23T11:30:26Z"
+   "published": "2026-10-23T11:12:00Z"
   },
   {
    "kind": "voice",
@@ -105,18 +114,9 @@
    "published": "2026-10-23T10:59:19Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "AI & Robots vs. Tariffs: Musk Doubles Down on His Plan to Tackle $40 Trillion National Debt",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNlhpZ3FwRTRnY25QVDNzemVOZzlQVy1jWWY1eW8tcEpVQ3hrdG52RHNZQXBLWlBZeEpSZ3dLN0pEd0xtalpRUXdQOUtZSkJxc2tDUlczbGF2cXhsUi13bGp3WmFSS0RpdmFlOXlGOVRjWXZfbXB5WVlpT3ZJdTR1blkyX3JWakNKUzFqWGxtQW5nVFp1?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-23T10:00:08Z"
-  },
-  {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 366,
+   "stars": 368,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -126,7 +126,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 26198,
+   "stars": 26968,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -136,7 +136,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 4717,
+   "stars": 4800,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -146,7 +146,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 3671,
+   "stars": 3783,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -156,7 +156,7 @@
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 3592,
+   "stars": 3726,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -166,7 +166,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 554,
+   "points": 583,
    "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
    "source": "Hacker News",
    "url": "https://simedw.com/2026/10/21/world-model-terminal/",
@@ -175,7 +175,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 455,
+   "points": 559,
    "title": "Every AI model has the same \"controversial\" take on humans",
    "source": "Hacker News",
    "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
@@ -184,7 +184,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 414,
+   "points": 461,
    "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
    "source": "Hacker News",
    "url": "https://github.com/NVIDIA/OpenShell",
@@ -193,7 +193,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 358,
+   "points": 397,
    "title": "LLMs are making formal software verification feasible at a much larger scale",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/formal-verification",
@@ -202,11 +202,29 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 191,
+   "points": 348,
    "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50200997",
    "discuss": "https://news.ycombinator.com/item?id=50200997"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 293,
+   "title": "Swedish government offices to ban ChatGPT and Claude",
+   "source": "Hacker News",
+   "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+   "discuss": "https://news.ycombinator.com/item?id=50207405"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 14,
+   "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
+   "source": "Hacker News",
+   "url": "https://www.thisandthat.chat/enron/",
+   "discuss": "https://news.ycombinator.com/item?id=50207620"
   },
   {
    "kind": "news",

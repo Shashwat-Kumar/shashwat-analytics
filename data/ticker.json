@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T19:55:32Z",
+ "generated_at": "2026-10-23T23:04:34Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,35 +8,35 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-  "url": "https://news.ycombinator.com/item?id=50200997",
+  "title": "Dessa: the most authentic full-duplex speech model ever built",
+  "url": "https://block.xyz/dessa",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50200997",
-  "points": 506,
-  "comments": 556,
-  "published": "2026-10-22T21:03:55Z",
-  "since": "2026-10-23T19:55:32Z"
+  "discuss": "https://news.ycombinator.com/item?id=50213925",
+  "points": 152,
+  "comments": 58,
+  "published": "2026-10-23T19:09:54Z",
+  "since": "2026-10-23T23:04:34Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
   "person": "Jensen Huang",
-  "title": "Jensen Huang says AI is short on cash — and stock futures are slipping again",
-  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQMlF5N0NJM2hLNE1PZW1zUnQwSkVfLUJuRUVmSnVZNHd2b2VtUlR6ZjNUTE5EZ1FBZWh0MTdVbmMwM3ltZjh4Z1pEcXVpWUtiT3RwSHJmaHQzTkJWbXllZmNWNHFCY3dFTDhuMG9TTi1ScWZNNEI0?oc=5",
-  "source": "Quartz",
-  "published": "2026-10-23T11:32:50Z",
-  "since": "2026-10-23T15:53:57Z"
+  "title": "Nvidia CEO Jensen Huang Says US Must Take China ‘Seriously,’ Warns Against Underestimating Its AI and Chipmaking Prowess: ‘If There's One Country That Could Manufacture Things at Scale’",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSVU1bXVnbG0xaVJfRVZySVhKNGctb3pqZXdqQXJoWVRfU3ljb3l6ZkZfWHBTejNMc0dTTFBwY0o1QlN0YlZWeGZQdlpDQzlVb2hMM3ZEekhiV21OQVZXeTlZWFJCdDlaVFlpS2l4UmE0bkxYcm9ZN2J4eFcwblA4MGtLNnd4Ymh5WktpbmlVQ0c4ckVwaVEw?oc=5",
+  "source": "Yahoo Finance",
+  "published": "2026-10-23T19:30:22Z",
+  "since": "2026-10-23T23:04:34Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Jensen Huang says AI is short on cash — and stock futures are slipping again",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQMlF5N0NJM2hLNE1PZW1zUnQwSkVfLUJuRUVmSnVZNHd2b2VtUlR6ZjNUTE5EZ1FBZWh0MTdVbmMwM3ltZjh4Z1pEcXVpWUtiT3RwSHJmaHQzTkJWbXllZmNWNHFCY3dFTDhuMG9TTi1ScWZNNEI0?oc=5",
-   "source": "Quartz",
-   "published": "2026-10-23T11:32:50Z",
-   "since": "2026-10-23T15:53:57Z"
+   "title": "Nvidia CEO Jensen Huang Says US Must Take China ‘Seriously,’ Warns Against Underestimating Its AI and Chipmaking Prowess: ‘If There's One Country That Could Manufacture Things at Scale’",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSVU1bXVnbG0xaVJfRVZySVhKNGctb3pqZXdqQXJoWVRfU3ljb3l6ZkZfWHBTejNMc0dTTFBwY0o1QlN0YlZWeGZQdlpDQzlVb2hMM3ZEekhiV21OQVZXeTlZWFJCdDlaVFlpS2l4UmE0bkxYcm9ZN2J4eFcwblA4MGtLNnd4Ymh5WktpbmlVQ0c4ckVwaVEw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-23T19:30:22Z",
+   "since": "2026-10-23T23:04:34Z"
   },
   {
    "kind": "voice",
@@ -80,11 +80,11 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Jensen Huang",
-   "title": "Jensen Huang says AI is short on cash — and stock futures are slipping again",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQMlF5N0NJM2hLNE1PZW1zUnQwSkVfLUJuRUVmSnVZNHd2b2VtUlR6ZjNUTE5EZ1FBZWh0MTdVbmMwM3ltZjh4Z1pEcXVpWUtiT3RwSHJmaHQzTkJWbXllZmNWNHFCY3dFTDhuMG9TTi1ScWZNNEI0?oc=5",
-   "source": "Quartz",
-   "published": "2026-10-23T11:32:50Z",
-   "since": "2026-10-23T15:53:57Z"
+   "title": "Nvidia CEO Jensen Huang Says US Must Take China ‘Seriously,’ Warns Against Underestimating Its AI and Chipmaking Prowess: ‘If There's One Country That Could Manufacture Things at Scale’",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSVU1bXVnbG0xaVJfRVZySVhKNGctb3pqZXdqQXJoWVRfU3ljb3l6ZkZfWHBTejNMc0dTTFBwY0o1QlN0YlZWeGZQdlpDQzlVb2hMM3ZEekhiV21OQVZXeTlZWFJCdDlaVFlpS2l4UmE0bkxYcm9ZN2J4eFcwblA4MGtLNnd4Ymh5WktpbmlVQ0c4ckVwaVEw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-23T19:30:22Z",
+   "since": "2026-10-23T23:04:34Z"
   },
   {
    "kind": "voice",
@@ -107,7 +107,7 @@
   {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 370,
+   "stars": 372,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -117,7 +117,7 @@
   {
    "kind": "repo",
    "title": "Gathin23/cleanyourtv",
-   "stars": 27493,
+   "stars": 27800,
    "note": "Java · new this week",
    "url": "https://github.com/Gathin23/cleanyourtv",
    "source": "GitHub",
@@ -127,7 +127,7 @@
   {
    "kind": "repo",
    "title": "ly05010419/MacNativeGames",
-   "stars": 4843,
+   "stars": 4876,
    "note": "C · new this week",
    "url": "https://github.com/ly05010419/MacNativeGames",
    "source": "GitHub",
@@ -137,7 +137,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 3879,
+   "stars": 3936,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -147,7 +147,7 @@
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 3786,
+   "stars": 3799,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -157,11 +157,63 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 506,
-   "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+   "points": 608,
+   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
    "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50200997",
-   "discuss": "https://news.ycombinator.com/item?id=50200997"
+   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+   "discuss": "https://news.ycombinator.com/item?id=50190363"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 181,
+   "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+   "source": "Hacker News",
+   "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+   "discuss": "https://news.ycombinator.com/item?id=50214218"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 152,
+   "title": "Dessa: the most authentic full-duplex speech model ever built",
+   "source": "Hacker News",
+   "url": "https://block.xyz/dessa",
+   "discuss": "https://news.ycombinator.com/item?id=50213925"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 52,
+   "title": "Securing our frontier model training environment",
+   "source": "Hacker News",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "discuss": "https://news.ycombinator.com/item?id=50214416"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 4,
+   "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+   "source": "Hacker News",
+   "url": "https://corgi.computer/",
+   "discuss": "https://news.ycombinator.com/item?id=50214373"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 3,
+   "title": "John Snow Cholera Data",
+   "source": "Hacker News",
+   "url": "https://johnsnow.rtwilson.com/",
+   "discuss": "https://news.ycombinator.com/item?id=50179454"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/"
   },
   {
    "kind": "news",
@@ -187,12 +239,24 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
+   "title": "Designing an AI serving harness built to last",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "The Foundations of Scalable AI",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Making the case for context-aware AI",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
   }
  ],
- "errors": [
-  "MIT Technology Review:HTTP Error 403: Forbidden"
- ]
+ "errors": []
 }

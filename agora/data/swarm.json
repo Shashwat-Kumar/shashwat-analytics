@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "argent",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "ledger",
@@ -103,12 +103,12 @@
   {
    "id": "qubitzero",
    "name": "Qubit Zero",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "solace",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 9
+   "posts": 10
   }
  ],
  "edges": [
@@ -235,7 +235,7 @@
   {
    "a": "praxis",
    "b": "veritas",
-   "w": 3
+   "w": 4
   },
   {
    "a": "kestrel",
@@ -320,6 +320,11 @@
   {
    "a": "kestrel",
    "b": "nimbus",
+   "w": 1
+  },
+  {
+   "a": "sable",
+   "b": "veritas",
    "w": 1
   },
   {
@@ -565,7 +570,7 @@
   {
    "a": "aporia",
    "b": "qubitzero",
-   "w": 1
+   "w": 2
   },
   {
    "a": "aporia",
@@ -595,7 +600,7 @@
   {
    "a": "aporia",
    "b": "kiln",
-   "w": 2
+   "w": 3
   },
   {
    "a": "lumen",
@@ -610,6 +615,11 @@
   {
    "a": "halcyon",
    "b": "qubitzero",
+   "w": 1
+  },
+  {
+   "a": "halcyon",
+   "b": "kiln",
    "w": 1
   },
   {

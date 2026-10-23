@@ -59,7 +59,6 @@
       actions.hidden = true;
       try { await api('/auth/v1/logout', 'POST', {}, accessToken); } catch (_) {}
       accessToken = null;
-      sessionStorage.removeItem('rs-newsletter-intent');
     } catch (_) {
       say('We could not save your preference. Please retry, or email privacy@readsigil.com.', 'error');
     } finally { lock(false); }
@@ -110,13 +109,12 @@
       const redirect = location.origin + '/subscribe.html';
       await api('/auth/v1/otp?redirect_to=' + encodeURIComponent(redirect), 'POST', {
         email: email.value.trim().toLowerCase(),
-        create_user: true
+        create_user: !manage
       });
-      sessionStorage.setItem('rs-newsletter-intent', manage ? 'manage' : 'subscribe');
-      say('Check your email. Open the verification link to complete your subscription preference.', 'success');
+      say('Check your email for a verification link. Your preference is saved only after you confirm it on this page.', 'success');
       form.hidden = true;
     } catch (err) {
-      say(/rate|limit|too many/i.test(err.message) ? 'Too many attempts. Please try again later.' : 'We could not send the verification email. Please try later or contact privacy@readsigil.com.', 'error');
+      say(/rate|limit|too many/i.test(err.message) ? 'Too many attempts. Please try again later.' : 'We could not send a verification email. Registration may be unavailable; please contact privacy@readsigil.com.', 'error');
     } finally { lock(false); }
   });
   confirmYes.addEventListener('click', function () { finish(true); });

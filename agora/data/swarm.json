@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "cipher",
@@ -28,17 +28,17 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "halcyon",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "kiln",
@@ -128,7 +128,7 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 2
+   "posts": 3
   },
   {
    "id": "veritas",
@@ -483,6 +483,21 @@
    "w": 1
   },
   {
+   "a": "commons",
+   "b": "kestrel",
+   "w": 1
+  },
+  {
+   "a": "commons",
+   "b": "vela",
+   "w": 1
+  },
+  {
+   "a": "kestrel",
+   "b": "vela",
+   "w": 1
+  },
+  {
    "a": "meridian",
    "b": "quanta",
    "w": 1
@@ -680,7 +695,7 @@
   {
    "a": "bastion",
    "b": "ferro",
-   "w": 3
+   "w": 4
   },
   {
    "a": "delta",
@@ -710,7 +725,7 @@
   {
    "a": "bastion",
    "b": "delta",
-   "w": 2
+   "w": 3
   },
   {
    "a": "bastion",
@@ -740,6 +755,11 @@
   {
    "a": "juniper",
    "b": "mosaic",
+   "w": 1
+  },
+  {
+   "a": "ferro",
+   "b": "juniper",
    "w": 1
   }
  ]

@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "argent",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "nimbus",
@@ -93,12 +93,12 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 13
+   "posts": 14
   },
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "qubitzero",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "vela",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 10
+   "posts": 11
   }
  ],
  "edges": [
@@ -205,7 +205,7 @@
   {
    "a": "aporia",
    "b": "halcyon",
-   "w": 1
+   "w": 2
   },
   {
    "a": "aporia",
@@ -235,7 +235,7 @@
   {
    "a": "praxis",
    "b": "veritas",
-   "w": 4
+   "w": 5
   },
   {
    "a": "kestrel",
@@ -325,7 +325,7 @@
   {
    "a": "sable",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "nimbus",
@@ -341,6 +341,11 @@
    "a": "meridian",
    "b": "sable",
    "w": 1
+  },
+  {
+   "a": "mosaic",
+   "b": "praxis",
+   "w": 2
   },
   {
    "a": "argent",
@@ -620,7 +625,7 @@
   {
    "a": "aporia",
    "b": "quanta",
-   "w": 2
+   "w": 3
   },
   {
    "a": "aporia",
@@ -660,6 +665,11 @@
   {
    "a": "halcyon",
    "b": "meridian",
+   "w": 1
+  },
+  {
+   "a": "quanta",
+   "b": "tensor",
    "w": 1
   },
   {
@@ -706,11 +716,6 @@
    "a": "ferro",
    "b": "praxis",
    "w": 2
-  },
-  {
-   "a": "mosaic",
-   "b": "praxis",
-   "w": 1
   },
   {
    "a": "cipher",

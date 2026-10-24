@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T01:32:18Z",
+ "generated_at": "2026-10-24T06:24:44Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,12 +8,12 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Dessa: the most authentic full-duplex speech model ever built",
+  "title": "Dessa: Conversation Model trained only on speech",
   "url": "https://block.xyz/dessa",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50213925",
-  "points": 224,
-  "comments": 96,
+  "points": 337,
+  "comments": 129,
   "published": "2026-10-23T19:09:54Z",
   "since": "2026-10-23T23:04:34Z"
  },
@@ -64,15 +64,6 @@
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNlhpZ3FwRTRnY25QVDNzemVOZzlQVy1jWWY1eW8tcEpVQ3hrdG52RHNZQXBLWlBZeEpSZ3dLN0pEd0xtalpRUXdQOUtZSkJxc2tDUlczbGF2cXhsUi13bGp3WmFSS0RpdmFlOXlGOVRjWXZfbXB5WVlpT3ZJdTR1blkyX3JWakNKUzFqWGxtQW5nVFp1?oc=5",
    "source": "Yahoo Finance",
    "published": "2026-10-23T10:00:08Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "After saying millions of jobs will be wiped off, OpenAI CEO Sam Altman says coders are about to get busie",
-   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOWGNTUTBLakxCS3h2c2w2cWhMNmJ4QWo3MEkxelR6ekhoRFVaQ3FGd0cySUhNcTh5YlRjX1kzMWkyNFI0bVZ1aGI2TFNnNEYwTllXWjQzMGZJMWw4TEd1V1hTclRpMUR2U0lQVVBkWEhpQi1ROGxpR0JLVHpCaS0zRmNiQ1E0WGRZWHpuY0Zvb0wtQ3JuUGZlUWliaTdqdUVJdUlWaDhHV3JuSVNheUtTR19fMElSNmpKNkZVMUtWdGlyeWZvaVUyVW9oYWExR1E3YjZoTkREbmI4UjVzWFk5Z2lSVXlMMm1EN3VmNnR0OWxCR1E4VFE4OEptX28xOHd4R1EwYlI5SURVQnhadXBoYV9kcFBYMV9tTjJtTFBuSmxXblhXZERDTDBFdTBkLWNsUTY0SnptWlTSAb4CQVVfeXFMUDVuUm5YcHNFWnZGWmdReV9KUVR2QmN1Yl9OOGlRYmNVOXBDM2ZpU3k1S19YT2hySFZieWFKbEtrSGRTdUk4R0tsTkRPcndoSVgwQVQtcF9fakVxRjhfS2lMbmhMeDFxVy1IYWJsdXV4N2NKZ3oxcjR1Xy0tdF9FX2pWM1JiMVMxYndCNGZRSzJ3MFBkSzBWaEI4QktOeGQ0czJaWW9ZdUtGRVpTbHRwaVNmLVZWeWotY2wtYVV0WThSZFl6dEFxQlVMc0Zodm9kRGNuVXZxVDcxV25fUllPVkZENHNxNVVIOVAtY25lZnJ6U19qemJmeXhtNEQ1aWh5NHVrMzc2RjZRZnJEZjNUVnhRZjllMFNUSkNvbnU0VFRUQVpSalNpWGlJZ283Vkt6U3RNa3Azb0VWNVhOX1R3?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-23T05:52:00Z"
   }
  ],
  "items": [
@@ -107,7 +98,7 @@
   {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 373,
+   "stars": 378,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -117,7 +108,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 3968,
+   "stars": 4019,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -127,7 +118,7 @@
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 3844,
+   "stars": 3988,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -137,7 +128,7 @@
   {
    "kind": "repo",
    "title": "xiaoyang111222/cn-math-taxonomy",
-   "stars": 2829,
+   "stars": 2919,
    "note": "Python · new this week",
    "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
    "source": "GitHub",
@@ -147,7 +138,7 @@
   {
    "kind": "repo",
    "title": "JoasASantos/REA-Prompts",
-   "stars": 1746,
+   "stars": 1794,
    "note": " · new this week",
    "url": "https://github.com/JoasASantos/REA-Prompts",
    "source": "GitHub",
@@ -157,26 +148,8 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 612,
-   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-   "source": "Hacker News",
-   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-   "discuss": "https://news.ycombinator.com/item?id=50190363"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 270,
-   "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-   "source": "Hacker News",
-   "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-   "discuss": "https://news.ycombinator.com/item?id=50214218"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 224,
-   "title": "Dessa: the most authentic full-duplex speech model ever built",
+   "points": 337,
+   "title": "Dessa: Conversation Model trained only on speech",
    "source": "Hacker News",
    "url": "https://block.xyz/dessa",
    "discuss": "https://news.ycombinator.com/item?id=50213925"
@@ -184,20 +157,29 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 72,
-   "title": "Securing our frontier model training environment",
-   "source": "Hacker News",
-   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-   "discuss": "https://news.ycombinator.com/item?id=50214416"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 32,
+   "points": 67,
    "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
    "source": "Hacker News",
    "url": "https://corgi.computer/",
    "discuss": "https://news.ycombinator.com/item?id=50214373"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 28,
+   "title": "A practical guide to AI image generation, from diffusion to agents",
+   "source": "Hacker News",
+   "url": "https://danielball.com/notes/ai_image_generation.html",
+   "discuss": "https://news.ycombinator.com/item?id=50171379"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 3,
+   "title": "CowAgent – Open-Source Super AI Assistant",
+   "source": "Hacker News",
+   "url": "https://cowagent.ai/en/",
+   "discuss": "https://news.ycombinator.com/item?id=50218141"
   },
   {
    "kind": "news",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T06:24:44Z",
+ "generated_at": "2026-10-24T11:32:58Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Dessa: Conversation Model trained only on speech",
-  "url": "https://block.xyz/dessa",
+  "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+  "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50213925",
-  "points": 337,
-  "comments": 129,
-  "published": "2026-10-23T19:09:54Z",
-  "since": "2026-10-23T23:04:34Z"
+  "discuss": "https://news.ycombinator.com/item?id=50218633",
+  "points": 194,
+  "comments": 49,
+  "published": "2026-10-24T05:49:57Z",
+  "since": "2026-10-24T11:32:58Z"
  },
  "voice": {
   "kind": "voice",
@@ -37,33 +37,6 @@
    "source": "Yahoo Finance",
    "published": "2026-10-23T19:30:22Z",
    "since": "2026-10-23T23:04:34Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Mark Zuckerberg",
-   "title": "Mark Zuckerberg says Meta is happy with adoption of its chatbot Muse, but admits AI is expensive, and com",
-   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTkNhcDk2dXlDeDFJTVdhaHFFWHEyb2VUbmtpVlY1VG15Y244TG1LTENteU9ZaGRwWlEtM281S3dhcHhfb3d3d2pyeHVZT2RqdlBOTF96bFpfdWUxTEtiNVNQNlhNc2NKYkpUOWNfWEN6SEdGY1lINlRDTkl6Z2tBR0pUTURXNy1qbGNsUlQzbmVKZ3hfUVhpeFNjQmQwRkpFd0xsN0RXS0pYZzZBMDdZYW14dktkdWx0enhlMk1WdjR0Y3ZoeWNMSXlCTUNFNk9ZUWtjVVl2azFUeGMxUXhLWC1nWXhaVkdIdEdzSE4xcTFISktmRGVHS1hJdk9tUVlHalU1bnBLZzNwUmdJemF2UkdxbEN1WktrN0ZfWGF3Wlp6MUU1WFZXWnVreGtMTUUzVk84MDdzVTdPZlUxekwxaW5R0gHHAkFVX3lxTE13N2lXSC1NOWVDYVVhTDdMM3BmRkI3c200R2V3MEh5c1l6ZVRWS1NvMzN6QUtXMzhwczVLYWUyajFtcHNLOENZWmlPVGNOTGoyOTFvYUJxVmctaHJiNUVjM1ZtNzBJR1E0WHZGaEdHTC1hZy00U0s0d0YyQ2hhZGFjQTNxNHl3N0lQbmE3VnZubE1DWnFqNEwweGFCOFFNS0NQZVlmUE5hRzhxd1dGM1dJOVVKSUFITWk3YzllSFVXd0Q3b1FELUxjTHN0aEFCZ3hjTnRUU2RnSk1pTUh3dFhRanhGNGptNVJXY20xYmF1MnZMa1Y1MTlPaEU4TlBnMGNWbWp5Ul9MTFZMUmVFTldmbTZNSFRLamFmT0lqSFpNQlJvNWJsVjVxcXhLaENWU1V5OUJTZWZ1eEt3VVNZN08waDgzOE5IQQ?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-23T11:12:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Sundar Pichai says AI now influences almost all code at Google, but fully self-improving AI remains distant | Trending",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSjMyTFNIcHJ2aXRPOG1RZ3M3NmhwUnI1MGo2cWhQd0dVZEJ3anh0ckN0QS1EMzNUd0tyYk04ekNra2hReS1DcmFhUk1xb3NVMnJtMDU2QUpfX2ZKMld5eDdYX3J4MkEyV3FiRFZHRm10RjBIUGY3Y3RSTWJoX0tTUjFhbEZGcEVkcUpzQktiVDA5ODZWbzA2TVA2cGtrRmNmTHZEWUw5eTAyUW11c2E1OXp3cGtzMmlfN0ZnbElUdEczekU1VkFwcmkxbkpZejNUYzlDX3ZjVDZzZjEyeFR3ckhQSVNMTGxrRVZVUXliM2Zza01TelhJY2hpQdIBgAJBVV95cUxNUV9qVTAxbnVxd0RjMDdhR0NsTDlkWU82ZWdjQmhrLXV5YWcxUzVsN3NfbDl5bi1EeE50TjgzVW1kejM3bU1kZFlZa1BWenB6UnZ6M0dIRVJJeTNFVmdfeTJEUWtDNGIzREtseHZwTER5NTFQR1FvQm1mVFV2empwZG5uVGd3UTd1enYzVlJWX0dhVl9PbnVrLXplNVotWFRTZ3ZkOWd6WWhYNXM0NXFINVlmaTlLRXRnaUZYbXhrTEp3MTNESDA5ZmlKclN3eFRTS0toMW1MSnlCMWpJMFRYbE1kcUllMHpPMWVsTUNpOW1PSEtzaEROZVVJQm12dXJH?oc=5",
-   "source": "Hindustan Times",
-   "published": "2026-10-23T10:59:19Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "AI & Robots vs. Tariffs: Musk Doubles Down on His Plan to Tackle $40 Trillion National Debt",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNlhpZ3FwRTRnY25QVDNzemVOZzlQVy1jWWY1eW8tcEpVQ3hrdG52RHNZQXBLWlBZeEpSZ3dLN0pEd0xtalpRUXdQOUtZSkJxc2tDUlczbGF2cXhsUi13bGp3WmFSS0RpdmFlOXlGOVRjWXZfbXB5WVlpT3ZJdTR1blkyX3JWakNKUzFqWGxtQW5nVFp1?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-23T10:00:08Z"
   }
  ],
  "items": [
@@ -78,27 +51,9 @@
    "since": "2026-10-23T23:04:34Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Mark Zuckerberg",
-   "title": "Mark Zuckerberg says Meta is happy with adoption of its chatbot Muse, but admits AI is expensive, and com",
-   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTkNhcDk2dXlDeDFJTVdhaHFFWHEyb2VUbmtpVlY1VG15Y244TG1LTENteU9ZaGRwWlEtM281S3dhcHhfb3d3d2pyeHVZT2RqdlBOTF96bFpfdWUxTEtiNVNQNlhNc2NKYkpUOWNfWEN6SEdGY1lINlRDTkl6Z2tBR0pUTURXNy1qbGNsUlQzbmVKZ3hfUVhpeFNjQmQwRkpFd0xsN0RXS0pYZzZBMDdZYW14dktkdWx0enhlMk1WdjR0Y3ZoeWNMSXlCTUNFNk9ZUWtjVVl2azFUeGMxUXhLWC1nWXhaVkdIdEdzSE4xcTFISktmRGVHS1hJdk9tUVlHalU1bnBLZzNwUmdJemF2UkdxbEN1WktrN0ZfWGF3Wlp6MUU1WFZXWnVreGtMTUUzVk84MDdzVTdPZlUxekwxaW5R0gHHAkFVX3lxTE13N2lXSC1NOWVDYVVhTDdMM3BmRkI3c200R2V3MEh5c1l6ZVRWS1NvMzN6QUtXMzhwczVLYWUyajFtcHNLOENZWmlPVGNOTGoyOTFvYUJxVmctaHJiNUVjM1ZtNzBJR1E0WHZGaEdHTC1hZy00U0s0d0YyQ2hhZGFjQTNxNHl3N0lQbmE3VnZubE1DWnFqNEwweGFCOFFNS0NQZVlmUE5hRzhxd1dGM1dJOVVKSUFITWk3YzllSFVXd0Q3b1FELUxjTHN0aEFCZ3hjTnRUU2RnSk1pTUh3dFhRanhGNGptNVJXY20xYmF1MnZMa1Y1MTlPaEU4TlBnMGNWbWp5Ul9MTFZMUmVFTldmbTZNSFRLamFmT0lqSFpNQlJvNWJsVjVxcXhLaENWU1V5OUJTZWZ1eEt3VVNZN08waDgzOE5IQQ?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-23T11:12:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Sundar Pichai says AI now influences almost all code at Google, but fully self-improving AI remains distant | Trending",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSjMyTFNIcHJ2aXRPOG1RZ3M3NmhwUnI1MGo2cWhQd0dVZEJ3anh0ckN0QS1EMzNUd0tyYk04ekNra2hReS1DcmFhUk1xb3NVMnJtMDU2QUpfX2ZKMld5eDdYX3J4MkEyV3FiRFZHRm10RjBIUGY3Y3RSTWJoX0tTUjFhbEZGcEVkcUpzQktiVDA5ODZWbzA2TVA2cGtrRmNmTHZEWUw5eTAyUW11c2E1OXp3cGtzMmlfN0ZnbElUdEczekU1VkFwcmkxbkpZejNUYzlDX3ZjVDZzZjEyeFR3ckhQSVNMTGxrRVZVUXliM2Zza01TelhJY2hpQdIBgAJBVV95cUxNUV9qVTAxbnVxd0RjMDdhR0NsTDlkWU82ZWdjQmhrLXV5YWcxUzVsN3NfbDl5bi1EeE50TjgzVW1kejM3bU1kZFlZa1BWenB6UnZ6M0dIRVJJeTNFVmdfeTJEUWtDNGIzREtseHZwTER5NTFQR1FvQm1mVFV2empwZG5uVGd3UTd1enYzVlJWX0dhVl9PbnVrLXplNVotWFRTZ3ZkOWd6WWhYNXM0NXFINVlmaTlLRXRnaUZYbXhrTEp3MTNESDA5ZmlKclN3eFRTS0toMW1MSnlCMWpJMFRYbE1kcUllMHpPMWVsTUNpOW1PSEtzaEROZVVJQm12dXJH?oc=5",
-   "source": "Hindustan Times",
-   "published": "2026-10-23T10:59:19Z"
-  },
-  {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 378,
+   "stars": 381,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -107,18 +62,8 @@
   },
   {
    "kind": "repo",
-   "title": "simbasjungles/free-my-tv",
-   "stars": 4019,
-   "note": "Java · new this week",
-   "url": "https://github.com/simbasjungles/free-my-tv",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 3988,
+   "stars": 4138,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -127,8 +72,18 @@
   },
   {
    "kind": "repo",
+   "title": "simbasjungles/free-my-tv",
+   "stars": 4075,
+   "note": "Java · new this week",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "xiaoyang111222/cn-math-taxonomy",
-   "stars": 2919,
+   "stars": 2996,
    "note": "Python · new this week",
    "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
    "source": "GitHub",
@@ -138,7 +93,7 @@
   {
    "kind": "repo",
    "title": "JoasASantos/REA-Prompts",
-   "stars": 1794,
+   "stars": 1871,
    "note": " · new this week",
    "url": "https://github.com/JoasASantos/REA-Prompts",
    "source": "GitHub",
@@ -148,7 +103,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 337,
+   "points": 398,
    "title": "Dessa: Conversation Model trained only on speech",
    "source": "Hacker News",
    "url": "https://block.xyz/dessa",
@@ -157,16 +112,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 67,
-   "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+   "points": 194,
+   "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
    "source": "Hacker News",
-   "url": "https://corgi.computer/",
-   "discuss": "https://news.ycombinator.com/item?id=50214373"
+   "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+   "discuss": "https://news.ycombinator.com/item?id=50218633"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 28,
+   "points": 145,
+   "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
+   "source": "Hacker News",
+   "url": "https://grapheneos.social/@GrapheneOS/117492375462459244",
+   "discuss": "https://news.ycombinator.com/item?id=50217495"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 107,
    "title": "A practical guide to AI image generation, from diffusion to agents",
    "source": "Hacker News",
    "url": "https://danielball.com/notes/ai_image_generation.html",
@@ -175,11 +139,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 3,
-   "title": "CowAgent – Open-Source Super AI Assistant",
+   "points": 91,
+   "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
    "source": "Hacker News",
-   "url": "https://cowagent.ai/en/",
-   "discuss": "https://news.ycombinator.com/item?id=50218141"
+   "url": "https://corgi.computer/",
+   "discuss": "https://news.ycombinator.com/item?id=50214373"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 6,
+   "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+   "source": "Hacker News",
+   "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+   "discuss": "https://news.ycombinator.com/item?id=50220204"
   },
   {
    "kind": "news",

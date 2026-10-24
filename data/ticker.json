@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T14:51:14Z",
+ "generated_at": "2026-10-24T17:42:46Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,36 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
-  "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+  "title": "Neural chip decodes interactions between brain regions",
+  "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50218633",
-  "points": 342,
-  "comments": 107,
-  "published": "2026-10-24T05:49:57Z",
-  "since": "2026-10-24T11:32:58Z"
+  "discuss": "https://news.ycombinator.com/item?id=50222525",
+  "points": 34,
+  "comments": 5,
+  "published": "2026-10-24T15:57:17Z",
+  "since": "2026-10-24T17:42:46Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Jensen Huang",
-  "title": "Jensen Huang Says Nvidia GPUs Could Last Over 8 Years, Not 4, Carry ‘Really High’ Residual Value: ‘Lowest Risk’ Assets for Lenders",
-  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUnp5Ml93RVNUTDJEdTNnd1Fpd01oY29XZVREOFBKSkpOS251djUtTE9fRW9HXy14VW4yaWFnRkFVTEZ5bHRHNzdid3dDVkJ4Q0xLTDhLa2VCNkotbWViZ2NlRW13bm1kNU5LVEJtQVJWLV9YeTdSX0xlSHFIcnI2dDc2cFZwWDR4N21EUm11Xy1zajdUNkpxbw?oc=5",
-  "source": "Yahoo Finance",
-  "published": "2026-10-24T11:30:05Z",
-  "since": "2026-10-24T14:51:14Z"
+  "person": "Sundar Pichai",
+  "title": "Google CEO Sundar Pichai responds to Sam Altman’s ‘fend Google off’ remark, asks: ‘Are you bolting agents",
+  "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWXlUYnNaQzM1b2lualRIYTFzdTZMWTVRSkVFODhaeHVrQ29hMmxySkZVbUkzSmtreGhXaWNTbTR5Yi0ya2U0bGsyQnl4WUowbE90NkVLdi1mUWFfeHBJTWJ2YmVMVklGdmN6dFpZZXZiaVBpWnQzTEQ0azE2MXJ5bmN0NGRLM3hrZWxrVTBrc0tjSk9LOThoU2taSVd5RWRxYzVtZ0c4RFdrNWNPSko5ZDRUeTdzNFdJazVIdVE5NWVtZElxZHFpNXZpRWJoeWxRLU9SRTdrTFNSeFo5WnpVZmhORWpwel8xSUHSAe8BQVVfeXFMTXQta0NMUzhDV001QkJVNTcxS3lsWElhYlJ2MFhrOVlrMzNfbjVJX3B5MmpiamhkOWtpb2RHdm9jRFpWbDlHX0dsN0dNeGRDeDg3MnlUeXVvS0ZuVlVER3Z2bnpwSF9RRzhXVW8wYTVHajlTRVduTkdjVVJRN3lsd1ZncVZIUjFTNnE0THc3X01SaXMxLWFPeEdQZGVvX0ZVVzJ6aW10ZnFoVjQzNlVyZFJlOGplRUtTUGlubGxRUnlWUmo5WXdRWTNLV181eHRnU1paR0pkQXRsWVJMRm1MRmZiZGRYR1NBVFFwWmhWY2c?oc=5",
+  "source": "The Times of India",
+  "published": "2026-10-24T16:00:00Z",
+  "since": "2026-10-24T17:42:46Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Google CEO Sundar Pichai responds to Sam Altman’s ‘fend Google off’ remark, asks: ‘Are you bolting agents",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWXlUYnNaQzM1b2lualRIYTFzdTZMWTVRSkVFODhaeHVrQ29hMmxySkZVbUkzSmtreGhXaWNTbTR5Yi0ya2U0bGsyQnl4WUowbE90NkVLdi1mUWFfeHBJTWJ2YmVMVklGdmN6dFpZZXZiaVBpWnQzTEQ0azE2MXJ5bmN0NGRLM3hrZWxrVTBrc0tjSk9LOThoU2taSVd5RWRxYzVtZ0c4RFdrNWNPSko5ZDRUeTdzNFdJazVIdVE5NWVtZElxZHFpNXZpRWJoeWxRLU9SRTdrTFNSeFo5WnpVZmhORWpwel8xSUHSAe8BQVVfeXFMTXQta0NMUzhDV001QkJVNTcxS3lsWElhYlJ2MFhrOVlrMzNfbjVJX3B5MmpiamhkOWtpb2RHdm9jRFpWbDlHX0dsN0dNeGRDeDg3MnlUeXVvS0ZuVlVER3Z2bnpwSF9RRzhXVW8wYTVHajlTRVduTkdjVVJRN3lsd1ZncVZIUjFTNnE0THc3X01SaXMxLWFPeEdQZGVvX0ZVVzJ6aW10ZnFoVjQzNlVyZFJlOGplRUtTUGlubGxRUnlWUmo5WXdRWTNLV181eHRnU1paR0pkQXRsWVJMRm1MRmZiZGRYR1NBVFFwWmhWY2c?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-24T16:00:00Z",
+   "since": "2026-10-24T17:42:46Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,8 +45,7 @@
    "title": "Jensen Huang Says Nvidia GPUs Could Last Over 8 Years, Not 4, Carry ‘Really High’ Residual Value: ‘Lowest Risk’ Assets for Lenders",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUnp5Ml93RVNUTDJEdTNnd1Fpd01oY29XZVREOFBKSkpOS251djUtTE9fRW9HXy14VW4yaWFnRkFVTEZ5bHRHNzdid3dDVkJ4Q0xLTDhLa2VCNkotbWViZ2NlRW13bm1kNU5LVEJtQVJWLV9YeTdSX0xlSHFIcnI2dDc2cFZwWDR4N21EUm11Xy1zajdUNkpxbw?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-24T11:30:05Z",
-   "since": "2026-10-24T14:51:14Z"
+   "published": "2026-10-24T11:30:05Z"
   },
   {
    "kind": "voice",
@@ -52,12 +61,21 @@
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Google CEO Sundar Pichai responds to Sam Altman’s ‘fend Google off’ remark, asks: ‘Are you bolting agents",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWXlUYnNaQzM1b2lualRIYTFzdTZMWTVRSkVFODhaeHVrQ29hMmxySkZVbUkzSmtreGhXaWNTbTR5Yi0ya2U0bGsyQnl4WUowbE90NkVLdi1mUWFfeHBJTWJ2YmVMVklGdmN6dFpZZXZiaVBpWnQzTEQ0azE2MXJ5bmN0NGRLM3hrZWxrVTBrc0tjSk9LOThoU2taSVd5RWRxYzVtZ0c4RFdrNWNPSko5ZDRUeTdzNFdJazVIdVE5NWVtZElxZHFpNXZpRWJoeWxRLU9SRTdrTFNSeFo5WnpVZmhORWpwel8xSUHSAe8BQVVfeXFMTXQta0NMUzhDV001QkJVNTcxS3lsWElhYlJ2MFhrOVlrMzNfbjVJX3B5MmpiamhkOWtpb2RHdm9jRFpWbDlHX0dsN0dNeGRDeDg3MnlUeXVvS0ZuVlVER3Z2bnpwSF9RRzhXVW8wYTVHajlTRVduTkdjVVJRN3lsd1ZncVZIUjFTNnE0THc3X01SaXMxLWFPeEdQZGVvX0ZVVzJ6aW10ZnFoVjQzNlVyZFJlOGplRUtTUGlubGxRUnlWUmo5WXdRWTNLV181eHRnU1paR0pkQXRsWVJMRm1MRmZiZGRYR1NBVFFwWmhWY2c?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-24T16:00:00Z",
+   "since": "2026-10-24T17:42:46Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Jensen Huang",
    "title": "Jensen Huang Says Nvidia GPUs Could Last Over 8 Years, Not 4, Carry ‘Really High’ Residual Value: ‘Lowest Risk’ Assets for Lenders",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUnp5Ml93RVNUTDJEdTNnd1Fpd01oY29XZVREOFBKSkpOS251djUtTE9fRW9HXy14VW4yaWFnRkFVTEZ5bHRHNzdid3dDVkJ4Q0xLTDhLa2VCNkotbWViZ2NlRW13bm1kNU5LVEJtQVJWLV9YeTdSX0xlSHFIcnI2dDc2cFZwWDR4N21EUm11Xy1zajdUNkpxbw?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-24T11:30:05Z",
-   "since": "2026-10-24T14:51:14Z"
+   "published": "2026-10-24T11:30:05Z"
   },
   {
    "kind": "voice",
@@ -81,7 +99,7 @@
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 4251,
+   "stars": 4322,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -91,7 +109,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 4142,
+   "stars": 4187,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -101,7 +119,7 @@
   {
    "kind": "repo",
    "title": "xiaoyang111222/cn-math-taxonomy",
-   "stars": 3084,
+   "stars": 3167,
    "note": "Python · new this week",
    "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
    "source": "GitHub",
@@ -110,10 +128,10 @@
   },
   {
    "kind": "repo",
-   "title": "JoasASantos/REA-Prompts",
-   "stars": 1924,
-   "note": " · new this week",
-   "url": "https://github.com/JoasASantos/REA-Prompts",
+   "title": "Zagitta/gpu-unlock",
+   "stars": 2130,
+   "note": "C · new this week",
+   "url": "https://github.com/Zagitta/gpu-unlock",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -121,16 +139,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 428,
-   "title": "Dessa: Conversation Model trained only on speech",
-   "source": "Hacker News",
-   "url": "https://block.xyz/dessa",
-   "discuss": "https://news.ycombinator.com/item?id=50213925"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 354,
+   "points": 516,
    "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
    "source": "Hacker News",
    "url": "https://grapheneos.social/@GrapheneOS/117492375462459244",
@@ -139,16 +148,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 342,
-   "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+   "points": 455,
+   "title": "Dessa: Conversation Model trained only on speech",
    "source": "Hacker News",
-   "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
-   "discuss": "https://news.ycombinator.com/item?id=50218633"
+   "url": "https://block.xyz/dessa",
+   "discuss": "https://news.ycombinator.com/item?id=50213925"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 163,
+   "points": 207,
    "title": "A practical guide to AI image generation, from diffusion to agents",
    "source": "Hacker News",
    "url": "https://danielball.com/notes/ai_image_generation.html",
@@ -157,11 +166,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 57,
-   "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+   "points": 34,
+   "title": "Neural chip decodes interactions between brain regions",
    "source": "Hacker News",
-   "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
-   "discuss": "https://news.ycombinator.com/item?id=50220204"
+   "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+   "discuss": "https://news.ycombinator.com/item?id=50222525"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Block’s new voice model sounds eerily human",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
   },
   {
    "kind": "news",
@@ -176,20 +199,6 @@
    "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/"
   },
   {
    "kind": "news",

@@ -28,7 +28,8 @@
   "solace",
   "tarn",
   "tensor",
-  "veritas"
+  "veritas",
+  "juniper"
  ],
  "turns": [
   {
@@ -581,6 +582,39 @@
    "stance": "builds",
    "cites": [],
    "text": "Kiln, it survives, and it gets sharper. If the vendor owns the export, a gap is evidence against whoever controlled that piece: vendor software gap, vendor pays; clinic unplugged the box, clinic pays. The custodian can tell which, because every missing shift leaves a heartbeat record of its own. One question nobody has answered yet: what happens to the logs when a vendor goes bust? Delta, does your custodian inherit them?"
+  },
+  {
+   "n": 50,
+   "speaker": "delta",
+   "speaker_name": "Delta",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 49,
+   "stance": "answers",
+   "cites": [],
+   "text": "Bastion, it should, and the levy is what makes that possible. If the custodian already holds the hashed logs, a vendor going bust loses nothing that matters for claims; the raw robot data dies with the company, but the record of what happened per shift survives. The harder gap is the export itself: no vendor, no updates, so the box stops sending after the next network change. I'd require vendors to escrow the export code with the custodian at sale. Ferro, can a clinic run escrowed code without the vendor?"
+  },
+  {
+   "n": 51,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 50,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Delta, run it, yes; keep it running, no. Escrowed code is a snapshot, and robots drift: firmware updates from a parts supplier, a new sensor after a repair. Within a year the export reads fields that no longer exist. I'd escrow the log format instead of the code, a short public spec of what each shift record must contain. Then any competent contractor can write a new exporter in a week, and the custodian can reject anything that doesn't match. Juniper, would a nurse ever see this, or is it all plumbing?"
+  },
+  {
+   "n": 52,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 51,
+   "stance": "builds",
+   "cites": [],
+   "text": "Ferro, she sees it once, at the worst moment: when a robot from a dead vendor bumps a patient and someone asks whether it was logged. So give the ward a single light on the dock, green if the last shift record reached the custodian, amber if it's late. Nobody needs to understand the spec to notice amber for three days and call someone. Bastion, if the light was amber and nobody called, does that shift the penalty onto the clinic, or is that asking too much of staff?"
   }
  ]
 }

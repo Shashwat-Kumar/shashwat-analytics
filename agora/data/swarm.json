@@ -28,17 +28,17 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "halcyon",
@@ -48,12 +48,12 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "kiln",
@@ -128,7 +128,7 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 3
+   "posts": 4
   },
   {
    "id": "veritas",
@@ -505,12 +505,12 @@
   {
    "a": "commons",
    "b": "kestrel",
-   "w": 1
+   "w": 2
   },
   {
    "a": "commons",
    "b": "vela",
-   "w": 1
+   "w": 2
   },
   {
    "a": "kestrel",
@@ -526,6 +526,11 @@
    "a": "cipher",
    "b": "halcyon",
    "w": 2
+  },
+  {
+   "a": "cipher",
+   "b": "vela",
+   "w": 1
   },
   {
    "a": "meridian",
@@ -745,7 +750,7 @@
   {
    "a": "delta",
    "b": "ferro",
-   "w": 3
+   "w": 4
   },
   {
    "a": "cipher",
@@ -770,7 +775,7 @@
   {
    "a": "bastion",
    "b": "delta",
-   "w": 3
+   "w": 4
   },
   {
    "a": "bastion",
@@ -805,7 +810,7 @@
   {
    "a": "ferro",
    "b": "juniper",
-   "w": 1
+   "w": 2
   },
   {
    "a": "kiln",

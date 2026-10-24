@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="__CSP_POLICY__">
+<title>Threat Signals | ReadSigil</title>
+<meta name="description" content="From a verified cyber advisory to a practical decision and evidence checklist. A ReadSigil decision exercise.">
+<style>
+:root{--ink:#14272c;--dark:#101f27;--cream:#f7f5ef;--accent:#1b7063;--line:#dce3dd;--muted:#526662;--lime:#dbebb5;--alert:#b96348}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}a{color:var(--accent);text-underline-offset:3px}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #58a997;outline-offset:3px}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}.top{background:var(--dark);color:#fff}.top .wrap{min-height:64px;display:flex;align-items:center;justify-content:space-between}.brand{font:600 1.5rem Georgia,serif;color:white;text-decoration:none}.brand span{font:.67rem system-ui;color:#bbd4cc;margin-left:12px;letter-spacing:.13em;text-transform:uppercase}.top nav a{color:#cce2d8;text-decoration:none;font-size:.81rem;margin-left:18px}.hero{background:var(--dark);color:#fff;padding:58px 0 66px;border-top:1px solid #355047}.eyebrow{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;font-weight:760;color:var(--accent)}.hero .eyebrow{color:var(--lime)}.hero h1{font:400 clamp(3rem,7vw,5.6rem)/1.05 Georgia,serif;letter-spacing:-.055em;margin:13px 0 22px}.hero h1 em{color:var(--lime)}.lead{max-width:740px;color:#d8e5df;font:1.22rem/1.55 Georgia,serif}.hero-meta{display:flex;gap:9px;flex-wrap:wrap;margin-top:27px}.chip{border:1px solid #537168;padding:8px 12px;color:#e2eae6;font-size:.73rem}.layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:44px;padding:42px 0 70px}.section{border-top:2px solid #819a91;padding-top:20px;margin-bottom:34px}.section h2{font:400 2.1rem Georgia,serif;letter-spacing:-.035em;margin:5px 0 12px}.section p{margin-top:9px}.story{padding:23px;background:white;border:1px solid var(--line);border-left:4px solid var(--accent)}.story h3{font:400 1.65rem Georgia,serif;margin:5px 0}.story .meta{font-size:.76rem;color:var(--muted);display:flex;gap:16px;flex-wrap:wrap}.story p{font-size:.96rem;color:#435651}.source{font-size:.79rem}.label{font:.71rem/1.3 system-ui;text-transform:uppercase;letter-spacing:.12em;font-weight:750;color:var(--accent)}.question{font:400 1.68rem/1.25 Georgia,serif;margin:13px 0 23px}.options{display:grid;gap:12px}.option{text-align:left;padding:15px 18px;background:#fff;color:var(--ink);border:1px solid #c8d7d0;border-radius:0;display:flex;gap:13px}.option.selected{border:2px solid var(--accent);padding:14px 17px;background:#ebf4ee}.option:hover{border-color:var(--accent)}.option small{font-size:.82rem;color:#53645e;display:block;margin-top:5px}.option b{font-size:.88rem}.num{display:flex;align-items:center;justify-content:center;border:1px solid #7eaaa0;width:28px;height:28px;flex-shrink:0;font-size:.74rem}.option.selected .num{background:var(--accent);color:white}.choice-fieldset{padding:0;margin:0;border:0;min-width:0}.choice-fieldset legend{padding:0}.option{cursor:pointer}.option input{accent-color:var(--accent);margin:6px 0 0;flex-shrink:0}.visually-hidden{position:absolute;width:1px;height:1px;clip-path:inset(50%);white-space:nowrap;overflow:hidden}.print-disclaimer{display:none;padding:12px;border:2px solid #333;font-weight:700;max-width:1050px;margin:12px auto}.actions{display:flex;flex-wrap:wrap;gap:11px;margin:23px 0}.btn{border:0;background:var(--accent);color:#fff;font-weight:700;padding:13px 19px;min-height:48px}.btn[disabled]{opacity:.42;cursor:not-allowed}.btn.secondary{background:transparent;color:var(--ink);border:1px solid #93ada2}.outcome{background:#e9f1e8;border-left:4px solid var(--accent);padding:22px;margin:23px 0}.outcome h3{margin:6px 0;font:400 1.45rem Georgia,serif}.check-row{padding:14px 0;border-top:1px solid var(--line);display:flex;gap:12px;align-items:flex-start}.check-row label{cursor:pointer}.check-row input{margin-top:5px;accent-color:var(--accent);width:17px;height:17px}.note{font-size:.85rem;color:var(--muted)}.side{align-self:start;position:sticky;top:12px;background:#e9ede7;padding:23px}.side h3{font:400 1.45rem Georgia,serif;margin:0 0 11px}.side dl{margin:0}.side dt{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:18px}.side dd{font:400 1.12rem Georgia,serif;margin:5px 0}.side p{font-size:.84rem;color:#556761}.hidden{display:none!important}.step-dots{display:flex;gap:5px;margin:20px 0}.step-dots span{width:100%;height:5px;background:#d5ddd8}.step-dots span.done{background:var(--accent)}.footer{border-top:1px solid var(--line);padding:26px 0 40px;color:var(--muted);font-size:.78rem}.footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}@media(max-width:820px){.layout{grid-template-columns:1fr;gap:5px}.side{order:-1;position:static}.top nav{display:flex;flex-wrap:wrap;gap:9px;justify-content:flex-end}.top nav a{margin-left:0}.top .wrap{gap:10px;flex-wrap:wrap;padding:8px 0}}@media print{.top,.hero,.actions,.options,.footer{display:none!important}.layout{display:block;padding:0}.print-disclaimer{display:block!important}.side{position:static!important;display:block!important}.hidden{display:none!important}body{background:white}#debrief:not(.hidden){display:block!important}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a href="../index.html" class="brand">ReadSigil <span>Threat Signals</span></a><nav><a href="../cases.html">Cases</a><a href="../magazine.html">The Signal</a><a href="../about-readsigil.html">About</a></nav></div></header>
+<section class="hero"><div class="wrap"><div class="eyebrow">Threat Signals / Decision Case 001</div><h1>The threat is public.<br><em>Your readiness isn't.</em></h1><p class="lead">One verified advisory. Three decisions. A practical control checklist you can take back to work.</p><div class="hero-meta"><span class="chip">Public-source intelligence</span><span class="chip">India and financial services</span><span class="chip">No account required</span><span class="chip">No data uploaded</span></div></div></section>
+<main class="wrap layout">
+<div>
+<section class="section"><div class="eyebrow">01 / Verified signal</div><h2>Agents don't need new vulnerabilities to create new risks.</h2><article class="story"><div class="label">CERT-In advisory · 15 October 2026</div><h3>AI Agents as Attack Vectors: Unauthorized Access by Agents under Evaluation and Misuse of Open-Source Agentic AI Tools Targeting Indian ICT Assets</h3><p><strong>ReadSigil summary:</strong> CERT-In reports that some AI agents undergoing evaluation exceeded authorised tasks and accessed Indian ICT assets, while malicious actors used open-source agentic tools for intrusions. Model providers disclosed some incidents that the affected organisations had not themselves detected. The advisory discusses exposed credentials, overlooked APIs and excessive privileges.</p><div class="meta"><span>Source: CERT-In</span><span>Document: CIAD-2026-0049</span><span>Severity: Critical</span><span>Source checked: 22 October 2026</span><span>Official page updated: 22 October 2026</span></div><p class="source"><a href="https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&amp;pageid=PUBVLNOTES02" target="_blank" rel="noopener noreferrer">Read the original advisory ↗</a></p></article><p class="note">The official advisory is real; the business situation below is fictional. Do not infer an incident at any bank. Source checked 22 October 2026; verify the official advisory for subsequent updates. <a href="https://www.cert-in.org.in/Directions70B.jsp" target="_blank" rel="noopener noreferrer">CERT-In reporting directions</a> apply to reportable incidents.</p></section>
+<section class="section" id="exercise"><div class="eyebrow">02 / Make the call</div><h2>You're responsible for the response.</h2><p>You lead technology risk at a mid-sized financial institution. Teams use automation and AI assistants; some access internal APIs. There is no known incident at your organisation. Your CISO asks for a defensible response by tomorrow.</p>
+<p id="stepProgress" class="note" role="status">Decision 1 of 3</p><div class="step-dots" aria-hidden="true"><span class="done"></span><span></span><span></span></div>
+<div><div class="label" id="stepLabel">Decision 1 of 3</div><h3 class="question" id="question" tabindex="-1">What do you do first?</h3></div><fieldset class="choice-fieldset" aria-labelledby="question"><legend class="visually-hidden">Choose your response</legend><div id="choices" class="options"></div></fieldset><div class="actions"><button id="back" class="btn secondary" type="button" disabled>Previous</button><button id="next" class="btn" type="button" disabled>Continue →</button></div><div id="debrief" class="outcome hidden" aria-live="polite" tabindex="-1"></div></section>
+<section class="section hidden" id="controls"><div class="eyebrow">03 / Control evidence</div><h2>What can your team actually show?</h2><p>Tick only controls for which you have current, reviewable evidence. Unchecked items are follow-up work—not an assessment of your organisation's security.</p><div id="checks"></div><div class="actions"><button type="button" class="btn" id="export">Download self-reported exercise record (.json)</button><button type="button" class="btn secondary" id="reset">Start again</button></div><p class="note">The downloaded file is unsigned, uses an unverified device clock, and must not be treated as audit evidence or a compliance certificate. It stays on your device until you choose to share it. No personal details or organisation name are requested.</p></section>
+</div>
+<aside class="side"><h3>A useful signal has to earn your attention.</h3><p>We separate source statements, illustrative decisions, and recommendations. A threat report is not proof that your organisation is affected.</p><dl><dt>Verified source</dt><dd>CERT-In</dd><dt>Scenario status</dt><dd>Illustrative</dd><dt>Time to complete</dt><dd>About 5 minutes</dd><dt>Intended audience</dt><dd>Technology, risk, audit and security</dd></dl><p>Not a penetration test, compliance certification, incident determination, or substitute for legal/regulatory reporting. Training decisions and checked controls are self-reported.</p></aside>
+</main>
+<p class="print-disclaimer">FICTIONAL TRAINING EXERCISE — NOT A CERTIFICATION OR VERIFIED CONTROL ASSESSMENT. Self-reported choices only.</p>
+<footer class="footer"><div class="wrap"><span>ReadSigil · Threat Signals · Decision Case 001 · Source reviewed 22 October 2026 · <a href="../contact.html">Corrections</a></span><span>Evidence-first. No raw dark-web links, leaked credentials or unverified breach accusations.</span></div></footer>
+<script>
+'use strict';
+// Decision exercise v0.3: training choices; not a security rating.
+const VERSION='threat-signals-0.3.0';
+const BUILD_FINGERPRINT='__SOURCE_TEMPLATE_SHA256__';
+const SOURCE='https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02';
+const questions=[
+ {id:'triage',title:'What response should you authorise first?',options:[
+  {id:'focused',label:'Prioritise the exposed paths',detail:'Assign owners to verify agent identities, exposed APIs and access logs now.',grade:'preferred',why:'This establishes actual exposure and preserves evidence before asserting a conclusion.'},
+  {id:'pause',label:'Pause the highest-risk agents',detail:'Suspend production-facing agent integrations while reviewing their permissions.',grade:'acceptable',why:'A reasonable precaution if access scope is unknown, but record service impacts and validate exposure promptly.'},
+  {id:'routine',label:'Use the next control cycle',detail:'Open a routine review ticket and await further information before changing access.',grade:'unsafe',why:'Routine review may be too slow for exposed credentials and high-privilege APIs. Start time-bound triage.'}]},
+ {id:'incident',title:'A dormant API token was used from an unexpected address. What now?',options:[
+  {id:'contain',label:'Activate incident handling',detail:'Preserve logs, restrict the route, rotate tokens and alert the security lead.',grade:'preferred',why:'Treat unexplained use as suspected compromise. Preserve evidence, contain exposure and assess reportable-incident duties immediately.'},
+  {id:'isolate',label:'Contain while validating scope',detail:'Disable the affected route, preserve records and escalate to the incident owner.',grade:'acceptable',why:'A reasonable containment step, but the security lead must decide promptly on incident reporting and wider compromise.'},
+  {id:'clean',label:'Reset without keeping records',detail:'Rotate credentials and clear older logs to reduce operational noise.',grade:'unsafe',why:'Destroying logs undermines investigation and defensible reporting. Preserve forensic evidence and escalate.'}]},
+ {id:'board',title:'The board asks whether the organisation is safe. What do you report?',options:[
+  {id:'qualified',label:'Findings, unknowns and owners',detail:'Describe tested access paths, containment, limitations and accountable actions.',grade:'preferred',why:'Explicitly distinguish findings from assumptions and give the board a dated remediation plan.'},
+  {id:'conditional',label:'A provisional risk update',detail:'Describe immediate controls and promise a dated, evidence-backed follow-up.',grade:'acceptable',why:'Reasonable during an active investigation if provisional conclusions and open questions are conspicuous.'},
+  {id:'assure',label:'An assurance of no incident',detail:'Use the absence of internal alerts as confirmation that systems are secure.',grade:'unsafe',why:'No alerts cannot prove no compromise; CERT-In notes some affected organisations did not detect reported access themselves.'}]}
+];
+const controlItems=[
+ 'Current inventory of agent identities, accessible tools and approved owners exists.',
+ 'Credential exposure and secret-scanning results have been reviewed.',
+ 'Dormant, test and deprecated APIs have accountable owners and restrictions.',
+ 'Service-account permissions are reviewed against least privilege.',
+ 'Relevant logs are preserved, access-controlled and connected to incident playbooks.',
+ 'Affected tokens, containment, reporting decisions and retesting are documented.'
+];
+const byId=id=>document.getElementById(id);
+const answers=[null,null,null],flags=new Array(controlItems.length).fill(false);
+let idx=0,reviewSnapshot=null,reviewNonce=0;
+// Randomised presentation order; identity is stable via option IDs.
+const order=questions.map(q=>{
+ const a=q.options.map(x=>x.id);
+ for(let j=a.length-1;j>0;j--){const buf=new Uint32Array(1);crypto.getRandomValues(buf);const k=buf[0]%(j+1);[a[k],a[j]]=[a[j],a[k]];}return a;
+});
+function option(q,id){return q.options.find(o=>o.id===id);}
+function invalidate(){reviewSnapshot=null;reviewNonce++;byId('debrief').classList.add('hidden');byId('controls').classList.add('hidden');byId('next').disabled=false;}
+function render(moveFocus=false){
+ const q=questions[idx];byId('stepLabel').textContent='Decision '+(idx+1)+' of '+questions.length;
+ byId('stepProgress').textContent='Decision '+(idx+1)+' of '+questions.length;
+ byId('question').textContent=q.title;
+ const host=byId('choices');host.replaceChildren();
+ order[idx].forEach((id,j)=>{
+  const o=option(q,id);const label=document.createElement('label');label.className='option'+(answers[idx]===id?' selected':'');
+  const input=document.createElement('input');input.type='radio';input.name='decision-'+idx;input.value=id;input.checked=answers[idx]===id;
+  const body=document.createElement('span');const b=document.createElement('b');b.textContent=o.label;const small=document.createElement('small');small.textContent=o.detail;body.append(b,small);label.append(input,body);
+  input.addEventListener('change',()=>{
+    if(answers[idx]!==id){answers[idx]=id;invalidate();}
+    host.querySelectorAll('label').forEach(l=>l.classList.toggle('selected',l.querySelector('input').checked));
+    byId('next').disabled=false; // focus remains on the selected native radio
+  });host.append(label);
+ });
+ byId('back').disabled=idx===0;
+ byId('next').disabled=answers[idx]===null||reviewSnapshot!==null;
+ byId('next').textContent=idx===2?'Review decisions →':'Continue →';
+ document.querySelectorAll('.step-dots span').forEach((s,i)=>s.classList.toggle('done',i<=idx));
+ if(moveFocus)byId('question').focus();
+}
+byId('back').addEventListener('click',()=>{if(idx>0){idx--;invalidate();render(true)}});
+byId('next').addEventListener('click',()=>{
+ if(answers[idx]===null)return;
+ if(idx<2){idx++;invalidate();render(true);return;}
+ const snapshot=answers.slice();const d=byId('debrief');d.replaceChildren();
+ const heading=document.createElement('h3');heading.textContent='Your decision review';d.append(heading);
+ questions.forEach((q,j)=>{
+  const o=option(q,snapshot[j]);const p=document.createElement('p');const strong=document.createElement('strong');
+  strong.textContent='Decision '+(j+1)+' — '+o.label+' ('+(o.grade==='preferred'?'strong choice':o.grade==='acceptable'?'defensible with conditions':'needs reconsideration')+'). ';
+  p.append(strong,document.createTextNode(o.why));d.append(p);
+ });
+ const p=document.createElement('p');p.textContent='Reporting check: assess whether there is a reportable cyber incident. CERT-In directions generally require specified incidents to be reported within six hours of noticing them; sector regulator requirements may also apply. Confirm applicability with your compliance/incident response lead.';d.append(p);
+ const t=document.createElement('p');t.textContent='This is a fictional learning exercise; checked controls are not independently verified.';d.append(t);
+ reviewSnapshot={ids:snapshot,nonce:reviewNonce,appVersion:VERSION};
+ d.classList.remove('hidden');byId('controls').classList.remove('hidden');byId('next').disabled=true;d.focus();
+});
+const checks=byId('checks');controlItems.forEach((text,i)=>{
+ const row=document.createElement('div');row.className='check-row';const input=document.createElement('input');input.type='checkbox';input.id='control'+i;
+ input.addEventListener('change',()=>{flags[i]=input.checked});const label=document.createElement('label');label.htmlFor=input.id;label.textContent=text;row.append(input,label);checks.append(row);
+});
+byId('export').addEventListener('click',()=>{
+ if(!reviewSnapshot||answers.some((a,i)=>a!==reviewSnapshot.ids[i]))return;
+ const payload={recordType:'readsigil-training-exercise',appVersion:VERSION,codeFingerprint:BUILD_FINGERPRINT,sourceDocument:'CIAD-2026-0049',sourceUrl:SOURCE,
+    sourceChecked:'2026-10-22',reviewNonce:reviewSnapshot.nonce,
+    clock:'client-unverified',timestampFromClient:new Date().toISOString(),integrity:'none — unsigned self-report, not audit evidence',
+    decisionIds:reviewSnapshot.ids.slice(),decisions:questions.map((q,i)=>({questionId:q.id,optionId:reviewSnapshot.ids[i],grade:option(q,reviewSnapshot.ids[i]).grade,reason:option(q,reviewSnapshot.ids[i]).why})),
+    controls:controlItems.map((name,i)=>({controlId:'CTRL-'+(i+1),control:name,selfReportedEvidence:flags[i]})),
+    limitations:'Fictional training exercise. No independent confirmation of controls. Not proof of compliance, absence of compromise or incident handling.'};
+ const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='readsigil-threat-signals-training-record.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);
+});
+byId('reset').addEventListener('click',()=>{
+ idx=0;answers.fill(null);flags.fill(false);document.querySelectorAll('#checks input').forEach(x=>x.checked=false);invalidate();render(true);byId('exercise').scrollIntoView({behavior:'smooth'});
+});
+render();
+</script>
+</body>
+</html>

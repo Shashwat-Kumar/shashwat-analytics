@@ -1,0 +1,1 @@
+{"catalogVersion":"test-fixture-0.2","dateReleased":"2026-10-15","count":1,"vulnerabilities":[{"cveID":"CVE-2026-12345","dateAdded":"2026-10-15","vendorProject":"Test Vendor","product":"Example","vulnerabilityName":"Sample","requiredAction":"Apply mitigations"}]}

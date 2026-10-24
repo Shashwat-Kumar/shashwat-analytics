@@ -1,0 +1,21 @@
+{
+  "version": "0.3.0",
+  "artifact": "PUBLIC_CANDIDATE_NOT_APPROVED_NOT_DEPLOYED",
+  "sourceTemplateSha256": "f926c39517e3b4e25ea64e5f7358550d440c3d382b208b4e830a36a198df7e44",
+  "releasePageSha256": "10c59068bdebcb43148cb4c874213c9a62d7f17ee98c84a14934a8380ef9d5ab",
+  "inlineScriptCspSha256": "'sha256-8DqQmFBHRuc3PZMqCW6mjPv/GUBoPMIHqHOIm2r7gCU='",
+  "inlineStyleCspSha256": "'sha256-AIUFst+D7QxnIht+Duvz0oOa8o0Zy+MHP1P7cq1ii84='",
+  "buildMethod": "python3 scripts/build_release.py --verify; hashes are over exact UTF-8 bytes",
+  "fingerprintMeaning": "SHA256 of threat-signals/index.template.html bytes; not the published page digest",
+  "hostingGate": "Use a host with per-path HTTP response headers; GitHub Pages alone is insufficient",
+  "contentReview": "CERT-In CIAD-2026-0049 checked 2026-10-22; expert scenario grading sign-off still required",
+  "releaseGates": {
+    "claude": "PENDING",
+    "chatgpt": "PENDING_FINAL_REVIEW",
+    "incidentResponseExpert": "PENDING",
+    "productionHeaders": "PENDING_RUNTIME_VERIFICATION",
+    "accessibilityHuman": "PENDING",
+    "owner": "PENDING"
+  },
+  "liveIngestion": "DISABLED_REVIEW_ONLY"
+}

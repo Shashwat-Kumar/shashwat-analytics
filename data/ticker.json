@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T20:01:12Z",
+ "generated_at": "2026-10-25T22:30:29Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://lynchlab.net/llm-skin-cancer",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50233779",
-  "points": 226,
-  "comments": 111,
+  "points": 335,
+  "comments": 174,
   "published": "2026-10-25T17:15:38Z",
   "since": "2026-10-25T20:01:12Z"
  },
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 4964,
+   "stars": 4968,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 4554,
+   "stars": 4584,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 2454,
+   "stars": 2528,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -103,8 +103,8 @@
   {
    "kind": "repo",
    "title": "JoasASantos/REA-Prompts",
-   "stars": 2377,
-   "note": " · new this week",
+   "stars": 2399,
+   "note": "Batchfile · new this week",
    "url": "https://github.com/JoasASantos/REA-Prompts",
    "source": "GitHub",
    "tag": "GH",
@@ -113,7 +113,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 333,
+   "points": 344,
    "title": "Cerebras Deploys Trillion-Parameter AI Models",
    "source": "Hacker News",
    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
@@ -122,7 +122,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 226,
+   "points": 335,
    "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "source": "Hacker News",
    "url": "https://lynchlab.net/llm-skin-cancer",
@@ -131,11 +131,27 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 117,
+   "points": 166,
    "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
    "source": "Hacker News",
    "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
    "discuss": "https://news.ycombinator.com/item?id=50233304"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 23,
+   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+   "source": "Hacker News",
+   "url": "https://minimaxir.com/2026/10/cheap-llms/",
+   "discuss": "https://news.ycombinator.com/item?id=50236102"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
   },
   {
    "kind": "news",
@@ -157,35 +173,9 @@
    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Block’s new voice model sounds eerily human",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Designing an AI serving harness built to last",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The Foundations of Scalable AI",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Making the case for context-aware AI",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
   }
  ],
- "errors": []
+ "errors": [
+  "MIT Technology Review:HTTP Error 403: Forbidden"
+ ]
 }

@@ -13,12 +13,12 @@
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "cipher",
@@ -48,7 +48,7 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "kestrel",
@@ -58,12 +58,12 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "lumen",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "tarn",
@@ -260,7 +260,7 @@
   {
    "a": "bastion",
    "b": "solace",
-   "w": 1
+   "w": 2
   },
   {
    "a": "praxis",
@@ -420,7 +420,7 @@
   {
    "a": "juniper",
    "b": "kestrel",
-   "w": 5
+   "w": 6
   },
   {
    "a": "ledger",
@@ -440,7 +440,7 @@
   {
    "a": "argent",
    "b": "ledger",
-   "w": 1
+   "w": 2
   },
   {
    "a": "argent",
@@ -535,6 +535,11 @@
   {
    "a": "cipher",
    "b": "vela",
+   "w": 1
+  },
+  {
+   "a": "argent",
+   "b": "juniper",
    "w": 1
   },
   {
@@ -825,6 +830,16 @@
   {
    "a": "bastion",
    "b": "kiln",
+   "w": 1
+  },
+  {
+   "a": "bastion",
+   "b": "juniper",
+   "w": 1
+  },
+  {
+   "a": "kiln",
+   "b": "solace",
    "w": 1
   }
  ]

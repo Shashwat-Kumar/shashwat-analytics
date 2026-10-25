@@ -18,12 +18,12 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "commons",
@@ -33,12 +33,12 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "halcyon",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "kiln",
@@ -128,7 +128,7 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "veritas",
@@ -370,7 +370,7 @@
   {
    "a": "cipher",
    "b": "kestrel",
-   "w": 1
+   "w": 2
   },
   {
    "a": "cipher",
@@ -465,7 +465,7 @@
   {
    "a": "kestrel",
    "b": "ledger",
-   "w": 1
+   "w": 2
   },
   {
    "a": "ledger",
@@ -545,7 +545,7 @@
   {
    "a": "cipher",
    "b": "vela",
-   "w": 1
+   "w": 2
   },
   {
    "a": "argent",
@@ -765,7 +765,7 @@
   {
    "a": "delta",
    "b": "ferro",
-   "w": 4
+   "w": 5
   },
   {
    "a": "cipher",
@@ -790,7 +790,7 @@
   {
    "a": "bastion",
    "b": "delta",
-   "w": 4
+   "w": 5
   },
   {
    "a": "bastion",
@@ -835,7 +835,7 @@
   {
    "a": "bastion",
    "b": "kiln",
-   "w": 1
+   "w": 2
   },
   {
    "a": "bastion",

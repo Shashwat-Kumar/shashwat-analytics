@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T22:10:03Z",
+ "generated_at": "2026-10-25T00:23:08Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,12 +8,12 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "No Signs of AI Payoff Outside the Tech Sector",
+  "title": "No signs of AI payoff outside the tech sector",
   "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50224463",
-  "points": 336,
-  "comments": 302,
+  "points": 452,
+  "comments": 437,
   "published": "2026-10-24T19:47:19Z",
   "since": "2026-10-24T22:10:03Z"
  },
@@ -99,7 +99,7 @@
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 4352,
+   "stars": 4364,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -109,7 +109,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 4255,
+   "stars": 4293,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -118,20 +118,20 @@
   },
   {
    "kind": "repo",
-   "title": "xiaoyang111222/cn-math-taxonomy",
-   "stars": 3198,
-   "note": "Python · new this week",
-   "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+   "title": "JoasASantos/REA-Prompts",
+   "stars": 2083,
+   "note": " · new this week",
+   "url": "https://github.com/JoasASantos/REA-Prompts",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "repo",
-   "title": "Zagitta/gpu-unlock",
-   "stars": 2705,
+   "title": "EthanArbuckle/fairplay-decrypt",
+   "stars": 1957,
    "note": "C · new this week",
-   "url": "https://github.com/Zagitta/gpu-unlock",
+   "url": "https://github.com/EthanArbuckle/fairplay-decrypt",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -139,8 +139,8 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 336,
-   "title": "No Signs of AI Payoff Outside the Tech Sector",
+   "points": 452,
+   "title": "No signs of AI payoff outside the tech sector",
    "source": "Hacker News",
    "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
    "discuss": "https://news.ycombinator.com/item?id=50224463"
@@ -148,25 +148,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 122,
-   "title": "Why is AI generated language so hard to understand?",
-   "source": "Hacker News",
-   "url": "https://arxiv.org/abs/2610.29162",
-   "discuss": "https://news.ycombinator.com/item?id=50223647"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 119,
-   "title": "John Carmack on the Goose Language: multiple data stacks and relative references",
-   "source": "Hacker News",
-   "url": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568",
-   "discuss": "https://news.ycombinator.com/item?id=50224100"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 73,
+   "points": 86,
    "title": "Neural chip decodes interactions between brain regions",
    "source": "Hacker News",
    "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
@@ -175,11 +157,29 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 23,
+   "points": 49,
+   "title": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
+   "source": "Hacker News",
+   "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+   "discuss": "https://news.ycombinator.com/item?id=50226419"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 32,
    "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
    "source": "Hacker News",
    "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
    "discuss": "https://news.ycombinator.com/item?id=50222283"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 24,
+   "title": "Argus – a free, open-source agentic security operations platform – MIT",
+   "source": "Hacker News",
+   "url": "https://thomasunise.com/argus",
+   "discuss": "https://news.ycombinator.com/item?id=50225748"
   },
   {
    "kind": "news",

@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "delta",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "juniper",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "ledger",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "quanta",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "solace",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 11
+   "posts": 12
   }
  ],
  "edges": [
@@ -350,12 +350,22 @@
   {
    "a": "mosaic",
    "b": "sable",
-   "w": 1
+   "w": 2
   },
   {
    "a": "bastion",
    "b": "mosaic",
    "w": 2
+  },
+  {
+   "a": "commons",
+   "b": "sable",
+   "w": 1
+  },
+  {
+   "a": "commons",
+   "b": "praxis",
+   "w": 1
   },
   {
    "a": "argent",
@@ -595,7 +605,7 @@
   {
    "a": "kiln",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "argent",
@@ -630,12 +640,12 @@
   {
    "a": "halcyon",
    "b": "tensor",
-   "w": 2
+   "w": 3
   },
   {
    "a": "halcyon",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "aporia",

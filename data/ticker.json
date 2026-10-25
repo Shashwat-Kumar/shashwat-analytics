@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T17:42:34Z",
+ "generated_at": "2026-10-25T20:01:12Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "A Mathematician Reads the AI Future",
-  "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+  "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+  "url": "https://lynchlab.net/llm-skin-cancer",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50233347",
-  "points": 25,
-  "comments": 10,
-  "published": "2026-10-25T16:31:21Z",
-  "since": "2026-10-25T17:42:34Z"
+  "discuss": "https://news.ycombinator.com/item?id=50233779",
+  "points": 226,
+  "comments": 111,
+  "published": "2026-10-25T17:15:38Z",
+  "since": "2026-10-25T20:01:12Z"
  },
  "voice": {
   "kind": "voice",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "C4rohan/Lampline",
-   "stars": 283,
+   "stars": 267,
    "note": "Python · new this week",
    "url": "https://github.com/C4rohan/Lampline",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 4941,
+   "stars": 4964,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 4522,
+   "stars": 4554,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -92,18 +92,8 @@
   },
   {
    "kind": "repo",
-   "title": "JoasASantos/REA-Prompts",
-   "stars": 2357,
-   "note": " · new this week",
-   "url": "https://github.com/JoasASantos/REA-Prompts",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 2354,
+   "stars": 2454,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -111,27 +101,19 @@
    "cat": "Trending"
   },
   {
-   "kind": "news",
-   "tag": "HN",
-   "points": 583,
-   "title": "Samsung TV privacy issues",
-   "source": "Hacker News",
-   "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
-   "discuss": "https://news.ycombinator.com/item?id=50218633"
+   "kind": "repo",
+   "title": "JoasASantos/REA-Prompts",
+   "stars": 2377,
+   "note": " · new this week",
+   "url": "https://github.com/JoasASantos/REA-Prompts",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 465,
-   "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-   "source": "Hacker News",
-   "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "discuss": "https://news.ycombinator.com/item?id=50226419"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 305,
+   "points": 333,
    "title": "Cerebras Deploys Trillion-Parameter AI Models",
    "source": "Hacker News",
    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
@@ -140,29 +122,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 132,
-   "title": "Neural chip decodes interactions between brain regions",
+   "points": 226,
+   "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "source": "Hacker News",
-   "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
-   "discuss": "https://news.ycombinator.com/item?id=50222525"
+   "url": "https://lynchlab.net/llm-skin-cancer",
+   "discuss": "https://news.ycombinator.com/item?id=50233779"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 104,
-   "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+   "points": 117,
+   "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
    "source": "Hacker News",
-   "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
-   "discuss": "https://news.ycombinator.com/item?id=50229827"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 25,
-   "title": "A Mathematician Reads the AI Future",
-   "source": "Hacker News",
-   "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
-   "discuss": "https://news.ycombinator.com/item?id=50233347"
+   "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+   "discuss": "https://news.ycombinator.com/item?id=50233304"
   },
   {
    "kind": "news",

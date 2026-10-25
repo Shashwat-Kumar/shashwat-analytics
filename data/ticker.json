@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T14:18:34Z",
+ "generated_at": "2026-10-25T17:42:34Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
-  "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+  "title": "A Mathematician Reads the AI Future",
+  "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50230181",
-  "points": 151,
-  "comments": 94,
-  "published": "2026-10-25T10:42:01Z",
-  "since": "2026-10-25T14:18:34Z"
+  "discuss": "https://news.ycombinator.com/item?id=50233347",
+  "points": 25,
+  "comments": 10,
+  "published": "2026-10-25T16:31:21Z",
+  "since": "2026-10-25T17:42:34Z"
  },
  "voice": {
   "kind": "voice",
@@ -37,15 +37,6 @@
    "source": "Yahoo Finance",
    "published": "2026-10-25T01:30:00Z",
    "since": "2026-10-25T05:13:46Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Google CEO Sundar Pichai responds to Sam Altman’s ‘fend Google off’ remark, asks: ‘Are you bolting agents",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWXlUYnNaQzM1b2lualRIYTFzdTZMWTVRSkVFODhaeHVrQ29hMmxySkZVbUkzSmtreGhXaWNTbTR5Yi0ya2U0bGsyQnl4WUowbE90NkVLdi1mUWFfeHBJTWJ2YmVMVklGdmN6dFpZZXZiaVBpWnQzTEQ0azE2MXJ5bmN0NGRLM3hrZWxrVTBrc0tjSk9LOThoU2taSVd5RWRxYzVtZ0c4RFdrNWNPSko5ZDRUeTdzNFdJazVIdVE5NWVtZElxZHFpNXZpRWJoeWxRLU9SRTdrTFNSeFo5WnpVZmhORWpwel8xSUHSAe8BQVVfeXFMTXQta0NMUzhDV001QkJVNTcxS3lsWElhYlJ2MFhrOVlrMzNfbjVJX3B5MmpiamhkOWtpb2RHdm9jRFpWbDlHX0dsN0dNeGRDeDg3MnlUeXVvS0ZuVlVER3Z2bnpwSF9RRzhXVW8wYTVHajlTRVduTkdjVVJRN3lsd1ZncVZIUjFTNnE0THc3X01SaXMxLWFPeEdQZGVvX0ZVVzJ6aW10ZnFoVjQzNlVyZFJlOGplRUtTUGlubGxRUnlWUmo5WXdRWTNLV181eHRnU1paR0pkQXRsWVJMRm1MRmZiZGRYR1NBVFFwWmhWY2c?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-24T16:00:00Z"
   }
  ],
  "items": [
@@ -60,18 +51,9 @@
    "since": "2026-10-25T05:13:46Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Google CEO Sundar Pichai responds to Sam Altman’s ‘fend Google off’ remark, asks: ‘Are you bolting agents",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWXlUYnNaQzM1b2lualRIYTFzdTZMWTVRSkVFODhaeHVrQ29hMmxySkZVbUkzSmtreGhXaWNTbTR5Yi0ya2U0bGsyQnl4WUowbE90NkVLdi1mUWFfeHBJTWJ2YmVMVklGdmN6dFpZZXZiaVBpWnQzTEQ0azE2MXJ5bmN0NGRLM3hrZWxrVTBrc0tjSk9LOThoU2taSVd5RWRxYzVtZ0c4RFdrNWNPSko5ZDRUeTdzNFdJazVIdVE5NWVtZElxZHFpNXZpRWJoeWxRLU9SRTdrTFNSeFo5WnpVZmhORWpwel8xSUHSAe8BQVVfeXFMTXQta0NMUzhDV001QkJVNTcxS3lsWElhYlJ2MFhrOVlrMzNfbjVJX3B5MmpiamhkOWtpb2RHdm9jRFpWbDlHX0dsN0dNeGRDeDg3MnlUeXVvS0ZuVlVER3Z2bnpwSF9RRzhXVW8wYTVHajlTRVduTkdjVVJRN3lsd1ZncVZIUjFTNnE0THc3X01SaXMxLWFPeEdQZGVvX0ZVVzJ6aW10ZnFoVjQzNlVyZFJlOGplRUtTUGlubGxRUnlWUmo5WXdRWTNLV181eHRnU1paR0pkQXRsWVJMRm1MRmZiZGRYR1NBVFFwWmhWY2c?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-24T16:00:00Z"
-  },
-  {
    "kind": "repo",
    "title": "MemTensor/MemT-1.0",
-   "stars": 397,
+   "stars": 398,
    "note": "Python · new this week",
    "url": "https://github.com/MemTensor/MemT-1.0",
    "source": "GitHub",
@@ -81,7 +63,7 @@
   {
    "kind": "repo",
    "title": "C4rohan/Lampline",
-   "stars": 289,
+   "stars": 283,
    "note": "Python · new this week",
    "url": "https://github.com/C4rohan/Lampline",
    "source": "GitHub",
@@ -91,7 +73,7 @@
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 4847,
+   "stars": 4941,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -101,7 +83,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 4446,
+   "stars": 4522,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -111,7 +93,7 @@
   {
    "kind": "repo",
    "title": "JoasASantos/REA-Prompts",
-   "stars": 2312,
+   "stars": 2357,
    "note": " · new this week",
    "url": "https://github.com/JoasASantos/REA-Prompts",
    "source": "GitHub",
@@ -121,7 +103,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 2074,
+   "stars": 2354,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -131,7 +113,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 409,
+   "points": 583,
+   "title": "Samsung TV privacy issues",
+   "source": "Hacker News",
+   "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+   "discuss": "https://news.ycombinator.com/item?id=50218633"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 465,
    "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
    "source": "Hacker News",
    "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
@@ -140,7 +131,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 238,
+   "points": 305,
    "title": "Cerebras Deploys Trillion-Parameter AI Models",
    "source": "Hacker News",
    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
@@ -149,16 +140,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 151,
-   "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
-   "source": "Hacker News",
-   "url": "https://twitter.com/mike64_t/status/2114150399406202896",
-   "discuss": "https://news.ycombinator.com/item?id=50230181"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 118,
+   "points": 132,
    "title": "Neural chip decodes interactions between brain regions",
    "source": "Hacker News",
    "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
@@ -167,11 +149,27 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 53,
+   "points": 104,
    "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
    "source": "Hacker News",
    "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
    "discuss": "https://news.ycombinator.com/item?id=50229827"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 25,
+   "title": "A Mathematician Reads the AI Future",
+   "source": "Hacker News",
+   "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+   "discuss": "https://news.ycombinator.com/item?id=50233347"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
   },
   {
    "kind": "news",
@@ -193,13 +191,6 @@
    "title": "Block’s new voice model sounds eerily human",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
   },
   {
    "kind": "news",

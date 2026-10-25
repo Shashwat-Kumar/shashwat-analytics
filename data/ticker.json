@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T05:13:46Z",
+ "generated_at": "2026-10-25T09:55:31Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-  "url": "https://github.com/slee-persis/GVS5H",
+  "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+  "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50228167",
-  "points": 63,
-  "comments": 16,
-  "published": "2026-10-25T03:56:01Z",
-  "since": "2026-10-25T05:13:46Z"
+  "discuss": "https://news.ycombinator.com/item?id=50226419",
+  "points": 366,
+  "comments": 358,
+  "published": "2026-10-24T23:11:54Z",
+  "since": "2026-10-25T09:55:31Z"
  },
  "voice": {
   "kind": "voice",
@@ -98,8 +98,18 @@
   },
   {
    "kind": "repo",
+   "title": "C4rohan/Lampline",
+   "stars": 232,
+   "note": "Python · new this week",
+   "url": "https://github.com/C4rohan/Lampline",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 4485,
+   "stars": 4649,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -109,7 +119,7 @@
   {
    "kind": "repo",
    "title": "simbasjungles/free-my-tv",
-   "stars": 4345,
+   "stars": 4383,
    "note": "Java · new this week",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "source": "GitHub",
@@ -119,7 +129,7 @@
   {
    "kind": "repo",
    "title": "JoasASantos/REA-Prompts",
-   "stars": 2178,
+   "stars": 2255,
    "note": " · new this week",
    "url": "https://github.com/JoasASantos/REA-Prompts",
    "source": "GitHub",
@@ -129,7 +139,7 @@
   {
    "kind": "repo",
    "title": "EthanArbuckle/fairplay-decrypt",
-   "stars": 2003,
+   "stars": 2031,
    "note": "C · new this week",
    "url": "https://github.com/EthanArbuckle/fairplay-decrypt",
    "source": "GitHub",
@@ -139,7 +149,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 260,
+   "points": 366,
    "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
    "source": "Hacker News",
    "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
@@ -148,29 +158,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 97,
-   "title": "Neural chip decodes interactions between brain regions",
-   "source": "Hacker News",
-   "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
-   "discuss": "https://news.ycombinator.com/item?id=50222525"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 63,
-   "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-   "source": "Hacker News",
-   "url": "https://github.com/slee-persis/GVS5H",
-   "discuss": "https://news.ycombinator.com/item?id=50228167"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 59,
+   "points": 163,
    "title": "Cerebras Deploys Trillion-Parameter AI Models",
    "source": "Hacker News",
    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
    "discuss": "https://news.ycombinator.com/item?id=50227356"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 106,
+   "title": "Neural chip decodes interactions between brain regions",
+   "source": "Hacker News",
+   "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+   "discuss": "https://news.ycombinator.com/item?id=50222525"
   },
   {
    "kind": "news",

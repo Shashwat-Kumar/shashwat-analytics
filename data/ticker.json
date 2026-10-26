@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T11:30:05Z",
+ "generated_at": "2026-10-26T17:37:52Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,36 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "IBM CEO says open weight models are now good and cheap on-prem",
-  "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+  "title": "Anthropic S-1",
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50238088",
-  "points": 280,
-  "comments": 182,
-  "published": "2026-10-26T01:47:46Z",
-  "since": "2026-10-26T11:30:05Z"
+  "discuss": "https://news.ycombinator.com/item?id=50242939",
+  "points": 1021,
+  "comments": 933,
+  "published": "2026-10-26T13:04:50Z",
+  "since": "2026-10-26T17:37:52Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sundar Pichai",
-  "title": "Google CEO Sundar Pichai says company is giving up short-term cloud revenue to prioritise advanced AI development",
-  "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNd01pNGE1M0EtQVdicG5aMkMtVE1nTXA4N3ByRFc4eng4dnExT3pMZHBpVEl5UDRqRmRSd0JfRmFPOUVzSzB3dHZRdXNsbGxCYW1XUXVKcVZVTmREOHFSSzBvbGt3eUdTX1FsaGx6ZndULVZLS3hlM1ZBVHBfQ09URlY0ODZhVVFlend5R3ozaENMdXhaSjJabmxJQjRzWUwwWFFDRGJiNUpKVnpRLWd4VTN1UGdkak9fVGJUajhhdTMtUjBjdm9iLVI1QmE0ZGtLU19rdmtJVXVFSjhBUmZUcm1kU0tyUFBRcUJMWWJuR0hiSFI1VExseUhjVGRnMEhmY08w0gGIAkFVX3lxTE9PX29saE9SajZmTlBtZi1yWDJMWXZ3VHN1OVBFczJVSUlQWXdzT2txeVo0M0RKQzhKZVFvaEFpYUhKTUpfUGpGZWhiZFAwbmxEYjR6Zmh0cVBXWV9WcjBMRHFEZkJVUTNMbGhkSU9PSVBXbnRoWlQ5MUZCSVlibFdFSFpXZTV0Wks0QVl3b2NHX0xrNnhzektKSG9KNFNzc0hZY25rbDJSVnVQV0tCalhRTlRJZ045VHVfYnUtYm5mOTN6cEpoaUF6cTQ4U0VwYlI4M3U0RXhWRXIzNkJOQVA5MlFnVVZZWUdPOWZ2WE54V1NSSVE0d2Q5RDJKQkZNMko4MGxkXy1xYQ?oc=5",
-  "source": "Livemint",
-  "published": "2026-10-26T11:03:01Z",
-  "since": "2026-10-26T11:30:05Z"
+  "person": "Elon Musk",
+  "title": "Elon Musk warns of a major AI neocloud shakeout",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWjJGQUdaR1pzVUs0RXE2c1lMWVdSekt5bWFwOXd5MTFkQk8xM3RJdXF2VFo5ZDRITVNYUWRCdFBESU5KOFlCeDZwYzZqNzE2c3ZWUk5HUVZHRHRBcGxtNWV5OFJRVXduZWdIMzQ2QXBUdnpNOHY0aW5JNVIzMEc3MEVFQjFGb3pOYVh5YlNhNjh2RDJNMGlLWnN3?oc=5",
+  "source": "Yahoo Finance",
+  "published": "2026-10-26T17:18:43Z",
+  "since": "2026-10-26T17:37:52Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk warns of a major AI neocloud shakeout",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWjJGQUdaR1pzVUs0RXE2c1lMWVdSekt5bWFwOXd5MTFkQk8xM3RJdXF2VFo5ZDRITVNYUWRCdFBESU5KOFlCeDZwYzZqNzE2c3ZWUk5HUVZHRHRBcGxtNWV5OFJRVXduZWdIMzQ2QXBUdnpNOHY0aW5JNVIzMEc3MEVFQjFGb3pOYVh5YlNhNjh2RDJNMGlLWnN3?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-26T17:18:43Z",
+   "since": "2026-10-26T17:37:52Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,17 +45,7 @@
    "title": "Google CEO Sundar Pichai says company is giving up short-term cloud revenue to prioritise advanced AI development",
    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNd01pNGE1M0EtQVdicG5aMkMtVE1nTXA4N3ByRFc4eng4dnExT3pMZHBpVEl5UDRqRmRSd0JfRmFPOUVzSzB3dHZRdXNsbGxCYW1XUXVKcVZVTmREOHFSSzBvbGt3eUdTX1FsaGx6ZndULVZLS3hlM1ZBVHBfQ09URlY0ODZhVVFlend5R3ozaENMdXhaSjJabmxJQjRzWUwwWFFDRGJiNUpKVnpRLWd4VTN1UGdkak9fVGJUajhhdTMtUjBjdm9iLVI1QmE0ZGtLU19rdmtJVXVFSjhBUmZUcm1kU0tyUFBRcUJMWWJuR0hiSFI1VExseUhjVGRnMEhmY08w0gGIAkFVX3lxTE9PX29saE9SajZmTlBtZi1yWDJMWXZ3VHN1OVBFczJVSUlQWXdzT2txeVo0M0RKQzhKZVFvaEFpYUhKTUpfUGpGZWhiZFAwbmxEYjR6Zmh0cVBXWV9WcjBMRHFEZkJVUTNMbGhkSU9PSVBXbnRoWlQ5MUZCSVlibFdFSFpXZTV0Wks0QVl3b2NHX0xrNnhzektKSG9KNFNzc0hZY25rbDJSVnVQV0tCalhRTlRJZ045VHVfYnUtYm5mOTN6cEpoaUF6cTQ4U0VwYlI4M3U0RXhWRXIzNkJOQVA5MlFnVVZZWUdPOWZ2WE54V1NSSVE0d2Q5RDJKQkZNMko4MGxkXy1xYQ?oc=5",
    "source": "Livemint",
-   "published": "2026-10-26T11:03:01Z",
-   "since": "2026-10-26T11:30:05Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk Says SpaceX Secures $40 Billion Debt Financing For AI GPUs",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbW50dkJxcnZhMFkxLWV4b0tXZ1JQdFIyX0xuajltZ1A3YjNpbmVyaVZlUkYxNGx2TXVpMFhTZWg5eGkzT0xiakxYTVpwZDJsZ1hsbElPelZMX2haZnhZdXAzY2trT29HaGxadU9VaE9VQmxpNFBnR2Q0d0Y4dGZDSk5odjhheEM4VXVUUnQ1MGJTclg4aWtTeVNYczFXd2hxUWI1WEh5X2xPZkc4dGVXSnM1b3fSAbQBQVVfeXFMUG1udHZCcXJ2YTBZMS1leG9LV2dSUHRSMl9Mbmo5bWdQN2IzaW5lcmlWZVJGMTRsdk11aTBYU2VoOXhpM09MYmpMWE1acGQybGdYbGxJT3pWTF9oWmZ4WXVwM2Nra09vR2hsWnVPVWhPVUJsaTRQZ0dkNHdGOHRmQ0pOaHY4YXhDOFV1VFJ0NTBiU3JYOGlrU3lTWHMxV3docVFiNVhIeV9sT2ZHOHRlV0pzNW93?oc=5",
-   "source": "NDTV",
-   "published": "2026-10-26T07:11:13Z"
+   "published": "2026-10-26T11:03:01Z"
   },
   {
    "kind": "voice",
@@ -70,21 +70,21 @@
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Google CEO Sundar Pichai says company is giving up short-term cloud revenue to prioritise advanced AI development",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNd01pNGE1M0EtQVdicG5aMkMtVE1nTXA4N3ByRFc4eng4dnExT3pMZHBpVEl5UDRqRmRSd0JfRmFPOUVzSzB3dHZRdXNsbGxCYW1XUXVKcVZVTmREOHFSSzBvbGt3eUdTX1FsaGx6ZndULVZLS3hlM1ZBVHBfQ09URlY0ODZhVVFlend5R3ozaENMdXhaSjJabmxJQjRzWUwwWFFDRGJiNUpKVnpRLWd4VTN1UGdkak9fVGJUajhhdTMtUjBjdm9iLVI1QmE0ZGtLU19rdmtJVXVFSjhBUmZUcm1kU0tyUFBRcUJMWWJuR0hiSFI1VExseUhjVGRnMEhmY08w0gGIAkFVX3lxTE9PX29saE9SajZmTlBtZi1yWDJMWXZ3VHN1OVBFczJVSUlQWXdzT2txeVo0M0RKQzhKZVFvaEFpYUhKTUpfUGpGZWhiZFAwbmxEYjR6Zmh0cVBXWV9WcjBMRHFEZkJVUTNMbGhkSU9PSVBXbnRoWlQ5MUZCSVlibFdFSFpXZTV0Wks0QVl3b2NHX0xrNnhzektKSG9KNFNzc0hZY25rbDJSVnVQV0tCalhRTlRJZ045VHVfYnUtYm5mOTN6cEpoaUF6cTQ4U0VwYlI4M3U0RXhWRXIzNkJOQVA5MlFnVVZZWUdPOWZ2WE54V1NSSVE0d2Q5RDJKQkZNMko4MGxkXy1xYQ?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-26T11:03:01Z",
-   "since": "2026-10-26T11:30:05Z"
+   "person": "Elon Musk",
+   "title": "Elon Musk warns of a major AI neocloud shakeout",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWjJGQUdaR1pzVUs0RXE2c1lMWVdSekt5bWFwOXd5MTFkQk8xM3RJdXF2VFo5ZDRITVNYUWRCdFBESU5KOFlCeDZwYzZqNzE2c3ZWUk5HUVZHRHRBcGxtNWV5OFJRVXduZWdIMzQ2QXBUdnpNOHY0aW5JNVIzMEc3MEVFQjFGb3pOYVh5YlNhNjh2RDJNMGlLWnN3?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-26T17:18:43Z",
+   "since": "2026-10-26T17:37:52Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk Says SpaceX Secures $40 Billion Debt Financing For AI GPUs",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbW50dkJxcnZhMFkxLWV4b0tXZ1JQdFIyX0xuajltZ1A3YjNpbmVyaVZlUkYxNGx2TXVpMFhTZWg5eGkzT0xiakxYTVpwZDJsZ1hsbElPelZMX2haZnhZdXAzY2trT29HaGxadU9VaE9VQmxpNFBnR2Q0d0Y4dGZDSk5odjhheEM4VXVUUnQ1MGJTclg4aWtTeVNYczFXd2hxUWI1WEh5X2xPZkc4dGVXSnM1b3fSAbQBQVVfeXFMUG1udHZCcXJ2YTBZMS1leG9LV2dSUHRSMl9Mbmo5bWdQN2IzaW5lcmlWZVJGMTRsdk11aTBYU2VoOXhpM09MYmpMWE1acGQybGdYbGxJT3pWTF9oWmZ4WXVwM2Nra09vR2hsWnVPVWhPVUJsaTRQZ0dkNHdGOHRmQ0pOaHY4YXhDOFV1VFJ0NTBiU3JYOGlrU3lTWHMxV3docVFiNVhIeV9sT2ZHOHRlV0pzNW93?oc=5",
-   "source": "NDTV",
-   "published": "2026-10-26T07:11:13Z"
+   "person": "Sundar Pichai",
+   "title": "Google CEO Sundar Pichai says company is giving up short-term cloud revenue to prioritise advanced AI development",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNd01pNGE1M0EtQVdicG5aMkMtVE1nTXA4N3ByRFc4eng4dnExT3pMZHBpVEl5UDRqRmRSd0JfRmFPOUVzSzB3dHZRdXNsbGxCYW1XUXVKcVZVTmREOHFSSzBvbGt3eUdTX1FsaGx6ZndULVZLS3hlM1ZBVHBfQ09URlY0ODZhVVFlend5R3ozaENMdXhaSjJabmxJQjRzWUwwWFFDRGJiNUpKVnpRLWd4VTN1UGdkak9fVGJUajhhdTMtUjBjdm9iLVI1QmE0ZGtLU19rdmtJVXVFSjhBUmZUcm1kU0tyUFBRcUJMWWJuR0hiSFI1VExseUhjVGRnMEhmY08w0gGIAkFVX3lxTE9PX29saE9SajZmTlBtZi1yWDJMWXZ3VHN1OVBFczJVSUlQWXdzT2txeVo0M0RKQzhKZVFvaEFpYUhKTUpfUGpGZWhiZFAwbmxEYjR6Zmh0cVBXWV9WcjBMRHFEZkJVUTNMbGhkSU9PSVBXbnRoWlQ5MUZCSVlibFdFSFpXZTV0Wks0QVl3b2NHX0xrNnhzektKSG9KNFNzc0hZY25rbDJSVnVQV0tCalhRTlRJZ045VHVfYnUtYm5mOTN6cEpoaUF6cTQ4U0VwYlI4M3U0RXhWRXIzNkJOQVA5MlFnVVZZWUdPOWZ2WE54V1NSSVE0d2Q5RDJKQkZNMko4MGxkXy1xYQ?oc=5",
+   "source": "Livemint",
+   "published": "2026-10-26T11:03:01Z"
   },
   {
    "kind": "voice",
@@ -98,7 +98,7 @@
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 5763,
+   "stars": 6002,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -108,7 +108,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 3468,
+   "stars": 3697,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -118,7 +118,7 @@
   {
    "kind": "repo",
    "title": "wesbos/3d-model-anything",
-   "stars": 2013,
+   "stars": 2043,
    "note": "Swift · new this week",
    "url": "https://github.com/wesbos/3d-model-anything",
    "source": "GitHub",
@@ -128,7 +128,7 @@
   {
    "kind": "repo",
    "title": "xevrion/hatchzip",
-   "stars": 2001,
+   "stars": 2028,
    "note": "Rust · new this week",
    "url": "https://github.com/xevrion/hatchzip",
    "source": "GitHub",
@@ -138,38 +138,68 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 571,
-   "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+   "points": 1021,
+   "title": "Anthropic S-1",
    "source": "Hacker News",
-   "url": "https://lynchlab.net/llm-skin-cancer",
-   "discuss": "https://news.ycombinator.com/item?id=50233779"
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+   "discuss": "https://news.ycombinator.com/item?id=50242939"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 333,
-   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+   "points": 234,
+   "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
    "source": "Hacker News",
-   "url": "https://minimaxir.com/2026/10/cheap-llms/",
-   "discuss": "https://news.ycombinator.com/item?id=50236102"
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "discuss": "https://news.ycombinator.com/item?id=50245138"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 280,
-   "title": "IBM CEO says open weight models are now good and cheap on-prem",
+   "points": 113,
+   "title": "Brown student maps the hidden global labor powering AI",
    "source": "Hacker News",
-   "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
-   "discuss": "https://news.ycombinator.com/item?id=50238088"
+   "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+   "discuss": "https://news.ycombinator.com/item?id=50242843"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 46,
-   "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+   "points": 23,
+   "title": "Concerning behavior from a popular open-weight AI model",
    "source": "Hacker News",
-   "url": "https://adrs.systems",
-   "discuss": "https://news.ycombinator.com/item?id=50227041"
+   "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+   "discuss": "https://news.ycombinator.com/item?id=50246658"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 17,
+   "title": "The Git Forge for Agent-Human Collaboration",
+   "source": "Hacker News",
+   "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+   "discuss": "https://news.ycombinator.com/item?id=50247453"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Anthropic officially files for its public debut",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
   },
   {
    "kind": "news",
@@ -177,27 +207,6 @@
    "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The hottest AI wearables and gadgets you should know about",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
   },
   {
    "kind": "news",

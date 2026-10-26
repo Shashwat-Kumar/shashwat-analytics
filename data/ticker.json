@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T17:37:52Z",
+ "generated_at": "2026-10-26T21:56:02Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50242939",
-  "points": 1021,
-  "comments": 933,
+  "points": 1371,
+  "comments": 1348,
   "published": "2026-10-26T13:04:50Z",
   "since": "2026-10-26T17:37:52Z"
  },
@@ -21,22 +21,31 @@
   "kind": "voice",
   "tag": "VOICE",
   "person": "Elon Musk",
-  "title": "Elon Musk warns of a major AI neocloud shakeout",
-  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWjJGQUdaR1pzVUs0RXE2c1lMWVdSekt5bWFwOXd5MTFkQk8xM3RJdXF2VFo5ZDRITVNYUWRCdFBESU5KOFlCeDZwYzZqNzE2c3ZWUk5HUVZHRHRBcGxtNWV5OFJRVXduZWdIMzQ2QXBUdnpNOHY0aW5JNVIzMEc3MEVFQjFGb3pOYVh5YlNhNjh2RDJNMGlLWnN3?oc=5",
-  "source": "Yahoo Finance",
-  "published": "2026-10-26T17:18:43Z",
-  "since": "2026-10-26T17:37:52Z"
+  "title": "Elon Musk warns more than 200 AI cloud companies face 'guppy-level death' as the AI boom runs into a debt crisis",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ubWZuUzdhcGFObkxHcThuVE1fN19hUDhlZlZNZzZjcjBwdnVFcTUwcDJNRldjenZmaEJJTS0zOUdyWUhRR1ZyVE4zcFFlUjhkb2JtaVQtN21WeXFzLV9jc2pIdzU3alRmdHFHd0dKWjh0Zw?oc=5",
+  "source": "Fortune",
+  "published": "2026-10-26T20:44:00Z",
+  "since": "2026-10-26T21:56:02Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk warns of a major AI neocloud shakeout",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWjJGQUdaR1pzVUs0RXE2c1lMWVdSekt5bWFwOXd5MTFkQk8xM3RJdXF2VFo5ZDRITVNYUWRCdFBESU5KOFlCeDZwYzZqNzE2c3ZWUk5HUVZHRHRBcGxtNWV5OFJRVXduZWdIMzQ2QXBUdnpNOHY0aW5JNVIzMEc3MEVFQjFGb3pOYVh5YlNhNjh2RDJNMGlLWnN3?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-26T17:18:43Z",
-   "since": "2026-10-26T17:37:52Z"
+   "title": "Elon Musk warns more than 200 AI cloud companies face 'guppy-level death' as the AI boom runs into a debt crisis",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ubWZuUzdhcGFObkxHcThuVE1fN19hUDhlZlZNZzZjcjBwdnVFcTUwcDJNRldjenZmaEJJTS0zOUdyWUhRR1ZyVE4zcFFlUjhkb2JtaVQtN21WeXFzLV9jc2pIdzU3alRmdHFHd0dKWjh0Zw?oc=5",
+   "source": "Fortune",
+   "published": "2026-10-26T20:44:00Z",
+   "since": "2026-10-26T21:56:02Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Jensen Huang Says Open Models Can Beat The Frontier. Here’s How",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenJMdG81Y3NRbjVCd05SQ0d5YlVReTE3VmowYzVUTVg5M2pYUXBLLVhFUFo1WENoaXFIT3pONDJGQWk1bFA0bDhLTVJBU1BlSlptNlhXcG82Zm9fX3lSVFhrS3dMUFVpOW02eGduVHRSQWlBZ3NHeGo3UzdRWWx2aGxOQmJtQWQ0NVlMSElPeE9DdG8tdDVybEVVb2cySXNsZ01jWnNrU3dsRWY1NUJaQQ?oc=5",
+   "source": "Forbes",
+   "published": "2026-10-26T20:07:37Z"
   },
   {
    "kind": "voice",
@@ -46,15 +55,6 @@
    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNd01pNGE1M0EtQVdicG5aMkMtVE1nTXA4N3ByRFc4eng4dnExT3pMZHBpVEl5UDRqRmRSd0JfRmFPOUVzSzB3dHZRdXNsbGxCYW1XUXVKcVZVTmREOHFSSzBvbGt3eUdTX1FsaGx6ZndULVZLS3hlM1ZBVHBfQ09URlY0ODZhVVFlend5R3ozaENMdXhaSjJabmxJQjRzWUwwWFFDRGJiNUpKVnpRLWd4VTN1UGdkak9fVGJUajhhdTMtUjBjdm9iLVI1QmE0ZGtLU19rdmtJVXVFSjhBUmZUcm1kU0tyUFBRcUJMWWJuR0hiSFI1VExseUhjVGRnMEhmY08w0gGIAkFVX3lxTE9PX29saE9SajZmTlBtZi1yWDJMWXZ3VHN1OVBFczJVSUlQWXdzT2txeVo0M0RKQzhKZVFvaEFpYUhKTUpfUGpGZWhiZFAwbmxEYjR6Zmh0cVBXWV9WcjBMRHFEZkJVUTNMbGhkSU9PSVBXbnRoWlQ5MUZCSVlibFdFSFpXZTV0Wks0QVl3b2NHX0xrNnhzektKSG9KNFNzc0hZY25rbDJSVnVQV0tCalhRTlRJZ045VHVfYnUtYm5mOTN6cEpoaUF6cTQ4U0VwYlI4M3U0RXhWRXIzNkJOQVA5MlFnVVZZWUdPOWZ2WE54V1NSSVE0d2Q5RDJKQkZNMko4MGxkXy1xYQ?oc=5",
    "source": "Livemint",
    "published": "2026-10-26T11:03:01Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFA1bzFTby1DOGNCX2VmUEQzSUJoV1hRbjRxcUR3bmZ4Nk5jclRsdkJ6c2dXZFNYZHAtLVQ4emxnWE0zQUR2dy1rcHVPSk1CN2tVRklkNldSMTVXdWdFV21FNzJPV2FWZkJDNWppRnBaRU1mczhQMDBGLTFkWVl6ajhJSWdGVnc2LUlTYmZGS2NVSlJCR19ob1FB?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-26T04:20:00Z"
   },
   {
    "kind": "voice",
@@ -71,11 +71,20 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk warns of a major AI neocloud shakeout",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWjJGQUdaR1pzVUs0RXE2c1lMWVdSekt5bWFwOXd5MTFkQk8xM3RJdXF2VFo5ZDRITVNYUWRCdFBESU5KOFlCeDZwYzZqNzE2c3ZWUk5HUVZHRHRBcGxtNWV5OFJRVXduZWdIMzQ2QXBUdnpNOHY0aW5JNVIzMEc3MEVFQjFGb3pOYVh5YlNhNjh2RDJNMGlLWnN3?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-26T17:18:43Z",
-   "since": "2026-10-26T17:37:52Z"
+   "title": "Elon Musk warns more than 200 AI cloud companies face 'guppy-level death' as the AI boom runs into a debt crisis",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ubWZuUzdhcGFObkxHcThuVE1fN19hUDhlZlZNZzZjcjBwdnVFcTUwcDJNRldjenZmaEJJTS0zOUdyWUhRR1ZyVE4zcFFlUjhkb2JtaVQtN21WeXFzLV9jc2pIdzU3alRmdHFHd0dKWjh0Zw?oc=5",
+   "source": "Fortune",
+   "published": "2026-10-26T20:44:00Z",
+   "since": "2026-10-26T21:56:02Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Jensen Huang Says Open Models Can Beat The Frontier. Here’s How",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenJMdG81Y3NRbjVCd05SQ0d5YlVReTE3VmowYzVUTVg5M2pYUXBLLVhFUFo1WENoaXFIT3pONDJGQWk1bFA0bDhLTVJBU1BlSlptNlhXcG82Zm9fX3lSVFhrS3dMUFVpOW02eGduVHRSQWlBZ3NHeGo3UzdRWWx2aGxOQmJtQWQ0NVlMSElPeE9DdG8tdDVybEVVb2cySXNsZ01jWnNrU3dsRWY1NUJaQQ?oc=5",
+   "source": "Forbes",
+   "published": "2026-10-26T20:07:37Z"
   },
   {
    "kind": "voice",
@@ -87,18 +96,9 @@
    "published": "2026-10-26T11:03:01Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFA1bzFTby1DOGNCX2VmUEQzSUJoV1hRbjRxcUR3bmZ4Nk5jclRsdkJ6c2dXZFNYZHAtLVQ4emxnWE0zQUR2dy1rcHVPSk1CN2tVRklkNldSMTVXdWdFV21FNzJPV2FWZkJDNWppRnBaRU1mczhQMDBGLTFkWVl6ajhJSWdGVnc2LUlTYmZGS2NVSlJCR19ob1FB?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-26T04:20:00Z"
-  },
-  {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 6002,
+   "stars": 6015,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -108,7 +108,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 3697,
+   "stars": 3769,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -118,7 +118,7 @@
   {
    "kind": "repo",
    "title": "wesbos/3d-model-anything",
-   "stars": 2043,
+   "stars": 2062,
    "note": "Swift · new this week",
    "url": "https://github.com/wesbos/3d-model-anything",
    "source": "GitHub",
@@ -128,7 +128,7 @@
   {
    "kind": "repo",
    "title": "xevrion/hatchzip",
-   "stars": 2028,
+   "stars": 2048,
    "note": "Rust · new this week",
    "url": "https://github.com/xevrion/hatchzip",
    "source": "GitHub",
@@ -138,7 +138,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 1021,
+   "points": 1371,
    "title": "Anthropic S-1",
    "source": "Hacker News",
    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
@@ -147,7 +147,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 234,
+   "points": 485,
    "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
    "source": "Hacker News",
    "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
@@ -156,16 +156,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 113,
-   "title": "Brown student maps the hidden global labor powering AI",
+   "points": 400,
+   "title": "GPT-6.1 Terra",
    "source": "Hacker News",
-   "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
-   "discuss": "https://news.ycombinator.com/item?id=50242843"
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "discuss": "https://news.ycombinator.com/item?id=50248124"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 23,
+   "points": 219,
    "title": "Concerning behavior from a popular open-weight AI model",
    "source": "Hacker News",
    "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
@@ -174,11 +174,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 17,
-   "title": "The Git Forge for Agent-Human Collaboration",
+   "points": 55,
+   "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
    "source": "Hacker News",
-   "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
-   "discuss": "https://news.ycombinator.com/item?id=50247453"
+   "url": "https://github.com/FrigadeHQ/hob",
+   "discuss": "https://news.ycombinator.com/item?id=50246238"
   },
   {
    "kind": "news",

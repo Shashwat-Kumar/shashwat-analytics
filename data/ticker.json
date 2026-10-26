@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T22:30:29Z",
+ "generated_at": "2026-10-26T00:41:26Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,32 @@
   "url": "https://lynchlab.net/llm-skin-cancer",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50233779",
-  "points": 335,
-  "comments": 174,
+  "points": 407,
+  "comments": 196,
   "published": "2026-10-25T17:15:38Z",
   "since": "2026-10-25T20:01:12Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Jensen Huang",
-  "title": "Nvidia’s Jensen Huang Says AI Agents Have Sent Token, GPU Demand ‘Through the Roof’: Gene Munster Sees 15 Million Bot Users Soaring to Billions",
-  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOG1EcXoxY09jT1IzdTlXRlZBZ1kyMEozME5xSFJyeWRsVXBUdFd3aTJ3eDFxbzFvdFZHaWVRLXgyRFp0dWpMaGRVdHdsUVI4OEVsR19yczBzTm1aTjg5MFBXWW1odklWQVlxbVh2d2xZU2ViSkl3TEpSMzAwLV85VVZFeWxBQ1pWcDVZclZtOFNuQ1BJSWc?oc=5",
+  "person": "Elon Musk",
+  "title": "Elon Musk Says 200+ AI Cloud Firms Face Wipeout: Will CoreWeave Survive?",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb3BnXzVxdDVvTE1JbDRGSUU5cW1ubTZXeWNqN2YzZnB4bVpxa0ROenpsNFVsN091WlZNRzk1LXhURTZyQkZHZUdvWjV5UFN5aGExcy14TUx3azJFSFNXTUMySS1ISkhMc1ktc3Z0RDFMaThyblQ0VFJKaWw4UmM0MDFrODlyeVZGd191Y1NB?oc=5",
   "source": "Yahoo Finance",
-  "published": "2026-10-25T01:30:00Z",
-  "since": "2026-10-25T05:13:46Z"
+  "published": "2026-10-25T22:00:00Z",
+  "since": "2026-10-26T00:41:26Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk Says 200+ AI Cloud Firms Face Wipeout: Will CoreWeave Survive?",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb3BnXzVxdDVvTE1JbDRGSUU5cW1ubTZXeWNqN2YzZnB4bVpxa0ROenpsNFVsN091WlZNRzk1LXhURTZyQkZHZUdvWjV5UFN5aGExcy14TUx3azJFSFNXTUMySS1ISkhMc1ktc3Z0RDFMaThyblQ0VFJKaWw4UmM0MDFrODlyeVZGd191Y1NB?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-25T22:00:00Z",
+   "since": "2026-10-26T00:41:26Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,45 +45,33 @@
    "title": "Nvidia’s Jensen Huang Says AI Agents Have Sent Token, GPU Demand ‘Through the Roof’: Gene Munster Sees 15 Million Bot Users Soaring to Billions",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOG1EcXoxY09jT1IzdTlXRlZBZ1kyMEozME5xSFJyeWRsVXBUdFd3aTJ3eDFxbzFvdFZHaWVRLXgyRFp0dWpMaGRVdHdsUVI4OEVsR19yczBzTm1aTjg5MFBXWW1odklWQVlxbVh2d2xZU2ViSkl3TEpSMzAwLV85VVZFeWxBQ1pWcDVZclZtOFNuQ1BJSWc?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-25T01:30:00Z",
-   "since": "2026-10-25T05:13:46Z"
+   "published": "2026-10-25T01:30:00Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk Says 200+ AI Cloud Firms Face Wipeout: Will CoreWeave Survive?",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb3BnXzVxdDVvTE1JbDRGSUU5cW1ubTZXeWNqN2YzZnB4bVpxa0ROenpsNFVsN091WlZNRzk1LXhURTZyQkZHZUdvWjV5UFN5aGExcy14TUx3azJFSFNXTUMySS1ISkhMc1ktc3Z0RDFMaThyblQ0VFJKaWw4UmM0MDFrODlyeVZGd191Y1NB?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-25T22:00:00Z",
+   "since": "2026-10-26T00:41:26Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Jensen Huang",
    "title": "Nvidia’s Jensen Huang Says AI Agents Have Sent Token, GPU Demand ‘Through the Roof’: Gene Munster Sees 15 Million Bot Users Soaring to Billions",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOG1EcXoxY09jT1IzdTlXRlZBZ1kyMEozME5xSFJyeWRsVXBUdFd3aTJ3eDFxbzFvdFZHaWVRLXgyRFp0dWpMaGRVdHdsUVI4OEVsR19yczBzTm1aTjg5MFBXWW1odklWQVlxbVh2d2xZU2ViSkl3TEpSMzAwLV85VVZFeWxBQ1pWcDVZclZtOFNuQ1BJSWc?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-25T01:30:00Z",
-   "since": "2026-10-25T05:13:46Z"
-  },
-  {
-   "kind": "repo",
-   "title": "MemTensor/MemT-1.0",
-   "stars": 398,
-   "note": "Python · new this week",
-   "url": "https://github.com/MemTensor/MemT-1.0",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "C4rohan/Lampline",
-   "stars": 267,
-   "note": "Python · new this week",
-   "url": "https://github.com/C4rohan/Lampline",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
+   "published": "2026-10-25T01:30:00Z"
   },
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 4968,
+   "stars": 4995,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -82,18 +80,8 @@
   },
   {
    "kind": "repo",
-   "title": "simbasjungles/free-my-tv",
-   "stars": 4584,
-   "note": "Java · new this week",
-   "url": "https://github.com/simbasjungles/free-my-tv",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 2528,
+   "stars": 2606,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -102,10 +90,20 @@
   },
   {
    "kind": "repo",
-   "title": "JoasASantos/REA-Prompts",
-   "stars": 2399,
-   "note": "Batchfile · new this week",
-   "url": "https://github.com/JoasASantos/REA-Prompts",
+   "title": "xevrion/hatchzip",
+   "stars": 1937,
+   "note": "Rust · new this week",
+   "url": "https://github.com/xevrion/hatchzip",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "wesbos/3d-model-anything",
+   "stars": 1915,
+   "note": "Swift · new this week",
+   "url": "https://github.com/wesbos/3d-model-anything",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -113,16 +111,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 344,
-   "title": "Cerebras Deploys Trillion-Parameter AI Models",
-   "source": "Hacker News",
-   "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-   "discuss": "https://news.ycombinator.com/item?id=50227356"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 335,
+   "points": 407,
    "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "source": "Hacker News",
    "url": "https://lynchlab.net/llm-skin-cancer",
@@ -131,20 +120,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 166,
-   "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
-   "source": "Hacker News",
-   "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-   "discuss": "https://news.ycombinator.com/item?id=50233304"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 23,
+   "points": 107,
    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "source": "Hacker News",
    "url": "https://minimaxir.com/2026/10/cheap-llms/",
    "discuss": "https://news.ycombinator.com/item?id=50236102"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 7,
+   "title": "What Security Teams Need to Know About Agents Using Abliterated Models",
+   "source": "Hacker News",
+   "url": "https://eve.security/blog/what-security-teams-need-to-know-about-agents-using-abliterated-models",
+   "discuss": "https://news.ycombinator.com/item?id=50236356"
   },
   {
    "kind": "news",
@@ -173,9 +162,28 @@
    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Designing an AI serving harness built to last",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "The Foundations of Scalable AI",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Making the case for context-aware AI",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
   }
  ],
- "errors": [
-  "MIT Technology Review:HTTP Error 403: Forbidden"
- ]
+ "errors": []
 }

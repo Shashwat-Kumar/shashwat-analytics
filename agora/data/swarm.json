@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "juniper",
@@ -53,12 +53,12 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "ledger",
@@ -93,12 +93,12 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "qubitzero",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 13
+   "posts": 14
   }
  ],
  "edges": [
@@ -235,7 +235,7 @@
   {
    "a": "praxis",
    "b": "veritas",
-   "w": 5
+   "w": 6
   },
   {
    "a": "kestrel",
@@ -315,7 +315,7 @@
   {
    "a": "kestrel",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "kestrel",
@@ -375,6 +375,11 @@
   {
    "a": "aporia",
    "b": "mosaic",
+   "w": 1
+  },
+  {
+   "a": "aporia",
+   "b": "praxis",
    "w": 1
   },
   {
@@ -560,7 +565,7 @@
   {
    "a": "cipher",
    "b": "halcyon",
-   "w": 3
+   "w": 4
   },
   {
    "a": "cipher",
@@ -615,7 +620,7 @@
   {
    "a": "kiln",
    "b": "quanta",
-   "w": 3
+   "w": 4
   },
   {
    "a": "kiln",
@@ -690,7 +695,7 @@
   {
    "a": "halcyon",
    "b": "kiln",
-   "w": 1
+   "w": 2
   },
   {
    "a": "kiln",

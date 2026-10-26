@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T05:28:00Z",
+ "generated_at": "2026-10-26T11:30:05Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,45 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-  "url": "https://lynchlab.net/llm-skin-cancer",
+  "title": "IBM CEO says open weight models are now good and cheap on-prem",
+  "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50233779",
-  "points": 501,
-  "comments": 226,
-  "published": "2026-10-25T17:15:38Z",
-  "since": "2026-10-25T20:01:12Z"
+  "discuss": "https://news.ycombinator.com/item?id=50238088",
+  "points": 280,
+  "comments": 182,
+  "published": "2026-10-26T01:47:46Z",
+  "since": "2026-10-26T11:30:05Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Jensen Huang",
-  "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
-  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFA1bzFTby1DOGNCX2VmUEQzSUJoV1hRbjRxcUR3bmZ4Nk5jclRsdkJ6c2dXZFNYZHAtLVQ4emxnWE0zQUR2dy1rcHVPSk1CN2tVRklkNldSMTVXdWdFV21FNzJPV2FWZkJDNWppRnBaRU1mczhQMDBGLTFkWVl6ajhJSWdGVnc2LUlTYmZGS2NVSlJCR19ob1FB?oc=5",
-  "source": "Yahoo Finance",
-  "published": "2026-10-26T04:20:00Z",
-  "since": "2026-10-26T05:28:00Z"
+  "person": "Sundar Pichai",
+  "title": "Google CEO Sundar Pichai says company is giving up short-term cloud revenue to prioritise advanced AI development",
+  "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNd01pNGE1M0EtQVdicG5aMkMtVE1nTXA4N3ByRFc4eng4dnExT3pMZHBpVEl5UDRqRmRSd0JfRmFPOUVzSzB3dHZRdXNsbGxCYW1XUXVKcVZVTmREOHFSSzBvbGt3eUdTX1FsaGx6ZndULVZLS3hlM1ZBVHBfQ09URlY0ODZhVVFlend5R3ozaENMdXhaSjJabmxJQjRzWUwwWFFDRGJiNUpKVnpRLWd4VTN1UGdkak9fVGJUajhhdTMtUjBjdm9iLVI1QmE0ZGtLU19rdmtJVXVFSjhBUmZUcm1kU0tyUFBRcUJMWWJuR0hiSFI1VExseUhjVGRnMEhmY08w0gGIAkFVX3lxTE9PX29saE9SajZmTlBtZi1yWDJMWXZ3VHN1OVBFczJVSUlQWXdzT2txeVo0M0RKQzhKZVFvaEFpYUhKTUpfUGpGZWhiZFAwbmxEYjR6Zmh0cVBXWV9WcjBMRHFEZkJVUTNMbGhkSU9PSVBXbnRoWlQ5MUZCSVlibFdFSFpXZTV0Wks0QVl3b2NHX0xrNnhzektKSG9KNFNzc0hZY25rbDJSVnVQV0tCalhRTlRJZ045VHVfYnUtYm5mOTN6cEpoaUF6cTQ4U0VwYlI4M3U0RXhWRXIzNkJOQVA5MlFnVVZZWUdPOWZ2WE54V1NSSVE0d2Q5RDJKQkZNMko4MGxkXy1xYQ?oc=5",
+  "source": "Livemint",
+  "published": "2026-10-26T11:03:01Z",
+  "since": "2026-10-26T11:30:05Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Google CEO Sundar Pichai says company is giving up short-term cloud revenue to prioritise advanced AI development",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNd01pNGE1M0EtQVdicG5aMkMtVE1nTXA4N3ByRFc4eng4dnExT3pMZHBpVEl5UDRqRmRSd0JfRmFPOUVzSzB3dHZRdXNsbGxCYW1XUXVKcVZVTmREOHFSSzBvbGt3eUdTX1FsaGx6ZndULVZLS3hlM1ZBVHBfQ09URlY0ODZhVVFlend5R3ozaENMdXhaSjJabmxJQjRzWUwwWFFDRGJiNUpKVnpRLWd4VTN1UGdkak9fVGJUajhhdTMtUjBjdm9iLVI1QmE0ZGtLU19rdmtJVXVFSjhBUmZUcm1kU0tyUFBRcUJMWWJuR0hiSFI1VExseUhjVGRnMEhmY08w0gGIAkFVX3lxTE9PX29saE9SajZmTlBtZi1yWDJMWXZ3VHN1OVBFczJVSUlQWXdzT2txeVo0M0RKQzhKZVFvaEFpYUhKTUpfUGpGZWhiZFAwbmxEYjR6Zmh0cVBXWV9WcjBMRHFEZkJVUTNMbGhkSU9PSVBXbnRoWlQ5MUZCSVlibFdFSFpXZTV0Wks0QVl3b2NHX0xrNnhzektKSG9KNFNzc0hZY25rbDJSVnVQV0tCalhRTlRJZ045VHVfYnUtYm5mOTN6cEpoaUF6cTQ4U0VwYlI4M3U0RXhWRXIzNkJOQVA5MlFnVVZZWUdPOWZ2WE54V1NSSVE0d2Q5RDJKQkZNMko4MGxkXy1xYQ?oc=5",
+   "source": "Livemint",
+   "published": "2026-10-26T11:03:01Z",
+   "since": "2026-10-26T11:30:05Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk Says SpaceX Secures $40 Billion Debt Financing For AI GPUs",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbW50dkJxcnZhMFkxLWV4b0tXZ1JQdFIyX0xuajltZ1A3YjNpbmVyaVZlUkYxNGx2TXVpMFhTZWg5eGkzT0xiakxYTVpwZDJsZ1hsbElPelZMX2haZnhZdXAzY2trT29HaGxadU9VaE9VQmxpNFBnR2Q0d0Y4dGZDSk5odjhheEM4VXVUUnQ1MGJTclg4aWtTeVNYczFXd2hxUWI1WEh5X2xPZkc4dGVXSnM1b3fSAbQBQVVfeXFMUG1udHZCcXJ2YTBZMS1leG9LV2dSUHRSMl9Mbmo5bWdQN2IzaW5lcmlWZVJGMTRsdk11aTBYU2VoOXhpM09MYmpMWE1acGQybGdYbGxJT3pWTF9oWmZ4WXVwM2Nra09vR2hsWnVPVWhPVUJsaTRQZ0dkNHdGOHRmQ0pOaHY4YXhDOFV1VFJ0NTBiU3JYOGlrU3lTWHMxV3docVFiNVhIeV9sT2ZHOHRlV0pzNW93?oc=5",
+   "source": "NDTV",
+   "published": "2026-10-26T07:11:13Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,17 +54,7 @@
    "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFA1bzFTby1DOGNCX2VmUEQzSUJoV1hRbjRxcUR3bmZ4Nk5jclRsdkJ6c2dXZFNYZHAtLVQ4emxnWE0zQUR2dy1rcHVPSk1CN2tVRklkNldSMTVXdWdFV21FNzJPV2FWZkJDNWppRnBaRU1mczhQMDBGLTFkWVl6ajhJSWdGVnc2LUlTYmZGS2NVSlJCR19ob1FB?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-26T04:20:00Z",
-   "since": "2026-10-26T05:28:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk warns of guppy-level death for AI startups, says SpaceX secured $40 billion for GPUs",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQLTZOVXBDTDhNeXJXQ0c2MkpnUVBNam1hYmx2Z3FfVkRXdnNZcW8wV0hVZ0pWdEZ6dFJJQlpCRFg5djM4MUZsUkxPSmp4NWRlM0FqTGtBLTYwNU95WnEwcjdKSHJQc2wwQXBkV3FMdFJjOEM0YkxXcTZtVUc5OGJCLXp1NVJKNWtVanZLUWNJOFZQcUNMYUxuMC1abm9zd0VBMS00U1M3QnNsOTE3ZWR5Z1pjRk9jUTZzWlhBSkZTZXdNT2JfSVMtYjVnaGpVUWo4Z0FiQlY3UnFVMW1yNmdoWnNfQTBybDEzSDYyRXZvRWs2RUFhZ0HSAfYBQVVfeXFMUC02TlVwQ0w4TXlyV0NHNjJKZ1FQTWptYWJsdmdxX1ZEV3ZzWXFvMFdIVWdKVnRGenRSSUJaQkRYOXYzODFGbFJMT0pqeDVkZTNBakxrQS02MDVPeVpxMHI3SkhyUHNsMEFwZFdxTHRSYzhDNGJMV3E2bVVHOThiQi16dTVSSjVrVWp2S1FjSThWUHFDTGFMbjAtWm5vc3dFQTEtNFNTN0JzbDkxN2VkeWdaY0ZPY1E2c1pYQUpGU2V3TU9iX0lTLWI1Z2hqVVFqOGdBYkJWN1JxVTFtcjZnaFpzX0EwcmwxM0g2MkV2b0VrNkVBYWdB?oc=5",
-   "source": "India Today",
-   "published": "2026-10-26T03:06:13Z"
+   "published": "2026-10-26T04:20:00Z"
   },
   {
    "kind": "voice",
@@ -61,35 +70,35 @@
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFA1bzFTby1DOGNCX2VmUEQzSUJoV1hRbjRxcUR3bmZ4Nk5jclRsdkJ6c2dXZFNYZHAtLVQ4emxnWE0zQUR2dy1rcHVPSk1CN2tVRklkNldSMTVXdWdFV21FNzJPV2FWZkJDNWppRnBaRU1mczhQMDBGLTFkWVl6ajhJSWdGVnc2LUlTYmZGS2NVSlJCR19ob1FB?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-26T04:20:00Z",
-   "since": "2026-10-26T05:28:00Z"
+   "person": "Sundar Pichai",
+   "title": "Google CEO Sundar Pichai says company is giving up short-term cloud revenue to prioritise advanced AI development",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNd01pNGE1M0EtQVdicG5aMkMtVE1nTXA4N3ByRFc4eng4dnExT3pMZHBpVEl5UDRqRmRSd0JfRmFPOUVzSzB3dHZRdXNsbGxCYW1XUXVKcVZVTmREOHFSSzBvbGt3eUdTX1FsaGx6ZndULVZLS3hlM1ZBVHBfQ09URlY0ODZhVVFlend5R3ozaENMdXhaSjJabmxJQjRzWUwwWFFDRGJiNUpKVnpRLWd4VTN1UGdkak9fVGJUajhhdTMtUjBjdm9iLVI1QmE0ZGtLU19rdmtJVXVFSjhBUmZUcm1kU0tyUFBRcUJMWWJuR0hiSFI1VExseUhjVGRnMEhmY08w0gGIAkFVX3lxTE9PX29saE9SajZmTlBtZi1yWDJMWXZ3VHN1OVBFczJVSUlQWXdzT2txeVo0M0RKQzhKZVFvaEFpYUhKTUpfUGpGZWhiZFAwbmxEYjR6Zmh0cVBXWV9WcjBMRHFEZkJVUTNMbGhkSU9PSVBXbnRoWlQ5MUZCSVlibFdFSFpXZTV0Wks0QVl3b2NHX0xrNnhzektKSG9KNFNzc0hZY25rbDJSVnVQV0tCalhRTlRJZ045VHVfYnUtYm5mOTN6cEpoaUF6cTQ4U0VwYlI4M3U0RXhWRXIzNkJOQVA5MlFnVVZZWUdPOWZ2WE54V1NSSVE0d2Q5RDJKQkZNMko4MGxkXy1xYQ?oc=5",
+   "source": "Livemint",
+   "published": "2026-10-26T11:03:01Z",
+   "since": "2026-10-26T11:30:05Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk warns of guppy-level death for AI startups, says SpaceX secured $40 billion for GPUs",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQLTZOVXBDTDhNeXJXQ0c2MkpnUVBNam1hYmx2Z3FfVkRXdnNZcW8wV0hVZ0pWdEZ6dFJJQlpCRFg5djM4MUZsUkxPSmp4NWRlM0FqTGtBLTYwNU95WnEwcjdKSHJQc2wwQXBkV3FMdFJjOEM0YkxXcTZtVUc5OGJCLXp1NVJKNWtVanZLUWNJOFZQcUNMYUxuMC1abm9zd0VBMS00U1M3QnNsOTE3ZWR5Z1pjRk9jUTZzWlhBSkZTZXdNT2JfSVMtYjVnaGpVUWo4Z0FiQlY3UnFVMW1yNmdoWnNfQTBybDEzSDYyRXZvRWs2RUFhZ0HSAfYBQVVfeXFMUC02TlVwQ0w4TXlyV0NHNjJKZ1FQTWptYWJsdmdxX1ZEV3ZzWXFvMFdIVWdKVnRGenRSSUJaQkRYOXYzODFGbFJMT0pqeDVkZTNBakxrQS02MDVPeVpxMHI3SkhyUHNsMEFwZFdxTHRSYzhDNGJMV3E2bVVHOThiQi16dTVSSjVrVWp2S1FjSThWUHFDTGFMbjAtWm5vc3dFQTEtNFNTN0JzbDkxN2VkeWdaY0ZPY1E2c1pYQUpGU2V3TU9iX0lTLWI1Z2hqVVFqOGdBYkJWN1JxVTFtcjZnaFpzX0EwcmwxM0g2MkV2b0VrNkVBYWdB?oc=5",
-   "source": "India Today",
-   "published": "2026-10-26T03:06:13Z"
+   "title": "Elon Musk Says SpaceX Secures $40 Billion Debt Financing For AI GPUs",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbW50dkJxcnZhMFkxLWV4b0tXZ1JQdFIyX0xuajltZ1A3YjNpbmVyaVZlUkYxNGx2TXVpMFhTZWg5eGkzT0xiakxYTVpwZDJsZ1hsbElPelZMX2haZnhZdXAzY2trT29HaGxadU9VaE9VQmxpNFBnR2Q0d0Y4dGZDSk5odjhheEM4VXVUUnQ1MGJTclg4aWtTeVNYczFXd2hxUWI1WEh5X2xPZkc4dGVXSnM1b3fSAbQBQVVfeXFMUG1udHZCcXJ2YTBZMS1leG9LV2dSUHRSMl9Mbmo5bWdQN2IzaW5lcmlWZVJGMTRsdk11aTBYU2VoOXhpM09MYmpMWE1acGQybGdYbGxJT3pWTF9oWmZ4WXVwM2Nra09vR2hsWnVPVWhPVUJsaTRQZ0dkNHdGOHRmQ0pOaHY4YXhDOFV1VFJ0NTBiU3JYOGlrU3lTWHMxV3docVFiNVhIeV9sT2ZHOHRlV0pzNW93?oc=5",
+   "source": "NDTV",
+   "published": "2026-10-26T07:11:13Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Satya Nadella",
-   "title": "Satya Nadella Says Microsoft Is Rebuilding Around AI Agents as Trump Pushes ‘Super Intelligence’ — From 11,000 Models to Agents That Work on Your Behalf",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSktxVGNHWWl6RDMxRDBsSnlqMXljdXd0UFV0LWpLNVA1SGtGbG1fbGpycVN2c0pqN013WmxqM3JvWE9aU0tYckJmUEVOaDNiNmNsUlpsSkRhZno2NkJHZjNhM2JHdUh1UmxVRjBIMkFqV0lqS2R2endBaUxVRWZnQzAwb3RnZnAwLW53Qm04aTVsZGJXXzJsSlNIdmtCVjh2dWtjYm9n?oc=5",
+   "person": "Jensen Huang",
+   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFA1bzFTby1DOGNCX2VmUEQzSUJoV1hRbjRxcUR3bmZ4Nk5jclRsdkJ6c2dXZFNYZHAtLVQ4emxnWE0zQUR2dy1rcHVPSk1CN2tVRklkNldSMTVXdWdFV21FNzJPV2FWZkJDNWppRnBaRU1mczhQMDBGLTFkWVl6ajhJSWdGVnc2LUlTYmZGS2NVSlJCR19ob1FB?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-25T23:30:05Z"
+   "published": "2026-10-26T04:20:00Z"
   },
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 5295,
+   "stars": 5763,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -99,7 +108,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 3036,
+   "stars": 3468,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -108,18 +117,8 @@
   },
   {
    "kind": "repo",
-   "title": "xevrion/hatchzip",
-   "stars": 1966,
-   "note": "Rust · new this week",
-   "url": "https://github.com/xevrion/hatchzip",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "wesbos/3d-model-anything",
-   "stars": 1957,
+   "stars": 2013,
    "note": "Swift · new this week",
    "url": "https://github.com/wesbos/3d-model-anything",
    "source": "GitHub",
@@ -127,9 +126,19 @@
    "cat": "Trending"
   },
   {
+   "kind": "repo",
+   "title": "xevrion/hatchzip",
+   "stars": 2001,
+   "note": "Rust · new this week",
+   "url": "https://github.com/xevrion/hatchzip",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
    "kind": "news",
    "tag": "HN",
-   "points": 501,
+   "points": 571,
    "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "source": "Hacker News",
    "url": "https://lynchlab.net/llm-skin-cancer",
@@ -138,7 +147,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 228,
+   "points": 333,
    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "source": "Hacker News",
    "url": "https://minimaxir.com/2026/10/cheap-llms/",
@@ -147,7 +156,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 114,
+   "points": 280,
    "title": "IBM CEO says open weight models are now good and cheap on-prem",
    "source": "Hacker News",
    "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
@@ -156,29 +165,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 20,
+   "points": 46,
    "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
    "source": "Hacker News",
    "url": "https://adrs.systems",
    "discuss": "https://news.ycombinator.com/item?id=50227041"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 16,
-   "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
-   "source": "Hacker News",
-   "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
-   "discuss": "https://news.ycombinator.com/item?id=50238620"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 3,
-   "title": "Who Cares Whether Academics Use AI to Write?",
-   "source": "Hacker News",
-   "url": "https://www.chronicle.com/article/who-cares-whether-academics-use-ai-to-write",
-   "discuss": "https://news.ycombinator.com/item?id=50210696"
   },
   {
    "kind": "news",

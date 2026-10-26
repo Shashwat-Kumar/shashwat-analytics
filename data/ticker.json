@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T00:41:26Z",
+ "generated_at": "2026-10-26T05:28:00Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,66 +12,84 @@
   "url": "https://lynchlab.net/llm-skin-cancer",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50233779",
-  "points": 407,
-  "comments": 196,
+  "points": 501,
+  "comments": 226,
   "published": "2026-10-25T17:15:38Z",
   "since": "2026-10-25T20:01:12Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Elon Musk Says 200+ AI Cloud Firms Face Wipeout: Will CoreWeave Survive?",
-  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb3BnXzVxdDVvTE1JbDRGSUU5cW1ubTZXeWNqN2YzZnB4bVpxa0ROenpsNFVsN091WlZNRzk1LXhURTZyQkZHZUdvWjV5UFN5aGExcy14TUx3azJFSFNXTUMySS1ISkhMc1ktc3Z0RDFMaThyblQ0VFJKaWw4UmM0MDFrODlyeVZGd191Y1NB?oc=5",
+  "person": "Jensen Huang",
+  "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFA1bzFTby1DOGNCX2VmUEQzSUJoV1hRbjRxcUR3bmZ4Nk5jclRsdkJ6c2dXZFNYZHAtLVQ4emxnWE0zQUR2dy1rcHVPSk1CN2tVRklkNldSMTVXdWdFV21FNzJPV2FWZkJDNWppRnBaRU1mczhQMDBGLTFkWVl6ajhJSWdGVnc2LUlTYmZGS2NVSlJCR19ob1FB?oc=5",
   "source": "Yahoo Finance",
-  "published": "2026-10-25T22:00:00Z",
-  "since": "2026-10-26T00:41:26Z"
+  "published": "2026-10-26T04:20:00Z",
+  "since": "2026-10-26T05:28:00Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk Says 200+ AI Cloud Firms Face Wipeout: Will CoreWeave Survive?",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb3BnXzVxdDVvTE1JbDRGSUU5cW1ubTZXeWNqN2YzZnB4bVpxa0ROenpsNFVsN091WlZNRzk1LXhURTZyQkZHZUdvWjV5UFN5aGExcy14TUx3azJFSFNXTUMySS1ISkhMc1ktc3Z0RDFMaThyblQ0VFJKaWw4UmM0MDFrODlyeVZGd191Y1NB?oc=5",
+   "person": "Jensen Huang",
+   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFA1bzFTby1DOGNCX2VmUEQzSUJoV1hRbjRxcUR3bmZ4Nk5jclRsdkJ6c2dXZFNYZHAtLVQ4emxnWE0zQUR2dy1rcHVPSk1CN2tVRklkNldSMTVXdWdFV21FNzJPV2FWZkJDNWppRnBaRU1mczhQMDBGLTFkWVl6ajhJSWdGVnc2LUlTYmZGS2NVSlJCR19ob1FB?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-25T22:00:00Z",
-   "since": "2026-10-26T00:41:26Z"
+   "published": "2026-10-26T04:20:00Z",
+   "since": "2026-10-26T05:28:00Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Nvidia’s Jensen Huang Says AI Agents Have Sent Token, GPU Demand ‘Through the Roof’: Gene Munster Sees 15 Million Bot Users Soaring to Billions",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOG1EcXoxY09jT1IzdTlXRlZBZ1kyMEozME5xSFJyeWRsVXBUdFd3aTJ3eDFxbzFvdFZHaWVRLXgyRFp0dWpMaGRVdHdsUVI4OEVsR19yczBzTm1aTjg5MFBXWW1odklWQVlxbVh2d2xZU2ViSkl3TEpSMzAwLV85VVZFeWxBQ1pWcDVZclZtOFNuQ1BJSWc?oc=5",
+   "person": "Elon Musk",
+   "title": "Elon Musk warns of guppy-level death for AI startups, says SpaceX secured $40 billion for GPUs",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQLTZOVXBDTDhNeXJXQ0c2MkpnUVBNam1hYmx2Z3FfVkRXdnNZcW8wV0hVZ0pWdEZ6dFJJQlpCRFg5djM4MUZsUkxPSmp4NWRlM0FqTGtBLTYwNU95WnEwcjdKSHJQc2wwQXBkV3FMdFJjOEM0YkxXcTZtVUc5OGJCLXp1NVJKNWtVanZLUWNJOFZQcUNMYUxuMC1abm9zd0VBMS00U1M3QnNsOTE3ZWR5Z1pjRk9jUTZzWlhBSkZTZXdNT2JfSVMtYjVnaGpVUWo4Z0FiQlY3UnFVMW1yNmdoWnNfQTBybDEzSDYyRXZvRWs2RUFhZ0HSAfYBQVVfeXFMUC02TlVwQ0w4TXlyV0NHNjJKZ1FQTWptYWJsdmdxX1ZEV3ZzWXFvMFdIVWdKVnRGenRSSUJaQkRYOXYzODFGbFJMT0pqeDVkZTNBakxrQS02MDVPeVpxMHI3SkhyUHNsMEFwZFdxTHRSYzhDNGJMV3E2bVVHOThiQi16dTVSSjVrVWp2S1FjSThWUHFDTGFMbjAtWm5vc3dFQTEtNFNTN0JzbDkxN2VkeWdaY0ZPY1E2c1pYQUpGU2V3TU9iX0lTLWI1Z2hqVVFqOGdBYkJWN1JxVTFtcjZnaFpzX0EwcmwxM0g2MkV2b0VrNkVBYWdB?oc=5",
+   "source": "India Today",
+   "published": "2026-10-26T03:06:13Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Satya Nadella",
+   "title": "Satya Nadella Says Microsoft Is Rebuilding Around AI Agents as Trump Pushes ‘Super Intelligence’ — From 11,000 Models to Agents That Work on Your Behalf",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSktxVGNHWWl6RDMxRDBsSnlqMXljdXd0UFV0LWpLNVA1SGtGbG1fbGpycVN2c0pqN013WmxqM3JvWE9aU0tYckJmUEVOaDNiNmNsUlpsSkRhZno2NkJHZjNhM2JHdUh1UmxVRjBIMkFqV0lqS2R2endBaUxVRWZnQzAwb3RnZnAwLW53Qm04aTVsZGJXXzJsSlNIdmtCVjh2dWtjYm9n?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-25T01:30:00Z"
+   "published": "2026-10-25T23:30:05Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk Says 200+ AI Cloud Firms Face Wipeout: Will CoreWeave Survive?",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb3BnXzVxdDVvTE1JbDRGSUU5cW1ubTZXeWNqN2YzZnB4bVpxa0ROenpsNFVsN091WlZNRzk1LXhURTZyQkZHZUdvWjV5UFN5aGExcy14TUx3azJFSFNXTUMySS1ISkhMc1ktc3Z0RDFMaThyblQ0VFJKaWw4UmM0MDFrODlyeVZGd191Y1NB?oc=5",
+   "person": "Jensen Huang",
+   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFA1bzFTby1DOGNCX2VmUEQzSUJoV1hRbjRxcUR3bmZ4Nk5jclRsdkJ6c2dXZFNYZHAtLVQ4emxnWE0zQUR2dy1rcHVPSk1CN2tVRklkNldSMTVXdWdFV21FNzJPV2FWZkJDNWppRnBaRU1mczhQMDBGLTFkWVl6ajhJSWdGVnc2LUlTYmZGS2NVSlJCR19ob1FB?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-25T22:00:00Z",
-   "since": "2026-10-26T00:41:26Z"
+   "published": "2026-10-26T04:20:00Z",
+   "since": "2026-10-26T05:28:00Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Nvidia’s Jensen Huang Says AI Agents Have Sent Token, GPU Demand ‘Through the Roof’: Gene Munster Sees 15 Million Bot Users Soaring to Billions",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOG1EcXoxY09jT1IzdTlXRlZBZ1kyMEozME5xSFJyeWRsVXBUdFd3aTJ3eDFxbzFvdFZHaWVRLXgyRFp0dWpMaGRVdHdsUVI4OEVsR19yczBzTm1aTjg5MFBXWW1odklWQVlxbVh2d2xZU2ViSkl3TEpSMzAwLV85VVZFeWxBQ1pWcDVZclZtOFNuQ1BJSWc?oc=5",
+   "person": "Elon Musk",
+   "title": "Elon Musk warns of guppy-level death for AI startups, says SpaceX secured $40 billion for GPUs",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQLTZOVXBDTDhNeXJXQ0c2MkpnUVBNam1hYmx2Z3FfVkRXdnNZcW8wV0hVZ0pWdEZ6dFJJQlpCRFg5djM4MUZsUkxPSmp4NWRlM0FqTGtBLTYwNU95WnEwcjdKSHJQc2wwQXBkV3FMdFJjOEM0YkxXcTZtVUc5OGJCLXp1NVJKNWtVanZLUWNJOFZQcUNMYUxuMC1abm9zd0VBMS00U1M3QnNsOTE3ZWR5Z1pjRk9jUTZzWlhBSkZTZXdNT2JfSVMtYjVnaGpVUWo4Z0FiQlY3UnFVMW1yNmdoWnNfQTBybDEzSDYyRXZvRWs2RUFhZ0HSAfYBQVVfeXFMUC02TlVwQ0w4TXlyV0NHNjJKZ1FQTWptYWJsdmdxX1ZEV3ZzWXFvMFdIVWdKVnRGenRSSUJaQkRYOXYzODFGbFJMT0pqeDVkZTNBakxrQS02MDVPeVpxMHI3SkhyUHNsMEFwZFdxTHRSYzhDNGJMV3E2bVVHOThiQi16dTVSSjVrVWp2S1FjSThWUHFDTGFMbjAtWm5vc3dFQTEtNFNTN0JzbDkxN2VkeWdaY0ZPY1E2c1pYQUpGU2V3TU9iX0lTLWI1Z2hqVVFqOGdBYkJWN1JxVTFtcjZnaFpzX0EwcmwxM0g2MkV2b0VrNkVBYWdB?oc=5",
+   "source": "India Today",
+   "published": "2026-10-26T03:06:13Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Satya Nadella",
+   "title": "Satya Nadella Says Microsoft Is Rebuilding Around AI Agents as Trump Pushes ‘Super Intelligence’ — From 11,000 Models to Agents That Work on Your Behalf",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSktxVGNHWWl6RDMxRDBsSnlqMXljdXd0UFV0LWpLNVA1SGtGbG1fbGpycVN2c0pqN013WmxqM3JvWE9aU0tYckJmUEVOaDNiNmNsUlpsSkRhZno2NkJHZjNhM2JHdUh1UmxVRjBIMkFqV0lqS2R2endBaUxVRWZnQzAwb3RnZnAwLW53Qm04aTVsZGJXXzJsSlNIdmtCVjh2dWtjYm9n?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-25T01:30:00Z"
+   "published": "2026-10-25T23:30:05Z"
   },
   {
    "kind": "repo",
    "title": "pengchujin/aerial-tv",
-   "stars": 4995,
+   "stars": 5295,
    "note": "Kotlin · new this week",
    "url": "https://github.com/pengchujin/aerial-tv",
    "source": "GitHub",
@@ -81,7 +99,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 2606,
+   "stars": 3036,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -91,7 +109,7 @@
   {
    "kind": "repo",
    "title": "xevrion/hatchzip",
-   "stars": 1937,
+   "stars": 1966,
    "note": "Rust · new this week",
    "url": "https://github.com/xevrion/hatchzip",
    "source": "GitHub",
@@ -101,7 +119,7 @@
   {
    "kind": "repo",
    "title": "wesbos/3d-model-anything",
-   "stars": 1915,
+   "stars": 1957,
    "note": "Swift · new this week",
    "url": "https://github.com/wesbos/3d-model-anything",
    "source": "GitHub",
@@ -111,7 +129,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 407,
+   "points": 501,
    "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "source": "Hacker News",
    "url": "https://lynchlab.net/llm-skin-cancer",
@@ -120,7 +138,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 107,
+   "points": 228,
    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "source": "Hacker News",
    "url": "https://minimaxir.com/2026/10/cheap-llms/",
@@ -129,11 +147,38 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 7,
-   "title": "What Security Teams Need to Know About Agents Using Abliterated Models",
+   "points": 114,
+   "title": "IBM CEO says open weight models are now good and cheap on-prem",
    "source": "Hacker News",
-   "url": "https://eve.security/blog/what-security-teams-need-to-know-about-agents-using-abliterated-models",
-   "discuss": "https://news.ycombinator.com/item?id=50236356"
+   "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+   "discuss": "https://news.ycombinator.com/item?id=50238088"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 20,
+   "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+   "source": "Hacker News",
+   "url": "https://adrs.systems",
+   "discuss": "https://news.ycombinator.com/item?id=50227041"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 16,
+   "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+   "source": "Hacker News",
+   "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
+   "discuss": "https://news.ycombinator.com/item?id=50238620"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 3,
+   "title": "Who Cares Whether Academics Use AI to Write?",
+   "source": "Hacker News",
+   "url": "https://www.chronicle.com/article/who-cares-whether-academics-use-ai-to-write",
+   "discuss": "https://news.ycombinator.com/item?id=50210696"
   },
   {
    "kind": "news",

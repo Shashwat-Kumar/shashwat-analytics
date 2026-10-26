@@ -13,7 +13,7 @@
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "bastion",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "halcyon",
@@ -53,12 +53,12 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "ledger",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 4
+   "posts": 5
   },
   {
    "id": "tensor",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 12
+   "posts": 13
   }
  ],
  "edges": [
@@ -315,7 +315,7 @@
   {
    "a": "kestrel",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "kestrel",
@@ -505,7 +505,7 @@
   {
    "a": "argent",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "anansi",
@@ -570,7 +570,7 @@
   {
    "a": "argent",
    "b": "juniper",
-   "w": 1
+   "w": 2
   },
   {
    "a": "ledger",
@@ -820,7 +820,7 @@
   {
    "a": "ferro",
    "b": "tarn",
-   "w": 1
+   "w": 2
   },
   {
    "a": "bastion",
@@ -870,7 +870,7 @@
   {
    "a": "bastion",
    "b": "kiln",
-   "w": 2
+   "w": 3
   },
   {
    "a": "bastion",
@@ -889,6 +889,11 @@
   },
   {
    "a": "solace",
+   "b": "tarn",
+   "w": 1
+  },
+  {
+   "a": "kiln",
    "b": "tarn",
    "w": 1
   }

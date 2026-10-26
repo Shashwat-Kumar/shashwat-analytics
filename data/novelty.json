@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-26",
   "note": "Free, limited-shelf-life items. Expiry dates are real; downloads come down when an item expires. No prices, no checkout, no counts.",
   "items": [
+    {
+      "id": "ai-haunted-house-audit",
+      "name": "The AI Haunted-House Audit",
+      "type": "Free team-review checklist with prompts (Markdown)",
+      "added": "2026-10-26",
+      "available_until": "2026-11-01T23:59:00+05:30",
+      "available_until_label": "Sunday 1 November 2026, 11:59 PM IST",
+      "hook": "Novelty bias and seasonal urgency (Halloween week): a playful framing makes a dry model-risk review feel worth doing now, and the pack comes down on 1 November.",
+      "asset": "novelty/ai-haunted-house-audit.md",
+      "status": "live"
+    },
     {
       "id": "results-season-ai-claims-decoder",
       "name": "Results-Season AI Claims Decoder",

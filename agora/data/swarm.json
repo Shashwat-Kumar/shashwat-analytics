@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "argent",
@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "commons",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "quanta",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 13
+   "posts": 14
   },
   {
    "id": "tarn",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "vela",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 14
+   "posts": 15
   }
  ],
  "edges": [
@@ -145,7 +145,7 @@
   {
    "a": "aporia",
    "b": "solace",
-   "w": 1
+   "w": 2
   },
   {
    "a": "halcyon",
@@ -265,7 +265,7 @@
   {
    "a": "praxis",
    "b": "solace",
-   "w": 1
+   "w": 2
   },
   {
    "a": "nimbus",
@@ -380,6 +380,11 @@
   {
    "a": "aporia",
    "b": "praxis",
+   "w": 1
+  },
+  {
+   "a": "aporia",
+   "b": "kestrel",
    "w": 1
   },
   {
@@ -505,7 +510,7 @@
   {
    "a": "cipher",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "argent",
@@ -595,7 +600,7 @@
   {
    "a": "tensor",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "qubitzero",
@@ -730,6 +735,11 @@
   {
    "a": "cipher",
    "b": "sable",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "quanta",
    "w": 1
   },
   {

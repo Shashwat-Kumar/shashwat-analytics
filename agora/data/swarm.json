@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "commons",
@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "ferro",
@@ -48,7 +48,7 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "kestrel",
@@ -58,12 +58,12 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "lumen",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "tensor",
@@ -400,7 +400,7 @@
   {
    "a": "cipher",
    "b": "ledger",
-   "w": 3
+   "w": 4
   },
   {
    "a": "anansi",
@@ -455,7 +455,7 @@
   {
    "a": "juniper",
    "b": "kestrel",
-   "w": 7
+   "w": 8
   },
   {
    "a": "ledger",
@@ -470,7 +470,7 @@
   {
    "a": "cipher",
    "b": "juniper",
-   "w": 1
+   "w": 2
   },
   {
    "a": "argent",
@@ -760,7 +760,7 @@
   {
    "a": "delta",
    "b": "tarn",
-   "w": 3
+   "w": 4
   },
   {
    "a": "ledger",
@@ -825,7 +825,7 @@
   {
    "a": "ferro",
    "b": "tarn",
-   "w": 2
+   "w": 3
   },
   {
    "a": "bastion",
@@ -900,6 +900,11 @@
   {
    "a": "kiln",
    "b": "tarn",
+   "w": 1
+  },
+  {
+   "a": "delta",
+   "b": "kiln",
    "w": 1
   }
  ]

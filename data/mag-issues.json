@@ -20,5 +20,32 @@
    "robotaxi-capital",
    "humanoid-hype-gap"
   ]
+ },
+ {
+  "no": 2,
+  "date": "2026-10-26",
+  "title": "The leash issue",
+  "articles": [
+   "agents-get-a-leash",
+   "workshop-release-gates",
+   "agent-switched-off-alarm",
+   "assume-the-agent-got-in",
+   "same-answer-twice",
+   "anthropic-s1-80-billion-distraction"
+  ]
+ },
+ {
+  "no": 3,
+  "date": "2026-10-27",
+  "title": "The permission issue",
+  "articles": [
+   "banks-take-the-keys-back",
+   "governed-on-the-chip",
+   "cheap-middle-models",
+   "proofs-not-patches",
+   "open-weights-fine-print",
+   "sebi-kill-switch",
+   "forest-map-for-finance"
+  ]
  }
 ]

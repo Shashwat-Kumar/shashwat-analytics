@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T06:47:43Z",
+ "generated_at": "2026-10-27T12:46:25Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,35 +8,44 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Anthropic S-1",
-  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+  "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
+  "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50242939",
-  "points": 1567,
-  "comments": 1507,
-  "published": "2026-10-26T13:04:50Z",
-  "since": "2026-10-26T17:37:52Z"
+  "discuss": "https://news.ycombinator.com/item?id=50256985",
+  "points": 178,
+  "comments": 116,
+  "published": "2026-10-27T10:27:50Z",
+  "since": "2026-10-27T12:46:25Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Elon Musk Predicts a Wave of Failures Among AI Cloud Companies. Is SpaceX Stock a Sell?",
-  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUU50Vnc2NGRCRHktMk40UUtnRjlNZ1pLUmpJYWVzSzVCOVRLSExMQm1lMXVVNDQzc085anBuRzZ1QjlLeGhHUURhN3BlU3NLMUk1R3dtX05SUzllUWNYdnFiY25LamswNzdYa3g5LU9CUEJsT0V5ZTVpR2sxcF9NMVBNWmx2ZDlzdVdWdzd2NEZENXBRRGwyeGpQTlI?oc=5",
-  "source": "Yahoo Finance",
-  "published": "2026-10-27T04:57:00Z",
-  "since": "2026-10-27T06:47:43Z"
+  "person": "Sam Altman",
+  "title": "OpenAI launches GPT-6.1 Terra: Sam Altman says ‘we are especially excited for …’",
+  "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTW1qby1EZWZscGRPRzhpNnU1bG1hUHBsSFFnc1NTZUJNZkVHRTB6TFJmeTVBTFlNaWw4RDFyZUZ1SGRSVHRiRTROdjNoODU5TERMbERKUUJVZl9JRFZTbl9BamZmM0JtRm8zLTl6dHRZS0JSc0N3VDd1a2R4N1RaVzZqcVdVZC1NVFZHbVBTUEFQM0xDUFU1V1hTcFlyczEwSTcySUhCeUNQaGxpVUhuak55b1BPbVdwZ1lGX1liM295ejZ2ampqVUpwSWVzRHNuQV8xTWVuR2N2MUtUa1NzZW5Udy1ucUdfUzBKWjhwcGHSAfYBQVVfeXFMTUtoaG9ha1hYRzFqOUg4T1c4X0hMc0QzX2wxa2ZIZG1EbkJrdWpDUVJiSmxidW1YUVNDT09RaElfYzdTY2JUT0N3bHh6YXRGd0dTTVZlZ3pkR0pvMHdkUnF2LUdzdUdaM3VrN2VvN05odGFqQmt2OE92Uk1qemFDM2F3TVVCUXdPVUhHSHZ5UTlwOTRLNThsT1VjZFRDbUFnaWpQQ3B1RGJzd3ZxQll3TG1WcTUtR0Q2SE9TYURXVEpERmtnMl9jSnF3SHpwaXdRNm9pTElqdExQWG1ucjNvOEJpanh5NnR3SjhXVGNXMVgzeWJtSmxn?oc=5",
+  "source": "The Times of India",
+  "published": "2026-10-27T09:33:00Z",
+  "since": "2026-10-27T12:46:25Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "OpenAI launches GPT-6.1 Terra: Sam Altman says ‘we are especially excited for …’",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTW1qby1EZWZscGRPRzhpNnU1bG1hUHBsSFFnc1NTZUJNZkVHRTB6TFJmeTVBTFlNaWw4RDFyZUZ1SGRSVHRiRTROdjNoODU5TERMbERKUUJVZl9JRFZTbl9BamZmM0JtRm8zLTl6dHRZS0JSc0N3VDd1a2R4N1RaVzZqcVdVZC1NVFZHbVBTUEFQM0xDUFU1V1hTcFlyczEwSTcySUhCeUNQaGxpVUhuak55b1BPbVdwZ1lGX1liM295ejZ2ampqVUpwSWVzRHNuQV8xTWVuR2N2MUtUa1NzZW5Udy1ucUdfUzBKWjhwcGHSAfYBQVVfeXFMTUtoaG9ha1hYRzFqOUg4T1c4X0hMc0QzX2wxa2ZIZG1EbkJrdWpDUVJiSmxidW1YUVNDT09RaElfYzdTY2JUT0N3bHh6YXRGd0dTTVZlZ3pkR0pvMHdkUnF2LUdzdUdaM3VrN2VvN05odGFqQmt2OE92Uk1qemFDM2F3TVVCUXdPVUhHSHZ5UTlwOTRLNThsT1VjZFRDbUFnaWpQQ3B1RGJzd3ZxQll3TG1WcTUtR0Q2SE9TYURXVEpERmtnMl9jSnF3SHpwaXdRNm9pTElqdExQWG1ucjNvOEJpanh5NnR3SjhXVGNXMVgzeWJtSmxn?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-27T09:33:00Z",
+   "since": "2026-10-27T12:46:25Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk Predicts a Wave of Failures Among AI Cloud Companies. Is SpaceX Stock a Sell?",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUU50Vnc2NGRCRHktMk40UUtnRjlNZ1pLUmpJYWVzSzVCOVRLSExMQm1lMXVVNDQzc085anBuRzZ1QjlLeGhHUURhN3BlU3NLMUk1R3dtX05SUzllUWNYdnFiY25LamswNzdYa3g5LU9CUEJsT0V5ZTVpR2sxcF9NMVBNWmx2ZDlzdVdWdzd2NEZENXBRRGwyeGpQTlI?oc=5",
+   "title": "Elon Musk Says Robots Will Need More Memory Than 'Everything Else on Earth' — This Analyst Sees 'Much Bigger Volume Story' for Micron, SK Hynix",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc0ZsQjFLTDVwa2NHUVpOVXNCZHFINHNaX1diRzZ6dV9yN1V6NGtCWnRINDk4MTlMc1F0NlRUdlJwV2UwY1h2VzlWYS1wNDFhTzh5bDl5SmZUV3NCb2xvUkFFa3VZRk5PRUYyUE5nLXN4cm1JM2FqemZFcGJPSEFqQ083ZGRMaERpS3ppbXBqQ1JIdGJY?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-27T04:57:00Z",
-   "since": "2026-10-27T06:47:43Z"
+   "published": "2026-10-27T06:30:00Z"
   },
   {
    "kind": "voice",
@@ -55,27 +64,27 @@
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenJMdG81Y3NRbjVCd05SQ0d5YlVReTE3VmowYzVUTVg5M2pYUXBLLVhFUFo1WENoaXFIT3pONDJGQWk1bFA0bDhLTVJBU1BlSlptNlhXcG82Zm9fX3lSVFhrS3dMUFVpOW02eGduVHRSQWlBZ3NHeGo3UzdRWWx2aGxOQmJtQWQ0NVlMSElPeE9DdG8tdDVybEVVb2cySXNsZ01jWnNrU3dsRWY1NUJaQQ?oc=5",
    "source": "Forbes",
    "published": "2026-10-26T20:07:37Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Google CEO Sundar Pichai says company is giving up short-term cloud revenue to prioritise advanced AI development",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNd01pNGE1M0EtQVdicG5aMkMtVE1nTXA4N3ByRFc4eng4dnExT3pMZHBpVEl5UDRqRmRSd0JfRmFPOUVzSzB3dHZRdXNsbGxCYW1XUXVKcVZVTmREOHFSSzBvbGt3eUdTX1FsaGx6ZndULVZLS3hlM1ZBVHBfQ09URlY0ODZhVVFlend5R3ozaENMdXhaSjJabmxJQjRzWUwwWFFDRGJiNUpKVnpRLWd4VTN1UGdkak9fVGJUajhhdTMtUjBjdm9iLVI1QmE0ZGtLU19rdmtJVXVFSjhBUmZUcm1kU0tyUFBRcUJMWWJuR0hiSFI1VExseUhjVGRnMEhmY08w0gGIAkFVX3lxTE9PX29saE9SajZmTlBtZi1yWDJMWXZ3VHN1OVBFczJVSUlQWXdzT2txeVo0M0RKQzhKZVFvaEFpYUhKTUpfUGpGZWhiZFAwbmxEYjR6Zmh0cVBXWV9WcjBMRHFEZkJVUTNMbGhkSU9PSVBXbnRoWlQ5MUZCSVlibFdFSFpXZTV0Wks0QVl3b2NHX0xrNnhzektKSG9KNFNzc0hZY25rbDJSVnVQV0tCalhRTlRJZ045VHVfYnUtYm5mOTN6cEpoaUF6cTQ4U0VwYlI4M3U0RXhWRXIzNkJOQVA5MlFnVVZZWUdPOWZ2WE54V1NSSVE0d2Q5RDJKQkZNMko4MGxkXy1xYQ?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-26T11:03:01Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "OpenAI launches GPT-6.1 Terra: Sam Altman says ‘we are especially excited for …’",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTW1qby1EZWZscGRPRzhpNnU1bG1hUHBsSFFnc1NTZUJNZkVHRTB6TFJmeTVBTFlNaWw4RDFyZUZ1SGRSVHRiRTROdjNoODU5TERMbERKUUJVZl9JRFZTbl9BamZmM0JtRm8zLTl6dHRZS0JSc0N3VDd1a2R4N1RaVzZqcVdVZC1NVFZHbVBTUEFQM0xDUFU1V1hTcFlyczEwSTcySUhCeUNQaGxpVUhuak55b1BPbVdwZ1lGX1liM295ejZ2ampqVUpwSWVzRHNuQV8xTWVuR2N2MUtUa1NzZW5Udy1ucUdfUzBKWjhwcGHSAfYBQVVfeXFMTUtoaG9ha1hYRzFqOUg4T1c4X0hMc0QzX2wxa2ZIZG1EbkJrdWpDUVJiSmxidW1YUVNDT09RaElfYzdTY2JUT0N3bHh6YXRGd0dTTVZlZ3pkR0pvMHdkUnF2LUdzdUdaM3VrN2VvN05odGFqQmt2OE92Uk1qemFDM2F3TVVCUXdPVUhHSHZ5UTlwOTRLNThsT1VjZFRDbUFnaWpQQ3B1RGJzd3ZxQll3TG1WcTUtR0Q2SE9TYURXVEpERmtnMl9jSnF3SHpwaXdRNm9pTElqdExQWG1ucjNvOEJpanh5NnR3SjhXVGNXMVgzeWJtSmxn?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-27T09:33:00Z",
+   "since": "2026-10-27T12:46:25Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk Predicts a Wave of Failures Among AI Cloud Companies. Is SpaceX Stock a Sell?",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUU50Vnc2NGRCRHktMk40UUtnRjlNZ1pLUmpJYWVzSzVCOVRLSExMQm1lMXVVNDQzc085anBuRzZ1QjlLeGhHUURhN3BlU3NLMUk1R3dtX05SUzllUWNYdnFiY25LamswNzdYa3g5LU9CUEJsT0V5ZTVpR2sxcF9NMVBNWmx2ZDlzdVdWdzd2NEZENXBRRGwyeGpQTlI?oc=5",
+   "title": "Elon Musk Says Robots Will Need More Memory Than 'Everything Else on Earth' — This Analyst Sees 'Much Bigger Volume Story' for Micron, SK Hynix",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc0ZsQjFLTDVwa2NHUVpOVXNCZHFINHNaX1diRzZ6dV9yN1V6NGtCWnRINDk4MTlMc1F0NlRUdlJwV2UwY1h2VzlWYS1wNDFhTzh5bDl5SmZUV3NCb2xvUkFFa3VZRk5PRUYyUE5nLXN4cm1JM2FqemZFcGJPSEFqQ083ZGRMaERpS3ppbXBqQ1JIdGJY?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-27T04:57:00Z",
-   "since": "2026-10-27T06:47:43Z"
+   "published": "2026-10-27T06:30:00Z"
   },
   {
    "kind": "voice",
@@ -85,15 +94,6 @@
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdDFhazFqem5YSWVQQVpoNFNLUlpDQ29JQTY2dkphVTFVbUF3dGRiR1QyMU4ycjBfSWxKejVhUVNuU2pGZXl6QklVRThvZkZYMlE5ODZ1ZF9kTVJLQW51NE1ONEdNMHpWQ2k5T3YzQWtNbVpkZzlHeEwzd0tjOThTOUFlT3lUcU5DQnNUdDFyZVYtZlRqdDJLMnNHZkVqMmJSYXAtaDUyZw?oc=5",
    "source": "Business Insider",
    "published": "2026-10-26T23:18:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Jensen Huang Says Open Models Can Beat The Frontier. Here’s How",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenJMdG81Y3NRbjVCd05SQ0d5YlVReTE3VmowYzVUTVg5M2pYUXBLLVhFUFo1WENoaXFIT3pONDJGQWk1bFA0bDhLTVJBU1BlSlptNlhXcG82Zm9fX3lSVFhrS3dMUFVpOW02eGduVHRSQWlBZ3NHeGo3UzdRWWx2aGxOQmJtQWQ0NVlMSElPeE9DdG8tdDVybEVVb2cySXNsZ01jWnNrU3dsRWY1NUJaQQ?oc=5",
-   "source": "Forbes",
-   "published": "2026-10-26T20:07:37Z"
   },
   {
    "kind": "repo",
@@ -108,7 +108,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 3975,
+   "stars": 4102,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -118,7 +118,7 @@
   {
    "kind": "repo",
    "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 2404,
+   "stars": 2875,
    "note": "Python · new this week",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "source": "GitHub",
@@ -127,8 +127,18 @@
   },
   {
    "kind": "repo",
+   "title": "designfuchen/word-atlas",
+   "stars": 2194,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/designfuchen/word-atlas",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "wesbos/3d-model-anything",
-   "stars": 2107,
+   "stars": 2151,
    "note": "Swift · new this week",
    "url": "https://github.com/wesbos/3d-model-anything",
    "source": "GitHub",
@@ -136,19 +146,9 @@
    "cat": "Trending"
   },
   {
-   "kind": "repo",
-   "title": "xevrion/hatchzip",
-   "stars": 2072,
-   "note": "Rust · new this week",
-   "url": "https://github.com/xevrion/hatchzip",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
    "kind": "news",
    "tag": "HN",
-   "points": 1567,
+   "points": 1645,
    "title": "Anthropic S-1",
    "source": "Hacker News",
    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
@@ -157,7 +157,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 653,
+   "points": 746,
    "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
    "source": "Hacker News",
    "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
@@ -166,20 +166,54 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 571,
-   "title": "GPT-6.1 Terra",
+   "points": 238,
+   "title": "The Mythical Man-Month in the Age of AI",
    "source": "Hacker News",
-   "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-   "discuss": "https://news.ycombinator.com/item?id=50248124"
+   "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+   "discuss": "https://news.ycombinator.com/item?id=50255298"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 118,
+   "points": 178,
+   "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
+   "source": "Hacker News",
+   "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+   "discuss": "https://news.ycombinator.com/item?id=50256985"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 147,
    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
    "source": "Hacker News",
    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
    "discuss": "https://news.ycombinator.com/item?id=50252159"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 58,
+   "title": "Wikipedia's Cleanup of AI-Generated Content",
+   "source": "Hacker News",
+   "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+   "discuss": "https://news.ycombinator.com/item?id=50257326"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 27,
+   "title": "AI promised less work. I've never worked more",
+   "source": "Hacker News",
+   "url": "https://oioannou.com/blog/ai-promised-less-work/",
+   "discuss": "https://news.ycombinator.com/item?id=50257325"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/"
   },
   {
    "kind": "news",
@@ -201,13 +235,6 @@
    "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
   },
   {
    "kind": "news",

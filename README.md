@@ -8,6 +8,6 @@ It publishes original analysis, practical learning and browser-based experiments
 - [Insights](https://readsigil.com/writing.html) · [Labs](https://readsigil.com/playground.html) · [Learning](https://readsigil.com/learn.html)
 - [Founder profile](https://readsigil.com/about.html)
 
-Built as a static website from GitHub Pages' `main` branch. ReadSigil is not represented as a separately incorporated company, a DCB Bank property or an employer-endorsed advisory service.
+Built as a static website from GitHub Pages' `main` branch. ReadSigil is not represented as a separately incorporated company, affiliated with or a property of any employer or an employer-endorsed advisory service.
 
 © Shashwat Kumar / ReadSigil. Not legal, tax or regulatory advice.

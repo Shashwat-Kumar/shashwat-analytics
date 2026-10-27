@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T01:25:58Z",
+ "generated_at": "2026-10-27T06:47:43Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,32 @@
   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50242939",
-  "points": 1464,
-  "comments": 1443,
+  "points": 1567,
+  "comments": 1507,
   "published": "2026-10-26T13:04:50Z",
   "since": "2026-10-26T17:37:52Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Satya Nadella",
-  "title": "Satya Nadella says he was wrong to think AI alignment would just happen",
-  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdDFhazFqem5YSWVQQVpoNFNLUlpDQ29JQTY2dkphVTFVbUF3dGRiR1QyMU4ycjBfSWxKejVhUVNuU2pGZXl6QklVRThvZkZYMlE5ODZ1ZF9kTVJLQW51NE1ONEdNMHpWQ2k5T3YzQWtNbVpkZzlHeEwzd0tjOThTOUFlT3lUcU5DQnNUdDFyZVYtZlRqdDJLMnNHZkVqMmJSYXAtaDUyZw?oc=5",
-  "source": "Business Insider",
-  "published": "2026-10-26T22:25:16Z",
-  "since": "2026-10-27T01:25:58Z"
+  "person": "Elon Musk",
+  "title": "Elon Musk Predicts a Wave of Failures Among AI Cloud Companies. Is SpaceX Stock a Sell?",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUU50Vnc2NGRCRHktMk40UUtnRjlNZ1pLUmpJYWVzSzVCOVRLSExMQm1lMXVVNDQzc085anBuRzZ1QjlLeGhHUURhN3BlU3NLMUk1R3dtX05SUzllUWNYdnFiY25LamswNzdYa3g5LU9CUEJsT0V5ZTVpR2sxcF9NMVBNWmx2ZDlzdVdWdzd2NEZENXBRRGwyeGpQTlI?oc=5",
+  "source": "Yahoo Finance",
+  "published": "2026-10-27T04:57:00Z",
+  "since": "2026-10-27T06:47:43Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk Predicts a Wave of Failures Among AI Cloud Companies. Is SpaceX Stock a Sell?",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUU50Vnc2NGRCRHktMk40UUtnRjlNZ1pLUmpJYWVzSzVCOVRLSExMQm1lMXVVNDQzc085anBuRzZ1QjlLeGhHUURhN3BlU3NLMUk1R3dtX05SUzllUWNYdnFiY25LamswNzdYa3g5LU9CUEJsT0V5ZTVpR2sxcF9NMVBNWmx2ZDlzdVdWdzd2NEZENXBRRGwyeGpQTlI?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-27T04:57:00Z",
+   "since": "2026-10-27T06:47:43Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,17 +45,7 @@
    "title": "Satya Nadella says he was wrong to think AI alignment would just happen",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdDFhazFqem5YSWVQQVpoNFNLUlpDQ29JQTY2dkphVTFVbUF3dGRiR1QyMU4ycjBfSWxKejVhUVNuU2pGZXl6QklVRThvZkZYMlE5ODZ1ZF9kTVJLQW51NE1ONEdNMHpWQ2k5T3YzQWtNbVpkZzlHeEwzd0tjOThTOUFlT3lUcU5DQnNUdDFyZVYtZlRqdDJLMnNHZkVqMmJSYXAtaDUyZw?oc=5",
    "source": "Business Insider",
-   "published": "2026-10-26T22:25:16Z",
-   "since": "2026-10-27T01:25:58Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk warns more than 200 AI cloud companies face 'guppy-level death' as the AI boom runs into a debt crisis",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ubWZuUzdhcGFObkxHcThuVE1fN19hUDhlZlZNZzZjcjBwdnVFcTUwcDJNRldjenZmaEJJTS0zOUdyWUhRR1ZyVE4zcFFlUjhkb2JtaVQtN21WeXFzLV9jc2pIdzU3alRmdHFHd0dKWjh0Zw?oc=5",
-   "source": "Fortune",
-   "published": "2026-10-26T20:44:00Z"
+   "published": "2026-10-26T23:18:00Z"
   },
   {
    "kind": "voice",
@@ -70,21 +70,21 @@
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Satya Nadella",
-   "title": "Satya Nadella says he was wrong to think AI alignment would just happen",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdDFhazFqem5YSWVQQVpoNFNLUlpDQ29JQTY2dkphVTFVbUF3dGRiR1QyMU4ycjBfSWxKejVhUVNuU2pGZXl6QklVRThvZkZYMlE5ODZ1ZF9kTVJLQW51NE1ONEdNMHpWQ2k5T3YzQWtNbVpkZzlHeEwzd0tjOThTOUFlT3lUcU5DQnNUdDFyZVYtZlRqdDJLMnNHZkVqMmJSYXAtaDUyZw?oc=5",
-   "source": "Business Insider",
-   "published": "2026-10-26T22:25:16Z",
-   "since": "2026-10-27T01:25:58Z"
+   "person": "Elon Musk",
+   "title": "Elon Musk Predicts a Wave of Failures Among AI Cloud Companies. Is SpaceX Stock a Sell?",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUU50Vnc2NGRCRHktMk40UUtnRjlNZ1pLUmpJYWVzSzVCOVRLSExMQm1lMXVVNDQzc085anBuRzZ1QjlLeGhHUURhN3BlU3NLMUk1R3dtX05SUzllUWNYdnFiY25LamswNzdYa3g5LU9CUEJsT0V5ZTVpR2sxcF9NMVBNWmx2ZDlzdVdWdzd2NEZENXBRRGwyeGpQTlI?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-27T04:57:00Z",
+   "since": "2026-10-27T06:47:43Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk warns more than 200 AI cloud companies face 'guppy-level death' as the AI boom runs into a debt crisis",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ubWZuUzdhcGFObkxHcThuVE1fN19hUDhlZlZNZzZjcjBwdnVFcTUwcDJNRldjenZmaEJJTS0zOUdyWUhRR1ZyVE4zcFFlUjhkb2JtaVQtN21WeXFzLV9jc2pIdzU3alRmdHFHd0dKWjh0Zw?oc=5",
-   "source": "Fortune",
-   "published": "2026-10-26T20:44:00Z"
+   "person": "Satya Nadella",
+   "title": "Satya Nadella says he was wrong to think AI alignment would just happen",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdDFhazFqem5YSWVQQVpoNFNLUlpDQ29JQTY2dkphVTFVbUF3dGRiR1QyMU4ycjBfSWxKejVhUVNuU2pGZXl6QklVRThvZkZYMlE5ODZ1ZF9kTVJLQW51NE1ONEdNMHpWQ2k5T3YzQWtNbVpkZzlHeEwzd0tjOThTOUFlT3lUcU5DQnNUdDFyZVYtZlRqdDJLMnNHZkVqMmJSYXAtaDUyZw?oc=5",
+   "source": "Business Insider",
+   "published": "2026-10-26T23:18:00Z"
   },
   {
    "kind": "voice",
@@ -108,7 +108,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 3849,
+   "stars": 3975,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -117,8 +117,18 @@
   },
   {
    "kind": "repo",
+   "title": "rddmwmddr/android-ad-cleaner",
+   "stars": 2404,
+   "note": "Python · new this week",
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "wesbos/3d-model-anything",
-   "stars": 2076,
+   "stars": 2107,
    "note": "Swift · new this week",
    "url": "https://github.com/wesbos/3d-model-anything",
    "source": "GitHub",
@@ -128,7 +138,7 @@
   {
    "kind": "repo",
    "title": "xevrion/hatchzip",
-   "stars": 2060,
+   "stars": 2072,
    "note": "Rust · new this week",
    "url": "https://github.com/xevrion/hatchzip",
    "source": "GitHub",
@@ -136,19 +146,9 @@
    "cat": "Trending"
   },
   {
-   "kind": "repo",
-   "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 1949,
-   "note": "Python · new this week",
-   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
    "kind": "news",
    "tag": "HN",
-   "points": 1464,
+   "points": 1567,
    "title": "Anthropic S-1",
    "source": "Hacker News",
    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
@@ -157,7 +157,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 548,
+   "points": 653,
    "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
    "source": "Hacker News",
    "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
@@ -166,7 +166,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 492,
+   "points": 571,
    "title": "GPT-6.1 Terra",
    "source": "Hacker News",
    "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
@@ -175,20 +175,18 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 111,
-   "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
-   "source": "Hacker News",
-   "url": "https://github.com/FrigadeHQ/hob",
-   "discuss": "https://news.ycombinator.com/item?id=50246238"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 62,
+   "points": 118,
    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
    "source": "Hacker News",
    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
    "discuss": "https://news.ycombinator.com/item?id=50252159"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
   },
   {
    "kind": "news",
@@ -210,13 +208,6 @@
    "title": "SpaceX locks in $40B GPU financing deal with Apollo",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Anthropic officially files for its public debut",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
   },
   {
    "kind": "news",

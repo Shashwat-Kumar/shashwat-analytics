@@ -26,8 +26,6 @@
 ## Independent coverage
 Third-party reporting and interviews that quote Shashwat Kumar (full list: https://readsigil.com/media.html).
 - [Mint, 14 Oct 2026: Cloudera bets on hybrid infrastructure as enterprises look to scale AI](https://www.livemint.com/cio/technology/cloudera-bets-on-hybrid-infrastructure-as-enterprises-look-to-scale-ai-291791869815208.html)
-- [QA Financial, 5 Oct 2026: DCB Bank tests the leap from AI advice to action](https://qa-financial.com/dcb-bank-tests-the-leap-from-ai-advice-to-action/)
-- [CFOtech, 14 Sep 2026: DCB Bank balances AI speed with banking risk (interview)](https://cfotech.in/story/exclusive-dcb-bank-balances-ai-speed-with-banking-risk)
 - [ETBFSI, 26 Feb 2026: BFSI leaders recalibrate data strategy for the AI era under DPDP](https://bfsi.economictimes.indiatimes.com/articles/bfsi-leaders-recalibrate-data-strategy-for-ai-era-under-dpdp-regime/128808837)
 
 ## Reference

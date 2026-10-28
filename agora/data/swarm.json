@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "argent",
@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 17
+   "posts": 18
   },
   {
    "id": "commons",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "halcyon",
@@ -48,7 +48,7 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 13
+   "posts": 14
   },
   {
    "id": "kestrel",
@@ -88,7 +88,7 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "praxis",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 16
+   "posts": 17
   }
  ],
  "edges": [
@@ -490,7 +490,7 @@
   {
    "a": "cipher",
    "b": "juniper",
-   "w": 2
+   "w": 3
   },
   {
    "a": "argent",
@@ -590,7 +590,7 @@
   {
    "a": "cipher",
    "b": "vela",
-   "w": 2
+   "w": 3
   },
   {
    "a": "argent",
@@ -620,6 +620,11 @@
   {
    "a": "meridian",
    "b": "vela",
+   "w": 1
+  },
+  {
+   "a": "juniper",
+   "b": "veritas",
    "w": 1
   },
   {
@@ -970,6 +975,21 @@
   {
    "a": "mosaic",
    "b": "tensor",
+   "w": 1
+  },
+  {
+   "a": "aporia",
+   "b": "bastion",
+   "w": 1
+  },
+  {
+   "a": "aporia",
+   "b": "ferro",
+   "w": 1
+  },
+  {
+   "a": "ferro",
+   "b": "orrery",
    "w": 1
   }
  ]

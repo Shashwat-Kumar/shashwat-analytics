@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T01:40:39Z",
+ "generated_at": "2026-10-28T07:33:21Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.brangus.io/survival-llm",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50264853",
-  "points": 183,
-  "comments": 99,
+  "points": 298,
+  "comments": 125,
   "published": "2026-10-27T19:55:06Z",
   "since": "2026-10-28T01:40:39Z"
  },
@@ -21,22 +21,31 @@
   "kind": "voice",
   "tag": "VOICE",
   "person": "Elon Musk",
-  "title": "Elon Musk Says Robots Will Need More Memory Than 'Everything Else on Earth' — This Analyst Sees 'Much Bigger Volume Story' for Micron, SK Hynix",
-  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc0ZsQjFLTDVwa2NHUVpOVXNCZHFINHNaX1diRzZ6dV9yN1V6NGtCWnRINDk4MTlMc1F0NlRUdlJwV2UwY1h2VzlWYS1wNDFhTzh5bDl5SmZUV3NCb2xvUkFFa3VZRk5PRUYyUE5nLXN4cm1JM2FqemZFcGJPSEFqQ083ZGRMaERpS3ppbXBqQ1JIdGJY?oc=5",
-  "source": "Yahoo Finance",
-  "published": "2026-10-27T06:30:41Z",
-  "since": "2026-10-28T01:40:39Z"
+  "title": "Elon Musk says more than 200 neoclouds face ‘guppy-level death’ - What it means for AI infrastructure push",
+  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMG9SZjBTNFBQWmM3V3FhcE84cXJZeGUtWDY4OV9HOFdqYzJkRWhBNm9KQWhqQmNzdWpEbjZJV2NIRzlyWGFvUVpKVHVtOWRYVHJuMVp2YUhmSm40aV9JdUMtZHQ3ZGhxSFVOZl9faWF1SWxua0ZQbTFtalk4aGdJRFJwbVNLejFBYzJGSm1YeVRRWDNRbXJ2R3JXRnI3blR5TXV2UmFZSmEwRXJRUjk1TlFCMG5SYTNueDNtTGVsajlSU0hDUE5HSUVoWWtxdXI1NHFwaHZQZ3hDWWtDVEV5NXNNMVLSAeoBQVVfeXFMTW1ERE9zZWFnTzdaRFF1clRtTmNfVEJycGRnWGVkR0llVUhTTzdlNXdPUW5UWklFeWdyT05kMnBrbWlaQW1NVjl2b21VTV9Eb1d5ekoxR0xIaFM4M0o0VmZRVTdoRWJyTjN0ZlVnZWJ0TmhUMEdXLUpDTFI4Z20xeFNFTm9XWU1ZT1Y1MVdfZVpScTRoc2ZlRUl0ZHUtTHB6SExfaUtOanZoSjM5cmpJelM1LU15ajZCaGxHNlZfYVlSVmZaaWY2bGR6amdXMXNxazdzak1idS1tY3R0X1FhUTBkQVhzMzAwMGdB?oc=5",
+  "source": "Livemint",
+  "published": "2026-10-28T03:55:33Z",
+  "since": "2026-10-28T07:33:21Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk Says Robots Will Need More Memory Than 'Everything Else on Earth' — This Analyst Sees 'Much Bigger Volume Story' for Micron, SK Hynix",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc0ZsQjFLTDVwa2NHUVpOVXNCZHFINHNaX1diRzZ6dV9yN1V6NGtCWnRINDk4MTlMc1F0NlRUdlJwV2UwY1h2VzlWYS1wNDFhTzh5bDl5SmZUV3NCb2xvUkFFa3VZRk5PRUYyUE5nLXN4cm1JM2FqemZFcGJPSEFqQ083ZGRMaERpS3ppbXBqQ1JIdGJY?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-27T06:30:41Z",
-   "since": "2026-10-28T01:40:39Z"
+   "title": "Elon Musk says more than 200 neoclouds face ‘guppy-level death’ - What it means for AI infrastructure push",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMG9SZjBTNFBQWmM3V3FhcE84cXJZeGUtWDY4OV9HOFdqYzJkRWhBNm9KQWhqQmNzdWpEbjZJV2NIRzlyWGFvUVpKVHVtOWRYVHJuMVp2YUhmSm40aV9JdUMtZHQ3ZGhxSFVOZl9faWF1SWxua0ZQbTFtalk4aGdJRFJwbVNLejFBYzJGSm1YeVRRWDNRbXJ2R3JXRnI3blR5TXV2UmFZSmEwRXJRUjk1TlFCMG5SYTNueDNtTGVsajlSU0hDUE5HSUVoWWtxdXI1NHFwaHZQZ3hDWWtDVEV5NXNNMVLSAeoBQVVfeXFMTW1ERE9zZWFnTzdaRFF1clRtTmNfVEJycGRnWGVkR0llVUhTTzdlNXdPUW5UWklFeWdyT05kMnBrbWlaQW1NVjl2b21VTV9Eb1d5ekoxR0xIaFM4M0o0VmZRVTdoRWJyTjN0ZlVnZWJ0TmhUMEdXLUpDTFI4Z20xeFNFTm9XWU1ZT1Y1MVdfZVpScTRoc2ZlRUl0ZHUtTHB6SExfaUtOanZoSjM5cmpJelM1LU15ajZCaGxHNlZfYVlSVmZaaWY2bGR6amdXMXNxazdzak1idS1tY3R0X1FhUTBkQVhzMzAwMGdB?oc=5",
+   "source": "Livemint",
+   "published": "2026-10-28T03:55:33Z",
+   "since": "2026-10-28T07:33:21Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "OpenAI launches GPT-6.1 Terra: Sam Altman says ‘we are especially excited for …’",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTW1qby1EZWZscGRPRzhpNnU1bG1hUHBsSFFnc1NTZUJNZkVHRTB6TFJmeTVBTFlNaWw4RDFyZUZ1SGRSVHRiRTROdjNoODU5TERMbERKUUJVZl9JRFZTbl9BamZmM0JtRm8zLTl6dHRZS0JSc0N3VDd1a2R4N1RaVzZqcVdVZC1NVFZHbVBTUEFQM0xDUFU1V1hTcFlyczEwSTcySUhCeUNQaGxpVUhuak55b1BPbVdwZ1lGX1liM295ejZ2ampqVUpwSWVzRHNuQV8xTWVuR2N2MUtUa1NzZW5Udy1ucUdfUzBKWjhwcGHSAfYBQVVfeXFMTUtoaG9ha1hYRzFqOUg4T1c4X0hMc0QzX2wxa2ZIZG1EbkJrdWpDUVJiSmxidW1YUVNDT09RaElfYzdTY2JUT0N3bHh6YXRGd0dTTVZlZ3pkR0pvMHdkUnF2LUdzdUdaM3VrN2VvN05odGFqQmt2OE92Uk1qemFDM2F3TVVCUXdPVUhHSHZ5UTlwOTRLNThsT1VjZFRDbUFnaWpQQ3B1RGJzd3ZxQll3TG1WcTUtR0Q2SE9TYURXVEpERmtnMl9jSnF3SHpwaXdRNm9pTElqdExQWG1ucjNvOEJpanh5NnR3SjhXVGNXMVgzeWJtSmxn?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-27T09:33:00Z"
   }
  ],
  "items": [
@@ -44,11 +53,20 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk Says Robots Will Need More Memory Than 'Everything Else on Earth' — This Analyst Sees 'Much Bigger Volume Story' for Micron, SK Hynix",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc0ZsQjFLTDVwa2NHUVpOVXNCZHFINHNaX1diRzZ6dV9yN1V6NGtCWnRINDk4MTlMc1F0NlRUdlJwV2UwY1h2VzlWYS1wNDFhTzh5bDl5SmZUV3NCb2xvUkFFa3VZRk5PRUYyUE5nLXN4cm1JM2FqemZFcGJPSEFqQ083ZGRMaERpS3ppbXBqQ1JIdGJY?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-27T06:30:41Z",
-   "since": "2026-10-28T01:40:39Z"
+   "title": "Elon Musk says more than 200 neoclouds face ‘guppy-level death’ - What it means for AI infrastructure push",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMG9SZjBTNFBQWmM3V3FhcE84cXJZeGUtWDY4OV9HOFdqYzJkRWhBNm9KQWhqQmNzdWpEbjZJV2NIRzlyWGFvUVpKVHVtOWRYVHJuMVp2YUhmSm40aV9JdUMtZHQ3ZGhxSFVOZl9faWF1SWxua0ZQbTFtalk4aGdJRFJwbVNLejFBYzJGSm1YeVRRWDNRbXJ2R3JXRnI3blR5TXV2UmFZSmEwRXJRUjk1TlFCMG5SYTNueDNtTGVsajlSU0hDUE5HSUVoWWtxdXI1NHFwaHZQZ3hDWWtDVEV5NXNNMVLSAeoBQVVfeXFMTW1ERE9zZWFnTzdaRFF1clRtTmNfVEJycGRnWGVkR0llVUhTTzdlNXdPUW5UWklFeWdyT05kMnBrbWlaQW1NVjl2b21VTV9Eb1d5ekoxR0xIaFM4M0o0VmZRVTdoRWJyTjN0ZlVnZWJ0TmhUMEdXLUpDTFI4Z20xeFNFTm9XWU1ZT1Y1MVdfZVpScTRoc2ZlRUl0ZHUtTHB6SExfaUtOanZoSjM5cmpJelM1LU15ajZCaGxHNlZfYVlSVmZaaWY2bGR6amdXMXNxazdzak1idS1tY3R0X1FhUTBkQVhzMzAwMGdB?oc=5",
+   "source": "Livemint",
+   "published": "2026-10-28T03:55:33Z",
+   "since": "2026-10-28T07:33:21Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "OpenAI launches GPT-6.1 Terra: Sam Altman says ‘we are especially excited for …’",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTW1qby1EZWZscGRPRzhpNnU1bG1hUHBsSFFnc1NTZUJNZkVHRTB6TFJmeTVBTFlNaWw4RDFyZUZ1SGRSVHRiRTROdjNoODU5TERMbERKUUJVZl9JRFZTbl9BamZmM0JtRm8zLTl6dHRZS0JSc0N3VDd1a2R4N1RaVzZqcVdVZC1NVFZHbVBTUEFQM0xDUFU1V1hTcFlyczEwSTcySUhCeUNQaGxpVUhuak55b1BPbVdwZ1lGX1liM295ejZ2ampqVUpwSWVzRHNuQV8xTWVuR2N2MUtUa1NzZW5Udy1ucUdfUzBKWjhwcGHSAfYBQVVfeXFMTUtoaG9ha1hYRzFqOUg4T1c4X0hMc0QzX2wxa2ZIZG1EbkJrdWpDUVJiSmxidW1YUVNDT09RaElfYzdTY2JUT0N3bHh6YXRGd0dTTVZlZ3pkR0pvMHdkUnF2LUdzdUdaM3VrN2VvN05odGFqQmt2OE92Uk1qemFDM2F3TVVCUXdPVUhHSHZ5UTlwOTRLNThsT1VjZFRDbUFnaWpQQ3B1RGJzd3ZxQll3TG1WcTUtR0Q2SE9TYURXVEpERmtnMl9jSnF3SHpwaXdRNm9pTElqdExQWG1ucjNvOEJpanh5NnR3SjhXVGNXMVgzeWJtSmxn?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-27T09:33:00Z"
   },
   {
    "kind": "repo",
@@ -63,7 +81,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 4280,
+   "stars": 4332,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -73,7 +91,7 @@
   {
    "kind": "repo",
    "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 3382,
+   "stars": 3807,
    "note": "Python · new this week",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "source": "GitHub",
@@ -82,18 +100,8 @@
   },
   {
    "kind": "repo",
-   "title": "designfuchen/word-atlas",
-   "stars": 2534,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/designfuchen/word-atlas",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 2365,
+   "stars": 2841,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -101,27 +109,19 @@
    "cat": "Trending"
   },
   {
-   "kind": "news",
-   "tag": "HN",
-   "points": 449,
-   "title": "Wikipedia's Cleanup of AI-Generated Content",
-   "source": "Hacker News",
-   "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-   "discuss": "https://news.ycombinator.com/item?id=50257326"
+   "kind": "repo",
+   "title": "designfuchen/word-atlas",
+   "stars": 2801,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/designfuchen/word-atlas",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 262,
-   "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
-   "source": "Hacker News",
-   "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
-   "discuss": "https://news.ycombinator.com/item?id=50261589"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 183,
+   "points": 298,
    "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "source": "Hacker News",
    "url": "https://www.brangus.io/survival-llm",
@@ -130,16 +130,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 156,
-   "title": "Here be monsters: What do you still need to know when agents do the work?",
-   "source": "Hacker News",
-   "url": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
-   "discuss": "https://news.ycombinator.com/item?id=50258868"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 122,
+   "points": 205,
    "title": "Early progress on accelerating drug development with Claude",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/early-progress-drug-development",
@@ -148,20 +139,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 93,
+   "points": 145,
    "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
    "source": "Hacker News",
    "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
    "discuss": "https://news.ycombinator.com/item?id=50265594"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 18,
-   "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-   "source": "Hacker News",
-   "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-   "discuss": "https://news.ycombinator.com/item?id=50266701"
   },
   {
    "kind": "news",

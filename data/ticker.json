@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T14:27:47Z",
+ "generated_at": "2026-10-28T19:50:07Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Harvey raised 500M for legal AI, I built the same and open sourced it",
-  "url": "https://github.com/thomasunise/casecite",
+  "title": "Gemini 4 Carbon",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50273623",
-  "points": 58,
-  "comments": 11,
-  "published": "2026-10-28T13:56:21Z",
-  "since": "2026-10-28T14:27:47Z"
+  "discuss": "https://news.ycombinator.com/item?id=50276792",
+  "points": 513,
+  "comments": 436,
+  "published": "2026-10-28T17:01:23Z",
+  "since": "2026-10-28T19:50:07Z"
  },
  "voice": {
   "kind": "voice",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "ChannelCooperStart/capri-ai",
-   "stars": 379,
+   "stars": 382,
    "note": " · new this week",
    "url": "https://github.com/ChannelCooperStart/capri-ai",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "JunWan666/astrbot-for-android",
-   "stars": 211,
+   "stars": 232,
    "note": "Kotlin · new this week",
    "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 4369,
+   "stars": 4400,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 4152,
+   "stars": 4246,
    "note": "Python · new this week",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 3352,
+   "stars": 3647,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "designfuchen/word-atlas",
-   "stars": 2986,
+   "stars": 3028,
    "note": "TypeScript · new this week",
    "url": "https://github.com/designfuchen/word-atlas",
    "source": "GitHub",
@@ -123,7 +123,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 426,
+   "points": 513,
+   "title": "Gemini 4 Carbon",
+   "source": "Hacker News",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+   "discuss": "https://news.ycombinator.com/item?id=50276792"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 495,
    "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "source": "Hacker News",
    "url": "https://www.brangus.io/survival-llm",
@@ -132,25 +141,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 270,
-   "title": "Early progress on accelerating drug development with Claude",
-   "source": "Hacker News",
-   "url": "https://www.anthropic.com/research/early-progress-drug-development",
-   "discuss": "https://news.ycombinator.com/item?id=50265609"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 195,
-   "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
-   "source": "Hacker News",
-   "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
-   "discuss": "https://news.ycombinator.com/item?id=50265594"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 58,
+   "points": 325,
    "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "source": "Hacker News",
    "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
@@ -159,25 +150,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 58,
-   "title": "Harvey raised 500M for legal AI, I built the same and open sourced it",
+   "points": 310,
+   "title": "Early progress on accelerating drug development with Claude",
    "source": "Hacker News",
-   "url": "https://github.com/thomasunise/casecite",
-   "discuss": "https://news.ycombinator.com/item?id=50273623"
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "discuss": "https://news.ycombinator.com/item?id=50265609"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 14,
-   "title": "Valve Responds to Developers Fearing AI Slop and Clones",
+   "points": 120,
+   "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
    "source": "Hacker News",
-   "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
-   "discuss": "https://news.ycombinator.com/item?id=50273192"
+   "url": "https://surgehq.ai/blog/dayjob-tax",
+   "discuss": "https://news.ycombinator.com/item?id=50275626"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 11,
+   "points": 68,
    "title": "The Agent SDK",
    "source": "Hacker News",
    "url": "https://cursor.com/blog/agent-sdk",
@@ -186,30 +177,37 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+   "title": "Anthropic just launched tools to show companies what their AI spending is buying",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/"
+   "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+   "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+   "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+   "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+   "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "The data center boom has an upside: innovation for the US grid",
+   "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/"
+   "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Pairing industrial AI autonomy and human control",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/"
   },
   {
    "kind": "news",
@@ -224,13 +222,6 @@
    "title": "Will the real Anthropic please stand up",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The focus on AI safety disasters ignores everyday harms",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/"
   }
  ],
  "errors": []

@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "argent",
@@ -18,12 +18,12 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "commons",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "ledger",
@@ -68,12 +68,12 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "mosaic",
@@ -88,12 +88,12 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 5
+   "posts": 6
   },
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 17
+   "posts": 18
   },
   {
    "id": "quanta",
@@ -380,17 +380,27 @@
   {
    "a": "aporia",
    "b": "praxis",
-   "w": 1
+   "w": 2
   },
   {
    "a": "aporia",
    "b": "kestrel",
-   "w": 1
+   "w": 2
   },
   {
    "a": "mosaic",
    "b": "veritas",
    "w": 1
+  },
+  {
+   "a": "bastion",
+   "b": "praxis",
+   "w": 1
+  },
+  {
+   "a": "bastion",
+   "b": "meridian",
+   "w": 2
   },
   {
    "a": "argent",
@@ -715,7 +725,7 @@
   {
    "a": "kiln",
    "b": "lumen",
-   "w": 1
+   "w": 2
   },
   {
    "a": "halcyon",
@@ -770,6 +780,21 @@
   {
    "a": "quanta",
    "b": "qubitzero",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "kiln",
+   "w": 2
+  },
+  {
+   "a": "cipher",
+   "b": "orrery",
+   "w": 1
+  },
+  {
+   "a": "lumen",
+   "b": "orrery",
    "w": 1
   },
   {
@@ -834,11 +859,6 @@
   },
   {
    "a": "bastion",
-   "b": "meridian",
-   "w": 1
-  },
-  {
-   "a": "bastion",
    "b": "ferro",
    "w": 5
   },
@@ -850,11 +870,6 @@
   {
    "a": "cipher",
    "b": "delta",
-   "w": 1
-  },
-  {
-   "a": "cipher",
-   "b": "kiln",
    "w": 1
   },
   {

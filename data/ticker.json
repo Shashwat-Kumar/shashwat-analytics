@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T07:33:21Z",
+ "generated_at": "2026-10-28T14:27:47Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-  "url": "https://www.brangus.io/survival-llm",
+  "title": "Harvey raised 500M for legal AI, I built the same and open sourced it",
+  "url": "https://github.com/thomasunise/casecite",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50264853",
-  "points": 298,
-  "comments": 125,
-  "published": "2026-10-27T19:55:06Z",
-  "since": "2026-10-28T01:40:39Z"
+  "discuss": "https://news.ycombinator.com/item?id=50273623",
+  "points": 58,
+  "comments": 11,
+  "published": "2026-10-28T13:56:21Z",
+  "since": "2026-10-28T14:27:47Z"
  },
  "voice": {
   "kind": "voice",
@@ -37,15 +37,6 @@
    "source": "Livemint",
    "published": "2026-10-28T03:55:33Z",
    "since": "2026-10-28T07:33:21Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "OpenAI launches GPT-6.1 Terra: Sam Altman says ‘we are especially excited for …’",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTW1qby1EZWZscGRPRzhpNnU1bG1hUHBsSFFnc1NTZUJNZkVHRTB6TFJmeTVBTFlNaWw4RDFyZUZ1SGRSVHRiRTROdjNoODU5TERMbERKUUJVZl9JRFZTbl9BamZmM0JtRm8zLTl6dHRZS0JSc0N3VDd1a2R4N1RaVzZqcVdVZC1NVFZHbVBTUEFQM0xDUFU1V1hTcFlyczEwSTcySUhCeUNQaGxpVUhuak55b1BPbVdwZ1lGX1liM295ejZ2ampqVUpwSWVzRHNuQV8xTWVuR2N2MUtUa1NzZW5Udy1ucUdfUzBKWjhwcGHSAfYBQVVfeXFMTUtoaG9ha1hYRzFqOUg4T1c4X0hMc0QzX2wxa2ZIZG1EbkJrdWpDUVJiSmxidW1YUVNDT09RaElfYzdTY2JUT0N3bHh6YXRGd0dTTVZlZ3pkR0pvMHdkUnF2LUdzdUdaM3VrN2VvN05odGFqQmt2OE92Uk1qemFDM2F3TVVCUXdPVUhHSHZ5UTlwOTRLNThsT1VjZFRDbUFnaWpQQ3B1RGJzd3ZxQll3TG1WcTUtR0Q2SE9TYURXVEpERmtnMl9jSnF3SHpwaXdRNm9pTElqdExQWG1ucjNvOEJpanh5NnR3SjhXVGNXMVgzeWJtSmxn?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-27T09:33:00Z"
   }
  ],
  "items": [
@@ -60,18 +51,29 @@
    "since": "2026-10-28T07:33:21Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "OpenAI launches GPT-6.1 Terra: Sam Altman says ‘we are especially excited for …’",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTW1qby1EZWZscGRPRzhpNnU1bG1hUHBsSFFnc1NTZUJNZkVHRTB6TFJmeTVBTFlNaWw4RDFyZUZ1SGRSVHRiRTROdjNoODU5TERMbERKUUJVZl9JRFZTbl9BamZmM0JtRm8zLTl6dHRZS0JSc0N3VDd1a2R4N1RaVzZqcVdVZC1NVFZHbVBTUEFQM0xDUFU1V1hTcFlyczEwSTcySUhCeUNQaGxpVUhuak55b1BPbVdwZ1lGX1liM295ejZ2ampqVUpwSWVzRHNuQV8xTWVuR2N2MUtUa1NzZW5Udy1ucUdfUzBKWjhwcGHSAfYBQVVfeXFMTUtoaG9ha1hYRzFqOUg4T1c4X0hMc0QzX2wxa2ZIZG1EbkJrdWpDUVJiSmxidW1YUVNDT09RaElfYzdTY2JUT0N3bHh6YXRGd0dTTVZlZ3pkR0pvMHdkUnF2LUdzdUdaM3VrN2VvN05odGFqQmt2OE92Uk1qemFDM2F3TVVCUXdPVUhHSHZ5UTlwOTRLNThsT1VjZFRDbUFnaWpQQ3B1RGJzd3ZxQll3TG1WcTUtR0Q2SE9TYURXVEpERmtnMl9jSnF3SHpwaXdRNm9pTElqdExQWG1ucjNvOEJpanh5NnR3SjhXVGNXMVgzeWJtSmxn?oc=5",
-   "source": "The Times of India",
-   "published": "2026-10-27T09:33:00Z"
+   "kind": "repo",
+   "title": "ChannelCooperStart/capri-ai",
+   "stars": 379,
+   "note": " · new this week",
+   "url": "https://github.com/ChannelCooperStart/capri-ai",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "JunWan666/astrbot-for-android",
+   "stars": 211,
+   "note": "Kotlin · new this week",
+   "url": "https://github.com/JunWan666/astrbot-for-android",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
   },
   {
    "kind": "repo",
    "title": "Cattmonkey/ChaosIntelligence",
-   "stars": 202,
+   "stars": 203,
    "note": "Python · new this week",
    "url": "https://github.com/Cattmonkey/ChaosIntelligence",
    "source": "GitHub",
@@ -81,7 +83,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 4332,
+   "stars": 4369,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -91,7 +93,7 @@
   {
    "kind": "repo",
    "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 3807,
+   "stars": 4152,
    "note": "Python · new this week",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "source": "GitHub",
@@ -101,7 +103,7 @@
   {
    "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 2841,
+   "stars": 3352,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -111,7 +113,7 @@
   {
    "kind": "repo",
    "title": "designfuchen/word-atlas",
-   "stars": 2801,
+   "stars": 2986,
    "note": "TypeScript · new this week",
    "url": "https://github.com/designfuchen/word-atlas",
    "source": "GitHub",
@@ -121,7 +123,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 298,
+   "points": 426,
    "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "source": "Hacker News",
    "url": "https://www.brangus.io/survival-llm",
@@ -130,7 +132,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 205,
+   "points": 270,
    "title": "Early progress on accelerating drug development with Claude",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/early-progress-drug-development",
@@ -139,11 +141,54 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 145,
+   "points": 195,
    "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
    "source": "Hacker News",
    "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
    "discuss": "https://news.ycombinator.com/item?id=50265594"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 58,
+   "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+   "source": "Hacker News",
+   "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50273396"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 58,
+   "title": "Harvey raised 500M for legal AI, I built the same and open sourced it",
+   "source": "Hacker News",
+   "url": "https://github.com/thomasunise/casecite",
+   "discuss": "https://news.ycombinator.com/item?id=50273623"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 14,
+   "title": "Valve Responds to Developers Fearing AI Slop and Clones",
+   "source": "Hacker News",
+   "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
+   "discuss": "https://news.ycombinator.com/item?id=50273192"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 11,
+   "title": "The Agent SDK",
+   "source": "Hacker News",
+   "url": "https://cursor.com/blog/agent-sdk",
+   "discuss": "https://news.ycombinator.com/item?id=50273731"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/"
   },
   {
    "kind": "news",
@@ -165,13 +210,6 @@
    "title": "The data center boom has an upside: innovation for the US grid",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/"
   },
   {
    "kind": "news",

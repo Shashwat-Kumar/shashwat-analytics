@@ -1,0 +1,6 @@
+/threat-signals/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Content-Security-Policy: default-src 'none'; style-src 'sha256-AIUFst+D7QxnIht+Duvz0oOa8o0Zy+MHP1P7cq1ii84='; script-src 'sha256-8DqQmFBHRuc3PZMqCW6mjPv/GUBoPMIHqHOIm2r7gCU='; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'; connect-src 'none'; frame-ancestors 'none'

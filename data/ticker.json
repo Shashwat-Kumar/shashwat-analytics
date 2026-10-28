@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T19:50:07Z",
+ "generated_at": "2026-10-28T23:40:42Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,32 @@
   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50276792",
-  "points": 513,
-  "comments": 436,
+  "points": 753,
+  "comments": 613,
   "published": "2026-10-28T17:01:23Z",
   "since": "2026-10-28T19:50:07Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Elon Musk says more than 200 neoclouds face ‘guppy-level death’ - What it means for AI infrastructure push",
-  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMG9SZjBTNFBQWmM3V3FhcE84cXJZeGUtWDY4OV9HOFdqYzJkRWhBNm9KQWhqQmNzdWpEbjZJV2NIRzlyWGFvUVpKVHVtOWRYVHJuMVp2YUhmSm40aV9JdUMtZHQ3ZGhxSFVOZl9faWF1SWxua0ZQbTFtalk4aGdJRFJwbVNLejFBYzJGSm1YeVRRWDNRbXJ2R3JXRnI3blR5TXV2UmFZSmEwRXJRUjk1TlFCMG5SYTNueDNtTGVsajlSU0hDUE5HSUVoWWtxdXI1NHFwaHZQZ3hDWWtDVEV5NXNNMVLSAeoBQVVfeXFMTW1ERE9zZWFnTzdaRFF1clRtTmNfVEJycGRnWGVkR0llVUhTTzdlNXdPUW5UWklFeWdyT05kMnBrbWlaQW1NVjl2b21VTV9Eb1d5ekoxR0xIaFM4M0o0VmZRVTdoRWJyTjN0ZlVnZWJ0TmhUMEdXLUpDTFI4Z20xeFNFTm9XWU1ZT1Y1MVdfZVpScTRoc2ZlRUl0ZHUtTHB6SExfaUtOanZoSjM5cmpJelM1LU15ajZCaGxHNlZfYVlSVmZaaWY2bGR6amdXMXNxazdzak1idS1tY3R0X1FhUTBkQVhzMzAwMGdB?oc=5",
-  "source": "Livemint",
-  "published": "2026-10-28T03:55:33Z",
-  "since": "2026-10-28T07:33:21Z"
+  "person": "Sam Altman",
+  "title": "Altman urges firms to prioritise AI security over productivity gains",
+  "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMmNEN204eUdaREJUd1poUkt4LUhiVHRuUGN0SE9MaUhtRll0XzljZ0F2UkRIRVZCU01rZUdBcmhUSThUQUtGNW9mNERfemJGVGRGVks3V1AxdktheFNGR0Fqb1p2SUNoWVFodlZmMTc1M1FUbEtZeTNrS2JrRWI4QlJDMC14UTJjRUJmaTNRR2s1dTJDUG9wbTZpT1h3QTh3XzZ4Yk1scUtzYmQ3MDF3MWRpUHhkSEhGUEp1cDhCZGFHNUlZckRSdE5xSlhXTjM5QTRRWHZkVnlDUjJQZmhUNEhtZl9zX0gxWDZFc3ZJWFhXSTDSAfMBQVVfeXFMTzJjRDdtOHlHWkRCVHdaaFJLeC1IYlR0blBjdEhPTGlIbUZZdF85Y2dBdlJESEVWQlNNa2VHQXJoVEk4VEFLRjVvZjREX3piRlRkRlZLN1dQMXZLYXhTRkdBam9adklDaFlRaHZWZjE3NTNRVGxLWXkza0tia0ViOEJSQzAteFEyY0VCZmkzUUdrNXUyQ1BvcG02aU9Yd0E4d182eGJNbHFLc2JkNzAxdzFkaVB4ZEhIRlBKdXA4QmRhRzVJWXJEUnROcUpYV04zOUE0UVh2ZFZ5Q1IyUGZoVDRIbWZfc19IMVg2RXN2SVhYV0kw?oc=5",
+  "source": "Business Standard",
+  "published": "2026-10-28T18:50:06Z",
+  "since": "2026-10-28T23:40:42Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "Altman urges firms to prioritise AI security over productivity gains",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMmNEN204eUdaREJUd1poUkt4LUhiVHRuUGN0SE9MaUhtRll0XzljZ0F2UkRIRVZCU01rZUdBcmhUSThUQUtGNW9mNERfemJGVGRGVks3V1AxdktheFNGR0Fqb1p2SUNoWVFodlZmMTc1M1FUbEtZeTNrS2JrRWI4QlJDMC14UTJjRUJmaTNRR2s1dTJDUG9wbTZpT1h3QTh3XzZ4Yk1scUtzYmQ3MDF3MWRpUHhkSEhGUEp1cDhCZGFHNUlZckRSdE5xSlhXTjM5QTRRWHZkVnlDUjJQZmhUNEhtZl9zX0gxWDZFc3ZJWFhXSTDSAfMBQVVfeXFMTzJjRDdtOHlHWkRCVHdaaFJLeC1IYlR0blBjdEhPTGlIbUZZdF85Y2dBdlJESEVWQlNNa2VHQXJoVEk4VEFLRjVvZjREX3piRlRkRlZLN1dQMXZLYXhTRkdBam9adklDaFlRaHZWZjE3NTNRVGxLWXkza0tia0ViOEJSQzAteFEyY0VCZmkzUUdrNXUyQ1BvcG02aU9Yd0E4d182eGJNbHFLc2JkNzAxdzFkaVB4ZEhIRlBKdXA4QmRhRzVJWXJEUnROcUpYV04zOUE0UVh2ZFZ5Q1IyUGZoVDRIbWZfc19IMVg2RXN2SVhYV0kw?oc=5",
+   "source": "Business Standard",
+   "published": "2026-10-28T18:50:06Z",
+   "since": "2026-10-28T23:40:42Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,25 +45,33 @@
    "title": "Elon Musk says more than 200 neoclouds face ‘guppy-level death’ - What it means for AI infrastructure push",
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMG9SZjBTNFBQWmM3V3FhcE84cXJZeGUtWDY4OV9HOFdqYzJkRWhBNm9KQWhqQmNzdWpEbjZJV2NIRzlyWGFvUVpKVHVtOWRYVHJuMVp2YUhmSm40aV9JdUMtZHQ3ZGhxSFVOZl9faWF1SWxua0ZQbTFtalk4aGdJRFJwbVNLejFBYzJGSm1YeVRRWDNRbXJ2R3JXRnI3blR5TXV2UmFZSmEwRXJRUjk1TlFCMG5SYTNueDNtTGVsajlSU0hDUE5HSUVoWWtxdXI1NHFwaHZQZ3hDWWtDVEV5NXNNMVLSAeoBQVVfeXFMTW1ERE9zZWFnTzdaRFF1clRtTmNfVEJycGRnWGVkR0llVUhTTzdlNXdPUW5UWklFeWdyT05kMnBrbWlaQW1NVjl2b21VTV9Eb1d5ekoxR0xIaFM4M0o0VmZRVTdoRWJyTjN0ZlVnZWJ0TmhUMEdXLUpDTFI4Z20xeFNFTm9XWU1ZT1Y1MVdfZVpScTRoc2ZlRUl0ZHUtTHB6SExfaUtOanZoSjM5cmpJelM1LU15ajZCaGxHNlZfYVlSVmZaaWY2bGR6amdXMXNxazdzak1idS1tY3R0X1FhUTBkQVhzMzAwMGdB?oc=5",
    "source": "Livemint",
-   "published": "2026-10-28T03:55:33Z",
-   "since": "2026-10-28T07:33:21Z"
+   "published": "2026-10-28T03:55:33Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "Altman urges firms to prioritise AI security over productivity gains",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMmNEN204eUdaREJUd1poUkt4LUhiVHRuUGN0SE9MaUhtRll0XzljZ0F2UkRIRVZCU01rZUdBcmhUSThUQUtGNW9mNERfemJGVGRGVks3V1AxdktheFNGR0Fqb1p2SUNoWVFodlZmMTc1M1FUbEtZeTNrS2JrRWI4QlJDMC14UTJjRUJmaTNRR2s1dTJDUG9wbTZpT1h3QTh3XzZ4Yk1scUtzYmQ3MDF3MWRpUHhkSEhGUEp1cDhCZGFHNUlZckRSdE5xSlhXTjM5QTRRWHZkVnlDUjJQZmhUNEhtZl9zX0gxWDZFc3ZJWFhXSTDSAfMBQVVfeXFMTzJjRDdtOHlHWkRCVHdaaFJLeC1IYlR0blBjdEhPTGlIbUZZdF85Y2dBdlJESEVWQlNNa2VHQXJoVEk4VEFLRjVvZjREX3piRlRkRlZLN1dQMXZLYXhTRkdBam9adklDaFlRaHZWZjE3NTNRVGxLWXkza0tia0ViOEJSQzAteFEyY0VCZmkzUUdrNXUyQ1BvcG02aU9Yd0E4d182eGJNbHFLc2JkNzAxdzFkaVB4ZEhIRlBKdXA4QmRhRzVJWXJEUnROcUpYV04zOUE0UVh2ZFZ5Q1IyUGZoVDRIbWZfc19IMVg2RXN2SVhYV0kw?oc=5",
+   "source": "Business Standard",
+   "published": "2026-10-28T18:50:06Z",
+   "since": "2026-10-28T23:40:42Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Elon Musk",
    "title": "Elon Musk says more than 200 neoclouds face ‘guppy-level death’ - What it means for AI infrastructure push",
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMG9SZjBTNFBQWmM3V3FhcE84cXJZeGUtWDY4OV9HOFdqYzJkRWhBNm9KQWhqQmNzdWpEbjZJV2NIRzlyWGFvUVpKVHVtOWRYVHJuMVp2YUhmSm40aV9JdUMtZHQ3ZGhxSFVOZl9faWF1SWxua0ZQbTFtalk4aGdJRFJwbVNLejFBYzJGSm1YeVRRWDNRbXJ2R3JXRnI3blR5TXV2UmFZSmEwRXJRUjk1TlFCMG5SYTNueDNtTGVsajlSU0hDUE5HSUVoWWtxdXI1NHFwaHZQZ3hDWWtDVEV5NXNNMVLSAeoBQVVfeXFMTW1ERE9zZWFnTzdaRFF1clRtTmNfVEJycGRnWGVkR0llVUhTTzdlNXdPUW5UWklFeWdyT05kMnBrbWlaQW1NVjl2b21VTV9Eb1d5ekoxR0xIaFM4M0o0VmZRVTdoRWJyTjN0ZlVnZWJ0TmhUMEdXLUpDTFI4Z20xeFNFTm9XWU1ZT1Y1MVdfZVpScTRoc2ZlRUl0ZHUtTHB6SExfaUtOanZoSjM5cmpJelM1LU15ajZCaGxHNlZfYVlSVmZaaWY2bGR6amdXMXNxazdzak1idS1tY3R0X1FhUTBkQVhzMzAwMGdB?oc=5",
    "source": "Livemint",
-   "published": "2026-10-28T03:55:33Z",
-   "since": "2026-10-28T07:33:21Z"
+   "published": "2026-10-28T03:55:33Z"
   },
   {
    "kind": "repo",
    "title": "ChannelCooperStart/capri-ai",
-   "stars": 382,
+   "stars": 383,
    "note": " · new this week",
    "url": "https://github.com/ChannelCooperStart/capri-ai",
    "source": "GitHub",
@@ -63,7 +81,7 @@
   {
    "kind": "repo",
    "title": "JunWan666/astrbot-for-android",
-   "stars": 232,
+   "stars": 237,
    "note": "Kotlin · new this week",
    "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
@@ -83,7 +101,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 4400,
+   "stars": 4414,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -93,7 +111,7 @@
   {
    "kind": "repo",
    "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 4246,
+   "stars": 4271,
    "note": "Python · new this week",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "source": "GitHub",
@@ -103,7 +121,7 @@
   {
    "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 3647,
+   "stars": 3718,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -113,7 +131,7 @@
   {
    "kind": "repo",
    "title": "designfuchen/word-atlas",
-   "stars": 3028,
+   "stars": 3037,
    "note": "TypeScript · new this week",
    "url": "https://github.com/designfuchen/word-atlas",
    "source": "GitHub",
@@ -123,7 +141,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 513,
+   "points": 753,
    "title": "Gemini 4 Carbon",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
@@ -132,16 +150,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 495,
-   "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-   "source": "Hacker News",
-   "url": "https://www.brangus.io/survival-llm",
-   "discuss": "https://news.ycombinator.com/item?id=50264853"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 325,
+   "points": 409,
    "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "source": "Hacker News",
    "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
@@ -150,16 +159,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 310,
-   "title": "Early progress on accelerating drug development with Claude",
-   "source": "Hacker News",
-   "url": "https://www.anthropic.com/research/early-progress-drug-development",
-   "discuss": "https://news.ycombinator.com/item?id=50265609"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 120,
+   "points": 182,
    "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
    "source": "Hacker News",
    "url": "https://surgehq.ai/blog/dayjob-tax",
@@ -168,7 +168,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 68,
+   "points": 87,
    "title": "The Agent SDK",
    "source": "Hacker News",
    "url": "https://cursor.com/blog/agent-sdk",
@@ -176,31 +176,40 @@
   },
   {
    "kind": "news",
-   "tag": "AI",
-   "title": "Anthropic just launched tools to show companies what their AI spending is buying",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+   "tag": "HN",
+   "points": 39,
+   "title": "Leak website releases data on DHS employees",
+   "source": "Hacker News",
+   "url": "https://www.reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28/",
+   "discuss": "https://news.ycombinator.com/item?id=50280662"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+   "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/"
+   "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+   "title": "Google expands AI Search ads globally as core ad growth slows",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/"
+   "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+   "title": "Microsoft recorded $10 billion in revenue from OpenAI",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/"
+   "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/"
   },
   {
    "kind": "news",

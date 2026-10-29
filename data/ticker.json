@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T09:49:45Z",
+ "generated_at": "2026-10-29T16:28:49Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,35 +8,35 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Claude Code regularly sends each background agent’s transcript to its model",
-  "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+  "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+  "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50284255",
-  "points": 358,
-  "comments": 116,
-  "published": "2026-10-29T03:33:42Z",
-  "since": "2026-10-29T09:49:45Z"
+  "discuss": "https://news.ycombinator.com/item?id=50288019",
+  "points": 270,
+  "comments": 209,
+  "published": "2026-10-29T12:41:56Z",
+  "since": "2026-10-29T16:28:49Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
   "person": "Sundar Pichai",
-  "title": "Sundar Pichai launches Gemini 4 Carbon, says not everyone will get it",
-  "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPckc2OTBBdjh1RHhKNlZEbDNrMTB5b0o4VWM3eWl4TXFPMENKT0tRVmpCYVFwYnRHbDZhdXNCTGIyUjJHQ1FEMVFUaUVER3RVNG5wWGp0emY0b0NEVkx6OHF1bDRxRXFVMHdPenlLOUtmV0oxMkpwZVEwQnJrbThrdldadUI5Mmh5aGNBVUs4YWFSenRSZFZ6MVQ3eXNiV3J6VDVXSDAwU01mc2hhVkhyVE5haDViY2pYUEV2TDNMSTRWMjQtWjVrZEJTU0Z1WGZxdXdWV01LdE1hMjk4MzJTbEJEaFlMT2Y2MmduZzFpMnN0Qk9IUUFORHZZWmp2aExvalM40gGDAkFVX3lxTE9yRzY5MEF2OHVEeEo2VkRsM2sxMHlvSjhVYzd5aXhNcU8wQ0pPS1FWakJhUXBidEdsNmF1c0JMYjJSMkdDUUQxUVRpRURHdFU0bnBYanR6ZjRvQ0RWTHo4cXVsNHFFcVUwd096eUs5S2ZXSjEySnBlUTBCcmttOGt2V1p1QjkyaHloY0FVSzhhYVJ6dFJkVnoxVDd5c2JXcnpUNVdIMDBTTWZzaGFWSHJUTmFoNWJjalhQRXZMM0xJNFYyNC1aNWtkQlNTRnVYZnF1d1ZXTUt0TWEyOTgzMlNsQkRoWUxPZjYyZ25nMWkyc3RCT0hRQU5EdllaanZoTG9qUzg?oc=5",
-  "source": "India Today",
-  "published": "2026-10-29T03:11:18Z",
-  "since": "2026-10-29T09:49:45Z"
+  "title": "Google expands ads in AI-powered Search internationally; CEO Sundar Pichai says queries are growing at …",
+  "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSHJHajl5TGVDblVpZEFfMW4yRmpJYk8tVklUZzVjc21EUVY4bVFuQmYzTk1odno2cFZmczkwV0p6bnBwMDMwbmFIZHhHV3R2cTZHZG93bjBZU2ZId293bktCMlktTFVXbWRyWFVObVZhNlRWdGRqMnUyQ2lSVG5laTJlTjVRR0lYdDl6ZWtGeVBXUjVLbFFnRGpDQUVRaW0tRjBlTTdZbXIwSXZPWnZYaUM3YWFURC1ES0ZVSGhrS0IxdkpsUThHYlkxcnpiWGIzR0psZU43d042SjlCejFvM0VjVVdxVHVKNTZoc285ajFWcXhWbVduOHVTYU5qLUpmei1KOW40cWgxcjVmdkJTd3FQUdIBmAJBVV95cUxOVzlMLVV5aEc0RnJ2RHpPMWFteC1fZUhyZjNQVWpnd1piampjV0x0MHU4SUtndUd2MExEQ0dpYi01RXRRSzk2bXVsMkM2OHpRR2prNThDWFl4LVFkRlhkR0dITlJJRms5VTFxd0ZrWHJYYVlTQ1E3dXlfNF8yZ1o3aDUzOU0yTGJQdFJaS2dmb0RycGZ1dVNWRG1Rc28xczY3bU1GMTJ1alJ2b09VdjQ4bjVoMGUxYm1FMXhTOUVNQnJCSWVaVDU4VjNGSkY0dVZ6NGxGRHdJS1hxREVTOHM4bkxBcHJmTXlIWk5LQkhNUDI3eU5tZnJfVWtSdzhUTmxaV0JiMGpUSWtMTU81dWlySTJuVWE1UW9X?oc=5",
+  "source": "The Times of India",
+  "published": "2026-10-29T14:20:00Z",
+  "since": "2026-10-29T16:28:49Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Sundar Pichai",
-   "title": "Sundar Pichai launches Gemini 4 Carbon, says not everyone will get it",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPckc2OTBBdjh1RHhKNlZEbDNrMTB5b0o4VWM3eWl4TXFPMENKT0tRVmpCYVFwYnRHbDZhdXNCTGIyUjJHQ1FEMVFUaUVER3RVNG5wWGp0emY0b0NEVkx6OHF1bDRxRXFVMHdPenlLOUtmV0oxMkpwZVEwQnJrbThrdldadUI5Mmh5aGNBVUs4YWFSenRSZFZ6MVQ3eXNiV3J6VDVXSDAwU01mc2hhVkhyVE5haDViY2pYUEV2TDNMSTRWMjQtWjVrZEJTU0Z1WGZxdXdWV01LdE1hMjk4MzJTbEJEaFlMT2Y2MmduZzFpMnN0Qk9IUUFORHZZWmp2aExvalM40gGDAkFVX3lxTE9yRzY5MEF2OHVEeEo2VkRsM2sxMHlvSjhVYzd5aXhNcU8wQ0pPS1FWakJhUXBidEdsNmF1c0JMYjJSMkdDUUQxUVRpRURHdFU0bnBYanR6ZjRvQ0RWTHo4cXVsNHFFcVUwd096eUs5S2ZXSjEySnBlUTBCcmttOGt2V1p1QjkyaHloY0FVSzhhYVJ6dFJkVnoxVDd5c2JXcnpUNVdIMDBTTWZzaGFWSHJUTmFoNWJjalhQRXZMM0xJNFYyNC1aNWtkQlNTRnVYZnF1d1ZXTUt0TWEyOTgzMlNsQkRoWUxPZjYyZ25nMWkyc3RCT0hRQU5EdllaanZoTG9qUzg?oc=5",
-   "source": "India Today",
-   "published": "2026-10-29T03:11:18Z",
-   "since": "2026-10-29T09:49:45Z"
+   "title": "Google expands ads in AI-powered Search internationally; CEO Sundar Pichai says queries are growing at …",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSHJHajl5TGVDblVpZEFfMW4yRmpJYk8tVklUZzVjc21EUVY4bVFuQmYzTk1odno2cFZmczkwV0p6bnBwMDMwbmFIZHhHV3R2cTZHZG93bjBZU2ZId293bktCMlktTFVXbWRyWFVObVZhNlRWdGRqMnUyQ2lSVG5laTJlTjVRR0lYdDl6ZWtGeVBXUjVLbFFnRGpDQUVRaW0tRjBlTTdZbXIwSXZPWnZYaUM3YWFURC1ES0ZVSGhrS0IxdkpsUThHYlkxcnpiWGIzR0psZU43d042SjlCejFvM0VjVVdxVHVKNTZoc285ajFWcXhWbVduOHVTYU5qLUpmei1KOW40cWgxcjVmdkJTd3FQUdIBmAJBVV95cUxOVzlMLVV5aEc0RnJ2RHpPMWFteC1fZUhyZjNQVWpnd1piampjV0x0MHU4SUtndUd2MExEQ0dpYi01RXRRSzk2bXVsMkM2OHpRR2prNThDWFl4LVFkRlhkR0dITlJJRms5VTFxd0ZrWHJYYVlTQ1E3dXlfNF8yZ1o3aDUzOU0yTGJQdFJaS2dmb0RycGZ1dVNWRG1Rc28xczY3bU1GMTJ1alJ2b09VdjQ4bjVoMGUxYm1FMXhTOUVNQnJCSWVaVDU4VjNGSkY0dVZ6NGxGRHdJS1hxREVTOHM4bkxBcHJmTXlIWk5LQkhNUDI3eU5tZnJfVWtSdzhUTmxaV0JiMGpUSWtMTU81dWlySTJuVWE1UW9X?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-29T14:20:00Z",
+   "since": "2026-10-29T16:28:49Z"
   },
   {
    "kind": "voice",
@@ -46,15 +46,6 @@
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMmNEN204eUdaREJUd1poUkt4LUhiVHRuUGN0SE9MaUhtRll0XzljZ0F2UkRIRVZCU01rZUdBcmhUSThUQUtGNW9mNERfemJGVGRGVks3V1AxdktheFNGR0Fqb1p2SUNoWVFodlZmMTc1M1FUbEtZeTNrS2JrRWI4QlJDMC14UTJjRUJmaTNRR2s1dTJDUG9wbTZpT1h3QTh3XzZ4Yk1scUtzYmQ3MDF3MWRpUHhkSEhGUEp1cDhCZGFHNUlZckRSdE5xSlhXTjM5QTRRWHZkVnlDUjJQZmhUNEhtZl9zX0gxWDZFc3ZJWFhXSTDSAfMBQVVfeXFMTzJjRDdtOHlHWkRCVHdaaFJLeC1IYlR0blBjdEhPTGlIbUZZdF85Y2dBdlJESEVWQlNNa2VHQXJoVEk4VEFLRjVvZjREX3piRlRkRlZLN1dQMXZLYXhTRkdBam9adklDaFlRaHZWZjE3NTNRVGxLWXkza0tia0ViOEJSQzAteFEyY0VCZmkzUUdrNXUyQ1BvcG02aU9Yd0E4d182eGJNbHFLc2JkNzAxdzFkaVB4ZEhIRlBKdXA4QmRhRzVJWXJEUnROcUpYV04zOUE0UVh2ZFZ5Q1IyUGZoVDRIbWZfc19IMVg2RXN2SVhYV0kw?oc=5",
    "source": "Business Standard",
    "published": "2026-10-28T18:50:06Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk Says Robots Will Need More Memory Than 'Everything Else on Earth' — This Analyst Sees 'Much Bigger Volume Story' for Micron, SK Hynix",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV3BjR29ST3c3SXZ5RWlVMGx4aktYWUxRWk5Ra2tNX0tvQ3hLUHNKMFBqb1dHYVNlYTh6cWEzS1I2bHUtQzhjUFpEX3N6OERCbmZ4LWtQWW1TUFhoSWNhYWZ4enNLZHpxRktoNkg3RG8zLTdHclNiWjljUlZlZFFpdVpjU0s0azJ2ZzhfaDNoRmZOS3h2?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-28T13:30:42Z"
   }
  ],
  "items": [
@@ -62,11 +53,11 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Sundar Pichai",
-   "title": "Sundar Pichai launches Gemini 4 Carbon, says not everyone will get it",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPckc2OTBBdjh1RHhKNlZEbDNrMTB5b0o4VWM3eWl4TXFPMENKT0tRVmpCYVFwYnRHbDZhdXNCTGIyUjJHQ1FEMVFUaUVER3RVNG5wWGp0emY0b0NEVkx6OHF1bDRxRXFVMHdPenlLOUtmV0oxMkpwZVEwQnJrbThrdldadUI5Mmh5aGNBVUs4YWFSenRSZFZ6MVQ3eXNiV3J6VDVXSDAwU01mc2hhVkhyVE5haDViY2pYUEV2TDNMSTRWMjQtWjVrZEJTU0Z1WGZxdXdWV01LdE1hMjk4MzJTbEJEaFlMT2Y2MmduZzFpMnN0Qk9IUUFORHZZWmp2aExvalM40gGDAkFVX3lxTE9yRzY5MEF2OHVEeEo2VkRsM2sxMHlvSjhVYzd5aXhNcU8wQ0pPS1FWakJhUXBidEdsNmF1c0JMYjJSMkdDUUQxUVRpRURHdFU0bnBYanR6ZjRvQ0RWTHo4cXVsNHFFcVUwd096eUs5S2ZXSjEySnBlUTBCcmttOGt2V1p1QjkyaHloY0FVSzhhYVJ6dFJkVnoxVDd5c2JXcnpUNVdIMDBTTWZzaGFWSHJUTmFoNWJjalhQRXZMM0xJNFYyNC1aNWtkQlNTRnVYZnF1d1ZXTUt0TWEyOTgzMlNsQkRoWUxPZjYyZ25nMWkyc3RCT0hRQU5EdllaanZoTG9qUzg?oc=5",
-   "source": "India Today",
-   "published": "2026-10-29T03:11:18Z",
-   "since": "2026-10-29T09:49:45Z"
+   "title": "Google expands ads in AI-powered Search internationally; CEO Sundar Pichai says queries are growing at …",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSHJHajl5TGVDblVpZEFfMW4yRmpJYk8tVklUZzVjc21EUVY4bVFuQmYzTk1odno2cFZmczkwV0p6bnBwMDMwbmFIZHhHV3R2cTZHZG93bjBZU2ZId293bktCMlktTFVXbWRyWFVObVZhNlRWdGRqMnUyQ2lSVG5laTJlTjVRR0lYdDl6ZWtGeVBXUjVLbFFnRGpDQUVRaW0tRjBlTTdZbXIwSXZPWnZYaUM3YWFURC1ES0ZVSGhrS0IxdkpsUThHYlkxcnpiWGIzR0psZU43d042SjlCejFvM0VjVVdxVHVKNTZoc285ajFWcXhWbVduOHVTYU5qLUpmei1KOW40cWgxcjVmdkJTd3FQUdIBmAJBVV95cUxOVzlMLVV5aEc0RnJ2RHpPMWFteC1fZUhyZjNQVWpnd1piampjV0x0MHU4SUtndUd2MExEQ0dpYi01RXRRSzk2bXVsMkM2OHpRR2prNThDWFl4LVFkRlhkR0dITlJJRms5VTFxd0ZrWHJYYVlTQ1E3dXlfNF8yZ1o3aDUzOU0yTGJQdFJaS2dmb0RycGZ1dVNWRG1Rc28xczY3bU1GMTJ1alJ2b09VdjQ4bjVoMGUxYm1FMXhTOUVNQnJCSWVaVDU4VjNGSkY0dVZ6NGxGRHdJS1hxREVTOHM4bkxBcHJmTXlIWk5LQkhNUDI3eU5tZnJfVWtSdzhUTmxaV0JiMGpUSWtMTU81dWlySTJuVWE1UW9X?oc=5",
+   "source": "The Times of India",
+   "published": "2026-10-29T14:20:00Z",
+   "since": "2026-10-29T16:28:49Z"
   },
   {
    "kind": "voice",
@@ -78,28 +69,9 @@
    "published": "2026-10-28T18:50:06Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk Says Robots Will Need More Memory Than 'Everything Else on Earth' — This Analyst Sees 'Much Bigger Volume Story' for Micron, SK Hynix",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV3BjR29ST3c3SXZ5RWlVMGx4aktYWUxRWk5Ra2tNX0tvQ3hLUHNKMFBqb1dHYVNlYTh6cWEzS1I2bHUtQzhjUFpEX3N6OERCbmZ4LWtQWW1TUFhoSWNhYWZ4enNLZHpxRktoNkg3RG8zLTdHclNiWjljUlZlZFFpdVpjU0s0azJ2ZzhfaDNoRmZOS3h2?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-28T13:30:42Z"
-  },
-  {
-   "kind": "repo",
-   "title": "ChannelCooperStart/capri-ai",
-   "stars": 385,
-   "note": " · new this week",
-   "url": "https://github.com/ChannelCooperStart/capri-ai",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
    "kind": "repo",
    "title": "JunWan666/astrbot-for-android",
-   "stars": 245,
+   "stars": 252,
    "note": "Kotlin · new this week",
    "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
@@ -119,7 +91,7 @@
   {
    "kind": "repo",
    "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 4565,
+   "stars": 4680,
    "note": "Python · new this week",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "source": "GitHub",
@@ -129,7 +101,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 4462,
+   "stars": 4485,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -139,7 +111,7 @@
   {
    "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 4123,
+   "stars": 4433,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -148,10 +120,10 @@
   },
   {
    "kind": "repo",
-   "title": "designfuchen/word-atlas",
-   "stars": 3166,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/designfuchen/word-atlas",
+   "title": "interplains/Zero-Breach-Toolkit",
+   "stars": 3345,
+   "note": "Python · new this week",
+   "url": "https://github.com/interplains/Zero-Breach-Toolkit",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -159,34 +131,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 931,
-   "title": "Gemini 4 Carbon",
-   "source": "Hacker News",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "discuss": "https://news.ycombinator.com/item?id=50276792"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 358,
-   "title": "Claude Code regularly sends each background agent’s transcript to its model",
-   "source": "Hacker News",
-   "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-   "discuss": "https://news.ycombinator.com/item?id=50284255"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 231,
-   "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-   "source": "Hacker News",
-   "url": "https://surgehq.ai/blog/dayjob-tax",
-   "discuss": "https://news.ycombinator.com/item?id=50275626"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 142,
+   "points": 331,
    "title": "OpenAI's agents talked to each other through the CPU Cache",
    "source": "Hacker News",
    "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
@@ -195,39 +140,75 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 126,
-   "title": "The Agent SDK",
+   "points": 270,
+   "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
    "source": "Hacker News",
-   "url": "https://cursor.com/blog/agent-sdk",
-   "discuss": "https://news.ycombinator.com/item?id=50273731"
+   "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+   "discuss": "https://news.ycombinator.com/item?id=50288019"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 49,
+   "title": "Zombie stats: Where the numbers AI quotes come from",
+   "source": "Hacker News",
+   "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+   "discuss": "https://news.ycombinator.com/item?id=50290283"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 38,
+   "title": "Why are good developers so wary of agentic development?",
+   "source": "Hacker News",
+   "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
+   "discuss": "https://news.ycombinator.com/item?id=50289162"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 21,
+   "title": "Keplearn: Extract Equations from Data in Seconds",
+   "source": "Hacker News",
+   "url": "https://github.com/owls-on-wires/keplearn",
+   "discuss": "https://news.ycombinator.com/item?id=50289590"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 8,
+   "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50291116",
+   "discuss": "https://news.ycombinator.com/item?id=50291116"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+   "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+   "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Google expands AI Search ads globally as core ad growth slows",
+   "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+   "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+   "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+   "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+   "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/"
+   "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/"
   },
   {
    "kind": "news",

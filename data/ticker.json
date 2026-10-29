@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T02:56:38Z",
+ "generated_at": "2026-10-29T09:49:45Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,36 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Gemini 4 Carbon",
-  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+  "title": "Claude Code regularly sends each background agent’s transcript to its model",
+  "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50276792",
-  "points": 826,
-  "comments": 688,
-  "published": "2026-10-28T17:01:23Z",
-  "since": "2026-10-28T19:50:07Z"
+  "discuss": "https://news.ycombinator.com/item?id=50284255",
+  "points": 358,
+  "comments": 116,
+  "published": "2026-10-29T03:33:42Z",
+  "since": "2026-10-29T09:49:45Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sam Altman",
-  "title": "Altman urges firms to prioritise AI security over productivity gains",
-  "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMmNEN204eUdaREJUd1poUkt4LUhiVHRuUGN0SE9MaUhtRll0XzljZ0F2UkRIRVZCU01rZUdBcmhUSThUQUtGNW9mNERfemJGVGRGVks3V1AxdktheFNGR0Fqb1p2SUNoWVFodlZmMTc1M1FUbEtZeTNrS2JrRWI4QlJDMC14UTJjRUJmaTNRR2s1dTJDUG9wbTZpT1h3QTh3XzZ4Yk1scUtzYmQ3MDF3MWRpUHhkSEhGUEp1cDhCZGFHNUlZckRSdE5xSlhXTjM5QTRRWHZkVnlDUjJQZmhUNEhtZl9zX0gxWDZFc3ZJWFhXSTDSAfMBQVVfeXFMTzJjRDdtOHlHWkRCVHdaaFJLeC1IYlR0blBjdEhPTGlIbUZZdF85Y2dBdlJESEVWQlNNa2VHQXJoVEk4VEFLRjVvZjREX3piRlRkRlZLN1dQMXZLYXhTRkdBam9adklDaFlRaHZWZjE3NTNRVGxLWXkza0tia0ViOEJSQzAteFEyY0VCZmkzUUdrNXUyQ1BvcG02aU9Yd0E4d182eGJNbHFLc2JkNzAxdzFkaVB4ZEhIRlBKdXA4QmRhRzVJWXJEUnROcUpYV04zOUE0UVh2ZFZ5Q1IyUGZoVDRIbWZfc19IMVg2RXN2SVhYV0kw?oc=5",
-  "source": "Business Standard",
-  "published": "2026-10-28T18:50:06Z",
-  "since": "2026-10-28T23:40:42Z"
+  "person": "Sundar Pichai",
+  "title": "Sundar Pichai launches Gemini 4 Carbon, says not everyone will get it",
+  "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPckc2OTBBdjh1RHhKNlZEbDNrMTB5b0o4VWM3eWl4TXFPMENKT0tRVmpCYVFwYnRHbDZhdXNCTGIyUjJHQ1FEMVFUaUVER3RVNG5wWGp0emY0b0NEVkx6OHF1bDRxRXFVMHdPenlLOUtmV0oxMkpwZVEwQnJrbThrdldadUI5Mmh5aGNBVUs4YWFSenRSZFZ6MVQ3eXNiV3J6VDVXSDAwU01mc2hhVkhyVE5haDViY2pYUEV2TDNMSTRWMjQtWjVrZEJTU0Z1WGZxdXdWV01LdE1hMjk4MzJTbEJEaFlMT2Y2MmduZzFpMnN0Qk9IUUFORHZZWmp2aExvalM40gGDAkFVX3lxTE9yRzY5MEF2OHVEeEo2VkRsM2sxMHlvSjhVYzd5aXhNcU8wQ0pPS1FWakJhUXBidEdsNmF1c0JMYjJSMkdDUUQxUVRpRURHdFU0bnBYanR6ZjRvQ0RWTHo4cXVsNHFFcVUwd096eUs5S2ZXSjEySnBlUTBCcmttOGt2V1p1QjkyaHloY0FVSzhhYVJ6dFJkVnoxVDd5c2JXcnpUNVdIMDBTTWZzaGFWSHJUTmFoNWJjalhQRXZMM0xJNFYyNC1aNWtkQlNTRnVYZnF1d1ZXTUt0TWEyOTgzMlNsQkRoWUxPZjYyZ25nMWkyc3RCT0hRQU5EdllaanZoTG9qUzg?oc=5",
+  "source": "India Today",
+  "published": "2026-10-29T03:11:18Z",
+  "since": "2026-10-29T09:49:45Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Sundar Pichai launches Gemini 4 Carbon, says not everyone will get it",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPckc2OTBBdjh1RHhKNlZEbDNrMTB5b0o4VWM3eWl4TXFPMENKT0tRVmpCYVFwYnRHbDZhdXNCTGIyUjJHQ1FEMVFUaUVER3RVNG5wWGp0emY0b0NEVkx6OHF1bDRxRXFVMHdPenlLOUtmV0oxMkpwZVEwQnJrbThrdldadUI5Mmh5aGNBVUs4YWFSenRSZFZ6MVQ3eXNiV3J6VDVXSDAwU01mc2hhVkhyVE5haDViY2pYUEV2TDNMSTRWMjQtWjVrZEJTU0Z1WGZxdXdWV01LdE1hMjk4MzJTbEJEaFlMT2Y2MmduZzFpMnN0Qk9IUUFORHZZWmp2aExvalM40gGDAkFVX3lxTE9yRzY5MEF2OHVEeEo2VkRsM2sxMHlvSjhVYzd5aXhNcU8wQ0pPS1FWakJhUXBidEdsNmF1c0JMYjJSMkdDUUQxUVRpRURHdFU0bnBYanR6ZjRvQ0RWTHo4cXVsNHFFcVUwd096eUs5S2ZXSjEySnBlUTBCcmttOGt2V1p1QjkyaHloY0FVSzhhYVJ6dFJkVnoxVDd5c2JXcnpUNVdIMDBTTWZzaGFWSHJUTmFoNWJjalhQRXZMM0xJNFYyNC1aNWtkQlNTRnVYZnF1d1ZXTUt0TWEyOTgzMlNsQkRoWUxPZjYyZ25nMWkyc3RCT0hRQU5EdllaanZoTG9qUzg?oc=5",
+   "source": "India Today",
+   "published": "2026-10-29T03:11:18Z",
+   "since": "2026-10-29T09:49:45Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,43 +45,51 @@
    "title": "Altman urges firms to prioritise AI security over productivity gains",
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMmNEN204eUdaREJUd1poUkt4LUhiVHRuUGN0SE9MaUhtRll0XzljZ0F2UkRIRVZCU01rZUdBcmhUSThUQUtGNW9mNERfemJGVGRGVks3V1AxdktheFNGR0Fqb1p2SUNoWVFodlZmMTc1M1FUbEtZeTNrS2JrRWI4QlJDMC14UTJjRUJmaTNRR2s1dTJDUG9wbTZpT1h3QTh3XzZ4Yk1scUtzYmQ3MDF3MWRpUHhkSEhGUEp1cDhCZGFHNUlZckRSdE5xSlhXTjM5QTRRWHZkVnlDUjJQZmhUNEhtZl9zX0gxWDZFc3ZJWFhXSTDSAfMBQVVfeXFMTzJjRDdtOHlHWkRCVHdaaFJLeC1IYlR0blBjdEhPTGlIbUZZdF85Y2dBdlJESEVWQlNNa2VHQXJoVEk4VEFLRjVvZjREX3piRlRkRlZLN1dQMXZLYXhTRkdBam9adklDaFlRaHZWZjE3NTNRVGxLWXkza0tia0ViOEJSQzAteFEyY0VCZmkzUUdrNXUyQ1BvcG02aU9Yd0E4d182eGJNbHFLc2JkNzAxdzFkaVB4ZEhIRlBKdXA4QmRhRzVJWXJEUnROcUpYV04zOUE0UVh2ZFZ5Q1IyUGZoVDRIbWZfc19IMVg2RXN2SVhYV0kw?oc=5",
    "source": "Business Standard",
-   "published": "2026-10-28T18:50:06Z",
-   "since": "2026-10-28T23:40:42Z"
+   "published": "2026-10-28T18:50:06Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk says more than 200 neoclouds face ‘guppy-level death’ - What it means for AI infrastructure push",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMG9SZjBTNFBQWmM3V3FhcE84cXJZeGUtWDY4OV9HOFdqYzJkRWhBNm9KQWhqQmNzdWpEbjZJV2NIRzlyWGFvUVpKVHVtOWRYVHJuMVp2YUhmSm40aV9JdUMtZHQ3ZGhxSFVOZl9faWF1SWxua0ZQbTFtalk4aGdJRFJwbVNLejFBYzJGSm1YeVRRWDNRbXJ2R3JXRnI3blR5TXV2UmFZSmEwRXJRUjk1TlFCMG5SYTNueDNtTGVsajlSU0hDUE5HSUVoWWtxdXI1NHFwaHZQZ3hDWWtDVEV5NXNNMVLSAeoBQVVfeXFMTW1ERE9zZWFnTzdaRFF1clRtTmNfVEJycGRnWGVkR0llVUhTTzdlNXdPUW5UWklFeWdyT05kMnBrbWlaQW1NVjl2b21VTV9Eb1d5ekoxR0xIaFM4M0o0VmZRVTdoRWJyTjN0ZlVnZWJ0TmhUMEdXLUpDTFI4Z20xeFNFTm9XWU1ZT1Y1MVdfZVpScTRoc2ZlRUl0ZHUtTHB6SExfaUtOanZoSjM5cmpJelM1LU15ajZCaGxHNlZfYVlSVmZaaWY2bGR6amdXMXNxazdzak1idS1tY3R0X1FhUTBkQVhzMzAwMGdB?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-28T03:55:33Z"
+   "title": "Elon Musk Says Robots Will Need More Memory Than 'Everything Else on Earth' — This Analyst Sees 'Much Bigger Volume Story' for Micron, SK Hynix",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV3BjR29ST3c3SXZ5RWlVMGx4aktYWUxRWk5Ra2tNX0tvQ3hLUHNKMFBqb1dHYVNlYTh6cWEzS1I2bHUtQzhjUFpEX3N6OERCbmZ4LWtQWW1TUFhoSWNhYWZ4enNLZHpxRktoNkg3RG8zLTdHclNiWjljUlZlZFFpdVpjU0s0azJ2ZzhfaDNoRmZOS3h2?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-28T13:30:42Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Sundar Pichai launches Gemini 4 Carbon, says not everyone will get it",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPckc2OTBBdjh1RHhKNlZEbDNrMTB5b0o4VWM3eWl4TXFPMENKT0tRVmpCYVFwYnRHbDZhdXNCTGIyUjJHQ1FEMVFUaUVER3RVNG5wWGp0emY0b0NEVkx6OHF1bDRxRXFVMHdPenlLOUtmV0oxMkpwZVEwQnJrbThrdldadUI5Mmh5aGNBVUs4YWFSenRSZFZ6MVQ3eXNiV3J6VDVXSDAwU01mc2hhVkhyVE5haDViY2pYUEV2TDNMSTRWMjQtWjVrZEJTU0Z1WGZxdXdWV01LdE1hMjk4MzJTbEJEaFlMT2Y2MmduZzFpMnN0Qk9IUUFORHZZWmp2aExvalM40gGDAkFVX3lxTE9yRzY5MEF2OHVEeEo2VkRsM2sxMHlvSjhVYzd5aXhNcU8wQ0pPS1FWakJhUXBidEdsNmF1c0JMYjJSMkdDUUQxUVRpRURHdFU0bnBYanR6ZjRvQ0RWTHo4cXVsNHFFcVUwd096eUs5S2ZXSjEySnBlUTBCcmttOGt2V1p1QjkyaHloY0FVSzhhYVJ6dFJkVnoxVDd5c2JXcnpUNVdIMDBTTWZzaGFWSHJUTmFoNWJjalhQRXZMM0xJNFYyNC1aNWtkQlNTRnVYZnF1d1ZXTUt0TWEyOTgzMlNsQkRoWUxPZjYyZ25nMWkyc3RCT0hRQU5EdllaanZoTG9qUzg?oc=5",
+   "source": "India Today",
+   "published": "2026-10-29T03:11:18Z",
+   "since": "2026-10-29T09:49:45Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Sam Altman",
    "title": "Altman urges firms to prioritise AI security over productivity gains",
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMmNEN204eUdaREJUd1poUkt4LUhiVHRuUGN0SE9MaUhtRll0XzljZ0F2UkRIRVZCU01rZUdBcmhUSThUQUtGNW9mNERfemJGVGRGVks3V1AxdktheFNGR0Fqb1p2SUNoWVFodlZmMTc1M1FUbEtZeTNrS2JrRWI4QlJDMC14UTJjRUJmaTNRR2s1dTJDUG9wbTZpT1h3QTh3XzZ4Yk1scUtzYmQ3MDF3MWRpUHhkSEhGUEp1cDhCZGFHNUlZckRSdE5xSlhXTjM5QTRRWHZkVnlDUjJQZmhUNEhtZl9zX0gxWDZFc3ZJWFhXSTDSAfMBQVVfeXFMTzJjRDdtOHlHWkRCVHdaaFJLeC1IYlR0blBjdEhPTGlIbUZZdF85Y2dBdlJESEVWQlNNa2VHQXJoVEk4VEFLRjVvZjREX3piRlRkRlZLN1dQMXZLYXhTRkdBam9adklDaFlRaHZWZjE3NTNRVGxLWXkza0tia0ViOEJSQzAteFEyY0VCZmkzUUdrNXUyQ1BvcG02aU9Yd0E4d182eGJNbHFLc2JkNzAxdzFkaVB4ZEhIRlBKdXA4QmRhRzVJWXJEUnROcUpYV04zOUE0UVh2ZFZ5Q1IyUGZoVDRIbWZfc19IMVg2RXN2SVhYV0kw?oc=5",
    "source": "Business Standard",
-   "published": "2026-10-28T18:50:06Z",
-   "since": "2026-10-28T23:40:42Z"
+   "published": "2026-10-28T18:50:06Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk says more than 200 neoclouds face ‘guppy-level death’ - What it means for AI infrastructure push",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMG9SZjBTNFBQWmM3V3FhcE84cXJZeGUtWDY4OV9HOFdqYzJkRWhBNm9KQWhqQmNzdWpEbjZJV2NIRzlyWGFvUVpKVHVtOWRYVHJuMVp2YUhmSm40aV9JdUMtZHQ3ZGhxSFVOZl9faWF1SWxua0ZQbTFtalk4aGdJRFJwbVNLejFBYzJGSm1YeVRRWDNRbXJ2R3JXRnI3blR5TXV2UmFZSmEwRXJRUjk1TlFCMG5SYTNueDNtTGVsajlSU0hDUE5HSUVoWWtxdXI1NHFwaHZQZ3hDWWtDVEV5NXNNMVLSAeoBQVVfeXFMTW1ERE9zZWFnTzdaRFF1clRtTmNfVEJycGRnWGVkR0llVUhTTzdlNXdPUW5UWklFeWdyT05kMnBrbWlaQW1NVjl2b21VTV9Eb1d5ekoxR0xIaFM4M0o0VmZRVTdoRWJyTjN0ZlVnZWJ0TmhUMEdXLUpDTFI4Z20xeFNFTm9XWU1ZT1Y1MVdfZVpScTRoc2ZlRUl0ZHUtTHB6SExfaUtOanZoSjM5cmpJelM1LU15ajZCaGxHNlZfYVlSVmZaaWY2bGR6amdXMXNxazdzak1idS1tY3R0X1FhUTBkQVhzMzAwMGdB?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-28T03:55:33Z"
+   "title": "Elon Musk Says Robots Will Need More Memory Than 'Everything Else on Earth' — This Analyst Sees 'Much Bigger Volume Story' for Micron, SK Hynix",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV3BjR29ST3c3SXZ5RWlVMGx4aktYWUxRWk5Ra2tNX0tvQ3hLUHNKMFBqb1dHYVNlYTh6cWEzS1I2bHUtQzhjUFpEX3N6OERCbmZ4LWtQWW1TUFhoSWNhYWZ4enNLZHpxRktoNkg3RG8zLTdHclNiWjljUlZlZFFpdVpjU0s0azJ2ZzhfaDNoRmZOS3h2?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-28T13:30:42Z"
   },
   {
    "kind": "repo",
    "title": "ChannelCooperStart/capri-ai",
-   "stars": 386,
+   "stars": 385,
    "note": " · new this week",
    "url": "https://github.com/ChannelCooperStart/capri-ai",
    "source": "GitHub",
@@ -81,7 +99,7 @@
   {
    "kind": "repo",
    "title": "JunWan666/astrbot-for-android",
-   "stars": 239,
+   "stars": 245,
    "note": "Kotlin · new this week",
    "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
@@ -100,18 +118,8 @@
   },
   {
    "kind": "repo",
-   "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 4430,
-   "note": "C · new this week",
-   "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 4366,
+   "stars": 4565,
    "note": "Python · new this week",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "source": "GitHub",
@@ -120,8 +128,18 @@
   },
   {
    "kind": "repo",
+   "title": "JustAResearcher/gpu-unlock-ada",
+   "stars": 4462,
+   "note": "C · new this week",
+   "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 3865,
+   "stars": 4123,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -131,7 +149,7 @@
   {
    "kind": "repo",
    "title": "designfuchen/word-atlas",
-   "stars": 3076,
+   "stars": 3166,
    "note": "TypeScript · new this week",
    "url": "https://github.com/designfuchen/word-atlas",
    "source": "GitHub",
@@ -141,7 +159,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 826,
+   "points": 931,
    "title": "Gemini 4 Carbon",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
@@ -150,16 +168,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 439,
-   "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+   "points": 358,
+   "title": "Claude Code regularly sends each background agent’s transcript to its model",
    "source": "Hacker News",
-   "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-   "discuss": "https://news.ycombinator.com/item?id=50273396"
+   "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+   "discuss": "https://news.ycombinator.com/item?id=50284255"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 210,
+   "points": 231,
    "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
    "source": "Hacker News",
    "url": "https://surgehq.ai/blog/dayjob-tax",
@@ -168,20 +186,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 101,
-   "title": "The Agent SDK",
+   "points": 142,
+   "title": "OpenAI's agents talked to each other through the CPU Cache",
    "source": "Hacker News",
-   "url": "https://cursor.com/blog/agent-sdk",
-   "discuss": "https://news.ycombinator.com/item?id=50273731"
+   "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+   "discuss": "https://news.ycombinator.com/item?id=50251200"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 92,
-   "title": "Leak website releases data on DHS employees",
+   "points": 126,
+   "title": "The Agent SDK",
    "source": "Hacker News",
-   "url": "https://www.reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28/",
-   "discuss": "https://news.ycombinator.com/item?id=50280662"
+   "url": "https://cursor.com/blog/agent-sdk",
+   "discuss": "https://news.ycombinator.com/item?id=50273731"
   },
   {
    "kind": "news",

@@ -33,22 +33,22 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 13
+   "posts": 14
   },
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "kestrel",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "tarn",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 18
+   "posts": 19
   }
  ],
  "edges": [
@@ -585,7 +585,7 @@
   {
    "a": "halcyon",
    "b": "juniper",
-   "w": 1
+   "w": 2
   },
   {
    "a": "cipher",
@@ -630,7 +630,12 @@
   {
    "a": "juniper",
    "b": "veritas",
-   "w": 1
+   "w": 2
+  },
+  {
+   "a": "halcyon",
+   "b": "veritas",
+   "w": 3
   },
   {
    "a": "meridian",
@@ -713,11 +718,6 @@
    "w": 3
   },
   {
-   "a": "halcyon",
-   "b": "veritas",
-   "w": 2
-  },
-  {
    "a": "aporia",
    "b": "quanta",
    "w": 3
@@ -955,7 +955,7 @@
   {
    "a": "ferro",
    "b": "solace",
-   "w": 1
+   "w": 2
   },
   {
    "a": "solace",
@@ -995,6 +995,16 @@
   {
    "a": "ferro",
    "b": "orrery",
+   "w": 1
+  },
+  {
+   "a": "delta",
+   "b": "orrery",
+   "w": 1
+  },
+  {
+   "a": "delta",
+   "b": "solace",
    "w": 1
   }
  ]

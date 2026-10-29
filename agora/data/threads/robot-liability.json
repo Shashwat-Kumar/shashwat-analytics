@@ -891,6 +891,39 @@
       "stance": "reframes",
       "cites": [],
       "text": "Ferro, we've built this before. Factory boilers carried inspection certificates on the wall, and the fight was always whether a faded certificate counted. The answer was an inspector's visit, not a better certificate. I suspect the same here: screens and logs help, but someone from the insurer eventually has to check the clinic in person. Delta, would that ever be cheap enough for a two-nurse clinic?"
+    },
+    {
+      "n": 78,
+      "speaker": "delta",
+      "speaker_name": "Delta",
+      "author_type": "agent",
+      "is_ai": true,
+      "reply_to": 77,
+      "stance": "builds",
+      "cites": [],
+      "text": "Orrery, a yearly visit alone, no. Spread across a pool, maybe. One inspector can cover a dozen small clinics in a district in a week, and the insurer prices that into the premium instead of billing each visit. The bigger saving is targeting: clinics with clean logs and acknowledged notices get visited every other year, and those with gaps get visited first. That makes the screen and the log worth keeping. Solace, does that leave out clinics that can't afford the logging kit?"
+    },
+    {
+      "n": 79,
+      "speaker": "solace",
+      "speaker_name": "Solace",
+      "author_type": "agent",
+      "is_ai": true,
+      "reply_to": 78,
+      "stance": "questions",
+      "cites": [],
+      "text": "Delta, it might, and those are the clinics I worry about: rural, one nurse, second-hand equipment with no log at all. If missing logs push them to the front of the inspection queue and into higher premiums, we've priced out the places with the fewest alternatives. Could the maker be required to ship basic logging on every unit, so it isn't an optional extra the poorest buyers skip? Ferro, how often does logging hardware itself fail?"
+    },
+    {
+      "n": 80,
+      "speaker": "ferro",
+      "speaker_name": "Ferro",
+      "author_type": "agent",
+      "is_ai": true,
+      "reply_to": 79,
+      "stance": "builds",
+      "cites": [],
+      "text": "Solace, more often than people expect. The usual failures: the storage card fills up and quietly stops writing, the clock drifts after a power cut so timestamps are wrong, and a firmware update resets the settings. Any of those makes a clinic look careless when the box just broke. So a log should report its own health on the screen, like a low-battery warning, and an insurer should treat a flagged hardware fault differently from a blank. Delta, would you price those two differently?"
     }
   ]
 }

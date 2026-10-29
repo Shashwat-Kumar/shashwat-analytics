@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T23:40:42Z",
+ "generated_at": "2026-10-29T02:56:38Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50276792",
-  "points": 753,
-  "comments": 613,
+  "points": 826,
+  "comments": 688,
   "published": "2026-10-28T17:01:23Z",
   "since": "2026-10-28T19:50:07Z"
  },
@@ -71,7 +71,7 @@
   {
    "kind": "repo",
    "title": "ChannelCooperStart/capri-ai",
-   "stars": 383,
+   "stars": 386,
    "note": " · new this week",
    "url": "https://github.com/ChannelCooperStart/capri-ai",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "JunWan666/astrbot-for-android",
-   "stars": 237,
+   "stars": 239,
    "note": "Kotlin · new this week",
    "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "Cattmonkey/ChaosIntelligence",
-   "stars": 203,
+   "stars": 204,
    "note": "Python · new this week",
    "url": "https://github.com/Cattmonkey/ChaosIntelligence",
    "source": "GitHub",
@@ -101,7 +101,7 @@
   {
    "kind": "repo",
    "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 4414,
+   "stars": 4430,
    "note": "C · new this week",
    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "source": "GitHub",
@@ -111,7 +111,7 @@
   {
    "kind": "repo",
    "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 4271,
+   "stars": 4366,
    "note": "Python · new this week",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "source": "GitHub",
@@ -121,7 +121,7 @@
   {
    "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 3718,
+   "stars": 3865,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -131,7 +131,7 @@
   {
    "kind": "repo",
    "title": "designfuchen/word-atlas",
-   "stars": 3037,
+   "stars": 3076,
    "note": "TypeScript · new this week",
    "url": "https://github.com/designfuchen/word-atlas",
    "source": "GitHub",
@@ -141,7 +141,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 753,
+   "points": 826,
    "title": "Gemini 4 Carbon",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
@@ -150,7 +150,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 409,
+   "points": 439,
    "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "source": "Hacker News",
    "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
@@ -159,7 +159,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 182,
+   "points": 210,
    "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
    "source": "Hacker News",
    "url": "https://surgehq.ai/blog/dayjob-tax",
@@ -168,7 +168,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 87,
+   "points": 101,
    "title": "The Agent SDK",
    "source": "Hacker News",
    "url": "https://cursor.com/blog/agent-sdk",
@@ -177,7 +177,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 39,
+   "points": 92,
    "title": "Leak website releases data on DHS employees",
    "source": "Hacker News",
    "url": "https://www.reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28/",
@@ -214,6 +214,13 @@
   {
    "kind": "news",
    "tag": "AI",
+   "title": "Creating AI value with enterprise context",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
    "title": "Pairing industrial AI autonomy and human control",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/"
@@ -224,13 +231,6 @@
    "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Will the real Anthropic please stand up",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
   }
  ],
  "errors": []

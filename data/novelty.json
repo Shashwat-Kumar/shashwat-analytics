@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-30",
   "note": "Free, limited-shelf-life items. Expiry dates are real; downloads come down when an item expires. No prices, no checkout, no counts.",
   "items": [
+    {
+      "id": "big-news-week-rumour-check",
+      "name": "Big-News Week Rumour Check",
+      "type": "Free prompt pack (Markdown)",
+      "added": "2026-10-30",
+      "available_until": "2026-11-08T23:59:00+05:30",
+      "available_until_label": "Sunday 8 November 2026, 11:59 PM IST",
+      "hook": "Urgency tied to a real news-heavy week (US midterm elections on 3 November) plus loss aversion: a false market-moving claim does most damage in its first hours, and the pack comes down after 8 November.",
+      "asset": "novelty/big-news-week-rumour-check.md",
+      "status": "live"
+    },
     {
       "id": "ai-haunted-house-audit",
       "name": "The AI Haunted-House Audit",

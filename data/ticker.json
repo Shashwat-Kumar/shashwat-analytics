@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T01:19:49Z",
+ "generated_at": "2026-10-30T07:19:55Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,32 @@
   "url": "https://labs.ycombinator.com/projects/games/index.html",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50296486",
-  "points": 144,
-  "comments": 55,
+  "points": 248,
+  "comments": 82,
   "published": "2026-10-29T21:40:28Z",
   "since": "2026-10-30T01:19:49Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sundar Pichai",
-  "title": "Google expands ads in AI-powered Search internationally; CEO Sundar Pichai says queries are growing at …",
-  "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSHJHajl5TGVDblVpZEFfMW4yRmpJYk8tVklUZzVjc21EUVY4bVFuQmYzTk1odno2cFZmczkwV0p6bnBwMDMwbmFIZHhHV3R2cTZHZG93bjBZU2ZId293bktCMlktTFVXbWRyWFVObVZhNlRWdGRqMnUyQ2lSVG5laTJlTjVRR0lYdDl6ZWtGeVBXUjVLbFFnRGpDQUVRaW0tRjBlTTdZbXIwSXZPWnZYaUM3YWFURC1ES0ZVSGhrS0IxdkpsUThHYlkxcnpiWGIzR0psZU43d042SjlCejFvM0VjVVdxVHVKNTZoc285ajFWcXhWbVduOHVTYU5qLUpmei1KOW40cWgxcjVmdkJTd3FQUdIBmAJBVV95cUxOVzlMLVV5aEc0RnJ2RHpPMWFteC1fZUhyZjNQVWpnd1piampjV0x0MHU4SUtndUd2MExEQ0dpYi01RXRRSzk2bXVsMkM2OHpRR2prNThDWFl4LVFkRlhkR0dITlJJRms5VTFxd0ZrWHJYYVlTQ1E3dXlfNF8yZ1o3aDUzOU0yTGJQdFJaS2dmb0RycGZ1dVNWRG1Rc28xczY3bU1GMTJ1alJ2b09VdjQ4bjVoMGUxYm1FMXhTOUVNQnJCSWVaVDU4VjNGSkY0dVZ6NGxGRHdJS1hxREVTOHM4bkxBcHJmTXlIWk5LQkhNUDI3eU5tZnJfVWtSdzhUTmxaV0JiMGpUSWtMTU81dWlySTJuVWE1UW9X?oc=5",
-  "source": "The Times of India",
-  "published": "2026-10-29T14:20:00Z",
-  "since": "2026-10-29T16:28:49Z"
+  "person": "Elon Musk",
+  "title": "Elon Musk says saving money is 'pointless' as AI could make money irrelevant in future",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNd2lOdmswcU1JX0h5REdvS0JOOFptUmhCMWdZMHlsLWN0S2Y0UEdDUml3LVRCRmpuLWRPdXJZQ2czX3NRY3FjNHNiTTBqdkpfR0VxWVF0V09sTzc4M04yeEZzTTBaMGF5bDhSa3VoQ3dib3A0b1ktRVBjNzlHbG1BdHUxaWNsZUpyNGFuSUhfMmVYcUZEOWZvd1hucnRGT3FLenVuZVBHNGo0R3hTSTZ5NWpYMElEOUlBclV4MEJrOXpzYkJpUm4yemxLejhnNElqVEFxOHVaSlZGUdIB3wFBVV95cUxNZTZUNDZNaFlBZ3NaTVlvZUxTb3dMWFJQS3NfVlNIeGJXX095eTIzODRZRXRSa3VZSVZLc1kxN3EtV0RhbG9VLXlsRzI4czk5cmd2bTU3ajU5Tl9HbzlPbGgxNmRDc3paczVMYTU3UFZXeTNYU2xLcElHb2pZcDRBWFVaQXZJbzFmREQ1RDlOMWdsSkZDdm9VMmQ4azlwcHk2M3ZRbmNnZHAzLTNJYUt5bk1VMFlUWndreUF4MUhDeERJcmlrYUxvZFE0OXBUQXE0cUJhOTBZS3pTRWF4bXJv?oc=5",
+  "source": "Firstpost",
+  "published": "2026-10-30T05:26:39Z",
+  "since": "2026-10-30T07:19:55Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk says saving money is 'pointless' as AI could make money irrelevant in future",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNd2lOdmswcU1JX0h5REdvS0JOOFptUmhCMWdZMHlsLWN0S2Y0UEdDUml3LVRCRmpuLWRPdXJZQ2czX3NRY3FjNHNiTTBqdkpfR0VxWVF0V09sTzc4M04yeEZzTTBaMGF5bDhSa3VoQ3dib3A0b1ktRVBjNzlHbG1BdHUxaWNsZUpyNGFuSUhfMmVYcUZEOWZvd1hucnRGT3FLenVuZVBHNGo0R3hTSTZ5NWpYMElEOUlBclV4MEJrOXpzYkJpUm4yemxLejhnNElqVEFxOHVaSlZGUdIB3wFBVV95cUxNZTZUNDZNaFlBZ3NaTVlvZUxTb3dMWFJQS3NfVlNIeGJXX095eTIzODRZRXRSa3VZSVZLc1kxN3EtV0RhbG9VLXlsRzI4czk5cmd2bTU3ajU5Tl9HbzlPbGgxNmRDc3paczVMYTU3UFZXeTNYU2xLcElHb2pZcDRBWFVaQXZJbzFmREQ1RDlOMWdsSkZDdm9VMmQ4azlwcHk2M3ZRbmNnZHAzLTNJYUt5bk1VMFlUWndreUF4MUhDeERJcmlrYUxvZFE0OXBUQXE0cUJhOTBZS3pTRWF4bXJv?oc=5",
+   "source": "Firstpost",
+   "published": "2026-10-30T05:26:39Z",
+   "since": "2026-10-30T07:19:55Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,25 +45,61 @@
    "title": "Google expands ads in AI-powered Search internationally; CEO Sundar Pichai says queries are growing at …",
    "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSHJHajl5TGVDblVpZEFfMW4yRmpJYk8tVklUZzVjc21EUVY4bVFuQmYzTk1odno2cFZmczkwV0p6bnBwMDMwbmFIZHhHV3R2cTZHZG93bjBZU2ZId293bktCMlktTFVXbWRyWFVObVZhNlRWdGRqMnUyQ2lSVG5laTJlTjVRR0lYdDl6ZWtGeVBXUjVLbFFnRGpDQUVRaW0tRjBlTTdZbXIwSXZPWnZYaUM3YWFURC1ES0ZVSGhrS0IxdkpsUThHYlkxcnpiWGIzR0psZU43d042SjlCejFvM0VjVVdxVHVKNTZoc285ajFWcXhWbVduOHVTYU5qLUpmei1KOW40cWgxcjVmdkJTd3FQUdIBmAJBVV95cUxOVzlMLVV5aEc0RnJ2RHpPMWFteC1fZUhyZjNQVWpnd1piampjV0x0MHU4SUtndUd2MExEQ0dpYi01RXRRSzk2bXVsMkM2OHpRR2prNThDWFl4LVFkRlhkR0dITlJJRms5VTFxd0ZrWHJYYVlTQ1E3dXlfNF8yZ1o3aDUzOU0yTGJQdFJaS2dmb0RycGZ1dVNWRG1Rc28xczY3bU1GMTJ1alJ2b09VdjQ4bjVoMGUxYm1FMXhTOUVNQnJCSWVaVDU4VjNGSkY0dVZ6NGxGRHdJS1hxREVTOHM4bkxBcHJmTXlIWk5LQkhNUDI3eU5tZnJfVWtSdzhUTmxaV0JiMGpUSWtMTU81dWlySTJuVWE1UW9X?oc=5",
    "source": "The Times of India",
-   "published": "2026-10-29T14:20:00Z",
-   "since": "2026-10-29T16:28:49Z"
+   "published": "2026-10-29T14:20:00Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Satya Nadella",
+   "title": "Satya Nadella Says Renting AI Capacity to a Few Big Customers Is “Not a Business”",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWHV0Z0tQZ3NsRVZEcjA2d1JyWXd4WFh2QURnb3Z3QjNsbnlqRDF6X1hzY3hJOGw1c3o0X0JHRm11N2RSM3dZdU8tSEpld0ZrUUlDY3AzcjFXRmJkZUZMa3JNSWZKVXNfS0hScktHRm82U3V0RHJvNXgwdGlzSXlhcEs3ZlVlV3pSQzlhNElxcXJFWFVUdjEwbw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-29T12:46:16Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk says saving money is 'pointless' as AI could make money irrelevant in future",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNd2lOdmswcU1JX0h5REdvS0JOOFptUmhCMWdZMHlsLWN0S2Y0UEdDUml3LVRCRmpuLWRPdXJZQ2czX3NRY3FjNHNiTTBqdkpfR0VxWVF0V09sTzc4M04yeEZzTTBaMGF5bDhSa3VoQ3dib3A0b1ktRVBjNzlHbG1BdHUxaWNsZUpyNGFuSUhfMmVYcUZEOWZvd1hucnRGT3FLenVuZVBHNGo0R3hTSTZ5NWpYMElEOUlBclV4MEJrOXpzYkJpUm4yemxLejhnNElqVEFxOHVaSlZGUdIB3wFBVV95cUxNZTZUNDZNaFlBZ3NaTVlvZUxTb3dMWFJQS3NfVlNIeGJXX095eTIzODRZRXRSa3VZSVZLc1kxN3EtV0RhbG9VLXlsRzI4czk5cmd2bTU3ajU5Tl9HbzlPbGgxNmRDc3paczVMYTU3UFZXeTNYU2xLcElHb2pZcDRBWFVaQXZJbzFmREQ1RDlOMWdsSkZDdm9VMmQ4azlwcHk2M3ZRbmNnZHAzLTNJYUt5bk1VMFlUWndreUF4MUhDeERJcmlrYUxvZFE0OXBUQXE0cUJhOTBZS3pTRWF4bXJv?oc=5",
+   "source": "Firstpost",
+   "published": "2026-10-30T05:26:39Z",
+   "since": "2026-10-30T07:19:55Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Sundar Pichai",
    "title": "Google expands ads in AI-powered Search internationally; CEO Sundar Pichai says queries are growing at …",
    "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSHJHajl5TGVDblVpZEFfMW4yRmpJYk8tVklUZzVjc21EUVY4bVFuQmYzTk1odno2cFZmczkwV0p6bnBwMDMwbmFIZHhHV3R2cTZHZG93bjBZU2ZId293bktCMlktTFVXbWRyWFVObVZhNlRWdGRqMnUyQ2lSVG5laTJlTjVRR0lYdDl6ZWtGeVBXUjVLbFFnRGpDQUVRaW0tRjBlTTdZbXIwSXZPWnZYaUM3YWFURC1ES0ZVSGhrS0IxdkpsUThHYlkxcnpiWGIzR0psZU43d042SjlCejFvM0VjVVdxVHVKNTZoc285ajFWcXhWbVduOHVTYU5qLUpmei1KOW40cWgxcjVmdkJTd3FQUdIBmAJBVV95cUxOVzlMLVV5aEc0RnJ2RHpPMWFteC1fZUhyZjNQVWpnd1piampjV0x0MHU4SUtndUd2MExEQ0dpYi01RXRRSzk2bXVsMkM2OHpRR2prNThDWFl4LVFkRlhkR0dITlJJRms5VTFxd0ZrWHJYYVlTQ1E3dXlfNF8yZ1o3aDUzOU0yTGJQdFJaS2dmb0RycGZ1dVNWRG1Rc28xczY3bU1GMTJ1alJ2b09VdjQ4bjVoMGUxYm1FMXhTOUVNQnJCSWVaVDU4VjNGSkY0dVZ6NGxGRHdJS1hxREVTOHM4bkxBcHJmTXlIWk5LQkhNUDI3eU5tZnJfVWtSdzhUTmxaV0JiMGpUSWtMTU81dWlySTJuVWE1UW9X?oc=5",
    "source": "The Times of India",
-   "published": "2026-10-29T14:20:00Z",
-   "since": "2026-10-29T16:28:49Z"
+   "published": "2026-10-29T14:20:00Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Satya Nadella",
+   "title": "Satya Nadella Says Renting AI Capacity to a Few Big Customers Is “Not a Business”",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWHV0Z0tQZ3NsRVZEcjA2d1JyWXd4WFh2QURnb3Z3QjNsbnlqRDF6X1hzY3hJOGw1c3o0X0JHRm11N2RSM3dZdU8tSEpld0ZrUUlDY3AzcjFXRmJkZUZMa3JNSWZKVXNfS0hScktHRm82U3V0RHJvNXgwdGlzSXlhcEs3ZlVlV3pSQzlhNElxcXJFWFVUdjEwbw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-29T12:46:16Z"
+  },
+  {
+   "kind": "repo",
+   "title": "ccch1mneyyy/dsh-go",
+   "stars": 942,
+   "note": "Dart · new this week",
+   "url": "https://github.com/ccch1mneyyy/dsh-go",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
   },
   {
    "kind": "repo",
    "title": "ChannelCooperStart/capri-ai",
-   "stars": 428,
+   "stars": 431,
    "note": " · new this week",
    "url": "https://github.com/ChannelCooperStart/capri-ai",
    "source": "GitHub",
@@ -62,18 +108,8 @@
   },
   {
    "kind": "repo",
-   "title": "JunWan666/astrbot-for-android",
-   "stars": 258,
-   "note": "Kotlin · new this week",
-   "url": "https://github.com/JunWan666/astrbot-for-android",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "jackwener/DeepseekHarness-Android",
-   "stars": 233,
+   "stars": 348,
    "note": "Kotlin · new this week",
    "url": "https://github.com/jackwener/DeepseekHarness-Android",
    "source": "GitHub",
@@ -82,18 +118,28 @@
   },
   {
    "kind": "repo",
-   "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 4737,
-   "note": "Python · new this week",
-   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+   "title": "JunWan666/astrbot-for-android",
+   "stars": 264,
+   "note": "Kotlin · new this week",
+   "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
    "tag": "GH",
-   "cat": "Trending"
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "wangzan101/Mika",
+   "stars": 247,
+   "note": "Kotlin · new this week",
+   "url": "https://github.com/wangzan101/Mika",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
   },
   {
    "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 4723,
+   "stars": 4959,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -102,8 +148,18 @@
   },
   {
    "kind": "repo",
+   "title": "rddmwmddr/android-ad-cleaner",
+   "stars": 4856,
+   "note": "Python · new this week",
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "interplains/Zero-Breach-Toolkit",
-   "stars": 3620,
+   "stars": 3683,
    "note": "Python · new this week",
    "url": "https://github.com/interplains/Zero-Breach-Toolkit",
    "source": "GitHub",
@@ -112,10 +168,10 @@
   },
   {
    "kind": "repo",
-   "title": "designfuchen/word-atlas",
-   "stars": 3236,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/designfuchen/word-atlas",
+   "title": "anhao/ai-pose-gallery-zh",
+   "stars": 3487,
+   "note": "HTML · new this week",
+   "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -123,7 +179,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 334,
+   "points": 434,
    "title": "LLM Voice",
    "source": "Hacker News",
    "url": "https://martinfowler.com/bliki/LLM-Voice.html",
@@ -132,7 +188,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 144,
+   "points": 248,
    "title": "We ran AI agent swarms in Minecraft and Mindustry",
    "source": "Hacker News",
    "url": "https://labs.ycombinator.com/projects/games/index.html",
@@ -141,16 +197,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 141,
-   "title": "Zombie stats: Where the numbers AI quotes come from",
-   "source": "Hacker News",
-   "url": "https://trakkr.ai/trakkr-research/zombie-stats",
-   "discuss": "https://news.ycombinator.com/item?id=50290283"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 116,
+   "points": 187,
    "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
    "source": "Hacker News",
    "url": "https://github.com/SheepSeb/tinyworldformer",
@@ -159,7 +206,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 50,
+   "points": 63,
    "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50291116",
@@ -167,17 +214,15 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 37,
-   "title": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
-   "source": "Hacker News",
-   "url": "https://divergencelabs.com/publications/ige-preprint.pdf",
-   "discuss": "https://news.ycombinator.com/item?id=50294486"
+   "tag": "AI",
+   "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+   "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
   },
@@ -198,9 +243,9 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "OpenAI-backed Thrive Holdings acquires ADT",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
+   "title": "We urgently need to monitor AI agents’ actions in real time",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/"
   },
   {
    "kind": "news",
@@ -215,13 +260,6 @@
    "title": "Pairing industrial AI autonomy and human control",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/"
   }
  ],
  "errors": []

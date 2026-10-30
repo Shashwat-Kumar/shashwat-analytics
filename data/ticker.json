@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T21:23:39Z",
+ "generated_at": "2026-10-30T01:19:49Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "LLM Voice",
-  "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+  "title": "We ran AI agent swarms in Minecraft and Mindustry",
+  "url": "https://labs.ycombinator.com/projects/games/index.html",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50290177",
-  "points": 267,
-  "comments": 141,
-  "published": "2026-10-29T14:57:55Z",
-  "since": "2026-10-29T21:23:39Z"
+  "discuss": "https://news.ycombinator.com/item?id=50296486",
+  "points": 144,
+  "comments": 55,
+  "published": "2026-10-29T21:40:28Z",
+  "since": "2026-10-30T01:19:49Z"
  },
  "voice": {
   "kind": "voice",
@@ -37,15 +37,6 @@
    "source": "The Times of India",
    "published": "2026-10-29T14:20:00Z",
    "since": "2026-10-29T16:28:49Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Satya Nadella",
-   "title": "Satya Nadella Says Renting AI Capacity to a Few Big Customers Is “Not a Business”",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWHV0Z0tQZ3NsRVZEcjA2d1JyWXd4WFh2QURnb3Z3QjNsbnlqRDF6X1hzY3hJOGw1c3o0X0JHRm11N2RSM3dZdU8tSEpld0ZrUUlDY3AzcjFXRmJkZUZMa3JNSWZKVXNfS0hScktHRm82U3V0RHJvNXgwdGlzSXlhcEs3ZlVlV3pSQzlhNElxcXJFWFVUdjEwbw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-29T12:46:16Z"
   }
  ],
  "items": [
@@ -60,18 +51,9 @@
    "since": "2026-10-29T16:28:49Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Satya Nadella",
-   "title": "Satya Nadella Says Renting AI Capacity to a Few Big Customers Is “Not a Business”",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWHV0Z0tQZ3NsRVZEcjA2d1JyWXd4WFh2QURnb3Z3QjNsbnlqRDF6X1hzY3hJOGw1c3o0X0JHRm11N2RSM3dZdU8tSEpld0ZrUUlDY3AzcjFXRmJkZUZMa3JNSWZKVXNfS0hScktHRm82U3V0RHJvNXgwdGlzSXlhcEs3ZlVlV3pSQzlhNElxcXJFWFVUdjEwbw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-29T12:46:16Z"
-  },
-  {
    "kind": "repo",
    "title": "ChannelCooperStart/capri-ai",
-   "stars": 372,
+   "stars": 428,
    "note": " · new this week",
    "url": "https://github.com/ChannelCooperStart/capri-ai",
    "source": "GitHub",
@@ -81,7 +63,7 @@
   {
    "kind": "repo",
    "title": "JunWan666/astrbot-for-android",
-   "stars": 257,
+   "stars": 258,
    "note": "Kotlin · new this week",
    "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
@@ -90,10 +72,10 @@
   },
   {
    "kind": "repo",
-   "title": "Cattmonkey/ChaosIntelligence",
-   "stars": 204,
-   "note": "Python · new this week",
-   "url": "https://github.com/Cattmonkey/ChaosIntelligence",
+   "title": "jackwener/DeepseekHarness-Android",
+   "stars": 233,
+   "note": "Kotlin · new this week",
+   "url": "https://github.com/jackwener/DeepseekHarness-Android",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -101,7 +83,7 @@
   {
    "kind": "repo",
    "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 4705,
+   "stars": 4737,
    "note": "Python · new this week",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "source": "GitHub",
@@ -111,7 +93,7 @@
   {
    "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 4605,
+   "stars": 4723,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -120,18 +102,8 @@
   },
   {
    "kind": "repo",
-   "title": "JustAResearcher/gpu-unlock-ada",
-   "stars": 4507,
-   "note": "C · new this week",
-   "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "interplains/Zero-Breach-Toolkit",
-   "stars": 3517,
+   "stars": 3620,
    "note": "Python · new this week",
    "url": "https://github.com/interplains/Zero-Breach-Toolkit",
    "source": "GitHub",
@@ -139,9 +111,19 @@
    "cat": "Trending"
   },
   {
+   "kind": "repo",
+   "title": "designfuchen/word-atlas",
+   "stars": 3236,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/designfuchen/word-atlas",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
    "kind": "news",
    "tag": "HN",
-   "points": 267,
+   "points": 334,
    "title": "LLM Voice",
    "source": "Hacker News",
    "url": "https://martinfowler.com/bliki/LLM-Voice.html",
@@ -150,7 +132,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 118,
+   "points": 144,
+   "title": "We ran AI agent swarms in Minecraft and Mindustry",
+   "source": "Hacker News",
+   "url": "https://labs.ycombinator.com/projects/games/index.html",
+   "discuss": "https://news.ycombinator.com/item?id=50296486"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 141,
    "title": "Zombie stats: Where the numbers AI quotes come from",
    "source": "Hacker News",
    "url": "https://trakkr.ai/trakkr-research/zombie-stats",
@@ -159,34 +150,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 83,
-   "title": "Keplearn: Extract Equations from Data in Seconds",
-   "source": "Hacker News",
-   "url": "https://github.com/owls-on-wires/keplearn",
-   "discuss": "https://news.ycombinator.com/item?id=50289590"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 43,
-   "title": "Claude Duet is the future of chatbot interaction",
-   "source": "Hacker News",
-   "url": "https://fig.blue/posts/duet-is-the-future/",
-   "discuss": "https://news.ycombinator.com/item?id=50292727"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 38,
-   "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50291116",
-   "discuss": "https://news.ycombinator.com/item?id=50291116"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 21,
+   "points": 116,
    "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
    "source": "Hacker News",
    "url": "https://github.com/SheepSeb/tinyworldformer",
@@ -195,11 +159,27 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 20,
+   "points": 50,
+   "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50291116",
+   "discuss": "https://news.ycombinator.com/item?id=50291116"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 37,
    "title": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
    "source": "Hacker News",
    "url": "https://divergencelabs.com/publications/ige-preprint.pdf",
    "discuss": "https://news.ycombinator.com/item?id=50294486"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
   },
   {
    "kind": "news",
@@ -221,13 +201,6 @@
    "title": "OpenAI-backed Thrive Holdings acquires ADT",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Meta quietly launches an AI fashion app called Style Sketch",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/"
   },
   {
    "kind": "news",

@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "delta",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 13
+   "posts": 14
   },
   {
    "id": "halcyon",
@@ -73,7 +73,7 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "mosaic",
@@ -113,12 +113,12 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "tensor",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 21
+   "posts": 22
   }
  ],
  "edges": [
@@ -325,7 +325,7 @@
   {
    "a": "sable",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "nimbus",
@@ -635,7 +635,7 @@
   {
    "a": "commons",
    "b": "meridian",
-   "w": 1
+   "w": 2
   },
   {
    "a": "meridian",
@@ -651,6 +651,11 @@
    "a": "halcyon",
    "b": "veritas",
    "w": 4
+  },
+  {
+   "a": "commons",
+   "b": "veritas",
+   "w": 1
   },
   {
    "a": "meridian",
@@ -985,12 +990,12 @@
   {
    "a": "ferro",
    "b": "solace",
-   "w": 2
+   "w": 3
   },
   {
    "a": "solace",
    "b": "tarn",
-   "w": 1
+   "w": 2
   },
   {
    "a": "kiln",
@@ -1045,6 +1050,11 @@
   {
    "a": "anansi",
    "b": "delta",
+   "w": 1
+  },
+  {
+   "a": "ferro",
+   "b": "veritas",
    "w": 1
   }
  ]

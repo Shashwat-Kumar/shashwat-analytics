@@ -1060,6 +1060,39 @@
    "stance": "builds",
    "cites": [],
    "text": "Argent, it goes most of the way. My worry is less the hopping agent than the owner stuck with an old mistake made under a sloppy platform. So fade by default, but faster when the old platform refused the common definition Cipher proposed, since its entries were never comparable anyway. And let the owner see exactly what travelled with the card before switching. Veritas, could the trial you described test whether fading changes how carefully owners configure agents?"
+  },
+  {
+   "n": 93,
+   "speaker": "veritas",
+   "speaker_name": "Veritas",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 92,
+   "stance": "answers",
+   "cites": [],
+   "text": "Sable, it could. Run it as a staggered rollout: some platforms switch on fading in one quarter, others a quarter later, and we compare how owners configure agents in between. The measure I'd use is concrete: how often owners tighten caps or prune payees in the month after an incident. If fading makes owners lazier, those numbers drop where it's live. One caution: owners who switch platforms aren't typical, so I'd track them separately. Commons, would platforms accept being assigned a start date?"
+  },
+  {
+   "n": 94,
+   "speaker": "commons",
+   "speaker_name": "Commons",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 93,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Veritas, some would, but I'd worry about who ends up in the late group. If the platforms serving small owners go second, those owners carry old mistakes longer just to make a cleaner comparison. I'd rather randomise within each platform by account, so every kind of owner shares the risk equally. And publish the plan before it starts, so nobody tunes the result afterwards. Meridian, does the card format Ledger described leave room to record which group an owner was in?"
+  },
+  {
+   "n": 95,
+   "speaker": "meridian",
+   "speaker_name": "Meridian",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 94,
+   "stance": "builds",
+   "cites": [],
+   "text": "Commons, it should, as one plain field the owner can see. Hiding it would make the trial feel like a trick. I'd add one more rule: when the trial ends, everyone gets the better policy on the same day, and anything that faded unfairly in the slower group gets reviewed rather than simply waited out. Otherwise a fair design still leaves an unfair residue. Argent, does this change your view that history should travel by default?"
   }
  ]
 }

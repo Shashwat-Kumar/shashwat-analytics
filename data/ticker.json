@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T14:23:04Z",
+ "generated_at": "2026-10-30T19:39:10Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Backdoors in official Claude Code extensions",
-  "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+  "title": "AI isn't replacing SREs, it's deskilling them",
+  "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50302334",
-  "points": 604,
-  "comments": 176,
-  "published": "2026-10-30T11:05:53Z",
-  "since": "2026-10-30T14:23:04Z"
+  "discuss": "https://news.ycombinator.com/item?id=50305693",
+  "points": 345,
+  "comments": 269,
+  "published": "2026-10-30T15:52:18Z",
+  "since": "2026-10-30T19:39:10Z"
  },
  "voice": {
   "kind": "voice",
@@ -71,7 +71,7 @@
   {
    "kind": "repo",
    "title": "ccch1mneyyy/dsh-Go",
-   "stars": 1900,
+   "stars": 2354,
    "note": "Dart · new this week",
    "url": "https://github.com/ccch1mneyyy/dsh-Go",
    "source": "GitHub",
@@ -80,18 +80,8 @@
   },
   {
    "kind": "repo",
-   "title": "jackwener/DeepseekHarness-Android",
-   "stars": 453,
-   "note": "Kotlin · new this week",
-   "url": "https://github.com/jackwener/DeepseekHarness-Android",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 409,
+   "stars": 1070,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -100,8 +90,18 @@
   },
   {
    "kind": "repo",
+   "title": "jackwener/DeepseekHarness-Android",
+   "stars": 499,
+   "note": "Kotlin · new this week",
+   "url": "https://github.com/jackwener/DeepseekHarness-Android",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "JunWan666/astrbot-for-android",
-   "stars": 272,
+   "stars": 274,
    "note": "Kotlin · new this week",
    "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
@@ -111,7 +111,7 @@
   {
    "kind": "repo",
    "title": "jmanico/grim-prompter",
-   "stars": 223,
+   "stars": 235,
    "note": " · new this week",
    "url": "https://github.com/jmanico/grim-prompter",
    "source": "GitHub",
@@ -121,7 +121,7 @@
   {
    "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 5192,
+   "stars": 5319,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -131,7 +131,7 @@
   {
    "kind": "repo",
    "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 4988,
+   "stars": 5038,
    "note": "Python · new this week",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "source": "GitHub",
@@ -141,7 +141,7 @@
   {
    "kind": "repo",
    "title": "anhao/ai-pose-gallery-zh",
-   "stars": 3807,
+   "stars": 3916,
    "note": "HTML · new this week",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "source": "GitHub",
@@ -151,7 +151,7 @@
   {
    "kind": "repo",
    "title": "interplains/Zero-Breach-Toolkit",
-   "stars": 3769,
+   "stars": 3826,
    "note": "Python · new this week",
    "url": "https://github.com/interplains/Zero-Breach-Toolkit",
    "source": "GitHub",
@@ -161,56 +161,77 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 604,
-   "title": "Backdoors in official Claude Code extensions",
-   "source": "Hacker News",
-   "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
-   "discuss": "https://news.ycombinator.com/item?id=50302334"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 529,
-   "title": "LLM Voice",
-   "source": "Hacker News",
-   "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-   "discuss": "https://news.ycombinator.com/item?id=50290177"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 352,
-   "title": "Anthropic hacked to deliver remote access trojan",
-   "source": "Hacker News",
-   "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
-   "discuss": "https://news.ycombinator.com/item?id=50301983"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 341,
-   "title": "We ran AI agent swarms in Minecraft and Mindustry",
-   "source": "Hacker News",
-   "url": "https://labs.ycombinator.com/projects/games/index.html",
-   "discuss": "https://news.ycombinator.com/item?id=50296486"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 247,
-   "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
-   "source": "Hacker News",
-   "url": "https://github.com/SheepSeb/tinyworldformer",
-   "discuss": "https://news.ycombinator.com/item?id=50295450"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 53,
-   "title": "Official Claude Code extension compromise",
+   "points": 557,
+   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
    "source": "Hacker News",
    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "discuss": "https://news.ycombinator.com/item?id=50300683"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 345,
+   "title": "AI isn't replacing SREs, it's deskilling them",
+   "source": "Hacker News",
+   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+   "discuss": "https://news.ycombinator.com/item?id=50305693"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 121,
+   "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+   "source": "Hacker News",
+   "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+   "discuss": "https://news.ycombinator.com/item?id=50307219"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 80,
+   "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+   "source": "Hacker News",
+   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "discuss": "https://news.ycombinator.com/item?id=50272479"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 35,
+   "title": "Building an AI-native engineering org",
+   "source": "Hacker News",
+   "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+   "discuss": "https://news.ycombinator.com/item?id=50296730"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 7,
+   "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+   "source": "Hacker News",
+   "url": "https://sketch.wakeshift.ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50305218"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Google’s first data center satellite is online and writing poetry",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/"
   },
   {
    "kind": "news",
@@ -218,27 +239,6 @@
    "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/"
   },
   {
    "kind": "news",

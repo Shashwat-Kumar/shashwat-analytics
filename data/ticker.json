@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T19:39:10Z",
+ "generated_at": "2026-10-30T23:17:57Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,32 @@
   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50305693",
-  "points": 345,
-  "comments": 269,
+  "points": 466,
+  "comments": 341,
   "published": "2026-10-30T15:52:18Z",
   "since": "2026-10-30T19:39:10Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sam Altman",
-  "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEVvR3N2NnpqOWROaGJScVNkamw3Nk9OZWxIMTIxTGd0b25uRnBOamFuSUlrb1lfa1F3SE9WdXdIY2lVekNuVkRtTTBjTzBNcGw4aHU4QUJobzBmYVhhZ1VOX0w3UFJSUVFmR1VFOXd1WS1pQVJ1SDYtMURweUpXRk1MNjRUcmx4enlfRWxmQXNGZUVoa2VqdEZScVk?oc=5",
-  "source": "The Verge",
-  "published": "2026-10-30T13:01:14Z",
-  "since": "2026-10-30T14:23:04Z"
+  "person": "Elon Musk",
+  "title": "Elon Musk Thinks Many Neoclouds Will Fail. Here's What AI Investors Should Do.",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYWVkdlZHNnpWdzF1dkp6OE55bnZSbE5ZUW1ITWpRVjB3SWNoVUNPOFBhek00bWpHaFVHcXJsZ2E4Vk5KQm9BcDdOU3pzcXFhS0tCTlhfb2dHSV9SWDlVaTlia2tWZ2RQc3dDaGEyd1NEWVBDczVJM3pZcTNtejE2VEptcnJRRXBQR3ZPTnNfekVXbzIyNTE2aGJtYw?oc=5",
+  "source": "Yahoo Finance",
+  "published": "2026-10-30T13:52:00Z",
+  "since": "2026-10-30T23:17:57Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk Thinks Many Neoclouds Will Fail. Here's What AI Investors Should Do.",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYWVkdlZHNnpWdzF1dkp6OE55bnZSbE5ZUW1ITWpRVjB3SWNoVUNPOFBhek00bWpHaFVHcXJsZ2E4Vk5KQm9BcDdOU3pzcXFhS0tCTlhfb2dHSV9SWDlVaTlia2tWZ2RQc3dDaGEyd1NEWVBDczVJM3pZcTNtejE2VEptcnJRRXBQR3ZPTnNfekVXbzIyNTE2aGJtYw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-30T13:52:00Z",
+   "since": "2026-10-30T23:17:57Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,43 +45,33 @@
    "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEVvR3N2NnpqOWROaGJScVNkamw3Nk9OZWxIMTIxTGd0b25uRnBOamFuSUlrb1lfa1F3SE9WdXdIY2lVekNuVkRtTTBjTzBNcGw4aHU4QUJobzBmYVhhZ1VOX0w3UFJSUVFmR1VFOXd1WS1pQVJ1SDYtMURweUpXRk1MNjRUcmx4enlfRWxmQXNGZUVoa2VqdEZScVk?oc=5",
    "source": "The Verge",
-   "published": "2026-10-30T13:01:14Z",
-   "since": "2026-10-30T14:23:04Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Should you stop saving for retirement? Elon Musk says AI and robots could make money less important in future! But how?",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNHp2emxpZ20tbFFhR29Oem54eEFwWVRpS1VCSEY0VHptbEVrb09iTmxkTUVPQ1dCUlVHR2V2OEl4NjVrVXFGMkhja0NqVFVydkFFMWFTVkcwTzJoUTlwRm1SSVkwNGFheUFFN3J0ZmNxRGt4cjNaaHhGMVdBSkVQeTFfdGxpRTY4ZzdaVUNJWkhTVmVjR0VEcUU5TzVvSWxpaXpEZTVTdUIwZGVEQVUyWkhjc0JQb0RnckNrVjNIcVlVVktlLURKX3V6Q1BaOWZFZndNLXJOaHRDbzdqQ0l6RkpuMzQwUVZiUkpCZm1KWUZHS3piWHpRejhpRdIBgAJBVV95cUxPeEhVZUV6bGZmMXJIN09LMEpicDgtRG1teDZKNE5XMXZQcGVSNWEycWloZXVOSjdOUjliRHNqVnltS2hHaUI0X296cjRMUUNYMVFGdkVwY0U0M0s5dHpITXBLbC1wZjRDMFZkbkJCcDJxTXpPT1p1czd2RTVvZzhtNzNWM0JhanVwOXgxRkhTZkxMTW55UGw4UEhtcFByckhLUmg0dV9yMllHSWlwLUloTWF3MlZPRzVBVFMyek5wejZIZUN2VDJmYlBEZ2l1c3A1dW9ETHlod3BKY21DLWFxek5rTklCMnh2cHlfS1JPdHlXYVpQUVd6Uk82djBvaHV6?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-30T10:46:06Z"
+   "published": "2026-10-30T13:01:14Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEVvR3N2NnpqOWROaGJScVNkamw3Nk9OZWxIMTIxTGd0b25uRnBOamFuSUlrb1lfa1F3SE9WdXdIY2lVekNuVkRtTTBjTzBNcGw4aHU4QUJobzBmYVhhZ1VOX0w3UFJSUVFmR1VFOXd1WS1pQVJ1SDYtMURweUpXRk1MNjRUcmx4enlfRWxmQXNGZUVoa2VqdEZScVk?oc=5",
-   "source": "The Verge",
-   "published": "2026-10-30T13:01:14Z",
-   "since": "2026-10-30T14:23:04Z"
+   "person": "Elon Musk",
+   "title": "Elon Musk Thinks Many Neoclouds Will Fail. Here's What AI Investors Should Do.",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYWVkdlZHNnpWdzF1dkp6OE55bnZSbE5ZUW1ITWpRVjB3SWNoVUNPOFBhek00bWpHaFVHcXJsZ2E4Vk5KQm9BcDdOU3pzcXFhS0tCTlhfb2dHSV9SWDlVaTlia2tWZ2RQc3dDaGEyd1NEWVBDczVJM3pZcTNtejE2VEptcnJRRXBQR3ZPTnNfekVXbzIyNTE2aGJtYw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-30T13:52:00Z",
+   "since": "2026-10-30T23:17:57Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Should you stop saving for retirement? Elon Musk says AI and robots could make money less important in future! But how?",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNHp2emxpZ20tbFFhR29Oem54eEFwWVRpS1VCSEY0VHptbEVrb09iTmxkTUVPQ1dCUlVHR2V2OEl4NjVrVXFGMkhja0NqVFVydkFFMWFTVkcwTzJoUTlwRm1SSVkwNGFheUFFN3J0ZmNxRGt4cjNaaHhGMVdBSkVQeTFfdGxpRTY4ZzdaVUNJWkhTVmVjR0VEcUU5TzVvSWxpaXpEZTVTdUIwZGVEQVUyWkhjc0JQb0RnckNrVjNIcVlVVktlLURKX3V6Q1BaOWZFZndNLXJOaHRDbzdqQ0l6RkpuMzQwUVZiUkpCZm1KWUZHS3piWHpRejhpRdIBgAJBVV95cUxPeEhVZUV6bGZmMXJIN09LMEpicDgtRG1teDZKNE5XMXZQcGVSNWEycWloZXVOSjdOUjliRHNqVnltS2hHaUI0X296cjRMUUNYMVFGdkVwY0U0M0s5dHpITXBLbC1wZjRDMFZkbkJCcDJxTXpPT1p1czd2RTVvZzhtNzNWM0JhanVwOXgxRkhTZkxMTW55UGw4UEhtcFByckhLUmg0dV9yMllHSWlwLUloTWF3MlZPRzVBVFMyek5wejZIZUN2VDJmYlBEZ2l1c3A1dW9ETHlod3BKY21DLWFxek5rTklCMnh2cHlfS1JPdHlXYVpQUVd6Uk82djBvaHV6?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-30T10:46:06Z"
+   "person": "Sam Altman",
+   "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEVvR3N2NnpqOWROaGJScVNkamw3Nk9OZWxIMTIxTGd0b25uRnBOamFuSUlrb1lfa1F3SE9WdXdIY2lVekNuVkRtTTBjTzBNcGw4aHU4QUJobzBmYVhhZ1VOX0w3UFJSUVFmR1VFOXd1WS1pQVJ1SDYtMURweUpXRk1MNjRUcmx4enlfRWxmQXNGZUVoa2VqdEZScVk?oc=5",
+   "source": "The Verge",
+   "published": "2026-10-30T13:01:14Z"
   },
   {
    "kind": "repo",
    "title": "ccch1mneyyy/dsh-Go",
-   "stars": 2354,
+   "stars": 2422,
    "note": "Dart · new this week",
    "url": "https://github.com/ccch1mneyyy/dsh-Go",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 1070,
+   "stars": 1182,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -90,10 +90,10 @@
   },
   {
    "kind": "repo",
-   "title": "jackwener/DeepseekHarness-Android",
-   "stars": 499,
+   "title": "jackwener/DSH-Android",
+   "stars": 506,
    "note": "Kotlin · new this week",
-   "url": "https://github.com/jackwener/DeepseekHarness-Android",
+   "url": "https://github.com/jackwener/DSH-Android",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -101,7 +101,7 @@
   {
    "kind": "repo",
    "title": "JunWan666/astrbot-for-android",
-   "stars": 274,
+   "stars": 275,
    "note": "Kotlin · new this week",
    "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
@@ -111,7 +111,7 @@
   {
    "kind": "repo",
    "title": "jmanico/grim-prompter",
-   "stars": 235,
+   "stars": 246,
    "note": " · new this week",
    "url": "https://github.com/jmanico/grim-prompter",
    "source": "GitHub",
@@ -121,7 +121,7 @@
   {
    "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 5319,
+   "stars": 5367,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -131,7 +131,7 @@
   {
    "kind": "repo",
    "title": "rddmwmddr/android-ad-cleaner",
-   "stars": 5038,
+   "stars": 5048,
    "note": "Python · new this week",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "source": "GitHub",
@@ -141,7 +141,7 @@
   {
    "kind": "repo",
    "title": "anhao/ai-pose-gallery-zh",
-   "stars": 3916,
+   "stars": 3931,
    "note": "HTML · new this week",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "source": "GitHub",
@@ -151,7 +151,7 @@
   {
    "kind": "repo",
    "title": "interplains/Zero-Breach-Toolkit",
-   "stars": 3826,
+   "stars": 3854,
    "note": "Python · new this week",
    "url": "https://github.com/interplains/Zero-Breach-Toolkit",
    "source": "GitHub",
@@ -161,7 +161,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 557,
+   "points": 708,
    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
    "source": "Hacker News",
    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
@@ -170,7 +170,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 345,
+   "points": 466,
    "title": "AI isn't replacing SREs, it's deskilling them",
    "source": "Hacker News",
    "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
@@ -179,16 +179,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 121,
-   "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
-   "source": "Hacker News",
-   "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
-   "discuss": "https://news.ycombinator.com/item?id=50307219"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 80,
+   "points": 147,
    "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
    "source": "Hacker News",
    "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
@@ -197,7 +188,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 35,
+   "points": 91,
    "title": "Building an AI-native engineering org",
    "source": "Hacker News",
    "url": "https://twitter.com/sgondala2/status/2115832070274723875",
@@ -206,39 +197,48 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 7,
+   "points": 74,
+   "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+   "source": "Hacker News",
+   "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+   "discuss": "https://news.ycombinator.com/item?id=50304122"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 18,
    "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
    "source": "Hacker News",
-   "url": "https://sketch.wakeshift.ai/",
+   "url": "https://sketch.wakeshift.ai/games/q5ucru",
    "discuss": "https://news.ycombinator.com/item?id=50305218"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+   "title": "Ollie, a privacy-focused AI assistant, is shutting down",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/"
+   "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Google’s first data center satellite is online and writing poetry",
+   "title": "Intel’s stock crashes, knocking $12B from government’s stake",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+   "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+   "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/"
+   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+   "title": "Last-minute Halloween costumes for tech nerds",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/"
+   "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/"
   },
   {
    "kind": "news",

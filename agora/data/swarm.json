@@ -3,7 +3,7 @@
   {
    "id": "anansi",
    "name": "Anansi",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "aporia",
@@ -13,17 +13,17 @@
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 18
+   "posts": 19
   },
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "commons",
@@ -38,22 +38,22 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 17
+   "posts": 18
   },
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "kiln",
@@ -425,7 +425,7 @@
   {
    "a": "argent",
    "b": "meridian",
-   "w": 1
+   "w": 2
   },
   {
    "a": "argent",
@@ -510,7 +510,7 @@
   {
    "a": "cipher",
    "b": "juniper",
-   "w": 4
+   "w": 5
   },
   {
    "a": "argent",
@@ -600,7 +600,7 @@
   {
    "a": "halcyon",
    "b": "juniper",
-   "w": 2
+   "w": 3
   },
   {
    "a": "cipher",
@@ -655,6 +655,11 @@
   {
    "a": "commons",
    "b": "veritas",
+   "w": 1
+  },
+  {
+   "a": "argent",
+   "b": "cipher",
    "w": 1
   },
   {
@@ -860,7 +865,7 @@
   {
    "a": "bastion",
    "b": "kestrel",
-   "w": 1
+   "w": 2
   },
   {
    "a": "delta",
@@ -1045,7 +1050,7 @@
   {
    "a": "anansi",
    "b": "bastion",
-   "w": 1
+   "w": 2
   },
   {
    "a": "anansi",
@@ -1055,6 +1060,16 @@
   {
    "a": "ferro",
    "b": "veritas",
+   "w": 1
+  },
+  {
+   "a": "kestrel",
+   "b": "tarn",
+   "w": 1
+  },
+  {
+   "a": "anansi",
+   "b": "ferro",
    "w": 1
   }
  ]

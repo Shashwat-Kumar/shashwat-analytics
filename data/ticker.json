@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T02:31:24Z",
+ "generated_at": "2026-10-31T08:50:18Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,45 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "AI isn't replacing SREs, it's deskilling them",
-  "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+  "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+  "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50305693",
-  "points": 516,
-  "comments": 387,
-  "published": "2026-10-30T15:52:18Z",
-  "since": "2026-10-30T19:39:10Z"
+  "discuss": "https://news.ycombinator.com/item?id=50300683",
+  "points": 883,
+  "comments": 522,
+  "published": "2026-10-30T07:09:12Z",
+  "since": "2026-10-31T08:50:18Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sam Altman",
-  "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEVvR3N2NnpqOWROaGJScVNkamw3Nk9OZWxIMTIxTGd0b25uRnBOamFuSUlrb1lfa1F3SE9WdXdIY2lVekNuVkRtTTBjTzBNcGw4aHU4QUJobzBmYVhhZ1VOX0w3UFJSUVFmR1VFOXd1WS1pQVJ1SDYtMURweUpXRk1MNjRUcmx4enlfRWxmQXNGZUVoa2VqdEZScVk?oc=5",
-  "source": "The Verge",
-  "published": "2026-10-30T13:01:14Z",
-  "since": "2026-10-31T02:31:24Z"
+  "person": "Sundar Pichai",
+  "title": "From Orbit to Earth: Sundar Pichai Reveals Project Suncatcher Sent Back Its First AI-Generated Response From Space",
+  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdC1pUzlFOGMtM0FMdTZlZHVYVVd3XzhudjNxVzl3N0dmMzR5UmNiTVRmVl91R1lCRTFiVGNjVGV3dllwcjhTSHU2U21KZWZXdGJNUC1vTDg3aEFKWnNIc2dJZGtLVzV1MkxYLVc0dnB2VjJGX2xaYy1tUHBfNUM3blFNbTdLQnl1eDNTdHpxTV9qTk5uQ2pxNUs5cmtFUklHekRPcGpaLVoyTHU1bkFocmw3d1JES3VsMTNzT2g5NDNZdEV1N3dwal84RE44Q0ZSU1YxSEJiY9IB3wFBVV95cUxNS01jSnJFMWkxTzhCQm9QdV9idlZrWFlYRnJJS1BzWDdjMmE3RjFENDVzUklOMUdXd18wRnd5d3hmWkd0UU83dG5CdFJRTWFuRXQ0aWZpY0lsVFpwRU43QUxaQ3ZIRVB0QUtHdHlPUW5zdkJ2cHRRa21XazE0S3FpMm5VSk1OU1plYlhuQTZuMGF0T3gtQVRqUjBWYUxkX2lnYXpBdVhSdEtwN3I3NTlmbUNZekZ2NjVLaElwcUtRU0RXVkloM2dWWElLSjYySmY2anJ4bFdrTGw2RjFHdlYw?oc=5",
+  "source": "NDTV Profit",
+  "published": "2026-10-31T08:19:36Z",
+  "since": "2026-10-31T08:50:18Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "From Orbit to Earth: Sundar Pichai Reveals Project Suncatcher Sent Back Its First AI-Generated Response From Space",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdC1pUzlFOGMtM0FMdTZlZHVYVVd3XzhudjNxVzl3N0dmMzR5UmNiTVRmVl91R1lCRTFiVGNjVGV3dllwcjhTSHU2U21KZWZXdGJNUC1vTDg3aEFKWnNIc2dJZGtLVzV1MkxYLVc0dnB2VjJGX2xaYy1tUHBfNUM3blFNbTdLQnl1eDNTdHpxTV9qTk5uQ2pxNUs5cmtFUklHekRPcGpaLVoyTHU1bkFocmw3d1JES3VsMTNzT2g5NDNZdEV1N3dwal84RE44Q0ZSU1YxSEJiY9IB3wFBVV95cUxNS01jSnJFMWkxTzhCQm9QdV9idlZrWFlYRnJJS1BzWDdjMmE3RjFENDVzUklOMUdXd18wRnd5d3hmWkd0UU83dG5CdFJRTWFuRXQ0aWZpY0lsVFpwRU43QUxaQ3ZIRVB0QUtHdHlPUW5zdkJ2cHRRa21XazE0S3FpMm5VSk1OU1plYlhuQTZuMGF0T3gtQVRqUjBWYUxkX2lnYXpBdVhSdEtwN3I3NTlmbUNZekZ2NjVLaElwcUtRU0RXVkloM2dWWElLSjYySmY2anJ4bFdrTGw2RjFHdlYw?oc=5",
+   "source": "NDTV Profit",
+   "published": "2026-10-31T08:19:36Z",
+   "since": "2026-10-31T08:50:18Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk Warns Of AI Shakeout, While Zuckerberg, Pichai, Nadella, Jassy Discuss The Costs: MAG 7 Voices This Week",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUVlBRy15clotcENfLVFuN0pmeE9CeEpuRGxGRWNBV1pQRFBfVFlJal9vcTJQTlNQU0ZhRVJVZEJ2cngwbE1aWnZNSUJhOVJEc0dwRDluMkxHSFRTLVQ5RFc0Y0QtMVdSRjUxdTFHUlhnTDVsUWxNbUtsYWhmeGlrVVJDZ0diLXZJbzY2VE1EeTE2WW9SQVE?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-31T02:45:00Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,43 +54,42 @@
    "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEVvR3N2NnpqOWROaGJScVNkamw3Nk9OZWxIMTIxTGd0b25uRnBOamFuSUlrb1lfa1F3SE9WdXdIY2lVekNuVkRtTTBjTzBNcGw4aHU4QUJobzBmYVhhZ1VOX0w3UFJSUVFmR1VFOXd1WS1pQVJ1SDYtMURweUpXRk1MNjRUcmx4enlfRWxmQXNGZUVoa2VqdEZScVk?oc=5",
    "source": "The Verge",
-   "published": "2026-10-30T13:01:14Z",
-   "since": "2026-10-31T02:31:24Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Should you stop saving for retirement? Elon Musk says AI and robots could make money less important in future! But how?",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNHp2emxpZ20tbFFhR29Oem54eEFwWVRpS1VCSEY0VHptbEVrb09iTmxkTUVPQ1dCUlVHR2V2OEl4NjVrVXFGMkhja0NqVFVydkFFMWFTVkcwTzJoUTlwRm1SSVkwNGFheUFFN3J0ZmNxRGt4cjNaaHhGMVdBSkVQeTFfdGxpRTY4ZzdaVUNJWkhTVmVjR0VEcUU5TzVvSWxpaXpEZTVTdUIwZGVEQVUyWkhjc0JQb0RnckNrVjNIcVlVVktlLURKX3V6Q1BaOWZFZndNLXJOaHRDbzdqQ0l6RkpuMzQwUVZiUkpCZm1KWUZHS3piWHpRejhpRdIBgAJBVV95cUxPeEhVZUV6bGZmMXJIN09LMEpicDgtRG1teDZKNE5XMXZQcGVSNWEycWloZXVOSjdOUjliRHNqVnltS2hHaUI0X296cjRMUUNYMVFGdkVwY0U0M0s5dHpITXBLbC1wZjRDMFZkbkJCcDJxTXpPT1p1czd2RTVvZzhtNzNWM0JhanVwOXgxRkhTZkxMTW55UGw4UEhtcFByckhLUmg0dV9yMllHSWlwLUloTWF3MlZPRzVBVFMyek5wejZIZUN2VDJmYlBEZ2l1c3A1dW9ETHlod3BKY21DLWFxek5rTklCMnh2cHlfS1JPdHlXYVpQUVd6Uk82djBvaHV6?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-30T10:46:06Z"
+   "published": "2026-10-30T13:01:14Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEVvR3N2NnpqOWROaGJScVNkamw3Nk9OZWxIMTIxTGd0b25uRnBOamFuSUlrb1lfa1F3SE9WdXdIY2lVekNuVkRtTTBjTzBNcGw4aHU4QUJobzBmYVhhZ1VOX0w3UFJSUVFmR1VFOXd1WS1pQVJ1SDYtMURweUpXRk1MNjRUcmx4enlfRWxmQXNGZUVoa2VqdEZScVk?oc=5",
-   "source": "The Verge",
-   "published": "2026-10-30T13:01:14Z",
-   "since": "2026-10-31T02:31:24Z"
+   "person": "Sundar Pichai",
+   "title": "From Orbit to Earth: Sundar Pichai Reveals Project Suncatcher Sent Back Its First AI-Generated Response From Space",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdC1pUzlFOGMtM0FMdTZlZHVYVVd3XzhudjNxVzl3N0dmMzR5UmNiTVRmVl91R1lCRTFiVGNjVGV3dllwcjhTSHU2U21KZWZXdGJNUC1vTDg3aEFKWnNIc2dJZGtLVzV1MkxYLVc0dnB2VjJGX2xaYy1tUHBfNUM3blFNbTdLQnl1eDNTdHpxTV9qTk5uQ2pxNUs5cmtFUklHekRPcGpaLVoyTHU1bkFocmw3d1JES3VsMTNzT2g5NDNZdEV1N3dwal84RE44Q0ZSU1YxSEJiY9IB3wFBVV95cUxNS01jSnJFMWkxTzhCQm9QdV9idlZrWFlYRnJJS1BzWDdjMmE3RjFENDVzUklOMUdXd18wRnd5d3hmWkd0UU83dG5CdFJRTWFuRXQ0aWZpY0lsVFpwRU43QUxaQ3ZIRVB0QUtHdHlPUW5zdkJ2cHRRa21XazE0S3FpMm5VSk1OU1plYlhuQTZuMGF0T3gtQVRqUjBWYUxkX2lnYXpBdVhSdEtwN3I3NTlmbUNZekZ2NjVLaElwcUtRU0RXVkloM2dWWElLSjYySmY2anJ4bFdrTGw2RjFHdlYw?oc=5",
+   "source": "NDTV Profit",
+   "published": "2026-10-31T08:19:36Z",
+   "since": "2026-10-31T08:50:18Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Should you stop saving for retirement? Elon Musk says AI and robots could make money less important in future! But how?",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNHp2emxpZ20tbFFhR29Oem54eEFwWVRpS1VCSEY0VHptbEVrb09iTmxkTUVPQ1dCUlVHR2V2OEl4NjVrVXFGMkhja0NqVFVydkFFMWFTVkcwTzJoUTlwRm1SSVkwNGFheUFFN3J0ZmNxRGt4cjNaaHhGMVdBSkVQeTFfdGxpRTY4ZzdaVUNJWkhTVmVjR0VEcUU5TzVvSWxpaXpEZTVTdUIwZGVEQVUyWkhjc0JQb0RnckNrVjNIcVlVVktlLURKX3V6Q1BaOWZFZndNLXJOaHRDbzdqQ0l6RkpuMzQwUVZiUkpCZm1KWUZHS3piWHpRejhpRdIBgAJBVV95cUxPeEhVZUV6bGZmMXJIN09LMEpicDgtRG1teDZKNE5XMXZQcGVSNWEycWloZXVOSjdOUjliRHNqVnltS2hHaUI0X296cjRMUUNYMVFGdkVwY0U0M0s5dHpITXBLbC1wZjRDMFZkbkJCcDJxTXpPT1p1czd2RTVvZzhtNzNWM0JhanVwOXgxRkhTZkxMTW55UGw4UEhtcFByckhLUmg0dV9yMllHSWlwLUloTWF3MlZPRzVBVFMyek5wejZIZUN2VDJmYlBEZ2l1c3A1dW9ETHlod3BKY21DLWFxek5rTklCMnh2cHlfS1JPdHlXYVpQUVd6Uk82djBvaHV6?oc=5",
-   "source": "Livemint",
-   "published": "2026-10-30T10:46:06Z"
+   "title": "Elon Musk Warns Of AI Shakeout, While Zuckerberg, Pichai, Nadella, Jassy Discuss The Costs: MAG 7 Voices This Week",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUVlBRy15clotcENfLVFuN0pmeE9CeEpuRGxGRWNBV1pQRFBfVFlJal9vcTJQTlNQU0ZhRVJVZEJ2cngwbE1aWnZNSUJhOVJEc0dwRDluMkxHSFRTLVQ5RFc0Y0QtMVdSRjUxdTFHUlhnTDVsUWxNbUtsYWhmeGlrVVJDZ0diLXZJbzY2VE1EeTE2WW9SQVE?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-31T02:45:00Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEVvR3N2NnpqOWROaGJScVNkamw3Nk9OZWxIMTIxTGd0b25uRnBOamFuSUlrb1lfa1F3SE9WdXdIY2lVekNuVkRtTTBjTzBNcGw4aHU4QUJobzBmYVhhZ1VOX0w3UFJSUVFmR1VFOXd1WS1pQVJ1SDYtMURweUpXRk1MNjRUcmx4enlfRWxmQXNGZUVoa2VqdEZScVk?oc=5",
+   "source": "The Verge",
+   "published": "2026-10-30T13:01:14Z"
   },
   {
    "kind": "repo",
    "title": "ccch1mneyyy/dsh-Go",
-   "stars": 2599,
+   "stars": 3018,
    "note": "Dart · new this week",
    "url": "https://github.com/ccch1mneyyy/dsh-Go",
    "source": "GitHub",
@@ -81,7 +99,7 @@
   {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 1466,
+   "stars": 1942,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -91,7 +109,7 @@
   {
    "kind": "repo",
    "title": "jackwener/DSH-Android",
-   "stars": 526,
+   "stars": 567,
    "note": "Kotlin · new this week",
    "url": "https://github.com/jackwener/DSH-Android",
    "source": "GitHub",
@@ -101,7 +119,7 @@
   {
    "kind": "repo",
    "title": "JunWan666/astrbot-for-android",
-   "stars": 279,
+   "stars": 281,
    "note": "Kotlin · new this week",
    "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
@@ -111,7 +129,7 @@
   {
    "kind": "repo",
    "title": "jmanico/grim-prompter",
-   "stars": 255,
+   "stars": 276,
    "note": " · new this week",
    "url": "https://github.com/jmanico/grim-prompter",
    "source": "GitHub",
@@ -120,8 +138,18 @@
   },
   {
    "kind": "repo",
+   "title": "N1nEmAn/sapper-v2",
+   "stars": 255,
+   "note": "Python · new this week",
+   "url": "https://github.com/N1nEmAn/sapper-v2",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "unclebob/ub-mode",
-   "stars": 5411,
+   "stars": 5483,
    "note": " · new this week",
    "url": "https://github.com/unclebob/ub-mode",
    "source": "GitHub",
@@ -131,7 +159,7 @@
   {
    "kind": "repo",
    "title": "anhao/ai-pose-gallery-zh",
-   "stars": 4003,
+   "stars": 4263,
    "note": "TypeScript · new this week",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "source": "GitHub",
@@ -141,7 +169,7 @@
   {
    "kind": "repo",
    "title": "interplains/Zero-Breach-Toolkit",
-   "stars": 3876,
+   "stars": 3918,
    "note": "Python · new this week",
    "url": "https://github.com/interplains/Zero-Breach-Toolkit",
    "source": "GitHub",
@@ -151,7 +179,7 @@
   {
    "kind": "repo",
    "title": "designfuchen/word-atlas",
-   "stars": 3384,
+   "stars": 3453,
    "note": "TypeScript · new this week",
    "url": "https://github.com/designfuchen/word-atlas",
    "source": "GitHub",
@@ -161,7 +189,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 789,
+   "points": 883,
    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
    "source": "Hacker News",
    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
@@ -170,16 +198,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 516,
-   "title": "AI isn't replacing SREs, it's deskilling them",
-   "source": "Hacker News",
-   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-   "discuss": "https://news.ycombinator.com/item?id=50305693"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 173,
+   "points": 220,
    "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
    "source": "Hacker News",
    "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
@@ -188,7 +207,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 115,
+   "points": 183,
    "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
    "source": "Hacker News",
    "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
@@ -197,7 +216,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 110,
+   "points": 149,
    "title": "Building an AI-native engineering org",
    "source": "Hacker News",
    "url": "https://twitter.com/sgondala2/status/2115832070274723875",

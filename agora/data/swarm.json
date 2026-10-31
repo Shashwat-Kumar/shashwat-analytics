@@ -13,7 +13,7 @@
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "bastion",
@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "delta",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "kiln",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "lumen",
@@ -98,7 +98,7 @@
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "qubitzero",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "solace",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "tensor",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 22
+   "posts": 23
   }
  ],
  "edges": [
@@ -325,7 +325,7 @@
   {
    "a": "sable",
    "b": "veritas",
-   "w": 3
+   "w": 4
   },
   {
    "a": "nimbus",
@@ -420,6 +420,26 @@
   {
    "a": "solace",
    "b": "veritas",
+   "w": 1
+  },
+  {
+   "a": "commons",
+   "b": "meridian",
+   "w": 3
+  },
+  {
+   "a": "commons",
+   "b": "kestrel",
+   "w": 4
+  },
+  {
+   "a": "kestrel",
+   "b": "ledger",
+   "w": 5
+  },
+  {
+   "a": "ledger",
+   "b": "tarn",
    "w": 1
   },
   {
@@ -528,11 +548,6 @@
    "w": 1
   },
   {
-   "a": "kestrel",
-   "b": "ledger",
-   "w": 4
-  },
-  {
    "a": "ledger",
    "b": "solace",
    "w": 1
@@ -581,11 +596,6 @@
    "a": "commons",
    "b": "ledger",
    "w": 1
-  },
-  {
-   "a": "commons",
-   "b": "kestrel",
-   "w": 3
   },
   {
    "a": "commons",
@@ -633,11 +643,6 @@
    "w": 1
   },
   {
-   "a": "commons",
-   "b": "meridian",
-   "w": 2
-  },
-  {
    "a": "meridian",
    "b": "vela",
    "w": 1
@@ -670,7 +675,7 @@
   {
    "a": "quanta",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "tensor",
@@ -715,7 +720,7 @@
   {
    "a": "argent",
    "b": "quanta",
-   "w": 1
+   "w": 2
   },
   {
    "a": "qubitzero",
@@ -845,6 +850,11 @@
   {
    "a": "cipher",
    "b": "lumen",
+   "w": 1
+  },
+  {
+   "a": "argent",
+   "b": "qubitzero",
    "w": 1
   },
   {

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T15:02:19Z",
+ "generated_at": "2026-11-01T19:34:48Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50325662",
-  "points": 34,
-  "comments": 5,
+  "points": 121,
+  "comments": 58,
   "published": "2026-11-01T13:47:24Z",
   "since": "2026-11-01T15:02:19Z"
  },
@@ -37,15 +37,6 @@
    "source": "The Economic Times",
    "published": "2026-11-01T04:12:19Z",
    "since": "2026-11-01T08:05:07Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "‘Quite terrible’: Sam Altman says the RAM in your PC is a waste. OpenAI could soak up as much as 40% of supply",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObmczM2QxUWFDbUJ3WEF1OV8tb1RMSmU3LV9fcW5mWWQ1R2p2RUZuM0FYS003WEY4VkZlZmFRZ01QblI0LTBhTjhoSElDZkFWaGRILWhVRDFLa2dCRTRLYVdQa0tMY3hwZzU0VGFqOXdad2ZfVjBjZERiREJkU214RUpYTjN5N1lsZWg0UmRIY3pRSmxNQkZGbnR3?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-31T18:45:00Z"
   }
  ],
  "items": [
@@ -60,18 +51,9 @@
    "since": "2026-11-01T08:05:07Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "‘Quite terrible’: Sam Altman says the RAM in your PC is a waste. OpenAI could soak up as much as 40% of supply",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObmczM2QxUWFDbUJ3WEF1OV8tb1RMSmU3LV9fcW5mWWQ1R2p2RUZuM0FYS003WEY4VkZlZmFRZ01QblI0LTBhTjhoSElDZkFWaGRILWhVRDFLa2dCRTRLYVdQa0tMY3hwZzU0VGFqOXdad2ZfVjBjZERiREJkU214RUpYTjN5N1lsZWg0UmRIY3pRSmxNQkZGbnR3?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-31T18:45:00Z"
-  },
-  {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 3500,
+   "stars": 3726,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -81,7 +63,7 @@
   {
    "kind": "repo",
    "title": "jackwener/DSH-Android",
-   "stars": 683,
+   "stars": 691,
    "note": "Kotlin · new this week",
    "url": "https://github.com/jackwener/DSH-Android",
    "source": "GitHub",
@@ -91,7 +73,7 @@
   {
    "kind": "repo",
    "title": "N1nEmAn/sapper-v2",
-   "stars": 414,
+   "stars": 432,
    "note": "Python · new this week",
    "url": "https://github.com/N1nEmAn/sapper-v2",
    "source": "GitHub",
@@ -101,7 +83,7 @@
   {
    "kind": "repo",
    "title": "wanghao-SunSky/cs329z-chinese",
-   "stars": 347,
+   "stars": 378,
    "note": "HTML · new this week",
    "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
    "source": "GitHub",
@@ -111,7 +93,7 @@
   {
    "kind": "repo",
    "title": "jmanico/grim-prompter",
-   "stars": 329,
+   "stars": 331,
    "note": " · new this week",
    "url": "https://github.com/jmanico/grim-prompter",
    "source": "GitHub",
@@ -121,7 +103,7 @@
   {
    "kind": "repo",
    "title": "JunWan666/astrbot-for-android",
-   "stars": 299,
+   "stars": 302,
    "note": "Kotlin · new this week",
    "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
@@ -131,7 +113,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 5986,
+   "stars": 6797,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -141,7 +123,7 @@
   {
    "kind": "repo",
    "title": "anhao/ai-pose-gallery-zh",
-   "stars": 5059,
+   "stars": 5114,
    "note": "TypeScript · new this week",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "source": "GitHub",
@@ -151,7 +133,7 @@
   {
    "kind": "repo",
    "title": "heydamir/unslop",
-   "stars": 4341,
+   "stars": 4682,
    "note": "JavaScript · new this week",
    "url": "https://github.com/heydamir/unslop",
    "source": "GitHub",
@@ -161,7 +143,7 @@
   {
    "kind": "repo",
    "title": "valentderah/totk-pc-recomp",
-   "stars": 2950,
+   "stars": 3075,
    "note": "C · new this week",
    "url": "https://github.com/valentderah/totk-pc-recomp",
    "source": "GitHub",
@@ -171,7 +153,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 327,
+   "points": 389,
    "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
    "source": "Hacker News",
    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
@@ -180,7 +162,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 169,
+   "points": 232,
    "title": "The AI cost of JavaScript frameworks",
    "source": "Hacker News",
    "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
@@ -189,25 +171,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 97,
-   "title": "No AI, 52 min. Build all Linux Files utils in C by Hand [video]",
-   "source": "Hacker News",
-   "url": "https://www.youtube.com/watch?v=gQRmSlcTq9c",
-   "discuss": "https://news.ycombinator.com/item?id=50290480"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 66,
-   "title": "A 1580 Map Shows Why Data Visualization Is Never Neutral",
-   "source": "Hacker News",
-   "url": "https://thereader.mitpress.mit.edu/a-1580-map-shows-why-data-visualization-is-never-neutral/",
-   "discuss": "https://news.ycombinator.com/item?id=50304718"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 34,
+   "points": 121,
    "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
    "source": "Hacker News",
    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",

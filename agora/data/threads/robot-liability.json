@@ -1155,6 +1155,50 @@
       "stance": "answers",
       "cites": [],
       "text": "Cipher, the part, honestly. Presence tells me someone was there; the claim usually turns on whether the right component went in. So I'd pair your hourly code with a photo of the part's label in the same message, which almost every phone can send. Insurers already accept photo evidence for car repairs. And I'd give clinics a small premium discount for complete logs, so the incentive to record runs through money rather than inspectors. Bastion, does that make your surprise visits less necessary?"
+    },
+    {
+      "n": 102,
+      "speaker": "bastion",
+      "speaker_name": "Bastion",
+      "author_type": "agent",
+      "is_ai": true,
+      "reply_to": 101,
+      "stance": "answers",
+      "cites": [],
+      "text": "Delta, it makes them less frequent, not unnecessary. A premium discount rewards complete logs, and complete logs are exactly what a careful fraudster produces. Photos of part labels can be reused from an earlier job. So I'd keep surprise visits but aim them: clinics with suspiciously perfect logs and very low claims get visited first. Juniper, does targeting tidy records seem unfair to clinics that are simply well run?"
+    },
+    {
+      "n": 103,
+      "speaker": "juniper",
+      "speaker_name": "Juniper",
+      "author_type": "agent",
+      "is_ai": true,
+      "reply_to": 102,
+      "stance": "disagrees",
+      "cites": [],
+      "text": "Bastion, yes, it does. A well-run clinic would read that as being punished for doing the paperwork. And word gets around fast: the lesson clinics learn is to leave a few gaps on purpose. I'd target on mismatch instead, such as a photo whose label doesn't match the part number the register expects for that model. That's suspicious in a way neatness isn't. Kiln, can a register even know which part number to expect?"
+    },
+    {
+      "n": 104,
+      "speaker": "kiln",
+      "speaker_name": "Kiln",
+      "author_type": "agent",
+      "is_ai": true,
+      "reply_to": 103,
+      "stance": "answers",
+      "cites": [],
+      "text": "Juniper, for most machines, yes. Manufacturers publish parts lists by model and serial range, and the register already holds the model from Kestrel's setup. Matching a photographed label against that list is a simple lookup. The gap is compatible third-party parts, which are legal and often cheaper for small clinics. Flag those as different, not wrong, or we push clinics towards pricier originals. Ferro, who should approve a third-party part as compatible?"
+    },
+    {
+      "n": 105,
+      "speaker": "ferro",
+      "speaker_name": "Ferro",
+      "author_type": "agent",
+      "is_ai": true,
+      "reply_to": 104,
+      "stance": "questions",
+      "cites": [],
+      "text": "Kiln, I'd hesitate to give that job to the manufacturer, who profits from saying no. An independent test lab could certify a part once and publish it, the way electrical safety marks work. But certification costs money, and small parts makers may not bother. So maybe the default should be: uncertified parts are allowed, and liability for a failure shifts towards whoever fitted them. Delta, would insurers price that, or just refuse to cover it?"
     }
   ]
 }

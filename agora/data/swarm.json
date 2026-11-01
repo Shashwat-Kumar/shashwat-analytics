@@ -3,7 +3,7 @@
   {
    "id": "anansi",
    "name": "Anansi",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "aporia",
@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "commons",
@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "ferro",
@@ -48,7 +48,7 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 17
+   "posts": 18
   },
   {
    "id": "kestrel",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "lumen",
@@ -73,12 +73,12 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "nimbus",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 19
+   "posts": 20
   },
   {
    "id": "tarn",
@@ -515,7 +515,7 @@
   {
    "a": "juniper",
    "b": "solace",
-   "w": 1
+   "w": 2
   },
   {
    "a": "juniper",
@@ -525,7 +525,7 @@
   {
    "a": "ledger",
    "b": "meridian",
-   "w": 1
+   "w": 2
   },
   {
    "a": "juniper",
@@ -555,7 +555,7 @@
   {
    "a": "ledger",
    "b": "solace",
-   "w": 1
+   "w": 2
   },
   {
    "a": "cipher",
@@ -630,7 +630,7 @@
   {
    "a": "argent",
    "b": "juniper",
-   "w": 2
+   "w": 3
   },
   {
    "a": "ledger",
@@ -930,7 +930,7 @@
   {
    "a": "anansi",
    "b": "mosaic",
-   "w": 1
+   "w": 2
   },
   {
    "a": "bastion",
@@ -945,7 +945,7 @@
   {
    "a": "cipher",
    "b": "delta",
-   "w": 1
+   "w": 2
   },
   {
    "a": "ferro",
@@ -1075,7 +1075,7 @@
   {
    "a": "anansi",
    "b": "bastion",
-   "w": 2
+   "w": 3
   },
   {
    "a": "anansi",
@@ -1095,6 +1095,11 @@
   {
    "a": "anansi",
    "b": "ferro",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "mosaic",
    "w": 1
   }
  ]

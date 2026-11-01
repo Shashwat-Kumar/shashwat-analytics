@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T22:36:31Z",
+ "generated_at": "2026-11-01T01:27:31Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-  "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+  "title": "Anthropic blocks users for anything touching training larger models",
+  "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50318871",
-  "points": 135,
-  "comments": 143,
-  "published": "2026-10-31T18:50:34Z",
-  "since": "2026-10-31T22:36:31Z"
+  "discuss": "https://news.ycombinator.com/item?id=50319358",
+  "points": 183,
+  "comments": 95,
+  "published": "2026-10-31T19:39:19Z",
+  "since": "2026-11-01T01:27:31Z"
  },
  "voice": {
   "kind": "voice",
@@ -88,18 +88,8 @@
   },
   {
    "kind": "repo",
-   "title": "ccch1mneyyy/dsh-Go",
-   "stars": 3565,
-   "note": "Dart · new this week",
-   "url": "https://github.com/ccch1mneyyy/dsh-Go",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 2661,
+   "stars": 2761,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -109,7 +99,7 @@
   {
    "kind": "repo",
    "title": "jackwener/DSH-Android",
-   "stars": 626,
+   "stars": 632,
    "note": "Kotlin · new this week",
    "url": "https://github.com/jackwener/DSH-Android",
    "source": "GitHub",
@@ -119,7 +109,7 @@
   {
    "kind": "repo",
    "title": "N1nEmAn/sapper-v2",
-   "stars": 336,
+   "stars": 342,
    "note": "Python · new this week",
    "url": "https://github.com/N1nEmAn/sapper-v2",
    "source": "GitHub",
@@ -129,7 +119,7 @@
   {
    "kind": "repo",
    "title": "jmanico/grim-prompter",
-   "stars": 308,
+   "stars": 310,
    "note": " · new this week",
    "url": "https://github.com/jmanico/grim-prompter",
    "source": "GitHub",
@@ -148,18 +138,18 @@
   },
   {
    "kind": "repo",
-   "title": "unclebob/ub-mode",
-   "stars": 5761,
-   "note": " · new this week",
-   "url": "https://github.com/unclebob/ub-mode",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "stars": 221,
+   "note": "HTML · new this week",
+   "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
    "source": "GitHub",
    "tag": "GH",
-   "cat": "Trending"
+   "cat": "AI/ML"
   },
   {
    "kind": "repo",
    "title": "anhao/ai-pose-gallery-zh",
-   "stars": 4647,
+   "stars": 4692,
    "note": "TypeScript · new this week",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "source": "GitHub",
@@ -168,20 +158,30 @@
   },
   {
    "kind": "repo",
-   "title": "interplains/Zero-Breach-Toolkit",
-   "stars": 3997,
-   "note": "Python · new this week",
-   "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+   "title": "heydamir/unslop",
+   "stars": 3526,
+   "note": "JavaScript · new this week",
+   "url": "https://github.com/heydamir/unslop",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "repo",
-   "title": "designfuchen/word-atlas",
-   "stars": 3550,
+   "title": "valentderah/totk-pc-recomp",
+   "stars": 2633,
+   "note": "C · new this week",
+   "url": "https://github.com/valentderah/totk-pc-recomp",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "deepseek-ai/dsh-superagent-prototype",
+   "stars": 2573,
    "note": "TypeScript · new this week",
-   "url": "https://github.com/designfuchen/word-atlas",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -189,25 +189,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 182,
-   "title": "AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura",
-   "source": "Hacker News",
-   "url": "https://thedataexchange.media/leo-de-moura-lean-aws/",
-   "discuss": "https://news.ycombinator.com/item?id=50290652"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 135,
-   "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-   "source": "Hacker News",
-   "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
-   "discuss": "https://news.ycombinator.com/item?id=50318871"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 90,
+   "points": 183,
    "title": "Anthropic blocks users for anything touching training larger models",
    "source": "Hacker News",
    "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
@@ -216,11 +198,29 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 39,
+   "points": 66,
+   "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+   "source": "Hacker News",
+   "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+   "discuss": "https://news.ycombinator.com/item?id=50320995"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 58,
    "title": "Show HN: A language model that lives in a boot sector",
    "source": "Hacker News",
    "url": "https://github.com/kerlenton/bootgpt",
    "discuss": "https://news.ycombinator.com/item?id=50315782"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 17,
+   "title": "AI text watermarking and quality loss",
+   "source": "Hacker News",
+   "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+   "discuss": "https://news.ycombinator.com/item?id=50320599"
   },
   {
    "kind": "news",

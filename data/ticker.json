@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T08:05:07Z",
+ "generated_at": "2026-11-01T15:02:19Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Anthropic blocks users for anything touching training larger models",
-  "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+  "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50319358",
-  "points": 327,
-  "comments": 182,
-  "published": "2026-10-31T19:39:19Z",
-  "since": "2026-11-01T01:27:31Z"
+  "discuss": "https://news.ycombinator.com/item?id=50325662",
+  "points": 34,
+  "comments": 5,
+  "published": "2026-11-01T13:47:24Z",
+  "since": "2026-11-01T15:02:19Z"
  },
  "voice": {
   "kind": "voice",
@@ -46,15 +46,6 @@
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObmczM2QxUWFDbUJ3WEF1OV8tb1RMSmU3LV9fcW5mWWQ1R2p2RUZuM0FYS003WEY4VkZlZmFRZ01QblI0LTBhTjhoSElDZkFWaGRILWhVRDFLa2dCRTRLYVdQa0tMY3hwZzU0VGFqOXdad2ZfVjBjZERiREJkU214RUpYTjN5N1lsZWg0UmRIY3pRSmxNQkZGbnR3?oc=5",
    "source": "Yahoo Finance",
    "published": "2026-10-31T18:45:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "From Orbit to Earth: Sundar Pichai Reveals Project Suncatcher Sent Back Its First AI-Generated Response From Space",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdC1pUzlFOGMtM0FMdTZlZHVYVVd3XzhudjNxVzl3N0dmMzR5UmNiTVRmVl91R1lCRTFiVGNjVGV3dllwcjhTSHU2U21KZWZXdGJNUC1vTDg3aEFKWnNIc2dJZGtLVzV1MkxYLVc0dnB2VjJGX2xaYy1tUHBfNUM3blFNbTdLQnl1eDNTdHpxTV9qTk5uQ2pxNUs5cmtFUklHekRPcGpaLVoyTHU1bkFocmw3d1JES3VsMTNzT2g5NDNZdEV1N3dwal84RE44Q0ZSU1YxSEJiY9IB3wFBVV95cUxNS01jSnJFMWkxTzhCQm9QdV9idlZrWFlYRnJJS1BzWDdjMmE3RjFENDVzUklOMUdXd18wRnd5d3hmWkd0UU83dG5CdFJRTWFuRXQ0aWZpY0lsVFpwRU43QUxaQ3ZIRVB0QUtHdHlPUW5zdkJ2cHRRa21XazE0S3FpMm5VSk1OU1plYlhuQTZuMGF0T3gtQVRqUjBWYUxkX2lnYXpBdVhSdEtwN3I3NTlmbUNZekZ2NjVLaElwcUtRU0RXVkloM2dWWElLSjYySmY2anJ4bFdrTGw2RjFHdlYw?oc=5",
-   "source": "NDTV Profit",
-   "published": "2026-10-31T08:19:36Z"
   }
  ],
  "items": [
@@ -78,18 +69,9 @@
    "published": "2026-10-31T18:45:00Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "From Orbit to Earth: Sundar Pichai Reveals Project Suncatcher Sent Back Its First AI-Generated Response From Space",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdC1pUzlFOGMtM0FMdTZlZHVYVVd3XzhudjNxVzl3N0dmMzR5UmNiTVRmVl91R1lCRTFiVGNjVGV3dllwcjhTSHU2U21KZWZXdGJNUC1vTDg3aEFKWnNIc2dJZGtLVzV1MkxYLVc0dnB2VjJGX2xaYy1tUHBfNUM3blFNbTdLQnl1eDNTdHpxTV9qTk5uQ2pxNUs5cmtFUklHekRPcGpaLVoyTHU1bkFocmw3d1JES3VsMTNzT2g5NDNZdEV1N3dwal84RE44Q0ZSU1YxSEJiY9IB3wFBVV95cUxNS01jSnJFMWkxTzhCQm9QdV9idlZrWFlYRnJJS1BzWDdjMmE3RjFENDVzUklOMUdXd18wRnd5d3hmWkd0UU83dG5CdFJRTWFuRXQ0aWZpY0lsVFpwRU43QUxaQ3ZIRVB0QUtHdHlPUW5zdkJ2cHRRa21XazE0S3FpMm5VSk1OU1plYlhuQTZuMGF0T3gtQVRqUjBWYUxkX2lnYXpBdVhSdEtwN3I3NTlmbUNZekZ2NjVLaElwcUtRU0RXVkloM2dWWElLSjYySmY2anJ4bFdrTGw2RjFHdlYw?oc=5",
-   "source": "NDTV Profit",
-   "published": "2026-10-31T08:19:36Z"
-  },
-  {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 3093,
+   "stars": 3500,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -99,7 +81,7 @@
   {
    "kind": "repo",
    "title": "jackwener/DSH-Android",
-   "stars": 649,
+   "stars": 683,
    "note": "Kotlin · new this week",
    "url": "https://github.com/jackwener/DSH-Android",
    "source": "GitHub",
@@ -109,7 +91,7 @@
   {
    "kind": "repo",
    "title": "N1nEmAn/sapper-v2",
-   "stars": 385,
+   "stars": 414,
    "note": "Python · new this week",
    "url": "https://github.com/N1nEmAn/sapper-v2",
    "source": "GitHub",
@@ -118,8 +100,18 @@
   },
   {
    "kind": "repo",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "stars": 347,
+   "note": "HTML · new this week",
+   "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "jmanico/grim-prompter",
-   "stars": 318,
+   "stars": 329,
    "note": " · new this week",
    "url": "https://github.com/jmanico/grim-prompter",
    "source": "GitHub",
@@ -129,7 +121,7 @@
   {
    "kind": "repo",
    "title": "JunWan666/astrbot-for-android",
-   "stars": 292,
+   "stars": 299,
    "note": "Kotlin · new this week",
    "url": "https://github.com/JunWan666/astrbot-for-android",
    "source": "GitHub",
@@ -138,28 +130,8 @@
   },
   {
    "kind": "repo",
-   "title": "wanghao-SunSky/cs329z-chinese",
-   "stars": 291,
-   "note": "HTML · new this week",
-   "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "anhao/ai-pose-gallery-zh",
-   "stars": 4898,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/anhao/ai-pose-gallery-zh",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 4317,
+   "stars": 5986,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -168,8 +140,18 @@
   },
   {
    "kind": "repo",
+   "title": "anhao/ai-pose-gallery-zh",
+   "stars": 5059,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/anhao/ai-pose-gallery-zh",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "heydamir/unslop",
-   "stars": 3891,
+   "stars": 4341,
    "note": "JavaScript · new this week",
    "url": "https://github.com/heydamir/unslop",
    "source": "GitHub",
@@ -179,7 +161,7 @@
   {
    "kind": "repo",
    "title": "valentderah/totk-pc-recomp",
-   "stars": 2778,
+   "stars": 2950,
    "note": "C · new this week",
    "url": "https://github.com/valentderah/totk-pc-recomp",
    "source": "GitHub",
@@ -190,15 +172,6 @@
    "kind": "news",
    "tag": "HN",
    "points": 327,
-   "title": "Anthropic blocks users for anything touching training larger models",
-   "source": "Hacker News",
-   "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-   "discuss": "https://news.ycombinator.com/item?id=50319358"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 199,
    "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
    "source": "Hacker News",
    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
@@ -207,7 +180,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 32,
+   "points": 169,
+   "title": "The AI cost of JavaScript frameworks",
+   "source": "Hacker News",
+   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+   "discuss": "https://news.ycombinator.com/item?id=50323088"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 97,
+   "title": "No AI, 52 min. Build all Linux Files utils in C by Hand [video]",
+   "source": "Hacker News",
+   "url": "https://www.youtube.com/watch?v=gQRmSlcTq9c",
+   "discuss": "https://news.ycombinator.com/item?id=50290480"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 66,
    "title": "A 1580 Map Shows Why Data Visualization Is Never Neutral",
    "source": "Hacker News",
    "url": "https://thereader.mitpress.mit.edu/a-1580-map-shows-why-data-visualization-is-never-neutral/",
@@ -216,11 +207,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 14,
-   "title": "The AI cost of JavaScript frameworks",
+   "points": 34,
+   "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
    "source": "Hacker News",
-   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-   "discuss": "https://news.ycombinator.com/item?id=50323088"
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+   "discuss": "https://news.ycombinator.com/item?id=50325662"
   },
   {
    "kind": "news",

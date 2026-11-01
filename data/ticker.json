@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T19:34:48Z",
+ "generated_at": "2026-11-01T23:03:12Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,35 +8,35 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
-  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+  "title": "The AI cost of JavaScript frameworks",
+  "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50325662",
-  "points": 121,
-  "comments": 58,
-  "published": "2026-11-01T13:47:24Z",
-  "since": "2026-11-01T15:02:19Z"
+  "discuss": "https://news.ycombinator.com/item?id=50323088",
+  "points": 270,
+  "comments": 210,
+  "published": "2026-11-01T06:06:19Z",
+  "since": "2026-11-01T23:03:12Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
   "person": "Elon Musk",
-  "title": "Elon Musk says saving for retirement may become pointless. How AI and robots could change the future of mo",
-  "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNUGQxNk9NdVdhSnUzMmkwdjViV1dBcXk1MkdiT2o2ZUItV0RhTG8yY1Q0UEJHTlF3aUxacE1MUi1nWTI3bURKQW9XcnFneGJEUnhRTFQtZjhFTE9sNGhyTFVieHhjTkhtNmpoRUh5MURlNXZEc0dMS3lWdjJzRWZCMEhsMks3d0pvUUwyX0xLeVB0Vi1JVTdic3BLcUtqSlFNdmtrN2liS0o3eFBNVmY5bVFVRnJxWmk2QnprSmhMMG9jYmUxWEM0bERKZUkxM2M2R1BacVlsTFhqTl9iNW1oNy15WW5Sa2xFcHp4cnVlT1FLaDc0RW5BQVA1WHBJWTNDWjlzaGY3RU0tLXdoVllVZ1NnMzgtWDhV0gGSAkFVX3lxTE1PTmNBcWtpNzZ4SXFnREhmejNwbDEyTEgyeE5aczk2SWN4MjBKU3RGRW9XMDZ5c2l6TWlyelJVdHN6SmQybU9rSFliUTBPa25lS0xJYVBBNTQxY3FRYjFFWTV2b0hwaTFpLTZ0RFNtckFXMXRnY2NybGNvUHhqN0ZEX1hqRjNuTWIxcW9uTmZzejZvZUZKdGpYZ0RmemcyRlZYc2pGV2RCcW9sSlRMMWhxdFFpSmhYNkdQLUtqSkxCcHJVWVpoODVhNEpRWGE2YUFOU2NhUk5lNjh6UllrVVk5OGZRLTBxaFlyWXk4UHVlSXJGY3VRX2ljY0JkOWNCckVrOFI4OE9PLTJ0T016bG1fdlE?oc=5",
-  "source": "The Economic Times",
-  "published": "2026-11-01T04:12:19Z",
-  "since": "2026-11-01T08:05:07Z"
+  "title": "Elon Musk says he is taking over an old Spam factory and a gun range to expand his Colossus 2 AI complex",
+  "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQblNHeVNwZ3NJaDN0UmpkUnc1SzJoNnFYbkEwNWVubEpnbFQ2Sk9qQ09EXzlGdTlpUEg5bkdoWmNIZmZVa2p3M3FlSjBoa3RGbG9QcUtsTzNzWGFaOXY3QVRTZ0JCQ0s3TC1kSG8wMm9Ra0V0SUZkYTVfSDhRSThLR0FQUEd6TkpvQXc?oc=5",
+  "source": "Business Insider",
+  "published": "2026-11-01T21:06:00Z",
+  "since": "2026-11-01T23:03:12Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk says saving for retirement may become pointless. How AI and robots could change the future of mo",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNUGQxNk9NdVdhSnUzMmkwdjViV1dBcXk1MkdiT2o2ZUItV0RhTG8yY1Q0UEJHTlF3aUxacE1MUi1nWTI3bURKQW9XcnFneGJEUnhRTFQtZjhFTE9sNGhyTFVieHhjTkhtNmpoRUh5MURlNXZEc0dMS3lWdjJzRWZCMEhsMks3d0pvUUwyX0xLeVB0Vi1JVTdic3BLcUtqSlFNdmtrN2liS0o3eFBNVmY5bVFVRnJxWmk2QnprSmhMMG9jYmUxWEM0bERKZUkxM2M2R1BacVlsTFhqTl9iNW1oNy15WW5Sa2xFcHp4cnVlT1FLaDc0RW5BQVA1WHBJWTNDWjlzaGY3RU0tLXdoVllVZ1NnMzgtWDhV0gGSAkFVX3lxTE1PTmNBcWtpNzZ4SXFnREhmejNwbDEyTEgyeE5aczk2SWN4MjBKU3RGRW9XMDZ5c2l6TWlyelJVdHN6SmQybU9rSFliUTBPa25lS0xJYVBBNTQxY3FRYjFFWTV2b0hwaTFpLTZ0RFNtckFXMXRnY2NybGNvUHhqN0ZEX1hqRjNuTWIxcW9uTmZzejZvZUZKdGpYZ0RmemcyRlZYc2pGV2RCcW9sSlRMMWhxdFFpSmhYNkdQLUtqSkxCcHJVWVpoODVhNEpRWGE2YUFOU2NhUk5lNjh6UllrVVk5OGZRLTBxaFlyWXk4UHVlSXJGY3VRX2ljY0JkOWNCckVrOFI4OE9PLTJ0T016bG1fdlE?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-11-01T04:12:19Z",
-   "since": "2026-11-01T08:05:07Z"
+   "title": "Elon Musk says he is taking over an old Spam factory and a gun range to expand his Colossus 2 AI complex",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQblNHeVNwZ3NJaDN0UmpkUnc1SzJoNnFYbkEwNWVubEpnbFQ2Sk9qQ09EXzlGdTlpUEg5bkdoWmNIZmZVa2p3M3FlSjBoa3RGbG9QcUtsTzNzWGFaOXY3QVRTZ0JCQ0s3TC1kSG8wMm9Ra0V0SUZkYTVfSDhRSThLR0FQUEd6TkpvQXc?oc=5",
+   "source": "Business Insider",
+   "published": "2026-11-01T21:06:00Z",
+   "since": "2026-11-01T23:03:12Z"
   }
  ],
  "items": [
@@ -44,16 +44,16 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "Elon Musk says saving for retirement may become pointless. How AI and robots could change the future of mo",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNUGQxNk9NdVdhSnUzMmkwdjViV1dBcXk1MkdiT2o2ZUItV0RhTG8yY1Q0UEJHTlF3aUxacE1MUi1nWTI3bURKQW9XcnFneGJEUnhRTFQtZjhFTE9sNGhyTFVieHhjTkhtNmpoRUh5MURlNXZEc0dMS3lWdjJzRWZCMEhsMks3d0pvUUwyX0xLeVB0Vi1JVTdic3BLcUtqSlFNdmtrN2liS0o3eFBNVmY5bVFVRnJxWmk2QnprSmhMMG9jYmUxWEM0bERKZUkxM2M2R1BacVlsTFhqTl9iNW1oNy15WW5Sa2xFcHp4cnVlT1FLaDc0RW5BQVA1WHBJWTNDWjlzaGY3RU0tLXdoVllVZ1NnMzgtWDhV0gGSAkFVX3lxTE1PTmNBcWtpNzZ4SXFnREhmejNwbDEyTEgyeE5aczk2SWN4MjBKU3RGRW9XMDZ5c2l6TWlyelJVdHN6SmQybU9rSFliUTBPa25lS0xJYVBBNTQxY3FRYjFFWTV2b0hwaTFpLTZ0RFNtckFXMXRnY2NybGNvUHhqN0ZEX1hqRjNuTWIxcW9uTmZzejZvZUZKdGpYZ0RmemcyRlZYc2pGV2RCcW9sSlRMMWhxdFFpSmhYNkdQLUtqSkxCcHJVWVpoODVhNEpRWGE2YUFOU2NhUk5lNjh6UllrVVk5OGZRLTBxaFlyWXk4UHVlSXJGY3VRX2ljY0JkOWNCckVrOFI4OE9PLTJ0T016bG1fdlE?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-11-01T04:12:19Z",
-   "since": "2026-11-01T08:05:07Z"
+   "title": "Elon Musk says he is taking over an old Spam factory and a gun range to expand his Colossus 2 AI complex",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQblNHeVNwZ3NJaDN0UmpkUnc1SzJoNnFYbkEwNWVubEpnbFQ2Sk9qQ09EXzlGdTlpUEg5bkdoWmNIZmZVa2p3M3FlSjBoa3RGbG9QcUtsTzNzWGFaOXY3QVRTZ0JCQ0s3TC1kSG8wMm9Ra0V0SUZkYTVfSDhRSThLR0FQUEd6TkpvQXc?oc=5",
+   "source": "Business Insider",
+   "published": "2026-11-01T21:06:00Z",
+   "since": "2026-11-01T23:03:12Z"
   },
   {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 3726,
+   "stars": 3780,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "jackwener/DSH-Android",
-   "stars": 691,
+   "stars": 692,
    "note": "Kotlin · new this week",
    "url": "https://github.com/jackwener/DSH-Android",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "N1nEmAn/sapper-v2",
-   "stars": 432,
+   "stars": 433,
    "note": "Python · new this week",
    "url": "https://github.com/N1nEmAn/sapper-v2",
    "source": "GitHub",
@@ -82,8 +82,18 @@
   },
   {
    "kind": "repo",
+   "title": "modelflare-ai/AnyModelBot",
+   "stars": 388,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/modelflare-ai/AnyModelBot",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "wanghao-SunSky/cs329z-chinese",
-   "stars": 378,
+   "stars": 384,
    "note": "HTML · new this week",
    "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
    "source": "GitHub",
@@ -93,7 +103,7 @@
   {
    "kind": "repo",
    "title": "jmanico/grim-prompter",
-   "stars": 331,
+   "stars": 334,
    "note": " · new this week",
    "url": "https://github.com/jmanico/grim-prompter",
    "source": "GitHub",
@@ -102,18 +112,8 @@
   },
   {
    "kind": "repo",
-   "title": "JunWan666/astrbot-for-android",
-   "stars": 302,
-   "note": "Kotlin · new this week",
-   "url": "https://github.com/JunWan666/astrbot-for-android",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 6797,
+   "stars": 7085,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -123,7 +123,7 @@
   {
    "kind": "repo",
    "title": "anhao/ai-pose-gallery-zh",
-   "stars": 5114,
+   "stars": 5126,
    "note": "TypeScript · new this week",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "source": "GitHub",
@@ -133,7 +133,7 @@
   {
    "kind": "repo",
    "title": "heydamir/unslop",
-   "stars": 4682,
+   "stars": 4802,
    "note": "JavaScript · new this week",
    "url": "https://github.com/heydamir/unslop",
    "source": "GitHub",
@@ -143,7 +143,7 @@
   {
    "kind": "repo",
    "title": "valentderah/totk-pc-recomp",
-   "stars": 3075,
+   "stars": 3165,
    "note": "C · new this week",
    "url": "https://github.com/valentderah/totk-pc-recomp",
    "source": "GitHub",
@@ -153,7 +153,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 389,
+   "points": 418,
    "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
    "source": "Hacker News",
    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
@@ -162,7 +162,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 232,
+   "points": 270,
    "title": "The AI cost of JavaScript frameworks",
    "source": "Hacker News",
    "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
@@ -171,11 +171,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 121,
-   "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+   "points": 53,
+   "title": "Ask HN: Which TV do you recommend for privacy?",
    "source": "Hacker News",
-   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
-   "discuss": "https://news.ycombinator.com/item?id=50325662"
+   "url": "https://news.ycombinator.com/item?id=50328896",
+   "discuss": "https://news.ycombinator.com/item?id=50328896"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/"
   },
   {
    "kind": "news",
@@ -190,20 +204,6 @@
    "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "OpenAI reportedly lowers funding target for new round",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
   },
   {
    "kind": "news",

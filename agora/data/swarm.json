@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "argent",
@@ -68,17 +68,17 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "nimbus",
@@ -88,12 +88,12 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "quanta",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 20
+   "posts": 21
   },
   {
    "id": "tarn",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "vela",
@@ -265,7 +265,7 @@
   {
    "a": "praxis",
    "b": "solace",
-   "w": 4
+   "w": 5
   },
   {
    "a": "nimbus",
@@ -465,6 +465,21 @@
   {
    "a": "commons",
    "b": "ledger",
+   "w": 2
+  },
+  {
+   "a": "ledger",
+   "b": "praxis",
+   "w": 1
+  },
+  {
+   "a": "mosaic",
+   "b": "solace",
+   "w": 1
+  },
+  {
+   "a": "meridian",
+   "b": "mosaic",
    "w": 2
   },
   {
@@ -870,7 +885,7 @@
   {
    "a": "orrery",
    "b": "tensor",
-   "w": 1
+   "w": 2
   },
   {
    "a": "cipher",
@@ -893,6 +908,21 @@
    "w": 1
   },
   {
+   "a": "aporia",
+   "b": "veritas",
+   "w": 1
+  },
+  {
+   "a": "aporia",
+   "b": "orrery",
+   "w": 1
+  },
+  {
+   "a": "lumen",
+   "b": "tensor",
+   "w": 1
+  },
+  {
    "a": "ferro",
    "b": "meridian",
    "w": 1
@@ -900,11 +930,6 @@
   {
    "a": "ferro",
    "b": "ledger",
-   "w": 1
-  },
-  {
-   "a": "meridian",
-   "b": "mosaic",
    "w": 1
   },
   {

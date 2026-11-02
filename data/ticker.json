@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T02:24:13Z",
+ "generated_at": "2026-11-02T09:54:47Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,45 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
-  "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+  "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+  "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50330456",
-  "points": 182,
-  "comments": 148,
-  "published": "2026-11-01T22:10:45Z",
-  "since": "2026-11-02T02:24:13Z"
+  "discuss": "https://news.ycombinator.com/item?id=50334038",
+  "points": 34,
+  "comments": 22,
+  "published": "2026-11-02T07:27:28Z",
+  "since": "2026-11-02T09:54:47Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Elon Musk says he is taking over an old Spam factory and a gun range to expand his Colossus 2 AI complex",
-  "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQblNHeVNwZ3NJaDN0UmpkUnc1SzJoNnFYbkEwNWVubEpnbFQ2Sk9qQ09EXzlGdTlpUEg5bkdoWmNIZmZVa2p3M3FlSjBoa3RGbG9QcUtsTzNzWGFaOXY3QVRTZ0JCQ0s3TC1kSG8wMm9Ra0V0SUZkYTVfSDhRSThLR0FQUEd6TkpvQXc?oc=5",
-  "source": "Business Insider",
-  "published": "2026-11-01T21:06:00Z",
-  "since": "2026-11-01T23:03:12Z"
+  "person": "Sundar Pichai",
+  "title": "Google runs its first AI prompt in space and gets a poem back; CEO Sundar Pichai says: We've now successf",
+  "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQb0FoRHZMNHJUV1ZmdEVQODFYY2NHWFdvTlluS25OWjktOFJmTlpvbWc5SUZ3RWYxQy1uaVA2ODNyUDNBdS1HZm5zUlVxSlpiSENFY1R1MWcxNlNEVjhkUGNsbGFva3ZUay1Wc0dOdEkzZzhlZC1SVHAtUjFKbktBTEFtTjdGSjNFaFk0d3pjTWY0STZZWVZuMkM4Vk5UVUNsUXFEUEVTUFhhMlotRk4zQVIwUU5KdkFPeFEyTFZNOVNXeDVmUFlBaXFzbVVpRnNhMlhhQVYzWnZrU3FaTTRoZWZtT2w5VEhUTnRway1GOU0wamk2bG51X3czM29DR0wxNlFTUTNPSlQxNkY5RXNFbmZJeTdOT2hiYk5yc2xuYldtaVg3SDcyZXVlTnRGX0hNV282YlhuRW1vaERQVEV4VTc3YnZMeTJYT2Z3TjBWd21zZDVMZTdVdGZqNNIB4AJBVV95cUxQbjUwNG54NUk1TzQ1cFJTbmhZUlRIRmRuUkFIaVotUjF1Z0V3aFNBc1ZRNTNCb2JUWVZ3RUxhN09mb3JQZFdKMHRVZlhXclpidmc0aEs4LVJ1R256Q293YVRLT3ZHVDdDOXRMejh2XzRuNlVaZjR3SkZPa2tJdWkzOUZIeVNvZzExcldHRzUxWWx3cUJwTHBTdFg1MG11VE1FZDN5eDJDNlVTN3ZGTFBsRnllQUdjRFBWOGJBdlRHLUh4bGhoOUZOV2l3OHI5VXNyOWE4eTROZXFTb0JLM1NuVW5lbGwxejRzdTJ0WVdRYnB5My1pbkVZSklXZUV6WGNuc1pNMmpTbDZrVVctTlR3RDBMWnVEMHBrVmFZdjBENF9MRnc4a3JkUnJybmVIeEMzTFo3ay02MWRaZDdTalhfT3BZdTZwNzRIQjFHb2dEWk5jRnFoYjRuTTNRSkpURjNF?oc=5",
+  "source": "The Times of India",
+  "published": "2026-11-02T05:48:00Z",
+  "since": "2026-11-02T09:54:47Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Google runs its first AI prompt in space and gets a poem back; CEO Sundar Pichai says: We've now successf",
+   "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQb0FoRHZMNHJUV1ZmdEVQODFYY2NHWFdvTlluS25OWjktOFJmTlpvbWc5SUZ3RWYxQy1uaVA2ODNyUDNBdS1HZm5zUlVxSlpiSENFY1R1MWcxNlNEVjhkUGNsbGFva3ZUay1Wc0dOdEkzZzhlZC1SVHAtUjFKbktBTEFtTjdGSjNFaFk0d3pjTWY0STZZWVZuMkM4Vk5UVUNsUXFEUEVTUFhhMlotRk4zQVIwUU5KdkFPeFEyTFZNOVNXeDVmUFlBaXFzbVVpRnNhMlhhQVYzWnZrU3FaTTRoZWZtT2w5VEhUTnRway1GOU0wamk2bG51X3czM29DR0wxNlFTUTNPSlQxNkY5RXNFbmZJeTdOT2hiYk5yc2xuYldtaVg3SDcyZXVlTnRGX0hNV282YlhuRW1vaERQVEV4VTc3YnZMeTJYT2Z3TjBWd21zZDVMZTdVdGZqNNIB4AJBVV95cUxQbjUwNG54NUk1TzQ1cFJTbmhZUlRIRmRuUkFIaVotUjF1Z0V3aFNBc1ZRNTNCb2JUWVZ3RUxhN09mb3JQZFdKMHRVZlhXclpidmc0aEs4LVJ1R256Q293YVRLT3ZHVDdDOXRMejh2XzRuNlVaZjR3SkZPa2tJdWkzOUZIeVNvZzExcldHRzUxWWx3cUJwTHBTdFg1MG11VE1FZDN5eDJDNlVTN3ZGTFBsRnllQUdjRFBWOGJBdlRHLUh4bGhoOUZOV2l3OHI5VXNyOWE4eTROZXFTb0JLM1NuVW5lbGwxejRzdTJ0WVdRYnB5My1pbkVZSklXZUV6WGNuc1pNMmpTbDZrVVctTlR3RDBMWnVEMHBrVmFZdjBENF9MRnc4a3JkUnJybmVIeEMzTFo3ay02MWRaZDdTalhfT3BZdTZwNzRIQjFHb2dEWk5jRnFoYjRuTTNRSkpURjNF?oc=5",
+   "source": "The Times of India",
+   "published": "2026-11-02T05:48:00Z",
+   "since": "2026-11-02T09:54:47Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "Watch OpenAI CEO Sam Altman Says AI Will Transform the Economics of Energy",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWkZzbnhBaW1mZXJzZ0NBNDQxUk1CQW5WNTc0eDYxTGVvZGtIVTRjTGs5THBLLTRMZDFLM0o0ZWpSZU5qNDhxbjNUYXdvVk9wVVI4V01WRFdXQndvcHZndkl4aWE0NkpGVHJtZUlZUW9EX19xeF9HR0RXcUU5VlM1Rm15OTRIaENTeDVLTWhTdWhzWkItMk5JU2tEbXRyN2hrU1NhT3RXZE9FRkdE?oc=5",
+   "source": "Bloomberg",
+   "published": "2026-11-02T00:00:00Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,25 +54,42 @@
    "title": "Elon Musk says he is taking over an old Spam factory and a gun range to expand his Colossus 2 AI complex",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQblNHeVNwZ3NJaDN0UmpkUnc1SzJoNnFYbkEwNWVubEpnbFQ2Sk9qQ09EXzlGdTlpUEg5bkdoWmNIZmZVa2p3M3FlSjBoa3RGbG9QcUtsTzNzWGFaOXY3QVRTZ0JCQ0s3TC1kSG8wMm9Ra0V0SUZkYTVfSDhRSThLR0FQUEd6TkpvQXc?oc=5",
    "source": "Business Insider",
-   "published": "2026-11-01T21:06:00Z",
-   "since": "2026-11-01T23:03:12Z"
+   "published": "2026-11-01T21:06:00Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Sundar Pichai",
+   "title": "Google runs its first AI prompt in space and gets a poem back; CEO Sundar Pichai says: We've now successf",
+   "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQb0FoRHZMNHJUV1ZmdEVQODFYY2NHWFdvTlluS25OWjktOFJmTlpvbWc5SUZ3RWYxQy1uaVA2ODNyUDNBdS1HZm5zUlVxSlpiSENFY1R1MWcxNlNEVjhkUGNsbGFva3ZUay1Wc0dOdEkzZzhlZC1SVHAtUjFKbktBTEFtTjdGSjNFaFk0d3pjTWY0STZZWVZuMkM4Vk5UVUNsUXFEUEVTUFhhMlotRk4zQVIwUU5KdkFPeFEyTFZNOVNXeDVmUFlBaXFzbVVpRnNhMlhhQVYzWnZrU3FaTTRoZWZtT2w5VEhUTnRway1GOU0wamk2bG51X3czM29DR0wxNlFTUTNPSlQxNkY5RXNFbmZJeTdOT2hiYk5yc2xuYldtaVg3SDcyZXVlTnRGX0hNV282YlhuRW1vaERQVEV4VTc3YnZMeTJYT2Z3TjBWd21zZDVMZTdVdGZqNNIB4AJBVV95cUxQbjUwNG54NUk1TzQ1cFJTbmhZUlRIRmRuUkFIaVotUjF1Z0V3aFNBc1ZRNTNCb2JUWVZ3RUxhN09mb3JQZFdKMHRVZlhXclpidmc0aEs4LVJ1R256Q293YVRLT3ZHVDdDOXRMejh2XzRuNlVaZjR3SkZPa2tJdWkzOUZIeVNvZzExcldHRzUxWWx3cUJwTHBTdFg1MG11VE1FZDN5eDJDNlVTN3ZGTFBsRnllQUdjRFBWOGJBdlRHLUh4bGhoOUZOV2l3OHI5VXNyOWE4eTROZXFTb0JLM1NuVW5lbGwxejRzdTJ0WVdRYnB5My1pbkVZSklXZUV6WGNuc1pNMmpTbDZrVVctTlR3RDBMWnVEMHBrVmFZdjBENF9MRnc4a3JkUnJybmVIeEMzTFo3ay02MWRaZDdTalhfT3BZdTZwNzRIQjFHb2dEWk5jRnFoYjRuTTNRSkpURjNF?oc=5",
+   "source": "The Times of India",
+   "published": "2026-11-02T05:48:00Z",
+   "since": "2026-11-02T09:54:47Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "Watch OpenAI CEO Sam Altman Says AI Will Transform the Economics of Energy",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWkZzbnhBaW1mZXJzZ0NBNDQxUk1CQW5WNTc0eDYxTGVvZGtIVTRjTGs5THBLLTRMZDFLM0o0ZWpSZU5qNDhxbjNUYXdvVk9wVVI4V01WRFdXQndvcHZndkl4aWE0NkpGVHJtZUlZUW9EX19xeF9HR0RXcUU5VlM1Rm15OTRIaENTeDVLTWhTdWhzWkItMk5JU2tEbXRyN2hrU1NhT3RXZE9FRkdE?oc=5",
+   "source": "Bloomberg",
+   "published": "2026-11-02T00:00:00Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Elon Musk",
    "title": "Elon Musk says he is taking over an old Spam factory and a gun range to expand his Colossus 2 AI complex",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQblNHeVNwZ3NJaDN0UmpkUnc1SzJoNnFYbkEwNWVubEpnbFQ2Sk9qQ09EXzlGdTlpUEg5bkdoWmNIZmZVa2p3M3FlSjBoa3RGbG9QcUtsTzNzWGFaOXY3QVRTZ0JCQ0s3TC1kSG8wMm9Ra0V0SUZkYTVfSDhRSThLR0FQUEd6TkpvQXc?oc=5",
    "source": "Business Insider",
-   "published": "2026-11-01T21:06:00Z",
-   "since": "2026-11-01T23:03:12Z"
+   "published": "2026-11-01T21:06:00Z"
   },
   {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 3982,
+   "stars": 4688,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -62,18 +98,8 @@
   },
   {
    "kind": "repo",
-   "title": "jackwener/DSH-Android",
-   "stars": 705,
-   "note": "Kotlin · new this week",
-   "url": "https://github.com/jackwener/DSH-Android",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "modelflare-ai/AnyModelBot",
-   "stars": 523,
+   "stars": 1004,
    "note": "TypeScript · new this week",
    "url": "https://github.com/modelflare-ai/AnyModelBot",
    "source": "GitHub",
@@ -82,8 +108,18 @@
   },
   {
    "kind": "repo",
+   "title": "jackwener/DSH-Android",
+   "stars": 735,
+   "note": "Kotlin · new this week",
+   "url": "https://github.com/jackwener/DSH-Android",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "N1nEmAn/sapper-v2",
-   "stars": 474,
+   "stars": 566,
    "note": "Python · new this week",
    "url": "https://github.com/N1nEmAn/sapper-v2",
    "source": "GitHub",
@@ -92,8 +128,18 @@
   },
   {
    "kind": "repo",
+   "title": "Balanov/uncut",
+   "stars": 461,
+   "note": "Go · new this week",
+   "url": "https://github.com/Balanov/uncut",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "wanghao-SunSky/cs329z-chinese",
-   "stars": 396,
+   "stars": 418,
    "note": "HTML · new this week",
    "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
    "source": "GitHub",
@@ -102,18 +148,8 @@
   },
   {
    "kind": "repo",
-   "title": "jmanico/grim-prompter",
-   "stars": 336,
-   "note": " · new this week",
-   "url": "https://github.com/jmanico/grim-prompter",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 8153,
+   "stars": 10732,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -123,7 +159,7 @@
   {
    "kind": "repo",
    "title": "anhao/ai-pose-gallery-zh",
-   "stars": 5168,
+   "stars": 5362,
    "note": "TypeScript · new this week",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "source": "GitHub",
@@ -133,7 +169,7 @@
   {
    "kind": "repo",
    "title": "heydamir/unslop",
-   "stars": 4940,
+   "stars": 5310,
    "note": "JavaScript · new this week",
    "url": "https://github.com/heydamir/unslop",
    "source": "GitHub",
@@ -143,7 +179,7 @@
   {
    "kind": "repo",
    "title": "valentderah/totk-pc-recomp",
-   "stars": 3241,
+   "stars": 3476,
    "note": "C · new this week",
    "url": "https://github.com/valentderah/totk-pc-recomp",
    "source": "GitHub",
@@ -153,25 +189,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 306,
-   "title": "The AI cost of JavaScript frameworks",
-   "source": "Hacker News",
-   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-   "discuss": "https://news.ycombinator.com/item?id=50323088"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 182,
-   "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
-   "source": "Hacker News",
-   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-   "discuss": "https://news.ycombinator.com/item?id=50330456"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 149,
+   "points": 386,
    "title": "Ask HN: Which TV do you recommend for privacy?",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50328896",
@@ -180,11 +198,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 82,
-   "title": "Postgres 19 is late, and it's AI's fault",
+   "points": 375,
+   "title": "The AI cost of JavaScript frameworks",
    "source": "Hacker News",
-   "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
-   "discuss": "https://news.ycombinator.com/item?id=50312408"
+   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+   "discuss": "https://news.ycombinator.com/item?id=50323088"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 34,
+   "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+   "source": "Hacker News",
+   "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+   "discuss": "https://news.ycombinator.com/item?id=50334038"
   },
   {
    "kind": "news",

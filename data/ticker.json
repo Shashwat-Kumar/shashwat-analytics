@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T09:54:47Z",
+ "generated_at": "2026-11-02T20:17:27Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,45 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
-  "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+  "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+  "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50334038",
-  "points": 34,
-  "comments": 22,
-  "published": "2026-11-02T07:27:28Z",
-  "since": "2026-11-02T09:54:47Z"
+  "discuss": "https://news.ycombinator.com/item?id=50339494",
+  "points": 205,
+  "comments": 163,
+  "published": "2026-11-02T16:40:29Z",
+  "since": "2026-11-02T20:17:27Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sundar Pichai",
-  "title": "Google runs its first AI prompt in space and gets a poem back; CEO Sundar Pichai says: We've now successf",
-  "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQb0FoRHZMNHJUV1ZmdEVQODFYY2NHWFdvTlluS25OWjktOFJmTlpvbWc5SUZ3RWYxQy1uaVA2ODNyUDNBdS1HZm5zUlVxSlpiSENFY1R1MWcxNlNEVjhkUGNsbGFva3ZUay1Wc0dOdEkzZzhlZC1SVHAtUjFKbktBTEFtTjdGSjNFaFk0d3pjTWY0STZZWVZuMkM4Vk5UVUNsUXFEUEVTUFhhMlotRk4zQVIwUU5KdkFPeFEyTFZNOVNXeDVmUFlBaXFzbVVpRnNhMlhhQVYzWnZrU3FaTTRoZWZtT2w5VEhUTnRway1GOU0wamk2bG51X3czM29DR0wxNlFTUTNPSlQxNkY5RXNFbmZJeTdOT2hiYk5yc2xuYldtaVg3SDcyZXVlTnRGX0hNV282YlhuRW1vaERQVEV4VTc3YnZMeTJYT2Z3TjBWd21zZDVMZTdVdGZqNNIB4AJBVV95cUxQbjUwNG54NUk1TzQ1cFJTbmhZUlRIRmRuUkFIaVotUjF1Z0V3aFNBc1ZRNTNCb2JUWVZ3RUxhN09mb3JQZFdKMHRVZlhXclpidmc0aEs4LVJ1R256Q293YVRLT3ZHVDdDOXRMejh2XzRuNlVaZjR3SkZPa2tJdWkzOUZIeVNvZzExcldHRzUxWWx3cUJwTHBTdFg1MG11VE1FZDN5eDJDNlVTN3ZGTFBsRnllQUdjRFBWOGJBdlRHLUh4bGhoOUZOV2l3OHI5VXNyOWE4eTROZXFTb0JLM1NuVW5lbGwxejRzdTJ0WVdRYnB5My1pbkVZSklXZUV6WGNuc1pNMmpTbDZrVVctTlR3RDBMWnVEMHBrVmFZdjBENF9MRnc4a3JkUnJybmVIeEMzTFo3ay02MWRaZDdTalhfT3BZdTZwNzRIQjFHb2dEWk5jRnFoYjRuTTNRSkpURjNF?oc=5",
+  "person": "Elon Musk",
+  "title": "Elon Musk Admits Grok Is Losing Money As AI Costs Surge Across Big Tech",
+  "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNm1RNVJnNThLMlhaSERrSHgxZ1Z4RlViZndna0pxT21iZWgyVW9YUTlKZjdMY0d5MFZzME9ZOXNYX1M1bzRlUy1MQ3h6U2FQLWtEWnVTMW0yRDlDWUJZeno2ZjEtVFotVnQwVDhNeWF5cm5aN1FXcVE0dlk1blhSSGQ2UTdxM0g0cHlfZUdSM1BFTXh6anFuUWJBaDNEM0lhWF93aVE5V0Nlc3l3eTh5OVQ5QUtiMzcweV9hdHBSbDRld19CY0FHTko3Y0FDc011RkRVTDVheVZUcmFySTBDYW9CNUx4QdIB6wFBVV95cUxNMkJIbkQ1akpUV05hZnpmNmtaRWdRMFliVUo1b0xWWDAxRDMxQmQ3M2toLVV3emd5UVdxM0YxTFRHaWI5TGVpZGxaUkdCWXVvM1gzLVVCa3EyMnAwMjRTNUJwTW5qMmZDaVU2VTkxOEoweEFQZkJjWV96eEJQMGhkWGNaUXhtTVRmWEplTWRKQnZlQUZlam5PRFk0TnExVzdpSjV6dXpaTmQwemt6TVp6MGlQTkVydnNzSXZ2Y3VGeXl2cGhBMml5UmdScmlwVUdWeUJvRmQ2bVR6U0tCRmJHUjRvUDJHT2M1b0pF?oc=5",
   "source": "The Times of India",
-  "published": "2026-11-02T05:48:00Z",
-  "since": "2026-11-02T09:54:47Z"
+  "published": "2026-11-02T17:30:06Z",
+  "since": "2026-11-02T20:17:27Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "Elon Musk Admits Grok Is Losing Money As AI Costs Surge Across Big Tech",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNm1RNVJnNThLMlhaSERrSHgxZ1Z4RlViZndna0pxT21iZWgyVW9YUTlKZjdMY0d5MFZzME9ZOXNYX1M1bzRlUy1MQ3h6U2FQLWtEWnVTMW0yRDlDWUJZeno2ZjEtVFotVnQwVDhNeWF5cm5aN1FXcVE0dlk1blhSSGQ2UTdxM0g0cHlfZUdSM1BFTXh6anFuUWJBaDNEM0lhWF93aVE5V0Nlc3l3eTh5OVQ5QUtiMzcweV9hdHBSbDRld19CY0FHTko3Y0FDc011RkRVTDVheVZUcmFySTBDYW9CNUx4QdIB6wFBVV95cUxNMkJIbkQ1akpUV05hZnpmNmtaRWdRMFliVUo1b0xWWDAxRDMxQmQ3M2toLVV3emd5UVdxM0YxTFRHaWI5TGVpZGxaUkdCWXVvM1gzLVVCa3EyMnAwMjRTNUJwTW5qMmZDaVU2VTkxOEoweEFQZkJjWV96eEJQMGhkWGNaUXhtTVRmWEplTWRKQnZlQUZlam5PRFk0TnExVzdpSjV6dXpaTmQwemt6TVp6MGlQTkVydnNzSXZ2Y3VGeXl2cGhBMml5UmdScmlwVUdWeUJvRmQ2bVR6U0tCRmJHUjRvUDJHT2M1b0pF?oc=5",
+   "source": "The Times of India",
+   "published": "2026-11-02T17:30:06Z",
+   "since": "2026-11-02T20:17:27Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "Elon Musk vs Sam Altman: After OpenAI CEO questions people's RAM usage at home, Musk defends ordinary user",
+   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOZEtISmFmU3lBTDFubElWcE90MHN3alBlVGlPTnNQUUpBbFBDSXl0QlhQdTE0bTdaZ3ZTT1RZS1NBZ3ZzX09wU21qakFlLU1ENXl4d2UwUGpLZjd0cFFmY3lyYXVwYy1HS1NPVTNXdXE2R1NiMkRQSlQ5VU0tOHI3Mk5HRldURzFKZmdDV3V1bmZjdHZCZGItUkpjV0syRHVIQmxzNEZiOUVhY3Z1RjdmVkJrUWFwRGpoeUxmQjhvNnNFRUNJRU5qdHlON1N1LWNNMjg3SmRuUjVXM1NPLWNNbkloZFRRb1V5MUN1MldCSlpCQTJ5NDViOVZLLUtzZHFTdUZFSXREbWRfM0IyT1A0cmZwS09PdG5vZWZtMHZUS3BObHPSAZwCQVVfeXFMTkdzRFJGYUZaUkhGU3Z6ZE9JOUhQNnRtLUFBZE9LQ29HODE3cU5yeGt0ZWs3TUtJZWlIWERwaE1RdkZZSGRqU2JncXc1RHdSc0FVOEU1VUlzenJ4TWIwT01qejE2cjJEemY2RGJwck1nUDZRcEQ0bXU2TnVwSHNMSjNIVF80NmpZbVNOSC04ekFpNzdJSFEtVnpVb2FEakM0azFlelB4RVBSdk5jX1E0RHBoWk5vR05oMmc0d1oxRDY5c1d2VUExdlE2X3FXZVh6cUkzUWRaUmRoZHlHNTBCT3hJOERGWEE1TWtDZ3lxYW8wRjhnelNsdkdQaEJKcVdNRHEyT1dfS0pYdTZlUW43Mm5kYjRIMEpwMHRMM20?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-02T13:22:20Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,61 +54,42 @@
    "title": "Google runs its first AI prompt in space and gets a poem back; CEO Sundar Pichai says: We've now successf",
    "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQb0FoRHZMNHJUV1ZmdEVQODFYY2NHWFdvTlluS25OWjktOFJmTlpvbWc5SUZ3RWYxQy1uaVA2ODNyUDNBdS1HZm5zUlVxSlpiSENFY1R1MWcxNlNEVjhkUGNsbGFva3ZUay1Wc0dOdEkzZzhlZC1SVHAtUjFKbktBTEFtTjdGSjNFaFk0d3pjTWY0STZZWVZuMkM4Vk5UVUNsUXFEUEVTUFhhMlotRk4zQVIwUU5KdkFPeFEyTFZNOVNXeDVmUFlBaXFzbVVpRnNhMlhhQVYzWnZrU3FaTTRoZWZtT2w5VEhUTnRway1GOU0wamk2bG51X3czM29DR0wxNlFTUTNPSlQxNkY5RXNFbmZJeTdOT2hiYk5yc2xuYldtaVg3SDcyZXVlTnRGX0hNV282YlhuRW1vaERQVEV4VTc3YnZMeTJYT2Z3TjBWd21zZDVMZTdVdGZqNNIB4AJBVV95cUxQbjUwNG54NUk1TzQ1cFJTbmhZUlRIRmRuUkFIaVotUjF1Z0V3aFNBc1ZRNTNCb2JUWVZ3RUxhN09mb3JQZFdKMHRVZlhXclpidmc0aEs4LVJ1R256Q293YVRLT3ZHVDdDOXRMejh2XzRuNlVaZjR3SkZPa2tJdWkzOUZIeVNvZzExcldHRzUxWWx3cUJwTHBTdFg1MG11VE1FZDN5eDJDNlVTN3ZGTFBsRnllQUdjRFBWOGJBdlRHLUh4bGhoOUZOV2l3OHI5VXNyOWE4eTROZXFTb0JLM1NuVW5lbGwxejRzdTJ0WVdRYnB5My1pbkVZSklXZUV6WGNuc1pNMmpTbDZrVVctTlR3RDBMWnVEMHBrVmFZdjBENF9MRnc4a3JkUnJybmVIeEMzTFo3ay02MWRaZDdTalhfT3BZdTZwNzRIQjFHb2dEWk5jRnFoYjRuTTNRSkpURjNF?oc=5",
    "source": "The Times of India",
-   "published": "2026-11-02T05:48:00Z",
-   "since": "2026-11-02T09:54:47Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Watch OpenAI CEO Sam Altman Says AI Will Transform the Economics of Energy",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWkZzbnhBaW1mZXJzZ0NBNDQxUk1CQW5WNTc0eDYxTGVvZGtIVTRjTGs5THBLLTRMZDFLM0o0ZWpSZU5qNDhxbjNUYXdvVk9wVVI4V01WRFdXQndvcHZndkl4aWE0NkpGVHJtZUlZUW9EX19xeF9HR0RXcUU5VlM1Rm15OTRIaENTeDVLTWhTdWhzWkItMk5JU2tEbXRyN2hrU1NhT3RXZE9FRkdE?oc=5",
-   "source": "Bloomberg",
-   "published": "2026-11-02T00:00:00Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk says he is taking over an old Spam factory and a gun range to expand his Colossus 2 AI complex",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQblNHeVNwZ3NJaDN0UmpkUnc1SzJoNnFYbkEwNWVubEpnbFQ2Sk9qQ09EXzlGdTlpUEg5bkdoWmNIZmZVa2p3M3FlSjBoa3RGbG9QcUtsTzNzWGFaOXY3QVRTZ0JCQ0s3TC1kSG8wMm9Ra0V0SUZkYTVfSDhRSThLR0FQUEd6TkpvQXc?oc=5",
-   "source": "Business Insider",
-   "published": "2026-11-01T21:06:00Z"
+   "published": "2026-11-02T05:48:00Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Google runs its first AI prompt in space and gets a poem back; CEO Sundar Pichai says: We've now successf",
-   "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQb0FoRHZMNHJUV1ZmdEVQODFYY2NHWFdvTlluS25OWjktOFJmTlpvbWc5SUZ3RWYxQy1uaVA2ODNyUDNBdS1HZm5zUlVxSlpiSENFY1R1MWcxNlNEVjhkUGNsbGFva3ZUay1Wc0dOdEkzZzhlZC1SVHAtUjFKbktBTEFtTjdGSjNFaFk0d3pjTWY0STZZWVZuMkM4Vk5UVUNsUXFEUEVTUFhhMlotRk4zQVIwUU5KdkFPeFEyTFZNOVNXeDVmUFlBaXFzbVVpRnNhMlhhQVYzWnZrU3FaTTRoZWZtT2w5VEhUTnRway1GOU0wamk2bG51X3czM29DR0wxNlFTUTNPSlQxNkY5RXNFbmZJeTdOT2hiYk5yc2xuYldtaVg3SDcyZXVlTnRGX0hNV282YlhuRW1vaERQVEV4VTc3YnZMeTJYT2Z3TjBWd21zZDVMZTdVdGZqNNIB4AJBVV95cUxQbjUwNG54NUk1TzQ1cFJTbmhZUlRIRmRuUkFIaVotUjF1Z0V3aFNBc1ZRNTNCb2JUWVZ3RUxhN09mb3JQZFdKMHRVZlhXclpidmc0aEs4LVJ1R256Q293YVRLT3ZHVDdDOXRMejh2XzRuNlVaZjR3SkZPa2tJdWkzOUZIeVNvZzExcldHRzUxWWx3cUJwTHBTdFg1MG11VE1FZDN5eDJDNlVTN3ZGTFBsRnllQUdjRFBWOGJBdlRHLUh4bGhoOUZOV2l3OHI5VXNyOWE4eTROZXFTb0JLM1NuVW5lbGwxejRzdTJ0WVdRYnB5My1pbkVZSklXZUV6WGNuc1pNMmpTbDZrVVctTlR3RDBMWnVEMHBrVmFZdjBENF9MRnc4a3JkUnJybmVIeEMzTFo3ay02MWRaZDdTalhfT3BZdTZwNzRIQjFHb2dEWk5jRnFoYjRuTTNRSkpURjNF?oc=5",
+   "person": "Elon Musk",
+   "title": "Elon Musk Admits Grok Is Losing Money As AI Costs Surge Across Big Tech",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNm1RNVJnNThLMlhaSERrSHgxZ1Z4RlViZndna0pxT21iZWgyVW9YUTlKZjdMY0d5MFZzME9ZOXNYX1M1bzRlUy1MQ3h6U2FQLWtEWnVTMW0yRDlDWUJZeno2ZjEtVFotVnQwVDhNeWF5cm5aN1FXcVE0dlk1blhSSGQ2UTdxM0g0cHlfZUdSM1BFTXh6anFuUWJBaDNEM0lhWF93aVE5V0Nlc3l3eTh5OVQ5QUtiMzcweV9hdHBSbDRld19CY0FHTko3Y0FDc011RkRVTDVheVZUcmFySTBDYW9CNUx4QdIB6wFBVV95cUxNMkJIbkQ1akpUV05hZnpmNmtaRWdRMFliVUo1b0xWWDAxRDMxQmQ3M2toLVV3emd5UVdxM0YxTFRHaWI5TGVpZGxaUkdCWXVvM1gzLVVCa3EyMnAwMjRTNUJwTW5qMmZDaVU2VTkxOEoweEFQZkJjWV96eEJQMGhkWGNaUXhtTVRmWEplTWRKQnZlQUZlam5PRFk0TnExVzdpSjV6dXpaTmQwemt6TVp6MGlQTkVydnNzSXZ2Y3VGeXl2cGhBMml5UmdScmlwVUdWeUJvRmQ2bVR6U0tCRmJHUjRvUDJHT2M1b0pF?oc=5",
    "source": "The Times of India",
-   "published": "2026-11-02T05:48:00Z",
-   "since": "2026-11-02T09:54:47Z"
+   "published": "2026-11-02T17:30:06Z",
+   "since": "2026-11-02T20:17:27Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Sam Altman",
-   "title": "Watch OpenAI CEO Sam Altman Says AI Will Transform the Economics of Energy",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWkZzbnhBaW1mZXJzZ0NBNDQxUk1CQW5WNTc0eDYxTGVvZGtIVTRjTGs5THBLLTRMZDFLM0o0ZWpSZU5qNDhxbjNUYXdvVk9wVVI4V01WRFdXQndvcHZndkl4aWE0NkpGVHJtZUlZUW9EX19xeF9HR0RXcUU5VlM1Rm15OTRIaENTeDVLTWhTdWhzWkItMk5JU2tEbXRyN2hrU1NhT3RXZE9FRkdE?oc=5",
-   "source": "Bloomberg",
-   "published": "2026-11-02T00:00:00Z"
+   "title": "Elon Musk vs Sam Altman: After OpenAI CEO questions people's RAM usage at home, Musk defends ordinary user",
+   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOZEtISmFmU3lBTDFubElWcE90MHN3alBlVGlPTnNQUUpBbFBDSXl0QlhQdTE0bTdaZ3ZTT1RZS1NBZ3ZzX09wU21qakFlLU1ENXl4d2UwUGpLZjd0cFFmY3lyYXVwYy1HS1NPVTNXdXE2R1NiMkRQSlQ5VU0tOHI3Mk5HRldURzFKZmdDV3V1bmZjdHZCZGItUkpjV0syRHVIQmxzNEZiOUVhY3Z1RjdmVkJrUWFwRGpoeUxmQjhvNnNFRUNJRU5qdHlON1N1LWNNMjg3SmRuUjVXM1NPLWNNbkloZFRRb1V5MUN1MldCSlpCQTJ5NDViOVZLLUtzZHFTdUZFSXREbWRfM0IyT1A0cmZwS09PdG5vZWZtMHZUS3BObHPSAZwCQVVfeXFMTkdzRFJGYUZaUkhGU3Z6ZE9JOUhQNnRtLUFBZE9LQ29HODE3cU5yeGt0ZWs3TUtJZWlIWERwaE1RdkZZSGRqU2JncXc1RHdSc0FVOEU1VUlzenJ4TWIwT01qejE2cjJEemY2RGJwck1nUDZRcEQ0bXU2TnVwSHNMSjNIVF80NmpZbVNOSC04ekFpNzdJSFEtVnpVb2FEakM0azFlelB4RVBSdk5jX1E0RHBoWk5vR05oMmc0d1oxRDY5c1d2VUExdlE2X3FXZVh6cUkzUWRaUmRoZHlHNTBCT3hJOERGWEE1TWtDZ3lxYW8wRjhnelNsdkdQaEJKcVdNRHEyT1dfS0pYdTZlUW43Mm5kYjRIMEpwMHRMM20?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-02T13:22:20Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk says he is taking over an old Spam factory and a gun range to expand his Colossus 2 AI complex",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQblNHeVNwZ3NJaDN0UmpkUnc1SzJoNnFYbkEwNWVubEpnbFQ2Sk9qQ09EXzlGdTlpUEg5bkdoWmNIZmZVa2p3M3FlSjBoa3RGbG9QcUtsTzNzWGFaOXY3QVRTZ0JCQ0s3TC1kSG8wMm9Ra0V0SUZkYTVfSDhRSThLR0FQUEd6TkpvQXc?oc=5",
-   "source": "Business Insider",
-   "published": "2026-11-01T21:06:00Z"
+   "person": "Sundar Pichai",
+   "title": "Google runs its first AI prompt in space and gets a poem back; CEO Sundar Pichai says: We've now successf",
+   "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQb0FoRHZMNHJUV1ZmdEVQODFYY2NHWFdvTlluS25OWjktOFJmTlpvbWc5SUZ3RWYxQy1uaVA2ODNyUDNBdS1HZm5zUlVxSlpiSENFY1R1MWcxNlNEVjhkUGNsbGFva3ZUay1Wc0dOdEkzZzhlZC1SVHAtUjFKbktBTEFtTjdGSjNFaFk0d3pjTWY0STZZWVZuMkM4Vk5UVUNsUXFEUEVTUFhhMlotRk4zQVIwUU5KdkFPeFEyTFZNOVNXeDVmUFlBaXFzbVVpRnNhMlhhQVYzWnZrU3FaTTRoZWZtT2w5VEhUTnRway1GOU0wamk2bG51X3czM29DR0wxNlFTUTNPSlQxNkY5RXNFbmZJeTdOT2hiYk5yc2xuYldtaVg3SDcyZXVlTnRGX0hNV282YlhuRW1vaERQVEV4VTc3YnZMeTJYT2Z3TjBWd21zZDVMZTdVdGZqNNIB4AJBVV95cUxQbjUwNG54NUk1TzQ1cFJTbmhZUlRIRmRuUkFIaVotUjF1Z0V3aFNBc1ZRNTNCb2JUWVZ3RUxhN09mb3JQZFdKMHRVZlhXclpidmc0aEs4LVJ1R256Q293YVRLT3ZHVDdDOXRMejh2XzRuNlVaZjR3SkZPa2tJdWkzOUZIeVNvZzExcldHRzUxWWx3cUJwTHBTdFg1MG11VE1FZDN5eDJDNlVTN3ZGTFBsRnllQUdjRFBWOGJBdlRHLUh4bGhoOUZOV2l3OHI5VXNyOWE4eTROZXFTb0JLM1NuVW5lbGwxejRzdTJ0WVdRYnB5My1pbkVZSklXZUV6WGNuc1pNMmpTbDZrVVctTlR3RDBMWnVEMHBrVmFZdjBENF9MRnc4a3JkUnJybmVIeEMzTFo3ay02MWRaZDdTalhfT3BZdTZwNzRIQjFHb2dEWk5jRnFoYjRuTTNRSkpURjNF?oc=5",
+   "source": "The Times of India",
+   "published": "2026-11-02T05:48:00Z"
   },
   {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 4688,
+   "stars": 5208,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -99,7 +99,7 @@
   {
    "kind": "repo",
    "title": "modelflare-ai/AnyModelBot",
-   "stars": 1004,
+   "stars": 1323,
    "note": "TypeScript · new this week",
    "url": "https://github.com/modelflare-ai/AnyModelBot",
    "source": "GitHub",
@@ -109,7 +109,7 @@
   {
    "kind": "repo",
    "title": "jackwener/DSH-Android",
-   "stars": 735,
+   "stars": 749,
    "note": "Kotlin · new this week",
    "url": "https://github.com/jackwener/DSH-Android",
    "source": "GitHub",
@@ -119,7 +119,7 @@
   {
    "kind": "repo",
    "title": "N1nEmAn/sapper-v2",
-   "stars": 566,
+   "stars": 596,
    "note": "Python · new this week",
    "url": "https://github.com/N1nEmAn/sapper-v2",
    "source": "GitHub",
@@ -129,7 +129,7 @@
   {
    "kind": "repo",
    "title": "Balanov/uncut",
-   "stars": 461,
+   "stars": 570,
    "note": "Go · new this week",
    "url": "https://github.com/Balanov/uncut",
    "source": "GitHub",
@@ -139,7 +139,7 @@
   {
    "kind": "repo",
    "title": "wanghao-SunSky/cs329z-chinese",
-   "stars": 418,
+   "stars": 443,
    "note": "HTML · new this week",
    "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
    "source": "GitHub",
@@ -149,7 +149,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 10732,
+   "stars": 12754,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -158,18 +158,8 @@
   },
   {
    "kind": "repo",
-   "title": "anhao/ai-pose-gallery-zh",
-   "stars": 5362,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/anhao/ai-pose-gallery-zh",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "heydamir/unslop",
-   "stars": 5310,
+   "stars": 6041,
    "note": "JavaScript · new this week",
    "url": "https://github.com/heydamir/unslop",
    "source": "GitHub",
@@ -178,8 +168,18 @@
   },
   {
    "kind": "repo",
+   "title": "anhao/ai-pose-gallery-zh",
+   "stars": 5472,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/anhao/ai-pose-gallery-zh",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "valentderah/totk-pc-recomp",
-   "stars": 3476,
+   "stars": 3896,
    "note": "C · new this week",
    "url": "https://github.com/valentderah/totk-pc-recomp",
    "source": "GitHub",
@@ -189,57 +189,109 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 386,
-   "title": "Ask HN: Which TV do you recommend for privacy?",
+   "points": 205,
+   "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
    "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50328896",
-   "discuss": "https://news.ycombinator.com/item?id=50328896"
+   "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+   "discuss": "https://news.ycombinator.com/item?id=50339494"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 375,
-   "title": "The AI cost of JavaScript frameworks",
+   "points": 76,
+   "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
    "source": "Hacker News",
-   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-   "discuss": "https://news.ycombinator.com/item?id=50323088"
+   "url": "https://momentic.ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50339913"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 59,
+   "title": "LongCat-2.5: Native Multimodality for Agentic Tasks",
+   "source": "Hacker News",
+   "url": "https://longcat.ai/blog/longcat-2.5/",
+   "discuss": "https://news.ycombinator.com/item?id=50337716"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 51,
+   "title": "GPT-Rosalind-6 System Card Addendum",
+   "source": "Hacker News",
+   "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+   "discuss": "https://news.ycombinator.com/item?id=50337503"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 46,
+   "title": "Agentic backdoors via pretraining poisoning",
+   "source": "Hacker News",
+   "url": "https://arxiv.org/abs/2610.37741",
+   "discuss": "https://news.ycombinator.com/item?id=50341334"
   },
   {
    "kind": "news",
    "tag": "HN",
    "points": 34,
-   "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+   "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
    "source": "Hacker News",
-   "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
-   "discuss": "https://news.ycombinator.com/item?id=50334038"
+   "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+   "discuss": "https://news.ycombinator.com/item?id=50342284"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 33,
+   "title": "Egoless Mathematics in the AI Era",
+   "source": "Hacker News",
+   "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+   "discuss": "https://news.ycombinator.com/item?id=50341736"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 24,
+   "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+   "source": "Hacker News",
+   "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+   "discuss": "https://news.ycombinator.com/item?id=50342424"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+   "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+   "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+   "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/"
+   "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+   "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+   "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+   "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/"
+   "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "The agentic web is here",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
   },
   {
    "kind": "news",
@@ -254,13 +306,6 @@
    "title": "Creating AI value with enterprise context",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Pairing industrial AI autonomy and human control",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/"
   }
  ],
  "errors": []

@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-11-02",
   "note": "Free, limited-shelf-life items. Expiry dates are real; downloads come down when an item expires. No prices, no checkout, no counts.",
   "items": [
+    {
+      "id": "before-diwali-ai-handover-kit",
+      "name": "The Before-Diwali AI Handover Kit",
+      "type": "Free handover card, prompts and checklist (Markdown)",
+      "added": "2026-11-02",
+      "available_until": "2026-11-07T23:59:00+05:30",
+      "available_until_label": "Saturday 7 November 2026, 11:59 PM IST",
+      "hook": "Urgency tied to a real window (the days before Diwali on 8 November, when people hand over work before leave) plus loss aversion: systems tend to break when their owner is away, and the kit comes down after 7 November.",
+      "asset": "novelty/before-diwali-ai-handover-kit.md",
+      "status": "live"
+    },
     {
       "id": "big-news-week-rumour-check",
       "name": "Big-News Week Rumour Check",
@@ -21,8 +32,8 @@
       "available_until": "2026-11-01T23:59:00+05:30",
       "available_until_label": "Sunday 1 November 2026, 11:59 PM IST",
       "hook": "Novelty bias and seasonal urgency (Halloween week): a playful framing makes a dry model-risk review feel worth doing now, and the pack comes down on 1 November.",
-      "asset": "novelty/ai-haunted-house-audit.md",
-      "status": "live"
+      "asset": null,
+      "status": "expired"
     },
     {
       "id": "results-season-ai-claims-decoder",
@@ -32,8 +43,8 @@
       "available_until": "2026-11-01T23:59:00+05:30",
       "available_until_label": "Sunday 1 November 2026, 11:59 PM IST",
       "hook": "Urgency tied to a real window (the July–September results season) plus novelty bias: a fresh lens on this quarter's AI claims while the documents are new.",
-      "asset": "novelty/results-season-ai-claims-decoder.md",
-      "status": "live"
+      "asset": null,
+      "status": "expired"
     },
     {
       "id": "festive-scam-prompt-pack",
@@ -43,8 +54,8 @@
       "available_until": "2026-10-30T23:59:00+05:30",
       "available_until_label": "Friday 30 October 2026, 11:59 PM IST",
       "hook": "Urgency tied to a real seasonal window, plus loss aversion: the pack is most useful before the festive shopping peak, and it comes down after 30 October.",
-      "asset": "novelty/festive-scam-prompt-pack.md",
-      "status": "live"
+      "asset": null,
+      "status": "expired"
     }
   ]
 }

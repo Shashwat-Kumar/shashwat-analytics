@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T09:59:35Z",
+ "generated_at": "2026-11-03T17:45:08Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,70 +8,70 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
-  "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+  "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+  "url": "https://news.ycombinator.com/item?id=50352757",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50344919",
-  "points": 351,
-  "comments": 258,
-  "published": "2026-11-02T22:30:47Z",
-  "since": "2026-11-03T02:27:49Z"
+  "discuss": "https://news.ycombinator.com/item?id=50352757",
+  "points": 136,
+  "comments": 47,
+  "published": "2026-11-03T14:53:41Z",
+  "since": "2026-11-03T17:45:08Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Elon Musk says future AI computing will be 100% in space, here's why",
-  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMzI2UThlQmpDTXFTRld2aGdLaXZVV2JMT0FrcUNlRFhhZk5qOE9ETjVkVTFxZ05oOUtlT0dXRWFUSlZzc1hGQXpCVUdCOGVFZUhrbFItSm1nRGxwSWlxTUhPLUlUMjBiSDE4THpsNTdwM0xYbnRRTDlxbE5iQUdHamZPa2hwUnVhUnF2UzgxVy1MUW1WMElNc1JVWENhT0dOSUV1YlVCWldNRWhhMW1Gb2RTX0tYM2RDZEtKYkxuXzdJTEpoeldwUXZXYmd1Q3lKcUHSAdIBQVVfeXFMTjMyNlE4ZUJqQ01xU0ZXdmhnS2l2VVdiTE9Ba3FDZURYYWZOajhPRE41ZFUxcWdOaDlLZU9HV0VhVEpWc3NYRkF6QlVHQjhlRWVIa2xSLUptZ0RscElpcU1ITy1JVDIwYkgxOEx6bDU3cDNMWG50UUw5cWxOYkFHR2pmT2tocFJ1YVJxdlM4MVctTFFtVjBJTXNSVVhDYU9HTklFdWJVQlpXTUVoYTFtRm9kU19LWDNkQ2RLSmJMbl83SUxKaHpXcFF2V2JndUN5SnFB?oc=5",
+  "person": "Sam Altman",
+  "title": "Sam Altman says he hates AI companies claiming it will cure cancer, talks about human freedom",
+  "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPX0lIeHNtTUw4bWxPYVdndnViZi1Na1Q0bjg1Mk9oMTV6al84ejU0SUt4RXU1ZXJMa2ZOYmdCbm4tRHl5ZXU5alBWZVVaVWxjMHR2MDFXcklzcWp6WFpTZTh4cnlhT1FYUWNJbTdnd3JpWHlXY2Nad1hNd3E5cnRoT3hoVkVvMkpYeGV0T3Z1X0pnRDdHWHJHaklSYjdDMmtPMnhxbldRLUx6bkNYRzhNdDFVYWNpai1LM3FhR011cFNBczBFQVAtRmlVVkpaQ205VFhwSnNXcWFUNXB4RzYzU3NYaE5WTko3eE91NFU4dHNrOVlDLUHSAfYBQVVfeXFMT19JSHhzbU1MOG1sT2FXZ3Z1YmYtTWtUNG44NTJPaDE1empfOHo1NElLeEV1NWVyTGtmTmJnQm5uLUR5eWV1OWpQVmVVWlVsYzB0djAxV3JJc3FqelhaU2U4eHJ5YU9RWFFjSW03Z3dyaVh5V2NjWndYTXdxOXJ0aE94aFZFbzJKWHhldE92dV9KZ0Q3R1hyR2pJUmI3QzJrTzJ4cW5XUS1Mem5DWEc4TXQxVWFjaWotSzNxYUdNdXBTQXMwRUFQLUZpVVZKWkNtOVRYcEpzV3FhVDVweEc2M1NzWGhOVk5KN3hPdTRVOHRzazlZQy1B?oc=5",
   "source": "India Today",
-  "published": "2026-11-03T05:40:28Z",
-  "since": "2026-11-03T09:59:35Z"
+  "published": "2026-11-03T13:54:41Z",
+  "since": "2026-11-03T17:45:08Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk says future AI computing will be 100% in space, here's why",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMzI2UThlQmpDTXFTRld2aGdLaXZVV2JMT0FrcUNlRFhhZk5qOE9ETjVkVTFxZ05oOUtlT0dXRWFUSlZzc1hGQXpCVUdCOGVFZUhrbFItSm1nRGxwSWlxTUhPLUlUMjBiSDE4THpsNTdwM0xYbnRRTDlxbE5iQUdHamZPa2hwUnVhUnF2UzgxVy1MUW1WMElNc1JVWENhT0dOSUV1YlVCWldNRWhhMW1Gb2RTX0tYM2RDZEtKYkxuXzdJTEpoeldwUXZXYmd1Q3lKcUHSAdIBQVVfeXFMTjMyNlE4ZUJqQ01xU0ZXdmhnS2l2VVdiTE9Ba3FDZURYYWZOajhPRE41ZFUxcWdOaDlLZU9HV0VhVEpWc3NYRkF6QlVHQjhlRWVIa2xSLUptZ0RscElpcU1ITy1JVDIwYkgxOEx6bDU3cDNMWG50UUw5cWxOYkFHR2pmT2tocFJ1YVJxdlM4MVctTFFtVjBJTXNSVVhDYU9HTklFdWJVQlpXTUVoYTFtRm9kU19LWDNkQ2RLSmJMbl83SUxKaHpXcFF2V2JndUN5SnFB?oc=5",
+   "person": "Sam Altman",
+   "title": "Sam Altman says he hates AI companies claiming it will cure cancer, talks about human freedom",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPX0lIeHNtTUw4bWxPYVdndnViZi1Na1Q0bjg1Mk9oMTV6al84ejU0SUt4RXU1ZXJMa2ZOYmdCbm4tRHl5ZXU5alBWZVVaVWxjMHR2MDFXcklzcWp6WFpTZTh4cnlhT1FYUWNJbTdnd3JpWHlXY2Nad1hNd3E5cnRoT3hoVkVvMkpYeGV0T3Z1X0pnRDdHWHJHaklSYjdDMmtPMnhxbldRLUx6bkNYRzhNdDFVYWNpai1LM3FhR011cFNBczBFQVAtRmlVVkpaQ205VFhwSnNXcWFUNXB4RzYzU3NYaE5WTko3eE91NFU4dHNrOVlDLUHSAfYBQVVfeXFMT19JSHhzbU1MOG1sT2FXZ3Z1YmYtTWtUNG44NTJPaDE1empfOHo1NElLeEV1NWVyTGtmTmJnQm5uLUR5eWV1OWpQVmVVWlVsYzB0djAxV3JJc3FqelhaU2U4eHJ5YU9RWFFjSW03Z3dyaVh5V2NjWndYTXdxOXJ0aE94aFZFbzJKWHhldE92dV9KZ0Q3R1hyR2pJUmI3QzJrTzJ4cW5XUS1Mem5DWEc4TXQxVWFjaWotSzNxYUdNdXBTQXMwRUFQLUZpVVZKWkNtOVRYcEpzV3FhVDVweEc2M1NzWGhOVk5KN3hPdTRVOHRzazlZQy1B?oc=5",
    "source": "India Today",
-   "published": "2026-11-03T05:40:28Z",
-   "since": "2026-11-03T09:59:35Z"
+   "published": "2026-11-03T13:54:41Z",
+   "since": "2026-11-03T17:45:08Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "OpenAI CEO Sam Altman questions why people keep so much RAM in their computers; but what happens when the",
-   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNNUw5VkNUVHNibVZ0N0xnaFl0aWVUVTN2VDV1dTlhYVlsMEdxdTF3dk51V0xPdV93SzNtX0xvbWxLMXBrMUF3ZllrMVlwbFdkeS1PM0pOZzg5b3BHZk5YcjRndHlMakhXS18yMHExX1lzcE5wRHBCMDdwYU1TZzVScWxkOFk2WkdiNlNaN1JMQV83eXhyNG9Db05sZkNWcXZrUEhXYWNLSUxpa1IzRUU1MVRGTllfRVdWdU5SZnBoaFprNkZOTm50MHRkWFVGTzB0Smt5bWlZMERrTUt0cUtwakZrMGZTREhGS3hlM28yUUZDOWtiOTZVbHUyaExpZUFCekxWRFYyRU43WGE5cWVibzAtNUYtZUV5YTdqWNIBogJBVV95cUxQTC1FN3JNSXFZN0Z1VFR0S19kc0plNVdfanZoZnZhb2xSQU1lSlotQTNXVE9sUmpVYnRfQW9zNFYwbklGdTY4Wi1TOExpWm03MEJRX0QwdmlNaUNncXV5aWRESkRfTGthLWxDMUoxWXhuLUd3QU9EcGU5cVM5UVVkZldOWXNjb0dFYnB4VF9tSUVaZjRQcEVoVW5YeGNUc3Y2LTRMSXRWUWlhcGE4OGwyRmxpUDNGS2lJbDRaVG5lWmtUVFprTHRfbnJJSlBSM1M4V214Tmw4amt4YldvZzBVd0w5VHFpcV9ZdWQ5M1JPYUtESmEyaXdKaWFSeUhsQ0UtT0JFejVhdUFKdTMtNDhVWTJLVXVjZnlIQW81b2hDOC00dw?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-11-02T21:18:46Z"
+   "person": "Elon Musk",
+   "title": "Elon Musk Says 'AI Will Make Money Useless'; Harvard Economist Says 'Foolish’!",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQVN5OWpSajg2RmY5SVRpVDhkV1EtdGdGN0hXS1pES2FjT0pJSHRmNUt2ek0zQkVWV1NwOTQwamxWVDh3V0tWTmpqMHR4U1hmNS16NEJQSVBCNFJBN19vX2hrYlc0X0YtRUt2YmdvVVB3aWJHdmY5cTZobGNGam93bHIxZlNwUlh0R1NDVDJyanVVMEZGRm85eXdiNndtWktSUDVVMWJ1akc3UHhoczAzWmFJaFlWNVVyZzVjNTJ1SHZaM1ViR2JjOHAwNTMtNlFweTY4WDhaUWVBcXluX3BRZ1VDNkXSAeoBQVVfeXFMUEc3R0otZ3MtMXlWRHVOSnVnUEk0bmUwbHppTGZhb2NKdzduOGpncWxoRU5yR3hka1ZFcXJ3WTk1V3ByWUZjX1dIRVpyN0dRTGdJamV5ZnNLTm0tV0ZSNXgtUnRxazBnaHdHdzdhSVhpNHNOb3VkU2tGZ2F5MGtJSTFFd3lqdmhCZ1JtNFFkTFhFSVZwbzNKdTBBTzByTWtEVmxLMXh2SFhfeV8tSVgxT3l5bXg5ZGVzQlVIWkhNQVN2VVhCTHpDelFwcUQ1eDVwZWd0aUl1cmp3di1CdXdUWFVVOFFzUG1qQlJR?oc=5",
+   "source": "The Times of India",
+   "published": "2026-11-03T12:45:41Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk says future AI computing will be 100% in space, here's why",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMzI2UThlQmpDTXFTRld2aGdLaXZVV2JMT0FrcUNlRFhhZk5qOE9ETjVkVTFxZ05oOUtlT0dXRWFUSlZzc1hGQXpCVUdCOGVFZUhrbFItSm1nRGxwSWlxTUhPLUlUMjBiSDE4THpsNTdwM0xYbnRRTDlxbE5iQUdHamZPa2hwUnVhUnF2UzgxVy1MUW1WMElNc1JVWENhT0dOSUV1YlVCWldNRWhhMW1Gb2RTX0tYM2RDZEtKYkxuXzdJTEpoeldwUXZXYmd1Q3lKcUHSAdIBQVVfeXFMTjMyNlE4ZUJqQ01xU0ZXdmhnS2l2VVdiTE9Ba3FDZURYYWZOajhPRE41ZFUxcWdOaDlLZU9HV0VhVEpWc3NYRkF6QlVHQjhlRWVIa2xSLUptZ0RscElpcU1ITy1JVDIwYkgxOEx6bDU3cDNMWG50UUw5cWxOYkFHR2pmT2tocFJ1YVJxdlM4MVctTFFtVjBJTXNSVVhDYU9HTklFdWJVQlpXTUVoYTFtRm9kU19LWDNkQ2RLSmJMbl83SUxKaHpXcFF2V2JndUN5SnFB?oc=5",
+   "person": "Sam Altman",
+   "title": "Sam Altman says he hates AI companies claiming it will cure cancer, talks about human freedom",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPX0lIeHNtTUw4bWxPYVdndnViZi1Na1Q0bjg1Mk9oMTV6al84ejU0SUt4RXU1ZXJMa2ZOYmdCbm4tRHl5ZXU5alBWZVVaVWxjMHR2MDFXcklzcWp6WFpTZTh4cnlhT1FYUWNJbTdnd3JpWHlXY2Nad1hNd3E5cnRoT3hoVkVvMkpYeGV0T3Z1X0pnRDdHWHJHaklSYjdDMmtPMnhxbldRLUx6bkNYRzhNdDFVYWNpai1LM3FhR011cFNBczBFQVAtRmlVVkpaQ205VFhwSnNXcWFUNXB4RzYzU3NYaE5WTko3eE91NFU4dHNrOVlDLUHSAfYBQVVfeXFMT19JSHhzbU1MOG1sT2FXZ3Z1YmYtTWtUNG44NTJPaDE1empfOHo1NElLeEV1NWVyTGtmTmJnQm5uLUR5eWV1OWpQVmVVWlVsYzB0djAxV3JJc3FqelhaU2U4eHJ5YU9RWFFjSW03Z3dyaVh5V2NjWndYTXdxOXJ0aE94aFZFbzJKWHhldE92dV9KZ0Q3R1hyR2pJUmI3QzJrTzJ4cW5XUS1Mem5DWEc4TXQxVWFjaWotSzNxYUdNdXBTQXMwRUFQLUZpVVZKWkNtOVRYcEpzV3FhVDVweEc2M1NzWGhOVk5KN3hPdTRVOHRzazlZQy1B?oc=5",
    "source": "India Today",
-   "published": "2026-11-03T05:40:28Z",
-   "since": "2026-11-03T09:59:35Z"
+   "published": "2026-11-03T13:54:41Z",
+   "since": "2026-11-03T17:45:08Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "OpenAI CEO Sam Altman questions why people keep so much RAM in their computers; but what happens when the",
-   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNNUw5VkNUVHNibVZ0N0xnaFl0aWVUVTN2VDV1dTlhYVlsMEdxdTF3dk51V0xPdV93SzNtX0xvbWxLMXBrMUF3ZllrMVlwbFdkeS1PM0pOZzg5b3BHZk5YcjRndHlMakhXS18yMHExX1lzcE5wRHBCMDdwYU1TZzVScWxkOFk2WkdiNlNaN1JMQV83eXhyNG9Db05sZkNWcXZrUEhXYWNLSUxpa1IzRUU1MVRGTllfRVdWdU5SZnBoaFprNkZOTm50MHRkWFVGTzB0Smt5bWlZMERrTUt0cUtwakZrMGZTREhGS3hlM28yUUZDOWtiOTZVbHUyaExpZUFCekxWRFYyRU43WGE5cWVibzAtNUYtZUV5YTdqWNIBogJBVV95cUxQTC1FN3JNSXFZN0Z1VFR0S19kc0plNVdfanZoZnZhb2xSQU1lSlotQTNXVE9sUmpVYnRfQW9zNFYwbklGdTY4Wi1TOExpWm03MEJRX0QwdmlNaUNncXV5aWRESkRfTGthLWxDMUoxWXhuLUd3QU9EcGU5cVM5UVVkZldOWXNjb0dFYnB4VF9tSUVaZjRQcEVoVW5YeGNUc3Y2LTRMSXRWUWlhcGE4OGwyRmxpUDNGS2lJbDRaVG5lWmtUVFprTHRfbnJJSlBSM1M4V214Tmw4amt4YldvZzBVd0w5VHFpcV9ZdWQ5M1JPYUtESmEyaXdKaWFSeUhsQ0UtT0JFejVhdUFKdTMtNDhVWTJLVXVjZnlIQW81b2hDOC00dw?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-11-02T21:18:46Z"
+   "person": "Elon Musk",
+   "title": "Elon Musk Says 'AI Will Make Money Useless'; Harvard Economist Says 'Foolish’!",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQVN5OWpSajg2RmY5SVRpVDhkV1EtdGdGN0hXS1pES2FjT0pJSHRmNUt2ek0zQkVWV1NwOTQwamxWVDh3V0tWTmpqMHR4U1hmNS16NEJQSVBCNFJBN19vX2hrYlc0X0YtRUt2YmdvVVB3aWJHdmY5cTZobGNGam93bHIxZlNwUlh0R1NDVDJyanVVMEZGRm85eXdiNndtWktSUDVVMWJ1akc3UHhoczAzWmFJaFlWNVVyZzVjNTJ1SHZaM1ViR2JjOHAwNTMtNlFweTY4WDhaUWVBcXluX3BRZ1VDNkXSAeoBQVVfeXFMUEc3R0otZ3MtMXlWRHVOSnVnUEk0bmUwbHppTGZhb2NKdzduOGpncWxoRU5yR3hka1ZFcXJ3WTk1V3ByWUZjX1dIRVpyN0dRTGdJamV5ZnNLTm0tV0ZSNXgtUnRxazBnaHdHdzdhSVhpNHNOb3VkU2tGZ2F5MGtJSTFFd3lqdmhCZ1JtNFFkTFhFSVZwbzNKdTBBTzByTWtEVmxLMXh2SFhfeV8tSVgxT3l5bXg5ZGVzQlVIWkhNQVN2VVhCTHpDelFwcUQ1eDVwZWd0aUl1cmp3di1CdXdUWFVVOFFzUG1qQlJR?oc=5",
+   "source": "The Times of India",
+   "published": "2026-11-03T12:45:41Z"
   },
   {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 5801,
+   "stars": 5997,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "N1nEmAn/sapper-v2",
-   "stars": 649,
+   "stars": 658,
    "note": "Python · new this week",
    "url": "https://github.com/N1nEmAn/sapper-v2",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "Balanov/uncut",
-   "stars": 579,
+   "stars": 588,
    "note": "Go · new this week",
    "url": "https://github.com/Balanov/uncut",
    "source": "GitHub",
@@ -101,7 +101,7 @@
   {
    "kind": "repo",
    "title": "wanghao-SunSky/cs329z-chinese",
-   "stars": 474,
+   "stars": 479,
    "note": "HTML · new this week",
    "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
    "source": "GitHub",
@@ -111,7 +111,7 @@
   {
    "kind": "repo",
    "title": "jmanico/grim-prompter",
-   "stars": 350,
+   "stars": 353,
    "note": " · new this week",
    "url": "https://github.com/jmanico/grim-prompter",
    "source": "GitHub",
@@ -121,7 +121,7 @@
   {
    "kind": "repo",
    "title": "aa1143/NamiAgent",
-   "stars": 262,
+   "stars": 284,
    "note": "Python · new this week",
    "url": "https://github.com/aa1143/NamiAgent",
    "source": "GitHub",
@@ -131,7 +131,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 15222,
+   "stars": 16254,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -140,18 +140,8 @@
   },
   {
    "kind": "repo",
-   "title": "heydamir/unslop",
-   "stars": 6778,
-   "note": "JavaScript · new this week",
-   "url": "https://github.com/heydamir/unslop",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "storytold/craft-anything",
-   "stars": 5719,
+   "stars": 7425,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/craft-anything",
    "source": "GitHub",
@@ -160,8 +150,18 @@
   },
   {
    "kind": "repo",
+   "title": "heydamir/unslop",
+   "stars": 7234,
+   "note": "JavaScript · new this week",
+   "url": "https://github.com/heydamir/unslop",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "valentderah/totk-pc-recomp",
-   "stars": 4230,
+   "stars": 4412,
    "note": "C · new this week",
    "url": "https://github.com/valentderah/totk-pc-recomp",
    "source": "GitHub",
@@ -171,66 +171,91 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 351,
-   "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+   "points": 199,
+   "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
    "source": "Hacker News",
-   "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-   "discuss": "https://news.ycombinator.com/item?id=50344919"
+   "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+   "discuss": "https://news.ycombinator.com/item?id=50336918"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 222,
-   "title": "Scaling Git at OpenAI",
+   "points": 136,
+   "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
    "source": "Hacker News",
-   "url": "https://openai.com/index/scaling-git-at-openai/",
-   "discuss": "https://news.ycombinator.com/item?id=50345924"
+   "url": "https://news.ycombinator.com/item?id=50352757",
+   "discuss": "https://news.ycombinator.com/item?id=50352757"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 159,
-   "title": "Egoless Mathematics in the AI Era",
+   "points": 83,
+   "title": "Quili AI",
    "source": "Hacker News",
-   "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
-   "discuss": "https://news.ycombinator.com/item?id=50341736"
+   "url": "https://www.quili.ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50353475"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 143,
-   "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+   "points": 42,
+   "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
    "source": "Hacker News",
-   "url": "https://momentic.ai/",
-   "discuss": "https://news.ycombinator.com/item?id=50339913"
+   "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+   "discuss": "https://news.ycombinator.com/item?id=50354960"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 26,
+   "title": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
+   "source": "Hacker News",
+   "url": "https://concepts.laxmena.com/",
+   "discuss": "https://news.ycombinator.com/item?id=50353468"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 10,
+   "title": "Embedding boolean circuits in a neural network",
+   "source": "Hacker News",
+   "url": "https://edwardbenson.com/2026/10/embedding-boolean-circuits-in-a-neural-network",
+   "discuss": "https://news.ycombinator.com/item?id=50326545"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+   "title": "Anthropic is still grappling with the economics of compute",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/"
+   "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+   "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/"
+   "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+   "title": "Apple restricts dating apps and AI companions to users 18 and up",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/"
+   "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+   "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on Nov. 4",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/"
+   "url": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/"
   },
   {
    "kind": "news",
@@ -245,13 +270,6 @@
    "title": "Stop counting tokens, start counting what ships",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The agentic web is here",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
   }
  ],
  "errors": []

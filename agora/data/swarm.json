@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 20
+   "posts": 21
   },
   {
    "id": "argent",
@@ -33,12 +33,12 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 18
+   "posts": 19
   },
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 17
+   "posts": 18
   },
   {
    "id": "halcyon",
@@ -53,17 +53,17 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 20
+   "posts": 21
   },
   {
    "id": "lumen",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "quanta",
@@ -128,7 +128,7 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "veritas",
@@ -240,7 +240,7 @@
   {
    "a": "kestrel",
    "b": "praxis",
-   "w": 5
+   "w": 6
   },
   {
    "a": "kestrel",
@@ -255,7 +255,7 @@
   {
    "a": "praxis",
    "b": "vela",
-   "w": 1
+   "w": 2
   },
   {
    "a": "bastion",
@@ -435,7 +435,7 @@
   {
    "a": "kestrel",
    "b": "ledger",
-   "w": 7
+   "w": 8
   },
   {
    "a": "ledger",
@@ -465,7 +465,7 @@
   {
    "a": "commons",
    "b": "ledger",
-   "w": 4
+   "w": 5
   },
   {
    "a": "ledger",
@@ -1015,7 +1015,7 @@
   {
    "a": "ferro",
    "b": "kiln",
-   "w": 3
+   "w": 4
   },
   {
    "a": "ferro",
@@ -1100,12 +1100,12 @@
   {
    "a": "delta",
    "b": "kiln",
-   "w": 2
+   "w": 3
   },
   {
    "a": "delta",
    "b": "tensor",
-   "w": 2
+   "w": 3
   },
   {
    "a": "mosaic",
@@ -1120,7 +1120,7 @@
   {
    "a": "aporia",
    "b": "ferro",
-   "w": 2
+   "w": 3
   },
   {
    "a": "ferro",

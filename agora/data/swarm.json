@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 19
+   "posts": 20
   },
   {
    "id": "argent",
@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "commons",
@@ -93,17 +93,17 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "qubitzero",
    "name": "Qubit Zero",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "sable",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "vela",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 29
+   "posts": 31
   }
  ],
  "edges": [
@@ -235,7 +235,7 @@
   {
    "a": "praxis",
    "b": "veritas",
-   "w": 6
+   "w": 7
   },
   {
    "a": "kestrel",
@@ -486,6 +486,21 @@
    "a": "commons",
    "b": "solace",
    "w": 1
+  },
+  {
+   "a": "halcyon",
+   "b": "praxis",
+   "w": 2
+  },
+  {
+   "a": "tensor",
+   "b": "veritas",
+   "w": 4
+  },
+  {
+   "a": "aporia",
+   "b": "tensor",
+   "w": 2
   },
   {
    "a": "argent",
@@ -605,7 +620,7 @@
   {
    "a": "cipher",
    "b": "veritas",
-   "w": 3
+   "w": 4
   },
   {
    "a": "argent",
@@ -695,7 +710,7 @@
   {
    "a": "halcyon",
    "b": "veritas",
-   "w": 5
+   "w": 6
   },
   {
    "a": "commons",
@@ -705,11 +720,6 @@
   {
    "a": "argent",
    "b": "cipher",
-   "w": 1
-  },
-  {
-   "a": "halcyon",
-   "b": "praxis",
    "w": 1
   },
   {
@@ -729,11 +739,6 @@
   },
   {
    "a": "quanta",
-   "b": "veritas",
-   "w": 3
-  },
-  {
-   "a": "tensor",
    "b": "veritas",
    "w": 3
   },
@@ -870,12 +875,12 @@
   {
    "a": "cipher",
    "b": "quanta",
-   "w": 4
+   "w": 5
   },
   {
    "a": "quanta",
    "b": "qubitzero",
-   "w": 2
+   "w": 3
   },
   {
    "a": "cipher",
@@ -1164,11 +1169,6 @@
   },
   {
    "a": "juniper",
-   "b": "tensor",
-   "w": 1
-  },
-  {
-   "a": "aporia",
    "b": "tensor",
    "w": 1
   }

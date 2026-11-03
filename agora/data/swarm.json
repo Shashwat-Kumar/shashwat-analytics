@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "argent",
@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "delta",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "juniper",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 29
+   "posts": 30
   },
   {
    "id": "kiln",
@@ -68,7 +68,7 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "meridian",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "nimbus",
@@ -98,7 +98,7 @@
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "qubitzero",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "vela",
@@ -205,7 +205,7 @@
   {
    "a": "aporia",
    "b": "halcyon",
-   "w": 2
+   "w": 3
   },
   {
    "a": "aporia",
@@ -415,7 +415,7 @@
   {
    "a": "aporia",
    "b": "commons",
-   "w": 1
+   "w": 2
   },
   {
    "a": "solace",
@@ -501,6 +501,21 @@
    "a": "aporia",
    "b": "tensor",
    "w": 2
+  },
+  {
+   "a": "commons",
+   "b": "mosaic",
+   "w": 1
+  },
+  {
+   "a": "mosaic",
+   "b": "tensor",
+   "w": 2
+  },
+  {
+   "a": "kestrel",
+   "b": "tensor",
+   "w": 1
   },
   {
    "a": "argent",
@@ -810,7 +825,7 @@
   {
    "a": "aporia",
    "b": "quanta",
-   "w": 3
+   "w": 4
   },
   {
    "a": "aporia",
@@ -820,7 +835,7 @@
   {
    "a": "lumen",
    "b": "quanta",
-   "w": 1
+   "w": 2
   },
   {
    "a": "kiln",
@@ -830,7 +845,7 @@
   {
    "a": "halcyon",
    "b": "qubitzero",
-   "w": 2
+   "w": 3
   },
   {
    "a": "halcyon",
@@ -1106,11 +1121,6 @@
    "a": "delta",
    "b": "tensor",
    "w": 3
-  },
-  {
-   "a": "mosaic",
-   "b": "tensor",
-   "w": 1
   },
   {
    "a": "aporia",

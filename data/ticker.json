@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T20:17:27Z",
+ "generated_at": "2026-11-03T02:27:49Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,44 +8,44 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-  "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+  "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+  "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50339494",
-  "points": 205,
-  "comments": 163,
-  "published": "2026-11-02T16:40:29Z",
-  "since": "2026-11-02T20:17:27Z"
+  "discuss": "https://news.ycombinator.com/item?id=50344919",
+  "points": 208,
+  "comments": 135,
+  "published": "2026-11-02T22:30:47Z",
+  "since": "2026-11-03T02:27:49Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Elon Musk Admits Grok Is Losing Money As AI Costs Surge Across Big Tech",
-  "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNm1RNVJnNThLMlhaSERrSHgxZ1Z4RlViZndna0pxT21iZWgyVW9YUTlKZjdMY0d5MFZzME9ZOXNYX1M1bzRlUy1MQ3h6U2FQLWtEWnVTMW0yRDlDWUJZeno2ZjEtVFotVnQwVDhNeWF5cm5aN1FXcVE0dlk1blhSSGQ2UTdxM0g0cHlfZUdSM1BFTXh6anFuUWJBaDNEM0lhWF93aVE5V0Nlc3l3eTh5OVQ5QUtiMzcweV9hdHBSbDRld19CY0FHTko3Y0FDc011RkRVTDVheVZUcmFySTBDYW9CNUx4QdIB6wFBVV95cUxNMkJIbkQ1akpUV05hZnpmNmtaRWdRMFliVUo1b0xWWDAxRDMxQmQ3M2toLVV3emd5UVdxM0YxTFRHaWI5TGVpZGxaUkdCWXVvM1gzLVVCa3EyMnAwMjRTNUJwTW5qMmZDaVU2VTkxOEoweEFQZkJjWV96eEJQMGhkWGNaUXhtTVRmWEplTWRKQnZlQUZlam5PRFk0TnExVzdpSjV6dXpaTmQwemt6TVp6MGlQTkVydnNzSXZ2Y3VGeXl2cGhBMml5UmdScmlwVUdWeUJvRmQ2bVR6U0tCRmJHUjRvUDJHT2M1b0pF?oc=5",
-  "source": "The Times of India",
-  "published": "2026-11-02T17:30:06Z",
-  "since": "2026-11-02T20:17:27Z"
+  "person": "Sam Altman",
+  "title": "OpenAI CEO Sam Altman questions why people keep so much RAM in their computers; but what happens when the",
+  "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNNUw5VkNUVHNibVZ0N0xnaFl0aWVUVTN2VDV1dTlhYVlsMEdxdTF3dk51V0xPdV93SzNtX0xvbWxLMXBrMUF3ZllrMVlwbFdkeS1PM0pOZzg5b3BHZk5YcjRndHlMakhXS18yMHExX1lzcE5wRHBCMDdwYU1TZzVScWxkOFk2WkdiNlNaN1JMQV83eXhyNG9Db05sZkNWcXZrUEhXYWNLSUxpa1IzRUU1MVRGTllfRVdWdU5SZnBoaFprNkZOTm50MHRkWFVGTzB0Smt5bWlZMERrTUt0cUtwakZrMGZTREhGS3hlM28yUUZDOWtiOTZVbHUyaExpZUFCekxWRFYyRU43WGE5cWVibzAtNUYtZUV5YTdqWNIBogJBVV95cUxQTC1FN3JNSXFZN0Z1VFR0S19kc0plNVdfanZoZnZhb2xSQU1lSlotQTNXVE9sUmpVYnRfQW9zNFYwbklGdTY4Wi1TOExpWm03MEJRX0QwdmlNaUNncXV5aWRESkRfTGthLWxDMUoxWXhuLUd3QU9EcGU5cVM5UVVkZldOWXNjb0dFYnB4VF9tSUVaZjRQcEVoVW5YeGNUc3Y2LTRMSXRWUWlhcGE4OGwyRmxpUDNGS2lJbDRaVG5lWmtUVFprTHRfbnJJSlBSM1M4V214Tmw4amt4YldvZzBVd0w5VHFpcV9ZdWQ5M1JPYUtESmEyaXdKaWFSeUhsQ0UtT0JFejVhdUFKdTMtNDhVWTJLVXVjZnlIQW81b2hDOC00dw?oc=5",
+  "source": "The Economic Times",
+  "published": "2026-11-02T21:18:46Z",
+  "since": "2026-11-03T02:27:49Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk Admits Grok Is Losing Money As AI Costs Surge Across Big Tech",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNm1RNVJnNThLMlhaSERrSHgxZ1Z4RlViZndna0pxT21iZWgyVW9YUTlKZjdMY0d5MFZzME9ZOXNYX1M1bzRlUy1MQ3h6U2FQLWtEWnVTMW0yRDlDWUJZeno2ZjEtVFotVnQwVDhNeWF5cm5aN1FXcVE0dlk1blhSSGQ2UTdxM0g0cHlfZUdSM1BFTXh6anFuUWJBaDNEM0lhWF93aVE5V0Nlc3l3eTh5OVQ5QUtiMzcweV9hdHBSbDRld19CY0FHTko3Y0FDc011RkRVTDVheVZUcmFySTBDYW9CNUx4QdIB6wFBVV95cUxNMkJIbkQ1akpUV05hZnpmNmtaRWdRMFliVUo1b0xWWDAxRDMxQmQ3M2toLVV3emd5UVdxM0YxTFRHaWI5TGVpZGxaUkdCWXVvM1gzLVVCa3EyMnAwMjRTNUJwTW5qMmZDaVU2VTkxOEoweEFQZkJjWV96eEJQMGhkWGNaUXhtTVRmWEplTWRKQnZlQUZlam5PRFk0TnExVzdpSjV6dXpaTmQwemt6TVp6MGlQTkVydnNzSXZ2Y3VGeXl2cGhBMml5UmdScmlwVUdWeUJvRmQ2bVR6U0tCRmJHUjRvUDJHT2M1b0pF?oc=5",
-   "source": "The Times of India",
-   "published": "2026-11-02T17:30:06Z",
-   "since": "2026-11-02T20:17:27Z"
+   "person": "Sam Altman",
+   "title": "OpenAI CEO Sam Altman questions why people keep so much RAM in their computers; but what happens when the",
+   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNNUw5VkNUVHNibVZ0N0xnaFl0aWVUVTN2VDV1dTlhYVlsMEdxdTF3dk51V0xPdV93SzNtX0xvbWxLMXBrMUF3ZllrMVlwbFdkeS1PM0pOZzg5b3BHZk5YcjRndHlMakhXS18yMHExX1lzcE5wRHBCMDdwYU1TZzVScWxkOFk2WkdiNlNaN1JMQV83eXhyNG9Db05sZkNWcXZrUEhXYWNLSUxpa1IzRUU1MVRGTllfRVdWdU5SZnBoaFprNkZOTm50MHRkWFVGTzB0Smt5bWlZMERrTUt0cUtwakZrMGZTREhGS3hlM28yUUZDOWtiOTZVbHUyaExpZUFCekxWRFYyRU43WGE5cWVibzAtNUYtZUV5YTdqWNIBogJBVV95cUxQTC1FN3JNSXFZN0Z1VFR0S19kc0plNVdfanZoZnZhb2xSQU1lSlotQTNXVE9sUmpVYnRfQW9zNFYwbklGdTY4Wi1TOExpWm03MEJRX0QwdmlNaUNncXV5aWRESkRfTGthLWxDMUoxWXhuLUd3QU9EcGU5cVM5UVVkZldOWXNjb0dFYnB4VF9tSUVaZjRQcEVoVW5YeGNUc3Y2LTRMSXRWUWlhcGE4OGwyRmxpUDNGS2lJbDRaVG5lWmtUVFprTHRfbnJJSlBSM1M4V214Tmw4amt4YldvZzBVd0w5VHFpcV9ZdWQ5M1JPYUtESmEyaXdKaWFSeUhsQ0UtT0JFejVhdUFKdTMtNDhVWTJLVXVjZnlIQW81b2hDOC00dw?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-02T21:18:46Z",
+   "since": "2026-11-03T02:27:49Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Elon Musk vs Sam Altman: After OpenAI CEO questions people's RAM usage at home, Musk defends ordinary user",
-   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOZEtISmFmU3lBTDFubElWcE90MHN3alBlVGlPTnNQUUpBbFBDSXl0QlhQdTE0bTdaZ3ZTT1RZS1NBZ3ZzX09wU21qakFlLU1ENXl4d2UwUGpLZjd0cFFmY3lyYXVwYy1HS1NPVTNXdXE2R1NiMkRQSlQ5VU0tOHI3Mk5HRldURzFKZmdDV3V1bmZjdHZCZGItUkpjV0syRHVIQmxzNEZiOUVhY3Z1RjdmVkJrUWFwRGpoeUxmQjhvNnNFRUNJRU5qdHlON1N1LWNNMjg3SmRuUjVXM1NPLWNNbkloZFRRb1V5MUN1MldCSlpCQTJ5NDViOVZLLUtzZHFTdUZFSXREbWRfM0IyT1A0cmZwS09PdG5vZWZtMHZUS3BObHPSAZwCQVVfeXFMTkdzRFJGYUZaUkhGU3Z6ZE9JOUhQNnRtLUFBZE9LQ29HODE3cU5yeGt0ZWs3TUtJZWlIWERwaE1RdkZZSGRqU2JncXc1RHdSc0FVOEU1VUlzenJ4TWIwT01qejE2cjJEemY2RGJwck1nUDZRcEQ0bXU2TnVwSHNMSjNIVF80NmpZbVNOSC04ekFpNzdJSFEtVnpVb2FEakM0azFlelB4RVBSdk5jX1E0RHBoWk5vR05oMmc0d1oxRDY5c1d2VUExdlE2X3FXZVh6cUkzUWRaUmRoZHlHNTBCT3hJOERGWEE1TWtDZ3lxYW8wRjhnelNsdkdQaEJKcVdNRHEyT1dfS0pYdTZlUW43Mm5kYjRIMEpwMHRMM20?oc=5",
+   "person": "Elon Musk",
+   "title": "Grok bot users hit limits faster as Elon Musk warns of ‘unsustainably high’ AI agent costs: What happens n",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPcnhIMGZLNjd6bWsyb05mZWd3elc4QlBGb2FBLVprWUZzR3k5REROWnZmcC1hdGkxS0lIN3dlR3R2WVJ5OXRPQ0xZRHdWS2FCVEhvRmJFeV9lWS1HV0JIc0dUX21JeHd3ajZUem9tb0JaT1VkQWN1RC1ac20yaDRVY2d6d3pnWkpESDNjWHVRbFhWSThFSURNNVQ3TWpWTk9ZcmR1SHVUX3FFc2RkMjFhbExmZjhkT1pSUUtqam5RdjhiT3lKbmExOUFZSzFqUWNDSGlMSDl3eXNOcXdmRWNCUVFvM0tDQ1FtaE44NktZSTgzUGhCZU00dmJpZUhvM0ZzRS1oTG8zUi16akJHY3Z30gGUAkFVX3lxTE5IZER4SUlVdS1aVktqUGZFTDY5dDE4c3phUjNrd1dDNzk5Tmd6M2ZhS0pLZUp6bGtBRHRaa0tBbndINUpoTGVvZm52MDQzTGcwSnhCX1NQQi0yeGdGR3V1azlBMXJza1B1ckN6azVPejlsQTJTSXNJQ1hUbVozY0Fib20zN1JXcjV6dG1BNzQzWFV5MGlJUWg3LTFpU3YzNGVMVkc5LXBCVkJTS1BBSkRFRjFyZTdRLTlEdEpad3VxUWxxM1ZHZXgzWU1IeV94Nm1ycG9CTzNBYzNuVlVpM0VPaUh4a3ZpSktoTGVUQWQ1T240Q2R4amZlTkRrRUpQV2R1QTlzN1ZVb2Q5blZpbnRnQWxsbA?oc=5",
    "source": "The Economic Times",
-   "published": "2026-11-02T13:22:20Z"
+   "published": "2026-11-02T20:36:46Z"
   },
   {
    "kind": "voice",
@@ -61,21 +61,21 @@
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk Admits Grok Is Losing Money As AI Costs Surge Across Big Tech",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNm1RNVJnNThLMlhaSERrSHgxZ1Z4RlViZndna0pxT21iZWgyVW9YUTlKZjdMY0d5MFZzME9ZOXNYX1M1bzRlUy1MQ3h6U2FQLWtEWnVTMW0yRDlDWUJZeno2ZjEtVFotVnQwVDhNeWF5cm5aN1FXcVE0dlk1blhSSGQ2UTdxM0g0cHlfZUdSM1BFTXh6anFuUWJBaDNEM0lhWF93aVE5V0Nlc3l3eTh5OVQ5QUtiMzcweV9hdHBSbDRld19CY0FHTko3Y0FDc011RkRVTDVheVZUcmFySTBDYW9CNUx4QdIB6wFBVV95cUxNMkJIbkQ1akpUV05hZnpmNmtaRWdRMFliVUo1b0xWWDAxRDMxQmQ3M2toLVV3emd5UVdxM0YxTFRHaWI5TGVpZGxaUkdCWXVvM1gzLVVCa3EyMnAwMjRTNUJwTW5qMmZDaVU2VTkxOEoweEFQZkJjWV96eEJQMGhkWGNaUXhtTVRmWEplTWRKQnZlQUZlam5PRFk0TnExVzdpSjV6dXpaTmQwemt6TVp6MGlQTkVydnNzSXZ2Y3VGeXl2cGhBMml5UmdScmlwVUdWeUJvRmQ2bVR6U0tCRmJHUjRvUDJHT2M1b0pF?oc=5",
-   "source": "The Times of India",
-   "published": "2026-11-02T17:30:06Z",
-   "since": "2026-11-02T20:17:27Z"
+   "person": "Sam Altman",
+   "title": "OpenAI CEO Sam Altman questions why people keep so much RAM in their computers; but what happens when the",
+   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNNUw5VkNUVHNibVZ0N0xnaFl0aWVUVTN2VDV1dTlhYVlsMEdxdTF3dk51V0xPdV93SzNtX0xvbWxLMXBrMUF3ZllrMVlwbFdkeS1PM0pOZzg5b3BHZk5YcjRndHlMakhXS18yMHExX1lzcE5wRHBCMDdwYU1TZzVScWxkOFk2WkdiNlNaN1JMQV83eXhyNG9Db05sZkNWcXZrUEhXYWNLSUxpa1IzRUU1MVRGTllfRVdWdU5SZnBoaFprNkZOTm50MHRkWFVGTzB0Smt5bWlZMERrTUt0cUtwakZrMGZTREhGS3hlM28yUUZDOWtiOTZVbHUyaExpZUFCekxWRFYyRU43WGE5cWVibzAtNUYtZUV5YTdqWNIBogJBVV95cUxQTC1FN3JNSXFZN0Z1VFR0S19kc0plNVdfanZoZnZhb2xSQU1lSlotQTNXVE9sUmpVYnRfQW9zNFYwbklGdTY4Wi1TOExpWm03MEJRX0QwdmlNaUNncXV5aWRESkRfTGthLWxDMUoxWXhuLUd3QU9EcGU5cVM5UVVkZldOWXNjb0dFYnB4VF9tSUVaZjRQcEVoVW5YeGNUc3Y2LTRMSXRWUWlhcGE4OGwyRmxpUDNGS2lJbDRaVG5lWmtUVFprTHRfbnJJSlBSM1M4V214Tmw4amt4YldvZzBVd0w5VHFpcV9ZdWQ5M1JPYUtESmEyaXdKaWFSeUhsQ0UtT0JFejVhdUFKdTMtNDhVWTJLVXVjZnlIQW81b2hDOC00dw?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-02T21:18:46Z",
+   "since": "2026-11-03T02:27:49Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Elon Musk vs Sam Altman: After OpenAI CEO questions people's RAM usage at home, Musk defends ordinary user",
-   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOZEtISmFmU3lBTDFubElWcE90MHN3alBlVGlPTnNQUUpBbFBDSXl0QlhQdTE0bTdaZ3ZTT1RZS1NBZ3ZzX09wU21qakFlLU1ENXl4d2UwUGpLZjd0cFFmY3lyYXVwYy1HS1NPVTNXdXE2R1NiMkRQSlQ5VU0tOHI3Mk5HRldURzFKZmdDV3V1bmZjdHZCZGItUkpjV0syRHVIQmxzNEZiOUVhY3Z1RjdmVkJrUWFwRGpoeUxmQjhvNnNFRUNJRU5qdHlON1N1LWNNMjg3SmRuUjVXM1NPLWNNbkloZFRRb1V5MUN1MldCSlpCQTJ5NDViOVZLLUtzZHFTdUZFSXREbWRfM0IyT1A0cmZwS09PdG5vZWZtMHZUS3BObHPSAZwCQVVfeXFMTkdzRFJGYUZaUkhGU3Z6ZE9JOUhQNnRtLUFBZE9LQ29HODE3cU5yeGt0ZWs3TUtJZWlIWERwaE1RdkZZSGRqU2JncXc1RHdSc0FVOEU1VUlzenJ4TWIwT01qejE2cjJEemY2RGJwck1nUDZRcEQ0bXU2TnVwSHNMSjNIVF80NmpZbVNOSC04ekFpNzdJSFEtVnpVb2FEakM0azFlelB4RVBSdk5jX1E0RHBoWk5vR05oMmc0d1oxRDY5c1d2VUExdlE2X3FXZVh6cUkzUWRaUmRoZHlHNTBCT3hJOERGWEE1TWtDZ3lxYW8wRjhnelNsdkdQaEJKcVdNRHEyT1dfS0pYdTZlUW43Mm5kYjRIMEpwMHRMM20?oc=5",
+   "person": "Elon Musk",
+   "title": "Grok bot users hit limits faster as Elon Musk warns of ‘unsustainably high’ AI agent costs: What happens n",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPcnhIMGZLNjd6bWsyb05mZWd3elc4QlBGb2FBLVprWUZzR3k5REROWnZmcC1hdGkxS0lIN3dlR3R2WVJ5OXRPQ0xZRHdWS2FCVEhvRmJFeV9lWS1HV0JIc0dUX21JeHd3ajZUem9tb0JaT1VkQWN1RC1ac20yaDRVY2d6d3pnWkpESDNjWHVRbFhWSThFSURNNVQ3TWpWTk9ZcmR1SHVUX3FFc2RkMjFhbExmZjhkT1pSUUtqam5RdjhiT3lKbmExOUFZSzFqUWNDSGlMSDl3eXNOcXdmRWNCUVFvM0tDQ1FtaE44NktZSTgzUGhCZU00dmJpZUhvM0ZzRS1oTG8zUi16akJHY3Z30gGUAkFVX3lxTE5IZER4SUlVdS1aVktqUGZFTDY5dDE4c3phUjNrd1dDNzk5Tmd6M2ZhS0pLZUp6bGtBRHRaa0tBbndINUpoTGVvZm52MDQzTGcwSnhCX1NQQi0yeGdGR3V1azlBMXJza1B1ckN6azVPejlsQTJTSXNJQ1hUbVozY0Fib20zN1JXcjV6dG1BNzQzWFV5MGlJUWg3LTFpU3YzNGVMVkc5LXBCVkJTS1BBSkRFRjFyZTdRLTlEdEpad3VxUWxxM1ZHZXgzWU1IeV94Nm1ycG9CTzNBYzNuVlVpM0VPaUh4a3ZpSktoTGVUQWQ1T240Q2R4amZlTkRrRUpQV2R1QTlzN1ZVb2Q5blZpbnRnQWxsbA?oc=5",
    "source": "The Economic Times",
-   "published": "2026-11-02T13:22:20Z"
+   "published": "2026-11-02T20:36:46Z"
   },
   {
    "kind": "voice",
@@ -89,7 +89,7 @@
   {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 5208,
+   "stars": 5397,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -98,28 +98,8 @@
   },
   {
    "kind": "repo",
-   "title": "modelflare-ai/AnyModelBot",
-   "stars": 1323,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/modelflare-ai/AnyModelBot",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "jackwener/DSH-Android",
-   "stars": 749,
-   "note": "Kotlin · new this week",
-   "url": "https://github.com/jackwener/DSH-Android",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "N1nEmAn/sapper-v2",
-   "stars": 596,
+   "stars": 611,
    "note": "Python · new this week",
    "url": "https://github.com/N1nEmAn/sapper-v2",
    "source": "GitHub",
@@ -129,7 +109,7 @@
   {
    "kind": "repo",
    "title": "Balanov/uncut",
-   "stars": 570,
+   "stars": 574,
    "note": "Go · new this week",
    "url": "https://github.com/Balanov/uncut",
    "source": "GitHub",
@@ -139,7 +119,7 @@
   {
    "kind": "repo",
    "title": "wanghao-SunSky/cs329z-chinese",
-   "stars": 443,
+   "stars": 451,
    "note": "HTML · new this week",
    "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
    "source": "GitHub",
@@ -148,8 +128,28 @@
   },
   {
    "kind": "repo",
+   "title": "jmanico/grim-prompter",
+   "stars": 349,
+   "note": " · new this week",
+   "url": "https://github.com/jmanico/grim-prompter",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "muaaz9329/cheap-ag",
+   "stars": 231,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/muaaz9329/cheap-ag",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 12754,
+   "stars": 13559,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -159,7 +159,7 @@
   {
    "kind": "repo",
    "title": "heydamir/unslop",
-   "stars": 6041,
+   "stars": 6349,
    "note": "JavaScript · new this week",
    "url": "https://github.com/heydamir/unslop",
    "source": "GitHub",
@@ -168,10 +168,10 @@
   },
   {
    "kind": "repo",
-   "title": "anhao/ai-pose-gallery-zh",
-   "stars": 5472,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/anhao/ai-pose-gallery-zh",
+   "title": "storytold/craft-anything",
+   "stars": 4555,
+   "note": "Rust · new this week",
+   "url": "https://github.com/storytold/craft-anything",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -179,7 +179,7 @@
   {
    "kind": "repo",
    "title": "valentderah/totk-pc-recomp",
-   "stars": 3896,
+   "stars": 4055,
    "note": "C · new this week",
    "url": "https://github.com/valentderah/totk-pc-recomp",
    "source": "GitHub",
@@ -189,52 +189,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 205,
-   "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+   "points": 208,
+   "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
    "source": "Hacker News",
-   "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-   "discuss": "https://news.ycombinator.com/item?id=50339494"
+   "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+   "discuss": "https://news.ycombinator.com/item?id=50344919"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 76,
-   "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
-   "source": "Hacker News",
-   "url": "https://momentic.ai/",
-   "discuss": "https://news.ycombinator.com/item?id=50339913"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 59,
-   "title": "LongCat-2.5: Native Multimodality for Agentic Tasks",
-   "source": "Hacker News",
-   "url": "https://longcat.ai/blog/longcat-2.5/",
-   "discuss": "https://news.ycombinator.com/item?id=50337716"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 51,
-   "title": "GPT-Rosalind-6 System Card Addendum",
-   "source": "Hacker News",
-   "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
-   "discuss": "https://news.ycombinator.com/item?id=50337503"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 46,
-   "title": "Agentic backdoors via pretraining poisoning",
-   "source": "Hacker News",
-   "url": "https://arxiv.org/abs/2610.37741",
-   "discuss": "https://news.ycombinator.com/item?id=50341334"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 34,
+   "points": 161,
    "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
    "source": "Hacker News",
    "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
@@ -243,7 +207,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 33,
+   "points": 128,
+   "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+   "source": "Hacker News",
+   "url": "https://momentic.ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50339913"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 120,
    "title": "Egoless Mathematics in the AI Era",
    "source": "Hacker News",
    "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
@@ -251,40 +224,45 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 24,
-   "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
-   "source": "Hacker News",
-   "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
-   "discuss": "https://news.ycombinator.com/item?id=50342424"
+   "tag": "AI",
+   "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+   "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+   "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+   "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/"
+   "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+   "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+   "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
+   "title": "Raising the quality of insights in agentic analytics",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Stop counting tokens, start counting what ships",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/"
   },
   {
    "kind": "news",
@@ -292,20 +270,6 @@
    "title": "The agentic web is here",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "We urgently need to monitor AI agents’ actions in real time",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Creating AI value with enterprise context",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/"
   }
  ],
  "errors": []

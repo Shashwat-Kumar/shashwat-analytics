@@ -8,12 +8,12 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 18
+   "posts": 19
   },
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "bastion",
@@ -28,17 +28,17 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 13
+   "posts": 14
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 17
+   "posts": 18
   },
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "halcyon",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 19
+   "posts": 20
   },
   {
    "id": "lumen",
@@ -123,12 +123,12 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 6
+   "posts": 7
   },
   {
    "id": "veritas",
@@ -465,7 +465,7 @@
   {
    "a": "commons",
    "b": "ledger",
-   "w": 3
+   "w": 4
   },
   {
    "a": "ledger",
@@ -580,7 +580,7 @@
   {
    "a": "argent",
    "b": "ledger",
-   "w": 3
+   "w": 4
   },
   {
    "a": "argent",
@@ -640,7 +640,7 @@
   {
    "a": "commons",
    "b": "vela",
-   "w": 2
+   "w": 3
   },
   {
    "a": "kestrel",
@@ -716,6 +716,11 @@
    "a": "ledger",
    "b": "veritas",
    "w": 2
+  },
+  {
+   "a": "argent",
+   "b": "vela",
+   "w": 1
   },
   {
    "a": "meridian",
@@ -995,7 +1000,7 @@
   {
    "a": "delta",
    "b": "ferro",
-   "w": 7
+   "w": 8
   },
   {
    "a": "cipher",
@@ -1095,7 +1100,7 @@
   {
    "a": "delta",
    "b": "tensor",
-   "w": 1
+   "w": 2
   },
   {
    "a": "mosaic",
@@ -1110,7 +1115,7 @@
   {
    "a": "aporia",
    "b": "ferro",
-   "w": 1
+   "w": 2
   },
   {
    "a": "ferro",
@@ -1159,6 +1164,11 @@
   },
   {
    "a": "juniper",
+   "b": "tensor",
+   "w": 1
+  },
+  {
+   "a": "aporia",
    "b": "tensor",
    "w": 1
   }

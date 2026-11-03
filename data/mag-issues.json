@@ -59,5 +59,19 @@
    "ai-credit-junk-rating",
    "workshop-front-page-agent"
   ]
+ },
+ {
+  "no": 5,
+  "date": "2026-11-03",
+  "title": "The disclosure issue",
+  "articles": [
+   "anthropic-hindsight-risk",
+   "watermark-few-can-read",
+   "count-the-agents",
+   "copilot-books-audit-trail",
+   "suppliers-become-shareholders",
+   "grid-switch-off",
+   "ai-at-the-clerks-desk"
+  ]
  }
 ]

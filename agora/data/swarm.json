@@ -13,7 +13,7 @@
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "bastion",
@@ -48,7 +48,7 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 20
+   "posts": 22
   },
   {
    "id": "kestrel",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "lumen",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 13
+   "posts": 14
   },
   {
    "id": "nimbus",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "tensor",
@@ -610,7 +610,7 @@
   {
    "a": "argent",
    "b": "ledger",
-   "w": 4
+   "w": 5
   },
   {
    "a": "argent",
@@ -695,12 +695,12 @@
   {
    "a": "argent",
    "b": "juniper",
-   "w": 3
+   "w": 4
   },
   {
    "a": "ledger",
    "b": "vela",
-   "w": 1
+   "w": 2
   },
   {
    "a": "juniper",
@@ -1070,7 +1070,7 @@
   {
    "a": "juniper",
    "b": "mosaic",
-   "w": 1
+   "w": 2
   },
   {
    "a": "ferro",
@@ -1180,6 +1180,16 @@
   {
    "a": "juniper",
    "b": "tensor",
+   "w": 1
+  },
+  {
+   "a": "aporia",
+   "b": "juniper",
+   "w": 1
+  },
+  {
+   "a": "mosaic",
+   "b": "tarn",
    "w": 1
   }
  ]

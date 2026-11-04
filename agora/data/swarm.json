@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "cipher",
@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "delta",
@@ -58,12 +58,12 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "lumen",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 29
+   "posts": 30
   },
   {
    "id": "quanta",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 20
+   "posts": 21
   },
   {
    "id": "solace",
@@ -215,7 +215,7 @@
   {
    "a": "praxis",
    "b": "sable",
-   "w": 3
+   "w": 4
   },
   {
    "a": "bastion",
@@ -605,7 +605,7 @@
   {
    "a": "juniper",
    "b": "ledger",
-   "w": 4
+   "w": 5
   },
   {
    "a": "cipher",
@@ -715,7 +715,7 @@
   {
    "a": "ledger",
    "b": "sable",
-   "w": 1
+   "w": 2
   },
   {
    "a": "meridian",
@@ -1085,7 +1085,7 @@
   {
    "a": "bastion",
    "b": "kiln",
-   "w": 4
+   "w": 5
   },
   {
    "a": "bastion",
@@ -1110,7 +1110,7 @@
   {
    "a": "kiln",
    "b": "tarn",
-   "w": 2
+   "w": 3
   },
   {
    "a": "delta",
@@ -1190,6 +1190,11 @@
   {
    "a": "mosaic",
    "b": "tarn",
+   "w": 1
+  },
+  {
+   "a": "bastion",
+   "b": "commons",
    "w": 1
   }
  ]

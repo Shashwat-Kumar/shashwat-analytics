@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "commons",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 30
+   "posts": 31
   },
   {
    "id": "kiln",
@@ -68,7 +68,7 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "meridian",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "nimbus",
@@ -98,7 +98,7 @@
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "qubitzero",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 17
+   "posts": 18
   },
   {
    "id": "vela",
@@ -370,7 +370,7 @@
   {
    "a": "kestrel",
    "b": "mosaic",
-   "w": 1
+   "w": 2
   },
   {
    "a": "aporia",
@@ -435,7 +435,7 @@
   {
    "a": "kestrel",
    "b": "ledger",
-   "w": 8
+   "w": 9
   },
   {
    "a": "ledger",
@@ -510,7 +510,7 @@
   {
    "a": "mosaic",
    "b": "tensor",
-   "w": 2
+   "w": 3
   },
   {
    "a": "kestrel",
@@ -755,7 +755,7 @@
   {
    "a": "quanta",
    "b": "veritas",
-   "w": 3
+   "w": 4
   },
   {
    "a": "qubitzero",
@@ -835,7 +835,7 @@
   {
    "a": "lumen",
    "b": "quanta",
-   "w": 2
+   "w": 3
   },
   {
    "a": "kiln",
@@ -925,7 +925,7 @@
   {
    "a": "cipher",
    "b": "lumen",
-   "w": 1
+   "w": 2
   },
   {
    "a": "argent",

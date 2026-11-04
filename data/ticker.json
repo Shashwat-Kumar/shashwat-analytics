@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T09:58:20Z",
+ "generated_at": "2026-11-04T17:57:04Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,26 +8,36 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-  "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+  "title": "AI is forcing us to pay off 40 years of technical debt",
+  "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50354960",
-  "points": 1271,
-  "comments": 428,
-  "published": "2026-11-03T17:22:37Z",
-  "since": "2026-11-03T22:35:06Z"
+  "discuss": "https://news.ycombinator.com/item?id=50364336",
+  "points": 682,
+  "comments": 437,
+  "published": "2026-11-04T11:52:17Z",
+  "since": "2026-11-04T17:57:04Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sam Altman",
-  "title": "Sam Altman praises Indians, calls Americans unusually pessimistic about AI",
-  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTk1sdWVPVFFaMW9MNzdFM081TURmTF9YaXp1MmJIZWpqMzRra28yR0RTZGRtUG15aERuRXV6eHpyNW1Ed25uYmxnYnJMZDVlcTJKUXV5eDNGOE1SWUZYNnZvUndQRnJLTWlDVDdxVTlwc3liUk9rcS1LeFFwZ0xXWGQtenNIN0drWkhha3F0NTYwOWtRbnNKUlBjcDFLT0d1U3hTQ2NfcFVNZTBwaWRmV0I3a196TWtfOTZQT0VsWFc5Tmx1Q19fRlIybXlEZmxRWDc0U2NzTdIB3AFBVV95cUxNVmExdV9BTmcxaDZPd0JJalh0MWZDal85VUxvWjc3Uk9yRF9ESzF1TjZfLTNISHZIOEd5cnRzLWliN3lJYUVNR0ZBZWlwQnZHRnh3c1VkS1pOc28yNGVxemFobS1vX2h0TmNiRHp5cHFTUUpWMGZITkR3ekk5eTR6TWdjblhocGdEeHFxOWRiYWJCNVlBeTU1cVQ2SkxEenpKa095MU80TDN4R2tJazY4UGstcFVzdzY5WjFyNWJPLTd1UHVxVEdBMnR1MmNvcmhIV3lDUloybkxvR0Vf?oc=5",
-  "source": "India Today",
-  "published": "2026-11-04T08:56:03Z",
-  "since": "2026-11-04T09:58:20Z"
+  "person": "Mark Zuckerberg",
+  "title": "'Godfather Of AI' Accuses Altman, Musk And Zuckerberg Of Ignoring Risks; Warns Of 'Chernobyl-Like' Disaster",
+  "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOOGgydlJNSUtCUERZMlRyZFJrenU2VDllRWVKYWNzT2VZOVdzWTJQd29CNjlpaEFMRUFEcGNXQU90Rnh4S2tyUHVVNTZRTHRTR0VCRG5NeVVwb1Y0aXlvcHF4NmVKUy15c3F0YU8yblZnWWNkLUV6QVBFT2dwYXRMSk9aRlQ1X01NSTM1RjFtNTRpY29UWEdjeGZneUpRODJmRldXX0owTGVxdW1reTBFYWc2bVpVUWJGRjc2b21VX0tsZmJWalVyelQ5eU5GQnE5cHlucy04bFJlbW5nMFZGRHkzNXZlRWJhTy1GMDJsbVhrZUJ1UVlr0gH_AUFVX3lxTE1kb1pVRzRoZjljN0ZXYlVyaUg2eTF2ODNxNlRmV2NSUzlXeFJ4RUtHVUdZU29sQm9aZVRLTk9fdllSTlJ1QmpRRHI0YWlIZ2h1MEpMbHFsLThzU3hlVjJyNTA5STR1dXdZSFg5bUtMNDN3by1nMHFNZ2sxc0NqNVJHM0tET0JCbmppTFpFX00wRzdvX0hFUjlfdF9JZmk4RWxabGlweC12dkVETm5XWEE5QzdkODF5Qm9MRHF5YlNsbElxZDZReDhLTDF5Q2hPQVFHYUE2TXE1ZUZuLU80YWNua0dHV3YtRkFpdFV5QnV5aG9qOE1sWTlzY3dVMWJIRQ?oc=5",
+  "source": "NDTV Profit",
+  "published": "2026-11-04T15:04:55Z",
+  "since": "2026-11-04T17:57:04Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Mark Zuckerberg",
+   "title": "'Godfather Of AI' Accuses Altman, Musk And Zuckerberg Of Ignoring Risks; Warns Of 'Chernobyl-Like' Disaster",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOOGgydlJNSUtCUERZMlRyZFJrenU2VDllRWVKYWNzT2VZOVdzWTJQd29CNjlpaEFMRUFEcGNXQU90Rnh4S2tyUHVVNTZRTHRTR0VCRG5NeVVwb1Y0aXlvcHF4NmVKUy15c3F0YU8yblZnWWNkLUV6QVBFT2dwYXRMSk9aRlQ1X01NSTM1RjFtNTRpY29UWEdjeGZneUpRODJmRldXX0owTGVxdW1reTBFYWc2bVpVUWJGRjc2b21VX0tsZmJWalVyelQ5eU5GQnE5cHlucy04bFJlbW5nMFZGRHkzNXZlRWJhTy1GMDJsbVhrZUJ1UVlr0gH_AUFVX3lxTE1kb1pVRzRoZjljN0ZXYlVyaUg2eTF2ODNxNlRmV2NSUzlXeFJ4RUtHVUdZU29sQm9aZVRLTk9fdllSTlJ1QmpRRHI0YWlIZ2h1MEpMbHFsLThzU3hlVjJyNTA5STR1dXdZSFg5bUtMNDN3by1nMHFNZ2sxc0NqNVJHM0tET0JCbmppTFpFX00wRzdvX0hFUjlfdF9JZmk4RWxabGlweC12dkVETm5XWEE5QzdkODF5Qm9MRHF5YlNsbElxZDZReDhLTDF5Q2hPQVFHYUE2TXE1ZUZuLU80YWNua0dHV3YtRkFpdFV5QnV5aG9qOE1sWTlzY3dVMWJIRQ?oc=5",
+   "source": "NDTV Profit",
+   "published": "2026-11-04T15:04:55Z",
+   "since": "2026-11-04T17:57:04Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,8 +45,7 @@
    "title": "Sam Altman praises Indians, calls Americans unusually pessimistic about AI",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTk1sdWVPVFFaMW9MNzdFM081TURmTF9YaXp1MmJIZWpqMzRra28yR0RTZGRtUG15aERuRXV6eHpyNW1Ed25uYmxnYnJMZDVlcTJKUXV5eDNGOE1SWUZYNnZvUndQRnJLTWlDVDdxVTlwc3liUk9rcS1LeFFwZ0xXWGQtenNIN0drWkhha3F0NTYwOWtRbnNKUlBjcDFLT0d1U3hTQ2NfcFVNZTBwaWRmV0I3a196TWtfOTZQT0VsWFc5Tmx1Q19fRlIybXlEZmxRWDc0U2NzTdIB3AFBVV95cUxNVmExdV9BTmcxaDZPd0JJalh0MWZDal85VUxvWjc3Uk9yRF9ESzF1TjZfLTNISHZIOEd5cnRzLWliN3lJYUVNR0ZBZWlwQnZHRnh3c1VkS1pOc28yNGVxemFobS1vX2h0TmNiRHp5cHFTUUpWMGZITkR3ekk5eTR6TWdjblhocGdEeHFxOWRiYWJCNVlBeTU1cVQ2SkxEenpKa095MU80TDN4R2tJazY4UGstcFVzdzY5WjFyNWJPLTd1UHVxVEdBMnR1MmNvcmhIV3lDUloybkxvR0Vf?oc=5",
    "source": "India Today",
-   "published": "2026-11-04T08:56:03Z",
-   "since": "2026-11-04T09:58:20Z"
+   "published": "2026-11-04T08:56:03Z"
   },
   {
    "kind": "voice",
@@ -52,12 +61,21 @@
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Mark Zuckerberg",
+   "title": "'Godfather Of AI' Accuses Altman, Musk And Zuckerberg Of Ignoring Risks; Warns Of 'Chernobyl-Like' Disaster",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOOGgydlJNSUtCUERZMlRyZFJrenU2VDllRWVKYWNzT2VZOVdzWTJQd29CNjlpaEFMRUFEcGNXQU90Rnh4S2tyUHVVNTZRTHRTR0VCRG5NeVVwb1Y0aXlvcHF4NmVKUy15c3F0YU8yblZnWWNkLUV6QVBFT2dwYXRMSk9aRlQ1X01NSTM1RjFtNTRpY29UWEdjeGZneUpRODJmRldXX0owTGVxdW1reTBFYWc2bVpVUWJGRjc2b21VX0tsZmJWalVyelQ5eU5GQnE5cHlucy04bFJlbW5nMFZGRHkzNXZlRWJhTy1GMDJsbVhrZUJ1UVlr0gH_AUFVX3lxTE1kb1pVRzRoZjljN0ZXYlVyaUg2eTF2ODNxNlRmV2NSUzlXeFJ4RUtHVUdZU29sQm9aZVRLTk9fdllSTlJ1QmpRRHI0YWlIZ2h1MEpMbHFsLThzU3hlVjJyNTA5STR1dXdZSFg5bUtMNDN3by1nMHFNZ2sxc0NqNVJHM0tET0JCbmppTFpFX00wRzdvX0hFUjlfdF9JZmk4RWxabGlweC12dkVETm5XWEE5QzdkODF5Qm9MRHF5YlNsbElxZDZReDhLTDF5Q2hPQVFHYUE2TXE1ZUZuLU80YWNua0dHV3YtRkFpdFV5QnV5aG9qOE1sWTlzY3dVMWJIRQ?oc=5",
+   "source": "NDTV Profit",
+   "published": "2026-11-04T15:04:55Z",
+   "since": "2026-11-04T17:57:04Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Sam Altman",
    "title": "Sam Altman praises Indians, calls Americans unusually pessimistic about AI",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTk1sdWVPVFFaMW9MNzdFM081TURmTF9YaXp1MmJIZWpqMzRra28yR0RTZGRtUG15aERuRXV6eHpyNW1Ed25uYmxnYnJMZDVlcTJKUXV5eDNGOE1SWUZYNnZvUndQRnJLTWlDVDdxVTlwc3liUk9rcS1LeFFwZ0xXWGQtenNIN0drWkhha3F0NTYwOWtRbnNKUlBjcDFLT0d1U3hTQ2NfcFVNZTBwaWRmV0I3a196TWtfOTZQT0VsWFc5Tmx1Q19fRlIybXlEZmxRWDc0U2NzTdIB3AFBVV95cUxNVmExdV9BTmcxaDZPd0JJalh0MWZDal85VUxvWjc3Uk9yRF9ESzF1TjZfLTNISHZIOEd5cnRzLWliN3lJYUVNR0ZBZWlwQnZHRnh3c1VkS1pOc28yNGVxemFobS1vX2h0TmNiRHp5cHFTUUpWMGZITkR3ekk5eTR6TWdjblhocGdEeHFxOWRiYWJCNVlBeTU1cVQ2SkxEenpKa095MU80TDN4R2tJazY4UGstcFVzdzY5WjFyNWJPLTd1UHVxVEdBMnR1MmNvcmhIV3lDUloybkxvR0Vf?oc=5",
    "source": "India Today",
-   "published": "2026-11-04T08:56:03Z",
-   "since": "2026-11-04T09:58:20Z"
+   "published": "2026-11-04T08:56:03Z"
   },
   {
    "kind": "voice",
@@ -71,7 +89,7 @@
   {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 6302,
+   "stars": 6567,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -81,7 +99,7 @@
   {
    "kind": "repo",
    "title": "N1nEmAn/sapper-v2",
-   "stars": 684,
+   "stars": 754,
    "note": "Python · new this week",
    "url": "https://github.com/N1nEmAn/sapper-v2",
    "source": "GitHub",
@@ -91,7 +109,7 @@
   {
    "kind": "repo",
    "title": "Balanov/uncut",
-   "stars": 599,
+   "stars": 600,
    "note": "Go · new this week",
    "url": "https://github.com/Balanov/uncut",
    "source": "GitHub",
@@ -101,7 +119,7 @@
   {
    "kind": "repo",
    "title": "aa1143/NamiAgent",
-   "stars": 312,
+   "stars": 333,
    "note": "Python · new this week",
    "url": "https://github.com/aa1143/NamiAgent",
    "source": "GitHub",
@@ -111,7 +129,7 @@
   {
    "kind": "repo",
    "title": "SAOS-3624/dsh-see-now",
-   "stars": 302,
+   "stars": 332,
    "note": "JavaScript · new this week",
    "url": "https://github.com/SAOS-3624/dsh-see-now",
    "source": "GitHub",
@@ -121,7 +139,7 @@
   {
    "kind": "repo",
    "title": "Interactive-Active-AI/NextTransformer",
-   "stars": 252,
+   "stars": 273,
    "note": "Python · new this week",
    "url": "https://github.com/Interactive-Active-AI/NextTransformer",
    "source": "GitHub",
@@ -131,7 +149,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 17983,
+   "stars": 18428,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -141,7 +159,7 @@
   {
    "kind": "repo",
    "title": "storytold/craft-anything",
-   "stars": 9679,
+   "stars": 10840,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/craft-anything",
    "source": "GitHub",
@@ -151,7 +169,7 @@
   {
    "kind": "repo",
    "title": "heydamir/unslop",
-   "stars": 7884,
+   "stars": 8396,
    "note": "JavaScript · new this week",
    "url": "https://github.com/heydamir/unslop",
    "source": "GitHub",
@@ -161,7 +179,7 @@
   {
    "kind": "repo",
    "title": "valentderah/totk-pc-recomp",
-   "stars": 4653,
+   "stars": 4765,
    "note": "C · new this week",
    "url": "https://github.com/valentderah/totk-pc-recomp",
    "source": "GitHub",
@@ -171,70 +189,34 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 1271,
-   "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+   "points": 682,
+   "title": "AI is forcing us to pay off 40 years of technical debt",
    "source": "Hacker News",
-   "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "discuss": "https://news.ycombinator.com/item?id=50354960"
+   "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+   "discuss": "https://news.ycombinator.com/item?id=50364336"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 621,
-   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "points": 459,
+   "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "source": "Hacker News",
-   "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-   "discuss": "https://news.ycombinator.com/item?id=50355251"
+   "url": "https://news.ycombinator.com/item?id=50363461",
+   "discuss": "https://news.ycombinator.com/item?id=50363461"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 471,
-   "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+   "points": 130,
+   "title": "Kimi K3.1 Pro model weights are out",
    "source": "Hacker News",
-   "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
-   "discuss": "https://news.ycombinator.com/item?id=50336918"
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "discuss": "https://news.ycombinator.com/item?id=50366999"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 337,
-   "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
-   "source": "Hacker News",
-   "url": "https://arxiv.org/abs/2605.29713",
-   "discuss": "https://news.ycombinator.com/item?id=50358582"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 171,
-   "title": "How I use AI (Oct 2026)",
-   "source": "Hacker News",
-   "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
-   "discuss": "https://news.ycombinator.com/item?id=50355767"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 121,
-   "title": "We're training a Figma-fluent editing model",
-   "source": "Hacker News",
-   "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
-   "discuss": "https://news.ycombinator.com/item?id=50322603"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 70,
-   "title": "There is no posttraining data commons",
-   "source": "Hacker News",
-   "url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/",
-   "discuss": "https://news.ycombinator.com/item?id=50352641"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 62,
+   "points": 115,
    "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
    "source": "Hacker News",
    "url": "https://uncracked.city",
@@ -242,31 +224,58 @@
   },
   {
    "kind": "news",
+   "tag": "HN",
+   "points": 52,
+   "title": "Pierre Computer is being acquired by OpenAI",
+   "source": "Hacker News",
+   "url": "https://twitter.com/pierrecomputer/status/2117999036175188183",
+   "discuss": "https://news.ycombinator.com/item?id=50366863"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 37,
+   "title": "Progress on provable inference for large language models",
+   "source": "Hacker News",
+   "url": "https://www.anthropic.com/research/provable-inference",
+   "discuss": "https://news.ycombinator.com/item?id=50368626"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 2,
+   "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50368804",
+   "discuss": "https://news.ycombinator.com/item?id=50368804"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/"
+  },
+  {
+   "kind": "news",
    "tag": "AI",
    "title": "Anthropic is working on a system to prove AI models’ identity",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Data centers are turning to old jet engines as the wait for power grows",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/"
   },
   {
    "kind": "news",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T17:57:04Z",
+ "generated_at": "2026-11-04T23:35:17Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50364336",
-  "points": 682,
-  "comments": 437,
+  "points": 1007,
+  "comments": 607,
   "published": "2026-11-04T11:52:17Z",
   "since": "2026-11-04T17:57:04Z"
  },
@@ -37,24 +37,6 @@
    "source": "NDTV Profit",
    "published": "2026-11-04T15:04:55Z",
    "since": "2026-11-04T17:57:04Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman praises Indians, calls Americans unusually pessimistic about AI",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTk1sdWVPVFFaMW9MNzdFM081TURmTF9YaXp1MmJIZWpqMzRra28yR0RTZGRtUG15aERuRXV6eHpyNW1Ed25uYmxnYnJMZDVlcTJKUXV5eDNGOE1SWUZYNnZvUndQRnJLTWlDVDdxVTlwc3liUk9rcS1LeFFwZ0xXWGQtenNIN0drWkhha3F0NTYwOWtRbnNKUlBjcDFLT0d1U3hTQ2NfcFVNZTBwaWRmV0I3a196TWtfOTZQT0VsWFc5Tmx1Q19fRlIybXlEZmxRWDc0U2NzTdIB3AFBVV95cUxNVmExdV9BTmcxaDZPd0JJalh0MWZDal85VUxvWjc3Uk9yRF9ESzF1TjZfLTNISHZIOEd5cnRzLWliN3lJYUVNR0ZBZWlwQnZHRnh3c1VkS1pOc28yNGVxemFobS1vX2h0TmNiRHp5cHFTUUpWMGZITkR3ekk5eTR6TWdjblhocGdEeHFxOWRiYWJCNVlBeTU1cVQ2SkxEenpKa095MU80TDN4R2tJazY4UGstcFVzdzY5WjFyNWJPLTd1UHVxVEdBMnR1MmNvcmhIV3lDUloybkxvR0Vf?oc=5",
-   "source": "India Today",
-   "published": "2026-11-04T08:56:03Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Musk says Grok Bot's costs are 'unsustainably high,' while OpenAI admits Dots are ‘compute heavy.'",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOc3hsdGF5SGpmX014STA2VXN1V3dBQUZKNTVvMDFwSlRFaTI3a0JIVGdQVzNOS0k1WmtNNi1OemRoaWdOb05wNFR4T191RmRodGVCYnNDcXF2TWpqVUg4MTEtNUR0Y3l6T1lBTnM0djZTLXBNWEp6SEVvbVhqSmxUd0xLeThNMEtYemI1ODFfVWFHODhRY1R6ZmZ5aEhfYVpROWx3cWM1VnI4TlY0U1RFTk82aW9JUDJjVUVNUm80Z2NzWXlIMXBYRXFocV83eF9aSmc4UzQxV1JoQzB2VWI1TmEzT3c5eXpOVjdDRjY0ZW5tYkVhSFpEdkF4Y21fdw?oc=5",
-   "source": "Fortune",
-   "published": "2026-11-03T20:01:00Z"
   }
  ],
  "items": [
@@ -69,27 +51,9 @@
    "since": "2026-11-04T17:57:04Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman praises Indians, calls Americans unusually pessimistic about AI",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTk1sdWVPVFFaMW9MNzdFM081TURmTF9YaXp1MmJIZWpqMzRra28yR0RTZGRtUG15aERuRXV6eHpyNW1Ed25uYmxnYnJMZDVlcTJKUXV5eDNGOE1SWUZYNnZvUndQRnJLTWlDVDdxVTlwc3liUk9rcS1LeFFwZ0xXWGQtenNIN0drWkhha3F0NTYwOWtRbnNKUlBjcDFLT0d1U3hTQ2NfcFVNZTBwaWRmV0I3a196TWtfOTZQT0VsWFc5Tmx1Q19fRlIybXlEZmxRWDc0U2NzTdIB3AFBVV95cUxNVmExdV9BTmcxaDZPd0JJalh0MWZDal85VUxvWjc3Uk9yRF9ESzF1TjZfLTNISHZIOEd5cnRzLWliN3lJYUVNR0ZBZWlwQnZHRnh3c1VkS1pOc28yNGVxemFobS1vX2h0TmNiRHp5cHFTUUpWMGZITkR3ekk5eTR6TWdjblhocGdEeHFxOWRiYWJCNVlBeTU1cVQ2SkxEenpKa095MU80TDN4R2tJazY4UGstcFVzdzY5WjFyNWJPLTd1UHVxVEdBMnR1MmNvcmhIV3lDUloybkxvR0Vf?oc=5",
-   "source": "India Today",
-   "published": "2026-11-04T08:56:03Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Musk says Grok Bot's costs are 'unsustainably high,' while OpenAI admits Dots are ‘compute heavy.'",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOc3hsdGF5SGpmX014STA2VXN1V3dBQUZKNTVvMDFwSlRFaTI3a0JIVGdQVzNOS0k1WmtNNi1OemRoaWdOb05wNFR4T191RmRodGVCYnNDcXF2TWpqVUg4MTEtNUR0Y3l6T1lBTnM0djZTLXBNWEp6SEVvbVhqSmxUd0xLeThNMEtYemI1ODFfVWFHODhRY1R6ZmZ5aEhfYVpROWx3cWM1VnI4TlY0U1RFTk82aW9JUDJjVUVNUm80Z2NzWXlIMXBYRXFocV83eF9aSmc4UzQxV1JoQzB2VWI1TmEzT3c5eXpOVjdDRjY0ZW5tYkVhSFpEdkF4Y21fdw?oc=5",
-   "source": "Fortune",
-   "published": "2026-11-03T20:01:00Z"
-  },
-  {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 6567,
+   "stars": 6608,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -99,7 +63,7 @@
   {
    "kind": "repo",
    "title": "N1nEmAn/sapper-v2",
-   "stars": 754,
+   "stars": 830,
    "note": "Python · new this week",
    "url": "https://github.com/N1nEmAn/sapper-v2",
    "source": "GitHub",
@@ -119,7 +83,7 @@
   {
    "kind": "repo",
    "title": "aa1143/NamiAgent",
-   "stars": 333,
+   "stars": 337,
    "note": "Python · new this week",
    "url": "https://github.com/aa1143/NamiAgent",
    "source": "GitHub",
@@ -129,7 +93,7 @@
   {
    "kind": "repo",
    "title": "SAOS-3624/dsh-see-now",
-   "stars": 332,
+   "stars": 336,
    "note": "JavaScript · new this week",
    "url": "https://github.com/SAOS-3624/dsh-see-now",
    "source": "GitHub",
@@ -139,7 +103,7 @@
   {
    "kind": "repo",
    "title": "Interactive-Active-AI/NextTransformer",
-   "stars": 273,
+   "stars": 282,
    "note": "Python · new this week",
    "url": "https://github.com/Interactive-Active-AI/NextTransformer",
    "source": "GitHub",
@@ -149,7 +113,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18428,
+   "stars": 18536,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -159,7 +123,7 @@
   {
    "kind": "repo",
    "title": "storytold/craft-anything",
-   "stars": 10840,
+   "stars": 11580,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/craft-anything",
    "source": "GitHub",
@@ -169,7 +133,7 @@
   {
    "kind": "repo",
    "title": "heydamir/unslop",
-   "stars": 8396,
+   "stars": 8640,
    "note": "JavaScript · new this week",
    "url": "https://github.com/heydamir/unslop",
    "source": "GitHub",
@@ -179,7 +143,7 @@
   {
    "kind": "repo",
    "title": "valentderah/totk-pc-recomp",
-   "stars": 4765,
+   "stars": 4840,
    "note": "C · new this week",
    "url": "https://github.com/valentderah/totk-pc-recomp",
    "source": "GitHub",
@@ -189,7 +153,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 682,
+   "points": 1007,
    "title": "AI is forcing us to pay off 40 years of technical debt",
    "source": "Hacker News",
    "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
@@ -198,7 +162,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 459,
+   "points": 614,
    "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50363461",
@@ -207,7 +171,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 130,
+   "points": 314,
    "title": "Kimi K3.1 Pro model weights are out",
    "source": "Hacker News",
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
@@ -216,25 +180,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 115,
-   "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+   "points": 187,
+   "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
    "source": "Hacker News",
-   "url": "https://uncracked.city",
-   "discuss": "https://news.ycombinator.com/item?id=50358352"
+   "url": "https://www.ricursive.com/ripple",
+   "discuss": "https://news.ycombinator.com/item?id=50369925"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 52,
-   "title": "Pierre Computer is being acquired by OpenAI",
-   "source": "Hacker News",
-   "url": "https://twitter.com/pierrecomputer/status/2117999036175188183",
-   "discuss": "https://news.ycombinator.com/item?id=50366863"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 37,
+   "points": 161,
    "title": "Progress on provable inference for large language models",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/provable-inference",
@@ -243,7 +198,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 2,
+   "points": 151,
+   "title": "OpenAI to acquire Pierre Computer Company",
+   "source": "Hacker News",
+   "url": "https://openai.com/index/openai-to-acquire-pierre/",
+   "discuss": "https://news.ycombinator.com/item?id=50366863"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 75,
+   "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+   "source": "Hacker News",
+   "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+   "discuss": "https://news.ycombinator.com/item?id=50370654"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 62,
    "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50368804",
@@ -252,30 +225,37 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+   "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/"
+   "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+   "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/"
+   "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+   "title": "Almost no one uses AI agents to book their Uber, company says",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/"
+   "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Anthropic is working on a system to prove AI models’ identity",
+   "title": "OpenAI is already trying to shape the 2028 election",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+   "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Securing the agentic enterprise with data lineage",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/"
   },
   {
    "kind": "news",
@@ -290,13 +270,6 @@
    "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Raising the quality of insights in agentic analytics",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/"
   }
  ],
  "errors": []

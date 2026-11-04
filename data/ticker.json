@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T02:41:12Z",
+ "generated_at": "2026-11-04T09:58:20Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,22 +12,32 @@
   "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50354960",
-  "points": 1053,
-  "comments": 347,
+  "points": 1271,
+  "comments": 428,
   "published": "2026-11-03T17:22:37Z",
   "since": "2026-11-03T22:35:06Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Musk says Grok Bot's costs are 'unsustainably high,' while OpenAI admits Dots are ‘compute heavy.'",
-  "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOc3hsdGF5SGpmX014STA2VXN1V3dBQUZKNTVvMDFwSlRFaTI3a0JIVGdQVzNOS0k1WmtNNi1OemRoaWdOb05wNFR4T191RmRodGVCYnNDcXF2TWpqVUg4MTEtNUR0Y3l6T1lBTnM0djZTLXBNWEp6SEVvbVhqSmxUd0xLeThNMEtYemI1ODFfVWFHODhRY1R6ZmZ5aEhfYVpROWx3cWM1VnI4TlY0U1RFTk82aW9JUDJjVUVNUm80Z2NzWXlIMXBYRXFocV83eF9aSmc4UzQxV1JoQzB2VWI1TmEzT3c5eXpOVjdDRjY0ZW5tYkVhSFpEdkF4Y21fdw?oc=5",
-  "source": "Fortune",
-  "published": "2026-11-03T20:01:00Z",
-  "since": "2026-11-03T22:35:06Z"
+  "person": "Sam Altman",
+  "title": "Sam Altman praises Indians, calls Americans unusually pessimistic about AI",
+  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTk1sdWVPVFFaMW9MNzdFM081TURmTF9YaXp1MmJIZWpqMzRra28yR0RTZGRtUG15aERuRXV6eHpyNW1Ed25uYmxnYnJMZDVlcTJKUXV5eDNGOE1SWUZYNnZvUndQRnJLTWlDVDdxVTlwc3liUk9rcS1LeFFwZ0xXWGQtenNIN0drWkhha3F0NTYwOWtRbnNKUlBjcDFLT0d1U3hTQ2NfcFVNZTBwaWRmV0I3a196TWtfOTZQT0VsWFc5Tmx1Q19fRlIybXlEZmxRWDc0U2NzTdIB3AFBVV95cUxNVmExdV9BTmcxaDZPd0JJalh0MWZDal85VUxvWjc3Uk9yRF9ESzF1TjZfLTNISHZIOEd5cnRzLWliN3lJYUVNR0ZBZWlwQnZHRnh3c1VkS1pOc28yNGVxemFobS1vX2h0TmNiRHp5cHFTUUpWMGZITkR3ekk5eTR6TWdjblhocGdEeHFxOWRiYWJCNVlBeTU1cVQ2SkxEenpKa095MU80TDN4R2tJazY4UGstcFVzdzY5WjFyNWJPLTd1UHVxVEdBMnR1MmNvcmhIV3lDUloybkxvR0Vf?oc=5",
+  "source": "India Today",
+  "published": "2026-11-04T08:56:03Z",
+  "since": "2026-11-04T09:58:20Z"
  },
  "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "Sam Altman praises Indians, calls Americans unusually pessimistic about AI",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTk1sdWVPVFFaMW9MNzdFM081TURmTF9YaXp1MmJIZWpqMzRra28yR0RTZGRtUG15aERuRXV6eHpyNW1Ed25uYmxnYnJMZDVlcTJKUXV5eDNGOE1SWUZYNnZvUndQRnJLTWlDVDdxVTlwc3liUk9rcS1LeFFwZ0xXWGQtenNIN0drWkhha3F0NTYwOWtRbnNKUlBjcDFLT0d1U3hTQ2NfcFVNZTBwaWRmV0I3a196TWtfOTZQT0VsWFc5Tmx1Q19fRlIybXlEZmxRWDc0U2NzTdIB3AFBVV95cUxNVmExdV9BTmcxaDZPd0JJalh0MWZDal85VUxvWjc3Uk9yRF9ESzF1TjZfLTNISHZIOEd5cnRzLWliN3lJYUVNR0ZBZWlwQnZHRnh3c1VkS1pOc28yNGVxemFobS1vX2h0TmNiRHp5cHFTUUpWMGZITkR3ekk5eTR6TWdjblhocGdEeHFxOWRiYWJCNVlBeTU1cVQ2SkxEenpKa095MU80TDN4R2tJazY4UGstcFVzdzY5WjFyNWJPLTd1UHVxVEdBMnR1MmNvcmhIV3lDUloybkxvR0Vf?oc=5",
+   "source": "India Today",
+   "published": "2026-11-04T08:56:03Z",
+   "since": "2026-11-04T09:58:20Z"
+  },
   {
    "kind": "voice",
    "tag": "VOICE",
@@ -35,43 +45,33 @@
    "title": "Musk says Grok Bot's costs are 'unsustainably high,' while OpenAI admits Dots are ‘compute heavy.'",
    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOc3hsdGF5SGpmX014STA2VXN1V3dBQUZKNTVvMDFwSlRFaTI3a0JIVGdQVzNOS0k1WmtNNi1OemRoaWdOb05wNFR4T191RmRodGVCYnNDcXF2TWpqVUg4MTEtNUR0Y3l6T1lBTnM0djZTLXBNWEp6SEVvbVhqSmxUd0xLeThNMEtYemI1ODFfVWFHODhRY1R6ZmZ5aEhfYVpROWx3cWM1VnI4TlY0U1RFTk82aW9JUDJjVUVNUm80Z2NzWXlIMXBYRXFocV83eF9aSmc4UzQxV1JoQzB2VWI1TmEzT3c5eXpOVjdDRjY0ZW5tYkVhSFpEdkF4Y21fdw?oc=5",
    "source": "Fortune",
-   "published": "2026-11-03T20:01:00Z",
-   "since": "2026-11-03T22:35:06Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman says he hates AI companies claiming it will cure cancer, talks about human freedom",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPQ1FsWVNkc2JVU3Rhb0xoSHJxejJRTk1nbUJyYl9vVjBlcVZqZVoxTVpBWkloRUVsdXdGWHlWRkN5eXcxWjl4bmZfTXVKZ2FubFFXVUdmSnE3UWM5QnowcW9LRkY3aVkyVld0V0hQdm5tR1J1UHhjWUd2NXQwMlpCWGFTRjF1VUJtUUdKZkdDejBiVFZKTE1CN3FDSmUzQXVQMkdjLVJWYWNNbjE3aXZwT2F4cXNKMDR3OFo3SXQxWUJjQnUwU09EaFZZX3cxR0VTek1YQW5iMG9rYzFLR2xtYTJtQ3BWWTk4aElEcUtKVnPSAfYBQVVfeXFMT19JSHhzbU1MOG1sT2FXZ3Z1YmYtTWtUNG44NTJPaDE1empfOHo1NElLeEV1NWVyTGtmTmJnQm5uLUR5eWV1OWpQVmVVWlVsYzB0djAxV3JJc3FqelhaU2U4eHJ5YU9RWFFjSW03Z3dyaVh5V2NjWndYTXdxOXJ0aE94aFZFbzJKWHhldE92dV9KZ0Q3R1hyR2pJUmI3QzJrTzJ4cW5XUS1Mem5DWEc4TXQxVWFjaWotSzNxYUdNdXBTQXMwRUFQLUZpVVZKWkNtOVRYcEpzV3FhVDVweEc2M1NzWGhOVk5KN3hPdTRVOHRzazlZQy1B?oc=5",
-   "source": "India Today",
-   "published": "2026-11-03T13:54:41Z"
+   "published": "2026-11-03T20:01:00Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Musk says Grok Bot's costs are 'unsustainably high,' while OpenAI admits Dots are ‘compute heavy.'",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOc3hsdGF5SGpmX014STA2VXN1V3dBQUZKNTVvMDFwSlRFaTI3a0JIVGdQVzNOS0k1WmtNNi1OemRoaWdOb05wNFR4T191RmRodGVCYnNDcXF2TWpqVUg4MTEtNUR0Y3l6T1lBTnM0djZTLXBNWEp6SEVvbVhqSmxUd0xLeThNMEtYemI1ODFfVWFHODhRY1R6ZmZ5aEhfYVpROWx3cWM1VnI4TlY0U1RFTk82aW9JUDJjVUVNUm80Z2NzWXlIMXBYRXFocV83eF9aSmc4UzQxV1JoQzB2VWI1TmEzT3c5eXpOVjdDRjY0ZW5tYkVhSFpEdkF4Y21fdw?oc=5",
-   "source": "Fortune",
-   "published": "2026-11-03T20:01:00Z",
-   "since": "2026-11-03T22:35:06Z"
+   "person": "Sam Altman",
+   "title": "Sam Altman praises Indians, calls Americans unusually pessimistic about AI",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTk1sdWVPVFFaMW9MNzdFM081TURmTF9YaXp1MmJIZWpqMzRra28yR0RTZGRtUG15aERuRXV6eHpyNW1Ed25uYmxnYnJMZDVlcTJKUXV5eDNGOE1SWUZYNnZvUndQRnJLTWlDVDdxVTlwc3liUk9rcS1LeFFwZ0xXWGQtenNIN0drWkhha3F0NTYwOWtRbnNKUlBjcDFLT0d1U3hTQ2NfcFVNZTBwaWRmV0I3a196TWtfOTZQT0VsWFc5Tmx1Q19fRlIybXlEZmxRWDc0U2NzTdIB3AFBVV95cUxNVmExdV9BTmcxaDZPd0JJalh0MWZDal85VUxvWjc3Uk9yRF9ESzF1TjZfLTNISHZIOEd5cnRzLWliN3lJYUVNR0ZBZWlwQnZHRnh3c1VkS1pOc28yNGVxemFobS1vX2h0TmNiRHp5cHFTUUpWMGZITkR3ekk5eTR6TWdjblhocGdEeHFxOWRiYWJCNVlBeTU1cVQ2SkxEenpKa095MU80TDN4R2tJazY4UGstcFVzdzY5WjFyNWJPLTd1UHVxVEdBMnR1MmNvcmhIV3lDUloybkxvR0Vf?oc=5",
+   "source": "India Today",
+   "published": "2026-11-04T08:56:03Z",
+   "since": "2026-11-04T09:58:20Z"
   },
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman says he hates AI companies claiming it will cure cancer, talks about human freedom",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPQ1FsWVNkc2JVU3Rhb0xoSHJxejJRTk1nbUJyYl9vVjBlcVZqZVoxTVpBWkloRUVsdXdGWHlWRkN5eXcxWjl4bmZfTXVKZ2FubFFXVUdmSnE3UWM5QnowcW9LRkY3aVkyVld0V0hQdm5tR1J1UHhjWUd2NXQwMlpCWGFTRjF1VUJtUUdKZkdDejBiVFZKTE1CN3FDSmUzQXVQMkdjLVJWYWNNbjE3aXZwT2F4cXNKMDR3OFo3SXQxWUJjQnUwU09EaFZZX3cxR0VTek1YQW5iMG9rYzFLR2xtYTJtQ3BWWTk4aElEcUtKVnPSAfYBQVVfeXFMT19JSHhzbU1MOG1sT2FXZ3Z1YmYtTWtUNG44NTJPaDE1empfOHo1NElLeEV1NWVyTGtmTmJnQm5uLUR5eWV1OWpQVmVVWlVsYzB0djAxV3JJc3FqelhaU2U4eHJ5YU9RWFFjSW03Z3dyaVh5V2NjWndYTXdxOXJ0aE94aFZFbzJKWHhldE92dV9KZ0Q3R1hyR2pJUmI3QzJrTzJ4cW5XUS1Mem5DWEc4TXQxVWFjaWotSzNxYUdNdXBTQXMwRUFQLUZpVVZKWkNtOVRYcEpzV3FhVDVweEc2M1NzWGhOVk5KN3hPdTRVOHRzazlZQy1B?oc=5",
-   "source": "India Today",
-   "published": "2026-11-03T13:54:41Z"
+   "person": "Elon Musk",
+   "title": "Musk says Grok Bot's costs are 'unsustainably high,' while OpenAI admits Dots are ‘compute heavy.'",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOc3hsdGF5SGpmX014STA2VXN1V3dBQUZKNTVvMDFwSlRFaTI3a0JIVGdQVzNOS0k1WmtNNi1OemRoaWdOb05wNFR4T191RmRodGVCYnNDcXF2TWpqVUg4MTEtNUR0Y3l6T1lBTnM0djZTLXBNWEp6SEVvbVhqSmxUd0xLeThNMEtYemI1ODFfVWFHODhRY1R6ZmZ5aEhfYVpROWx3cWM1VnI4TlY0U1RFTk82aW9JUDJjVUVNUm80Z2NzWXlIMXBYRXFocV83eF9aSmc4UzQxV1JoQzB2VWI1TmEzT3c5eXpOVjdDRjY0ZW5tYkVhSFpEdkF4Y21fdw?oc=5",
+   "source": "Fortune",
+   "published": "2026-11-03T20:01:00Z"
   },
   {
    "kind": "repo",
    "title": "wangzan101/Mika",
-   "stars": 6122,
+   "stars": 6302,
    "note": "Kotlin · new this week",
    "url": "https://github.com/wangzan101/Mika",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "N1nEmAn/sapper-v2",
-   "stars": 666,
+   "stars": 684,
    "note": "Python · new this week",
    "url": "https://github.com/N1nEmAn/sapper-v2",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "Balanov/uncut",
-   "stars": 594,
+   "stars": 599,
    "note": "Go · new this week",
    "url": "https://github.com/Balanov/uncut",
    "source": "GitHub",
@@ -101,7 +101,7 @@
   {
    "kind": "repo",
    "title": "aa1143/NamiAgent",
-   "stars": 288,
+   "stars": 312,
    "note": "Python · new this week",
    "url": "https://github.com/aa1143/NamiAgent",
    "source": "GitHub",
@@ -111,7 +111,7 @@
   {
    "kind": "repo",
    "title": "SAOS-3624/dsh-see-now",
-   "stars": 267,
+   "stars": 302,
    "note": "JavaScript · new this week",
    "url": "https://github.com/SAOS-3624/dsh-see-now",
    "source": "GitHub",
@@ -121,7 +121,7 @@
   {
    "kind": "repo",
    "title": "Interactive-Active-AI/NextTransformer",
-   "stars": 222,
+   "stars": 252,
    "note": "Python · new this week",
    "url": "https://github.com/Interactive-Active-AI/NextTransformer",
    "source": "GitHub",
@@ -131,7 +131,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 17050,
+   "stars": 17983,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -141,7 +141,7 @@
   {
    "kind": "repo",
    "title": "storytold/craft-anything",
-   "stars": 8664,
+   "stars": 9679,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/craft-anything",
    "source": "GitHub",
@@ -151,7 +151,7 @@
   {
    "kind": "repo",
    "title": "heydamir/unslop",
-   "stars": 7610,
+   "stars": 7884,
    "note": "JavaScript · new this week",
    "url": "https://github.com/heydamir/unslop",
    "source": "GitHub",
@@ -161,7 +161,7 @@
   {
    "kind": "repo",
    "title": "valentderah/totk-pc-recomp",
-   "stars": 4543,
+   "stars": 4653,
    "note": "C · new this week",
    "url": "https://github.com/valentderah/totk-pc-recomp",
    "source": "GitHub",
@@ -171,7 +171,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 1053,
+   "points": 1271,
    "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
    "source": "Hacker News",
    "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
@@ -180,7 +180,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 499,
+   "points": 621,
    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
    "source": "Hacker News",
    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
@@ -189,7 +189,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 388,
+   "points": 471,
    "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
    "source": "Hacker News",
    "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
@@ -198,16 +198,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 270,
-   "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
-   "source": "Hacker News",
-   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-   "discuss": "https://news.ycombinator.com/item?id=50358422"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 249,
+   "points": 337,
    "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
    "source": "Hacker News",
    "url": "https://arxiv.org/abs/2605.29713",
@@ -216,7 +207,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 93,
+   "points": 171,
    "title": "How I use AI (Oct 2026)",
    "source": "Hacker News",
    "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
@@ -225,7 +216,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 75,
+   "points": 121,
    "title": "We're training a Figma-fluent editing model",
    "source": "Hacker News",
    "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
@@ -234,11 +225,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 33,
+   "points": 70,
    "title": "There is no posttraining data commons",
    "source": "Hacker News",
    "url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/",
    "discuss": "https://news.ycombinator.com/item?id=50352641"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 62,
+   "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+   "source": "Hacker News",
+   "url": "https://uncracked.city",
+   "discuss": "https://news.ycombinator.com/item?id=50358352"
   },
   {
    "kind": "news",

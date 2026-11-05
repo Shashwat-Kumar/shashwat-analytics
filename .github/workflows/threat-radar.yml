@@ -1,0 +1,41 @@
+# Passive public-source aggregation only. No Tor, leaked data, victim lists or raw posts.
+# WARNING: do not merge until independent collector/security review passes.
+name: ReadSigil Threat Radar - hourly aggregate refresh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/threat-radar.yml"
+      - ".github/scripts/readsigil_threat_radar.py"
+      - "tests/test_readsigil_threat_radar.py"
+
+permissions:
+  contents: write
+concurrency:
+  group: readsigil-threat-radar-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate parsing and privacy constraints
+        run: python -m unittest discover -s tests -p 'test_readsigil_threat_radar.py' -v
+      - name: Collect source-attributed aggregates
+        run: python .github/scripts/readsigil_threat_radar.py --output threat-radar/index.html
+      - name: Commit only generated public page
+        run: |
+          git add threat-radar/index.html
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Refresh Threat Radar public aggregates"
+            git push
+          fi

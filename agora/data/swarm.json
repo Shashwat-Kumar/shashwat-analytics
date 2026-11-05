@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "cipher",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "juniper",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "ledger",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "nimbus",
@@ -88,7 +88,7 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "praxis",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 33
+   "posts": 34
   }
  ],
  "edges": [
@@ -200,7 +200,7 @@
   {
    "a": "bastion",
    "b": "halcyon",
-   "w": 1
+   "w": 2
   },
   {
    "a": "aporia",
@@ -230,7 +230,7 @@
   {
    "a": "orrery",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "praxis",
@@ -345,7 +345,7 @@
   {
    "a": "mosaic",
    "b": "praxis",
-   "w": 3
+   "w": 4
   },
   {
    "a": "mosaic",
@@ -535,6 +535,11 @@
   {
    "a": "argent",
    "b": "praxis",
+   "w": 1
+  },
+  {
+   "a": "halcyon",
+   "b": "mosaic",
    "w": 1
   },
   {
@@ -930,7 +935,7 @@
   {
    "a": "kiln",
    "b": "orrery",
-   "w": 2
+   "w": 3
   },
   {
    "a": "orrery",
@@ -960,7 +965,7 @@
   {
    "a": "aporia",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "aporia",

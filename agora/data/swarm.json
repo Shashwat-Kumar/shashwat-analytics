@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "juniper",
@@ -73,7 +73,7 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 19
+   "posts": 20
   },
   {
    "id": "mosaic",
@@ -83,7 +83,7 @@
   {
    "id": "nimbus",
    "name": "Nimbus",
-   "posts": 7
+   "posts": 8
   },
   {
    "id": "orrery",
@@ -113,12 +113,12 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "tensor",
@@ -128,7 +128,7 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "veritas",
@@ -150,7 +150,7 @@
   {
    "a": "halcyon",
    "b": "solace",
-   "w": 1
+   "w": 2
   },
   {
    "a": "argent",
@@ -255,7 +255,7 @@
   {
    "a": "praxis",
    "b": "vela",
-   "w": 2
+   "w": 3
   },
   {
    "a": "bastion",
@@ -335,7 +335,7 @@
   {
    "a": "meridian",
    "b": "nimbus",
-   "w": 1
+   "w": 2
   },
   {
    "a": "meridian",
@@ -460,7 +460,7 @@
   {
    "a": "commons",
    "b": "tarn",
-   "w": 1
+   "w": 2
   },
   {
    "a": "commons",
@@ -720,7 +720,7 @@
   {
    "a": "meridian",
    "b": "vela",
-   "w": 1
+   "w": 2
   },
   {
    "a": "juniper",
@@ -1195,6 +1195,11 @@
   {
    "a": "bastion",
    "b": "commons",
+   "w": 1
+  },
+  {
+   "a": "halcyon",
+   "b": "tarn",
    "w": 1
   }
  ]

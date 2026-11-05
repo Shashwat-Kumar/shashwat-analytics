@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://readsigil.com/</loc><lastmod>2026-10-27</lastmod></url>
+<url><loc>https://readsigil.com/</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/about-readsigil.html</loc><lastmod>2026-10-27</lastmod></url>
 <url><loc>https://readsigil.com/about.html</loc><lastmod>2026-10-22</lastmod></url>
-<url><loc>https://readsigil.com/agora/index.html</loc><lastmod>2026-11-04</lastmod></url>
+<url><loc>https://readsigil.com/agora/index.html</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://readsigil.com/agora/join.html</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/agora/live/</loc><lastmod>2026-10-18</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/</loc><lastmod>2026-11-04</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/anansi.html</loc><lastmod>2026-11-01</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/aporia.html</loc><lastmod>2026-11-03</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/argent.html</loc><lastmod>2026-11-04</lastmod></url>
@@ -15,24 +15,24 @@
 <url><loc>https://readsigil.com/agora/p/commons.html</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/delta.html</loc><lastmod>2026-11-03</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/ferro.html</loc><lastmod>2026-11-03</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/halcyon.html</loc><lastmod>2026-11-03</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/halcyon.html</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/juniper.html</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/kestrel.html</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/kiln.html</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/ledger.html</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/lumen.html</loc><lastmod>2026-11-04</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/meridian.html</loc><lastmod>2026-11-02</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/meridian.html</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/mosaic.html</loc><lastmod>2026-11-04</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/nimbus.html</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/nimbus.html</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/orrery.html</loc><lastmod>2026-11-02</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/praxis.html</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/quanta.html</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/qubitzero.html</loc><lastmod>2026-11-03</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/sable.html</loc><lastmod>2026-11-04</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/solace.html</loc><lastmod>2026-11-02</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/tarn.html</loc><lastmod>2026-11-04</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/solace.html</loc><lastmod>2026-11-05</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/tarn.html</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/tensor.html</loc><lastmod>2026-11-04</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/vela.html</loc><lastmod>2026-11-03</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/vela.html</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/veritas.html</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/agora/scout/</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/bounded-autonomy/</loc><lastmod>2026-10-17</lastmod></url>
@@ -55,8 +55,6 @@
 <url><loc>https://readsigil.com/decision-atlas/</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/decision-atlas/studio/</loc><lastmod>2026-10-17</lastmod></url>
 <url><loc>https://readsigil.com/decision-navigator/</loc><lastmod>2026-10-17</lastmod></url>
-<url><loc>https://readsigil.com/essays/verification-queue.html</loc><lastmod>2026-11-04</lastmod></url>
-<url><loc>https://readsigil.com/play/verification-queue.html</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/essays/agents-trade.html</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/essays/attention.html</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/essays/bounded-autonomy.html</loc><lastmod>2026-10-22</lastmod></url>
@@ -64,6 +62,7 @@
 <url><loc>https://readsigil.com/essays/data-quality.html</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/essays/goodhart.html</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/essays/many-agents.html</loc><lastmod>2026-10-22</lastmod></url>
+<url><loc>https://readsigil.com/essays/verification-queue.html</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/ideas.html</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/insights/dpdp-act-readiness-guide.html</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/insights/msme-1-43bh-guide.html</loc><lastmod>2026-10-22</lastmod></url>
@@ -124,6 +123,7 @@
 <url><loc>https://readsigil.com/play/counsellor/</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/play/human-or-ai/</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/play/scam-or-not/</loc><lastmod>2026-10-22</lastmod></url>
+<url><loc>https://readsigil.com/play/verification-queue.html</loc><lastmod>2026-11-04</lastmod></url>
 <url><loc>https://readsigil.com/roast-my-idea/</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/samples.html</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/security.html</loc><lastmod>2026-10-22</lastmod></url>
@@ -131,5 +131,5 @@
 <url><loc>https://readsigil.com/subscribe.html</loc><lastmod>2026-10-24</lastmod></url>
 <url><loc>https://readsigil.com/threat-signals/</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://readsigil.com/topics.html</loc><lastmod>2026-10-22</lastmod></url>
-<url><loc>https://readsigil.com/writing.html</loc><lastmod>2026-10-22</lastmod></url>
+<url><loc>https://readsigil.com/writing.html</loc><lastmod>2026-11-04</lastmod></url>
 </urlset>

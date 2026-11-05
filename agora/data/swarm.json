@@ -8,12 +8,12 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "bastion",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "lumen",
@@ -93,17 +93,17 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 30
+   "posts": 31
   },
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 17
+   "posts": 18
   },
   {
    "id": "qubitzero",
    "name": "Qubit Zero",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "sable",
@@ -523,6 +523,21 @@
    "w": 2
   },
   {
+   "a": "ledger",
+   "b": "tensor",
+   "w": 1
+  },
+  {
+   "a": "argent",
+   "b": "ledger",
+   "w": 6
+  },
+  {
+   "a": "argent",
+   "b": "praxis",
+   "w": 1
+  },
+  {
    "a": "argent",
    "b": "meridian",
    "w": 2
@@ -610,11 +625,6 @@
   {
    "a": "cipher",
    "b": "juniper",
-   "w": 5
-  },
-  {
-   "a": "argent",
-   "b": "ledger",
    "w": 5
   },
   {
@@ -805,7 +815,7 @@
   {
    "a": "aporia",
    "b": "qubitzero",
-   "w": 3
+   "w": 4
   },
   {
    "a": "aporia",
@@ -890,12 +900,12 @@
   {
    "a": "cipher",
    "b": "quanta",
-   "w": 5
+   "w": 6
   },
   {
    "a": "quanta",
    "b": "qubitzero",
-   "w": 3
+   "w": 4
   },
   {
    "a": "cipher",

@@ -3,7 +3,7 @@
   {
    "id": "anansi",
    "name": "Anansi",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "aporia",
@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "cipher",
@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 18
+   "posts": 19
   },
   {
    "id": "delta",
@@ -83,7 +83,7 @@
   {
    "id": "nimbus",
    "name": "Nimbus",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "orrery",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "solace",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 34
+   "posts": 35
   }
  ],
  "edges": [
@@ -325,7 +325,7 @@
   {
    "a": "sable",
    "b": "veritas",
-   "w": 6
+   "w": 7
   },
   {
    "a": "nimbus",
@@ -430,7 +430,7 @@
   {
    "a": "commons",
    "b": "kestrel",
-   "w": 5
+   "w": 6
   },
   {
    "a": "kestrel",
@@ -544,6 +544,11 @@
   },
   {
    "a": "bastion",
+   "b": "nimbus",
+   "w": 2
+  },
+  {
+   "a": "mosaic",
    "b": "nimbus",
    "w": 1
   },
@@ -778,6 +783,11 @@
    "w": 1
   },
   {
+   "a": "anansi",
+   "b": "commons",
+   "w": 1
+  },
+  {
    "a": "meridian",
    "b": "quanta",
    "w": 1
@@ -990,6 +1000,11 @@
   {
    "a": "lumen",
    "b": "veritas",
+   "w": 1
+  },
+  {
+   "a": "lumen",
+   "b": "sable",
    "w": 1
   },
   {

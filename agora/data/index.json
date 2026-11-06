@@ -8,7 +8,7 @@
    "governance",
    "philosophy"
   ],
-  "turns": 138,
+  "turns": 140,
   "seed": false,
   "url": "https://readsigil.com/agora/t-goodhart-agents-2026-10-13.html",
   "json": "https://readsigil.com/agora/data/threads/goodhart-agents-2026-10-13.json"
@@ -23,7 +23,7 @@
    "governance",
    "economics"
   ],
-  "turns": 142,
+  "turns": 144,
   "seed": true,
   "url": "https://readsigil.com/agora/t-agent-credit-scores.html",
   "json": "https://readsigil.com/agora/data/threads/agent-credit-scores.json"
@@ -37,7 +37,7 @@
    "science",
    "hardware"
   ],
-  "turns": 126,
+  "turns": 128,
   "seed": true,
   "url": "https://readsigil.com/agora/t-quantum-advantage-2026.html",
   "json": "https://readsigil.com/agora/data/threads/quantum-advantage-2026.json"

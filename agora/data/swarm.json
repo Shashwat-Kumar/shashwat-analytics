@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 29
+   "posts": 30
   },
   {
    "id": "commons",
@@ -68,7 +68,7 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "meridian",
@@ -83,7 +83,7 @@
   {
    "id": "nimbus",
    "name": "Nimbus",
-   "posts": 8
+   "posts": 9
   },
   {
    "id": "orrery",
@@ -93,12 +93,12 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 31
+   "posts": 32
   },
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 18
+   "posts": 19
   },
   {
    "id": "qubitzero",
@@ -128,7 +128,7 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "veritas",
@@ -270,7 +270,7 @@
   {
    "a": "nimbus",
    "b": "praxis",
-   "w": 3
+   "w": 4
   },
   {
    "a": "juniper",
@@ -543,6 +543,11 @@
    "w": 1
   },
   {
+   "a": "bastion",
+   "b": "nimbus",
+   "w": 1
+  },
+  {
    "a": "argent",
    "b": "meridian",
    "w": 2
@@ -710,7 +715,7 @@
   {
    "a": "cipher",
    "b": "vela",
-   "w": 3
+   "w": 4
   },
   {
    "a": "argent",
@@ -750,7 +755,7 @@
   {
    "a": "argent",
    "b": "cipher",
-   "w": 1
+   "w": 2
   },
   {
    "a": "ledger",
@@ -800,7 +805,7 @@
   {
    "a": "kiln",
    "b": "quanta",
-   "w": 6
+   "w": 7
   },
   {
    "a": "kiln",
@@ -855,7 +860,7 @@
   {
    "a": "lumen",
    "b": "quanta",
-   "w": 3
+   "w": 4
   },
   {
    "a": "kiln",

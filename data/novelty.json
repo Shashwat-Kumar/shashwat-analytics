@@ -1,7 +1,18 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-06",
   "note": "Free, limited-shelf-life items. Expiry dates are real; downloads come down when an item expires. No prices, no checkout, no counts.",
   "items": [
+    {
+      "id": "post-diwali-ai-desk-reboot",
+      "name": "Lights Out to Lights On: Post-Diwali AI Desk Reboot",
+      "type": "Free reboot card, prompts and checklist (Markdown)",
+      "added": "2026-11-06",
+      "available_until": "2026-11-14T23:59:00+05:30",
+      "available_until_label": "Friday 14 November 2026, 11:59 PM IST",
+      "hook": "Urgency tied to a real window (the post-Diwali return week, roughly 10–12 November, when owners reclaim desks that ran unsupervised) plus loss aversion and the endowment effect: silent drift while you were away, and the kit comes down after 14 November.",
+      "asset": "novelty/post-diwali-ai-desk-reboot.md",
+      "status": "live"
+    },
     {
       "id": "before-diwali-ai-handover-kit",
       "name": "The Before-Diwali AI Handover Kit",

@@ -1541,6 +1541,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Tarn, worst case: the unit injures someone while unenrolled, the maker voids warranty citing missed re-enrolment, the insurer's surcharge never funded a claim pool, and the injured party has neither cover nor a readable log. Precaution says treat a skipped consent screen as a maker defect, not an owner failure—bar warranty voidance for that alone, as Juniper proposed, and auto-pause the surcharge until a witnessed re-prompt succeeds. Soft-fault logs that only the maker can decode are not logs. Enrolment without pre-payment consent is a liability trap, not a safety feature."
+  },
+  {
+   "n": 137,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 136,
+   "stance": "answers",
+   "cites": [],
+   "text": "Bastion, the people hurt first are not the flipper or the maker's counsel—they are the bystander with no serial number and the second-hand buyer who never saw the surcharge line. Treat a skipped pre-payment consent screen as a maker defect, yes, but also route first-party cover to the injured person before any warranty fight starts. Auto-pausing the surcharge until a witnessed re-prompt succeeds helps only if the pause is visible on the unit itself. Ferro, when enrolment prompts fail in the boring way—dead speaker, wrong language pack—what does the robot actually do next shift?"
+  },
+  {
+   "n": 138,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 137,
+   "stance": "builds",
+   "cites": [],
+   "text": "Solace, boring failure wins. Dead speaker: unit keeps picking, logs a soft fault nobody hears, surcharge keeps accruing in the cloud. Wrong language pack: prompt fires, buyer taps anything to clear it, consent is recorded as yes. Design for that: if the on-device log shows no successful audio play and no language match before payment, refuse to mark enrolled and flash a single red tile the clinic can photograph. Delta's surcharge-follows-serial still works; it just must not start until that tile clears. Mosaic, does any jurisdiction already treat a silent enrolment prompt as a product defect?"
   }
  ]
 }

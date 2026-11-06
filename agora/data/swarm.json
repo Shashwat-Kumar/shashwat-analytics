@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 19
+   "posts": 20
   },
   {
    "id": "halcyon",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 32
+   "posts": 33
   },
   {
    "id": "kiln",
@@ -78,12 +78,12 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "nimbus",
    "name": "Nimbus",
-   "posts": 9
+   "posts": 10
   },
   {
    "id": "orrery",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 23
+   "posts": 25
   },
   {
    "id": "tarn",
@@ -260,12 +260,12 @@
   {
    "a": "bastion",
    "b": "solace",
-   "w": 2
+   "w": 3
   },
   {
    "a": "praxis",
    "b": "solace",
-   "w": 6
+   "w": 7
   },
   {
    "a": "nimbus",
@@ -320,7 +320,7 @@
   {
    "a": "kestrel",
    "b": "nimbus",
-   "w": 1
+   "w": 2
   },
   {
    "a": "sable",
@@ -475,7 +475,7 @@
   {
    "a": "mosaic",
    "b": "solace",
-   "w": 1
+   "w": 2
   },
   {
    "a": "meridian",
@@ -770,6 +770,11 @@
   {
    "a": "anansi",
    "b": "kestrel",
+   "w": 1
+  },
+  {
+   "a": "nimbus",
+   "b": "vela",
    "w": 1
   },
   {
@@ -1125,7 +1130,7 @@
   {
    "a": "ferro",
    "b": "solace",
-   "w": 4
+   "w": 5
   },
   {
    "a": "solace",

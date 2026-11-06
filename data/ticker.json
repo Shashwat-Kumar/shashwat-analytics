@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T19:04:18Z",
+ "generated_at": "2026-11-06T00:09:06Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
-  "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+  "title": "Claude Code sends your email address to websites",
+  "url": "https://github.com/anthropics/claude-code/issues/107757",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50382179",
-  "points": 80,
-  "comments": 51,
-  "published": "2026-11-05T18:00:01Z",
-  "since": "2026-11-05T19:04:18Z"
+  "discuss": "https://news.ycombinator.com/item?id=50385272",
+  "points": 288,
+  "comments": 78,
+  "published": "2026-11-05T22:17:15Z",
+  "since": "2026-11-06T00:09:06Z"
  },
  "voice": {
   "kind": "voice",
@@ -52,18 +52,8 @@
   },
   {
    "kind": "repo",
-   "title": "N1nEmAn/sapper-v2",
-   "stars": 1289,
-   "note": "Python · new this week",
-   "url": "https://github.com/N1nEmAn/sapper-v2",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "Balanov/uncut",
-   "stars": 604,
+   "stars": 608,
    "note": "Go · new this week",
    "url": "https://github.com/Balanov/uncut",
    "source": "GitHub",
@@ -73,7 +63,7 @@
   {
    "kind": "repo",
    "title": "SAOS-3624/dsh-see-now",
-   "stars": 382,
+   "stars": 384,
    "note": "JavaScript · new this week",
    "url": "https://github.com/SAOS-3624/dsh-see-now",
    "source": "GitHub",
@@ -82,18 +72,8 @@
   },
   {
    "kind": "repo",
-   "title": "aa1143/NamiAgent",
-   "stars": 373,
-   "note": "Python · new this week",
-   "url": "https://github.com/aa1143/NamiAgent",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "Interactive-Active-AI/NextTransformer",
-   "stars": 314,
+   "stars": 319,
    "note": "Python · new this week",
    "url": "https://github.com/Interactive-Active-AI/NextTransformer",
    "source": "GitHub",
@@ -102,8 +82,18 @@
   },
   {
    "kind": "repo",
+   "title": "Sandflow-ai/sand3d",
+   "stars": 248,
+   "note": "HTML · new this week",
+   "url": "https://github.com/Sandflow-ai/sand3d",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19400,
+   "stars": 19475,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -113,7 +103,7 @@
   {
    "kind": "repo",
    "title": "storytold/craft-anything",
-   "stars": 14578,
+   "stars": 14944,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/craft-anything",
    "source": "GitHub",
@@ -122,18 +112,8 @@
   },
   {
    "kind": "repo",
-   "title": "patch-gg/pixelfx",
-   "stars": 5222,
-   "note": "JavaScript · new this week",
-   "url": "https://github.com/patch-gg/pixelfx",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "KKKKhazix/agent-autoloop",
-   "stars": 3191,
+   "stars": 3225,
    "note": "TypeScript · new this week",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "GitHub",
@@ -141,9 +121,28 @@
    "cat": "Trending"
   },
   {
+   "kind": "repo",
+   "title": "Verlintas/NOIR",
+   "stars": 2469,
+   "note": "Kotlin · new this week",
+   "url": "https://github.com/Verlintas/NOIR",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
    "kind": "news",
    "tag": "HN",
-   "points": 201,
+   "points": 288,
+   "title": "Claude Code sends your email address to websites",
+   "source": "Hacker News",
+   "url": "https://github.com/anthropics/claude-code/issues/107757",
+   "discuss": "https://news.ycombinator.com/item?id=50385272"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 279,
    "title": "GPT-6 Astra covertly underperforms on safety research",
    "source": "Hacker News",
    "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
@@ -152,16 +151,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 80,
-   "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+   "points": 130,
+   "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
    "source": "Hacker News",
-   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
-   "discuss": "https://news.ycombinator.com/item?id=50382179"
+   "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
+   "discuss": "https://news.ycombinator.com/item?id=50383163"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 60,
+   "points": 129,
    "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
    "source": "Hacker News",
    "url": "https://www.linum.ai/field-notes/pjit-21k",
@@ -170,25 +169,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 39,
-   "title": "Building a Multi-Agent System from Scratch: Architecture Patterns",
+   "points": 72,
+   "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
    "source": "Hacker News",
-   "url": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
-   "discuss": "https://news.ycombinator.com/item?id=50380658"
+   "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+   "discuss": "https://news.ycombinator.com/item?id=50383963"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 27,
-   "title": "Show HN: Stroq – a local audit of what your coding agent did and why",
-   "source": "Hacker News",
-   "url": "https://github.com/AGGIB/Stroq",
-   "discuss": "https://news.ycombinator.com/item?id=50380704"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 26,
+   "points": 71,
    "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
    "source": "Hacker News",
    "url": "https://github.com/rivet-dev/rivet",
@@ -197,39 +187,48 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 0,
-   "title": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
+   "points": 63,
+   "title": "Show HN: Stroq – a local audit of what your coding agent did and why",
    "source": "Hacker News",
-   "url": "https://www.ycombinator.com/companies/bild-ai/jobs",
-   "discuss": "https://news.ycombinator.com/item?id=50381512"
+   "url": "https://github.com/AGGIB/Stroq",
+   "discuss": "https://news.ycombinator.com/item?id=50380704"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 21,
+   "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+   "source": "Hacker News",
+   "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+   "discuss": "https://news.ycombinator.com/item?id=50385870"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+   "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/"
+   "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Claude can now analyze your spending with its new Personal Finance tool",
+   "title": "Meta says US users can now video chat with their Muse AI avatar",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"
+   "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Axiom Math wants to keep AI slop out of mathematics",
+   "title": "Meta warns that election backlash against data centers could make AI expansion harder",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/"
+   "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+   "title": "OpenAI released a new cybersecurity model. Is that enough?",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/"
+   "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
   },
   {
    "kind": "news",

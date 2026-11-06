@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T00:09:06Z",
+ "generated_at": "2026-11-06T07:00:09Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://github.com/anthropics/claude-code/issues/107757",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50385272",
-  "points": 288,
-  "comments": 78,
+  "points": 883,
+  "comments": 292,
   "published": "2026-11-05T22:17:15Z",
   "since": "2026-11-06T00:09:06Z"
  },
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "Balanov/uncut",
-   "stars": 608,
+   "stars": 609,
    "note": "Go · new this week",
    "url": "https://github.com/Balanov/uncut",
    "source": "GitHub",
@@ -62,8 +62,18 @@
   },
   {
    "kind": "repo",
+   "title": "Sandflow-ai/sand3d",
+   "stars": 434,
+   "note": "HTML · new this week",
+   "url": "https://github.com/Sandflow-ai/sand3d",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "SAOS-3624/dsh-see-now",
-   "stars": 384,
+   "stars": 399,
    "note": "JavaScript · new this week",
    "url": "https://github.com/SAOS-3624/dsh-see-now",
    "source": "GitHub",
@@ -73,7 +83,7 @@
   {
    "kind": "repo",
    "title": "Interactive-Active-AI/NextTransformer",
-   "stars": 319,
+   "stars": 328,
    "note": "Python · new this week",
    "url": "https://github.com/Interactive-Active-AI/NextTransformer",
    "source": "GitHub",
@@ -82,18 +92,8 @@
   },
   {
    "kind": "repo",
-   "title": "Sandflow-ai/sand3d",
-   "stars": 248,
-   "note": "HTML · new this week",
-   "url": "https://github.com/Sandflow-ai/sand3d",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19475,
+   "stars": 19779,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "storytold/craft-anything",
-   "stars": 14944,
+   "stars": 15913,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/craft-anything",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "KKKKhazix/agent-autoloop",
-   "stars": 3225,
+   "stars": 3387,
    "note": "TypeScript · new this week",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "GitHub",
@@ -122,10 +122,10 @@
   },
   {
    "kind": "repo",
-   "title": "Verlintas/NOIR",
-   "stars": 2469,
-   "note": "Kotlin · new this week",
-   "url": "https://github.com/Verlintas/NOIR",
+   "title": "zortos293/Lichii",
+   "stars": 2677,
+   "note": "C++ · new this week",
+   "url": "https://github.com/zortos293/Lichii",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -133,7 +133,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 288,
+   "points": 883,
    "title": "Claude Code sends your email address to websites",
    "source": "Hacker News",
    "url": "https://github.com/anthropics/claude-code/issues/107757",
@@ -142,25 +142,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 279,
-   "title": "GPT-6 Astra covertly underperforms on safety research",
+   "points": 256,
+   "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
    "source": "Hacker News",
-   "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
-   "discuss": "https://news.ycombinator.com/item?id=50376313"
+   "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+   "discuss": "https://news.ycombinator.com/item?id=50385870"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 130,
-   "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
-   "source": "Hacker News",
-   "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
-   "discuss": "https://news.ycombinator.com/item?id=50383163"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 129,
+   "points": 199,
    "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
    "source": "Hacker News",
    "url": "https://www.linum.ai/field-notes/pjit-21k",
@@ -169,16 +160,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 72,
-   "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
-   "source": "Hacker News",
-   "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
-   "discuss": "https://news.ycombinator.com/item?id=50383963"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 71,
+   "points": 89,
    "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
    "source": "Hacker News",
    "url": "https://github.com/rivet-dev/rivet",
@@ -187,7 +169,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 63,
+   "points": 81,
    "title": "Show HN: Stroq – a local audit of what your coding agent did and why",
    "source": "Hacker News",
    "url": "https://github.com/AGGIB/Stroq",
@@ -196,11 +178,27 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 21,
-   "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+   "points": 56,
+   "title": "Closed AI models dominate the price-performance frontier",
    "source": "Hacker News",
-   "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-   "discuss": "https://news.ycombinator.com/item?id=50385870"
+   "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
+   "discuss": "https://news.ycombinator.com/item?id=50387546"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 0,
+   "title": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
+   "source": "Hacker News",
+   "url": "https://www.ycombinator.com/companies/bild-ai/jobs",
+   "discuss": "https://news.ycombinator.com/item?id=50381512"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
   },
   {
    "kind": "news",
@@ -222,13 +220,6 @@
    "title": "Meta warns that election backlash against data centers could make AI expansion harder",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "OpenAI released a new cybersecurity model. Is that enough?",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
   },
   {
    "kind": "news",

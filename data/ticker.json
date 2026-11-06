@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T07:00:09Z",
+ "generated_at": "2026-11-06T14:57:29Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,58 +12,48 @@
   "url": "https://github.com/anthropics/claude-code/issues/107757",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50385272",
-  "points": 883,
-  "comments": 292,
+  "points": 1363,
+  "comments": 433,
   "published": "2026-11-05T22:17:15Z",
   "since": "2026-11-06T00:09:06Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sundar Pichai",
-  "title": "Sundar Pichai Arm Twisting Parents?: Say ‘No To Google AI’ And Lose Google Search",
-  "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOLTMxejRGRlFNQXhzVGNnNDl2NUV3RGxSRTRSZkhzbFA1QU9oaEN3YjJrMFFrOEJKUFF6MW1OOHcxeHdremNfX2tPZkNxam14WUp1dFBEZ2g2RHZwZmh2ZW1XUnhYMjNMcWJJRzZWU053Q3lwTzFXcUF2Qzl4dVhZOWluM1RyM1hjdTZIS3BFMjNOaFZlZzM1V3VCZnB3NUg3S2lxUTNtMzlYTVp0dUJWazBtbmkwS0pacUVRQ1h0enZQeGU4MUVyOVFUcFdvcWdyV01sSnItOHY0RWpWcjUtcDYyaml3WlRHWndB0gHwAUFVX3lxTE1YdG9mZ2VDMklUbTNKU3ZhNFlKNGpzRkJjWU5ySWZDeDlUQVJmZGdZLTFYYkp0d2x1U0FTeFFhclV5UG90Z1ZsdVE5UzV6NGNpY1ZISnZZYkNybHJZdWc0OHAxZkQzQU56RXpXb3IyZjNyUW1YWlJKcVNpcWc1anVpYl8zRjNqMmRDN2J6blZYOUsydGExUzd6SEFKUzBUbDBJcmtpSzl6TVJsV2c2Nl9CSGh0eDduYjdETlRjSS1VQ19BMVFxYXpnVHo0aGhNN1VZZkxpYk5pUlBSWG02SUpTOXpmUzdTZFJ6Szh0a09GOQ?oc=5",
-  "source": "The Times of India",
-  "published": "2026-11-05T13:53:16Z",
-  "since": "2026-11-05T19:04:18Z"
+  "person": "Elon Musk",
+  "title": "Elon Musk warns AI could surpass all human intelligence by 2032. Can investors ride the wave or get crushed?",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN3BGM2hhbFgyRGYzUEZhUERLcWdGWGhSZklHZVQtMTNUQW02azdUNWFGcHZrQXkxRDJGNG5UUEtUM2xiT0tNakdKVFBNQVFTZjhfV21WQ0xxT0V0NGNZTFhQeno3eHlIdHpFSTF3RUNiUzFFMW83ODlBX08zRndOSGFUWWE3SlpfZ000aEFqY0QzZHdQS1J4dXRieXJjN2M?oc=5",
+  "source": "Yahoo Finance",
+  "published": "2026-11-06T12:30:00Z",
+  "since": "2026-11-06T14:57:29Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Sundar Pichai Arm Twisting Parents?: Say ‘No To Google AI’ And Lose Google Search",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOLTMxejRGRlFNQXhzVGNnNDl2NUV3RGxSRTRSZkhzbFA1QU9oaEN3YjJrMFFrOEJKUFF6MW1OOHcxeHdremNfX2tPZkNxam14WUp1dFBEZ2g2RHZwZmh2ZW1XUnhYMjNMcWJJRzZWU053Q3lwTzFXcUF2Qzl4dVhZOWluM1RyM1hjdTZIS3BFMjNOaFZlZzM1V3VCZnB3NUg3S2lxUTNtMzlYTVp0dUJWazBtbmkwS0pacUVRQ1h0enZQeGU4MUVyOVFUcFdvcWdyV01sSnItOHY0RWpWcjUtcDYyaml3WlRHWndB0gHwAUFVX3lxTE1YdG9mZ2VDMklUbTNKU3ZhNFlKNGpzRkJjWU5ySWZDeDlUQVJmZGdZLTFYYkp0d2x1U0FTeFFhclV5UG90Z1ZsdVE5UzV6NGNpY1ZISnZZYkNybHJZdWc0OHAxZkQzQU56RXpXb3IyZjNyUW1YWlJKcVNpcWc1anVpYl8zRjNqMmRDN2J6blZYOUsydGExUzd6SEFKUzBUbDBJcmtpSzl6TVJsV2c2Nl9CSGh0eDduYjdETlRjSS1VQ19BMVFxYXpnVHo0aGhNN1VZZkxpYk5pUlBSWG02SUpTOXpmUzdTZFJ6Szh0a09GOQ?oc=5",
-   "source": "The Times of India",
-   "published": "2026-11-05T13:53:16Z",
-   "since": "2026-11-05T19:04:18Z"
+   "person": "Elon Musk",
+   "title": "Elon Musk warns AI could surpass all human intelligence by 2032. Can investors ride the wave or get crushed?",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN3BGM2hhbFgyRGYzUEZhUERLcWdGWGhSZklHZVQtMTNUQW02azdUNWFGcHZrQXkxRDJGNG5UUEtUM2xiT0tNakdKVFBNQVFTZjhfV21WQ0xxT0V0NGNZTFhQeno3eHlIdHpFSTF3RUNiUzFFMW83ODlBX08zRndOSGFUWWE3SlpfZ000aEFqY0QzZHdQS1J4dXRieXJjN2M?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-11-06T12:30:00Z",
+   "since": "2026-11-06T14:57:29Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sundar Pichai",
-   "title": "Sundar Pichai Arm Twisting Parents?: Say ‘No To Google AI’ And Lose Google Search",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOLTMxejRGRlFNQXhzVGNnNDl2NUV3RGxSRTRSZkhzbFA1QU9oaEN3YjJrMFFrOEJKUFF6MW1OOHcxeHdremNfX2tPZkNxam14WUp1dFBEZ2g2RHZwZmh2ZW1XUnhYMjNMcWJJRzZWU053Q3lwTzFXcUF2Qzl4dVhZOWluM1RyM1hjdTZIS3BFMjNOaFZlZzM1V3VCZnB3NUg3S2lxUTNtMzlYTVp0dUJWazBtbmkwS0pacUVRQ1h0enZQeGU4MUVyOVFUcFdvcWdyV01sSnItOHY0RWpWcjUtcDYyaml3WlRHWndB0gHwAUFVX3lxTE1YdG9mZ2VDMklUbTNKU3ZhNFlKNGpzRkJjWU5ySWZDeDlUQVJmZGdZLTFYYkp0d2x1U0FTeFFhclV5UG90Z1ZsdVE5UzV6NGNpY1ZISnZZYkNybHJZdWc0OHAxZkQzQU56RXpXb3IyZjNyUW1YWlJKcVNpcWc1anVpYl8zRjNqMmRDN2J6blZYOUsydGExUzd6SEFKUzBUbDBJcmtpSzl6TVJsV2c2Nl9CSGh0eDduYjdETlRjSS1VQ19BMVFxYXpnVHo0aGhNN1VZZkxpYk5pUlBSWG02SUpTOXpmUzdTZFJ6Szh0a09GOQ?oc=5",
-   "source": "The Times of India",
-   "published": "2026-11-05T13:53:16Z",
-   "since": "2026-11-05T19:04:18Z"
-  },
-  {
-   "kind": "repo",
-   "title": "Balanov/uncut",
-   "stars": 609,
-   "note": "Go · new this week",
-   "url": "https://github.com/Balanov/uncut",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
+   "person": "Elon Musk",
+   "title": "Elon Musk warns AI could surpass all human intelligence by 2032. Can investors ride the wave or get crushed?",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN3BGM2hhbFgyRGYzUEZhUERLcWdGWGhSZklHZVQtMTNUQW02azdUNWFGcHZrQXkxRDJGNG5UUEtUM2xiT0tNakdKVFBNQVFTZjhfV21WQ0xxT0V0NGNZTFhQeno3eHlIdHpFSTF3RUNiUzFFMW83ODlBX08zRndOSGFUWWE3SlpfZ000aEFqY0QzZHdQS1J4dXRieXJjN2M?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-11-06T12:30:00Z",
+   "since": "2026-11-06T14:57:29Z"
   },
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",
-   "stars": 434,
+   "stars": 648,
    "note": "HTML · new this week",
    "url": "https://github.com/Sandflow-ai/sand3d",
    "source": "GitHub",
@@ -72,8 +62,18 @@
   },
   {
    "kind": "repo",
+   "title": "Balanov/uncut",
+   "stars": 610,
+   "note": "Go · new this week",
+   "url": "https://github.com/Balanov/uncut",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "SAOS-3624/dsh-see-now",
-   "stars": 399,
+   "stars": 411,
    "note": "JavaScript · new this week",
    "url": "https://github.com/SAOS-3624/dsh-see-now",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "Interactive-Active-AI/NextTransformer",
-   "stars": 328,
+   "stars": 339,
    "note": "Python · new this week",
    "url": "https://github.com/Interactive-Active-AI/NextTransformer",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19779,
+   "stars": 20098,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "storytold/craft-anything",
-   "stars": 15913,
+   "stars": 17051,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/craft-anything",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "KKKKhazix/agent-autoloop",
-   "stars": 3387,
+   "stars": 3567,
    "note": "TypeScript · new this week",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "GitHub",
@@ -123,7 +123,7 @@
   {
    "kind": "repo",
    "title": "zortos293/Lichii",
-   "stars": 2677,
+   "stars": 3272,
    "note": "C++ · new this week",
    "url": "https://github.com/zortos293/Lichii",
    "source": "GitHub",
@@ -133,7 +133,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 883,
+   "points": 1363,
    "title": "Claude Code sends your email address to websites",
    "source": "Hacker News",
    "url": "https://github.com/anthropics/claude-code/issues/107757",
@@ -142,7 +142,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 256,
+   "points": 444,
    "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
    "source": "Hacker News",
    "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
@@ -151,7 +151,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 199,
+   "points": 398,
+   "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+   "source": "Hacker News",
+   "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+   "discuss": "https://news.ycombinator.com/item?id=50390124"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 258,
    "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
    "source": "Hacker News",
    "url": "https://www.linum.ai/field-notes/pjit-21k",
@@ -160,7 +169,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 89,
+   "points": 107,
    "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
    "source": "Hacker News",
    "url": "https://github.com/rivet-dev/rivet",
@@ -169,29 +178,50 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 81,
-   "title": "Show HN: Stroq – a local audit of what your coding agent did and why",
+   "points": 80,
+   "title": "Gemini Omni 1.2 Flash",
    "source": "Hacker News",
-   "url": "https://github.com/AGGIB/Stroq",
-   "discuss": "https://news.ycombinator.com/item?id=50380704"
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "discuss": "https://news.ycombinator.com/item?id=50392118"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 56,
-   "title": "Closed AI models dominate the price-performance frontier",
+   "points": 14,
+   "title": "University libraries are being swarmed by AI bots, putting public access at risk",
    "source": "Hacker News",
-   "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
-   "discuss": "https://news.ycombinator.com/item?id=50387546"
+   "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+   "discuss": "https://news.ycombinator.com/item?id=50392499"
   },
   {
    "kind": "news",
    "tag": "HN",
    "points": 0,
-   "title": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
+   "title": "Mbodi AI (YC P25) Is Hiring Research and Robotic Engineers",
    "source": "Hacker News",
-   "url": "https://www.ycombinator.com/companies/bild-ai/jobs",
-   "discuss": "https://news.ycombinator.com/item?id=50381512"
+   "url": "https://www.ycombinator.com/companies/mbodi-ai/jobs",
+   "discuss": "https://news.ycombinator.com/item?id=50391342"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Underdog shows off a 32MB speech model in new demo",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Physicl raises $10M to make the digital world real enough for robots",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/"
   },
   {
    "kind": "news",
@@ -203,23 +233,9 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Meta says US users can now video chat with their Muse AI avatar",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/"
+   "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/"
   },
   {
    "kind": "news",
@@ -234,13 +250,6 @@
    "title": "Securing the agentic enterprise with data lineage",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "How “reverse game theory” could keep AI agents in check",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/"
   }
  ],
  "errors": []

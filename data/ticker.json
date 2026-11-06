@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T14:57:29Z",
+ "generated_at": "2026-11-06T20:50:07Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,52 +8,70 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Claude Code sends your email address to websites",
-  "url": "https://github.com/anthropics/claude-code/issues/107757",
+  "title": "Gemini Omni 1.2 Flash",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50385272",
-  "points": 1363,
-  "comments": 433,
-  "published": "2026-11-05T22:17:15Z",
-  "since": "2026-11-06T00:09:06Z"
+  "discuss": "https://news.ycombinator.com/item?id=50392118",
+  "points": 257,
+  "comments": 201,
+  "published": "2026-11-06T13:35:27Z",
+  "since": "2026-11-06T20:50:07Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Elon Musk",
-  "title": "Elon Musk warns AI could surpass all human intelligence by 2032. Can investors ride the wave or get crushed?",
-  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN3BGM2hhbFgyRGYzUEZhUERLcWdGWGhSZklHZVQtMTNUQW02azdUNWFGcHZrQXkxRDJGNG5UUEtUM2xiT0tNakdKVFBNQVFTZjhfV21WQ0xxT0V0NGNZTFhQeno3eHlIdHpFSTF3RUNiUzFFMW83ODlBX08zRndOSGFUWWE3SlpfZ000aEFqY0QzZHdQS1J4dXRieXJjN2M?oc=5",
+  "person": "Jensen Huang",
+  "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for Nvidia's Growth Runway?",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVkFyQ2dkdmp3Qm1MT3VCZ2FTOVlsNWRJNUtYbVU0R1lnZm1waWZmZjZ2NEplelFqR0p4S1Z5bkFJMTdTTmtIelR3MllsMWhSLWlTMWt4bkc2RW5fUXJxcWpZQjM4S2VGYVB6VzBHSVU2Z1lNbnBpX2xkS3lnaUdPWk5pY1VxMHpWVUh6MjF0SVh6SkItM1dPb2hR?oc=5",
   "source": "Yahoo Finance",
-  "published": "2026-11-06T12:30:00Z",
-  "since": "2026-11-06T14:57:29Z"
+  "published": "2026-11-06T14:35:00Z",
+  "since": "2026-11-06T20:50:07Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for Nvidia's Growth Runway?",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVkFyQ2dkdmp3Qm1MT3VCZ2FTOVlsNWRJNUtYbVU0R1lnZm1waWZmZjZ2NEplelFqR0p4S1Z5bkFJMTdTTmtIelR3MllsMWhSLWlTMWt4bkc2RW5fUXJxcWpZQjM4S2VGYVB6VzBHSVU2Z1lNbnBpX2xkS3lnaUdPWk5pY1VxMHpWVUh6MjF0SVh6SkItM1dPb2hR?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-11-06T14:35:00Z",
+   "since": "2026-11-06T20:50:07Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Elon Musk",
    "title": "Elon Musk warns AI could surpass all human intelligence by 2032. Can investors ride the wave or get crushed?",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN3BGM2hhbFgyRGYzUEZhUERLcWdGWGhSZklHZVQtMTNUQW02azdUNWFGcHZrQXkxRDJGNG5UUEtUM2xiT0tNakdKVFBNQVFTZjhfV21WQ0xxT0V0NGNZTFhQeno3eHlIdHpFSTF3RUNiUzFFMW83ODlBX08zRndOSGFUWWE3SlpfZ000aEFqY0QzZHdQS1J4dXRieXJjN2M?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmZHQ2U1NHBlWDBEakszQmI0dFFHSmMta2R2ZkVHcThTUVQ5dzRobExKRE50a1drN2RVY0k1emhOQmFlMXBCYWs3YW5GSTFwZXFvdUswSHAtUHpYUENFd3VLS2dyelN2TTgtTHZfRTdST3pINmNnMmgwblVDcjFvVFRUcTlXTVNqNGVSZ1JJOVlXZw?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-11-06T12:30:00Z",
-   "since": "2026-11-06T14:57:29Z"
+   "published": "2026-11-06T12:30:00Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for Nvidia's Growth Runway?",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVkFyQ2dkdmp3Qm1MT3VCZ2FTOVlsNWRJNUtYbVU0R1lnZm1waWZmZjZ2NEplelFqR0p4S1Z5bkFJMTdTTmtIelR3MllsMWhSLWlTMWt4bkc2RW5fUXJxcWpZQjM4S2VGYVB6VzBHSVU2Z1lNbnBpX2xkS3lnaUdPWk5pY1VxMHpWVUh6MjF0SVh6SkItM1dPb2hR?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-11-06T14:35:00Z",
+   "since": "2026-11-06T20:50:07Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Elon Musk",
    "title": "Elon Musk warns AI could surpass all human intelligence by 2032. Can investors ride the wave or get crushed?",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN3BGM2hhbFgyRGYzUEZhUERLcWdGWGhSZklHZVQtMTNUQW02azdUNWFGcHZrQXkxRDJGNG5UUEtUM2xiT0tNakdKVFBNQVFTZjhfV21WQ0xxT0V0NGNZTFhQeno3eHlIdHpFSTF3RUNiUzFFMW83ODlBX08zRndOSGFUWWE3SlpfZ000aEFqY0QzZHdQS1J4dXRieXJjN2M?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmZHQ2U1NHBlWDBEakszQmI0dFFHSmMta2R2ZkVHcThTUVQ5dzRobExKRE50a1drN2RVY0k1emhOQmFlMXBCYWs3YW5GSTFwZXFvdUswSHAtUHpYUENFd3VLS2dyelN2TTgtTHZfRTdST3pINmNnMmgwblVDcjFvVFRUcTlXTVNqNGVSZ1JJOVlXZw?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-11-06T12:30:00Z",
-   "since": "2026-11-06T14:57:29Z"
+   "published": "2026-11-06T12:30:00Z"
   },
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",
-   "stars": 648,
+   "stars": 735,
    "note": "HTML · new this week",
    "url": "https://github.com/Sandflow-ai/sand3d",
    "source": "GitHub",
@@ -62,18 +80,8 @@
   },
   {
    "kind": "repo",
-   "title": "Balanov/uncut",
-   "stars": 610,
-   "note": "Go · new this week",
-   "url": "https://github.com/Balanov/uncut",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "SAOS-3624/dsh-see-now",
-   "stars": 411,
+   "stars": 417,
    "note": "JavaScript · new this week",
    "url": "https://github.com/SAOS-3624/dsh-see-now",
    "source": "GitHub",
@@ -83,7 +91,7 @@
   {
    "kind": "repo",
    "title": "Interactive-Active-AI/NextTransformer",
-   "stars": 339,
+   "stars": 347,
    "note": "Python · new this week",
    "url": "https://github.com/Interactive-Active-AI/NextTransformer",
    "source": "GitHub",
@@ -92,8 +100,28 @@
   },
   {
    "kind": "repo",
+   "title": "Balanov/uncut",
+   "stars": 251,
+   "note": "Go · new this week",
+   "url": "https://github.com/Balanov/uncut",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "yucezerey/turkish-anti-ai-skill",
+   "stars": 220,
+   "note": "Python · new this week",
+   "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 20098,
+   "stars": 20210,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "source": "GitHub",
@@ -103,7 +131,7 @@
   {
    "kind": "repo",
    "title": "storytold/craft-anything",
-   "stars": 17051,
+   "stars": 17734,
    "note": "Rust · new this week",
    "url": "https://github.com/storytold/craft-anything",
    "source": "GitHub",
@@ -112,18 +140,8 @@
   },
   {
    "kind": "repo",
-   "title": "KKKKhazix/agent-autoloop",
-   "stars": 3567,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/KKKKhazix/agent-autoloop",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "zortos293/Lichii",
-   "stars": 3272,
+   "stars": 3728,
    "note": "C++ · new this week",
    "url": "https://github.com/zortos293/Lichii",
    "source": "GitHub",
@@ -131,27 +149,19 @@
    "cat": "Trending"
   },
   {
-   "kind": "news",
-   "tag": "HN",
-   "points": 1363,
-   "title": "Claude Code sends your email address to websites",
-   "source": "Hacker News",
-   "url": "https://github.com/anthropics/claude-code/issues/107757",
-   "discuss": "https://news.ycombinator.com/item?id=50385272"
+   "kind": "repo",
+   "title": "KKKKhazix/agent-autoloop",
+   "stars": 3646,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 444,
-   "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-   "source": "Hacker News",
-   "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-   "discuss": "https://news.ycombinator.com/item?id=50385870"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 398,
+   "points": 595,
    "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
    "source": "Hacker News",
    "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
@@ -160,25 +170,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 258,
-   "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
-   "source": "Hacker News",
-   "url": "https://www.linum.ai/field-notes/pjit-21k",
-   "discuss": "https://news.ycombinator.com/item?id=50368208"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 107,
-   "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
-   "source": "Hacker News",
-   "url": "https://github.com/rivet-dev/rivet",
-   "discuss": "https://news.ycombinator.com/item?id=50381687"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 80,
+   "points": 257,
    "title": "Gemini Omni 1.2 Flash",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
@@ -187,48 +179,84 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 14,
-   "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+   "points": 116,
+   "title": "Anthropic IPO buyers see valuation as low as $1.1T",
    "source": "Hacker News",
-   "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
-   "discuss": "https://news.ycombinator.com/item?id=50392499"
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+   "discuss": "https://news.ycombinator.com/item?id=50394906"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 41,
+   "title": "Memorilla: Latent Semantic Memory for LLMs",
+   "source": "Hacker News",
+   "url": "https://arxiv.org/abs/2610.21375",
+   "discuss": "https://news.ycombinator.com/item?id=50395919"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 23,
+   "title": "Restaurant Delivery Payment-Skimming Campaign",
+   "source": "Hacker News",
+   "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+   "discuss": "https://news.ycombinator.com/item?id=50397017"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 11,
+   "title": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
+   "source": "Hacker News",
+   "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
+   "discuss": "https://news.ycombinator.com/item?id=50397325"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 5,
+   "title": "SketchAgentBench – evaluate LLMs on 3D spatial reasoning",
+   "source": "Hacker News",
+   "url": "https://sketchagent.dev/",
+   "discuss": "https://news.ycombinator.com/item?id=50398010"
   },
   {
    "kind": "news",
    "tag": "HN",
    "points": 0,
-   "title": "Mbodi AI (YC P25) Is Hiring Research and Robotic Engineers",
+   "title": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
    "source": "Hacker News",
-   "url": "https://www.ycombinator.com/companies/mbodi-ai/jobs",
-   "discuss": "https://news.ycombinator.com/item?id=50391342"
+   "url": "https://up.codes/careers?utm_source=HN",
+   "discuss": "https://news.ycombinator.com/item?id=50395043"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+   "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/"
+   "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Underdog shows off a 32MB speech model in new demo",
+   "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/"
+   "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Physicl raises $10M to make the digital world real enough for robots",
+   "title": "How a Blue Wave midterm might reshape the AI industry",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/"
+   "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+   "title": "After the midterms, is the AI industry in for a rough two years?",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
+   "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/"
   },
   {
    "kind": "news",

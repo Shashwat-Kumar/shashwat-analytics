@@ -42,7 +42,7 @@ nav a.on{color:var(--h);background:color-mix(in srgb,var(--accent) 10%,transpare
 .list .item{grid-template-columns:136px 1fr;gap:var(--s4);padding:var(--s4) 0;border-color:var(--rule);transition:background .2s}
 .item img{width:136px;height:102px;border-radius:4px}.item h3{margin:var(--s1) 0 var(--s2);font-size:var(--t-md)}.item p{font-size:1rem;line-height:1.6}
 .item .kind{font-size:.6875rem}
-.more{display:flex;gap:var(--s4);margin-top:var(--s6)}
+.more{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--s2,8px) var(--s4);margin-top:var(--s6)}.more>a{flex:0 1 auto;max-width:100%}
 /* ===== essay ===== */
 .essay h1{font-size:clamp(2.25rem,1.5rem + 2.2vw,var(--t-2xl))}
 .dek{font-size:var(--t-md);line-height:1.55;margin-bottom:var(--s5)}

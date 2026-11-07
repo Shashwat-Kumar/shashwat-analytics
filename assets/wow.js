@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded',function(){var n=document.querySele
   '@media(prefers-reduced-motion:reduce){.fl.fl-anim .fl-in{animation:none}}';
  d.head.appendChild(css);
  var bar=d.createElement('div');bar.className='fl';bar.setAttribute('role','region');bar.setAttribute('aria-label','AI news flash');bar.hidden=true;
- bar.innerHTML='<div class="fl-in" aria-live="polite"><a class="fl-link" target="_blank" rel="noopener"><span class="fl-pill"></span><span class="fl-t"></span></a><span class="fl-meta"></span><button class="fl-x" type="button" aria-label="Hide the AI flash">×</button></div>';
+ bar.innerHTML='<div class="fl-in"><a class="fl-link" target="_blank" rel="noopener"><span class="fl-pill"></span><span class="fl-t"></span></a><span class="fl-meta"></span><button class="fl-x" type="button" aria-label="Hide the AI flash">×</button></div>';
  t.insertAdjacentElement('afterend',bar);
  var data=null,mode='flash',timer=null;
  function ago(s){var m=Math.max(0,Math.round((Date.now()-new Date(s).getTime())/60000));return m<1?'just now':m<60?m+' min ago':m<1440?Math.round(m/60)+' h ago':Math.round(m/1440)+' d ago'}
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded',function(){var n=document.querySele
   bar.querySelector('.fl-pill').textContent=which==='voice'?'Voice':'AI flash';
   bar.querySelector('.fl-t').textContent=which==='voice'&&x.title.toLowerCase().indexOf(x.person.split(' ').pop().toLowerCase())<0?x.person+': '+x.title:x.title;
   bar.querySelector('.fl-t').title=bar.querySelector('.fl-t').textContent;
-  var meta=[x.source,ago(x.published)];if(which==='flash'&&x.points)meta.push('▲ '+x.points);
+  var src=x.source;if(which==='flash'){try{var hn=new URL(x.url).hostname.replace(/^www\./,'');src=hn==='news.ycombinator.com'?'Hacker News':hn+' via HN'}catch(e){}}var meta=[src,ago(x.published)];if(which==='flash'&&x.points)meta.push('▲ '+x.points);
   bar.querySelector('.fl-meta').textContent=meta.join(' · ');
   bar.classList.toggle('is-voice',which==='voice');
   bar.classList.remove('fl-anim');void bar.offsetWidth;bar.classList.add('fl-anim')}
@@ -193,8 +193,8 @@ document.addEventListener('DOMContentLoaded',function(){var n=document.querySele
   if(!best)return null;return{title:best.title,url:best.url||'https://news.ycombinator.com/item?id='+best.objectID,source:'Hacker News',points:best.points||0,published:new Date(best.created_at_i*1e3).toISOString()}
  }).catch(function(){return null})}
  function load(){Promise.all([fetch(t.dataset.src+'?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null}),live()]).then(function(x){
-  var j=x[0]||{},lf=x[1];if(lf)j.flash=lf;if(j.flash||j.voice)apply(j)})}
+  var j=x[0]||{},lf=x[1];if(lf)j.flash=lf;if(j.flash&&Date.now()-new Date(j.flash.published).getTime()>36*36e5)j.flash=null;if(j.voice&&Date.now()-new Date(j.voice.published).getTime()>24*36e5)j.voice=null;if(j.flash||j.voice)apply(j)})}
  bar.querySelector('.fl-x').onclick=function(){store('sessionStorage','fl-off','1');clearInterval(timer);bar.remove()};
- bar.addEventListener('mouseenter',function(){clearInterval(timer)});bar.addEventListener('mouseleave',cycle);
+ bar.addEventListener('mouseenter',function(){clearInterval(timer)});bar.addEventListener('mouseleave',cycle);bar.addEventListener('focusin',function(){clearInterval(timer)});bar.addEventListener('focusout',cycle);
  load();setInterval(load,3e5);
 })})();

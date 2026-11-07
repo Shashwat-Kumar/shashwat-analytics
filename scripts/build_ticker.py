@@ -141,7 +141,14 @@ def pick_flash(hn_hits: list[dict], prev: dict | None, now: dt.datetime) -> dict
         if hv > best_heat:
             best_heat, best = hv, h
     if best is None:
-        return prev  # nothing qualifies: the last flash stays up
+        # nothing qualifies: keep the last flash only while it is still within the 36-hour window
+        if prev and prev.get("published"):
+            try:
+                if now - dt.datetime.fromisoformat(prev["published"].replace("Z", "+00:00")) <= dt.timedelta(hours=36):
+                    return prev
+            except ValueError:
+                pass
+        return None
     url = best.get("url") or f"https://news.ycombinator.com/item?id={best['objectID']}"
     flash = {
         "title": best["title"], "url": url, "source": "Hacker News",

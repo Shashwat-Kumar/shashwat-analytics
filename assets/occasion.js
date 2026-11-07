@@ -40,7 +40,7 @@
     active.forEach(function (o, i) {
       if (i) text.appendChild(el('span', 'occ-sep', ' · '));
       text.appendChild(el('strong', null, o.name));
-      if (i === 0 && o.line) text.appendChild(d.createTextNode(' ' + o.line));
+      if (i === 0 && o.line) text.appendChild(el('span', 'occ-l', ' ' + o.line));
     });
     var x = el('button', 'occ-x', '×');
     x.type = 'button';

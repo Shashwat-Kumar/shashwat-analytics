@@ -28,3 +28,7 @@
 .rs-new-list a:hover{color:var(--accent,#0b5d63)}
 .rs-new .more{margin-top:18px}
 @media(max-width:700px){.occ-t{font-size:.86rem}.rs-new-list li{grid-template-columns:1fr;gap:2px}}
+
+/* Homepage spacing: a kicker belongs to the heading under it */
+.kicker+.sec{margin-top:6px}
+@media(max-width:520px){.occ-in{padding-top:9px;padding-bottom:9px}.occ-l{display:none}}

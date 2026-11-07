@@ -1,0 +1,33 @@
+/* ReadSigil shared mobile layer. Loaded last on every page, including the
+   section sites (Casebook, Build Lab, Decision Atlas, SLM, Threat Signals).
+   Scope: phone ergonomics only. No colours, no layout redesign. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+nav{flex-wrap:wrap}
+pre{overflow-x:auto;max-width:100%}
+
+@media (max-width:760px){
+  /* Long words and URLs never push the page sideways */
+  main,article{overflow-wrap:break-word}
+  img,video,iframe{max-width:100%}
+  video,iframe{height:auto}
+
+  /* iOS zooms into any field under 16px; keep fields at 16px */
+  input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=color]),select,textarea{font-size:16px!important}
+
+  /* Thumb-sized targets for navigation links (WCAG 2.5.8 / Apple 44pt) */
+  header a.brand,header .brand{display:inline-block;padding-top:10px;padding-bottom:10px}
+  footer a,.fnav a{display:inline-block;padding-top:11px;padding-bottom:11px}
+  footer nav,.fnav{gap:0 18px!important}
+  p.more>a,.crumbs a,nav[aria-label=Breadcrumb] a,.breadcrumb a{display:inline-block;padding-top:8px;padding-bottom:8px}
+  header nav a{padding-top:10px;padding-bottom:10px}
+
+  /* Section-site headers (Casebook, Build Lab, SLM, Decision Atlas): one swipeable row, not a wrapped stack */
+  .cb-links,.site-head nav,.shell.nav>nav{flex-wrap:nowrap!important;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;max-width:100%;mask-image:linear-gradient(90deg,#000 calc(100% - 24px),transparent)}
+  .cb-links::-webkit-scrollbar,.site-head nav::-webkit-scrollbar,.shell.nav>nav::-webkit-scrollbar{display:none}
+  .cb-links a,.site-head nav a,.shell.nav>nav a{flex:none;white-space:nowrap}
+
+  /* Small uppercase labels: readable floor of 12px */
+  .kind,.kicker,.msec,.mono,.m-index,.m-type,.m-row-date,.m-eyebrow,.rs-kicker,.rs-brand-panel-label,
+  .eyebrow,.cb-eyebrow,.cb-card-num,.cb-feature-kicker,.cb-synthetic,.card-meta,.module-number,.mini-label,.footnote,.tiny{font-size:12px!important}
+  small{font-size:max(12px,.8em)}
+}

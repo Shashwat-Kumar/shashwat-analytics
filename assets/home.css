@@ -50,3 +50,6 @@
 @media(prefers-reduced-motion:reduce){.rs-lab{transition:none}.rs-lab:hover{transform:none}}
 @media(max-width:900px){.rs-labs{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.rs-labs{grid-template-columns:1fr;gap:12px}.rs-lab{padding:16px}.rs-feature-h{font-size:1.4rem}}
+
+/* Hero field guide: compact on phones so the first screen reaches content sooner */
+@media(max-width:700px){.hero-x .rs-brand-panel{padding:16px 18px 12px}.rs-brand-panel-label{margin-bottom:10px!important}.rs-brand-panel>a{padding:11px 0}.rs-brand-panel>a small{display:none}.rs-panel-bottom{display:none}}

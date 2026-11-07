@@ -1,0 +1,30 @@
+/* ReadSigil occasion band: one line, no imagery, theme-aware. */
+.occ{--occ:#0b5d63;position:relative;border-bottom:1px solid var(--rule,#e6e2da);background:color-mix(in srgb,var(--occ) 7%,var(--bg,#fbfaf7));color:var(--fg,#222)}
+.occ::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:var(--occ)}
+.occ[data-tone=tricolour]::before{background:linear-gradient(90deg,#ff9933 0 33.3%,#f4f4f0 33.3% 66.6%,#138808 66.6%)}
+.occ-in{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:12px;padding-bottom:12px}
+.occ-t{margin:0;font:400 .92rem/1.5 Inter,system-ui,sans-serif}
+.occ-t strong{font-weight:600;color:var(--occ)}
+.occ-sep{color:var(--mut,#777)}
+.occ-x{flex:none;width:32px;height:32px;border:0;border-radius:50%;background:transparent;color:var(--mut,#777);font:400 1.25rem/1 Inter,system-ui,sans-serif;cursor:pointer}
+.occ-x:hover{background:color-mix(in srgb,var(--occ) 14%,transparent);color:var(--h,#111)}
+.occ-x:focus-visible{outline:2px solid var(--occ);outline-offset:2px}
+
+.occ[data-tone=amber]{--occ:#9a5b00}.occ[data-tone=saffron]{--occ:#b04a00}.occ[data-tone=red]{--occ:#a8232b}
+.occ[data-tone=green]{--occ:#1c6b3a}.occ[data-tone=magenta]{--occ:#a3246b}.occ[data-tone=violet]{--occ:#6240b3}
+.occ[data-tone=indigo]{--occ:#3346a1}.occ[data-tone=teal]{--occ:#0b5d63}.occ[data-tone=tricolour]{--occ:#1d5c2e}
+
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .occ[data-tone=amber]{--occ:#f2b84b}:root:not([data-theme=light]) .occ[data-tone=saffron]{--occ:#ff9d5c}:root:not([data-theme=light]) .occ[data-tone=red]{--occ:#ff8a8f}:root:not([data-theme=light]) .occ[data-tone=green]{--occ:#6fd39a}:root:not([data-theme=light]) .occ[data-tone=magenta]{--occ:#ff85c4}:root:not([data-theme=light]) .occ[data-tone=violet]{--occ:#b8a3ff}:root:not([data-theme=light]) .occ[data-tone=indigo]{--occ:#9fb0ff}:root:not([data-theme=light]) .occ[data-tone=teal]{--occ:#7fd0c9}:root:not([data-theme=light]) .occ[data-tone=tricolour]{--occ:#7fd39a}}
+:root[data-theme=dark] .occ[data-tone=amber]{--occ:#f2b84b}:root[data-theme=dark] .occ[data-tone=saffron]{--occ:#ff9d5c}:root[data-theme=dark] .occ[data-tone=red]{--occ:#ff8a8f}:root[data-theme=dark] .occ[data-tone=green]{--occ:#6fd39a}:root[data-theme=dark] .occ[data-tone=magenta]{--occ:#ff85c4}:root[data-theme=dark] .occ[data-tone=violet]{--occ:#b8a3ff}:root[data-theme=dark] .occ[data-tone=indigo]{--occ:#9fb0ff}:root[data-theme=dark] .occ[data-tone=teal]{--occ:#7fd0c9}:root[data-theme=dark] .occ[data-tone=tricolour]{--occ:#7fd39a}
+
+/* New on ReadSigil (build_home.py) */
+.rs-new{margin-top:0}
+.rs-new .sec{margin-top:8px}
+.rs-new-list{list-style:none;margin:0;padding:0}
+.rs-new-list li{display:grid;grid-template-columns:96px 1fr;gap:18px;padding:16px 0;border-bottom:1px solid var(--rule,#eeeae2)}
+.rs-new-list time{font:500 .78rem/1.9 "JetBrains Mono",ui-monospace,monospace;color:var(--mut,#777);white-space:nowrap}
+.rs-new-list .kind{display:block;margin-bottom:2px}
+.rs-new-list a{text-decoration:none;color:var(--h,#111);font-weight:600;font-size:1.08rem;line-height:1.4}
+.rs-new-list a:hover{color:var(--accent,#0b5d63)}
+.rs-new .more{margin-top:18px}
+@media(max-width:700px){.occ-t{font-size:.86rem}.rs-new-list li{grid-template-columns:1fr;gap:2px}}

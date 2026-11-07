@@ -1,0 +1,42 @@
+name: Refresh homepage "New on ReadSigil"
+
+# Rebuilds the homepage block from feed.xml and the Agora index.
+# Pushes made by other workflows with GITHUB_TOKEN do not trigger this one,
+# so it also runs on a schedule (07:13 and 19:13 IST) to catch those.
+on:
+  push:
+    branches: [main]
+    paths:
+      - feed.xml
+      - agora/data/index.json
+      - scripts/build_home.py
+  schedule:
+    - cron: "43 1,13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
+jobs:
+  home:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/build_home.py
+      - name: Publish
+        run: |
+          git config user.name "home-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if git diff --cached --quiet; then echo "No change."; exit 0; fi
+          git commit -m "Refresh homepage: New on ReadSigil"
+          git pull --rebase --quiet
+          git push

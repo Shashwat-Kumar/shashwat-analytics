@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T20:50:07Z",
+ "generated_at": "2026-11-07T00:28:09Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Gemini Omni 1.2 Flash",
-  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+  "title": "AI is dramatically accelerating AI research",
+  "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50392118",
-  "points": 257,
-  "comments": 201,
-  "published": "2026-11-06T13:35:27Z",
-  "since": "2026-11-06T20:50:07Z"
+  "discuss": "https://news.ycombinator.com/item?id=50397994",
+  "points": 172,
+  "comments": 132,
+  "published": "2026-11-06T20:27:23Z",
+  "since": "2026-11-07T00:28:09Z"
  },
  "voice": {
   "kind": "voice",
@@ -71,7 +71,7 @@
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",
-   "stars": 735,
+   "stars": 789,
    "note": "HTML · new this week",
    "url": "https://github.com/Sandflow-ai/sand3d",
    "source": "GitHub",
@@ -81,19 +81,9 @@
   {
    "kind": "repo",
    "title": "SAOS-3624/dsh-see-now",
-   "stars": 417,
+   "stars": 419,
    "note": "JavaScript · new this week",
    "url": "https://github.com/SAOS-3624/dsh-see-now",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "Interactive-Active-AI/NextTransformer",
-   "stars": 347,
-   "note": "Python · new this week",
-   "url": "https://github.com/Interactive-Active-AI/NextTransformer",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -111,7 +101,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 220,
+   "stars": 228,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -120,38 +110,8 @@
   },
   {
    "kind": "repo",
-   "title": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 20210,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
-   "title": "storytold/craft-anything",
-   "stars": 17734,
-   "note": "Rust · new this week",
-   "url": "https://github.com/storytold/craft-anything",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
-   "title": "zortos293/Lichii",
-   "stars": 3728,
-   "note": "C++ · new this week",
-   "url": "https://github.com/zortos293/Lichii",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "KKKKhazix/agent-autoloop",
-   "stars": 3646,
+   "stars": 3679,
    "note": "TypeScript · new this week",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "GitHub",
@@ -159,18 +119,39 @@
    "cat": "Trending"
   },
   {
-   "kind": "news",
-   "tag": "HN",
-   "points": 595,
-   "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
-   "source": "Hacker News",
-   "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-   "discuss": "https://news.ycombinator.com/item?id=50390124"
+   "kind": "repo",
+   "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "stars": 2880,
+   "note": "Python · new this week",
+   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "govijr/terminal-mac",
+   "stars": 2149,
+   "note": "Swift · new this week",
+   "url": "https://github.com/govijr/terminal-mac",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "mromidev/claude-animated-shorts",
+   "stars": 2028,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/mromidev/claude-animated-shorts",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 257,
+   "points": 291,
    "title": "Gemini Omni 1.2 Flash",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
@@ -179,7 +160,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 116,
+   "points": 206,
    "title": "Anthropic IPO buyers see valuation as low as $1.1T",
    "source": "Hacker News",
    "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
@@ -188,7 +169,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 41,
+   "points": 172,
+   "title": "AI is dramatically accelerating AI research",
+   "source": "Hacker News",
+   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+   "discuss": "https://news.ycombinator.com/item?id=50397994"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 78,
    "title": "Memorilla: Latent Semantic Memory for LLMs",
    "source": "Hacker News",
    "url": "https://arxiv.org/abs/2610.21375",
@@ -197,7 +187,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 23,
+   "points": 75,
    "title": "Restaurant Delivery Payment-Skimming Campaign",
    "source": "Hacker News",
    "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
@@ -206,7 +196,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 11,
+   "points": 55,
+   "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+   "source": "Hacker News",
+   "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+   "discuss": "https://news.ycombinator.com/item?id=50399569"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 30,
+   "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
+   "source": "Hacker News",
+   "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+   "discuss": "https://news.ycombinator.com/item?id=50397711"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 24,
    "title": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
    "source": "Hacker News",
    "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
@@ -214,21 +222,10 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 5,
-   "title": "SketchAgentBench – evaluate LLMs on 3D spatial reasoning",
-   "source": "Hacker News",
-   "url": "https://sketchagent.dev/",
-   "discuss": "https://news.ycombinator.com/item?id=50398010"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 0,
-   "title": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
-   "source": "Hacker News",
-   "url": "https://up.codes/careers?utm_source=HN",
-   "discuss": "https://news.ycombinator.com/item?id=50395043"
+   "tag": "AI",
+   "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
   },
   {
    "kind": "news",
@@ -250,13 +247,6 @@
    "title": "How a Blue Wave midterm might reshape the AI industry",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "After the midterms, is the AI industry in for a rough two years?",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/"
   },
   {
    "kind": "news",

@@ -32,3 +32,21 @@
 /* Homepage spacing: a kicker belongs to the heading under it */
 .kicker+.sec{margin-top:6px}
 @media(max-width:520px){.occ-in{padding-top:9px;padding-bottom:9px}.occ-l{display:none}}
+
+/* Homepage v2: feature, labs grid, subscribe */
+.rs-feature,.rs-sub{margin-top:64px}
+.rs-feature-h{font-size:1.7rem;line-height:1.3;margin:.25em 0 .4em}
+.rs-feature-h a{color:var(--h,#111);text-decoration:none}.rs-feature-h a:hover{color:var(--accent,#0b5d63)}
+.rs-feature .more,.rs-sub .more{align-items:center;margin-top:20px}
+.rs-sub{padding-top:32px;padding-bottom:8px;border-top:1px solid var(--rule,#e6e2da)}
+.rs-sub .small{margin-top:28px}
+.rs-labs-wrap{margin-top:16px}
+.rs-labs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+.rs-lab{display:flex;flex-direction:column;gap:6px;padding:20px;border:1px solid var(--rule,#e6e2da);border-radius:10px;text-decoration:none;color:var(--fg,#333);background:color-mix(in srgb,var(--bg,#fbfaf7) 96%,var(--h,#111));transition:border-color .15s,transform .15s}
+.rs-lab strong{font:600 1.08rem/1.35 "Source Serif 4",Georgia,serif;color:var(--h,#111)}
+.rs-lab span:last-child{font-size:.93rem;line-height:1.55;color:var(--mut,#666)}
+.rs-lab:hover,.rs-lab:focus-visible{border-color:var(--accent,#0b5d63);transform:translateY(-2px)}
+.rs-lab:hover strong{color:var(--accent,#0b5d63)}
+@media(prefers-reduced-motion:reduce){.rs-lab{transition:none}.rs-lab:hover{transform:none}}
+@media(max-width:900px){.rs-labs{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.rs-labs{grid-template-columns:1fr;gap:12px}.rs-lab{padding:16px}.rs-feature-h{font-size:1.4rem}}

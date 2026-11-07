@@ -40,16 +40,21 @@ LEADERS = [
     ("Mark Zuckerberg", "Zuckerberg"), ("Mustafa Suleyman", "Suleyman"), ("Yann LeCun", "LeCun"),
 ]
 
-# Voices come only from established publications, so nothing flaky lands on the site.
+# Voices come only from publications with professional news desks and corrections policies.
+# Aggregators, contributor networks and investor-tip sites are excluded: ReadSigil is "less hype, more proof".
 TRUSTED = {
-    "reuters", "bloomberg", "financial times", "ft", "the wall street journal", "wsj", "cnbc", "bbc", "bbc news",
-    "the guardian", "the new york times", "the washington post", "associated press", "ap news", "axios", "fortune",
-    "business insider", "the verge", "techcrunch", "wired", "ars technica", "the information", "forbes", "barron's",
-    "yahoo finance", "quartz", "semafor", "the economist", "time", "cnn", "politico", "engadget", "venturebeat",
-    "the times of india", "times of india", "the economic times", "economic times", "mint", "livemint",
-    "hindustan times", "ndtv", "ndtv profit", "moneycontrol", "business standard", "the indian express",
-    "indian express", "the hindu", "businessline", "the hindu businessline", "india today", "firstpost",
+    "reuters", "bloomberg", "financial times", "ft", "the wall street journal", "wsj", "associated press", "ap news",
+    "the economist", "the information", "bbc", "bbc news", "the guardian", "the new york times", "the washington post",
+    "axios", "semafor", "cnbc", "politico", "fortune", "the verge", "wired", "ars technica", "techcrunch",
+    "mit technology review", "the economic times", "economic times", "mint", "livemint", "business standard",
+    "the hindu businessline", "businessline", "the hindu", "the indian express", "indian express",
 }
+
+# Headlines written to provoke a click or sell a stock pick, not to report what was said.
+CLICKBAIT = re.compile(
+    r"\?\s*$|!|\b(should you|can investors|is it time|buy (now|the dip)|millionaire|here'?s (why|what|how)|"
+    r"what (that|this|it) means for|ride the wave|crushed|shocking|you won'?t believe|stock to buy|"
+    r"growth runway|massive|insane|jaw-?dropping)\b", re.I)
 
 
 def source_name(raw: str, url: str = "") -> str:
@@ -170,7 +175,7 @@ def pick_voices(feeds: dict[str, list[dict]], now: dt.datetime, max_age_h: int =
             t, pub = it["title"], it["published"]
             if not pub or now - pub > dt.timedelta(hours=max_age_h) or pub > now + dt.timedelta(minutes=10):
                 continue
-            if not AI_STRICT.search(t) or not speaker_ok(t, surname) or not is_trusted(it["source"]):
+            if not AI_STRICT.search(t) or CLICKBAIT.search(t) or not speaker_ok(t, surname) or not is_trusted(it["source"]):
                 continue
             key = re.sub(r"\W+", " ", t.lower()).strip()
             if key in seen:

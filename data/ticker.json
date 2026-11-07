@@ -17,57 +17,9 @@
   "published": "2026-11-06T20:27:23Z",
   "since": "2026-11-07T00:28:09Z"
  },
- "voice": {
-  "kind": "voice",
-  "tag": "VOICE",
-  "person": "Jensen Huang",
-  "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for Nvidia's Growth Runway?",
-  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVkFyQ2dkdmp3Qm1MT3VCZ2FTOVlsNWRJNUtYbVU0R1lnZm1waWZmZjZ2NEplelFqR0p4S1Z5bkFJMTdTTmtIelR3MllsMWhSLWlTMWt4bkc2RW5fUXJxcWpZQjM4S2VGYVB6VzBHSVU2Z1lNbnBpX2xkS3lnaUdPWk5pY1VxMHpWVUh6MjF0SVh6SkItM1dPb2hR?oc=5",
-  "source": "Yahoo Finance",
-  "published": "2026-11-06T14:35:00Z",
-  "since": "2026-11-06T20:50:07Z"
- },
- "voices": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for Nvidia's Growth Runway?",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVkFyQ2dkdmp3Qm1MT3VCZ2FTOVlsNWRJNUtYbVU0R1lnZm1waWZmZjZ2NEplelFqR0p4S1Z5bkFJMTdTTmtIelR3MllsMWhSLWlTMWt4bkc2RW5fUXJxcWpZQjM4S2VGYVB6VzBHSVU2Z1lNbnBpX2xkS3lnaUdPWk5pY1VxMHpWVUh6MjF0SVh6SkItM1dPb2hR?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-11-06T14:35:00Z",
-   "since": "2026-11-06T20:50:07Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk warns AI could surpass all human intelligence by 2032. Can investors ride the wave or get crushed?",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmZHQ2U1NHBlWDBEakszQmI0dFFHSmMta2R2ZkVHcThTUVQ5dzRobExKRE50a1drN2RVY0k1emhOQmFlMXBCYWs3YW5GSTFwZXFvdUswSHAtUHpYUENFd3VLS2dyelN2TTgtTHZfRTdST3pINmNnMmgwblVDcjFvVFRUcTlXTVNqNGVSZ1JJOVlXZw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-11-06T12:30:00Z"
-  }
- ],
+ "voice": null,
+ "voices": [],
  "items": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Jensen Huang",
-   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for Nvidia's Growth Runway?",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVkFyQ2dkdmp3Qm1MT3VCZ2FTOVlsNWRJNUtYbVU0R1lnZm1waWZmZjZ2NEplelFqR0p4S1Z5bkFJMTdTTmtIelR3MllsMWhSLWlTMWt4bkc2RW5fUXJxcWpZQjM4S2VGYVB6VzBHSVU2Z1lNbnBpX2xkS3lnaUdPWk5pY1VxMHpWVUh6MjF0SVh6SkItM1dPb2hR?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-11-06T14:35:00Z",
-   "since": "2026-11-06T20:50:07Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk warns AI could surpass all human intelligence by 2032. Can investors ride the wave or get crushed?",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmZHQ2U1NHBlWDBEakszQmI0dFFHSmMta2R2ZkVHcThTUVQ5dzRobExKRE50a1drN2RVY0k1emhOQmFlMXBCYWs3YW5GSTFwZXFvdUswSHAtUHpYUENFd3VLS2dyelN2TTgtTHZfRTdST3pINmNnMmgwblVDcjFvVFRUcTlXTVNqNGVSZ1JJOVlXZw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-11-06T12:30:00Z"
-  },
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",

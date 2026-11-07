@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T00:28:09Z",
+ "generated_at": "2026-11-07T06:31:54Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50397994",
-  "points": 172,
-  "comments": 132,
+  "points": 257,
+  "comments": 209,
   "published": "2026-11-06T20:27:23Z",
   "since": "2026-11-07T00:28:09Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",
-   "stars": 789,
+   "stars": 854,
    "note": "HTML · new this week",
    "url": "https://github.com/Sandflow-ai/sand3d",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "SAOS-3624/dsh-see-now",
-   "stars": 419,
+   "stars": 430,
    "note": "JavaScript · new this week",
    "url": "https://github.com/SAOS-3624/dsh-see-now",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "Balanov/uncut",
-   "stars": 251,
+   "stars": 253,
    "note": "Go · new this week",
    "url": "https://github.com/Balanov/uncut",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 228,
+   "stars": 234,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "KKKKhazix/agent-autoloop",
-   "stars": 3679,
+   "stars": 3764,
    "note": "TypeScript · new this week",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2880,
+   "stars": 2934,
    "note": "Python · new this week",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "govijr/terminal-mac",
-   "stars": 2149,
+   "stars": 2182,
    "note": "Swift · new this week",
    "url": "https://github.com/govijr/terminal-mac",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "mromidev/claude-animated-shorts",
-   "stars": 2028,
+   "stars": 2059,
    "note": "TypeScript · new this week",
    "url": "https://github.com/mromidev/claude-animated-shorts",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 291,
+   "points": 314,
    "title": "Gemini Omni 1.2 Flash",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
@@ -112,16 +112,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 206,
-   "title": "Anthropic IPO buyers see valuation as low as $1.1T",
-   "source": "Hacker News",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-   "discuss": "https://news.ycombinator.com/item?id=50394906"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 172,
+   "points": 257,
    "title": "AI is dramatically accelerating AI research",
    "source": "Hacker News",
    "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
@@ -130,16 +121,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 78,
-   "title": "Memorilla: Latent Semantic Memory for LLMs",
-   "source": "Hacker News",
-   "url": "https://arxiv.org/abs/2610.21375",
-   "discuss": "https://news.ycombinator.com/item?id=50395919"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 75,
+   "points": 110,
    "title": "Restaurant Delivery Payment-Skimming Campaign",
    "source": "Hacker News",
    "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
@@ -148,16 +130,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 55,
-   "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
-   "source": "Hacker News",
-   "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
-   "discuss": "https://news.ycombinator.com/item?id=50399569"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 30,
+   "points": 60,
    "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
    "source": "Hacker News",
    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
@@ -166,11 +139,36 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 24,
-   "title": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
+   "points": 48,
+   "title": "The AI sell-off compared to well-known stock market crashes",
    "source": "Hacker News",
-   "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
-   "discuss": "https://news.ycombinator.com/item?id=50397325"
+   "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+   "discuss": "https://news.ycombinator.com/item?id=50401029"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 26,
+   "title": "Panthera: Ampere's CPU Performance Model",
+   "source": "Hacker News",
+   "url": "https://github.com/AmpereComputing/panthera",
+   "discuss": "https://news.ycombinator.com/item?id=50356722"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 24,
+   "title": "Show HN: Tmux-restore saves tmux windows and agent sessions across reboots",
+   "source": "Hacker News",
+   "url": "https://github.com/andrewboldi/tmux-restore",
+   "discuss": "https://news.ycombinator.com/item?id=50355009"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Crusoe sells troubled Wyoming data center project to Google",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
   },
   {
    "kind": "news",
@@ -192,13 +190,6 @@
    "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "How a Blue Wave midterm might reshape the AI industry",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/"
   },
   {
    "kind": "news",

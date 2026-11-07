@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T13:29:48Z",
+ "generated_at": "2026-11-07T18:16:06Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.anthropic.com/research/components-of-agent-memory",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50402212",
-  "points": 73,
-  "comments": 39,
+  "points": 119,
+  "comments": 65,
   "published": "2026-11-07T06:39:04Z",
   "since": "2026-11-07T13:29:48Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",
-   "stars": 941,
+   "stars": 1002,
    "note": "HTML · new this week",
    "url": "https://github.com/Sandflow-ai/sand3d",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "SAOS-3624/dsh-see-now",
-   "stars": 449,
+   "stars": 460,
    "note": "JavaScript · new this week",
    "url": "https://github.com/SAOS-3624/dsh-see-now",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "Balanov/uncut",
-   "stars": 254,
+   "stars": 255,
    "note": "Go · new this week",
    "url": "https://github.com/Balanov/uncut",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 252,
+   "stars": 253,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "KKKKhazix/agent-autoloop",
-   "stars": 3885,
+   "stars": 3935,
    "note": "TypeScript · new this week",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3000,
+   "stars": 3029,
    "note": "Python · new this week",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "govijr/terminal-mac",
-   "stars": 2208,
+   "stars": 2226,
    "note": "Swift · new this week",
    "url": "https://github.com/govijr/terminal-mac",
    "source": "GitHub",
@@ -92,10 +92,10 @@
   },
   {
    "kind": "repo",
-   "title": "mromidev/claude-animated-shorts",
-   "stars": 2131,
+   "title": "Minireel/HGhub",
+   "stars": 2192,
    "note": "TypeScript · new this week",
-   "url": "https://github.com/mromidev/claude-animated-shorts",
+   "url": "https://github.com/Minireel/HGhub",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -103,38 +103,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 347,
-   "title": "Gemini Omni 1.2 Flash",
-   "source": "Hacker News",
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-   "discuss": "https://news.ycombinator.com/item?id=50392118"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 137,
-   "title": "Restaurant Delivery Payment-Skimming Campaign",
-   "source": "Hacker News",
-   "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
-   "discuss": "https://news.ycombinator.com/item?id=50397017"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 84,
-   "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
-   "source": "Hacker News",
-   "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
-   "discuss": "https://news.ycombinator.com/item?id=50397711"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 73,
+   "points": 119,
    "title": "The Components of Agent Memory",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/components-of-agent-memory",
    "discuss": "https://news.ycombinator.com/item?id=50402212"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 9,
+   "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+   "source": "Hacker News",
+   "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+   "discuss": "https://news.ycombinator.com/item?id=50405263"
   },
   {
    "kind": "news",

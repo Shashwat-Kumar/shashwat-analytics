@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T06:31:54Z",
+ "generated_at": "2026-11-07T13:29:48Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "AI is dramatically accelerating AI research",
-  "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+  "title": "The Components of Agent Memory",
+  "url": "https://www.anthropic.com/research/components-of-agent-memory",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50397994",
-  "points": 257,
-  "comments": 209,
-  "published": "2026-11-06T20:27:23Z",
-  "since": "2026-11-07T00:28:09Z"
+  "discuss": "https://news.ycombinator.com/item?id=50402212",
+  "points": 73,
+  "comments": 39,
+  "published": "2026-11-07T06:39:04Z",
+  "since": "2026-11-07T13:29:48Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",
-   "stars": 854,
+   "stars": 941,
    "note": "HTML · new this week",
    "url": "https://github.com/Sandflow-ai/sand3d",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "SAOS-3624/dsh-see-now",
-   "stars": 430,
+   "stars": 449,
    "note": "JavaScript · new this week",
    "url": "https://github.com/SAOS-3624/dsh-see-now",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "Balanov/uncut",
-   "stars": 253,
+   "stars": 254,
    "note": "Go · new this week",
    "url": "https://github.com/Balanov/uncut",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 234,
+   "stars": 252,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "KKKKhazix/agent-autoloop",
-   "stars": 3764,
+   "stars": 3885,
    "note": "TypeScript · new this week",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2934,
+   "stars": 3000,
    "note": "Python · new this week",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "govijr/terminal-mac",
-   "stars": 2182,
+   "stars": 2208,
    "note": "Swift · new this week",
    "url": "https://github.com/govijr/terminal-mac",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "mromidev/claude-animated-shorts",
-   "stars": 2059,
+   "stars": 2131,
    "note": "TypeScript · new this week",
    "url": "https://github.com/mromidev/claude-animated-shorts",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 314,
+   "points": 347,
    "title": "Gemini Omni 1.2 Flash",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
@@ -112,16 +112,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 257,
-   "title": "AI is dramatically accelerating AI research",
-   "source": "Hacker News",
-   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-   "discuss": "https://news.ycombinator.com/item?id=50397994"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 110,
+   "points": 137,
    "title": "Restaurant Delivery Payment-Skimming Campaign",
    "source": "Hacker News",
    "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
@@ -130,7 +121,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 60,
+   "points": 84,
    "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
    "source": "Hacker News",
    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
@@ -139,29 +130,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 48,
-   "title": "The AI sell-off compared to well-known stock market crashes",
+   "points": 73,
+   "title": "The Components of Agent Memory",
    "source": "Hacker News",
-   "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
-   "discuss": "https://news.ycombinator.com/item?id=50401029"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 26,
-   "title": "Panthera: Ampere's CPU Performance Model",
-   "source": "Hacker News",
-   "url": "https://github.com/AmpereComputing/panthera",
-   "discuss": "https://news.ycombinator.com/item?id=50356722"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 24,
-   "title": "Show HN: Tmux-restore saves tmux windows and agent sessions across reboots",
-   "source": "Hacker News",
-   "url": "https://github.com/andrewboldi/tmux-restore",
-   "discuss": "https://news.ycombinator.com/item?id=50355009"
+   "url": "https://www.anthropic.com/research/components-of-agent-memory",
+   "discuss": "https://news.ycombinator.com/item?id=50402212"
   },
   {
    "kind": "news",

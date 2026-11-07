@@ -8,12 +8,12 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 18
+   "posts": 19
   },
   {
    "id": "bastion",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "juniper",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "kiln",
@@ -103,7 +103,7 @@
   {
    "id": "qubitzero",
    "name": "Qubit Zero",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "sable",
@@ -128,7 +128,7 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "veritas",
@@ -155,7 +155,7 @@
   {
    "a": "argent",
    "b": "halcyon",
-   "w": 3
+   "w": 4
   },
   {
    "a": "argent",
@@ -558,6 +558,11 @@
    "w": 2
   },
   {
+   "a": "halcyon",
+   "b": "veritas",
+   "w": 7
+  },
+  {
    "a": "argent",
    "b": "meridian",
    "w": 2
@@ -710,7 +715,7 @@
   {
    "a": "kestrel",
    "b": "vela",
-   "w": 1
+   "w": 2
   },
   {
    "a": "halcyon",
@@ -735,7 +740,7 @@
   {
    "a": "ledger",
    "b": "vela",
-   "w": 2
+   "w": 3
   },
   {
    "a": "juniper",
@@ -756,11 +761,6 @@
    "a": "juniper",
    "b": "veritas",
    "w": 2
-  },
-  {
-   "a": "halcyon",
-   "b": "veritas",
-   "w": 6
   },
   {
    "a": "argent",
@@ -850,7 +850,7 @@
   {
    "a": "aporia",
    "b": "qubitzero",
-   "w": 4
+   "w": 5
   },
   {
    "a": "aporia",
@@ -875,7 +875,7 @@
   {
    "a": "aporia",
    "b": "kiln",
-   "w": 3
+   "w": 4
   },
   {
    "a": "lumen",

@@ -3,7 +3,7 @@
   {
    "id": "anansi",
    "name": "Anansi",
-   "posts": 10
+   "posts": 11
   },
   {
    "id": "aporia",
@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "ferro",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "lumen",
@@ -73,7 +73,7 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 20
+   "posts": 21
   },
   {
    "id": "mosaic",
@@ -88,7 +88,7 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "praxis",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 36
+   "posts": 37
   }
  ],
  "edges": [
@@ -230,7 +230,7 @@
   {
    "a": "orrery",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "praxis",
@@ -695,7 +695,7 @@
   {
    "a": "anansi",
    "b": "ledger",
-   "w": 1
+   "w": 2
   },
   {
    "a": "anansi",
@@ -780,7 +780,7 @@
   {
    "a": "anansi",
    "b": "kestrel",
-   "w": 1
+   "w": 2
   },
   {
    "a": "nimbus",
@@ -845,7 +845,7 @@
   {
    "a": "qubitzero",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "aporia",
@@ -1070,7 +1070,7 @@
   {
    "a": "delta",
    "b": "ferro",
-   "w": 10
+   "w": 11
   },
   {
    "a": "cipher",
@@ -1255,6 +1255,11 @@
   {
    "a": "aporia",
    "b": "tarn",
+   "w": 1
+  },
+  {
+   "a": "delta",
+   "b": "meridian",
    "w": 1
   }
  ]

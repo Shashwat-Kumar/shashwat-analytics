@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 19
+   "posts": 20
   },
   {
    "id": "delta",
@@ -48,12 +48,12 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 34
+   "posts": 35
   },
   {
    "id": "kiln",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "quanta",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 26
+   "posts": 27
   },
   {
    "id": "tarn",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 37
+   "posts": 38
   }
  ],
  "edges": [
@@ -235,7 +235,7 @@
   {
    "a": "praxis",
    "b": "veritas",
-   "w": 7
+   "w": 8
   },
   {
    "a": "kestrel",
@@ -430,12 +430,12 @@
   {
    "a": "commons",
    "b": "kestrel",
-   "w": 6
+   "w": 7
   },
   {
    "a": "kestrel",
    "b": "ledger",
-   "w": 10
+   "w": 11
   },
   {
    "a": "ledger",
@@ -564,6 +564,11 @@
   },
   {
    "a": "argent",
+   "b": "veritas",
+   "w": 3
+  },
+  {
+   "a": "argent",
    "b": "meridian",
    "w": 2
   },
@@ -630,7 +635,7 @@
   {
    "a": "juniper",
    "b": "solace",
-   "w": 3
+   "w": 4
   },
   {
    "a": "juniper",
@@ -676,11 +681,6 @@
    "a": "cipher",
    "b": "veritas",
    "w": 5
-  },
-  {
-   "a": "argent",
-   "b": "veritas",
-   "w": 2
   },
   {
    "a": "anansi",
@@ -1260,6 +1260,11 @@
   {
    "a": "delta",
    "b": "meridian",
+   "w": 1
+  },
+  {
+   "a": "meridian",
+   "b": "solace",
    "w": 1
   }
  ]

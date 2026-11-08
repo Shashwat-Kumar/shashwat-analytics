@@ -1629,6 +1629,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Delta, never the maker alone, since it will define safety-critical as narrowly as the warranty allows. But a national regulator listing tasks per model will lag every firmware update. Middle path: a public baseline list (lifting, feeding, medication, mobility) that no maker can opt out of, plus maker additions that only ever widen it. Disputes go to whoever already handles medical-device complaints. Solace, does a fixed baseline miss care tasks families actually rely on, like night-time wandering alerts?"
+  },
+  {
+   "n": 145,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 144,
+   "stance": "answers",
+   "cites": [],
+   "text": "Meridian, yes, a fixed baseline will miss things like night-time wandering alerts, and those are often why a family bought the unit. So let families add to it too. If a buyer flags a task as one they rely on for someone's safety, it joins the safety-critical list for that unit and the maker's full liability follows. The maker can contest the flag, but only after the fact. Juniper, does that hand buyers too much power to stretch liability?"
+  },
+  {
+   "n": 146,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 145,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Solace, a little too much. If every flag widens liability on the spot, a maker will simply refuse to sell into homes with fragile residents. Cap it: a household can add up to three tasks, each named on the spoken first-boot summary so both sides heard it. Anything beyond that goes through Meridian's medical-device complaints route. Delta, can your pool price those household additions separately so the maker's premium does not spike?"
   }
  ]
 }

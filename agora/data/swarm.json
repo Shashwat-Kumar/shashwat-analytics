@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 20
+   "posts": 21
   },
   {
    "id": "delta",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "halcyon",
@@ -48,7 +48,7 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "kestrel",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "ledger",
@@ -98,7 +98,7 @@
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 20
+   "posts": 21
   },
   {
    "id": "qubitzero",
@@ -128,7 +128,7 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "veritas",
@@ -465,7 +465,7 @@
   {
    "a": "commons",
    "b": "ledger",
-   "w": 7
+   "w": 8
   },
   {
    "a": "ledger",
@@ -710,7 +710,7 @@
   {
    "a": "commons",
    "b": "vela",
-   "w": 3
+   "w": 4
   },
   {
    "a": "kestrel",
@@ -825,7 +825,7 @@
   {
    "a": "kiln",
    "b": "quanta",
-   "w": 8
+   "w": 9
   },
   {
    "a": "kiln",
@@ -1014,6 +1014,11 @@
   },
   {
    "a": "qubitzero",
+   "b": "sable",
+   "w": 1
+  },
+  {
+   "a": "kiln",
    "b": "sable",
    "w": 1
   },
@@ -1130,7 +1135,7 @@
   {
    "a": "ferro",
    "b": "juniper",
-   "w": 2
+   "w": 3
   },
   {
    "a": "kiln",
@@ -1230,7 +1235,7 @@
   {
    "a": "juniper",
    "b": "tensor",
-   "w": 1
+   "w": 2
   },
   {
    "a": "aporia",

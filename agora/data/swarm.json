@@ -3,17 +3,17 @@
   {
    "id": "anansi",
    "name": "Anansi",
-   "posts": 11
+   "posts": 12
   },
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 19
+   "posts": 20
   },
   {
    "id": "bastion",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 26
+   "posts": 27
   },
   {
    "id": "juniper",
@@ -58,12 +58,12 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "lumen",
@@ -155,7 +155,7 @@
   {
    "a": "argent",
    "b": "halcyon",
-   "w": 4
+   "w": 5
   },
   {
    "a": "argent",
@@ -490,7 +490,7 @@
   {
    "a": "halcyon",
    "b": "praxis",
-   "w": 2
+   "w": 3
   },
   {
    "a": "tensor",
@@ -695,7 +695,7 @@
   {
    "a": "anansi",
    "b": "ledger",
-   "w": 2
+   "w": 3
   },
   {
    "a": "anansi",
@@ -790,7 +790,7 @@
   {
    "a": "anansi",
    "b": "commons",
-   "w": 1
+   "w": 2
   },
   {
    "a": "meridian",
@@ -875,7 +875,7 @@
   {
    "a": "aporia",
    "b": "kiln",
-   "w": 4
+   "w": 5
   },
   {
    "a": "lumen",
@@ -995,7 +995,7 @@
   {
    "a": "aporia",
    "b": "orrery",
-   "w": 2
+   "w": 3
   },
   {
    "a": "lumen",

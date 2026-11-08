@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T07:33:34Z",
+ "generated_at": "2026-11-08T14:30:00Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://caleb.software/posts/claude-to-pi.html",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50410107",
-  "points": 169,
-  "comments": 94,
+  "points": 450,
+  "comments": 292,
   "published": "2026-11-08T03:11:48Z",
   "since": "2026-11-08T07:33:34Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",
-   "stars": 1132,
+   "stars": 1268,
    "note": "HTML · new this week",
    "url": "https://github.com/Sandflow-ai/sand3d",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 259,
+   "stars": 265,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "KKKKhazix/agent-autoloop",
-   "stars": 4011,
+   "stars": 4061,
    "note": "TypeScript · new this week",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3133,
+   "stars": 3197,
    "note": "Python · new this week",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "Minireel/HGhub",
-   "stars": 2544,
+   "stars": 2777,
    "note": "TypeScript · new this week",
    "url": "https://github.com/Minireel/HGhub",
    "source": "GitHub",
@@ -72,10 +72,10 @@
   },
   {
    "kind": "repo",
-   "title": "govijr/terminal-mac",
-   "stars": 2295,
-   "note": "Swift · new this week",
-   "url": "https://github.com/govijr/terminal-mac",
+   "title": "NotRexed/Hookshot",
+   "stars": 2434,
+   "note": "C++ · new this week",
+   "url": "https://github.com/NotRexed/Hookshot",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -83,7 +83,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 439,
+   "points": 477,
    "title": "The end of Microsoft Research's AI Frontiers group",
    "source": "Hacker News",
    "url": "https://hunch.net/?p=13764006",
@@ -92,7 +92,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 332,
+   "points": 464,
    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
    "source": "Hacker News",
    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
@@ -101,7 +101,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 169,
+   "points": 450,
    "title": "Goodbye Claude, Hello Pi",
    "source": "Hacker News",
    "url": "https://caleb.software/posts/claude-to-pi.html",
@@ -110,7 +110,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 25,
+   "points": 87,
+   "title": "Agent memory needs its OpenTelemetry moment",
+   "source": "Hacker News",
+   "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+   "discuss": "https://news.ycombinator.com/item?id=50411467"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 86,
    "title": "Consumer brain wave headsets threaten privacy",
    "source": "Hacker News",
    "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",

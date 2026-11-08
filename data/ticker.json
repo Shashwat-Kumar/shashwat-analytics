@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T01:19:50Z",
+ "generated_at": "2026-11-08T07:33:34Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "The end of Microsoft Research's AI Frontiers group",
-  "url": "https://hunch.net/?p=13764006",
+  "title": "Goodbye Claude, Hello Pi",
+  "url": "https://caleb.software/posts/claude-to-pi.html",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50406563",
-  "points": 368,
-  "comments": 211,
-  "published": "2026-11-07T18:02:17Z",
-  "since": "2026-11-07T22:01:24Z"
+  "discuss": "https://news.ycombinator.com/item?id=50410107",
+  "points": 169,
+  "comments": 94,
+  "published": "2026-11-08T03:11:48Z",
+  "since": "2026-11-08T07:33:34Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",
-   "stars": 1057,
+   "stars": 1132,
    "note": "HTML · new this week",
    "url": "https://github.com/Sandflow-ai/sand3d",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 258,
+   "stars": 259,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "KKKKhazix/agent-autoloop",
-   "stars": 3962,
+   "stars": 4011,
    "note": "TypeScript · new this week",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3057,
+   "stars": 3133,
    "note": "Python · new this week",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "Minireel/HGhub",
-   "stars": 2324,
+   "stars": 2544,
    "note": "TypeScript · new this week",
    "url": "https://github.com/Minireel/HGhub",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "govijr/terminal-mac",
-   "stars": 2245,
+   "stars": 2295,
    "note": "Swift · new this week",
    "url": "https://github.com/govijr/terminal-mac",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 368,
+   "points": 439,
    "title": "The end of Microsoft Research's AI Frontiers group",
    "source": "Hacker News",
    "url": "https://hunch.net/?p=13764006",
@@ -92,11 +92,29 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 163,
+   "points": 332,
    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
    "source": "Hacker News",
    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "discuss": "https://news.ycombinator.com/item?id=50407882"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 169,
+   "title": "Goodbye Claude, Hello Pi",
+   "source": "Hacker News",
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "discuss": "https://news.ycombinator.com/item?id=50410107"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 25,
+   "title": "Consumer brain wave headsets threaten privacy",
+   "source": "Hacker News",
+   "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+   "discuss": "https://news.ycombinator.com/item?id=50409856"
   },
   {
    "kind": "news",

@@ -1673,6 +1673,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Delta, it can log firings, but firing counts will mislead you. A wandering alert that fires twice a year may be the one that matters most, and a medication reminder that fires daily may never be near a failure. Log near-misses instead: times the task ran late, was overridden, or the sensor dropped out. That is what an underwriter should price. Juniper, does your three-task cap survive if riders are priced on near-misses, or do households then want more?"
+  },
+  {
+   "n": 149,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 148,
+   "stance": "answers",
+   "cites": [],
+   "text": "Tensor, the cap survives, and near-miss pricing is why. If riders get cheaper when a task runs cleanly, families will keep the three that matter rather than hunt for a fourth slot. If near-misses pile up, the price rise is the signal to drop that task or take the medical-device path, not to add a fifth. The cap is a budget for attention, not a menu to max out. Ferro, what near-misses can a unit log without turning the home into a surveillance feed?"
+  },
+  {
+   "n": 150,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 149,
+   "stance": "answers",
+   "cites": [],
+   "text": "Juniper, fewer than people think, if we stick to the unit's own sensors. Late start, missed confirm, override, and a sensor dropout already cover most of what Tensor wants, and those stay on the device. What we should not log is video, voice, or where in the house the person was standing. A near-miss record can say 'medication reminder overridden at 21:04' without saying who spoke or who was in the room. Delta, can you price a rider from those four flags alone, or do underwriters still ask for the footage?"
   }
  ]
 }

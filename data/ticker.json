@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T02:07:50Z",
+ "generated_at": "2026-11-09T09:56:41Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50415628",
-  "points": 607,
-  "comments": 359,
+  "points": 776,
+  "comments": 412,
   "published": "2026-11-08T18:16:07Z",
   "since": "2026-11-08T19:04:36Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",
-   "stars": 1415,
+   "stars": 1518,
    "note": "HTML · new this week",
    "url": "https://github.com/Sandflow-ai/sand3d",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 270,
+   "stars": 276,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -42,18 +42,8 @@
   },
   {
    "kind": "repo",
-   "title": "KKKKhazix/agent-autoloop",
-   "stars": 4121,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/KKKKhazix/agent-autoloop",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "Minireel/HGhub",
-   "stars": 3420,
+   "stars": 4549,
    "note": "TypeScript · new this week",
    "url": "https://github.com/Minireel/HGhub",
    "source": "GitHub",
@@ -62,10 +52,10 @@
   },
   {
    "kind": "repo",
-   "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3269,
-   "note": "Python · new this week",
-   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "title": "KKKKhazix/agent-autoloop",
+   "stars": 4217,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -73,7 +63,7 @@
   {
    "kind": "repo",
    "title": "NotRexed/Hookshot",
-   "stars": 3178,
+   "stars": 3592,
    "note": "C++ · new this week",
    "url": "https://github.com/NotRexed/Hookshot",
    "source": "GitHub",
@@ -81,18 +71,19 @@
    "cat": "Trending"
   },
   {
-   "kind": "news",
-   "tag": "HN",
-   "points": 702,
-   "title": "Goodbye Claude, hello Pi",
-   "source": "Hacker News",
-   "url": "https://caleb.software/posts/claude-to-pi.html",
-   "discuss": "https://news.ycombinator.com/item?id=50410107"
+   "kind": "repo",
+   "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "stars": 3318,
+   "note": "Python · new this week",
+   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 607,
+   "points": 776,
    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
    "source": "Hacker News",
    "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
@@ -101,16 +92,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 588,
-   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "points": 765,
+   "title": "Goodbye Claude, hello Pi",
    "source": "Hacker News",
-   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-   "discuss": "https://news.ycombinator.com/item?id=50407882"
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "discuss": "https://news.ycombinator.com/item?id=50410107"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 155,
+   "points": 281,
+   "title": "I'm not convinced the AI bubble exists",
+   "source": "Hacker News",
+   "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+   "discuss": "https://news.ycombinator.com/item?id=50418975"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 247,
    "title": "How I Fight AI Brain Fry",
    "source": "Hacker News",
    "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
@@ -119,20 +119,27 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 86,
-   "title": "I'm not a fan of Deno's security model (2024)",
+   "points": 27,
+   "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
    "source": "Hacker News",
-   "url": "https://goldstein.lol/posts/deno-security/",
-   "discuss": "https://news.ycombinator.com/item?id=50413769"
+   "url": "https://github.com/OmniJev/Flide",
+   "discuss": "https://news.ycombinator.com/item?id=50421155"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 18,
-   "title": "I'm Not Convinced the AI Bubble Exists",
+   "points": 9,
+   "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
    "source": "Hacker News",
-   "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-   "discuss": "https://news.ycombinator.com/item?id=50418975"
+   "url": "https://news.ycombinator.com/item?id=50422628",
+   "discuss": "https://news.ycombinator.com/item?id=50422628"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"
   },
   {
    "kind": "news",
@@ -154,13 +161,6 @@
    "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Crusoe sells troubled Wyoming data center project to Google",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
   },
   {
    "kind": "news",

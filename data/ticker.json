@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T09:56:41Z",
+ "generated_at": "2026-11-09T20:39:37Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
-  "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+  "title": "Claude Fable 5.2 and Mythos 5.2",
+  "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50415628",
-  "points": 776,
-  "comments": 412,
-  "published": "2026-11-08T18:16:07Z",
-  "since": "2026-11-08T19:04:36Z"
+  "discuss": "https://news.ycombinator.com/item?id=50429906",
+  "points": 562,
+  "comments": 271,
+  "published": "2026-11-09T18:56:29Z",
+  "since": "2026-11-09T20:39:37Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",
-   "stars": 1518,
+   "stars": 1607,
    "note": "HTML · new this week",
    "url": "https://github.com/Sandflow-ai/sand3d",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 276,
+   "stars": 286,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "Minireel/HGhub",
-   "stars": 4549,
+   "stars": 5691,
    "note": "TypeScript · new this week",
    "url": "https://github.com/Minireel/HGhub",
    "source": "GitHub",
@@ -52,18 +52,8 @@
   },
   {
    "kind": "repo",
-   "title": "KKKKhazix/agent-autoloop",
-   "stars": 4217,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/KKKKhazix/agent-autoloop",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "NotRexed/Hookshot",
-   "stars": 3592,
+   "stars": 4683,
    "note": "C++ · new this week",
    "url": "https://github.com/NotRexed/Hookshot",
    "source": "GitHub",
@@ -72,10 +62,20 @@
   },
   {
    "kind": "repo",
-   "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3318,
-   "note": "Python · new this week",
-   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "title": "KKKKhazix/agent-autoloop",
+   "stars": 4266,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "govijr/terminal-mac",
+   "stars": 2502,
+   "note": "Swift · new this week",
+   "url": "https://github.com/govijr/terminal-mac",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -83,105 +83,105 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 776,
-   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+   "points": 562,
+   "title": "Claude Fable 5.2 and Mythos 5.2",
    "source": "Hacker News",
-   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-   "discuss": "https://news.ycombinator.com/item?id=50415628"
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "discuss": "https://news.ycombinator.com/item?id=50429906"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 765,
-   "title": "Goodbye Claude, hello Pi",
+   "points": 373,
+   "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
    "source": "Hacker News",
-   "url": "https://caleb.software/posts/claude-to-pi.html",
-   "discuss": "https://news.ycombinator.com/item?id=50410107"
+   "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+   "discuss": "https://news.ycombinator.com/item?id=50427362"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 281,
-   "title": "I'm not convinced the AI bubble exists",
+   "points": 142,
+   "title": "Our Smallest, Most Efficient Model: Muse Ember",
    "source": "Hacker News",
-   "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-   "discuss": "https://news.ycombinator.com/item?id=50418975"
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "discuss": "https://news.ycombinator.com/item?id=50429024"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 247,
-   "title": "How I Fight AI Brain Fry",
+   "points": 17,
+   "title": "Google Gemini routes personal Drive files and emails to human annotators",
    "source": "Hacker News",
-   "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-   "discuss": "https://news.ycombinator.com/item?id=50416363"
+   "url": "https://github.com/thisisme6598/gemini_files/",
+   "discuss": "https://news.ycombinator.com/item?id=50429426"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 27,
-   "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+   "points": 13,
+   "title": "Show HN: Recalc – Spreadsheet where cells can be Claude Code or Codex terminals",
    "source": "Hacker News",
-   "url": "https://github.com/OmniJev/Flide",
-   "discuss": "https://news.ycombinator.com/item?id=50421155"
+   "url": "https://github.com/sshah03/recalc",
+   "discuss": "https://news.ycombinator.com/item?id=50413970"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 9,
-   "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+   "points": 5,
+   "title": "November 2026 Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
    "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50422628",
-   "discuss": "https://news.ycombinator.com/item?id=50422628"
+   "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+   "discuss": "https://news.ycombinator.com/item?id=50431144"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+   "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"
+   "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+   "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+   "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+   "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
+   "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+   "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+   "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+   "title": "The backlash about data centers might really just be about electricity",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/"
+   "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+   "title": "Nancy Pelosi’s replacement is ready to regulate AI",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+   "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Securing the agentic enterprise with data lineage",
+   "title": "Innovating with AI in the special chemicals industry",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/"
+   "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/"
   }
  ],
  "errors": []

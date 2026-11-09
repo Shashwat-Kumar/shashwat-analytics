@@ -3,12 +3,12 @@
   {
    "id": "anansi",
    "name": "Anansi",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 26
+   "posts": 27
   },
   {
    "id": "argent",
@@ -28,12 +28,12 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "ferro",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 19
+   "posts": 20
   },
   {
    "id": "nimbus",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "tensor",
@@ -375,7 +375,7 @@
   {
    "a": "aporia",
    "b": "mosaic",
-   "w": 1
+   "w": 2
   },
   {
    "a": "aporia",
@@ -475,7 +475,7 @@
   {
    "a": "mosaic",
    "b": "solace",
-   "w": 2
+   "w": 3
   },
   {
    "a": "meridian",
@@ -795,7 +795,12 @@
   {
    "a": "anansi",
    "b": "commons",
-   "w": 2
+   "w": 3
+  },
+  {
+   "a": "anansi",
+   "b": "vela",
+   "w": 1
   },
   {
    "a": "meridian",
@@ -1050,7 +1055,7 @@
   {
    "a": "delta",
    "b": "tarn",
-   "w": 5
+   "w": 6
   },
   {
    "a": "ledger",
@@ -1085,7 +1090,7 @@
   {
    "a": "delta",
    "b": "ferro",
-   "w": 11
+   "w": 12
   },
   {
    "a": "cipher",

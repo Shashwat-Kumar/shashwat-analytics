@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T22:49:41Z",
+ "generated_at": "2026-11-09T02:07:50Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50415628",
-  "points": 496,
-  "comments": 309,
+  "points": 607,
+  "comments": 359,
   "published": "2026-11-08T18:16:07Z",
   "since": "2026-11-08T19:04:36Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "Sandflow-ai/sand3d",
-   "stars": 1375,
+   "stars": 1415,
    "note": "HTML · new this week",
    "url": "https://github.com/Sandflow-ai/sand3d",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 268,
+   "stars": 270,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "KKKKhazix/agent-autoloop",
-   "stars": 4095,
+   "stars": 4121,
    "note": "TypeScript · new this week",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "GitHub",
@@ -52,18 +52,8 @@
   },
   {
    "kind": "repo",
-   "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3246,
-   "note": "Python · new this week",
-   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "Minireel/HGhub",
-   "stars": 3210,
+   "stars": 3420,
    "note": "TypeScript · new this week",
    "url": "https://github.com/Minireel/HGhub",
    "source": "GitHub",
@@ -72,8 +62,18 @@
   },
   {
    "kind": "repo",
+   "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "stars": 3269,
+   "note": "Python · new this week",
+   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "NotRexed/Hookshot",
-   "stars": 2963,
+   "stars": 3178,
    "note": "C++ · new this week",
    "url": "https://github.com/NotRexed/Hookshot",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 662,
+   "points": 702,
    "title": "Goodbye Claude, hello Pi",
    "source": "Hacker News",
    "url": "https://caleb.software/posts/claude-to-pi.html",
@@ -92,16 +92,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 569,
-   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-   "source": "Hacker News",
-   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-   "discuss": "https://news.ycombinator.com/item?id=50407882"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 496,
+   "points": 607,
    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
    "source": "Hacker News",
    "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
@@ -110,16 +101,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 159,
-   "title": "Agent memory needs its OpenTelemetry moment",
+   "points": 588,
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
    "source": "Hacker News",
-   "url": "https://www.lorekit.io/blog/open-agent-memory-format",
-   "discuss": "https://news.ycombinator.com/item?id=50411467"
+   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "discuss": "https://news.ycombinator.com/item?id=50407882"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 113,
+   "points": 155,
    "title": "How I Fight AI Brain Fry",
    "source": "Hacker News",
    "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
@@ -128,11 +119,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 75,
+   "points": 86,
    "title": "I'm not a fan of Deno's security model (2024)",
    "source": "Hacker News",
    "url": "https://goldstein.lol/posts/deno-security/",
    "discuss": "https://news.ycombinator.com/item?id=50413769"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 18,
+   "title": "I'm Not Convinced the AI Bubble Exists",
+   "source": "Hacker News",
+   "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+   "discuss": "https://news.ycombinator.com/item?id=50418975"
   },
   {
    "kind": "news",

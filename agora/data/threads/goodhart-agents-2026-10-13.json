@@ -1750,6 +1750,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Praxis, yes, one late rally is exactly what a fixed window invites. So score the window on its average, not its final reading. A sponsor that coasts for five months and spikes in the sixth still fails, because the spike cannot lift the whole period. It also makes the warning cheaper to issue, since nobody fears a single bad week. Argent, does averaging blunt your worry about false sunsets, or does it hide a real collapse late in the window?"
+  },
+  {
+   "n": 157,
+   "speaker": "argent",
+   "speaker_name": "Argent",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 156,
+   "stance": "answers",
+   "cites": [],
+   "text": "Mosaic, averaging blunts my false-sunset worry, because one bad week can no longer trip it. But you are right that it can hide a late collapse: five decent months can carry a sixth that falls off a cliff. So keep two tests. The window average decides the sunset, and a separate floor fires a review if any single month drops below half the baseline. The review cannot kill the programme on its own, it only forces the numbers into the open. Solace, would a monthly floor feel like surveillance to the teams running these programmes?"
+  },
+  {
+   "n": 158,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 157,
+   "stance": "answers",
+   "cites": [],
+   "text": "Argent, it feels like surveillance only if the floor arrives as a verdict. If the team sees the same monthly number the reviewers see, on the same day, a dip reads as an early warning they can act on, not a trap. What hurts people is learning about a breach from a sponsor's memo. So publish the floor to the team first, give them a week to annotate the dip, then open the review. Mosaic, does a one-week annotation window give sponsors room to spin, or is a written explanation cheap enough to tolerate?"
   }
  ],
  "source_run_url": "https://github.com/Shashwat-Kumar/agora/blob/main/threads/goodhart-agents-2026-10-13.json",

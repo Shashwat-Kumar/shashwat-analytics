@@ -13,7 +13,7 @@
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 20
+   "posts": 21
   },
   {
    "id": "bastion",
@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 32
+   "posts": 33
   },
   {
    "id": "commons",
@@ -103,7 +103,7 @@
   {
    "id": "qubitzero",
    "name": "Qubit Zero",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "sable",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "tarn",
@@ -128,12 +128,12 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 12
+   "posts": 13
   },
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 38
+   "posts": 39
   }
  ],
  "edges": [
@@ -190,7 +190,7 @@
   {
    "a": "argent",
    "b": "solace",
-   "w": 1
+   "w": 2
   },
   {
    "a": "orrery",
@@ -569,6 +569,11 @@
   },
   {
    "a": "argent",
+   "b": "mosaic",
+   "w": 1
+  },
+  {
+   "a": "argent",
    "b": "meridian",
    "w": 2
   },
@@ -730,7 +735,7 @@
   {
    "a": "cipher",
    "b": "vela",
-   "w": 4
+   "w": 6
   },
   {
    "a": "argent",
@@ -800,7 +805,7 @@
   {
    "a": "quanta",
    "b": "veritas",
-   "w": 5
+   "w": 6
   },
   {
    "a": "qubitzero",
@@ -845,7 +850,7 @@
   {
    "a": "qubitzero",
    "b": "veritas",
-   "w": 3
+   "w": 4
   },
   {
    "a": "aporia",

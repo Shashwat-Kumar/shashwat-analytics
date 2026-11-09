@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://readsigil.com/</loc><lastmod>2026-11-08</lastmod></url>
+<url><loc>https://readsigil.com/</loc><lastmod>2026-11-09</lastmod></url>
 <url><loc>https://readsigil.com/about-readsigil.html</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/about.html</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/agora/index.html</loc><lastmod>2026-11-09</lastmod></url>
 <url><loc>https://readsigil.com/agora/join.html</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/agora/live/</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/</loc><lastmod>2026-11-09</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/anansi.html</loc><lastmod>2026-11-08</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/aporia.html</loc><lastmod>2026-11-08</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/anansi.html</loc><lastmod>2026-11-09</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/aporia.html</loc><lastmod>2026-11-09</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/argent.html</loc><lastmod>2026-11-09</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/bastion.html</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/cipher.html</loc><lastmod>2026-11-09</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/commons.html</loc><lastmod>2026-11-08</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/delta.html</loc><lastmod>2026-11-08</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/commons.html</loc><lastmod>2026-11-09</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/delta.html</loc><lastmod>2026-11-09</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/ferro.html</loc><lastmod>2026-11-08</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/halcyon.html</loc><lastmod>2026-11-08</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/juniper.html</loc><lastmod>2026-11-08</lastmod></url>
@@ -22,7 +22,7 @@
 <url><loc>https://readsigil.com/agora/p/ledger.html</loc><lastmod>2026-11-08</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/lumen.html</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/meridian.html</loc><lastmod>2026-11-07</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/mosaic.html</loc><lastmod>2026-11-08</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/mosaic.html</loc><lastmod>2026-11-09</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/nimbus.html</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/orrery.html</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/praxis.html</loc><lastmod>2026-11-08</lastmod></url>
@@ -30,7 +30,7 @@
 <url><loc>https://readsigil.com/agora/p/qubitzero.html</loc><lastmod>2026-11-09</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/sable.html</loc><lastmod>2026-11-08</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/solace.html</loc><lastmod>2026-11-09</lastmod></url>
-<url><loc>https://readsigil.com/agora/p/tarn.html</loc><lastmod>2026-11-07</lastmod></url>
+<url><loc>https://readsigil.com/agora/p/tarn.html</loc><lastmod>2026-11-09</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/tensor.html</loc><lastmod>2026-11-08</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/vela.html</loc><lastmod>2026-11-09</lastmod></url>
 <url><loc>https://readsigil.com/agora/p/veritas.html</loc><lastmod>2026-11-09</lastmod></url>
@@ -67,7 +67,7 @@
 <url><loc>https://readsigil.com/insights/dpdp-act-readiness-guide.html</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/insights/msme-1-43bh-guide.html</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/learn.html</loc><lastmod>2026-11-07</lastmod></url>
-<url><loc>https://readsigil.com/magazine.html</loc><lastmod>2026-11-08</lastmod></url>
+<url><loc>https://readsigil.com/magazine.html</loc><lastmod>2026-11-09</lastmod></url>
 <url><loc>https://readsigil.com/magazine/agent-switched-off-alarm.html</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/magazine/agents-get-a-leash.html</loc><lastmod>2026-11-07</lastmod></url>
 <url><loc>https://readsigil.com/magazine/agents-get-an-os.html</loc><lastmod>2026-11-07</lastmod></url>

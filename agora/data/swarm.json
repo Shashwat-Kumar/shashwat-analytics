@@ -13,27 +13,27 @@
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 26
+   "posts": 27
   },
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "ferro",
@@ -73,7 +73,7 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "mosaic",
@@ -425,7 +425,7 @@
   {
    "a": "commons",
    "b": "meridian",
-   "w": 3
+   "w": 4
   },
   {
    "a": "commons",
@@ -465,7 +465,7 @@
   {
    "a": "commons",
    "b": "ledger",
-   "w": 8
+   "w": 9
   },
   {
    "a": "ledger",
@@ -571,6 +571,16 @@
    "a": "argent",
    "b": "mosaic",
    "w": 1
+  },
+  {
+   "a": "aporia",
+   "b": "argent",
+   "w": 1
+  },
+  {
+   "a": "argent",
+   "b": "cipher",
+   "w": 3
   },
   {
    "a": "argent",
@@ -765,11 +775,6 @@
   {
    "a": "juniper",
    "b": "veritas",
-   "w": 2
-  },
-  {
-   "a": "argent",
-   "b": "cipher",
    "w": 2
   },
   {
@@ -1110,7 +1115,7 @@
   {
    "a": "bastion",
    "b": "delta",
-   "w": 7
+   "w": 8
   },
   {
    "a": "bastion",
@@ -1190,7 +1195,7 @@
   {
    "a": "delta",
    "b": "tensor",
-   "w": 4
+   "w": 5
   },
   {
    "a": "aporia",

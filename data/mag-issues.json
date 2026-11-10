@@ -85,5 +85,20 @@
    "read-only-money-agent",
    "workshop-promises-recheck"
   ]
+ },
+ {
+  "no": 7,
+  "date": "2026-11-10",
+  "title": "The checkpoint issue",
+  "articles": [
+   "india-own-models",
+   "safety-window",
+   "synthetic-customers-first",
+   "invisible-copilot-limits",
+   "agents-on-your-servers",
+   "the-subagent-tier",
+   "drug-ideas-in-an-hour",
+   "one-demonstration-robots"
+  ]
  }
 ]

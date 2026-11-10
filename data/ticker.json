@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T11:00:39Z",
+ "generated_at": "2026-11-10T18:38:16Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Google Gemini routes personal Drive files and emails to human annotators",
-  "url": "https://github.com/thisisme6598/gemini_files/",
+  "title": "Claude Fable 5.2 and Mythos 5.2",
+  "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50429426",
-  "points": 620,
-  "comments": 130,
-  "published": "2026-11-09T18:24:38Z",
-  "since": "2026-11-10T02:58:59Z"
+  "discuss": "https://news.ycombinator.com/item?id=50429068",
+  "points": 841,
+  "comments": 960,
+  "published": "2026-11-09T18:01:10Z",
+  "since": "2026-11-10T18:38:16Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 296,
+   "stars": 298,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 215,
+   "stars": 281,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "NotRexed/Hookshot",
-   "stars": 5776,
+   "stars": 6259,
    "note": "C++ · new this week",
    "url": "https://github.com/NotRexed/Hookshot",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 3750,
+   "stars": 4544,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "tangerineturtle1/NX2navi",
-   "stars": 2623,
+   "stars": 2762,
    "note": "C · new this week",
    "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2226,
+   "stars": 2351,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 625,
+   "points": 841,
    "title": "Claude Fable 5.2 and Mythos 5.2",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
@@ -92,84 +92,57 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 620,
-   "title": "Google Gemini routes personal Drive files and emails to human annotators",
+   "points": 160,
+   "title": "AI usage generates a fragile codebase",
    "source": "Hacker News",
-   "url": "https://github.com/thisisme6598/gemini_files/",
-   "discuss": "https://news.ycombinator.com/item?id=50429426"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 532,
-   "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
-   "source": "Hacker News",
-   "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
-   "discuss": "https://news.ycombinator.com/item?id=50427362"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 305,
-   "title": "Muse Ember: Our smallest, most efficient model",
-   "source": "Hacker News",
-   "url": "https://research.meta.ai/blog/muse-ember",
-   "discuss": "https://news.ycombinator.com/item?id=50429024"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 161,
-   "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
-   "source": "Hacker News",
-   "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-   "discuss": "https://news.ycombinator.com/item?id=50435660"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 47,
-   "title": "Fireworks AI security breach impacts Notion and their customers",
-   "source": "Hacker News",
-   "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-   "discuss": "https://news.ycombinator.com/item?id=50437106"
+   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+   "discuss": "https://news.ycombinator.com/item?id=50438318"
   },
   {
    "kind": "news",
    "tag": "HN",
    "points": 14,
-   "title": "Meet the Sad Wives of AI",
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
    "source": "Hacker News",
-   "url": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
-   "discuss": "https://news.ycombinator.com/item?id=50438429"
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "discuss": "https://news.ycombinator.com/item?id=50443812"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 9,
+   "title": "Work at the Frontier: AI's effect on freelance work",
+   "source": "Hacker News",
+   "url": "https://openai.com/index/ai-effect-on-freelance-work",
+   "discuss": "https://news.ycombinator.com/item?id=50443838"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Otter AI can now follow conversations across 30+ languages",
+   "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/"
+   "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Anthropic reportedly plans to move forward with IPO plans",
+   "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+   "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago",
+   "title": "Google broadens its AI hardware portfolio with two new specialized chips",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/"
+   "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+   "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/"
+   "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/"
   },
   {
    "kind": "news",

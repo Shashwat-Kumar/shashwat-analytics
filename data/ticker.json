@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T20:39:37Z",
+ "generated_at": "2026-11-10T02:58:59Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,32 +8,22 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Claude Fable 5.2 and Mythos 5.2",
-  "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+  "title": "Google Gemini routes personal Drive files and emails to human annotators",
+  "url": "https://github.com/thisisme6598/gemini_files/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50429906",
-  "points": 562,
-  "comments": 271,
-  "published": "2026-11-09T18:56:29Z",
-  "since": "2026-11-09T20:39:37Z"
+  "discuss": "https://news.ycombinator.com/item?id=50429426",
+  "points": 446,
+  "comments": 104,
+  "published": "2026-11-09T18:24:38Z",
+  "since": "2026-11-10T02:58:59Z"
  },
  "voice": null,
  "voices": [],
  "items": [
   {
    "kind": "repo",
-   "title": "Sandflow-ai/sand3d",
-   "stars": 1607,
-   "note": "HTML · new this week",
-   "url": "https://github.com/Sandflow-ai/sand3d",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 286,
+   "stars": 289,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -42,18 +32,8 @@
   },
   {
    "kind": "repo",
-   "title": "Minireel/HGhub",
-   "stars": 5691,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/Minireel/HGhub",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "NotRexed/Hookshot",
-   "stars": 4683,
+   "stars": 5204,
    "note": "C++ · new this week",
    "url": "https://github.com/NotRexed/Hookshot",
    "source": "GitHub",
@@ -62,20 +42,30 @@
   },
   {
    "kind": "repo",
-   "title": "KKKKhazix/agent-autoloop",
-   "stars": 4266,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "title": "tangerineturtle1/NX2navi",
+   "stars": 2452,
+   "note": "C · new this week",
+   "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "repo",
-   "title": "govijr/terminal-mac",
-   "stars": 2502,
+   "title": "huamidev/GestaltX",
+   "stars": 2112,
    "note": "Swift · new this week",
-   "url": "https://github.com/govijr/terminal-mac",
+   "url": "https://github.com/huamidev/GestaltX",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "JenkinWoo/sheeridVerify",
+   "stars": 1948,
+   "note": "JavaScript · new this week",
+   "url": "https://github.com/JenkinWoo/sheeridVerify",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -83,16 +73,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 562,
-   "title": "Claude Fable 5.2 and Mythos 5.2",
-   "source": "Hacker News",
-   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-   "discuss": "https://news.ycombinator.com/item?id=50429906"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 373,
+   "points": 481,
    "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
    "source": "Hacker News",
    "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
@@ -101,16 +82,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 142,
-   "title": "Our Smallest, Most Efficient Model: Muse Ember",
-   "source": "Hacker News",
-   "url": "https://research.meta.ai/blog/muse-ember",
-   "discuss": "https://news.ycombinator.com/item?id=50429024"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 17,
+   "points": 446,
    "title": "Google Gemini routes personal Drive files and emails to human annotators",
    "source": "Hacker News",
    "url": "https://github.com/thisisme6598/gemini_files/",
@@ -119,48 +91,66 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 13,
-   "title": "Show HN: Recalc – Spreadsheet where cells can be Claude Code or Codex terminals",
-   "source": "Hacker News",
-   "url": "https://github.com/sshah03/recalc",
-   "discuss": "https://news.ycombinator.com/item?id=50413970"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 5,
-   "title": "November 2026 Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+   "points": 296,
+   "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
    "source": "Hacker News",
    "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
    "discuss": "https://news.ycombinator.com/item?id=50431144"
   },
   {
    "kind": "news",
-   "tag": "AI",
-   "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/"
+   "tag": "HN",
+   "points": 256,
+   "title": "Muse Ember: Our smallest, most efficient model",
+   "source": "Hacker News",
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "discuss": "https://news.ycombinator.com/item?id=50429024"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 206,
+   "title": "Claude Fable 5.2 and Mythos 5.2",
+   "source": "Hacker News",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "discuss": "https://news.ycombinator.com/item?id=50429068"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 61,
+   "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+   "source": "Hacker News",
+   "url": "https://github.com/Dodaios/ste80-humanizer",
+   "discuss": "https://news.ycombinator.com/item?id=50429144"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+   "title": "Anthropic reportedly plans to move forward with IPO plans",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+   "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+   "title": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
+   "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+   "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
+   "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "The race is on to sue Nvidia",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/"
   },
   {
    "kind": "news",

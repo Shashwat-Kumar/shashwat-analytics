@@ -1,7 +1,18 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-10",
   "note": "Free, limited-shelf-life items. Expiry dates are real; downloads come down when an item expires. No prices, no checkout, no counts.",
   "items": [
+    {
+      "id": "agent-shopper-peak-week-drill",
+      "name": "The Agent-Shopper Peak-Week Drill",
+      "type": "Free tabletop drill, prompts and checklist (Markdown)",
+      "added": "2026-11-10",
+      "available_until": "2026-11-19T23:59:00+05:30",
+      "available_until_label": "Thursday 19 November 2026, 11:59 PM IST",
+      "hook": "Urgency tied to a real window (the run-up to Black Friday on 27 November and Cyber Monday on 30 November, before teams slow or freeze changes) plus novelty bias (the first peak with AI shopping agents at checkout) and loss aversion (agent traffic tripping or slipping past human-shaped fraud rules); the pack comes down after 19 November.",
+      "asset": "novelty/agent-shopper-peak-week-drill.md",
+      "status": "live"
+    },
     {
       "id": "post-diwali-ai-desk-reboot",
       "name": "Lights Out to Lights On: Post-Diwali AI Desk Reboot",
@@ -21,8 +32,8 @@
       "available_until": "2026-11-07T23:59:00+05:30",
       "available_until_label": "Saturday 7 November 2026, 11:59 PM IST",
       "hook": "Urgency tied to a real window (the days before Diwali on 8 November, when people hand over work before leave) plus loss aversion: systems tend to break when their owner is away, and the kit comes down after 7 November.",
-      "asset": "novelty/before-diwali-ai-handover-kit.md",
-      "status": "live"
+      "asset": null,
+      "status": "expired"
     },
     {
       "id": "big-news-week-rumour-check",
@@ -32,8 +43,8 @@
       "available_until": "2026-11-08T23:59:00+05:30",
       "available_until_label": "Sunday 8 November 2026, 11:59 PM IST",
       "hook": "Urgency tied to a real news-heavy week (US midterm elections on 3 November) plus loss aversion: a false market-moving claim does most damage in its first hours, and the pack comes down after 8 November.",
-      "asset": "novelty/big-news-week-rumour-check.md",
-      "status": "live"
+      "asset": null,
+      "status": "expired"
     },
     {
       "id": "ai-haunted-house-audit",

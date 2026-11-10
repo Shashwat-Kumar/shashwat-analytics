@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T02:58:59Z",
+ "generated_at": "2026-11-10T11:00:39Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://github.com/thisisme6598/gemini_files/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50429426",
-  "points": 446,
-  "comments": 104,
+  "points": 620,
+  "comments": 130,
   "published": "2026-11-09T18:24:38Z",
   "since": "2026-11-10T02:58:59Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 289,
+   "stars": 296,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -32,8 +32,18 @@
   },
   {
    "kind": "repo",
+   "title": "Dodaios/ste80-humanizer",
+   "stars": 215,
+   "note": "Python · new this week",
+   "url": "https://github.com/Dodaios/ste80-humanizer",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "NotRexed/Hookshot",
-   "stars": 5204,
+   "stars": 5776,
    "note": "C++ · new this week",
    "url": "https://github.com/NotRexed/Hookshot",
    "source": "GitHub",
@@ -42,18 +52,8 @@
   },
   {
    "kind": "repo",
-   "title": "tangerineturtle1/NX2navi",
-   "stars": 2452,
-   "note": "C · new this week",
-   "url": "https://github.com/tangerineturtle1/NX2navi",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 2112,
+   "stars": 3750,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -62,10 +62,20 @@
   },
   {
    "kind": "repo",
-   "title": "JenkinWoo/sheeridVerify",
-   "stars": 1948,
-   "note": "JavaScript · new this week",
-   "url": "https://github.com/JenkinWoo/sheeridVerify",
+   "title": "tangerineturtle1/NX2navi",
+   "stars": 2623,
+   "note": "C · new this week",
+   "url": "https://github.com/tangerineturtle1/NX2navi",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "jhaizhou-ops/S2Arm",
+   "stars": 2226,
+   "note": "C# · new this week",
+   "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -73,43 +83,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 481,
-   "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
-   "source": "Hacker News",
-   "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
-   "discuss": "https://news.ycombinator.com/item?id=50427362"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 446,
-   "title": "Google Gemini routes personal Drive files and emails to human annotators",
-   "source": "Hacker News",
-   "url": "https://github.com/thisisme6598/gemini_files/",
-   "discuss": "https://news.ycombinator.com/item?id=50429426"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 296,
-   "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
-   "source": "Hacker News",
-   "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
-   "discuss": "https://news.ycombinator.com/item?id=50431144"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 256,
-   "title": "Muse Ember: Our smallest, most efficient model",
-   "source": "Hacker News",
-   "url": "https://research.meta.ai/blog/muse-ember",
-   "discuss": "https://news.ycombinator.com/item?id=50429024"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 206,
+   "points": 625,
    "title": "Claude Fable 5.2 and Mythos 5.2",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
@@ -118,11 +92,63 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 61,
-   "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+   "points": 620,
+   "title": "Google Gemini routes personal Drive files and emails to human annotators",
    "source": "Hacker News",
-   "url": "https://github.com/Dodaios/ste80-humanizer",
-   "discuss": "https://news.ycombinator.com/item?id=50429144"
+   "url": "https://github.com/thisisme6598/gemini_files/",
+   "discuss": "https://news.ycombinator.com/item?id=50429426"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 532,
+   "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+   "source": "Hacker News",
+   "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+   "discuss": "https://news.ycombinator.com/item?id=50427362"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 305,
+   "title": "Muse Ember: Our smallest, most efficient model",
+   "source": "Hacker News",
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "discuss": "https://news.ycombinator.com/item?id=50429024"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 161,
+   "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+   "source": "Hacker News",
+   "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+   "discuss": "https://news.ycombinator.com/item?id=50435660"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 47,
+   "title": "Fireworks AI security breach impacts Notion and their customers",
+   "source": "Hacker News",
+   "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+   "discuss": "https://news.ycombinator.com/item?id=50437106"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 14,
+   "title": "Meet the Sad Wives of AI",
+   "source": "Hacker News",
+   "url": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50438429"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Otter AI can now follow conversations across 30+ languages",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/"
   },
   {
    "kind": "news",
@@ -144,13 +170,6 @@
    "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The race is on to sue Nvidia",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/"
   },
   {
    "kind": "news",

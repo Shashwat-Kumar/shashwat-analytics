@@ -3,22 +3,22 @@
   {
    "id": "anansi",
    "name": "Anansi",
-   "posts": 13
+   "posts": 14
   },
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "cipher",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 36
+   "posts": 37
   },
   {
    "id": "kiln",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 30
+   "posts": 31
   },
   {
    "id": "lumen",
@@ -190,7 +190,7 @@
   {
    "a": "argent",
    "b": "solace",
-   "w": 2
+   "w": 3
   },
   {
    "a": "orrery",
@@ -435,7 +435,7 @@
   {
    "a": "kestrel",
    "b": "ledger",
-   "w": 11
+   "w": 12
   },
   {
    "a": "ledger",
@@ -575,7 +575,7 @@
   {
    "a": "aporia",
    "b": "argent",
-   "w": 1
+   "w": 2
   },
   {
    "a": "argent",
@@ -710,7 +710,7 @@
   {
    "a": "anansi",
    "b": "ledger",
-   "w": 3
+   "w": 4
   },
   {
    "a": "anansi",
@@ -1050,7 +1050,7 @@
   {
    "a": "bastion",
    "b": "kestrel",
-   "w": 2
+   "w": 3
   },
   {
    "a": "delta",
@@ -1300,6 +1300,11 @@
   {
    "a": "ferro",
    "b": "tensor",
+   "w": 1
+  },
+  {
+   "a": "ferro",
+   "b": "kestrel",
    "w": 1
   }
  ]

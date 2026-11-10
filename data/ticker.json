@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T18:38:16Z",
+ "generated_at": "2026-11-10T23:46:47Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,32 +8,52 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Claude Fable 5.2 and Mythos 5.2",
-  "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+  "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+  "url": "https://github.com/GoogleChrome/modern-web-guidance",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50429068",
-  "points": 841,
-  "comments": 960,
-  "published": "2026-11-09T18:01:10Z",
-  "since": "2026-11-10T18:38:16Z"
+  "discuss": "https://news.ycombinator.com/item?id=50443812",
+  "points": 225,
+  "comments": 64,
+  "published": "2026-11-10T18:01:15Z",
+  "since": "2026-11-10T23:46:47Z"
  },
- "voice": null,
- "voices": [],
+ "voice": {
+  "kind": "voice",
+  "tag": "VOICE",
+  "person": "Jensen Huang",
+  "title": "Jensen Huang probe: Who will investigate Nvidia CEO? AI giant announces officials",
+  "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMEl5QVpHaTFHRkRzaTZtSldSY3B2ZlN1ZjA1ZlpWOVJuYjVacXpZYmxVUlRyaTQwZDRrNDFwbEJsYjk1RDU3T1pxb2xLaWl5UFpUc2QxTkpkVDdqMlFZSm1DQUt6d1RsUW5Hb0Zpa2tscXhva0RWOW5JMTAtWVY0SmhUSXpEUmkyY1dINm1YeXJaOFM0Nk5Oay16OEFzX2dKNURrcmNKV0ZmN2NjSWVsRXplVFdtR0QtaFhxQ0l5NmJYNXFOSHlrbENwckI5RFZBNG5nVFM2WnZjTk5IbWF5aGZ0YjdnbWhVRVpN0gHwAUFVX3lxTE9kR2tRMVNSV2tvdU1qZGVZdzJ6TnBIeW94ZW5IYlo2b1drU1lNYV91VDZQWXBlVVF5cUZkdG1JVWFsbGo1OTNlbUNXaTZWcEpLc1ZfQkVNYlowa0NHdG1RemhtTUdfN09SNElKWUdwUGpIWEY5VWhkQ0k0Smt3SVh1SkFoUmNlV2JfY0RCbzYtdUxuelhkX1dLS0NvYXBkRkIyRC1aZ01yZ1JzUjFON1BvUWN0bjFzdGRIOFpVNFMydFRkaG9hVVVEYmR5RXdqZ1hzdEcxTnh6OW02SnFkVE95cU1sbVJDeGVOV0gyWFVfLQ?oc=5",
+  "source": "The Economic Times",
+  "published": "2026-11-10T21:12:16Z",
+  "since": "2026-11-10T23:46:47Z"
+ },
+ "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Jensen Huang probe: Who will investigate Nvidia CEO? AI giant announces officials",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMEl5QVpHaTFHRkRzaTZtSldSY3B2ZlN1ZjA1ZlpWOVJuYjVacXpZYmxVUlRyaTQwZDRrNDFwbEJsYjk1RDU3T1pxb2xLaWl5UFpUc2QxTkpkVDdqMlFZSm1DQUt6d1RsUW5Hb0Zpa2tscXhva0RWOW5JMTAtWVY0SmhUSXpEUmkyY1dINm1YeXJaOFM0Nk5Oay16OEFzX2dKNURrcmNKV0ZmN2NjSWVsRXplVFdtR0QtaFhxQ0l5NmJYNXFOSHlrbENwckI5RFZBNG5nVFM2WnZjTk5IbWF5aGZ0YjdnbWhVRVpN0gHwAUFVX3lxTE9kR2tRMVNSV2tvdU1qZGVZdzJ6TnBIeW94ZW5IYlo2b1drU1lNYV91VDZQWXBlVVF5cUZkdG1JVWFsbGo1OTNlbUNXaTZWcEpLc1ZfQkVNYlowa0NHdG1RemhtTUdfN09SNElKWUdwUGpIWEY5VWhkQ0k0Smt3SVh1SkFoUmNlV2JfY0RCbzYtdUxuelhkX1dLS0NvYXBkRkIyRC1aZ01yZ1JzUjFON1BvUWN0bjFzdGRIOFpVNFMydFRkaG9hVVVEYmR5RXdqZ1hzdEcxTnh6OW02SnFkVE95cU1sbVJDeGVOV0gyWFVfLQ?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-10T21:12:16Z",
+   "since": "2026-11-10T23:46:47Z"
+  }
+ ],
  "items": [
   {
-   "kind": "repo",
-   "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 298,
-   "note": "Python · new this week",
-   "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Jensen Huang probe: Who will investigate Nvidia CEO? AI giant announces officials",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMEl5QVpHaTFHRkRzaTZtSldSY3B2ZlN1ZjA1ZlpWOVJuYjVacXpZYmxVUlRyaTQwZDRrNDFwbEJsYjk1RDU3T1pxb2xLaWl5UFpUc2QxTkpkVDdqMlFZSm1DQUt6d1RsUW5Hb0Zpa2tscXhva0RWOW5JMTAtWVY0SmhUSXpEUmkyY1dINm1YeXJaOFM0Nk5Oay16OEFzX2dKNURrcmNKV0ZmN2NjSWVsRXplVFdtR0QtaFhxQ0l5NmJYNXFOSHlrbENwckI5RFZBNG5nVFM2WnZjTk5IbWF5aGZ0YjdnbWhVRVpN0gHwAUFVX3lxTE9kR2tRMVNSV2tvdU1qZGVZdzJ6TnBIeW94ZW5IYlo2b1drU1lNYV91VDZQWXBlVVF5cUZkdG1JVWFsbGo1OTNlbUNXaTZWcEpLc1ZfQkVNYlowa0NHdG1RemhtTUdfN09SNElKWUdwUGpIWEY5VWhkQ0k0Smt3SVh1SkFoUmNlV2JfY0RCbzYtdUxuelhkX1dLS0NvYXBkRkIyRC1aZ01yZ1JzUjFON1BvUWN0bjFzdGRIOFpVNFMydFRkaG9hVVVEYmR5RXdqZ1hzdEcxTnh6OW02SnFkVE95cU1sbVJDeGVOV0gyWFVfLQ?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-10T21:12:16Z",
+   "since": "2026-11-10T23:46:47Z"
   },
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 281,
+   "stars": 303,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -42,8 +62,18 @@
   },
   {
    "kind": "repo",
+   "title": "yucezerey/turkish-anti-ai-skill",
+   "stars": 301,
+   "note": "Python · new this week",
+   "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "NotRexed/Hookshot",
-   "stars": 6259,
+   "stars": 6495,
    "note": "C++ · new this week",
    "url": "https://github.com/NotRexed/Hookshot",
    "source": "GitHub",
@@ -53,7 +83,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 4544,
+   "stars": 4682,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -63,7 +93,7 @@
   {
    "kind": "repo",
    "title": "tangerineturtle1/NX2navi",
-   "stars": 2762,
+   "stars": 2863,
    "note": "C · new this week",
    "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
@@ -73,7 +103,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2351,
+   "stars": 2369,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -83,16 +113,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 841,
-   "title": "Claude Fable 5.2 and Mythos 5.2",
-   "source": "Hacker News",
-   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-   "discuss": "https://news.ycombinator.com/item?id=50429068"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 160,
+   "points": 343,
    "title": "AI usage generates a fragile codebase",
    "source": "Hacker News",
    "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
@@ -101,7 +122,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 14,
+   "points": 225,
    "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
    "source": "Hacker News",
    "url": "https://github.com/GoogleChrome/modern-web-guidance",
@@ -110,39 +131,48 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 9,
-   "title": "Work at the Frontier: AI's effect on freelance work",
+   "points": 147,
+   "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
    "source": "Hacker News",
-   "url": "https://openai.com/index/ai-effect-on-freelance-work",
-   "discuss": "https://news.ycombinator.com/item?id=50443838"
+   "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+   "discuss": "https://news.ycombinator.com/item?id=50443716"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 78,
+   "title": "Apple has new Mac app coming to make running local AI models easy",
+   "source": "Hacker News",
+   "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+   "discuss": "https://news.ycombinator.com/item?id=50446520"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+   "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
+   "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+   "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+   "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
+   "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+   "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/"
+   "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
   },
   {
    "kind": "news",

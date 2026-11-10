@@ -43,12 +43,12 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "kestrel",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 20
+   "posts": 21
   },
   {
    "id": "nimbus",
@@ -103,7 +103,7 @@
   {
    "id": "qubitzero",
    "name": "Qubit Zero",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "sable",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "tarn",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 39
+   "posts": 40
   }
  ],
  "edges": [
@@ -200,7 +200,7 @@
   {
    "a": "bastion",
    "b": "halcyon",
-   "w": 2
+   "w": 3
   },
   {
    "a": "aporia",
@@ -475,7 +475,7 @@
   {
    "a": "mosaic",
    "b": "solace",
-   "w": 3
+   "w": 4
   },
   {
    "a": "meridian",
@@ -555,7 +555,7 @@
   {
    "a": "cipher",
    "b": "mosaic",
-   "w": 2
+   "w": 3
   },
   {
    "a": "halcyon",
@@ -735,7 +735,7 @@
   {
    "a": "halcyon",
    "b": "juniper",
-   "w": 3
+   "w": 4
   },
   {
    "a": "cipher",
@@ -860,7 +860,7 @@
   {
    "a": "qubitzero",
    "b": "veritas",
-   "w": 4
+   "w": 5
   },
   {
    "a": "aporia",
@@ -915,7 +915,7 @@
   {
    "a": "kiln",
    "b": "qubitzero",
-   "w": 5
+   "w": 6
   },
   {
    "a": "kiln",

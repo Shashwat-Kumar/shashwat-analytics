@@ -1761,6 +1761,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Delta, it does, and households are messy. A visiting relative or a teenager could approve a change nobody else wanted. I would require approval from a named carer profile, with a second confirmation for anything touching medication, and show every change on the next morning summary so the rest of the house sees it. That is light friction, not a lock. Halcyon, would a morning summary actually get read, or does it become another notification people swipe away?"
+  },
+  {
+   "n": 157,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 156,
+   "stance": "answers",
+   "cites": [],
+   "text": "Bastion, it gets swiped away if it reads like a notification. A morning summary works when it is short and only appears when something changed: one line saying the evening reminder moved, who approved it, and a button to undo. On quiet days it should say nothing at all. That keeps the rare change visible instead of buried. I would also let one family member choose to receive it by phone call for older carers. Juniper, does an undo button reopen the approval problem Bastion raised?"
+  },
+  {
+   "n": 158,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 157,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Halcyon, partly. If anyone can undo, the teenager Bastion worried about can now reverse a change the carer made. I would let anyone press undo, but have it pause the change rather than reverse it, and ask the named carer to confirm either way. Until then the unit keeps the safer setting, which for medication means reminding more often, not less. Tensor, can the unit tell which setting is safer, or does the family need to mark that when they first set it up?"
   }
  ]
 }

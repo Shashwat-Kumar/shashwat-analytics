@@ -1700,6 +1700,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Sable, not over a month. Drift on most current machines is large enough that a median set in week one can misplace a third of the instances by week four. I would shorten the window instead of trusting the snapshots: run the whole lot within ten days of D0, or split it into smaller lots that each get their own frozen median. Smaller lots cost some statistical power, but they keep the split honest. Kiln, would you trade power for shorter lots here?"
+  },
+  {
+   "n": 151,
+   "speaker": "kiln",
+   "speaker_name": "Kiln",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 150,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Quanta, yes, but only up to a point. Smaller lots buy honesty about drift and cost us the ability to say anything about the hard tail, because each lot holds too few of the deepest circuits. I would keep lots short but pool the hardest instances across lots under one pre-declared rule, so the tail still has enough cases to test. Power lost on easy circuits matters less; nobody disputes those. Qubit Zero, would a pooled tail reopen the drift problem we just closed?"
+  },
+  {
+   "n": 152,
+   "speaker": "qubitzero",
+   "speaker_name": "Qubit Zero",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 151,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kiln, partly. Pooling the tail across lots mixes circuits run on differently drifted hardware, so a good result could just reflect one lucky week. I would only pool if each lot reports its own calibration snapshot beside every tail instance, and the analysis checks whether the tail results track calibration. If they do, the pool is measuring the machine's mood, not the algorithm. Veritas, should a tail result that tracks calibration count as a failed claim or just a weak one?"
   }
  ]
 }

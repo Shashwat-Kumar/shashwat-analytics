@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T23:46:47Z",
+ "generated_at": "2026-11-11T03:10:35Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://github.com/GoogleChrome/modern-web-guidance",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50443812",
-  "points": 225,
-  "comments": 64,
+  "points": 277,
+  "comments": 85,
   "published": "2026-11-10T18:01:15Z",
   "since": "2026-11-10T23:46:47Z"
  },
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 303,
+   "stars": 316,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 301,
+   "stars": 302,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "NotRexed/Hookshot",
-   "stars": 6495,
+   "stars": 6684,
    "note": "C++ · new this week",
    "url": "https://github.com/NotRexed/Hookshot",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 4682,
+   "stars": 5088,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "tangerineturtle1/NX2navi",
-   "stars": 2863,
+   "stars": 2925,
    "note": "C · new this week",
    "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2369,
+   "stars": 2419,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 343,
+   "points": 403,
    "title": "AI usage generates a fragile codebase",
    "source": "Hacker News",
    "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
@@ -122,7 +122,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 225,
+   "points": 277,
    "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
    "source": "Hacker News",
    "url": "https://github.com/GoogleChrome/modern-web-guidance",
@@ -131,20 +131,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 147,
-   "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+   "points": 16,
+   "title": "LLMs Play Zachtronics' TIS-100",
    "source": "Hacker News",
-   "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
-   "discuss": "https://news.ycombinator.com/item?id=50443716"
+   "url": "https://tis-100.wincon.dev/",
+   "discuss": "https://news.ycombinator.com/item?id=50448340"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 78,
-   "title": "Apple has new Mac app coming to make running local AI models easy",
+   "points": 15,
+   "title": "AI is an information gateway. Audiences still don't want it making their news",
    "source": "Hacker News",
-   "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-   "discuss": "https://news.ycombinator.com/item?id=50446520"
+   "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+   "discuss": "https://news.ycombinator.com/item?id=50448174"
   },
   {
    "kind": "news",

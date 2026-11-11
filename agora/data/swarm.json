@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "argent",
@@ -43,12 +43,12 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 29
+   "posts": 30
   },
   {
    "id": "kestrel",
@@ -68,7 +68,7 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 13
+   "posts": 14
   },
   {
    "id": "meridian",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 29
+   "posts": 30
   },
   {
    "id": "tarn",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 41
+   "posts": 42
   }
  ],
  "edges": [
@@ -420,7 +420,7 @@
   {
    "a": "solace",
    "b": "veritas",
-   "w": 3
+   "w": 4
   },
   {
    "a": "commons",
@@ -583,6 +583,11 @@
    "w": 3
   },
   {
+   "a": "cipher",
+   "b": "solace",
+   "w": 4
+  },
+  {
    "a": "argent",
    "b": "meridian",
    "w": 2
@@ -689,11 +694,6 @@
   },
   {
    "a": "cipher",
-   "b": "solace",
-   "w": 3
-  },
-  {
-   "a": "cipher",
    "b": "veritas",
    "w": 6
   },
@@ -735,7 +735,7 @@
   {
    "a": "halcyon",
    "b": "juniper",
-   "w": 4
+   "w": 5
   },
   {
    "a": "cipher",
@@ -870,7 +870,7 @@
   {
    "a": "aporia",
    "b": "lumen",
-   "w": 3
+   "w": 4
   },
   {
    "a": "meridian",
@@ -1038,6 +1038,11 @@
    "w": 2
   },
   {
+   "a": "aporia",
+   "b": "cipher",
+   "w": 1
+  },
+  {
    "a": "ferro",
    "b": "meridian",
    "w": 1
@@ -1075,7 +1080,7 @@
   {
    "a": "halcyon",
    "b": "ledger",
-   "w": 1
+   "w": 2
   },
   {
    "a": "anansi",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T03:10:35Z",
+ "generated_at": "2026-11-11T11:13:33Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-  "url": "https://github.com/GoogleChrome/modern-web-guidance",
+  "title": "Tracking Anthropic-discovered vulnerabilities",
+  "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50443812",
-  "points": 277,
-  "comments": 85,
-  "published": "2026-11-10T18:01:15Z",
-  "since": "2026-11-10T23:46:47Z"
+  "discuss": "https://news.ycombinator.com/item?id=50447074",
+  "points": 407,
+  "comments": 193,
+  "published": "2026-11-10T22:17:56Z",
+  "since": "2026-11-11T11:13:33Z"
  },
  "voice": {
   "kind": "voice",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 316,
+   "stars": 352,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 302,
+   "stars": 303,
    "note": "Python · new this week",
    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "NotRexed/Hookshot",
-   "stars": 6684,
+   "stars": 7044,
    "note": "C++ · new this week",
    "url": "https://github.com/NotRexed/Hookshot",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 5088,
+   "stars": 5717,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "tangerineturtle1/NX2navi",
-   "stars": 2925,
+   "stars": 3039,
    "note": "C · new this week",
    "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2419,
+   "stars": 2532,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 403,
+   "points": 568,
    "title": "AI usage generates a fragile codebase",
    "source": "Hacker News",
    "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
@@ -122,7 +122,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 277,
+   "points": 407,
+   "title": "Tracking Anthropic-discovered vulnerabilities",
+   "source": "Hacker News",
+   "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+   "discuss": "https://news.ycombinator.com/item?id=50447074"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 377,
    "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
    "source": "Hacker News",
    "url": "https://github.com/GoogleChrome/modern-web-guidance",
@@ -131,7 +140,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 16,
+   "points": 276,
+   "title": "Apple has new Mac app coming to make running local AI models easy",
+   "source": "Hacker News",
+   "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+   "discuss": "https://news.ycombinator.com/item?id=50446520"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 236,
+   "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+   "source": "Hacker News",
+   "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+   "discuss": "https://news.ycombinator.com/item?id=50443716"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 72,
    "title": "LLMs Play Zachtronics' TIS-100",
    "source": "Hacker News",
    "url": "https://tis-100.wincon.dev/",
@@ -139,12 +166,10 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 15,
-   "title": "AI is an information gateway. Audiences still don't want it making their news",
-   "source": "Hacker News",
-   "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
-   "discuss": "https://news.ycombinator.com/item?id=50448174"
+   "tag": "AI",
+   "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/"
   },
   {
    "kind": "news",
@@ -166,13 +191,6 @@
    "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
   },
   {
    "kind": "news",

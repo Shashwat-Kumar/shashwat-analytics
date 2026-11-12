@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:53:50Z",
+ "generated_at": "2026-11-12T22:41:30Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,52 +8,22 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Anthropic IPO",
-  "url": "https://ipo.anthropic.com/us/",
+  "title": "Gemini 4 Hydrogen",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50465829",
-  "points": 476,
-  "comments": 497,
-  "published": "2026-11-12T11:46:41Z",
-  "since": "2026-11-12T16:53:50Z"
+  "discuss": "https://news.ycombinator.com/item?id=50471431",
+  "points": 396,
+  "comments": 262,
+  "published": "2026-11-12T18:01:48Z",
+  "since": "2026-11-12T22:41:30Z"
  },
- "voice": {
-  "kind": "voice",
-  "tag": "VOICE",
-  "person": "Dario Amodei",
-  "title": "Dario Amodei says AI could make cancer, Alzheimer’s ‘relics of the past’ in less than a decade as Anthrop",
-  "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPWlpnaHZZcFRtYlphckdJX1RGWWNtX0phZ1lVY2dmMmhiSkJNOWdDckhIc2RGMFNpUVQwdF94dHp4UktQTHFvN1FhYU42WGV3TzhTcW1GR2xoYV9STGVtbV9aQ2V0YlE5R2dRdGNIYmdZY3puVU5RbXpOaXJxQ0g5MzFoOVRCR3BGZXV3RWlndDdnV2VRVHdEbVYxUGFfckFzeHZkMXZUMG4xbWlKOGxfRmNGekN3MmlOU3JHQVVqd2xsYUZqZHRiUjN4VEx6aldmU0ZQRW02U1A2MjF1bUc2MmNpUFliZHV3eWhhdlQ1SDdtbVdEOS1hbGdjSFpUNmFCaV82S0tVYkJZOGVmdnFiVjk1dWVRZV9jZzBLS0F5MHZ2a2tuY2I2ZDZLNHA0RmNOQ1HSAbcCQVVfeXFMUE5yTFcwa0hZR1ZscnF0TkYwU0VzaWxacDlyZGZEbmZySmJlUzREdnp3bmpoalk5Qkc3aDhsT0ZKX0dZTkVsMGhmVC1LMWhpa1Vad09QSlhIQ3IwRVBnMnhVbGFFYklkQ2tuR2RLRnNOOHFYcVVsV05aSTliZkdrUmhKam9yMUFQdjYyVndsa2ZQaUg3WTdnZ1dzSllBUk5CVnFEYm9rY1RvYkU1TDNkeVJKRWcxX1d6dGs0VmNSMlFjM01IWXJLV2J4NVkxMUNkdEs2eXVlOHM5cUFwUVVwbjhyTl9VLVMxSmlsZDRrMzVtZno0S19JRHZmMUZEajdaVzhPaDB6TGZQYW1xRndIRjJ6TXpkVzRFb19GV1g5TEFMUjdMLTBWYk5INTB3UkFWQ2tnQXdESGs?oc=5",
-  "source": "The Economic Times",
-  "published": "2026-11-11T17:11:05Z",
-  "since": "2026-11-12T01:04:33Z"
- },
- "voices": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Dario Amodei says AI could make cancer, Alzheimer’s ‘relics of the past’ in less than a decade as Anthrop",
-   "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPWlpnaHZZcFRtYlphckdJX1RGWWNtX0phZ1lVY2dmMmhiSkJNOWdDckhIc2RGMFNpUVQwdF94dHp4UktQTHFvN1FhYU42WGV3TzhTcW1GR2xoYV9STGVtbV9aQ2V0YlE5R2dRdGNIYmdZY3puVU5RbXpOaXJxQ0g5MzFoOVRCR3BGZXV3RWlndDdnV2VRVHdEbVYxUGFfckFzeHZkMXZUMG4xbWlKOGxfRmNGekN3MmlOU3JHQVVqd2xsYUZqZHRiUjN4VEx6aldmU0ZQRW02U1A2MjF1bUc2MmNpUFliZHV3eWhhdlQ1SDdtbVdEOS1hbGdjSFpUNmFCaV82S0tVYkJZOGVmdnFiVjk1dWVRZV9jZzBLS0F5MHZ2a2tuY2I2ZDZLNHA0RmNOQ1HSAbcCQVVfeXFMUE5yTFcwa0hZR1ZscnF0TkYwU0VzaWxacDlyZGZEbmZySmJlUzREdnp3bmpoalk5Qkc3aDhsT0ZKX0dZTkVsMGhmVC1LMWhpa1Vad09QSlhIQ3IwRVBnMnhVbGFFYklkQ2tuR2RLRnNOOHFYcVVsV05aSTliZkdrUmhKam9yMUFQdjYyVndsa2ZQaUg3WTdnZ1dzSllBUk5CVnFEYm9rY1RvYkU1TDNkeVJKRWcxX1d6dGs0VmNSMlFjM01IWXJLV2J4NVkxMUNkdEs2eXVlOHM5cUFwUVVwbjhyTl9VLVMxSmlsZDRrMzVtZno0S19JRHZmMUZEajdaVzhPaDB6TGZQYW1xRndIRjJ6TXpkVzRFb19GV1g5TEFMUjdMLTBWYk5INTB3UkFWQ2tnQXdESGs?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-11-11T17:11:05Z",
-   "since": "2026-11-12T01:04:33Z"
-  }
- ],
+ "voice": null,
+ "voices": [],
  "items": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Dario Amodei says AI could make cancer, Alzheimer’s ‘relics of the past’ in less than a decade as Anthrop",
-   "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPWlpnaHZZcFRtYlphckdJX1RGWWNtX0phZ1lVY2dmMmhiSkJNOWdDckhIc2RGMFNpUVQwdF94dHp4UktQTHFvN1FhYU42WGV3TzhTcW1GR2xoYV9STGVtbV9aQ2V0YlE5R2dRdGNIYmdZY3puVU5RbXpOaXJxQ0g5MzFoOVRCR3BGZXV3RWlndDdnV2VRVHdEbVYxUGFfckFzeHZkMXZUMG4xbWlKOGxfRmNGekN3MmlOU3JHQVVqd2xsYUZqZHRiUjN4VEx6aldmU0ZQRW02U1A2MjF1bUc2MmNpUFliZHV3eWhhdlQ1SDdtbVdEOS1hbGdjSFpUNmFCaV82S0tVYkJZOGVmdnFiVjk1dWVRZV9jZzBLS0F5MHZ2a2tuY2I2ZDZLNHA0RmNOQ1HSAbcCQVVfeXFMUE5yTFcwa0hZR1ZscnF0TkYwU0VzaWxacDlyZGZEbmZySmJlUzREdnp3bmpoalk5Qkc3aDhsT0ZKX0dZTkVsMGhmVC1LMWhpa1Vad09QSlhIQ3IwRVBnMnhVbGFFYklkQ2tuR2RLRnNOOHFYcVVsV05aSTliZkdrUmhKam9yMUFQdjYyVndsa2ZQaUg3WTdnZ1dzSllBUk5CVnFEYm9rY1RvYkU1TDNkeVJKRWcxX1d6dGs0VmNSMlFjM01IWXJLV2J4NVkxMUNkdEs2eXVlOHM5cUFwUVVwbjhyTl9VLVMxSmlsZDRrMzVtZno0S19JRHZmMUZEajdaVzhPaDB6TGZQYW1xRndIRjJ6TXpkVzRFb19GV1g5TEFMUjdMLTBWYk5INTB3UkFWQ2tnQXdESGs?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-11-11T17:11:05Z",
-   "since": "2026-11-12T01:04:33Z"
-  },
   {
    "kind": "repo",
    "title": "agentes-chat/agentes-chat",
-   "stars": 984,
+   "stars": 1129,
    "note": "TypeScript · new this week",
    "url": "https://github.com/agentes-chat/agentes-chat",
    "source": "GitHub",
@@ -63,7 +33,7 @@
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 444,
+   "stars": 455,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -73,7 +43,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 6868,
+   "stars": 6922,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -83,7 +53,7 @@
   {
    "kind": "repo",
    "title": "tangerineturtle1/NX2navi",
-   "stars": 3458,
+   "stars": 3543,
    "note": "C · new this week",
    "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
@@ -93,7 +63,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2746,
+   "stars": 2755,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -103,7 +73,7 @@
   {
    "kind": "repo",
    "title": "JenkinWoo/sheeridVerify",
-   "stars": 2076,
+   "stars": 2080,
    "note": "JavaScript · new this week",
    "url": "https://github.com/JenkinWoo/sheeridVerify",
    "source": "GitHub",
@@ -113,16 +83,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 530,
-   "title": "Gemini Decisions API",
-   "source": "Hacker News",
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-   "discuss": "https://news.ycombinator.com/item?id=50456791"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 476,
+   "points": 756,
    "title": "Anthropic IPO",
    "source": "Hacker News",
    "url": "https://ipo.anthropic.com/us/",
@@ -131,7 +92,43 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 54,
+   "points": 396,
+   "title": "Gemini 4 Hydrogen",
+   "source": "Hacker News",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "discuss": "https://news.ycombinator.com/item?id=50471431"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 242,
+   "title": "I'm making LLMs work on small and old devices",
+   "source": "Hacker News",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "discuss": "https://news.ycombinator.com/item?id=50468888"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 197,
+   "title": "Gemini 4 Hydrogen and Orchestrator",
+   "source": "Hacker News",
+   "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+   "discuss": "https://news.ycombinator.com/item?id=50472260"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 136,
+   "title": "Data centers need power – lower income, rural residents pay the price",
+   "source": "Hacker News",
+   "url": "https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price",
+   "discuss": "https://news.ycombinator.com/item?id=50473231"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 113,
    "title": "Libreagi – Save OSS Models",
    "source": "Hacker News",
    "url": "https://libreagi.com/",
@@ -140,39 +137,55 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 34,
-   "title": "I'm making LLMs work on small and old devices",
+   "points": 62,
+   "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
    "source": "Hacker News",
-   "url": "https://github.com/hyperionaidev/smolmaxxing/",
-   "discuss": "https://news.ycombinator.com/item?id=50468888"
+   "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+   "discuss": "https://news.ycombinator.com/item?id=50471650"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 46,
+   "title": "Foundation Models framework",
+   "source": "Hacker News",
+   "url": "https://developer.apple.com/foundation-models-framework/",
+   "discuss": "https://news.ycombinator.com/item?id=50474361"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Jensen Huang agrees to testify before Congress",
+   "title": "Muse can now place calls to U.S. businesses — if you pay",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/"
+   "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+   "title": "The unfolding Jensen Huang scandal: a timeline",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/"
+   "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+   "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/"
+   "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+   "title": "Jensen Huang was having a third affair, Reuters reports",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/"
+   "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
   },
   {
    "kind": "news",
@@ -187,13 +200,6 @@
    "title": "Nancy Pelosi’s replacement is ready to regulate AI",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Innovating with AI in the special chemicals industry",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/"
   }
  ],
  "errors": []

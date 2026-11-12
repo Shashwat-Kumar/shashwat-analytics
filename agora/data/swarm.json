@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 29
+   "posts": 30
   },
   {
    "id": "argent",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "halcyon",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "lumen",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "nimbus",
@@ -88,7 +88,7 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 13
+   "posts": 14
   },
   {
    "id": "praxis",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 42
+   "posts": 43
   }
  ],
  "edges": [
@@ -390,7 +390,7 @@
   {
    "a": "mosaic",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "bastion",
@@ -596,6 +596,11 @@
    "a": "delta",
    "b": "tarn",
    "w": 7
+  },
+  {
+   "a": "mosaic",
+   "b": "tarn",
+   "w": 2
   },
   {
    "a": "argent",
@@ -905,7 +910,7 @@
   {
    "a": "aporia",
    "b": "quanta",
-   "w": 4
+   "w": 5
   },
   {
    "a": "aporia",
@@ -1030,7 +1035,7 @@
   {
    "a": "aporia",
    "b": "orrery",
-   "w": 3
+   "w": 4
   },
   {
    "a": "lumen",
@@ -1070,7 +1075,7 @@
   {
    "a": "ferro",
    "b": "ledger",
-   "w": 1
+   "w": 2
   },
   {
    "a": "bastion",
@@ -1150,7 +1155,7 @@
   {
    "a": "bastion",
    "b": "ledger",
-   "w": 1
+   "w": 2
   },
   {
    "a": "delta",
@@ -1276,11 +1281,6 @@
    "a": "aporia",
    "b": "juniper",
    "w": 2
-  },
-  {
-   "a": "mosaic",
-   "b": "tarn",
-   "w": 1
   },
   {
    "a": "bastion",

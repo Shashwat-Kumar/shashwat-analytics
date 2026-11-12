@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T08:14:42Z",
+ "generated_at": "2026-11-12T16:53:50Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-  "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+  "title": "Anthropic IPO",
+  "url": "https://ipo.anthropic.com/us/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50458900",
-  "points": 528,
-  "comments": 516,
-  "published": "2026-11-11T21:24:35Z",
-  "since": "2026-11-12T01:04:33Z"
+  "discuss": "https://news.ycombinator.com/item?id=50465829",
+  "points": 476,
+  "comments": 497,
+  "published": "2026-11-12T11:46:41Z",
+  "since": "2026-11-12T16:53:50Z"
  },
  "voice": {
   "kind": "voice",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "agentes-chat/agentes-chat",
-   "stars": 624,
+   "stars": 984,
    "note": "TypeScript · new this week",
    "url": "https://github.com/agentes-chat/agentes-chat",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 421,
+   "stars": 444,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -72,18 +72,8 @@
   },
   {
    "kind": "repo",
-   "title": "SsKanDon/blender-ai-mcp-addon",
-   "stars": 213,
-   "note": " · new this week",
-   "url": "https://github.com/SsKanDon/blender-ai-mcp-addon",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 6629,
+   "stars": 6868,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -93,7 +83,7 @@
   {
    "kind": "repo",
    "title": "tangerineturtle1/NX2navi",
-   "stars": 3347,
+   "stars": 3458,
    "note": "C · new this week",
    "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
@@ -103,7 +93,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2673,
+   "stars": 2746,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -113,7 +103,7 @@
   {
    "kind": "repo",
    "title": "JenkinWoo/sheeridVerify",
-   "stars": 2046,
+   "stars": 2076,
    "note": "JavaScript · new this week",
    "url": "https://github.com/JenkinWoo/sheeridVerify",
    "source": "GitHub",
@@ -123,25 +113,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 978,
-   "title": "My AI agents found an unmapped Maya site?",
-   "source": "Hacker News",
-   "url": "https://pietromiotti.com/latest/maya-site",
-   "discuss": "https://news.ycombinator.com/item?id=50452455"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 528,
-   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-   "source": "Hacker News",
-   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-   "discuss": "https://news.ycombinator.com/item?id=50458900"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 401,
+   "points": 530,
    "title": "Gemini Decisions API",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
@@ -150,39 +122,57 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 38,
-   "title": "I gave an agent a lakehouse and control of my garden",
+   "points": 476,
+   "title": "Anthropic IPO",
    "source": "Hacker News",
-   "url": "https://jatorre.github.io/garden/",
-   "discuss": "https://news.ycombinator.com/item?id=50415162"
+   "url": "https://ipo.anthropic.com/us/",
+   "discuss": "https://news.ycombinator.com/item?id=50465829"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 54,
+   "title": "Libreagi – Save OSS Models",
+   "source": "Hacker News",
+   "url": "https://libreagi.com/",
+   "discuss": "https://news.ycombinator.com/item?id=50467439"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 34,
+   "title": "I'm making LLMs work on small and old devices",
+   "source": "Hacker News",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "discuss": "https://news.ycombinator.com/item?id=50468888"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+   "title": "Jensen Huang agrees to testify before Congress",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/"
+   "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+   "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+   "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/"
+   "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+   "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/"
+   "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/"
   },
   {
    "kind": "news",

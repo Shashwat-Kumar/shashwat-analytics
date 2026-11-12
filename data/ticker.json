@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T18:45:47Z",
+ "generated_at": "2026-11-12T01:04:33Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,22 +8,52 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
-  "url": "https://pietromiotti.com/latest/maya-site/?maya",
+  "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+  "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50452455",
-  "points": 793,
-  "comments": 298,
-  "published": "2026-11-11T12:05:22Z",
-  "since": "2026-11-11T18:45:47Z"
+  "discuss": "https://news.ycombinator.com/item?id=50458900",
+  "points": 327,
+  "comments": 309,
+  "published": "2026-11-11T21:24:35Z",
+  "since": "2026-11-12T01:04:33Z"
  },
- "voice": null,
- "voices": [],
+ "voice": {
+  "kind": "voice",
+  "tag": "VOICE",
+  "person": "Dario Amodei",
+  "title": "Dario Amodei says AI could make cancer, Alzheimer’s ‘relics of the past’ in less than a decade as Anthrop",
+  "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPWlpnaHZZcFRtYlphckdJX1RGWWNtX0phZ1lVY2dmMmhiSkJNOWdDckhIc2RGMFNpUVQwdF94dHp4UktQTHFvN1FhYU42WGV3TzhTcW1GR2xoYV9STGVtbV9aQ2V0YlE5R2dRdGNIYmdZY3puVU5RbXpOaXJxQ0g5MzFoOVRCR3BGZXV3RWlndDdnV2VRVHdEbVYxUGFfckFzeHZkMXZUMG4xbWlKOGxfRmNGekN3MmlOU3JHQVVqd2xsYUZqZHRiUjN4VEx6aldmU0ZQRW02U1A2MjF1bUc2MmNpUFliZHV3eWhhdlQ1SDdtbVdEOS1hbGdjSFpUNmFCaV82S0tVYkJZOGVmdnFiVjk1dWVRZV9jZzBLS0F5MHZ2a2tuY2I2ZDZLNHA0RmNOQ1HSAbcCQVVfeXFMUE5yTFcwa0hZR1ZscnF0TkYwU0VzaWxacDlyZGZEbmZySmJlUzREdnp3bmpoalk5Qkc3aDhsT0ZKX0dZTkVsMGhmVC1LMWhpa1Vad09QSlhIQ3IwRVBnMnhVbGFFYklkQ2tuR2RLRnNOOHFYcVVsV05aSTliZkdrUmhKam9yMUFQdjYyVndsa2ZQaUg3WTdnZ1dzSllBUk5CVnFEYm9rY1RvYkU1TDNkeVJKRWcxX1d6dGs0VmNSMlFjM01IWXJLV2J4NVkxMUNkdEs2eXVlOHM5cUFwUVVwbjhyTl9VLVMxSmlsZDRrMzVtZno0S19JRHZmMUZEajdaVzhPaDB6TGZQYW1xRndIRjJ6TXpkVzRFb19GV1g5TEFMUjdMLTBWYk5INTB3UkFWQ2tnQXdESGs?oc=5",
+  "source": "The Economic Times",
+  "published": "2026-11-11T17:11:05Z",
+  "since": "2026-11-12T01:04:33Z"
+ },
+ "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Dario Amodei",
+   "title": "Dario Amodei says AI could make cancer, Alzheimer’s ‘relics of the past’ in less than a decade as Anthrop",
+   "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPWlpnaHZZcFRtYlphckdJX1RGWWNtX0phZ1lVY2dmMmhiSkJNOWdDckhIc2RGMFNpUVQwdF94dHp4UktQTHFvN1FhYU42WGV3TzhTcW1GR2xoYV9STGVtbV9aQ2V0YlE5R2dRdGNIYmdZY3puVU5RbXpOaXJxQ0g5MzFoOVRCR3BGZXV3RWlndDdnV2VRVHdEbVYxUGFfckFzeHZkMXZUMG4xbWlKOGxfRmNGekN3MmlOU3JHQVVqd2xsYUZqZHRiUjN4VEx6aldmU0ZQRW02U1A2MjF1bUc2MmNpUFliZHV3eWhhdlQ1SDdtbVdEOS1hbGdjSFpUNmFCaV82S0tVYkJZOGVmdnFiVjk1dWVRZV9jZzBLS0F5MHZ2a2tuY2I2ZDZLNHA0RmNOQ1HSAbcCQVVfeXFMUE5yTFcwa0hZR1ZscnF0TkYwU0VzaWxacDlyZGZEbmZySmJlUzREdnp3bmpoalk5Qkc3aDhsT0ZKX0dZTkVsMGhmVC1LMWhpa1Vad09QSlhIQ3IwRVBnMnhVbGFFYklkQ2tuR2RLRnNOOHFYcVVsV05aSTliZkdrUmhKam9yMUFQdjYyVndsa2ZQaUg3WTdnZ1dzSllBUk5CVnFEYm9rY1RvYkU1TDNkeVJKRWcxX1d6dGs0VmNSMlFjM01IWXJLV2J4NVkxMUNkdEs2eXVlOHM5cUFwUVVwbjhyTl9VLVMxSmlsZDRrMzVtZno0S19JRHZmMUZEajdaVzhPaDB6TGZQYW1xRndIRjJ6TXpkVzRFb19GV1g5TEFMUjdMLTBWYk5INTB3UkFWQ2tnQXdESGs?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-11T17:11:05Z",
+   "since": "2026-11-12T01:04:33Z"
+  }
+ ],
  "items": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Dario Amodei",
+   "title": "Dario Amodei says AI could make cancer, Alzheimer’s ‘relics of the past’ in less than a decade as Anthrop",
+   "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPWlpnaHZZcFRtYlphckdJX1RGWWNtX0phZ1lVY2dmMmhiSkJNOWdDckhIc2RGMFNpUVQwdF94dHp4UktQTHFvN1FhYU42WGV3TzhTcW1GR2xoYV9STGVtbV9aQ2V0YlE5R2dRdGNIYmdZY3puVU5RbXpOaXJxQ0g5MzFoOVRCR3BGZXV3RWlndDdnV2VRVHdEbVYxUGFfckFzeHZkMXZUMG4xbWlKOGxfRmNGekN3MmlOU3JHQVVqd2xsYUZqZHRiUjN4VEx6aldmU0ZQRW02U1A2MjF1bUc2MmNpUFliZHV3eWhhdlQ1SDdtbVdEOS1hbGdjSFpUNmFCaV82S0tVYkJZOGVmdnFiVjk1dWVRZV9jZzBLS0F5MHZ2a2tuY2I2ZDZLNHA0RmNOQ1HSAbcCQVVfeXFMUE5yTFcwa0hZR1ZscnF0TkYwU0VzaWxacDlyZGZEbmZySmJlUzREdnp3bmpoalk5Qkc3aDhsT0ZKX0dZTkVsMGhmVC1LMWhpa1Vad09QSlhIQ3IwRVBnMnhVbGFFYklkQ2tuR2RLRnNOOHFYcVVsV05aSTliZkdrUmhKam9yMUFQdjYyVndsa2ZQaUg3WTdnZ1dzSllBUk5CVnFEYm9rY1RvYkU1TDNkeVJKRWcxX1d6dGs0VmNSMlFjM01IWXJLV2J4NVkxMUNkdEs2eXVlOHM5cUFwUVVwbjhyTl9VLVMxSmlsZDRrMzVtZno0S19JRHZmMUZEajdaVzhPaDB6TGZQYW1xRndIRjJ6TXpkVzRFb19GV1g5TEFMUjdMLTBWYk5INTB3UkFWQ2tnQXdESGs?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-11T17:11:05Z",
+   "since": "2026-11-12T01:04:33Z"
+  },
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 386,
+   "stars": 406,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -32,28 +62,8 @@
   },
   {
    "kind": "repo",
-   "title": "yucezerey/turkish-anti-ai-skill",
-   "stars": 304,
-   "note": "Python · new this week",
-   "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "NotRexed/Hookshot",
-   "stars": 7461,
-   "note": "C++ · new this week",
-   "url": "https://github.com/NotRexed/Hookshot",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 6106,
+   "stars": 6246,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -63,7 +73,7 @@
   {
    "kind": "repo",
    "title": "tangerineturtle1/NX2navi",
-   "stars": 3151,
+   "stars": 3258,
    "note": "C · new this week",
    "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
@@ -73,7 +83,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2578,
+   "stars": 2590,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -81,18 +91,46 @@
    "cat": "Trending"
   },
   {
+   "kind": "repo",
+   "title": "JenkinWoo/sheeridVerify",
+   "stars": 2036,
+   "note": "JavaScript · new this week",
+   "url": "https://github.com/JenkinWoo/sheeridVerify",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
    "kind": "news",
    "tag": "HN",
-   "points": 793,
-   "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+   "points": 918,
+   "title": "My AI agents found an unmapped Maya site?",
    "source": "Hacker News",
-   "url": "https://pietromiotti.com/latest/maya-site/?maya",
+   "url": "https://pietromiotti.com/latest/maya-site",
    "discuss": "https://news.ycombinator.com/item?id=50452455"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 120,
+   "points": 327,
+   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+   "source": "Hacker News",
+   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+   "discuss": "https://news.ycombinator.com/item?id=50458900"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 246,
+   "title": "Gemini Decisions API",
+   "source": "Hacker News",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "discuss": "https://news.ycombinator.com/item?id=50456791"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 189,
    "title": "Atuin Threads: All your agent sessions on every machine",
    "source": "Hacker News",
    "url": "https://blog.atuin.sh/threads-agent-sessions/",
@@ -101,75 +139,48 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 41,
-   "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
-   "source": "Hacker News",
-   "url": "https://github.com/klad-app/klad",
-   "discuss": "https://news.ycombinator.com/item?id=50454951"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 19,
+   "points": 47,
    "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
    "source": "Hacker News",
-   "url": "https://pomerado.ai/",
+   "url": "https://news.ycombinator.com/item?id=50455811",
    "discuss": "https://news.ycombinator.com/item?id=50455811"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 17,
-   "title": "TimeNet: Open-source data infrastructure for Temporal Foundation Models",
+   "points": 14,
+   "title": "Modern Web Guidance 1.0: The web platform expertise your coding agent is missing",
    "source": "Hacker News",
-   "url": "https://github.com/OpenTSLM/TimeNet",
-   "discuss": "https://news.ycombinator.com/item?id=50443264"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 4,
-   "title": "AWS Emulator and the engineer's job when agents write the code",
-   "source": "Hacker News",
-   "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
-   "discuss": "https://news.ycombinator.com/item?id=50456740"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 0,
-   "title": "Tinfoil (YC P25) is hiring an applied AI security engineer in San Francisco",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50452404",
-   "discuss": "https://news.ycombinator.com/item?id=50452404"
+   "url": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+   "discuss": "https://news.ycombinator.com/item?id=50460398"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+   "title": "The unfolding Jensen Huang scandal: a timeline",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/"
+   "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+   "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
+   "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+   "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/"
+   "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+   "title": "Why the data center you dread might never even be built",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/"
+   "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
   },
   {
    "kind": "news",

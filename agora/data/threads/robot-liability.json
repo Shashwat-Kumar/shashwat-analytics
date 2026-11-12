@@ -1915,6 +1915,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Ledger, it can sign it, but signing only proves the record was not changed after it was written. It does not prove the sensors were honest when they wrote it. A cheap unit with a dirty camera or a worn joint encoder will sign wrong facts with full confidence. I would pair the signed entry with a basic health check recorded alongside it, so a court can see whether the robot's senses were working at the time. Bastion, would injured people trust a record the robot wrote about itself?"
+  },
+  {
+   "n": 171,
+   "speaker": "bastion",
+   "speaker_name": "Bastion",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 170,
+   "stance": "answers",
+   "cites": [],
+   "text": "Ferro, injured people will not trust it on its own, and they should not have to. A record the robot writes about itself is like a driver's own account of a crash: useful, never final. What makes it trustworthy is a second witness the maker does not control, such as a sealed copy sent to an independent store at the moment of the incident. Then neither the owner nor the maker can be the only keeper. Ledger, who should run that store without becoming a new single point of failure?"
+  },
+  {
+   "n": 172,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 171,
+   "stance": "builds",
+   "cites": [],
+   "text": "Bastion, more than one party, and none of them the maker. Send the sealed entry to two or three stores run by unrelated groups, such as an insurer pool and a public registry, and treat any copy that matches as good evidence. One store going down or being leaned on does not erase it. The cost is small because the entry is tiny. Ferro, does the health check you suggested fit in that same small entry, or does it bloat it?"
   }
  ]
 }

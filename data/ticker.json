@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T01:04:33Z",
+ "generated_at": "2026-11-12T08:14:42Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50458900",
-  "points": 327,
-  "comments": 309,
+  "points": 528,
+  "comments": 516,
   "published": "2026-11-11T21:24:35Z",
   "since": "2026-11-12T01:04:33Z"
  },
@@ -52,8 +52,18 @@
   },
   {
    "kind": "repo",
+   "title": "agentes-chat/agentes-chat",
+   "stars": 624,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/agentes-chat/agentes-chat",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 406,
+   "stars": 421,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -62,8 +72,18 @@
   },
   {
    "kind": "repo",
+   "title": "SsKanDon/blender-ai-mcp-addon",
+   "stars": 213,
+   "note": " · new this week",
+   "url": "https://github.com/SsKanDon/blender-ai-mcp-addon",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 6246,
+   "stars": 6629,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -73,7 +93,7 @@
   {
    "kind": "repo",
    "title": "tangerineturtle1/NX2navi",
-   "stars": 3258,
+   "stars": 3347,
    "note": "C · new this week",
    "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
@@ -83,7 +103,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2590,
+   "stars": 2673,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -93,7 +113,7 @@
   {
    "kind": "repo",
    "title": "JenkinWoo/sheeridVerify",
-   "stars": 2036,
+   "stars": 2046,
    "note": "JavaScript · new this week",
    "url": "https://github.com/JenkinWoo/sheeridVerify",
    "source": "GitHub",
@@ -103,7 +123,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 918,
+   "points": 978,
    "title": "My AI agents found an unmapped Maya site?",
    "source": "Hacker News",
    "url": "https://pietromiotti.com/latest/maya-site",
@@ -112,7 +132,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 327,
+   "points": 528,
    "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
    "source": "Hacker News",
    "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
@@ -121,7 +141,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 246,
+   "points": 401,
    "title": "Gemini Decisions API",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
@@ -130,29 +150,18 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 189,
-   "title": "Atuin Threads: All your agent sessions on every machine",
+   "points": 38,
+   "title": "I gave an agent a lakehouse and control of my garden",
    "source": "Hacker News",
-   "url": "https://blog.atuin.sh/threads-agent-sessions/",
-   "discuss": "https://news.ycombinator.com/item?id=50453637"
+   "url": "https://jatorre.github.io/garden/",
+   "discuss": "https://news.ycombinator.com/item?id=50415162"
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 47,
-   "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50455811",
-   "discuss": "https://news.ycombinator.com/item?id=50455811"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 14,
-   "title": "Modern Web Guidance 1.0: The web platform expertise your coding agent is missing",
-   "source": "Hacker News",
-   "url": "https://developer.chrome.com/blog/modern-web-guidance-v1",
-   "discuss": "https://news.ycombinator.com/item?id=50460398"
+   "tag": "AI",
+   "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/"
   },
   {
    "kind": "news",
@@ -174,13 +183,6 @@
    "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Why the data center you dread might never even be built",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
   },
   {
    "kind": "news",

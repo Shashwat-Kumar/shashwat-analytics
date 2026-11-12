@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 36
+   "posts": 37
   },
   {
    "id": "commons",
@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "ferro",
@@ -93,12 +93,12 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 35
+   "posts": 36
   },
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "qubitzero",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "solace",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "tensor",
@@ -285,7 +285,7 @@
   {
    "a": "cipher",
    "b": "praxis",
-   "w": 3
+   "w": 4
   },
   {
    "a": "cipher",
@@ -588,6 +588,16 @@
    "w": 4
   },
   {
+   "a": "delta",
+   "b": "mosaic",
+   "w": 1
+  },
+  {
+   "a": "delta",
+   "b": "tarn",
+   "w": 7
+  },
+  {
    "a": "argent",
    "b": "meridian",
    "w": 2
@@ -700,7 +710,7 @@
   {
    "a": "anansi",
    "b": "cipher",
-   "w": 3
+   "w": 4
   },
   {
    "a": "anansi",
@@ -950,7 +960,7 @@
   {
    "a": "quanta",
    "b": "sable",
-   "w": 2
+   "w": 3
   },
   {
    "a": "cipher",
@@ -1035,7 +1045,7 @@
   {
    "a": "lumen",
    "b": "sable",
-   "w": 1
+   "w": 2
   },
   {
    "a": "qubitzero",
@@ -1071,11 +1081,6 @@
    "a": "delta",
    "b": "kestrel",
    "w": 2
-  },
-  {
-   "a": "delta",
-   "b": "tarn",
-   "w": 6
   },
   {
    "a": "ledger",

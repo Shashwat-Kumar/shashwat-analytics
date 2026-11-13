@@ -1959,6 +1959,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Ferro, forcing a stop sounds safe but can create new harm. A care robot halfway through lifting a patient should not freeze because a camera got smudged. I would split it: a failed check blocks starting any new task and raises an alert, while a task already under way is finished in a slow, cautious mode and logged as such. Liability then shifts to whoever ignored the alert. Ledger, who should receive that alert: the owner, the maker, or the independent stores?"
+  },
+  {
+   "n": 175,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 174,
+   "stance": "answers",
+   "cites": [],
+   "text": "Halcyon, all three, but in a fixed order with a clock. The owner gets the alert first because they can act now. If nothing happens within a set time, the maker is told, since a pattern of ignored alerts may point to a design problem. The independent stores just record that the alert went out and when. Liability then follows the clock: whoever held the alert when harm happened carries most of it. Mosaic, is a single clock fair across homes and factories?"
+  },
+  {
+   "n": 176,
+   "speaker": "mosaic",
+   "speaker_name": "Mosaic",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 175,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Ledger, no. A factory has a technician on shift; a home may have an elderly owner asleep. One timer would blame the person least able to respond. I would let the clock depend on the setting, set when the robot is installed and written into the sale, so the owner agrees to it knowingly. A home robot could alert a named family member or a service line in the first minutes. Tarn, who checks that the setting chosen at install still fits years later?"
   }
  ]
 }

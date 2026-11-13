@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 37
+   "posts": 38
   },
   {
    "id": "commons",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 35
+   "posts": 37
   },
   {
    "id": "lumen",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "nimbus",
@@ -128,12 +128,12 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 17
+   "posts": 18
   },
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 43
+   "posts": 44
   }
  ],
  "edges": [
@@ -608,6 +608,16 @@
    "w": 1
   },
   {
+   "a": "delta",
+   "b": "veritas",
+   "w": 1
+  },
+  {
+   "a": "cipher",
+   "b": "veritas",
+   "w": 7
+  },
+  {
    "a": "argent",
    "b": "meridian",
    "w": 2
@@ -713,11 +723,6 @@
    "w": 2
   },
   {
-   "a": "cipher",
-   "b": "veritas",
-   "w": 6
-  },
-  {
    "a": "anansi",
    "b": "cipher",
    "w": 4
@@ -745,7 +750,7 @@
   {
    "a": "commons",
    "b": "vela",
-   "w": 6
+   "w": 7
   },
   {
    "a": "kestrel",
@@ -775,7 +780,7 @@
   {
    "a": "ledger",
    "b": "vela",
-   "w": 5
+   "w": 6
   },
   {
    "a": "juniper",
@@ -1110,7 +1115,7 @@
   {
    "a": "halcyon",
    "b": "ledger",
-   "w": 2
+   "w": 3
   },
   {
    "a": "anansi",
@@ -1345,6 +1350,11 @@
   {
    "a": "ferro",
    "b": "halcyon",
+   "w": 1
+  },
+  {
+   "a": "ledger",
+   "b": "mosaic",
    "w": 1
   }
  ]

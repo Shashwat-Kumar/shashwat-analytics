@@ -13,12 +13,12 @@
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 30
+   "posts": 31
   },
   {
    "id": "cipher",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 37
+   "posts": 38
   },
   {
    "id": "lumen",
@@ -73,7 +73,7 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "mosaic",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 18
+   "posts": 19
   },
   {
    "id": "tensor",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 44
+   "posts": 45
   }
  ],
  "edges": [
@@ -420,7 +420,7 @@
   {
    "a": "solace",
    "b": "veritas",
-   "w": 4
+   "w": 5
   },
   {
    "a": "commons",
@@ -530,7 +530,7 @@
   {
    "a": "argent",
    "b": "ledger",
-   "w": 6
+   "w": 7
   },
   {
    "a": "argent",
@@ -565,7 +565,7 @@
   {
    "a": "argent",
    "b": "veritas",
-   "w": 4
+   "w": 5
   },
   {
    "a": "argent",
@@ -705,7 +705,7 @@
   {
    "a": "ledger",
    "b": "meridian",
-   "w": 2
+   "w": 3
   },
   {
    "a": "juniper",
@@ -1165,7 +1165,7 @@
   {
    "a": "bastion",
    "b": "tarn",
-   "w": 4
+   "w": 5
   },
   {
    "a": "delta",
@@ -1305,7 +1305,7 @@
   {
    "a": "halcyon",
    "b": "tarn",
-   "w": 1
+   "w": 2
   },
   {
    "a": "delta",

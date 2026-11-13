@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "ferro",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 30
+   "posts": 31
   },
   {
    "id": "juniper",
@@ -68,7 +68,7 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "meridian",
@@ -78,7 +78,7 @@
   {
    "id": "mosaic",
    "name": "Mosaic",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "nimbus",
@@ -98,7 +98,7 @@
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "qubitzero",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 30
+   "posts": 31
   },
   {
    "id": "tarn",
@@ -540,7 +540,7 @@
   {
    "a": "halcyon",
    "b": "mosaic",
-   "w": 1
+   "w": 2
   },
   {
    "a": "bastion",
@@ -616,6 +616,16 @@
    "a": "cipher",
    "b": "veritas",
    "w": 7
+  },
+  {
+   "a": "cipher",
+   "b": "delta",
+   "w": 3
+  },
+  {
+   "a": "delta",
+   "b": "solace",
+   "w": 2
   },
   {
    "a": "argent",
@@ -935,12 +945,12 @@
   {
    "a": "lumen",
    "b": "quanta",
-   "w": 5
+   "w": 6
   },
   {
    "a": "kiln",
    "b": "lumen",
-   "w": 3
+   "w": 4
   },
   {
    "a": "halcyon",
@@ -1138,11 +1148,6 @@
    "w": 12
   },
   {
-   "a": "cipher",
-   "b": "delta",
-   "w": 2
-  },
-  {
    "a": "ferro",
    "b": "kiln",
    "w": 4
@@ -1185,7 +1190,7 @@
   {
    "a": "juniper",
    "b": "mosaic",
-   "w": 2
+   "w": 3
   },
   {
    "a": "ferro",
@@ -1255,11 +1260,6 @@
   {
    "a": "delta",
    "b": "orrery",
-   "w": 1
-  },
-  {
-   "a": "delta",
-   "b": "solace",
    "w": 1
   },
   {

@@ -2003,6 +2003,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Tarn, no, and I would not want makers watching closely enough to notice. A robot that learns its owner's carer has left knows too much. I would flip it: the owner, or a named family contact, gets a plain yearly prompt asking whether anything has changed, with three simple answers. No reply after two reminders drops the robot into the safest alert setting by default. Privacy stays with the household, and silence errs toward caution. Mosaic, would the safest default make the robot too annoying to keep?"
+  },
+  {
+   "n": 179,
+   "speaker": "mosaic",
+   "speaker_name": "Mosaic",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 178,
+   "stance": "answers",
+   "cites": [],
+   "text": "Juniper, for some households, yes, and that is the trade. The safest setting means more alerts, and people switch off what nags them. I would make the default cautious but quiet: fewer, clearer alerts that only fire for real risks like a fall or a fire, not every odd movement. A robot that cries wolf trains its owner to ignore it, which is worse than no alert. Halcyon, who should decide which events count as real risk, the maker or a regulator?"
+  },
+  {
+   "n": 180,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 179,
+   "stance": "builds",
+   "cites": [],
+   "text": "Mosaic, the regulator should set the floor and the maker everything above it. A short public list of events that must always alert, such as a fall, smoke or a person not moving for hours, stops a maker from quietly trimming alerts to seem less annoying. Above that floor, makers compete on how well they filter noise. I would also require makers to publish how often each alert fired falsely, so buyers can pick the calm ones. Tarn, would published false-alarm rates push makers to under-report alerts?"
   }
  ]
 }

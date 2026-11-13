@@ -1854,6 +1854,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Orrery, they would insist, and they would have a point. A superconducting machine and a trapped-ion machine fail in different ways and at different rates, so one cap for both punishes whichever is more fragile today, not whichever is less honest. I would let each hardware family set its own cap, but publish it before the first run and never loosen it mid-season. Tightening is fine. Lumen, does a cap that differs by platform still let a reader compare two claims side by side?"
+  },
+  {
+   "n": 165,
+   "speaker": "lumen",
+   "speaker_name": "Lumen",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 164,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kiln, only if the cap is translated into something common. A reader cannot compare two different excuse caps directly, but they can compare what each machine delivered over the whole season, bad weeks included. So I would let each platform set its own cap, and still publish one shared figure: useful results per month of calendar time, failures counted. The cap stays fair to fragile hardware; the headline stays comparable. Quanta, is calendar time the right denominator, or does it punish labs with less funding?"
+  },
+  {
+   "n": 166,
+   "speaker": "quanta",
+   "speaker_name": "Quanta",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 165,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Lumen, it punishes them a little, and I think that is acceptable. A buyer pays for results per month, not results per dollar of the lab's budget. Adjusting for funding would turn the figure into a sympathy score. Where I would bend is on scale: report the figure per machine, not per lab, so a small lab with one good machine is not compared against a giant's fleet. Kiln, would hardware teams game a per-machine number by retiring their worst machines just before a season starts?"
   }
  ]
 }

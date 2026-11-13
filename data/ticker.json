@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T22:41:30Z",
+ "generated_at": "2026-11-13T02:58:37Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50471431",
-  "points": 396,
-  "comments": 262,
+  "points": 476,
+  "comments": 300,
   "published": "2026-11-12T18:01:48Z",
   "since": "2026-11-12T22:41:30Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "agentes-chat/agentes-chat",
-   "stars": 1129,
+   "stars": 1206,
    "note": "TypeScript · new this week",
    "url": "https://github.com/agentes-chat/agentes-chat",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 455,
+   "stars": 461,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -42,8 +42,18 @@
   },
   {
    "kind": "repo",
+   "title": "huawei-csl/MACaQ",
+   "stars": 211,
+   "note": "C++ · new this week",
+   "url": "https://github.com/huawei-csl/MACaQ",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 6922,
+   "stars": 6977,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -53,7 +63,7 @@
   {
    "kind": "repo",
    "title": "tangerineturtle1/NX2navi",
-   "stars": 3543,
+   "stars": 3597,
    "note": "C · new this week",
    "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
@@ -63,7 +73,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2755,
+   "stars": 2776,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -72,10 +82,10 @@
   },
   {
    "kind": "repo",
-   "title": "JenkinWoo/sheeridVerify",
-   "stars": 2080,
-   "note": "JavaScript · new this week",
-   "url": "https://github.com/JenkinWoo/sheeridVerify",
+   "title": "Kianuni/Erosion-CN",
+   "stars": 1737,
+   "note": "Swift · new this week",
+   "url": "https://github.com/Kianuni/Erosion-CN",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -83,7 +93,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 756,
+   "points": 839,
    "title": "Anthropic IPO",
    "source": "Hacker News",
    "url": "https://ipo.anthropic.com/us/",
@@ -92,7 +102,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 396,
+   "points": 476,
    "title": "Gemini 4 Hydrogen",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
@@ -101,16 +111,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 242,
-   "title": "I'm making LLMs work on small and old devices",
-   "source": "Hacker News",
-   "url": "https://github.com/hyperionaidev/smolmaxxing/",
-   "discuss": "https://news.ycombinator.com/item?id=50468888"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 197,
+   "points": 323,
    "title": "Gemini 4 Hydrogen and Orchestrator",
    "source": "Hacker News",
    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
@@ -119,34 +120,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 136,
-   "title": "Data centers need power – lower income, rural residents pay the price",
+   "points": 287,
+   "title": "I'm making LLMs work on small and old devices",
    "source": "Hacker News",
-   "url": "https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price",
-   "discuss": "https://news.ycombinator.com/item?id=50473231"
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "discuss": "https://news.ycombinator.com/item?id=50468888"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 113,
-   "title": "Libreagi – Save OSS Models",
+   "points": 185,
+   "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
    "source": "Hacker News",
-   "url": "https://libreagi.com/",
-   "discuss": "https://news.ycombinator.com/item?id=50467439"
+   "url": "https://unemploymentlabs.com/checkpoint-forensics",
+   "discuss": "https://news.ycombinator.com/item?id=50474883"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 62,
-   "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
-   "source": "Hacker News",
-   "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
-   "discuss": "https://news.ycombinator.com/item?id=50471650"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 46,
+   "points": 140,
    "title": "Foundation Models framework",
    "source": "Hacker News",
    "url": "https://developer.apple.com/foundation-models-framework/",
@@ -154,8 +146,33 @@
   },
   {
    "kind": "news",
+   "tag": "HN",
+   "points": 113,
+   "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+   "source": "Hacker News",
+   "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+   "discuss": "https://news.ycombinator.com/item?id=50474311"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 79,
+   "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+   "source": "Hacker News",
+   "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+   "discuss": "https://news.ycombinator.com/item?id=50471650"
+  },
+  {
+   "kind": "news",
    "tag": "AI",
-   "title": "Muse can now place calls to U.S. businesses — if you pay",
+   "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Muse can now place calls to US businesses — if you pay",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
   },
@@ -172,13 +189,6 @@
    "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Jensen Huang was having a third affair, Reuters reports",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/"
   },
   {
    "kind": "news",

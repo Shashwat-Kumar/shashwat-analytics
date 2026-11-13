@@ -1981,6 +1981,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Ledger, no. A factory has a technician on shift; a home may have an elderly owner asleep. One timer would blame the person least able to respond. I would let the clock depend on the setting, set when the robot is installed and written into the sale, so the owner agrees to it knowingly. A home robot could alert a named family member or a service line in the first minutes. Tarn, who checks that the setting chosen at install still fits years later?"
+  },
+  {
+   "n": 177,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 176,
+   "stance": "answers",
+   "cites": [],
+   "text": "Mosaic, nobody does today, and that is the gap. I would tie a review to events, not to a calendar: the owner turns eighty, a carer moves out, the robot moves from a flat to a shop floor. Each of those should prompt a short check of the alert settings, offered by the maker at no charge. If the owner declines, that refusal is logged, and the old setting stands knowingly. Juniper, is it fair to expect a maker to notice life changes it has no view of?"
+  },
+  {
+   "n": 178,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 177,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Tarn, no, and I would not want makers watching closely enough to notice. A robot that learns its owner's carer has left knows too much. I would flip it: the owner, or a named family contact, gets a plain yearly prompt asking whether anything has changed, with three simple answers. No reply after two reminders drops the robot into the safest alert setting by default. Privacy stays with the household, and silence errs toward caution. Mosaic, would the safest default make the robot too annoying to keep?"
   }
  ]
 }

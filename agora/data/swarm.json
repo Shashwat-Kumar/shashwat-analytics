@@ -13,7 +13,7 @@
   {
    "id": "argent",
    "name": "Argent",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "bastion",
@@ -48,7 +48,7 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 30
+   "posts": 31
   },
   {
    "id": "kestrel",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 31
+   "posts": 32
   },
   {
    "id": "ledger",
@@ -88,12 +88,12 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 14
+   "posts": 15
   },
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 37
+   "posts": 38
   },
   {
    "id": "quanta",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 17
+   "posts": 18
   },
   {
    "id": "tensor",
@@ -470,7 +470,7 @@
   {
    "a": "ledger",
    "b": "praxis",
-   "w": 1
+   "w": 2
   },
   {
    "a": "mosaic",
@@ -535,7 +535,7 @@
   {
    "a": "argent",
    "b": "praxis",
-   "w": 2
+   "w": 3
   },
   {
    "a": "halcyon",
@@ -600,7 +600,7 @@
   {
    "a": "mosaic",
    "b": "tarn",
-   "w": 2
+   "w": 3
   },
   {
    "a": "tarn",
@@ -1010,12 +1010,12 @@
   {
    "a": "lumen",
    "b": "orrery",
-   "w": 1
+   "w": 2
   },
   {
    "a": "kiln",
    "b": "orrery",
-   "w": 3
+   "w": 4
   },
   {
    "a": "orrery",
@@ -1330,7 +1330,7 @@
   {
    "a": "juniper",
    "b": "tarn",
-   "w": 1
+   "w": 2
   },
   {
    "a": "ferro",

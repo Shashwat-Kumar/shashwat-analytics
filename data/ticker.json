@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T02:58:37Z",
+ "generated_at": "2026-11-13T10:50:40Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Gemini 4 Hydrogen",
-  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+  "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+  "url": "https://status.claude.com/incidents/nn11wk485zfn",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50471431",
-  "points": 476,
-  "comments": 300,
-  "published": "2026-11-12T18:01:48Z",
-  "since": "2026-11-12T22:41:30Z"
+  "discuss": "https://news.ycombinator.com/item?id=50481187",
+  "points": 109,
+  "comments": 67,
+  "published": "2026-11-13T10:18:13Z",
+  "since": "2026-11-13T10:50:40Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "agentes-chat/agentes-chat",
-   "stars": 1206,
+   "stars": 1260,
    "note": "TypeScript · new this week",
    "url": "https://github.com/agentes-chat/agentes-chat",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 461,
+   "stars": 472,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "huawei-csl/MACaQ",
-   "stars": 211,
+   "stars": 220,
    "note": "C++ · new this week",
    "url": "https://github.com/huawei-csl/MACaQ",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 6977,
+   "stars": 7135,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "tangerineturtle1/NX2navi",
-   "stars": 3597,
+   "stars": 3673,
    "note": "C · new this week",
    "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2776,
+   "stars": 2830,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "Kianuni/Erosion-CN",
-   "stars": 1737,
+   "stars": 1827,
    "note": "Swift · new this week",
    "url": "https://github.com/Kianuni/Erosion-CN",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 839,
+   "points": 940,
    "title": "Anthropic IPO",
    "source": "Hacker News",
    "url": "https://ipo.anthropic.com/us/",
@@ -102,7 +102,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 476,
+   "points": 531,
    "title": "Gemini 4 Hydrogen",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
@@ -111,7 +111,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 323,
+   "points": 421,
    "title": "Gemini 4 Hydrogen and Orchestrator",
    "source": "Hacker News",
    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
@@ -120,7 +120,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 287,
+   "points": 378,
    "title": "I'm making LLMs work on small and old devices",
    "source": "Hacker News",
    "url": "https://github.com/hyperionaidev/smolmaxxing/",
@@ -129,16 +129,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 185,
-   "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+   "points": 262,
+   "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
    "source": "Hacker News",
-   "url": "https://unemploymentlabs.com/checkpoint-forensics",
-   "discuss": "https://news.ycombinator.com/item?id=50474883"
+   "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+   "discuss": "https://news.ycombinator.com/item?id=50475713"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 140,
+   "points": 215,
    "title": "Foundation Models framework",
    "source": "Hacker News",
    "url": "https://developer.apple.com/foundation-models-framework/",
@@ -147,20 +147,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 113,
-   "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+   "points": 110,
+   "title": "Brave Search API now accepts agentic payments via the x402 protocol",
    "source": "Hacker News",
-   "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
-   "discuss": "https://news.ycombinator.com/item?id=50474311"
+   "url": "https://brave.com/blog/search-api-agentic-payments/",
+   "discuss": "https://news.ycombinator.com/item?id=50477649"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 79,
-   "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+   "points": 109,
+   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
    "source": "Hacker News",
-   "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
-   "discuss": "https://news.ycombinator.com/item?id=50471650"
+   "url": "https://status.claude.com/incidents/nn11wk485zfn",
+   "discuss": "https://news.ycombinator.com/item?id=50481187"
   },
   {
    "kind": "news",

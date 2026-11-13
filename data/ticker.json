@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T10:50:40Z",
+ "generated_at": "2026-11-13T18:16:12Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://status.claude.com/incidents/nn11wk485zfn",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50481187",
-  "points": 109,
-  "comments": 67,
+  "points": 449,
+  "comments": 357,
   "published": "2026-11-13T10:18:13Z",
   "since": "2026-11-13T10:50:40Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "agentes-chat/agentes-chat",
-   "stars": 1260,
+   "stars": 1317,
    "note": "TypeScript · new this week",
    "url": "https://github.com/agentes-chat/agentes-chat",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 472,
+   "stars": 484,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "huawei-csl/MACaQ",
-   "stars": 220,
+   "stars": 225,
    "note": "C++ · new this week",
    "url": "https://github.com/huawei-csl/MACaQ",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 7135,
+   "stars": 7250,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "tangerineturtle1/NX2navi",
-   "stars": 3673,
+   "stars": 3804,
    "note": "C · new this week",
    "url": "https://github.com/tangerineturtle1/NX2navi",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2830,
+   "stars": 2857,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "Kianuni/Erosion-CN",
-   "stars": 1827,
+   "stars": 1896,
    "note": "Swift · new this week",
    "url": "https://github.com/Kianuni/Erosion-CN",
    "source": "GitHub",
@@ -93,25 +93,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 940,
-   "title": "Anthropic IPO",
-   "source": "Hacker News",
-   "url": "https://ipo.anthropic.com/us/",
-   "discuss": "https://news.ycombinator.com/item?id=50465829"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 531,
-   "title": "Gemini 4 Hydrogen",
-   "source": "Hacker News",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-   "discuss": "https://news.ycombinator.com/item?id=50471431"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 421,
+   "points": 483,
    "title": "Gemini 4 Hydrogen and Orchestrator",
    "source": "Hacker News",
    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
@@ -120,7 +102,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 378,
+   "points": 460,
    "title": "I'm making LLMs work on small and old devices",
    "source": "Hacker News",
    "url": "https://github.com/hyperionaidev/smolmaxxing/",
@@ -129,7 +111,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 262,
+   "points": 449,
+   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+   "source": "Hacker News",
+   "url": "https://status.claude.com/incidents/nn11wk485zfn",
+   "discuss": "https://news.ycombinator.com/item?id=50481187"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 324,
    "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
    "source": "Hacker News",
    "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
@@ -138,16 +129,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 215,
-   "title": "Foundation Models framework",
-   "source": "Hacker News",
-   "url": "https://developer.apple.com/foundation-models-framework/",
-   "discuss": "https://news.ycombinator.com/item?id=50474361"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 110,
+   "points": 231,
    "title": "Brave Search API now accepts agentic payments via the x402 protocol",
    "source": "Hacker News",
    "url": "https://brave.com/blog/search-api-agentic-payments/",
@@ -156,39 +138,57 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 109,
-   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+   "points": 217,
+   "title": "AI Is Destroying the Trust Between Writers and Readers",
    "source": "Hacker News",
-   "url": "https://status.claude.com/incidents/nn11wk485zfn",
-   "discuss": "https://news.ycombinator.com/item?id=50481187"
+   "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+   "discuss": "https://news.ycombinator.com/item?id=50481870"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 116,
+   "title": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]",
+   "source": "Hacker News",
+   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+   "discuss": "https://news.ycombinator.com/item?id=50484658"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 50,
+   "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+   "source": "Hacker News",
+   "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+   "discuss": "https://news.ycombinator.com/item?id=50486748"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+   "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Muse can now place calls to US businesses — if you pay",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+   "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
   },
   {
    "kind": "news",
    "tag": "AI",
    "title": "The unfolding Jensen Huang scandal: a timeline",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+   "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+   "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+   "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/"
   },
   {
    "kind": "news",

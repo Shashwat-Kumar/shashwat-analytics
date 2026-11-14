@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T16:59:40Z",
+ "generated_at": "2026-11-14T21:23:52Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-  "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+  "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+  "url": "https://github.com/paul-nameless/agweb",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50493251",
-  "points": 918,
-  "comments": 550,
-  "published": "2026-11-14T02:52:59Z",
-  "since": "2026-11-14T03:38:20Z"
+  "discuss": "https://news.ycombinator.com/item?id=50497147",
+  "points": 72,
+  "comments": 21,
+  "published": "2026-11-14T14:08:12Z",
+  "since": "2026-11-14T21:23:52Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "agentes-chat/agentes-chat",
-   "stars": 1382,
+   "stars": 1392,
    "note": "TypeScript · new this week",
    "url": "https://github.com/agentes-chat/agentes-chat",
    "source": "GitHub",
@@ -32,50 +32,50 @@
   },
   {
    "kind": "repo",
-   "title": "Dodaios/ste80-humanizer",
-   "stars": 542,
-   "note": "Python · new this week",
-   "url": "https://github.com/Dodaios/ste80-humanizer",
+   "title": "Topkiflare74/ai--manus2.0",
+   "stars": 678,
+   "note": " · new this week",
+   "url": "https://github.com/Topkiflare74/ai--manus2.0",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "WestLightningMove/ai--manus",
-   "stars": 303,
+   "title": "topapothecarycanal/ai--manus2.0",
+   "stars": 667,
    "note": " · new this week",
-   "url": "https://github.com/WestLightningMove/ai--manus",
+   "url": "https://github.com/topapothecarycanal/ai--manus2.0",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "AtomEmissary/ai--manus",
-   "stars": 303,
+   "title": "toppatronweave/ai--manus2.0",
+   "stars": 666,
    "note": " · new this week",
-   "url": "https://github.com/AtomEmissary/ai--manus",
+   "url": "https://github.com/toppatronweave/ai--manus2.0",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "TealAgentRevive/ai--manus",
-   "stars": 303,
+   "title": "topconstableinlet67/ai--manus2.0",
+   "stars": 664,
    "note": " · new this week",
-   "url": "https://github.com/TealAgentRevive/ai--manus",
+   "url": "https://github.com/topconstableinlet67/ai--manus2.0",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "AdmiralEmporium/ai--manus",
-   "stars": 303,
+   "title": "tornadonovicewhirl40/ai--manus2.0",
+   "stars": 660,
    "note": " · new this week",
-   "url": "https://github.com/AdmiralEmporium/ai--manus",
+   "url": "https://github.com/tornadonovicewhirl40/ai--manus2.0",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 7530,
+   "stars": 7548,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2953,
+   "stars": 2982,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "Kianuni/Erosion-CN",
-   "stars": 2041,
+   "stars": 2052,
    "note": "Swift · new this week",
    "url": "https://github.com/Kianuni/Erosion-CN",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "apex-compute/ANR",
-   "stars": 1733,
+   "stars": 1796,
    "note": "C++ · new this week",
    "url": "https://github.com/apex-compute/ANR",
    "source": "GitHub",
@@ -123,25 +123,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 918,
-   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-   "source": "Hacker News",
-   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-   "discuss": "https://news.ycombinator.com/item?id=50493251"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 428,
-   "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
-   "source": "Hacker News",
-   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-   "discuss": "https://news.ycombinator.com/item?id=50484658"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 212,
+   "points": 365,
    "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
    "source": "Hacker News",
    "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
@@ -150,7 +132,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 124,
+   "points": 263,
    "title": "Italy fines Meta $887M over Android users' data access",
    "source": "Hacker News",
    "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
@@ -159,7 +141,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 86,
+   "points": 147,
    "title": "Generative AI uses more energy on non-English text",
    "source": "Hacker News",
    "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
@@ -168,7 +150,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 39,
+   "points": 72,
    "title": "Show HN: Agweb – a browser for agents that stays out of your way",
    "source": "Hacker News",
    "url": "https://github.com/paul-nameless/agweb",
@@ -177,11 +159,18 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 15,
-   "title": "Italy fines Meta €805M over photo privacy",
+   "points": 30,
+   "title": "Will we put data centers in space?",
    "source": "Hacker News",
-   "url": "https://www.rapporteur.com/news/italy-fines-meta-880mn-over-photo-privacy-authority/",
-   "discuss": "https://news.ycombinator.com/item?id=50498063"
+   "url": "https://www.forethought.org/research/will-we-really-put-data-centers-in-space",
+   "discuss": "https://news.ycombinator.com/item?id=50498945"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
   },
   {
    "kind": "news",
@@ -203,13 +192,6 @@
    "title": "AI agent startup LangChain hits $3B valuation",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
   },
   {
    "kind": "news",

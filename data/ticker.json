@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T03:38:20Z",
+ "generated_at": "2026-11-14T10:59:24Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,12 +8,12 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+  "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50493251",
-  "points": 22,
-  "comments": 1,
+  "points": 605,
+  "comments": 352,
   "published": "2026-11-14T02:52:59Z",
   "since": "2026-11-14T03:38:20Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "agentes-chat/agentes-chat",
-   "stars": 1350,
+   "stars": 1363,
    "note": "TypeScript · new this week",
    "url": "https://github.com/agentes-chat/agentes-chat",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 491,
+   "stars": 499,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -42,20 +42,40 @@
   },
   {
    "kind": "repo",
-   "title": "huawei-csl/MACaQ",
-   "stars": 235,
-   "note": "C++ · new this week",
-   "url": "https://github.com/huawei-csl/MACaQ",
+   "title": "BasinGradeJudge/ai--manus",
+   "stars": 266,
+   "note": " · new this week",
+   "url": "https://github.com/BasinGradeJudge/ai--manus",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "bookleme/bookleme",
-   "stars": 220,
-   "note": "Python · new this week",
-   "url": "https://github.com/bookleme/bookleme",
+   "title": "avalanchegnatbeat95/ai--manus",
+   "stars": 266,
+   "note": " · new this week",
+   "url": "https://github.com/avalanchegnatbeat95/ai--manus",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "Cloudryospeed/ai--manus",
+   "stars": 266,
+   "note": " · new this week",
+   "url": "https://github.com/Cloudryospeed/ai--manus",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "AdmiralEmporium/ai--manus",
+   "stars": 266,
+   "note": " · new this week",
+   "url": "https://github.com/AdmiralEmporium/ai--manus",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -63,7 +83,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 7363,
+   "stars": 7468,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -73,7 +93,7 @@
   {
    "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2883,
+   "stars": 2913,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -83,7 +103,7 @@
   {
    "kind": "repo",
    "title": "Kianuni/Erosion-CN",
-   "stars": 1945,
+   "stars": 1992,
    "note": "Swift · new this week",
    "url": "https://github.com/Kianuni/Erosion-CN",
    "source": "GitHub",
@@ -93,7 +113,7 @@
   {
    "kind": "repo",
    "title": "apex-compute/ANR",
-   "stars": 1517,
+   "stars": 1618,
    "note": "C++ · new this week",
    "url": "https://github.com/apex-compute/ANR",
    "source": "GitHub",
@@ -103,7 +123,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 220,
+   "points": 605,
+   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+   "source": "Hacker News",
+   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "discuss": "https://news.ycombinator.com/item?id=50493251"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 302,
+   "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+   "source": "Hacker News",
+   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+   "discuss": "https://news.ycombinator.com/item?id=50484658"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 263,
    "title": "After 600 experiments, here's what I discovered about JEPA world models",
    "source": "Hacker News",
    "url": "https://haddyalchaer.com/jepa",
@@ -112,29 +150,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 55,
-   "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
+   "points": 36,
+   "title": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
    "source": "Hacker News",
-   "url": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
-   "discuss": "https://news.ycombinator.com/item?id=50492141"
+   "url": "https://github.com/0xdeadf1sh/T1DMAI",
+   "discuss": "https://news.ycombinator.com/item?id=50444761"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 22,
-   "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+   "points": 32,
+   "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
    "source": "Hacker News",
-   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-   "discuss": "https://news.ycombinator.com/item?id=50493251"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 0,
-   "title": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
-   "source": "Hacker News",
-   "url": "https://atg.science/careers",
-   "discuss": "https://news.ycombinator.com/item?id=50489589"
+   "url": "https://news.ycombinator.com/item?id=50494696",
+   "discuss": "https://news.ycombinator.com/item?id=50494696"
   },
   {
    "kind": "news",

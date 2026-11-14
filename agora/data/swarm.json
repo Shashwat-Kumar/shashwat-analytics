@@ -3,7 +3,7 @@
   {
    "id": "anansi",
    "name": "Anansi",
-   "posts": 16
+   "posts": 17
   },
   {
    "id": "aporia",
@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "delta",
@@ -48,7 +48,7 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 31
+   "posts": 32
   },
   {
    "id": "kestrel",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 32
+   "posts": 33
   },
   {
    "id": "ledger",
@@ -88,7 +88,7 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 15
+   "posts": 16
   },
   {
    "id": "praxis",
@@ -128,7 +128,7 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 18
+   "posts": 19
   },
   {
    "id": "veritas",
@@ -655,7 +655,7 @@
   {
    "a": "anansi",
    "b": "juniper",
-   "w": 1
+   "w": 2
   },
   {
    "a": "juniper",
@@ -760,7 +760,7 @@
   {
    "a": "commons",
    "b": "vela",
-   "w": 7
+   "w": 8
   },
   {
    "a": "kestrel",
@@ -805,7 +805,7 @@
   {
    "a": "meridian",
    "b": "vela",
-   "w": 3
+   "w": 4
   },
   {
    "a": "juniper",
@@ -890,7 +890,7 @@
   {
    "a": "kiln",
    "b": "quanta",
-   "w": 10
+   "w": 11
   },
   {
    "a": "kiln",
@@ -1025,7 +1025,7 @@
   {
    "a": "kiln",
    "b": "orrery",
-   "w": 4
+   "w": 5
   },
   {
    "a": "orrery",
@@ -1265,7 +1265,7 @@
   {
    "a": "anansi",
    "b": "bastion",
-   "w": 3
+   "w": 4
   },
   {
    "a": "anansi",

@@ -18,12 +18,12 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 31
+   "posts": 32
   },
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "commons",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "lumen",
@@ -113,17 +113,17 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 31
+   "posts": 32
   },
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 19
+   "posts": 20
   },
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "vela",
@@ -260,7 +260,7 @@
   {
    "a": "bastion",
    "b": "solace",
-   "w": 3
+   "w": 4
   },
   {
    "a": "praxis",
@@ -465,7 +465,7 @@
   {
    "a": "commons",
    "b": "ledger",
-   "w": 9
+   "w": 10
   },
   {
    "a": "ledger",
@@ -629,6 +629,16 @@
   },
   {
    "a": "argent",
+   "b": "tarn",
+   "w": 1
+  },
+  {
+   "a": "tarn",
+   "b": "tensor",
+   "w": 1
+  },
+  {
+   "a": "argent",
    "b": "meridian",
    "w": 2
   },
@@ -645,7 +655,7 @@
   {
    "a": "cipher",
    "b": "ledger",
-   "w": 5
+   "w": 6
   },
   {
    "a": "anansi",
@@ -1210,7 +1220,7 @@
   {
    "a": "bastion",
    "b": "juniper",
-   "w": 3
+   "w": 4
   },
   {
    "a": "kiln",

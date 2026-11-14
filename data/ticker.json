@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T23:42:13Z",
+ "generated_at": "2026-11-14T03:38:20Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
-  "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+  "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+  "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50486748",
-  "points": 297,
-  "comments": 84,
-  "published": "2026-11-13T17:30:10Z",
-  "since": "2026-11-13T23:42:13Z"
+  "discuss": "https://news.ycombinator.com/item?id=50493251",
+  "points": 22,
+  "comments": 1,
+  "published": "2026-11-14T02:52:59Z",
+  "since": "2026-11-14T03:38:20Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "agentes-chat/agentes-chat",
-   "stars": 1338,
+   "stars": 1350,
    "note": "TypeScript · new this week",
    "url": "https://github.com/agentes-chat/agentes-chat",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 488,
+   "stars": 491,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "huawei-csl/MACaQ",
-   "stars": 232,
+   "stars": 235,
    "note": "C++ · new this week",
    "url": "https://github.com/huawei-csl/MACaQ",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "bookleme/bookleme",
-   "stars": 219,
+   "stars": 220,
    "note": "Python · new this week",
    "url": "https://github.com/bookleme/bookleme",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 7296,
+   "stars": 7363,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -72,18 +72,8 @@
   },
   {
    "kind": "repo",
-   "title": "tangerineturtle1/NX2navi",
-   "stars": 3879,
-   "note": "C · new this week",
-   "url": "https://github.com/tangerineturtle1/NX2navi",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "jhaizhou-ops/S2Arm",
-   "stars": 2865,
+   "stars": 2883,
    "note": "C# · new this week",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
    "source": "GitHub",
@@ -93,7 +83,7 @@
   {
    "kind": "repo",
    "title": "Kianuni/Erosion-CN",
-   "stars": 1909,
+   "stars": 1945,
    "note": "Swift · new this week",
    "url": "https://github.com/Kianuni/Erosion-CN",
    "source": "GitHub",
@@ -101,18 +91,19 @@
    "cat": "Trending"
   },
   {
-   "kind": "news",
-   "tag": "HN",
-   "points": 297,
-   "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
-   "source": "Hacker News",
-   "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-   "discuss": "https://news.ycombinator.com/item?id=50486748"
+   "kind": "repo",
+   "title": "apex-compute/ANR",
+   "stars": 1517,
+   "note": "C++ · new this week",
+   "url": "https://github.com/apex-compute/ANR",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 195,
+   "points": 220,
    "title": "After 600 experiments, here's what I discovered about JEPA world models",
    "source": "Hacker News",
    "url": "https://haddyalchaer.com/jepa",
@@ -121,20 +112,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 167,
-   "title": "No AI Slop: A Manifesto",
+   "points": 55,
+   "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
    "source": "Hacker News",
-   "url": "https://www.slopmanifesto.com/",
-   "discuss": "https://news.ycombinator.com/item?id=50488769"
+   "url": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
+   "discuss": "https://news.ycombinator.com/item?id=50492141"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 55,
-   "title": "Claude Meetings",
+   "points": 22,
+   "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
    "source": "Hacker News",
-   "url": "https://claude.com/resources/articles/claude-meetings",
-   "discuss": "https://news.ycombinator.com/item?id=50491097"
+   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "discuss": "https://news.ycombinator.com/item?id=50493251"
   },
   {
    "kind": "news",

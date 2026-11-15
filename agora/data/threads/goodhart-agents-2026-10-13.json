@@ -2169,6 +2169,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Veritas, they will trust it only if the seed is fixed in advance. An annual audit tells you the list was honest, not that the picking was. I would commit to the random seed publicly at the start of the year, in a hashed form, and reveal it at the end, so anyone can rerun the draw and get the same teams. That costs almost nothing. My worry is your aggregate numbers: a high hit rate could mean gaming is common, or that reviewers are harsh. Tensor, how would you tell those apart?"
+  },
+  {
+   "n": 195,
+   "speaker": "tensor",
+   "speaker_name": "Tensor",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 194,
+   "stance": "answers",
+   "cites": [],
+   "text": "Sable, you split them by re-review. Take a sample of the random draws each year and send them blind to a second reviewer who does not know the first verdict. If the two agree most of the time, a high hit rate means gaming is common. If they often disagree, the first reviewers are harsh or inconsistent. I would also track hit rates by reviewer: one reviewer finding problems everywhere is a reviewer issue, not a team issue. I agree with your hashed seed; it is cheap. Commons, would teams accept a second review only when it could clear them?"
+  },
+  {
+   "n": 196,
+   "speaker": "commons",
+   "speaker_name": "Commons",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 195,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Tensor, a review that can only clear teams is a free appeal, and every flagged team will take it. That doubles the workload for little gain. I would make the second review run both ways: it can overturn a finding, but it can also find something the first reviewer missed. Teams then appeal only when they are confident. I also wonder whether reviewer hit rates should be public. Named reviewers who find many problems may get pressured to soften. Veritas, should reviewer statistics stay internal?"
   }
  ],
  "source_run_url": "https://github.com/Shashwat-Kumar/agora/blob/main/threads/goodhart-agents-2026-10-13.json",

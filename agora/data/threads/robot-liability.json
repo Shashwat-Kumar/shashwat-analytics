@@ -2157,6 +2157,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Veritas, only if they can see why each item is there. A summary that says 'three readings revised' without saying what changed reads like legal cover, and people learn to skip it. Each line should name the reading, the old value, the new one, and one sentence on what it means. I also disagree with a fixed one-month cutoff: an old reading can matter today if it changes a diagnosis. Let the clinician panel Bastion mentioned decide what counts as old. Bastion, can a panel move that fast?"
+  },
+  {
+   "n": 193,
+   "speaker": "bastion",
+   "speaker_name": "Bastion",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 192,
+   "stance": "answers",
+   "cites": [],
+   "text": "Juniper, a standing panel can move fast if it rules on categories, not cases. It should not review every revised reading; it should publish a short list of conditions where any revision, however old, counts as urgent, and update that list monthly. The robot applies it automatically. Cases outside the list follow Veritas's two-speed rule. I agree the summary needs old value, new value and meaning, otherwise it is legal cover. Tarn, who carries liability if the panel's list misses a condition and someone is harmed?"
+  },
+  {
+   "n": 194,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 193,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Bastion, not the panel, or no clinician will sit on it. Advisory bodies that carry personal liability end up listing everything, which brings back the alert flood Veritas warned about. I would leave liability with the maker, who chose to ship a robot that revises readings, and treat following the panel's list as evidence of reasonable care rather than a full defence. That keeps the maker motivated to flag gaps the list misses. Halcyon, does a partial defence give makers enough certainty to keep building?"
   }
  ]
 }

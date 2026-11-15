@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T01:16:38Z",
+ "generated_at": "2026-11-15T07:56:14Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "agentes-chat/agentes-chat",
-   "stars": 1404,
+   "stars": 1425,
    "note": "TypeScript · new this week",
    "url": "https://github.com/agentes-chat/agentes-chat",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "Topkiflare74/ai--manus2.0",
-   "stars": 677,
+   "stars": 678,
    "note": " · new this week",
    "url": "https://github.com/Topkiflare74/ai--manus2.0",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 7570,
+   "stars": 7640,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "Kianuni/Erosion-CN",
-   "stars": 2058,
+   "stars": 2088,
    "note": "Swift · new this week",
    "url": "https://github.com/Kianuni/Erosion-CN",
    "source": "GitHub",
@@ -102,18 +102,8 @@
   },
   {
    "kind": "repo",
-   "title": "apex-compute/ANR",
-   "stars": 1842,
-   "note": "C++ · new this week",
-   "url": "https://github.com/apex-compute/ANR",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "deepseek-ai/chat-demo",
-   "stars": 1759,
+   "stars": 1918,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/chat-demo",
    "source": "GitHub",
@@ -121,27 +111,19 @@
    "cat": "Trending"
   },
   {
-   "kind": "news",
-   "tag": "HN",
-   "points": 457,
-   "title": "Tech companies are trying to shift the concept of privacy again",
-   "source": "Hacker News",
-   "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
-   "discuss": "https://news.ycombinator.com/item?id=50496602"
+   "kind": "repo",
+   "title": "apex-compute/ANR",
+   "stars": 1898,
+   "note": "C++ · new this week",
+   "url": "https://github.com/apex-compute/ANR",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 328,
-   "title": "Italy fines Meta $887M over Android users' data access",
-   "source": "Hacker News",
-   "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
-   "discuss": "https://news.ycombinator.com/item?id=50497009"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 175,
+   "points": 202,
    "title": "Generative AI uses more energy on non-English text",
    "source": "Hacker News",
    "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T15:36:24Z",
+ "generated_at": "2026-11-15T20:33:43Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50507303",
-  "points": 58,
-  "comments": 29,
+  "points": 908,
+  "comments": 485,
   "published": "2026-11-15T14:46:58Z",
   "since": "2026-11-15T15:36:24Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "agentes-chat/agentes-chat",
-   "stars": 1474,
+   "stars": 1488,
    "note": "TypeScript · new this week",
    "url": "https://github.com/agentes-chat/agentes-chat",
    "source": "GitHub",
@@ -32,18 +32,8 @@
   },
   {
    "kind": "repo",
-   "title": "Topkiflare74/ai--manus2.0",
-   "stars": 678,
-   "note": " · new this week",
-   "url": "https://github.com/Topkiflare74/ai--manus2.0",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "Dodaios/ste80-humanizer",
-   "stars": 668,
+   "stars": 686,
    "note": "Python · new this week",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "source": "GitHub",
@@ -52,30 +42,40 @@
   },
   {
    "kind": "repo",
-   "title": "topapothecarycanal/ai--manus2.0",
-   "stars": 666,
+   "title": "hitkeeen/blender-ai-mcp-addon",
+   "stars": 658,
    "note": " · new this week",
-   "url": "https://github.com/topapothecarycanal/ai--manus2.0",
+   "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "toppatronweave/ai--manus2.0",
-   "stars": 665,
-   "note": " · new this week",
-   "url": "https://github.com/toppatronweave/ai--manus2.0",
+   "title": "WindGatorRise37/Gemini-Config-Checker-",
+   "stars": 475,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "topconstableinlet67/ai--manus2.0",
-   "stars": 663,
-   "note": " · new this week",
-   "url": "https://github.com/topconstableinlet67/ai--manus2.0",
+   "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+   "stars": 475,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "WinnerSpecialist/Gemini-Config-Checker-",
+   "stars": 475,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "Xin-YuXiao/Awesome-AI-for-Astronomy",
-   "stars": 202,
+   "stars": 242,
    "note": "Python · new this week",
    "url": "https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "huamidev/GestaltX",
-   "stars": 7706,
+   "stars": 7728,
    "note": "Swift · new this week",
    "url": "https://github.com/huamidev/GestaltX",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/chat-demo",
-   "stars": 2476,
+   "stars": 2819,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/chat-demo",
    "source": "GitHub",
@@ -112,10 +112,10 @@
   },
   {
    "kind": "repo",
-   "title": "Kianuni/Erosion-CN",
-   "stars": 2114,
-   "note": "Swift · new this week",
-   "url": "https://github.com/Kianuni/Erosion-CN",
+   "title": "DevedevT/FFmpeg-GUI-Editor-Windows",
+   "stars": 2340,
+   "note": "Visual Basic .NET · new this week",
+   "url": "https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -123,7 +123,7 @@
   {
    "kind": "repo",
    "title": "apex-compute/ANR",
-   "stars": 1978,
+   "stars": 2132,
    "note": "C++ · new this week",
    "url": "https://github.com/apex-compute/ANR",
    "source": "GitHub",
@@ -133,16 +133,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 73,
-   "title": "Understanding Positional Embeddings in Modern LLMs",
-   "source": "Hacker News",
-   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-   "discuss": "https://news.ycombinator.com/item?id=50506376"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 58,
+   "points": 908,
    "title": "All AI-generated code should be Open Source",
    "source": "Hacker News",
    "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
@@ -151,11 +142,45 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 47,
+   "points": 200,
+   "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+   "source": "Hacker News",
+   "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+   "discuss": "https://news.ycombinator.com/item?id=50463399"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 160,
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "source": "Hacker News",
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "discuss": "https://news.ycombinator.com/item?id=50506376"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 92,
    "title": "What thousands of conversations look like inside a language model",
    "source": "Hacker News",
    "url": "https://operator0x.com/field-notes/qwen-conversation-state-space/",
    "discuss": "https://news.ycombinator.com/item?id=50481321"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 25,
+   "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+   "source": "Hacker News",
+   "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+   "discuss": "https://news.ycombinator.com/item?id=50509953"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/"
   },
   {
    "kind": "news",
@@ -177,13 +202,6 @@
    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
   },
   {
    "kind": "news",

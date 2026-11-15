@@ -129,7 +129,8 @@ body.in-mission .hero,body.in-mission .manifest{display:none}
 @media(max-width:760px){.telemetry{grid-template-columns:repeat(2,minmax(0,1fr))}.telemetry div:last-child{grid-column:span 2}}
 .deck{display:grid;grid-template-columns:minmax(300px,.82fr) minmax(0,1.6fr);gap:16px;align-items:start}
 @media(min-width:901px){.deck .left{position:sticky;top:12px}}
-@media(max-width:900px){.deck{grid-template-columns:1fr}}
+.deck>*{min-width:0}
+@media(max-width:900px){.deck{grid-template-columns:minmax(0,1fr)}}
 .crewbox{background:radial-gradient(circle at 50% 42%,rgba(255,178,63,.08),transparent 62%),var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
 #crew{display:block;width:100%;height:380px}
 @media(max-width:900px){#crew{height:290px}}
@@ -280,6 +281,7 @@ table.sens{border-collapse:separate;border-spacing:4px;width:100%;font-family:va
 table.sens th{color:var(--muted);font-weight:500;padding:4px;text-align:center}
 table.sens td{background:var(--panel-2);border:1px solid var(--line);border-radius:6px;padding:9px 6px;text-align:center}
 table.sens td.neg{color:var(--hot)}
+@media(max-width:600px){table.sens{font-size:11px;border-spacing:3px}table.sens td{padding:8px 3px;white-space:nowrap}table.sens th{font-size:10.5px}}
 table.sens td.mid{border-color:var(--amber);color:var(--amber);background:rgba(255,178,63,.08)}
 .callout{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:14px;display:grid;gap:8px;align-content:start}
 .callout p{margin:0;color:var(--soft);font-size:14px;line-height:1.5}

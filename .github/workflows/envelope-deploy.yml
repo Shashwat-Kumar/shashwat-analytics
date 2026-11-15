@@ -62,13 +62,13 @@ jobs:
 
       - name: Set function secrets
         run: |
-          supabase secrets set --project-ref "$PROJECT_REF" \
+          supabase secrets set --project-ref "$PROJECT_REF" \--yes
             ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY" \
             ENVELOPE_PER_IP_DAILY="$PER_IP_DAILY" \
             ENVELOPE_GLOBAL_DAILY="$GLOBAL_DAILY"
 
       - name: Deploy function
-        run: supabase functions deploy envelope --project-ref "$PROJECT_REF" --no-verify-jwt
+        run: supabase functions deploy envelope -- yes--project-ref "$PROJECT_REF" --no-verify-jwt
 
       - name: Check the endpoint is live
         run: |

@@ -86,6 +86,7 @@ textarea#idea::placeholder{color:#5D6B7B}
 .btn-ghost{background:transparent;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;color:var(--text);transition:border-color .2s,color .2s}
 .btn-ghost:hover{border-color:var(--amber);color:var(--amber)}
 .btn-ghost.small{padding:6px 12px;font-size:12.5px}
+.btn-ghost:disabled{opacity:.4;cursor:not-allowed;border-color:var(--line);color:var(--muted)}
 .btn-ghost[aria-pressed="true"]{border-color:rgba(255,178,63,.5);color:var(--amber)}
 #mic.listening{border-color:var(--hot);color:var(--hot)}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
@@ -361,6 +362,7 @@ table.sens td.mid{border-color:var(--amber);color:var(--amber);background:rgba(2
       <h2 id="mTitle"></h2>
     </div>
     <div class="mactions">
+      <button class="btn-ghost small" id="dlPlan" type="button" disabled>Download plan</button>
       <button class="btn-ghost small" id="abort" type="button">Abort</button>
       <button class="btn-ghost small" id="newMission" type="button">New mission</button>
     </div>
@@ -916,6 +918,7 @@ $("#follow").addEventListener("click", () => { setFollow(!S.follow); if (S.follo
 function setStatus(id, status) {
   const a = S.agents[id]; a.status = status;
   const p = P[id]; p.dot.className = "dot " + status; p.pill.className = "pill " + status;
+  $("#dlPlan").disabled = !AGENTS.some(a => S.agents[a.id].status === "done");
   p.pill.textContent = status === "active" ? "Working · " + clock(performance.now() - a.t0) : status === "done" ? "Done in " + ((a.t1 - a.t0) / 1000).toFixed(0) + " s" : status === "failed" ? "Failed" : status === "aborted" ? "Aborted" : "Standing by";
 }
 
@@ -1069,7 +1072,9 @@ function renderSite(html) {
   [bD, bP, bC].forEach(b => { b.type = "button"; seg.append(b); });
   const right = el("div"); right.style.display = "flex"; right.style.gap = "8px";
   const copy = el("button", "btn-ghost small", "Copy HTML"); copy.type = "button"; copy.addEventListener("click", () => copyText(html, "Website HTML copied"));
-  right.append(el("span", "label", countLines(html) + " lines, written live"), copy); right.style.alignItems = "center"; right.style.flexWrap = "wrap";
+  const dlSite = el("button", "btn-ghost small", "Download HTML"); dlSite.type = "button";
+  dlSite.addEventListener("click", () => saveFile(slugName() + "-website.html", html, "text/html"));
+  right.append(el("span", "label", countLines(html) + " lines, written live"), copy, dlSite); right.style.alignItems = "center"; right.style.flexWrap = "wrap";
   tools.append(seg, right);
   const frame = el("div", "frame reveal"), bar = el("div", "bar");
   bar.append(el("i"), el("i"), el("i"), el("div", "addr", "https://" + ((S.brand || "launch").toLowerCase().replace(/[^a-z0-9]/g, "") || "launch") + ".com"));
@@ -1180,6 +1185,7 @@ function renderCapital(m) {
   const stageName = { "pre-seed": "Pre-seed", "seed": "Seed", "series-a": "Series A", "growth": "Growth / PE" };
   const TARGET = { "pre-seed": 60, "seed": 50, "series-a": 40 };
   const p = { w: pctN(m.wacc, 22), g: pctN(m.terminal_growth, 5), mT: pctN(m.ebitda_margin_terminal, 20), mult: pctN(m.exit_multiple, 4) };
+  S.capP = p;
   const stage = String(m.stage || "seed").toLowerCase(), ask = pctN(m.ask, NaN), target = TARGET[stage] || 50;
 
   frag.append(el("p", "l-head", `Raise a ${stageName[stage] || "Seed"} round of ${money(ask)}. Here is what the company is worth, and how sensitive that number is.`));
@@ -1367,9 +1373,11 @@ function showDebrief() {
   [`${AGENTS.length} / ${AGENTS.length} artefacts`, S.valuation ? "DCF " + S.valuation : "", `${nf(totalWords())} words`, `${nf(codeLines())} lines of working code`, `≈ ${TOTAL_HOURS} h of team work, est.`].filter(Boolean).forEach(s => stats.append(el("span", null, s)));
   mid.append(stats);
   const b1 = el("button", "btn-ghost small", "See the website"); b1.type = "button"; b1.addEventListener("click", () => { setFollow(false); setTab("canvas"); P.canvas.root.scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "start" }); });
-  const b2 = el("button", "btn-ghost small", "Copy the brief"); b2.type = "button"; b2.addEventListener("click", () => copyText(briefText(), "Brief copied"));
+  const b2 = el("button", "btn-ghost small", "Download the plan"); b2.type = "button"; b2.addEventListener("click", downloadPlan);
+  const b2b = el("button", "btn-ghost small", "Save as PDF"); b2b.type = "button"; b2b.addEventListener("click", printPlan);
+  if (!SITE_MODE) b2b.hidden = true;
   const b3 = el("button", "btn-launch", "Launch another"); b3.type = "button"; b3.style.fontSize = "18px"; b3.style.padding = "9px 16px"; b3.addEventListener("click", newMission);
-  acts.append(b1, b2, b3);
+  acts.append(b2, b2b, b1, b3);
   box.append(el("div", "db-time", clock(S.end - S.start)), mid, acts);
   box.hidden = false;
 }
@@ -1411,6 +1419,179 @@ function newMission() {
   window.scrollTo(0, 0); ideaBox.value = ""; updateCount(); ideaBox.focus();
 }
 $("#newMission").addEventListener("click", newMission);
+
+/* ---------- download the plan ---------- */
+const SITE_MODE = (typeof ON_SITE !== "undefined") && ON_SITE;
+const TARGET_RETURN = { "pre-seed": 60, "seed": 50, "series-a": 40 };
+let dlCap = null;
+claudeReady.then(c => { if (c) c.use("downloads").then(d => { dlCap = d; }).catch(() => {}); });
+const esc = v => String(v == null ? "" : v).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+function slugName() { return (S.brand || "company").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "company"; }
+async function saveFile(filename, text, mime) {
+  if (dlCap) {
+    try { await dlCap.save({ filename, data: text }); return true; } catch (e) { toast("The download was cancelled."); return false; }
+  }
+  try {
+    const url = URL.createObjectURL(new Blob([text], { type: mime + ";charset=utf-8" }));
+    const a = document.createElement("a"); a.href = url; a.download = filename; document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 5000);
+    toast("Downloaded " + filename); return true;
+  } catch (e) { toast("This browser blocked the download."); return false; }
+}
+function downloadPlan() { saveFile(slugName() + "-plan.html", buildReport(), "text/html"); }
+function printPlan() {
+  const url = URL.createObjectURL(new Blob([buildReport()], { type: "text/html;charset=utf-8" }));
+  const w = window.open(url + "#print", "_blank");
+  if (!w) toast("Your browser blocked the new tab. Use Download the plan, then Save as PDF inside it.");
+}
+$("#dlPlan").addEventListener("click", downloadPlan);
+
+function buildReport() {
+  const A = S.agents, done = id => A[id].status === "done";
+  const L = done("ledger") ? A.ledger.result : null, C = done("capital") ? A.capital.result : null;
+  const cur = (L && L.currency) || "", unit = (L && L.unit) || "";
+  const loc = cur === "₹" ? "en-IN" : "en-US";
+  const num = (v, d) => (typeof v === "number" && isFinite(v)) ? new Intl.NumberFormat(loc, { maximumFractionDigits: d == null ? (Math.abs(v) < 10 ? 1 : 0) : d }).format(v) : "—";
+  const money = v => (typeof v === "number" && isFinite(v)) ? (v < 0 ? "−" : "") + cur + num(Math.abs(v)) + (unit ? " " + unit : "") : "—";
+  const unitMoney = v => (typeof v === "number" && isFinite(v)) ? cur + num(v) : "—";
+  const tbl = (head, rows, numCols) => '<div class="tw"><table><thead><tr>' + head.map((h, i) => `<th${i && numCols ? ' class="n"' : ""}>${esc(h)}</th>`).join("") + "</tr></thead><tbody>" +
+    rows.map(r => "<tr>" + r.map((c, i) => `<td${i && numCols ? ' class="n"' : ""}>${esc(c)}</td>`).join("") + "</tr>").join("") + "</tbody></table></div>";
+  const kv = rows => '<dl class="kv">' + rows.filter(r => r[1] != null && r[1] !== "").map(r => `<dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd>`).join("") + "</dl>";
+  const ul = items => "<ul>" + items.filter(Boolean).map(x => `<li>${esc(x)}</li>`).join("") + "</ul>";
+  const sec = (n, title, body) => `<section><h2><span>${n}</span>${esc(title)}</h2>${body}</section>`;
+  let n = 0, body = "";
+  const next = () => String(++n).padStart(2, "0");
+
+  const f = done("vector") ? parseLabelled(A.vector.text, VLABELS) : {};
+  if (done("vector")) body += sec(next(), "The company",
+    kv([["Customer", f.CUSTOMER], ["Problem", f.PROBLEM], ["Solution", f.SOLUTION], ["Business model", f.MODEL], ["Why now", f["WHY NOW"]], ["Moat", f.MOAT]]) +
+    "<h3>First 90 days</h3>" + ul(String(f["FIRST 90 DAYS"] || "").split(/;\s*/)));
+
+  if (L) {
+    const yrs = L.years || ["Y1", "Y2", "Y3", "Y4", "Y5"];
+    const ratio = L.ltv && L.cac ? (L.ltv / L.cac).toFixed(1) + "×" : "—";
+    body += sec(next(), "Market and economics",
+      (L.headline ? `<p class="lead">${esc(L.headline)}</p>` : "") +
+      tbl(["Market", "Size", "How it was sized"], [["TAM", money(L.tam && L.tam.value), L.tam && L.tam.note], ["SAM", money(L.sam && L.sam.value), L.sam && L.sam.note], ["SOM", money(L.som && L.som.value), L.som && L.som.note]]) +
+      "<h3>Five-year plan</h3>" + tbl(["", ...yrs], [[`Revenue (${cur} ${unit})`, ...(L.revenue || []).map(v => num(Number(v)))], ["Paying customers", ...(L.customers || []).map(v => num(Number(v), 0))]], true) +
+      "<h3>Unit economics</h3>" + kv([["CAC", unitMoney(L.cac)], ["ARPU per month", unitMoney(L.arpu_monthly)], ["Gross margin", L.gross_margin_pct != null ? num(L.gross_margin_pct, 1) + "%" : ""], ["LTV", unitMoney(L.ltv)], ["LTV : CAC", ratio], ["Payback", L.payback_months != null ? num(L.payback_months, 1) + " months" : ""]]) +
+      (Array.isArray(L.assumptions) ? "<h3>What drives the model</h3>" + ul(L.assumptions) : ""));
+  }
+
+  if (L && C) {
+    const p = S.capP || { w: pctN(C.wacc, 22), g: pctN(C.terminal_growth, 5), mT: pctN(C.ebitda_margin_terminal, 20), mult: pctN(C.exit_multiple, 4) };
+    const r = dcfModel(L, C, p), stage = String(C.stage || "seed").toLowerCase(), target = TARGET_RETURN[stage] || 50;
+    const rev5 = Number((L.revenue || [])[4]) || 0, post = rev5 * p.mult / Math.pow(1 + target / 100, 5), ask = pctN(C.ask, NaN);
+    const ws = [p.w - 2, p.w, p.w + 2].map(v => Math.max(1, v)), gs = [p.g - 1, p.g, p.g + 1].map(v => Math.max(0, v));
+    const share = r.ev > 0 ? Math.round(r.pvTV / r.ev * 100) + "% of the DCF value comes from the terminal value beyond year 10." : "At these settings the DCF value is negative.";
+    body += sec(next(), "Valuation and the raise",
+      kv([["Round to raise now", ({ "pre-seed": "Pre-seed", seed: "Seed", "series-a": "Series A" })[stage] || stage], ["Amount", money(ask)], ["DCF enterprise value", money(r.ev)], ["VC-method post-money", money(post)], ["Dilution on this raise", isFinite(ask / post) && post > 0 ? num(ask / post * 100, 1) + "%" : "—"],
+          ["Assumptions used", `WACC ${p.w}%, terminal growth ${p.g}%, mature EBITDA margin ${p.mT}%, exit multiple ${p.mult}× Y5 revenue, target return ${target}%`]]) +
+      `<p class="note">${esc(share)} Treat the value as a range, not a price. ${esc(C.wacc_note ? "Discount rate: " + C.wacc_note + "." : "")} ${esc(C.multiple_note ? "Exit multiple: " + C.multiple_note + "." : "")}</p>` +
+      "<h3>Ten-year free cash flow</h3>" + tbl([`${cur} ${unit}`, ...r.rows.map(x => "Y" + x.t)], [
+        ["Revenue", ...r.rows.map(x => num(x.r))], ["EBITDA margin", ...r.rows.map(x => num(x.margin * 100, 0) + "%")],
+        ["Free cash flow", ...r.rows.map(x => num(x.fcf))], ["PV of FCF", ...r.rows.map(x => num(x.pv))]], true) +
+      "<h3>DCF sensitivity</h3>" + tbl(["WACC \\ terminal growth", ...gs.map(g => g + "%")], ws.map(w => [w + "%", ...gs.map(g => money(dcfModel(L, C, { ...p, w, g }).ev))]), true) +
+      (Array.isArray(C.must_believe) ? "<h3>What you must believe</h3>" + ul(C.must_believe) : "") +
+      (Array.isArray(C.use_of_funds) ? "<h3>Use of funds</h3>" + ul(C.use_of_funds) : ""));
+    const mi = matchInvestors(C);
+    const row = x => [x.f.n, x.f.st.join(", "), x.ov.length ? x.ov.join(", ") : (x.f.s.includes("all") ? "Sector-agnostic" : "Stage fit"), x.f.note, x.f.url || ""];
+    body += sec(next(), "Investors to approach",
+      "<h3>Now</h3>" + tbl(["Firm", "Stages", "Why matched", "Note", "Website"], mi.early.map(row)) +
+      "<h3>Later rounds</h3>" + tbl(["Firm", "Stages", "Why matched", "Note", "Website"], mi.growth.map(row)) +
+      '<p class="note">Matched from a list compiled from public reports (November 2026), not generated by AI. A match is not an endorsement or an introduction; check each firm\'s current focus before reaching out.</p>');
+  }
+
+  if (done("forge")) {
+    const { spec, code } = A.forge.result;
+    body += sec(next(), "Product: " + (spec.title || "calculator"),
+      (spec.description ? `<p class="lead">${esc(spec.description)}</p>` : "") +
+      tbl(["Input", "Range", "Default"], spec.inputs.map(i => [i.label || i.id, `${i.min} to ${i.max}${i.unit ? " " + i.unit : ""}`, String(i.value)])) +
+      tbl(["Output", "Format"], spec.outputs.map(o => [o.label || o.id, o.format || ""])) +
+      "<h3>Calculator code</h3><pre>" + esc(code) + "</pre>");
+  }
+
+  if (done("signal")) {
+    const g = parseLabelled(A.signal.text, SLABELS);
+    body += sec(next(), "Launch campaign", `<p class="line">${esc(g.LINE)}</p>` +
+      kv([["LinkedIn", g.LINKEDIN], ["WhatsApp", g.WHATSAPP], ["Instagram", g.INSTAGRAM], ["45-second pitch", g.PITCH]]));
+  }
+
+  if (done("breaker")) {
+    const rows = [], vm = String(A.breaker.text).match(/^\s*VERDICT\s*:\s*(.*)$/im);
+    String(A.breaker.text).split(/\r?\n/).forEach(line => { const m = line.match(/^\s*RISK\s*:\s*(.*)$/i); if (m) { const q = m[1].split("|").map(x => x.trim()); rows.push([q[0] || "", q[1] || "", q[2] || "", q.slice(3).join(" | ")]); } });
+    body += sec(next(), "Red team", tbl(["Severity", "Risk", "Why it kills the business", "30-day test"], rows) + (vm ? `<p class="verdict"><b>Verdict.</b> ${esc(vm[1])}</p>` : ""));
+  }
+
+  if (done("canvas")) {
+    body += sec(next(), "Website", '<p class="noprint">A live preview of the website the crew coded. The full HTML is saved separately with "Download HTML" on the CANVAS tab.</p>' +
+      `<iframe class="noprint" sandbox="allow-scripts" title="Website preview" srcdoc="${esc(A.canvas.result)}"></iframe><p class="printonly">The website is not included in print. Open this file in a browser to see the live preview.</p>`);
+  }
+
+  const name = S.brand || "Company plan";
+  const date = new Date().toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" });
+  return `<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(name)}: company plan</title>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0A0E13;--paper:#F7F4ED;--text:#151B22;--muted:#5E6A77;--rule:#DCD4C3;--amber:#C9821B;--amber-hi:#FFB23F}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--text);font:15px/1.55 "Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+.bar{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 20px;background:var(--ink);color:#C3CDD7;font:12px/1.4 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.06em}
+.bar button{background:var(--amber-hi);color:#1A1204;border:0;border-radius:8px;padding:8px 14px;font:600 13px system-ui,sans-serif;cursor:pointer}
+.cover{background:var(--ink);color:#E9EEF3;padding:56px 7vw 44px}
+.cover .eb{font:12px/1.4 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-hi)}
+.cover h1{font:900 clamp(44px,8vw,84px)/.9 "Big Shoulders Display","Arial Narrow",Impact,sans-serif;text-transform:uppercase;margin:14px 0 10px}
+.cover .tag{font-size:21px;color:var(--amber-hi);margin:0 0 18px}
+.cover .meta{color:#AEB9C5;font-size:14px;max-width:70ch}
+main{max-width:900px;margin:0 auto;padding:10px 24px 60px}
+section{margin-top:38px}
+h2{font:800 30px/1.05 "Big Shoulders Display","Arial Narrow",Impact,sans-serif;text-transform:uppercase;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid var(--text);display:flex;gap:14px;align-items:baseline;break-after:avoid}
+h2 span{font:600 13px ui-monospace,Menlo,monospace;color:var(--amber)}
+h3{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:22px 0 8px;break-after:avoid}
+p.lead{font-size:18px;margin:0 0 14px}
+p.line{font:900 34px/1 "Big Shoulders Display","Arial Narrow",Impact,sans-serif;text-transform:uppercase;color:var(--amber);margin:4px 0 16px}
+p.note{color:var(--muted);font-size:13px}
+p.verdict{border-left:3px solid var(--amber);padding:8px 12px;background:#FFF;margin-top:14px}
+dl.kv{display:grid;grid-template-columns:minmax(120px,190px) 1fr;gap:0;margin:0;border-top:1px solid var(--rule)}
+dl.kv dt,dl.kv dd{margin:0;padding:8px 0;border-bottom:1px solid var(--rule)}
+dl.kv dt{font-weight:600;padding-right:14px}
+dl.kv dd{white-space:pre-wrap}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:6px 0 12px}
+th,td{border-bottom:1px solid var(--rule);padding:7px 8px;text-align:left;vertical-align:top}
+th{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+ul{margin:4px 0 0;padding-left:20px}
+li::first-letter{text-transform:uppercase}
+pre{background:#FFF;border:1px solid var(--rule);border-radius:8px;padding:12px;font:12px/1.5 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;word-break:break-word}
+iframe{width:100%;height:640px;border:1px solid var(--rule);border-radius:10px;background:#FFF}
+.printonly{display:none}
+footer{max-width:900px;margin:0 auto;padding:18px 24px 40px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--rule)}
+@media(max-width:600px){dl.kv{grid-template-columns:1fr}dl.kv dt{border-bottom:0;padding-bottom:0}}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+@page{size:A4;margin:14mm}
+@media print{
+  body{background:#FFF;font-size:12px}
+  .noprint,.bar{display:none!important}
+  .printonly{display:block}
+  .cover{-webkit-print-color-adjust:exact;print-color-adjust:exact;padding:32px 28px}
+  main{padding:0 4px}
+  tr,dl.kv dt,dl.kv dd{break-inside:avoid}
+}
+</style></head><body>
+<div class="bar noprint"><span>READSIGIL · THE ENVELOPE</span><button type="button" onclick="window.print()">Save as PDF</button></div>
+<header class="cover">
+  <div class="eb">Company plan · generated live by seven AI agents</div>
+  <h1>${esc(name)}</h1>
+  ${f.TAGLINE ? `<p class="tag">${esc(f.TAGLINE)}</p>` : ""}
+  <p class="meta">Idea: “${esc(S.idea)}”<br>Generated on ${esc(date)} at readsigil.com/envelope. Figures are model estimates, not research or investment advice.</p>
+</header>
+<main>${body || "<p>No section has finished yet.</p>"}</main>
+<footer>Generated by The Envelope, a live experiment on ReadSigil (readsigil.com/envelope). Market figures and valuations are estimates produced by AI agents and simple models; verify before relying on them. Investor matches come from a list compiled from public reports and are not endorsements or introductions.</footer>
+<script>if (location.hash === "#print") window.addEventListener("load", function () { setTimeout(function () { window.print(); }, 400); });<\/script>
+</body></html>`;
+}
 })();
 </script>
 </body>

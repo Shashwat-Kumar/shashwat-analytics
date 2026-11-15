@@ -62,17 +62,17 @@ jobs:
 
       - name: Set function secrets
         run: |
-          supabase secrets set --project-ref "$PROJECT_REF" \--yes
+          supabase secrets set --yes --project-ref "$PROJECT_REF" \
             ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY" \
             ENVELOPE_PER_IP_DAILY="$PER_IP_DAILY" \
             ENVELOPE_GLOBAL_DAILY="$GLOBAL_DAILY"
 
       - name: Deploy function
-        run: supabase functions deploy envelope -- yes--project-ref "$PROJECT_REF" --no-verify-jwt
+        run: supabase functions deploy envelope --yes --project-ref "$PROJECT_REF" --no-verify-jwt
 
       - name: Check the endpoint is live
         run: |
           sleep 5
           out=$(curl -sS "https://$PROJECT_REF.supabase.co/functions/v1/envelope")
           echo "$out"
-          echo "$out" | grep -q '"live":true' || { echo "::error::Endpoint did not report live:true"; exit 1; }
+          echo "$out" | grep -q '"live":true' || { echo "::error::Endpoint did not report live:true"in; exit 1; }

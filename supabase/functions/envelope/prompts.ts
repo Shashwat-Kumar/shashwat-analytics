@@ -15,13 +15,13 @@ export const SECTORS = ["fintech", "insurtech", "consumer", "health", "agri", "c
 const STYLE = "Be specific, concrete and ambitious. Write like a top operator, not a consultant. No preamble, no sign-off, no markdown.";
 
 export const AGENTS: Record<AgentId, { tier: "quick" | "default"; maxTokens: number; needs: Array<keyof Vars> }> = {
-  vector: { tier: "quick", maxTokens: 1000, needs: ["idea"] },
-  ledger: { tier: "default", maxTokens: 1600, needs: ["idea", "brief"] },
-  canvas: { tier: "default", maxTokens: 9000, needs: ["idea", "brief"] },
-  forge: { tier: "default", maxTokens: 2600, needs: ["idea", "brief"] },
-  signal: { tier: "quick", maxTokens: 1300, needs: ["idea", "brief"] },
-  breaker: { tier: "quick", maxTokens: 1000, needs: ["idea", "brief"] },
-  capital: { tier: "default", maxTokens: 1600, needs: ["idea", "brief", "market"] },
+  vector: { tier: "quick", maxTokens: 3000, needs: ["idea"] },
+  ledger: { tier: "default", maxTokens: 5000, needs: ["idea", "brief"] },
+  canvas: { tier: "default", maxTokens: 16000, needs: ["idea", "brief"] },
+  forge: { tier: "default", maxTokens: 6000, needs: ["idea", "brief"] },
+  signal: { tier: "quick", maxTokens: 4000, needs: ["idea", "brief"] },
+  breaker: { tier: "quick", maxTokens: 4000, needs: ["idea", "brief"] },
+  capital: { tier: "default", maxTokens: 5000, needs: ["idea", "brief", "market"] },
 };
 
 export function buildPrompt(id: AgentId, v: Vars): string {

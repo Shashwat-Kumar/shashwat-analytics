@@ -129,7 +129,8 @@ body.in-mission .hero,body.in-mission .manifest{display:none}
 @media(max-width:760px){.telemetry{grid-template-columns:repeat(2,minmax(0,1fr))}.telemetry div:last-child{grid-column:span 2}}
 .deck{display:grid;grid-template-columns:minmax(300px,.82fr) minmax(0,1.6fr);gap:16px;align-items:start}
 @media(min-width:901px){.deck .left{position:sticky;top:12px}}
-@media(max-width:900px){.deck{grid-template-columns:1fr}}
+.deck>*{min-width:0}
+@media(max-width:900px){.deck{grid-template-columns:minmax(0,1fr)}}
 .crewbox{background:radial-gradient(circle at 50% 42%,rgba(255,178,63,.08),transparent 62%),var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
 #crew{display:block;width:100%;height:380px}
 @media(max-width:900px){#crew{height:290px}}
@@ -279,6 +280,8 @@ table.dcf td.neg{color:var(--hot)}
 table.sens{border-collapse:separate;border-spacing:4px;width:100%;font-family:var(--f-mono);font-size:12.5px;font-variant-numeric:tabular-nums}
 table.sens th{color:var(--muted);font-weight:500;padding:4px;text-align:center}
 table.sens td{background:var(--panel-2);border:1px solid var(--line);border-radius:6px;padding:9px 6px;text-align:center}
+table.sens td.neg{color:var(--hot)}
+@media(max-width:600px){table.sens{font-size:11px;border-spacing:3px}table.sens td{padding:8px 3px;white-space:nowrap}table.sens th{font-size:10.5px}}
 table.sens td.mid{border-color:var(--amber);color:var(--amber);background:rgba(255,178,63,.08)}
 .callout{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:14px;display:grid;gap:8px;align-content:start}
 .callout p{margin:0;color:var(--soft);font-size:14px;line-height:1.5}
@@ -1155,6 +1158,17 @@ function renderForge({ spec, code }) {
   compute();
 }
 const pctN = (x, d) => { const v = Number(x); return isFinite(v) ? v : d; };
+// Fewest decimals (0 to 2) at which every distinct value in the grid still reads differently.
+function gridDecimals(vals) {
+  const distinct = new Set(vals.map(v => v.toFixed(3))).size;
+  for (const d of [0, 1, 2]) if (new Set(vals.map(v => v.toFixed(d))).size === distinct) return d;
+  return 2;
+}
+function fixedMoney(v, d, cur, unit) {
+  if (!isFinite(v)) return "—";
+  const s = new Intl.NumberFormat(cur === "₹" ? "en-IN" : "en-US", { minimumFractionDigits: d, maximumFractionDigits: d }).format(Math.abs(v));
+  return (v < 0 ? "−" : "") + cur + s + (unit ? " " + unit : "");
+}
 function dcfModel(L, m, p) {
   const base = (L.revenue || []).map(Number).slice(0, 5); while (base.length < 5) base.push(base[base.length - 1] || 0);
   const rev = base.slice(), gT = p.g / 100, g6 = pctN(m.growth_y6, 30) / 100;
@@ -1209,7 +1223,8 @@ function renderCapital(m) {
 
   const tw = el("div", "tablewrap"), table = el("table", "dcf"); tw.append(table); frag.append(tw);
   const two = el("div", "two"), sensBox = el("div", "callout"), tvBox = el("div", "callout warn");
-  const sens = el("table", "sens"); sensBox.append(el("div", "label", "DCF sensitivity: WACC (rows) × terminal growth (columns)"), sens);
+  const sens = el("table", "sens"); const sensRange = el("p", "note"); sensRange.style.margin = "4px 0 0";
+  sensBox.append(el("div", "label", "DCF sensitivity: WACC (rows) × terminal growth (columns)"), sens, sensRange);
   const tvP = el("p"); tvBox.append(el("div", "label", "Read this before quoting the number"), tvP, el("p", null, "Discount rate: " + (m.wacc_note || "venture-stage risk premium.")), el("p", null, "Exit multiple: " + (m.multiple_note || "comparable listed and private peers.")));
   two.append(sensBox, tvBox); frag.append(two);
 
@@ -1265,10 +1280,21 @@ function renderCapital(m) {
     const ws = [p.w - 2, p.w, p.w + 2].map(v => Math.max(1, v)), gs = [p.g - 1, p.g, p.g + 1].map(v => Math.max(0, v));
     const hr = el("tr"); hr.append(el("th")); gs.forEach(g => hr.append(el("th", null, "g " + g + "%")));
     const rows = [hr];
-    ws.forEach((w, i) => { const tr = el("tr"); tr.append(el("th", null, "WACC " + w + "%")); gs.forEach((g, j) => tr.append(el("td", i === 1 && j === 1 ? "mid" : null, money(dcfModel(L, m, { ...p, w, g }).ev)))); rows.push(tr); });
+    const grid = ws.map(w => gs.map(g => dcfModel(L, m, { ...p, w, g }).ev)), flat = grid.flat();
+    const dec = gridDecimals(flat), lo = Math.min(...flat), hi = Math.max(...flat);
+    ws.forEach((w, i) => {
+      const tr = el("tr"); tr.append(el("th", null, "WACC " + w + "%"));
+      gs.forEach((g, j) => {
+        const v = grid[i][j], td = el("td", [i === 1 && j === 1 ? "mid" : "", v < 0 ? "neg" : ""].join(" ").trim() || null, fixedMoney(v, dec, cur, unit));
+        td.style.background = `rgba(255,178,63,${(0.04 + 0.26 * (hi > lo ? (v - lo) / (hi - lo) : 0.5)).toFixed(3)})`;
+        tr.append(td);
+      });
+      rows.push(tr);
+    });
     sens.replaceChildren(...rows);
+    sensRange.textContent = `Range: ${fixedMoney(lo, dec, cur, unit)} to ${fixedMoney(hi, dec, cur, unit)}. Brighter cells are higher values.`;
     const share = r.ev !== 0 ? r.pvTV / r.ev : 0;
-    tvP.textContent = r.ev <= 0 ? "At these settings the cash flows do not cover the cost of capital, so the DCF value is negative. Raise the mature margin or lower the discount rate to see what it would take."
+    tvP.textContent = r.ev <= 0 ? "At these settings the cash flows do not cover the cost of capital, so the DCF value is negative. Most of the value sits in the early losses, which is why discount rate and growth move it so little. Raise the mature margin to see what it would take."
       : `${nf(share * 100, 0)}% of the DCF value comes from the terminal value beyond year 10. Early-stage valuations rest on the long run; treat the number as a range, not a price.`;
   }
   update();
@@ -1491,7 +1517,10 @@ function buildReport() {
       "<h3>Ten-year free cash flow</h3>" + tbl([`${cur} ${unit}`, ...r.rows.map(x => "Y" + x.t)], [
         ["Revenue", ...r.rows.map(x => num(x.r))], ["EBITDA margin", ...r.rows.map(x => num(x.margin * 100, 0) + "%")],
         ["Free cash flow", ...r.rows.map(x => num(x.fcf))], ["PV of FCF", ...r.rows.map(x => num(x.pv))]], true) +
-      "<h3>DCF sensitivity</h3>" + tbl(["WACC \\ terminal growth", ...gs.map(g => g + "%")], ws.map(w => [w + "%", ...gs.map(g => money(dcfModel(L, C, { ...p, w, g }).ev))]), true) +
+      "<h3>DCF sensitivity</h3>" + (() => {
+        const grid = ws.map(w => gs.map(g => dcfModel(L, C, { ...p, w, g }).ev)), dec = gridDecimals(grid.flat());
+        return tbl(["WACC \\ terminal growth", ...gs.map(g => g + "%")], ws.map((w, i) => [w + "%", ...grid[i].map(v => fixedMoney(v, dec, cur, unit))]), true);
+      })() +
       (Array.isArray(C.must_believe) ? "<h3>What you must believe</h3>" + ul(C.must_believe) : "") +
       (Array.isArray(C.use_of_funds) ? "<h3>Use of funds</h3>" + ul(C.use_of_funds) : ""));
     const mi = matchInvestors(C);

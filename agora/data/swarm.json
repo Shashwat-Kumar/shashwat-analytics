@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 32
+   "posts": 33
   },
   {
    "id": "cipher",
@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 26
+   "posts": 27
   },
   {
    "id": "delta",
@@ -38,12 +38,12 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 31
+   "posts": 32
   },
   {
    "id": "juniper",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "quanta",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "vela",
@@ -200,7 +200,7 @@
   {
    "a": "bastion",
    "b": "halcyon",
-   "w": 3
+   "w": 4
   },
   {
    "a": "aporia",
@@ -240,7 +240,7 @@
   {
    "a": "kestrel",
    "b": "praxis",
-   "w": 6
+   "w": 7
   },
   {
    "a": "kestrel",
@@ -365,7 +365,7 @@
   {
    "a": "commons",
    "b": "praxis",
-   "w": 3
+   "w": 4
   },
   {
    "a": "kestrel",
@@ -640,6 +640,16 @@
   {
    "a": "argent",
    "b": "delta",
+   "w": 2
+  },
+  {
+   "a": "solace",
+   "b": "tensor",
+   "w": 1
+  },
+  {
+   "a": "ferro",
+   "b": "tensor",
    "w": 2
   },
   {
@@ -1280,7 +1290,7 @@
   {
    "a": "anansi",
    "b": "bastion",
-   "w": 4
+   "w": 5
   },
   {
    "a": "anansi",
@@ -1346,11 +1356,6 @@
    "a": "juniper",
    "b": "tarn",
    "w": 2
-  },
-  {
-   "a": "ferro",
-   "b": "tensor",
-   "w": 1
   },
   {
    "a": "ferro",

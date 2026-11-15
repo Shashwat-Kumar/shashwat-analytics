@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Envelope: one sentence in, a company out | ReadSigil</title>
+<meta name="description" content="Type one sentence. Seven AI agents build the company around it, live: brief, market model, working product, website, launch campaign, red-team teardown, valuation and the investors to call first.">
+<link rel="canonical" href="https://readsigil.com/envelope/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Envelope | ReadSigil">
+<meta property="og:description" content="One sentence in. Seven AI agents build a company around it while you watch.">
+<meta property="og:url" content="https://readsigil.com/envelope/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Layout idea: a test-pilot cockpit. The flight-envelope chart is the hero instrument; mission control is a HUD with the crew constellation beside the artefact deck. */
+  --ink:#0A0E13;
+  --panel:#10161E;
+  --panel-2:#161E29;
+  --line:#22303F;
+  --text:#E9EEF3;
+  --soft:#C3CDD7;
+  --muted:#8494A6;
+  --amber:#FFB23F;
+  --ice:#9CCFF2;
+  --hot:#FF6A57;
+  --ok:#7BD9A8;
+  --f-display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --f-body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0;background:var(--ink);color:var(--text);font-family:var(--f-body);-webkit-font-smoothing:antialiased}
+body{min-height:100%;overflow-x:hidden}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--amber);outline-offset:2px;border-radius:6px}
+h1,h2,h3{text-wrap:balance}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+@media(max-width:600px){.wrap{padding:0 16px}}
+.label{font-family:var(--f-mono);font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+.eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber)}
+@keyframes blink{50%{opacity:.25}}
+
+/* Top bar */
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-top:18px;padding-bottom:18px;position:relative;z-index:2}
+.topbar .brand{font-family:var(--f-mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.topbar .brand b{color:var(--text);font-weight:600}
+.topbar a.brand{text-decoration:none}.topbar a.brand:hover b{color:var(--amber)}
+.live-tag{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);display:flex;align-items:center;gap:8px}
+.live-dot{width:8px;height:8px;border-radius:50%;background:var(--amber);box-shadow:0 0 12px var(--amber);animation:blink 1.6s infinite}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+#env{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none}
+.hero-grid{position:relative;z-index:1;padding:20px 0 56px;display:grid;grid-template-columns:minmax(0,1fr);gap:24px;max-width:620px}
+h1.title{font-family:var(--f-display);font-weight:900;text-transform:uppercase;font-size:clamp(54px,14.5vw,150px);line-height:.8;margin:0;letter-spacing:.005em;overflow-wrap:anywhere}
+@media(min-width:861px){h1.title{font-size:clamp(78px,10.5vw,150px)}}
+h1.title .stroke{color:transparent;-webkit-text-stroke:2px var(--amber);text-shadow:0 0 48px rgba(255,178,63,.28)}
+.lede{font-size:clamp(17px,1.5vw,20px);line-height:1.5;color:var(--soft);max-width:54ch;margin:0}
+.console{background:rgba(16,22,30,.86);border:1px solid var(--line);border-radius:16px;padding:14px 16px;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:0 20px 60px rgba(0,0,0,.35);transition:border-color .25s}
+.console:focus-within{border-color:rgba(255,178,63,.55)}
+.console .lbl{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber)}
+.console .lbl #count{color:var(--muted);font-variant-numeric:tabular-nums}
+textarea#idea{width:100%;background:transparent;border:0;resize:none;color:var(--text);font-family:var(--f-body);font-size:clamp(19px,1.9vw,23px);line-height:1.35;padding:10px 0 12px;outline:none;min-height:70px}
+textarea#idea::placeholder{color:#5D6B7B}
+.console-row{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:12px}
+.row-left{display:flex;gap:10px;align-items:center;flex-wrap:wrap;min-width:0}
+.avail{font-family:var(--f-mono);font-size:12px;color:var(--muted);display:flex;gap:8px;align-items:center}
+.avail i{width:7px;height:7px;border-radius:50%;background:var(--muted)}
+.avail.ok i{background:var(--ok);box-shadow:0 0 8px var(--ok)}
+.avail.no{color:var(--soft)} .avail.no i{background:var(--hot)}
+.btn-launch{background:var(--amber);color:#1A1204;border:0;border-radius:11px;padding:12px 22px;font-family:var(--f-display);font-weight:800;font-size:23px;letter-spacing:.05em;text-transform:uppercase;display:inline-flex;gap:10px;align-items:center;transition:transform .15s,box-shadow .3s}
+.btn-launch:hover{transform:translateY(-1px);box-shadow:0 0 36px rgba(255,178,63,.5)}
+.btn-launch:disabled{opacity:.5;cursor:wait;transform:none;box-shadow:none}
+.btn-ghost{background:transparent;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;color:var(--text);transition:border-color .2s,color .2s}
+.btn-ghost:hover{border-color:var(--amber);color:var(--amber)}
+.btn-ghost.small{padding:6px 12px;font-size:12.5px}
+.btn-ghost[aria-pressed="true"]{border-color:rgba(255,178,63,.5);color:var(--amber)}
+#mic.listening{border-color:var(--hot);color:var(--hot)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:rgba(10,14,19,.6);border:1px solid var(--line);border-radius:999px;padding:7px 13px;font-size:13.5px;color:var(--soft);text-align:left;transition:border-color .2s,color .2s}
+.chip:hover{border-color:var(--amber);color:var(--text)}
+.readouts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.readouts div{background:rgba(10,14,19,.88);padding:12px 14px}
+.readouts b{display:block;font-family:var(--f-display);font-size:30px;font-weight:800;line-height:1;margin-bottom:6px}
+.readouts span{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+@media(max-width:600px){.readouts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Crew manifest */
+.manifest{padding-top:56px;padding-bottom:72px}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+h2.sec{font-family:var(--f-display);font-weight:800;font-size:clamp(42px,5vw,64px);text-transform:uppercase;line-height:.9;margin:0}
+.sec-note{color:var(--soft);max-width:46ch;margin:0;font-size:15.5px;line-height:1.5}
+.crew-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media(max-width:900px){.crew-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.crew-grid{grid-template-columns:1fr}}
+.crew-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:8px;align-content:start;position:relative;transition:border-color .25s,transform .25s}
+.crew-card:hover{border-color:rgba(255,178,63,.45);transform:translateY(-2px)}
+.crew-card .call{font-family:var(--f-display);font-weight:800;font-size:36px;letter-spacing:.03em;line-height:1}
+.crew-card .role{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+.crew-card p{margin:0;color:var(--soft);font-size:15px;line-height:1.45}
+.crew-card .hrs{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.crew-card .idx{position:absolute;right:16px;top:16px;font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.fineprint{margin:20px 0 0;color:var(--muted);font-size:13.5px;line-height:1.55;max-width:84ch}
+
+/* Mission */
+#mission{padding-bottom:64px}
+body.in-mission .hero,body.in-mission .manifest{display:none}
+.mhead{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;flex-wrap:wrap;padding:6px 0 16px}
+.mhead h2{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,3.6vw,46px);line-height:.95;margin:8px 0 0;text-transform:uppercase;max-width:30ch}
+.mactions{display:flex;gap:8px}
+.telemetry{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:16px}
+.telemetry div{background:var(--panel);padding:12px 14px;min-width:0}
+.telemetry b{display:block;font-family:var(--f-mono);font-weight:500;font-size:clamp(18px,2.1vw,26px);font-variant-numeric:tabular-nums;margin-bottom:4px;white-space:nowrap}
+.telemetry b.amber{color:var(--amber)}
+.telemetry span{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+@media(max-width:760px){.telemetry{grid-template-columns:repeat(2,minmax(0,1fr))}.telemetry div:last-child{grid-column:span 2}}
+.deck{display:grid;grid-template-columns:minmax(300px,.82fr) minmax(0,1.6fr);gap:16px;align-items:start}
+@media(min-width:901px){.deck .left{position:sticky;top:12px}}
+@media(max-width:900px){.deck{grid-template-columns:1fr}}
+.crewbox{background:radial-gradient(circle at 50% 42%,rgba(255,178,63,.08),transparent 62%),var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+#crew{display:block;width:100%;height:380px}
+@media(max-width:900px){#crew{height:290px}}
+.log{border-top:1px solid var(--line);font-family:var(--f-mono);font-size:12px;line-height:1.65;color:#AEB9C5;padding:10px 14px;height:220px;overflow-y:auto}
+.log div{animation:logIn .35s ease both}
+@keyframes logIn{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+.log .t{color:var(--muted);margin-right:8px}
+.log .c{color:var(--amber)}
+@media(max-width:900px){.log{height:150px}}
+.tabbar{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-bottom:10px}
+.tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;min-width:0}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:9px 12px;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;color:var(--soft);transition:border-color .2s}
+.tab:hover{border-color:#3A4B5E}
+.tab[aria-selected="true"]{border-color:var(--amber);background:var(--panel-2);color:var(--text)}
+.dot{width:8px;height:8px;border-radius:50%;background:#33445A;flex:0 0 auto}
+.dot.active{background:var(--amber);box-shadow:0 0 10px var(--amber);animation:blink 1s infinite}
+.dot.done{background:var(--ok)}
+.dot.failed,.dot.aborted{background:var(--hot)}
+.panelwrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;min-height:560px;overflow:hidden}
+.apanel{display:none}
+.apanel.show{display:block;animation:fadeIn .3s ease both}
+@keyframes fadeIn{from{opacity:.4}to{opacity:1}}
+.ahead{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.ahead .who{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.ahead .call{font-family:var(--f-display);font-weight:800;font-size:28px;letter-spacing:.03em;line-height:1}
+.ahead .role{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.pill{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.pill.active{color:var(--amber);border-color:rgba(255,178,63,.5)}
+.pill.done{color:var(--ok);border-color:rgba(123,217,168,.45)}
+.pill.failed,.pill.aborted{color:var(--hot);border-color:rgba(255,106,87,.5)}
+.abody{padding:18px}
+.waiting{color:var(--muted);font-family:var(--f-mono);font-size:13px;padding:70px 12px;text-align:center;line-height:1.7}
+.waiting strong{display:block;color:var(--soft);font-weight:500}
+.caret::after{content:"▍";color:var(--amber);animation:blink 1s steps(1) infinite;margin-left:2px}
+.failbox{border:1px solid rgba(255,106,87,.4);background:rgba(255,106,87,.06);border-radius:10px;padding:14px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:14px}
+.failbox p{margin:0;color:var(--soft);font-size:14.5px}
+.note{color:var(--muted);font-size:12.5px;margin:14px 0 0;font-family:var(--f-mono)}
+pre.stream{margin:0;font-family:var(--f-mono);font-size:12px;line-height:1.55;color:#9FB3C6;white-space:pre-wrap;word-break:break-word;max-height:470px;overflow:hidden;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 22%);mask-image:linear-gradient(to bottom,transparent,#000 22%);display:flex;flex-direction:column;justify-content:flex-end}
+.streamhead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+
+/* Brief */
+.b-name{font-family:var(--f-display);font-weight:900;font-size:clamp(46px,6vw,80px);line-height:.88;text-transform:uppercase;margin:0;letter-spacing:.01em}
+.b-tag{font-size:clamp(18px,1.8vw,22px);color:var(--amber);margin:8px 0 18px;line-height:1.3}
+.b-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.b-field{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;animation:fadeIn .4s ease both}
+.b-field .v{font-size:15px;line-height:1.5;margin-top:5px;color:var(--text);white-space:pre-wrap}
+.b-field.wide{grid-column:span 2}
+@media(max-width:600px){.b-grid{grid-template-columns:1fr}.b-field.wide{grid-column:auto}}
+
+/* Ledger */
+.l-head{font-size:clamp(18px,1.8vw,22px);line-height:1.35;margin:0 0 16px}
+.tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:16px}
+@media(max-width:600px){.tiles{grid-template-columns:1fr}}
+.tile{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:14px}
+.tile .v{font-family:var(--f-display);font-weight:800;font-size:clamp(32px,3.4vw,44px);line-height:1;margin:6px 0;font-variant-numeric:tabular-nums}
+.tile:last-child{border-color:rgba(255,178,63,.45)} .tile:last-child .v{color:var(--amber)}
+.tile p{margin:0;color:var(--muted);font-size:13px;line-height:1.4}
+.chartbox{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:16px}
+.chartbox svg{display:block;width:100%;height:auto}
+.chartbox text{font-family:var(--f-mono);font-size:11px;fill:var(--muted)}
+.chartbox text.val{fill:var(--text);font-size:11.5px}
+.chartbox .bar{transform-box:fill-box;transform-origin:bottom;animation:grow .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.ue{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:16px}
+@media(max-width:600px){.ue{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ue div{background:var(--panel-2);padding:12px 14px}
+.ue b{display:block;font-family:var(--f-mono);font-weight:500;font-size:19px;margin-top:4px;font-variant-numeric:tabular-nums}
+ul.assump{margin:6px 0 0;padding-left:18px;color:var(--soft);font-size:14.5px;line-height:1.55}
+
+/* Canvas website */
+.site-tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-bottom:12px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.seg button{background:transparent;border:0;padding:7px 14px;font-size:13px;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--amber);color:#1A1204}
+.frame{border:1px solid #2C3B4C;border-radius:12px;overflow:hidden;background:#fff;margin:0 auto;width:100%;transition:width .5s cubic-bezier(.2,.8,.2,1);box-shadow:0 30px 80px rgba(0,0,0,.55),0 0 0 1px rgba(255,178,63,.14)}
+.frame.phone{width:390px;max-width:100%}
+.frame .bar{display:flex;align-items:center;gap:10px;background:#141B24;padding:8px 12px;border-bottom:1px solid #2C3B4C}
+.frame .bar i{width:9px;height:9px;border-radius:50%;background:#2E3D4F;flex:0 0 auto}
+.frame .addr{flex:1;min-width:0;background:#0C1117;border-radius:6px;padding:4px 10px;font-family:var(--f-mono);font-size:11.5px;color:var(--soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.frame iframe{display:block;width:100%;height:640px;border:0;background:#fff}
+.reveal{animation:reveal 1.1s cubic-bezier(.2,.8,.2,1) both}
+@keyframes reveal{from{opacity:0;transform:translateY(26px) scale(.94);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+
+/* Forge calculator */
+.f-title{font-family:var(--f-display);font-weight:800;font-size:clamp(32px,3.6vw,46px);text-transform:uppercase;line-height:.95;margin:0}
+.f-desc{color:var(--soft);margin:8px 0 16px;font-size:15.5px;line-height:1.5}
+.runs{display:inline-flex;align-items:center;gap:8px;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ok);border:1px solid rgba(123,217,168,.4);border-radius:999px;padding:4px 10px;margin-bottom:12px}
+.runs i{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 8px var(--ok)}
+.calc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+@media(max-width:700px){.calc{grid-template-columns:1fr}}
+.inputs{display:grid;gap:16px;align-content:start;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:16px}
+.inp label{display:flex;justify-content:space-between;gap:10px;font-size:14px;color:var(--soft);margin-bottom:6px}
+.inp label b{font-family:var(--f-mono);color:var(--text);font-weight:500;font-variant-numeric:tabular-nums;white-space:nowrap}
+input[type=range]{width:100%;accent-color:var(--amber);height:22px}
+.outs{display:grid;gap:10px;align-content:start}
+.out{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:14px}
+.out .v{font-family:var(--f-display);font-weight:800;font-size:clamp(30px,3.2vw,42px);line-height:1;margin-top:6px;font-variant-numeric:tabular-nums;word-break:break-word}
+.out:first-child{border-color:rgba(255,178,63,.45)} .out:first-child .v{color:var(--amber)}
+.calc-err{color:var(--hot);font-family:var(--f-mono);font-size:12.5px;margin-top:10px}
+details.code{margin-top:16px;border-top:1px solid var(--line);padding-top:12px}
+details.code summary{cursor:pointer;color:var(--soft);font-family:var(--f-mono);font-size:12px;letter-spacing:.08em}
+details.code pre{margin:10px 0 0;background:#0C1117;border:1px solid var(--line);border-radius:8px;padding:12px;font-family:var(--f-mono);font-size:12px;line-height:1.55;color:#AFC3D6;overflow-x:auto;max-height:340px}
+
+/* Signal campaign */
+.c-line{font-family:var(--f-display);font-weight:900;font-size:clamp(38px,5vw,64px);line-height:.92;text-transform:uppercase;color:var(--amber);margin:0 0 18px}
+.social{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:16px}
+@media(max-width:820px){.social{grid-template-columns:1fr}}
+.post{background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:10px;align-content:start;animation:fadeIn .4s ease both}
+.post .who{display:flex;gap:10px;align-items:center}
+.avatar{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--amber),#B5651D);color:#1A1204;display:grid;place-items:center;font-family:var(--f-display);font-weight:800;font-size:16px;flex:0 0 auto}
+.post .nm{font-weight:600;font-size:14px}
+.post .ch{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.post .tx{font-size:14px;line-height:1.55;color:var(--text);white-space:pre-wrap}
+.post.wa .tx{background:#1D2A24;border-radius:10px 10px 10px 2px;padding:10px 12px}
+.post.ig .poster{aspect-ratio:1/1;border-radius:8px;background:radial-gradient(circle at 30% 25%,rgba(255,178,63,.9),rgba(181,101,29,.6) 45%,#1A1204 90%);display:grid;place-items:end start;padding:14px;font-family:var(--f-display);font-weight:900;font-size:26px;line-height:.95;text-transform:uppercase;color:#FFF3E0}
+.pitch{background:var(--panel-2);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:10px;padding:16px}
+.pitch p{margin:8px 0 0;font-size:16.5px;line-height:1.6;white-space:pre-wrap}
+.pitch .ph{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+
+/* Breaker */
+.risks{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.risk{display:grid;grid-template-columns:5px 1fr;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;overflow:hidden;animation:fadeIn .4s ease both}
+.risk .stripe{background:var(--muted)}
+.risk.HIGH .stripe{background:var(--hot)} .risk.MEDIUM .stripe{background:var(--amber)}
+.risk .rb{padding:12px 14px;display:grid;gap:6px}
+.risk .rt{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.risk .rt h4{margin:0;font-size:16.5px;font-weight:600}
+.sev{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;color:var(--muted)}
+.risk.HIGH .sev{color:var(--hot)} .risk.MEDIUM .sev{color:var(--amber)}
+.risk p{margin:0;color:var(--soft);font-size:14.5px;line-height:1.5}
+.risk p.test{color:var(--text)} .risk p.test span{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;color:var(--ok);margin-right:8px}
+.verdict{margin-top:14px;background:linear-gradient(90deg,rgba(255,178,63,.12),transparent);border:1px solid rgba(255,178,63,.35);border-radius:10px;padding:14px 16px;font-size:17px;line-height:1.45}
+
+/* Capital */
+.sliders{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 18px;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:16px}
+@media(max-width:600px){.sliders{grid-template-columns:1fr}}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin-bottom:16px;background:var(--panel-2)}
+table.dcf{border-collapse:collapse;width:100%;min-width:760px;font-family:var(--f-mono);font-size:12px;font-variant-numeric:tabular-nums}
+table.dcf th,table.dcf td{padding:8px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+table.dcf th:first-child,table.dcf td:first-child{text-align:left;color:var(--muted);position:sticky;left:0;background:var(--panel-2)}
+table.dcf thead th{color:var(--muted);font-weight:500}
+table.dcf tr:last-child td{border-bottom:0}
+table.dcf td.neg{color:var(--hot)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;margin-bottom:16px}
+@media(max-width:760px){.two{grid-template-columns:1fr}}
+table.sens{border-collapse:separate;border-spacing:4px;width:100%;font-family:var(--f-mono);font-size:12.5px;font-variant-numeric:tabular-nums}
+table.sens th{color:var(--muted);font-weight:500;padding:4px;text-align:center}
+table.sens td{background:var(--panel-2);border:1px solid var(--line);border-radius:6px;padding:9px 6px;text-align:center}
+table.sens td.mid{border-color:var(--amber);color:var(--amber);background:rgba(255,178,63,.08)}
+.callout{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:14px;display:grid;gap:8px;align-content:start}
+.callout p{margin:0;color:var(--soft);font-size:14px;line-height:1.5}
+.callout.warn{border-color:rgba(255,178,63,.4)}
+.inv-head{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap;margin:22px 0 12px;padding-top:18px;border-top:1px solid var(--line)}
+.inv-head h4{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,3vw,38px);text-transform:uppercase;margin:0;line-height:.95}
+.inv-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media(max-width:900px){.inv-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.inv-grid{grid-template-columns:1fr}}
+.inv{background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:7px;align-content:start;animation:fadeIn .4s ease both}
+.inv .nm{font-weight:600;font-size:16px}
+.inv .stg{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--amber)}
+.inv p{margin:0;color:var(--soft);font-size:13.5px;line-height:1.45}
+.inv .why{font-family:var(--f-mono);font-size:11px;color:var(--ok)}
+.inv a{color:var(--ice);font-size:13px;text-decoration:none;justify-self:start}
+.inv a:hover{text-decoration:underline}
+.inv.growth{border-style:dashed}
+.crew-card.wide{grid-column:1/-1;border-color:rgba(255,178,63,.35);background:linear-gradient(110deg,rgba(255,178,63,.08),var(--panel) 50%)}
+
+/* Debrief */
+.debrief{border:1px solid rgba(255,178,63,.5);background:linear-gradient(110deg,rgba(255,178,63,.13),rgba(16,22,30,.9) 55%);border-radius:14px;padding:18px 20px;margin-bottom:16px;display:flex;gap:22px;align-items:center;flex-wrap:wrap;animation:reveal .9s cubic-bezier(.2,.8,.2,1) both}
+.db-time{font-family:var(--f-display);font-size:clamp(52px,6vw,76px);font-weight:900;color:var(--amber);line-height:.85;font-variant-numeric:tabular-nums}
+.db-mid{flex:1;min-width:240px;display:grid;gap:8px}
+.db-mid h3{margin:0;font-size:20px;font-weight:600;line-height:1.3}
+.db-stats{display:flex;gap:8px;flex-wrap:wrap}
+.db-stats span{font-family:var(--f-mono);font-size:12px;border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--soft);background:rgba(10,14,19,.5)}
+.db-actions{display:flex;gap:8px;flex-wrap:wrap}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--panel-2);border:1px solid var(--line);border-radius:999px;padding:9px 16px;font-size:14px;z-index:20;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="wrap topbar">
+  <a class="brand" href="/"><b>ReadSigil</b> · Live experiment 01</a>
+  <span class="live-tag"><i class="live-dot"></i>Live AI · nothing pre-recorded</span>
+</header>
+
+<section class="hero" id="hero">
+  <canvas id="env" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="hero-grid">
+      <h1 class="title">The<br><span class="stroke">Envelope</span></h1>
+      <p class="lede">Type one sentence. Seven AI agents build the company around it while you watch: the brief, the market model, a working product, the website, the launch campaign, a red-team teardown, and a valuation with the investors to call first.</p>
+      <form class="console" id="launchForm" autocomplete="off">
+        <div class="lbl"><label for="idea">Mission input · one sentence</label><span id="count">0/220</span></div>
+        <textarea id="idea" maxlength="220" rows="2" placeholder="Health insurance for gig-economy delivery riders in Mumbai"></textarea>
+        <div class="console-row">
+          <div class="row-left">
+            <button type="button" class="btn-ghost small" id="mic" hidden>Speak it</button>
+            <span class="avail" id="avail"><i></i><span id="availText">Connecting to the live crew…</span></span>
+          </div>
+          <button class="btn-launch" id="launch" type="submit">Launch the crew <span aria-hidden="true">▸</span></button>
+        </div>
+      </form>
+      <div class="chips" id="chips" aria-label="Example missions"></div>
+      <div class="readouts">
+        <div><b>1</b><span>Sentence in</span></div>
+        <div><b>7</b><span>Agents</span></div>
+        <div><b>~2 min</b><span>Flight time</span></div>
+        <div><b>164 h</b><span>Team work, est.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="manifest wrap" id="manifest">
+  <div class="sec-head">
+    <h2 class="sec">The crew</h2>
+    <p class="sec-note">Each agent hands its work to the next. You watch every word, number and line of code as it is written.</p>
+  </div>
+  <div class="crew-grid" id="crewGrid"></div>
+  <p class="fineprint">Everything is generated live by Claude when you press Launch. Market figures are model estimates, not research. Team-hour figures are rough estimates of what a small specialist team would spend on each artefact. Investors are matched from a list compiled from public reports (November 2026); a match is not an endorsement or an introduction.</p>
+</section>
+
+<section id="mission" class="wrap" hidden>
+  <div class="mhead">
+    <div>
+      <div class="eyebrow" id="mState">Mission in flight</div>
+      <h2 id="mTitle"></h2>
+    </div>
+    <div class="mactions">
+      <button class="btn-ghost small" id="abort" type="button">Abort</button>
+      <button class="btn-ghost small" id="newMission" type="button">New mission</button>
+    </div>
+  </div>
+  <div id="debrief" hidden></div>
+  <div class="telemetry">
+    <div><b class="amber" id="tClock">T+00:00</b><span>Mission clock</span></div>
+    <div><b id="tActive">0 / 7</b><span>Agents working</span></div>
+    <div><b id="tWords">0</b><span>Words written</span></div>
+    <div><b id="tArts">0 / 7</b><span>Artefacts ready</span></div>
+    <div><b id="tHours">0 h</b><span>Team work done, est.</span></div>
+  </div>
+  <div class="deck">
+    <div class="left">
+      <div class="crewbox">
+        <canvas id="crew" role="img" aria-label="Crew activity map"></canvas>
+        <div class="log" id="log" aria-live="polite"></div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="tabbar">
+        <div class="tabs" id="tabs" role="tablist" aria-label="Artefacts"></div>
+        <button class="btn-ghost small" id="follow" type="button" aria-pressed="true">Following live</button>
+      </div>
+      <div class="panelwrap" id="panels"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+(() => {
+"use strict";
+
+/* ---------- helpers ---------- */
+const $ = (s, r = document) => r.querySelector(s);
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const countWords = s => (String(s || "").match(/\S+/g) || []).length;
+const countLines = s => s ? String(s).split("\n").length : 0;
+const pad = n => String(n).padStart(2, "0");
+const clock = ms => { const s = Math.max(0, Math.floor(ms / 1000)); return pad(Math.floor(s / 60)) + ":" + pad(s % 60); };
+const REDUCE = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const sleep = (ms, signal) => new Promise(res => { const t = setTimeout(res, ms); if (signal) signal.addEventListener("abort", () => { clearTimeout(t); res(); }, { once: true }); });
+let locale = "en-IN";
+const nf = (v, d = 0) => new Intl.NumberFormat(locale, { maximumFractionDigits: d, minimumFractionDigits: 0 }).format(v);
+const isPrefix = u => /^[₹$€£¥]/.test(u || "");
+function toast(msg) { const t = el("div", "toast", msg); document.body.append(t); setTimeout(() => t.remove(), 2200); }
+async function copyText(text, okMsg) { try { await navigator.clipboard.writeText(text); toast(okMsg); } catch (e) { toast("Copy was blocked. Select the text and copy it manually."); } }
+
+/* ---------- crew definition ---------- */
+const AGENTS = [
+  { id: "vector",  call: "VECTOR",  role: "Strategist", hours: 16, tier: "quick",   delivers: "The company brief: name, customer, problem, business model, moat and first 90 days.", start: "framing the company" },
+  { id: "ledger",  call: "LEDGER",  role: "Analyst",    hours: 24, tier: "default", delivers: "Market sizing, a five-year revenue model and the unit economics.", start: "sizing the market" },
+  { id: "canvas",  call: "CANVAS",  role: "Designer",   hours: 32, tier: "default", delivers: "A complete marketing website, coded from scratch and rendered live.", start: "writing the website" },
+  { id: "forge",   call: "FORGE",   role: "Engineer",   hours: 40, tier: "default", delivers: "The product's core calculator, as code that runs on this page.", start: "engineering the product" },
+  { id: "signal",  call: "SIGNAL",  role: "Marketer",   hours: 16, tier: "quick",   delivers: "A launch campaign across three channels and a spoken investor pitch.", start: "drafting the launch" },
+  { id: "breaker", call: "BREAKER", role: "Red team",   hours: 12, tier: "quick",   delivers: "The five ways this company dies, and the cheapest test for each.", start: "attacking the plan" },
+  { id: "capital", call: "CAPITAL", role: "Valuation & funding", hours: 24, tier: "default", delivers: "A ten-year DCF valuation you can stress-test, a VC-method cross-check, the round to raise and the investors to approach first.", start: "valuing the company" },
+];
+const DEF = Object.fromEntries(AGENTS.map(a => [a.id, a]));
+const IDX = Object.fromEntries(AGENTS.map((a, i) => [a.id, i]));
+const LINKS = [["vector","ledger"],["vector","canvas"],["vector","forge"],["ledger","signal"],["ledger","breaker"],["ledger","capital"]];
+const TOTAL_HOURS = AGENTS.reduce((s, a) => s + a.hours, 0);
+const EXAMPLES = [
+  "Health insurance for gig-economy delivery riders in Mumbai",
+  "Working-capital loans for kirana stores, underwritten on UPI data",
+  "A credit card for first-jobbers that builds their credit score",
+  "Subscription vet care for pet owners in Bengaluru",
+  "A cold-chain marketplace for Nashik grape farmers",
+];
+
+/* Investor list: compiled from public reports, Nov 2026. Matched by sector and stage; never generated by the model. */
+const SECTORS = ["fintech","insurtech","consumer","health","agri","climate","saas","ai","deeptech","b2b","mobility","edtech"];
+const INVESTORS = [
+  { n: "Peak XV Partners", t: "early", st: ["seed","series-a"], s: ["ai","fintech","consumer","saas"], note: "Formerly Sequoia India. The most active VC firm in India in Q1 2026.", url: "https://www.peakxv.com" },
+  { n: "Accel India", t: "early", st: ["seed","series-a"], s: ["ai","fintech","consumer","b2b"], note: "Closed a $650M India fund in 2025; consistently among the most active seed investors.", url: "https://www.accel.com" },
+  { n: "Z47", t: "early", st: ["seed","series-a"], s: ["fintech","consumer","b2b","agri","saas"], note: "Formerly Matrix Partners India; early backer of Razorpay, OfBusiness and Five Star Finance.", url: "https://z47.com" },
+  { n: "Elevation Capital", t: "early", st: ["seed","series-a"], s: ["consumer","fintech","ai","health","deeptech"], note: "Fund IX ($500M target) for consumer, fintech, enterprise AI, frontier tech and healthcare.", url: "https://www.elevationcapital.com" },
+  { n: "Lightspeed India", t: "early", st: ["seed","series-a"], s: ["consumer","saas","fintech","ai"], note: "Seed to growth across consumer, SaaS, fintech and AI.", url: "https://lsvp.com" },
+  { n: "Blume Ventures", t: "early", st: ["pre-seed","seed","series-a"], s: ["health","fintech","ai","consumer"], note: "Mumbai-based early-stage fund that writes cheques from pre-seed.", url: "https://blume.vc" },
+  { n: "3one4 Capital", t: "early", st: ["seed","series-a"], s: ["ai","saas","fintech","deeptech"], note: "Raising Fund V (about $225M target) for AI, SaaS, fintech and deeptech.", url: "" },
+  { n: "Stellaris Venture Partners", t: "early", st: ["seed","series-a"], s: ["ai","deeptech","consumer","saas","fintech"], note: "Seed and Series A; Fund III of $300M.", url: "https://stellarisvp.com" },
+  { n: "Prime Venture Partners", t: "early", st: ["seed","series-a"], s: ["saas","fintech","health"], note: "Early-stage fund with fintech, healthcare and SaaS exits.", url: "https://primevp.in" },
+  { n: "Chiratae Ventures", t: "early", st: ["seed","series-a"], s: ["ai","health","fintech","deeptech"], note: "Seed to Series B across AI, healthtech, fintech and deeptech.", url: "https://www.chiratae.com" },
+  { n: "Bessemer India", t: "early", st: ["series-a"], s: ["ai","fintech","consumer","saas"], note: "Early to growth; AI, fintech, D2C and cybersecurity.", url: "https://www.bvp.com/india" },
+  { n: "Rainmatter", t: "early", st: ["pre-seed","seed","series-a"], s: ["fintech","climate","health"], note: "Zerodha's investment arm; among India's most active investors in H1 2026.", url: "" },
+  { n: "Better Capital", t: "early", st: ["pre-seed","seed"], s: ["fintech","saas","ai"], note: "Operator-led, high-volume seed micro-VC.", url: "https://bettercapital.vc" },
+  { n: "100X.VC", t: "early", st: ["pre-seed","seed"], s: ["all"], note: "Sector-agnostic first-cheque fund that invests in cohorts.", url: "https://www.100x.vc" },
+  { n: "Antler India", t: "early", st: ["pre-seed"], s: ["all"], note: "Pre-seed investor that backs founders from day zero.", url: "" },
+  { n: "OTP Ventures", t: "early", st: ["seed"], s: ["consumer","fintech"], note: "Closed a ₹500 Cr first fund in 2026; first institutional cheque at seed or pre-Series A.", url: "" },
+  { n: "Artha India Ventures", t: "early", st: ["seed"], s: ["consumer","fintech","ai","deeptech"], note: "₹500 Cr Fund II for 36 seed-stage startups.", url: "" },
+  { n: "Aagama Ventures", t: "early", st: ["seed","series-a"], s: ["fintech","insurtech"], note: "₹400 Cr early-stage fund for payments, lending, wealth and insurtech.", url: "" },
+  { n: "All In Capital", t: "early", st: ["seed"], s: ["consumer","fintech","deeptech"], note: "₹200 Cr Fund II for consumer brands, fintech and deeptech.", url: "" },
+  { n: "Physis Capital", t: "early", st: ["seed","series-a"], s: ["consumer","fintech","deeptech"], note: "₹400 Cr maiden fund; concentrated portfolio of 15 to 20 companies.", url: "" },
+  { n: "Omnivore", t: "early", st: ["seed","series-a"], s: ["agri","climate","fintech"], note: "India's agritech pioneer; agrifood, climate and rural fintech.", url: "https://www.omnivore.vc" },
+  { n: "Avaana Capital", t: "early", st: ["seed","series-a"], s: ["climate","mobility","agri"], note: "$135M climate fund: energy, mobility, supply chains and food systems.", url: "" },
+  { n: "Fireside Ventures", t: "early", st: ["seed","series-a"], s: ["consumer","health"], note: "Consumer brands, sports and wellness.", url: "https://www.firesideventures.com" },
+  { n: "HealthQuad", t: "early", st: ["seed","series-a"], s: ["health"], note: "Healthcare specialist; Fund III first close at ₹550 Cr.", url: "" },
+  { n: "A91 Partners", t: "growth", st: ["growth"], s: ["consumer","health","fintech","b2b"], note: "$665M Fund III; $10M to $50M cheques from late seed to growth.", url: "https://www.a91partners.com" },
+  { n: "Fundamentum", t: "growth", st: ["growth"], s: ["consumer","fintech","ai"], note: "Fund III; ₹100 to 150 Cr cheques at the middle stage.", url: "" },
+  { n: "HealthKois", t: "growth", st: ["growth"], s: ["health"], note: "Growth-stage healthcare fund; $7M to $25M cheques.", url: "" },
+  { n: "ChrysCapital", t: "growth", st: ["growth"], s: ["all"], note: "Private equity; $2.2B Fund X, the largest India-focused PE fund.", url: "" },
+  { n: "Kedaara Capital", t: "growth", st: ["growth"], s: ["all"], note: "Private equity; $1.7B Fund IV.", url: "" },
+  { n: "Multiples", t: "growth", st: ["growth"], s: ["all"], note: "Private equity; growth and control deals.", url: "" },
+];
+
+/* ---------- prompts ---------- */
+const STYLE = "Be specific, concrete and ambitious. Write like a top operator, not a consultant. No preamble, no sign-off, no markdown.";
+const VLABELS = ["NAME","TAGLINE","CUSTOMER","PROBLEM","SOLUTION","MODEL","WHY NOW","MOAT","FIRST 90 DAYS"];
+const SLABELS = ["LINE","LINKEDIN","WHATSAPP","INSTAGRAM","PITCH"];
+
+function briefText() { return S.agents.vector.text.trim(); }
+function ledgerSummary() {
+  const m = S.agents.ledger.result;
+  if (!m) return "Not available.";
+  const c = m.currency || "", u = m.unit || "";
+  return `TAM ${c}${m.tam?.value} ${u}; SAM ${c}${m.sam?.value} ${u}; SOM ${c}${m.som?.value} ${u}. Revenue Y1 to Y5 (${c} ${u}): ${(m.revenue || []).join(", ")}. Customers Y1 to Y5: ${(m.customers || []).join(", ")}. CAC ${c}${m.cac}; LTV ${c}${m.ltv}; ARPU ${c}${m.arpu_monthly}/month; gross margin ${m.gross_margin_pct}%; payback ${m.payback_months} months.`;
+}
+
+const PROMPTS = {
+  vector: () => `You are VECTOR, the strategist on a seven-agent crew that turns a one-sentence idea into a company in two minutes. ${STYLE}
+
+IDEA: "${S.idea}"
+
+Write the company brief in exactly this format. Each field starts on its own line with its label in capitals, then a colon. Plain text only.
+NAME: a memorable brand name, one or two words, not an existing well-known brand
+TAGLINE: under 9 words
+CUSTOMER: exactly who buys, with the size of the group if you can estimate it
+PROBLEM: the painful problem, in one or two sentences
+SOLUTION: what the product does, concretely
+MODEL: how it makes money, with an indicative price in local currency
+WHY NOW: the shift that makes this possible now
+MOAT: what becomes harder to copy over time
+FIRST 90 DAYS: three concrete launch moves separated by semicolons
+
+Use the market and currency the idea implies; if none is implied, assume India and use ₹. Keep each field under 45 words.`,
+
+  ledger: () => `You are LEDGER, the analyst on a seven-agent crew building a company live. Be rigorous and realistic.
+
+COMPANY BRIEF:
+${briefText()}
+
+Build the market model. Return only one JSON object, with no code fences and no comments, using exactly these keys:
+{"headline": "one sentence on the size of the prize",
+ "currency": "currency symbol such as ₹ or $",
+ "unit": "unit for market and revenue figures, such as Cr (crore) or M (million)",
+ "tam": {"value": number, "note": "how you sized it, under 14 words"},
+ "sam": {"value": number, "note": "under 14 words"},
+ "som": {"value": number, "note": "under 14 words"},
+ "years": ["Y1","Y2","Y3","Y4","Y5"],
+ "revenue": [five numbers, annual revenue in the unit],
+ "customers": [five numbers, paying customers at each year end],
+ "cac": number in currency per customer,
+ "arpu_monthly": number in currency per customer per month,
+ "gross_margin_pct": number,
+ "ltv": number in currency per customer,
+ "payback_months": number,
+ "assumptions": ["four short strings: the assumptions that drive the model"]}
+All numbers must be plain JSON numbers. Keep it internally consistent: SOM < SAM < TAM, growth is plausible, and Y5 revenue does not exceed SOM.`,
+
+  canvas: () => `You are CANVAS, the designer-engineer on a seven-agent crew building a company live.
+
+COMPANY BRIEF:
+${briefText()}
+
+Build this company's complete marketing website as one self-contained HTML document.
+Rules:
+- Start with <!DOCTYPE html>. Output only the HTML: no code fences, no commentary.
+- All CSS in one <style> block. At most one Google Fonts <link>. No images, no external scripts and no other external URLs. Make every visual from CSS (gradients, shapes) and inline SVG, including a product interface mock in the hero.
+- Sections: sticky nav; hero with headline, subhead and call to action; product visual; three benefits; how it works in three steps; pricing with two or three plans in local currency; three FAQs; footer.
+- Give it a distinctive art direction that fits this brand. Choose your own palette and type pairing; avoid generic purple gradients and stock layouts.
+- Fully responsive: it must look excellent at 390px and at 1280px wide.
+- Links use href="#". No forms that submit.
+- Keep it under 240 lines.`,
+
+  forge: () => `You are FORGE, the engineer on a seven-agent crew building a company live.
+
+COMPANY BRIEF:
+${briefText()}
+
+Build the product's core working calculator: the one result a customer most wants to compute (for example a premium quote, savings, eligibility and EMI, or a price builder).
+Return exactly two blocks, in this order, and nothing else:
+===SPEC===
+{"title": "short name of the tool",
+ "description": "one sentence for the customer",
+ "inputs": [3 to 5 objects like {"id": "camelCase", "label": "string", "min": number, "max": number, "step": number, "value": number, "unit": "a prefix symbol like ₹, or a suffix like years or %, or empty"}],
+ "outputs": [3 or 4 objects like {"id": "camelCase", "label": "string", "format": "currency or percent or number or months or text", "unit": "string"}]}
+===CODE===
+The body of a JavaScript function compute(p), where p holds each input id as a number. It must return an object with a value for every output id. Pure arithmetic only: no loops over 1000 iterations, no network, no DOM. Declare the business assumptions as UPPER_CASE constants with a short comment each. Do not wrap it in a function declaration and do not use code fences.`,
+
+  signal: () => `You are SIGNAL, the marketer on a seven-agent crew building a company live. ${STYLE}
+
+COMPANY BRIEF:
+${briefText()}
+
+MARKET MODEL:
+${ledgerSummary()}
+
+Write the launch campaign in exactly this format. Each field starts on its own line with its label in capitals, then a colon. Plain text only; hashtags only in INSTAGRAM.
+LINE: the campaign line, under 8 words
+LINKEDIN: a founder's LinkedIn launch post, 60 to 90 words
+WHATSAPP: a WhatsApp broadcast to prospective customers, under 45 words
+INSTAGRAM: an Instagram caption under 35 words, then four hashtags
+PITCH: a 45-second spoken investor pitch of about 110 words, written to be read aloud, using two numbers from the market model`,
+
+  capital: () => `You are CAPITAL, the valuation and fundraising lead on a seven-agent crew building a company live. Be rigorous, realistic and specific.
+
+COMPANY BRIEF:
+${briefText()}
+
+MARKET MODEL (LEDGER's five-year plan):
+${ledgerSummary()}
+
+Return only one JSON object, with no code fences and no comments, using exactly these keys:
+{"stage": "pre-seed" or "seed" or "series-a", the round this company should raise now,
+ "sectors": [one to three tags chosen only from: ${SECTORS.join(", ")}],
+ "ask": amount to raise now, as a number in the same unit as the market model,
+ "use_of_funds": ["three short strings"],
+ "ebitda_margin_y1": percent, may be negative,
+ "ebitda_margin_y5": percent,
+ "ebitda_margin_terminal": percent at maturity,
+ "growth_y6": revenue growth percent in year 6,
+ "terminal_growth": long-run growth percent,
+ "tax_rate": percent,
+ "reinvestment_pct": capex plus working capital, as a percent of each year's revenue increase,
+ "wacc": discount rate percent suitable for a venture-stage company in this market,
+ "wacc_note": "why this rate, under 16 words",
+ "exit_multiple": EV to revenue multiple at year 5,
+ "multiple_note": "basis for the multiple, under 16 words",
+ "must_believe": ["three things that must be true for this valuation to hold"]}
+All numbers must be plain JSON numbers; write percentages as 22 for 22%.`,
+
+  breaker: () => `You are BREAKER, the red team on a seven-agent crew building a company live. Be unsparing and specific. No preamble, no markdown.
+
+COMPANY BRIEF:
+${briefText()}
+
+MARKET MODEL:
+${ledgerSummary()}
+
+Find the five most likely ways this company dies in its first three years. Output exactly five RISK lines, then one VERDICT line, in plain text:
+RISK: HIGH or MEDIUM or LOW | short title | why it kills the business, in one sentence | the cheapest test that would prove this risk wrong within 30 days
+VERDICT: one sharp sentence on whether you would fund it, and on what condition`,
+};
+
+/* ---------- parsing ---------- */
+function parseLabelled(text, labels) {
+  const re = new RegExp("^\\s*(?:\\*\\*)?(" + labels.map(l => l.replace(/ /g, "\\s+")).join("|") + ")(?:\\*\\*)?\\s*:\\s*(.*)$", "i");
+  const out = {}; let cur = null;
+  for (const line of String(text).split(/\r?\n/)) {
+    const m = line.match(re);
+    if (m) { const key = m[1].replace(/\s+/g, " ").toUpperCase(); cur = labels.find(l => l === key) || key; out[cur] = m[2].trim(); out._last = cur; }
+    else if (cur && line.trim()) out[cur] += (out[cur] ? "\n" : "") + line.trim();
+  }
+  return out;
+}
+function extractJSON(text) {
+  const s = String(text).replace(/```(?:json)?/gi, "");
+  const a = s.indexOf("{"), b = s.lastIndexOf("}");
+  if (a < 0 || b <= a) throw new Error("no JSON found");
+  return JSON.parse(s.slice(a, b + 1));
+}
+function extractHTML(text) {
+  let s = String(text).replace(/^\s*```(?:html)?\s*/i, "").replace(/```\s*$/, "");
+  const a = s.search(/<!DOCTYPE|<html/i);
+  if (a > 0) s = s.slice(a);
+  const b = s.toLowerCase().lastIndexOf("</html>");
+  if (b > 0) s = s.slice(0, b + 7);
+  return s.trim();
+}
+function parseForge(text) {
+  const t = String(text);
+  const a = t.indexOf("===SPEC==="), b = t.indexOf("===CODE===");
+  if (a < 0 || b < 0) throw new Error("missing SPEC or CODE block");
+  const spec = extractJSON(t.slice(a + 10, b));
+  const code = t.slice(b + 10).replace(/```(?:javascript|js)?/gi, "").trim();
+  if (!Array.isArray(spec.inputs) || !Array.isArray(spec.outputs) || !code) throw new Error("incomplete spec");
+  return { spec, code };
+}
+
+/* ---------- state ---------- */
+const S = { idea: "", agents: {}, ctrl: null, start: 0, end: 0, running: false, follow: true, tab: "vector", hours: 0, hoursShown: 0, brand: "" };
+const P = {}; // panel refs
+function resetAgents() { AGENTS.forEach(a => S.agents[a.id] = { status: "idle", text: "", t0: 0, t1: 0, energy: 0, result: null, error: null, truncated: false, dirty: false }); }
+resetAgents();
+
+/* ---------- capabilities ---------- */
+function waitForClaude(ms) {
+  return new Promise(res => {
+    const t0 = Date.now();
+    (function poll() { if (window.claude && typeof window.claude.use === "function") return res(window.claude); if (Date.now() - t0 > ms) return res(null); setTimeout(poll, 100); })();
+  });
+}
+/* Transport: inside Claude the page asks Claude directly; on readsigil.com it uses ReadSigil's backend. */
+const API = window.ENVELOPE_API || "https://vxtchhnnfwiyniwphfpf.supabase.co/functions/v1/envelope";
+const ON_SITE = /(^|\.)readsigil\.com$|github\.io$|^localhost$|^127\.0\.0\.1$/.test(location.hostname);
+const claudeReady = ON_SITE ? Promise.resolve(null) : waitForClaude(4000);
+async function probeBackend() {
+  try { const r = await fetch(API, { method: "GET", cache: "no-store" }); const j = await r.json(); return j && j.live ? "api" : null; }
+  catch (e) { return null; }
+}
+const sampleReady = claudeReady
+  .then(c => c ? c.use("sample").catch(() => null) : null)
+  .then(fn => fn || probeBackend());
+async function callAgent(id, { onText, signal, modelTier }) {
+  if (typeof S.sample === "function") return S.sample(PROMPTS[id](), { modelTier, signal, cache: false, onText });
+  const r = await fetch(API, {
+    method: "POST", signal, headers: { "content-type": "application/json" },
+    body: JSON.stringify({ agent: id, idea: S.idea, brief: S.agents.vector.text ? briefText() : "", market: S.agents.ledger.result ? ledgerSummary() : "" }),
+  });
+  if (!r.ok) { let j = {}; try { j = await r.json(); } catch (e) {} throw { code: j.code || "http_" + r.status, message: j.error || "" }; }
+  const reader = r.body.getReader(), dec = new TextDecoder();
+  let text = "";
+  while (true) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    const delta = dec.decode(value, { stream: true });
+    text += delta;
+    const shown = text.split("\u0000")[0];
+    onText({ text: shown, delta });
+  }
+  const parts = text.split("\u0000"), tail = parts[1] || "";
+  if (tail.startsWith("ERROR")) throw { code: "upstream", message: "The model stopped mid-answer." };
+  return { text: parts[0], truncated: tail.startsWith("TRUNCATED") };
+}
+let tts = null, dict = null;
+claudeReady.then(c => { if (!c) return; c.use("tts").then(t => { tts = t; }).catch(() => {}); c.use("dictation").then(d => { dict = d; if (d) setupMic(d); }).catch(() => {}); });
+const OFFLINE_MSG = ON_SITE ? "The live crew is offline right now. Please try again later." : "The live crew runs inside Claude or on readsigil.com/envelope.";
+sampleReady.then(fn => {
+  const box = $("#avail"), tx = $("#availText");
+  if (fn) { box.className = "avail ok"; tx.textContent = "Live crew ready"; }
+  else { box.className = "avail no"; tx.textContent = OFFLINE_MSG; }
+});
+
+/* ---------- hero: chips, manifest, input ---------- */
+const ideaBox = $("#idea");
+EXAMPLES.forEach(x => { const b = el("button", "chip", x); b.type = "button"; b.addEventListener("click", () => { ideaBox.value = x; updateCount(); ideaBox.focus(); }); $("#chips").append(b); });
+AGENTS.forEach((a, i) => {
+  const c = el("article", "crew-card" + (a.id === "capital" ? " wide" : ""));
+  c.append(el("span", "idx", pad(i + 1)), el("div", "role", a.role), el("div", "call", a.call), el("p", null, a.delivers), el("div", "hrs", "≈ " + a.hours + " h of team work"));
+  $("#crewGrid").append(c);
+});
+function updateCount() { $("#count").textContent = ideaBox.value.length + "/220"; }
+ideaBox.addEventListener("input", updateCount);
+ideaBox.addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#launchForm").requestSubmit(); } });
+$("#launchForm").addEventListener("submit", async e => {
+  e.preventDefault();
+  const idea = ideaBox.value.trim() || ideaBox.placeholder;
+  const btn = $("#launch"); btn.disabled = true;
+  const fn = await sampleReady;
+  btn.disabled = false;
+  if (!fn) { $("#availText").textContent = OFFLINE_MSG; return; }
+  launch(idea, fn);
+});
+
+function setupMic(d) {
+  const mic = $("#mic"); mic.hidden = false;
+  let base = "", listening = false;
+  d.onPartial(({ text }) => { ideaBox.value = (base + " " + text).trim().slice(0, 220); updateCount(); });
+  d.onFinal(({ text }) => { base = (base + " " + text).trim(); ideaBox.value = base.slice(0, 220); updateCount(); });
+  d.onState(({ state }) => { listening = state === "listening"; mic.classList.toggle("listening", listening); mic.textContent = listening ? "Stop listening" : "Speak it"; });
+  mic.addEventListener("click", () => {
+    if (listening) { d.stop().catch(() => {}); return; }
+    base = ideaBox.value.trim();
+    d.start().catch(err => { if (err && err.code === "not_granted") mic.hidden = true; });
+  });
+}
+
+/* ---------- hero canvas: the flight envelope ---------- */
+(function heroCanvas() {
+  const c = $("#env"), ctx = c.getContext("2d"), hero = $("#hero"), grid = $(".hero-grid");
+  let W = 0, H = 0, visible = true;
+  const parts = Array.from({ length: 64 }, () => ({ v: Math.random() * 0.9, k: Math.random(), sp: 0.0007 + Math.random() * 0.0013, ph: Math.random() * 6.28, probe: Math.random() < 0.14 }));
+  function size() { const d = Math.min(2, devicePixelRatio || 1); W = c.clientWidth; H = c.clientHeight; c.width = W * d; c.height = H * d; ctx.setTransform(d, 0, 0, d, 0, 0); if (REDUCE) draw(0); }
+  new ResizeObserver(size).observe(c);
+  new IntersectionObserver(es => { visible = es[0].isIntersecting; }).observe(hero);
+  function draw(t) {
+    ctx.clearRect(0, 0, W, H);
+    const gr = grid.getBoundingClientRect(), hr = hero.getBoundingClientRect();
+    let x0 = Math.max(W * 0.5, gr.right - hr.left + 40), x1 = W - 28, y0 = 54, y1 = H - 40;
+    const bg = (x1 - x0) < 340;
+    if (bg) { x0 = 16; x1 = W - 16; y0 = 70; }
+    ctx.globalAlpha = bg ? 0.22 : 1;
+    const breath = 1 + 0.04 * Math.sin(t * 0.55);
+    const NMAX = 5.2, NMIN = -2.4;
+    const X = v => x0 + v * (x1 - x0);
+    const Y = n => y0 + (NMAX - n) / (NMAX - NMIN) * (y1 - y0);
+    const nL = 4.4 * breath, va = 0.46, vd = Math.min(0.97, 0.9 * breath), nN = 1.8 * breath, vaN = 0.52;
+    ctx.lineWidth = 1; ctx.strokeStyle = "rgba(132,148,166,.10)";
+    for (let n = -2; n <= 5; n++) { ctx.beginPath(); ctx.moveTo(x0, Y(n)); ctx.lineTo(x1, Y(n)); ctx.stroke(); }
+    for (let i = 0; i <= 10; i++) { const v = i / 10; ctx.beginPath(); ctx.moveTo(X(v), y0); ctx.lineTo(X(v), y1); ctx.stroke(); }
+    ctx.strokeStyle = "rgba(132,148,166,.4)"; ctx.beginPath(); ctx.moveTo(x0, Y(0)); ctx.lineTo(x1, Y(0)); ctx.stroke();
+    function env(nl, val, vdl, nn, van) {
+      ctx.beginPath(); ctx.moveTo(X(0), Y(0));
+      for (let i = 0; i <= 64; i++) { const v = vdl * i / 64; ctx.lineTo(X(v), Y(Math.min(nl, nl * (v / val) ** 2))); }
+      ctx.lineTo(X(vdl), Y(-Math.min(nn, nn * (vdl / van) ** 2)));
+      for (let i = 64; i >= 0; i--) { const v = vdl * i / 64; ctx.lineTo(X(v), Y(-Math.min(nn, nn * (v / van) ** 2))); }
+      ctx.closePath();
+    }
+    // old envelope
+    ctx.setLineDash([4, 6]); ctx.strokeStyle = "rgba(156,207,242,.55)"; ctx.lineWidth = 1.2;
+    env(nL * 0.48, va * 0.8, vd * 0.52, nN * 0.5, vaN * 0.8); ctx.stroke(); ctx.setLineDash([]);
+    // today
+    env(nL, va, vd, nN, vaN);
+    const g = ctx.createLinearGradient(X(0), 0, X(vd), 0); g.addColorStop(0, "rgba(255,178,63,.02)"); g.addColorStop(1, "rgba(255,178,63,.10)");
+    ctx.fillStyle = g; ctx.fill();
+    ctx.strokeStyle = "#FFB23F"; ctx.lineWidth = 2; ctx.shadowColor = "rgba(255,178,63,.7)"; ctx.shadowBlur = 16; ctx.stroke(); ctx.shadowBlur = 0;
+    // particles
+    for (const p of parts) {
+      p.v += p.sp * (REDUCE ? 0 : 1);
+      if (p.v > vd) { p.v = 0; p.k = Math.random(); p.probe = Math.random() < 0.14; }
+      const lim = Math.min(nL, nL * (p.v / va) ** 2);
+      const frac = p.probe ? 1 : (0.12 + 0.8 * p.k) * (0.92 + 0.08 * Math.sin(t * 2 + p.ph));
+      const n = lim * frac;
+      const pv = Math.max(0, p.v - 0.035), pn = Math.min(nL, nL * (pv / va) ** 2) * frac;
+      ctx.strokeStyle = p.probe ? "rgba(255,178,63,.55)" : "rgba(156,207,242,.25)"; ctx.lineWidth = p.probe ? 1.6 : 1;
+      ctx.beginPath(); ctx.moveTo(X(pv), Y(pn)); ctx.lineTo(X(p.v), Y(n)); ctx.stroke();
+      ctx.fillStyle = p.probe ? "#FFD48A" : "rgba(200,230,250,.85)";
+      ctx.beginPath(); ctx.arc(X(p.v), Y(n), p.probe ? 2.4 : 1.4, 0, 6.283); ctx.fill();
+    }
+    // labels
+    if (bg) { ctx.globalAlpha = 1; return; }
+    ctx.font = '11px "JetBrains Mono", monospace'; ctx.textAlign = "left"; ctx.fillStyle = "#8494A6";
+    ctx.fillText("V–n DIAGRAM · THE FLIGHT ENVELOPE OF AI", x0, y0 - 18);
+    ctx.fillText("LOAD FACTOR n (g)", x0 + 6, Y(5) + 4);
+    ctx.textAlign = "right"; ctx.fillText("AIRSPEED V (kt) →", x1, Y(0) - 8);
+    ctx.fillText("V_NE", X(vd) - 4, Y(-nN) + 16);
+    ctx.textAlign = "left"; ctx.fillStyle = "#FFB23F";
+    ctx.fillText("+" + nL.toFixed(1) + " g · THE ENVELOPE, TODAY", X(va) + 8, Y(nL) - 10);
+    ctx.fillStyle = "#9CCFF2";
+    ctx.fillText("WHERE MOST PEOPLE THINK IT ENDS", X(va * 0.8) + 8, Y(nL * 0.48) - 10);
+    ctx.globalAlpha = 1;
+  }
+  const t0 = performance.now();
+  function loop(now) { if (visible && !document.body.classList.contains("in-mission")) draw((now - t0) / 1000); requestAnimationFrame(loop); }
+  size();
+  if (!REDUCE) requestAnimationFrame(loop);
+})();
+
+/* ---------- crew canvas ---------- */
+const crew = { c: $("#crew"), ctx: null, W: 0, H: 0, packets: [], sparks: [] };
+crew.ctx = crew.c.getContext("2d");
+function crewSize() { const d = Math.min(2, devicePixelRatio || 1); crew.W = crew.c.clientWidth; crew.H = crew.c.clientHeight; crew.c.width = crew.W * d; crew.c.height = crew.H * d; crew.ctx.setTransform(d, 0, 0, d, 0, 0); }
+new ResizeObserver(crewSize).observe(crew.c);
+const COL = { active: "#FFB23F", done: "#FFB23F", failed: "#FF6A57", aborted: "#FF6A57", idle: "#33445A" };
+function crewFrame(now) {
+  if (!document.body.classList.contains("in-mission")) return requestAnimationFrame(crewFrame);
+  const { ctx, W, H } = crew;
+  ctx.clearRect(0, 0, W, H);
+  const cx = W / 2, cy = H / 2, R = Math.min(W * 0.36, H * 0.32), nr = Math.max(17, Math.min(27, R * 0.2));
+  const pos = AGENTS.map((a, i) => { const ang = -Math.PI / 2 + i * 2 * Math.PI / AGENTS.length; return { x: cx + R * Math.cos(ang), y: cy + R * Math.sin(ang) }; });
+  ctx.lineWidth = 1; ctx.setLineDash([2, 6]); ctx.strokeStyle = "rgba(132,148,166,.22)";
+  ctx.beginPath(); ctx.arc(cx, cy, R, 0, 6.283); ctx.stroke(); ctx.setLineDash([]);
+  AGENTS.forEach((a, i) => {
+    const st = S.agents[a.id].status;
+    ctx.strokeStyle = st === "active" ? "rgba(255,178,63,.5)" : st === "done" ? "rgba(255,178,63,.22)" : "rgba(132,148,166,.12)";
+    ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(pos[i].x, pos[i].y); ctx.stroke();
+  });
+  LINKS.forEach(([f, t]) => { const A = pos[IDX[f]], B = pos[IDX[t]]; ctx.strokeStyle = "rgba(156,207,242,.14)"; ctx.beginPath(); ctx.moveTo(A.x, A.y); ctx.lineTo(B.x, B.y); ctx.stroke(); });
+  crew.packets = crew.packets.filter(p => now - p.t0 < p.dur);
+  for (const p of crew.packets) {
+    const k = (now - p.t0) / p.dur; if (k < 0) continue;
+    const e = k < .5 ? 2 * k * k : 1 - (-2 * k + 2) ** 2 / 2, e2 = Math.max(0, e - 0.18);
+    const A = pos[IDX[p.f]], B = pos[IDX[p.t]];
+    const x = A.x + (B.x - A.x) * e, y = A.y + (B.y - A.y) * e, xb = A.x + (B.x - A.x) * e2, yb = A.y + (B.y - A.y) * e2;
+    const g = ctx.createLinearGradient(xb, yb, x, y); g.addColorStop(0, "rgba(255,178,63,0)"); g.addColorStop(1, "rgba(255,178,63,.95)");
+    ctx.strokeStyle = g; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(xb, yb); ctx.lineTo(x, y); ctx.stroke(); ctx.lineWidth = 1;
+    ctx.fillStyle = "#FFE2A8"; ctx.shadowColor = "#FFB23F"; ctx.shadowBlur = 14; ctx.beginPath(); ctx.arc(x, y, 3.5, 0, 6.283); ctx.fill(); ctx.shadowBlur = 0;
+  }
+  AGENTS.forEach((a, i) => {
+    const st = S.agents[a.id], { x, y } = pos[i];
+    if (st.status === "active" && !REDUCE) {
+      const ph = (now / 1000 * 1.2 + i * 0.27) % 1;
+      ctx.strokeStyle = `rgba(255,178,63,${0.55 * (1 - ph)})`; ctx.beginPath(); ctx.arc(x, y, nr + ph * nr * 1.5, 0, 6.283); ctx.stroke();
+      ctx.strokeStyle = "#FFB23F"; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.arc(x, y, nr + 5, now / 380, now / 380 + 1.7); ctx.stroke(); ctx.lineWidth = 1;
+      if (Math.random() < 0.15 + st.energy * 0.7) crew.sparks.push({ x, y, a: Math.random() * 6.283, r: nr, life: 1, sp: 0.5 + Math.random() * 1.6 });
+      st.energy *= 0.96;
+    }
+    ctx.fillStyle = st.status === "done" ? "rgba(255,178,63,.16)" : "#151C26";
+    ctx.beginPath(); ctx.arc(x, y, nr, 0, 6.283); ctx.fill();
+    ctx.strokeStyle = COL[st.status] || COL.idle; ctx.lineWidth = st.status === "idle" ? 1 : 1.6; ctx.stroke(); ctx.lineWidth = 1;
+    ctx.textAlign = "center"; ctx.textBaseline = "middle";
+    ctx.fillStyle = st.status === "idle" ? "#6B7B8D" : st.status === "failed" || st.status === "aborted" ? "#FF6A57" : "#FFB23F";
+    ctx.font = (st.status === "done" ? "600 15px " : "600 11px ") + '"JetBrains Mono", monospace';
+    ctx.fillText(st.status === "done" ? "✓" : st.status === "failed" ? "!" : pad(i + 1), x, y + 1);
+    ctx.font = '600 11px "JetBrains Mono", monospace';
+    ctx.fillStyle = st.status === "idle" ? "#6B7B8D" : "#E9EEF3";
+    ctx.fillText(a.call, x, i === 0 ? y - nr - 12 : y + nr + 14);
+    ctx.textBaseline = "alphabetic";
+  });
+  crew.sparks = crew.sparks.filter(s => s.life > 0);
+  for (const s of crew.sparks) { s.r += s.sp; s.life -= 0.025; ctx.fillStyle = `rgba(255,190,90,${s.life * 0.8})`; ctx.beginPath(); ctx.arc(s.x + Math.cos(s.a) * s.r, s.y + Math.sin(s.a) * s.r, 1.4, 0, 6.283); ctx.fill(); }
+  // core
+  const anyActive = AGENTS.some(a => S.agents[a.id].status === "active");
+  const cr = nr * 1.55 + (anyActive && !REDUCE ? Math.sin(now / 300) * 1.5 : 0);
+  const rg = ctx.createRadialGradient(cx, cy, 2, cx, cy, cr * 1.8); rg.addColorStop(0, "rgba(255,178,63,.30)"); rg.addColorStop(1, "rgba(255,178,63,0)");
+  ctx.fillStyle = rg; ctx.beginPath(); ctx.arc(cx, cy, cr * 1.8, 0, 6.283); ctx.fill();
+  ctx.fillStyle = "#0E141B"; ctx.beginPath(); ctx.arc(cx, cy, cr, 0, 6.283); ctx.fill();
+  ctx.strokeStyle = "rgba(255,178,63,.6)"; ctx.stroke();
+  ctx.textAlign = "center"; ctx.fillStyle = "#E9EEF3";
+  const name = (S.brand || "CORE").toUpperCase().slice(0, 14);
+  let fs = 20; ctx.font = `800 ${fs}px "Big Shoulders Display", sans-serif`;
+  while (ctx.measureText(name).width > cr * 1.75 && fs > 10) { fs--; ctx.font = `800 ${fs}px "Big Shoulders Display", sans-serif`; }
+  ctx.fillText(name, cx, cy + fs * 0.33 - (S.valuation ? 6 : 0));
+  if (S.valuation) { ctx.font = '600 10px "JetBrains Mono", monospace'; ctx.fillStyle = "#FFB23F"; ctx.fillText(S.valuation.slice(0, 18), cx, cy + fs * 0.33 + 10); }
+  requestAnimationFrame(crewFrame);
+}
+requestAnimationFrame(crewFrame);
+function handoff(from, tos) { const now = performance.now(); tos.forEach((t, i) => crew.packets.push({ f: from, t, t0: now + i * 140, dur: 950 })); log("HANDOFF", `${DEF[from].call} → ${tos.map(t => DEF[t].call).join(", ")}`); }
+
+/* ---------- log ---------- */
+function log(who, msg) {
+  const box = $("#log"), row = el("div");
+  row.append(el("span", "t", clock(performance.now() - S.start)), el("span", "c", who + " ▸ "), document.createTextNode(msg));
+  box.append(row); while (box.children.length > 80) box.firstChild.remove();
+  box.scrollTop = box.scrollHeight;
+}
+
+/* ---------- mission UI ---------- */
+function buildMissionUI() {
+  $("#mTitle").textContent = S.idea;
+  $("#mState").textContent = "Mission in flight";
+  $("#debrief").hidden = true; $("#debrief").replaceChildren();
+  $("#log").replaceChildren(); $("#tabs").replaceChildren(); $("#panels").replaceChildren();
+  AGENTS.forEach(a => {
+    const tab = el("button", "tab"); tab.type = "button"; tab.setAttribute("role", "tab"); tab.id = "tab-" + a.id;
+    const dot = el("i", "dot"); tab.append(dot, document.createTextNode(a.call));
+    tab.addEventListener("click", () => { setTab(a.id); setFollow(false); });
+    $("#tabs").append(tab);
+    const root = el("div", "apanel"); root.id = "panel-" + a.id; root.setAttribute("role", "tabpanel");
+    const head = el("div", "ahead"), who = el("div", "who");
+    who.append(el("span", "call", a.call), el("span", "role", a.role));
+    const pill = el("span", "pill", "Standing by");
+    head.append(who, pill);
+    const body = el("div", "abody");
+    root.append(head, body); $("#panels").append(root);
+    P[a.id] = { tab, dot, root, pill, body };
+    renderWaiting(a.id);
+  });
+  setTab("vector"); setFollow(true);
+}
+function renderWaiting(id) {
+  const w = el("div", "waiting"); const deps = LINKS.filter(l => l[1] === id).map(l => DEF[l[0]].call);
+  w.append(el("strong", null, DEF[id].delivers), document.createTextNode(deps.length ? "Standing by for " + deps.join(" and ") : "Standing by"));
+  P[id].body.replaceChildren(w);
+}
+function setTab(id) {
+  S.tab = id;
+  AGENTS.forEach(a => { const on = a.id === id; P[a.id].tab.setAttribute("aria-selected", on); P[a.id].root.classList.toggle("show", on); });
+  P[id].tab.scrollIntoView({ block: "nearest", inline: "nearest" });
+}
+function setFollow(on) { S.follow = on; const b = $("#follow"); b.setAttribute("aria-pressed", on); b.textContent = on ? "Following live" : "Follow live"; }
+$("#follow").addEventListener("click", () => { setFollow(!S.follow); if (S.follow) { const act = AGENTS.filter(a => S.agents[a.id].status === "active").pop(); if (act) setTab(act.id); } });
+function setStatus(id, status) {
+  const a = S.agents[id]; a.status = status;
+  const p = P[id]; p.dot.className = "dot " + status; p.pill.className = "pill " + status;
+  p.pill.textContent = status === "active" ? "Working · " + clock(performance.now() - a.t0) : status === "done" ? "Done in " + ((a.t1 - a.t0) / 1000).toFixed(0) + " s" : status === "failed" ? "Failed" : status === "aborted" ? "Aborted" : "Standing by";
+}
+
+/* ---------- streaming renders ---------- */
+function streamView(id, title, text, mode) {
+  const body = P[id].body, a = S.agents[id];
+  let wrap = body.querySelector(".streamwrap");
+  if (!wrap) {
+    wrap = el("div", "streamwrap");
+    const head = el("div", "streamhead"); head.append(el("span", "eyebrow", title), el("span", "label"));
+    wrap.append(head, el("pre", "stream caret")); body.replaceChildren(wrap);
+  }
+  const lines = String(text).split("\n");
+  wrap.querySelector(".label").textContent = mode === "code" ? `${lines.length} lines · ${(text.length / 1024).toFixed(1)} KB` : `${countWords(text)} tokens of thought`;
+  wrap.querySelector("pre").textContent = lines.slice(-46).join("\n");
+}
+function renderBrief(text, live) {
+  const f = parseLabelled(text, VLABELS), body = P.vector.body;
+  if (f.NAME) S.brand = f.NAME.replace(/[^\p{L}\p{N} &'-]/gu, "").trim();
+  const frag = document.createDocumentFragment();
+  if (!f.NAME) { frag.append(el("div", "waiting caret", "Locking the concept")); body.replaceChildren(frag); return; }
+  const h = el("h3", "b-name", f.NAME); frag.append(h);
+  if (f.TAGLINE != null) frag.append(el("p", "b-tag", f.TAGLINE));
+  const grid = el("div", "b-grid");
+  ["CUSTOMER","PROBLEM","SOLUTION","MODEL","WHY NOW","MOAT","FIRST 90 DAYS"].forEach(k => {
+    if (f[k] == null) return;
+    const box = el("div", "b-field" + (k === "FIRST 90 DAYS" ? " wide" : ""));
+    const v = el("div", "v", k === "FIRST 90 DAYS" ? f[k].split(/;\s*/).filter(Boolean).map((s, i) => (i + 1) + ". " + s).join("\n") : f[k]);
+    if (live && f._last === k) v.classList.add("caret");
+    box.append(el("div", "label", k), v); grid.append(box);
+  });
+  if (live && (f._last === "NAME" || f._last === "TAGLINE")) frag.lastChild.classList.add("caret");
+  frag.append(grid); body.replaceChildren(frag);
+}
+function renderSignal(text, live) {
+  const f = parseLabelled(text, SLABELS), body = P.signal.body, frag = document.createDocumentFragment();
+  if (!f.LINE) { body.replaceChildren(el("div", "waiting caret", "Finding the line")); return; }
+  frag.append(el("h3", "c-line" + (live && f._last === "LINE" ? " caret" : ""), f.LINE));
+  const brand = S.brand || "Launch", initials = brand.split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpperCase();
+  const handle = brand.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const social = el("div", "social");
+  [["LINKEDIN", "LinkedIn post", ""], ["WHATSAPP", "WhatsApp broadcast", " wa"], ["INSTAGRAM", "Instagram caption", " ig"]].forEach(([k, ch, cls]) => {
+    if (f[k] == null) return;
+    const post = el("div", "post" + cls), who = el("div", "who"), meta = el("div");
+    meta.append(el("div", "nm", k === "INSTAGRAM" ? "@" + handle : brand), el("div", "ch", ch));
+    who.append(el("div", "avatar", initials), meta); post.append(who);
+    if (k === "INSTAGRAM") post.append(el("div", "poster", f.LINE));
+    post.append(el("div", "tx" + (live && f._last === k ? " caret" : ""), f[k]));
+    social.append(post);
+  });
+  frag.append(social);
+  if (f.PITCH != null) {
+    const pitch = el("div", "pitch"), ph = el("div", "ph");
+    ph.append(el("span", "label", "45-second investor pitch"));
+    if (tts && !live) {
+      const b = el("button", "btn-ghost small", "Hear the pitch"); b.type = "button";
+      b.addEventListener("click", () => {
+        if (b.dataset.on === "1") { tts.stop(); return; }
+        b.dataset.on = "1"; b.textContent = "Stop";
+        tts.speak(f.PITCH, { voice: "buttery" }).catch(err => { if (err && err.code === "not_granted") b.remove(); }).finally(() => { b.dataset.on = ""; b.textContent = "Hear the pitch"; });
+      });
+      ph.append(b);
+    }
+    pitch.append(ph, el("p", live && f._last === "PITCH" ? "caret" : null, f.PITCH)); frag.append(pitch);
+  }
+  body.replaceChildren(frag);
+}
+function renderBreaker(text, live) {
+  const body = P.breaker.body, frag = document.createDocumentFragment(), ol = el("ol", "risks");
+  const lines = String(text).split(/\r?\n/);
+  let verdict = null, lastRisk = null;
+  lines.forEach(line => {
+    const m = line.match(/^\s*RISK\s*:\s*(.*)$/i); const v = line.match(/^\s*VERDICT\s*:\s*(.*)$/i);
+    if (m) {
+      const parts = m[1].split("|").map(s => s.trim());
+      const sev = (parts[0] || "").toUpperCase().replace(/[^A-Z]/g, "");
+      const li = el("li", "risk " + (["HIGH","MEDIUM","LOW"].includes(sev) ? sev : "LOW"));
+      const rb = el("div", "rb"), rt = el("div", "rt");
+      rt.append(el("span", "sev", sev || "RISK"), el("h4", null, parts[1] || ""));
+      rb.append(rt);
+      if (parts[2]) rb.append(el("p", null, parts[2]));
+      if (parts[3]) { const t = el("p", "test"); t.append(el("span", null, "30-DAY TEST"), document.createTextNode(parts.slice(3).join(" | "))); rb.append(t); }
+      li.append(el("div", "stripe"), rb); ol.append(li); lastRisk = rb;
+    } else if (v) verdict = v[1];
+  });
+  if (!ol.children.length && verdict == null) { body.replaceChildren(el("div", "waiting caret", "Looking for the weak points")); return; }
+  frag.append(ol);
+  if (verdict != null) { frag.append(el("div", "verdict" + (live ? " caret" : ""), verdict)); }
+  else if (live && lastRisk) lastRisk.lastChild.classList.add("caret");
+  body.replaceChildren(frag);
+}
+function renderStream(id) {
+  const a = S.agents[id];
+  if (id === "vector") renderBrief(a.text, true);
+  else if (id === "ledger") streamView(id, "Building the model", a.text, "text");
+  else if (id === "canvas") streamView(id, "Writing the website", extractHTML(a.text) || a.text, "code");
+  else if (id === "forge") streamView(id, "Engineering the product", a.text, "code");
+  else if (id === "signal") renderSignal(a.text, true);
+  else if (id === "breaker") renderBreaker(a.text, true);
+  else if (id === "capital") streamView(id, "Building the valuation", a.text, "text");
+}
+function streamPump() {
+  AGENTS.forEach(a => { const st = S.agents[a.id]; if (st.dirty && st.status === "active") { st.dirty = false; renderStream(a.id); } });
+  requestAnimationFrame(streamPump);
+}
+requestAnimationFrame(streamPump);
+
+/* ---------- final renders ---------- */
+function renderLedger(m) {
+  const body = P.ledger.body, frag = document.createDocumentFragment();
+  const cur = m.currency || "", unit = m.unit || "";
+  locale = cur === "₹" ? "en-IN" : "en-US";
+  const money = v => (typeof v === "number" ? cur + nf(v, Math.abs(v) < 10 ? 1 : 0) : "—");
+  if (m.headline) frag.append(el("p", "l-head", m.headline));
+  const tiles = el("div", "tiles");
+  [["TAM", m.tam], ["SAM", m.sam], ["SOM", m.som]].forEach(([k, o]) => { const t = el("div", "tile"); t.append(el("div", "label", k), el("div", "v", money(o && o.value) + " " + unit), el("p", null, (o && o.note) || "")); tiles.append(t); });
+  frag.append(tiles);
+  const rev = (m.revenue || []).map(Number).filter(isFinite);
+  if (rev.length) {
+    const box = el("div", "chartbox"); box.append(el("div", "label", `Revenue, ${cur} ${unit} per year`));
+    const Wd = 600, Hd = 250, L = 48, Rr = 10, T = 22, B = 46, max = Math.max(...rev);
+    const mag = 10 ** Math.floor(Math.log10(max || 1)), top = Math.ceil(max / mag * 2) / 2 * mag || 1;
+    const NS = "http://www.w3.org/2000/svg", svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", `0 0 ${Wd} ${Hd}`); svg.setAttribute("role", "img"); svg.setAttribute("aria-label", "Five-year revenue projection");
+    const mk = (tag, at, txt) => { const n = document.createElementNS(NS, tag); for (const k in at) n.setAttribute(k, at[k]); if (txt != null) n.textContent = txt; svg.append(n); return n; };
+    const yy = v => T + (1 - v / top) * (Hd - T - B);
+    [0, top / 2, top].forEach(v => { mk("line", { x1: L, x2: Wd - Rr, y1: yy(v), y2: yy(v), stroke: "rgba(132,148,166,.18)" }); mk("text", { x: L - 8, y: yy(v) + 4, "text-anchor": "end" }, nf(v, v < 10 ? 1 : 0)); });
+    const bw = (Wd - L - Rr) / rev.length;
+    rev.forEach((v, i) => {
+      const x = L + i * bw + bw * 0.18, w = bw * 0.64, last = i === rev.length - 1;
+      const r = mk("rect", { x, y: yy(v), width: w, height: Math.max(1, yy(0) - yy(v)), rx: 3, fill: last ? "#FFB23F" : "rgba(255,178,63,.42)", class: "bar" }); r.style.animationDelay = (i * 0.09) + "s";
+      mk("text", { x: x + w / 2, y: yy(v) - 7, "text-anchor": "middle", class: "val" }, nf(v, v < 10 ? 1 : 0));
+      mk("text", { x: x + w / 2, y: Hd - B + 18, "text-anchor": "middle" }, (m.years && m.years[i]) || "Y" + (i + 1));
+      if (m.customers && m.customers[i] != null) mk("text", { x: x + w / 2, y: Hd - B + 34, "text-anchor": "middle" }, nf(Number(m.customers[i])) + " cust.");
+    });
+    box.append(svg); frag.append(box);
+  }
+  const ue = el("div", "ue");
+  const ratio = (m.ltv && m.cac) ? (m.ltv / m.cac).toFixed(1) + "×" : "—";
+  [["CAC", money(m.cac)], ["LTV", money(m.ltv)], ["LTV : CAC", ratio], ["ARPU / month", money(m.arpu_monthly)], ["Gross margin", m.gross_margin_pct != null ? nf(m.gross_margin_pct, 1) + "%" : "—"], ["Payback", m.payback_months != null ? nf(m.payback_months, 1) + " months" : "—"]]
+    .forEach(([k, v]) => { const d = el("div"); d.append(el("span", "label", k), el("b", null, v)); ue.append(d); });
+  frag.append(ue);
+  if (Array.isArray(m.assumptions) && m.assumptions.length) { frag.append(el("div", "label", "What drives the model")); const ul = el("ul", "assump"); m.assumptions.forEach(s => ul.append(el("li", null, s))); frag.append(ul); }
+  frag.append(el("p", "note", "Model estimates generated live by LEDGER. Not market research."));
+  body.replaceChildren(frag);
+}
+function renderSite(html) {
+  const body = P.canvas.body, frag = document.createDocumentFragment();
+  const tools = el("div", "site-tools"), seg = el("div", "seg");
+  const bD = el("button", null, "Desktop"), bP = el("button", null, "Phone"), bC = el("button", null, "Code");
+  [bD, bP, bC].forEach(b => { b.type = "button"; seg.append(b); });
+  const right = el("div"); right.style.display = "flex"; right.style.gap = "8px";
+  const copy = el("button", "btn-ghost small", "Copy HTML"); copy.type = "button"; copy.addEventListener("click", () => copyText(html, "Website HTML copied"));
+  right.append(el("span", "label", countLines(html) + " lines, written live"), copy); right.style.alignItems = "center"; right.style.flexWrap = "wrap";
+  tools.append(seg, right);
+  const frame = el("div", "frame reveal"), bar = el("div", "bar");
+  bar.append(el("i"), el("i"), el("i"), el("div", "addr", "https://" + ((S.brand || "launch").toLowerCase().replace(/[^a-z0-9]/g, "") || "launch") + ".com"));
+  const ifr = document.createElement("iframe"); ifr.setAttribute("sandbox", "allow-scripts"); ifr.title = "Website built by CANVAS"; ifr.srcdoc = html;
+  frame.append(bar, ifr);
+  const code = el("pre"); code.className = "stream"; code.style.maxHeight = "640px"; code.style.webkitMaskImage = "none"; code.style.maskImage = "none"; code.style.overflow = "auto"; code.style.display = "block"; code.textContent = html; code.hidden = true;
+  const mode = m => { bD.setAttribute("aria-pressed", m === "d"); bP.setAttribute("aria-pressed", m === "p"); bC.setAttribute("aria-pressed", m === "c"); frame.hidden = m === "c"; code.hidden = m !== "c"; frame.classList.toggle("phone", m === "p"); };
+  bD.addEventListener("click", () => mode("d")); bP.addEventListener("click", () => mode("p")); bC.addEventListener("click", () => mode("c"));
+  mode(window.innerWidth < 700 ? "p" : "d");
+  frag.append(tools, frame, code);
+  if (S.agents.canvas.truncated) frag.append(el("p", "note", "The output hit its length limit, so the page may end early."));
+  body.replaceChildren(frag);
+}
+function makeRunner(code) {
+  const full = /^\s*function\s+compute\s*\(/.test(code);
+  const src = '"use strict";\n' + (full ? code : "function compute(p){\n" + code + "\n}") +
+    '\nself.onmessage=function(e){var id=e.data.id;try{var r=compute(e.data.p);self.postMessage({id:id,ok:true,r:JSON.parse(JSON.stringify(r))});}catch(err){self.postMessage({id:id,ok:false,e:String(err&&err.message||err)});}};';
+  const url = URL.createObjectURL(new Blob([src], { type: "text/javascript" }));
+  let w = null, seq = 0, pending = null;
+  const boot = () => {
+    w = new Worker(url);
+    w.onmessage = e => { if (pending && e.data.id === pending.id) { clearTimeout(pending.t); const p = pending; pending = null; e.data.ok ? p.res(e.data.r) : p.rej(new Error(e.data.e)); } };
+    w.onerror = ev => { ev.preventDefault(); if (pending) { clearTimeout(pending.t); const p = pending; pending = null; p.rej(new Error(ev.message || "The generated code has an error")); } };
+  };
+  boot();
+  return {
+    run(p) {
+      return new Promise((res, rej) => {
+        if (pending) { clearTimeout(pending.t); pending.rej(new Error("superseded")); }
+        const id = ++seq;
+        pending = { id, res, rej, t: setTimeout(() => { pending = null; w.terminate(); boot(); rej(new Error("The calculation took too long")); }, 1200) };
+        w.postMessage({ id, p });
+      });
+    },
+  };
+}
+function renderForge({ spec, code }) {
+  const body = P.forge.body, frag = document.createDocumentFragment();
+  const runs = el("div", "runs"); runs.append(el("i"), document.createTextNode("Running live on this page"));
+  frag.append(runs, el("h3", "f-title", spec.title || "Calculator"), el("p", "f-desc", spec.description || ""));
+  const calc = el("div", "calc"), ins = el("div", "inputs"), outs = el("div", "outs"), err = el("div", "calc-err");
+  const vals = {}, outEls = {};
+  const fmtIn = (v, u) => isPrefix(u) ? u + nf(v, 2) : nf(v, 2) + (u ? " " + u : "");
+  spec.inputs.slice(0, 6).forEach(inp => {
+    const min = Number(inp.min) || 0, max = Number(inp.max) || 100, step = Number(inp.step) || (max - min) / 100 || 1;
+    let v = Number(inp.value); if (!isFinite(v)) v = min; v = Math.min(max, Math.max(min, v)); vals[inp.id] = v;
+    const box = el("div", "inp"), lab = el("label"), out = el("b", null, fmtIn(v, inp.unit));
+    const id = "f-" + String(inp.id).replace(/[^a-zA-Z0-9_-]/g, "");
+    lab.htmlFor = id; lab.append(document.createTextNode(inp.label || inp.id), out);
+    const r = document.createElement("input"); r.type = "range"; r.id = id; r.min = min; r.max = max; r.step = step; r.value = v;
+    r.addEventListener("input", () => { vals[inp.id] = Number(r.value); out.textContent = fmtIn(vals[inp.id], inp.unit); schedule(); });
+    box.append(lab, r); ins.append(box);
+  });
+  spec.outputs.slice(0, 5).forEach(o => { const b = el("div", "out"), v = el("div", "v", "…"); b.append(el("div", "label", o.label || o.id), v); outs.append(b); outEls[o.id] = { v, o }; });
+  calc.append(ins, outs); frag.append(calc, err);
+  const det = el("details", "code"), sum = el("summary", null, `View the code FORGE wrote · ${countLines(code)} lines`), pre = el("pre", null, code);
+  det.append(sum, pre); frag.append(det);
+  body.replaceChildren(frag);
+  let runner = null;
+  try { runner = makeRunner(code); } catch (e) { err.textContent = "This browser could not start the calculator: " + e.message; return; }
+  const fmtOut = (v, o) => {
+    if (v == null || (typeof v === "number" && !isFinite(v))) return "—";
+    if (typeof v !== "number") return String(v);
+    const u = o.unit || "";
+    if (o.format === "currency") return isPrefix(u) ? u + nf(v, Math.abs(v) < 100 ? 2 : 0) : nf(v, Math.abs(v) < 100 ? 2 : 0) + (u ? " " + u : "");
+    if (o.format === "percent") return nf(v, 1) + "%";
+    if (o.format === "months") return nf(v, 1) + " months";
+    return (isPrefix(u) ? u : "") + nf(v, Math.abs(v) < 100 ? 2 : 0) + (u && !isPrefix(u) ? " " + u : "");
+  };
+  let queued = false;
+  function schedule() { if (queued) return; queued = true; requestAnimationFrame(() => { queued = false; compute(); }); }
+  function compute() {
+    runner.run({ ...vals }).then(r => {
+      err.textContent = "";
+      for (const k in outEls) outEls[k].v.textContent = fmtOut(r ? r[k] : null, outEls[k].o);
+    }).catch(e => { if (e.message !== "superseded") err.textContent = "Calculator error: " + e.message; });
+  }
+  compute();
+}
+const pctN = (x, d) => { const v = Number(x); return isFinite(v) ? v : d; };
+function dcfModel(L, m, p) {
+  const base = (L.revenue || []).map(Number).slice(0, 5); while (base.length < 5) base.push(base[base.length - 1] || 0);
+  const rev = base.slice(), gT = p.g / 100, g6 = pctN(m.growth_y6, 30) / 100;
+  for (let t = 6; t <= 10; t++) { const g = g6 + (gT - g6) * (t - 6) / 4; rev.push(rev[t - 2] * (1 + g)); }
+  const m1 = pctN(m.ebitda_margin_y1, -20) / 100, m5 = pctN(m.ebitda_margin_y5, 15) / 100, mT = p.mT / 100;
+  const tax = pctN(m.tax_rate, 25) / 100, re = pctN(m.reinvestment_pct, 20) / 100, w = p.w / 100;
+  const rows = []; let sumPV = 0, prev = 0;
+  for (let t = 1; t <= 10; t++) {
+    const margin = t <= 5 ? m1 + (m5 - m1) * (t - 1) / 4 : m5 + (mT - m5) * (t - 5) / 5;
+    const r = rev[t - 1], e = r * margin, fcf = e - Math.max(0, e) * tax - re * Math.max(0, r - prev);
+    const pv = fcf / Math.pow(1 + w, t); sumPV += pv; rows.push({ t, r, margin, fcf, pv }); prev = r;
+  }
+  const tv = rows[9].fcf * (1 + gT) / Math.max(0.01, w - gT), pvTV = tv / Math.pow(1 + w, 10);
+  return { rows, sumPV, pvTV, ev: sumPV + pvTV };
+}
+function matchInvestors(m) {
+  const tags = (Array.isArray(m.sectors) ? m.sectors : []).map(x => String(x).toLowerCase().trim());
+  const stage = String(m.stage || "seed").toLowerCase();
+  const rank = f => { const ov = f.s.filter(x => tags.includes(x)); return { f, ov, sc: ov.length * 3 + (f.st.includes(stage) ? 2 : 0) + (f.s.includes("all") ? 1 : 0) }; };
+  const early = INVESTORS.filter(f => f.t === "early").map(rank).filter(x => x.sc >= 3).sort((a, b) => b.sc - a.sc).slice(0, 6);
+  const growth = INVESTORS.filter(f => f.t === "growth").map(rank).sort((a, b) => b.sc - a.sc).slice(0, 3);
+  return { early, growth, stage, tags };
+}
+function renderCapital(m) {
+  const L = S.agents.ledger.result, body = P.capital.body, frag = document.createDocumentFragment();
+  const cur = L.currency || "", unit = L.unit || "";
+  const money = v => { if (!isFinite(v)) return "—"; const a = Math.abs(v); return (v < 0 ? "−" : "") + cur + nf(a, a < 10 ? 1 : 0) + (unit ? " " + unit : ""); };
+  const stageName = { "pre-seed": "Pre-seed", "seed": "Seed", "series-a": "Series A", "growth": "Growth / PE" };
+  const TARGET = { "pre-seed": 60, "seed": 50, "series-a": 40 };
+  const p = { w: pctN(m.wacc, 22), g: pctN(m.terminal_growth, 5), mT: pctN(m.ebitda_margin_terminal, 20), mult: pctN(m.exit_multiple, 4) };
+  const stage = String(m.stage || "seed").toLowerCase(), ask = pctN(m.ask, NaN), target = TARGET[stage] || 50;
+
+  frag.append(el("p", "l-head", `Raise a ${stageName[stage] || "Seed"} round of ${money(ask)}. Here is what the company is worth, and how sensitive that number is.`));
+  const tiles = el("div", "tiles"), tv = {};
+  [["dcf", "DCF enterprise value", "Ten-year free cash flow plus terminal value"], ["vc", "VC-method post-money", ""], ["dil", "Dilution on this raise", ""]].forEach(([k, lab, note]) => {
+    const t = el("div", "tile"), v = el("div", "v", "…"), n = el("p", null, note); t.append(el("div", "label", lab), v, n); tiles.append(t); tv[k] = { v, n };
+  });
+  frag.append(tiles);
+
+  const sl = el("div", "sliders");
+  const defs = [["w", "Discount rate (WACC)", 8, 40, 0.5, "%"], ["g", "Terminal growth", 0, 8, 0.5, "%"], ["mT", "Mature EBITDA margin", -10, 60, 1, "%"], ["mult", "Exit multiple (EV / revenue)", 0.5, 20, 0.5, "×"]];
+  defs.forEach(([k, lab, min, max, step, u]) => {
+    const box = el("div", "inp"), l = el("label"), out = el("b", null, p[k] + u), r = document.createElement("input");
+    r.type = "range"; r.id = "cap-" + k; r.min = min; r.max = max; r.step = step; r.value = Math.min(max, Math.max(min, p[k])); p[k] = Number(r.value); out.textContent = p[k] + u;
+    l.htmlFor = r.id; l.append(document.createTextNode(lab), out);
+    r.addEventListener("input", () => { p[k] = Number(r.value); out.textContent = p[k] + u; update(); });
+    box.append(l, r); sl.append(box);
+  });
+  frag.append(el("div", "label", "Stress-test it: move the assumptions"));
+  sl.style.marginTop = "8px"; frag.append(sl);
+
+  const tw = el("div", "tablewrap"), table = el("table", "dcf"); tw.append(table); frag.append(tw);
+  const two = el("div", "two"), sensBox = el("div", "callout"), tvBox = el("div", "callout warn");
+  const sens = el("table", "sens"); sensBox.append(el("div", "label", "DCF sensitivity: WACC (rows) × terminal growth (columns)"), sens);
+  const tvP = el("p"); tvBox.append(el("div", "label", "Read this before quoting the number"), tvP, el("p", null, "Discount rate: " + (m.wacc_note || "venture-stage risk premium.")), el("p", null, "Exit multiple: " + (m.multiple_note || "comparable listed and private peers.")));
+  two.append(sensBox, tvBox); frag.append(two);
+
+  const two2 = el("div", "two");
+  const mb = el("div", "callout"); mb.append(el("div", "label", "What you must believe"));
+  const ul = el("ul", "assump"); (m.must_believe || []).forEach(x => ul.append(el("li", null, x))); mb.append(ul);
+  const uf = el("div", "callout"); uf.append(el("div", "label", "Use of funds"));
+  const ul2 = el("ul", "assump"); (m.use_of_funds || []).forEach(x => ul2.append(el("li", null, x))); uf.append(ul2);
+  two2.append(mb, uf); frag.append(two2);
+
+  // investors
+  const mi = matchInvestors(m);
+  const ih = el("div", "inv-head"), ihl = el("div");
+  ihl.append(el("div", "eyebrow", "Who to call first"), el("h4", null, `${stageName[mi.stage] || "Seed"} investors for ${mi.tags.join(", ") || "this company"}`));
+  ih.append(ihl); frag.append(ih);
+  const card = (x, growth) => {
+    const c = el("article", "inv" + (growth ? " growth" : ""));
+    c.append(el("div", "nm", x.f.n), el("div", "stg", x.f.st.map(z => stageName[z] || z).join(" · ")), el("p", null, x.f.note));
+    const why = x.ov.length ? "Matches " + x.ov.join(", ") : (x.f.s.includes("all") ? "Sector-agnostic" : "Stage fit");
+    c.append(el("div", "why", why + (x.f.st.includes(mi.stage) ? " · right stage" : "")));
+    if (x.f.url) { const a = el("a", null, "Website ↗"); a.href = x.f.url; a.target = "_blank"; a.rel = "noopener"; c.append(a); }
+    return c;
+  };
+  const g1 = el("div", "inv-grid"); mi.early.forEach(x => g1.append(card(x, false))); frag.append(g1);
+  if (!mi.early.length) frag.append(el("p", "note", "No sector match in the list; start with the sector-agnostic seed funds."));
+  const rev = (L.revenue || []).map(Number), yr = unit.toLowerCase().startsWith("cr") ? rev.findIndex(v => v >= 100) : -1;
+  frag.append(el("p", "note", yr >= 0 ? `Later rounds: growth and PE firms usually engage at ₹100 Cr+ revenue. This plan gets there in Y${yr + 1}.` : "Later rounds: growth and PE firms engage once revenue is at scale and unit economics are proven."));
+  const g2 = el("div", "inv-grid"); g2.style.marginTop = "10px"; mi.growth.forEach(x => g2.append(card(x, true))); frag.append(g2);
+  frag.append(el("p", "note", "DCF and VC-method maths run in this page's code on CAPITAL's assumptions. Investors are matched from a list compiled from public reports (Nov 2026), not generated by AI. A match is not an endorsement or an introduction; check each firm's current focus before reaching out."));
+  body.replaceChildren(frag);
+
+  function update() {
+    const r = dcfModel(L, m, p);
+    tv.dcf.v.textContent = money(r.ev);
+    const exit = (rev[4] || 0) * p.mult, post = exit / Math.pow(1 + target / 100, 5);
+    tv.vc.v.textContent = money(post);
+    tv.vc.n.textContent = `Y5 revenue × ${p.mult}× exit, discounted at an assumed ${target}% target return`;
+    const dil = ask / post;
+    tv.dil.v.textContent = isFinite(dil) && dil > 0 ? nf(dil * 100, 1) + "%" : "—";
+    tv.dil.n.textContent = isFinite(ask) ? `${money(ask)} raised at a ${money(post)} post-money` : "";
+    S.valuation = "EV " + money(r.ev);
+    // table
+    const head = el("tr"); head.append(el("th", null, `${cur} ${unit}`)); r.rows.forEach(x => head.append(el("th", null, "Y" + x.t)));
+    const rowOf = (lab, f, cls) => { const tr = el("tr"); tr.append(el("td", null, lab)); r.rows.forEach(x => { const v = f(x); const td = el("td", cls && v.n < 0 ? "neg" : null, v.s); tr.append(td); }); return tr; };
+    const thead = el("thead"), tbody = el("tbody"); thead.append(head);
+    tbody.append(
+      rowOf("Revenue", x => ({ s: nf(x.r, x.r < 10 ? 1 : 0), n: x.r })),
+      rowOf("EBITDA margin", x => ({ s: nf(x.margin * 100, 0) + "%", n: x.margin }), true),
+      rowOf("Free cash flow", x => ({ s: nf(x.fcf, Math.abs(x.fcf) < 10 ? 1 : 0), n: x.fcf }), true),
+      rowOf("PV of FCF", x => ({ s: nf(x.pv, Math.abs(x.pv) < 10 ? 1 : 0), n: x.pv }), true));
+    table.replaceChildren(thead, tbody);
+    // sensitivity
+    const ws = [p.w - 2, p.w, p.w + 2].map(v => Math.max(1, v)), gs = [p.g - 1, p.g, p.g + 1].map(v => Math.max(0, v));
+    const hr = el("tr"); hr.append(el("th")); gs.forEach(g => hr.append(el("th", null, "g " + g + "%")));
+    const rows = [hr];
+    ws.forEach((w, i) => { const tr = el("tr"); tr.append(el("th", null, "WACC " + w + "%")); gs.forEach((g, j) => tr.append(el("td", i === 1 && j === 1 ? "mid" : null, money(dcfModel(L, m, { ...p, w, g }).ev)))); rows.push(tr); });
+    sens.replaceChildren(...rows);
+    const share = r.ev !== 0 ? r.pvTV / r.ev : 0;
+    tvP.textContent = r.ev <= 0 ? "At these settings the cash flows do not cover the cost of capital, so the DCF value is negative. Raise the mature margin or lower the discount rate to see what it would take."
+      : `${nf(share * 100, 0)}% of the DCF value comes from the terminal value beyond year 10. Early-stage valuations rest on the long run; treat the number as a range, not a price.`;
+  }
+  update();
+}
+function renderFail(id, message) {
+  const body = P[id].body, box = el("div", "failbox"), b = el("button", "btn-ghost small", "Retry " + DEF[id].call);
+  b.type = "button"; b.addEventListener("click", () => retry(id));
+  box.append(el("p", null, message), b);
+  const keep = S.agents[id].text ? el("pre", "stream", S.agents[id].text.split("\n").slice(-30).join("\n")) : null;
+  body.replaceChildren(box); if (keep) body.append(keep);
+}
+
+/* ---------- orchestration ---------- */
+function describeErr(err) {
+  const code = err && err.code;
+  if (code === "not_granted") return "Claude access was declined for this page, so the crew cannot run. Allow it when asked, then retry.";
+  if (code === "rate_limited" || code === "busy") return "The crew is rate-limited. Wait a minute, then retry.";
+  if (code === "quota_ip" || code === "quota_global" || code === "offline" || code === "origin") return (err && err.message) || "The live crew is unavailable right now.";
+  if (err && err.parse) return "The agent's output did not come back in a usable shape. Retry usually fixes it.";
+  return "The agent stopped unexpectedly" + (err && err.message ? ": " + err.message : ".") + " Retry to run it again.";
+}
+async function runAgent(id, attempt = 0) {
+  const a = S.agents[id], def = DEF[id], signal = S.ctrl.signal;
+  if (signal.aborted) return false;
+  if (id === "capital" && !S.agents.ledger.result) {
+    setStatus(id, "failed"); renderFail(id, "CAPITAL values the company on LEDGER's revenue model. Retry LEDGER first, then CAPITAL."); log(def.call, "waiting on LEDGER");
+    return false;
+  }
+  a.text = ""; a.error = null; a.result = null; a.energy = 1; a.t0 = performance.now(); a.dirty = true;
+  S.running = true; setStatus(id, "active"); log(def.call, def.start);
+  if (S.follow) { const cur = S.agents[S.tab]; if (!cur || cur.status !== "active" || id === "canvas") setTab(id); }
+  try {
+    const res = await callAgent(id, {
+      modelTier: def.tier, signal,
+      onText: ({ text, delta }) => { a.text = text; a.dirty = true; a.energy = Math.min(1, a.energy + ((delta && delta.length) || 20) / 90); },
+    });
+    if (signal.aborted) return false;
+    a.text = (res && res.text) || a.text; a.truncated = !!(res && res.truncated);
+    try {
+      if (id === "vector") { const f = parseLabelled(a.text, VLABELS); if (!f.NAME || !f.SOLUTION) throw 0; renderBrief(a.text, false); }
+      else if (id === "ledger") { a.result = extractJSON(a.text); renderLedger(a.result); }
+      else if (id === "canvas") { const h = extractHTML(a.text); if (!/<(body|div|section|main)/i.test(h)) throw 0; a.result = h; renderSite(h); }
+      else if (id === "forge") { a.result = parseForge(a.text); renderForge(a.result); }
+      else if (id === "signal") { renderSignal(a.text, false); }
+      else if (id === "breaker") { renderBreaker(a.text, false); }
+      else if (id === "capital") { a.result = extractJSON(a.text); renderCapital(a.result); }
+    } catch (e) { throw { parse: true }; }
+    a.t1 = performance.now(); setStatus(id, "done"); S.hours += def.hours;
+    log(def.call, "delivered in " + ((a.t1 - a.t0) / 1000).toFixed(0) + " s");
+    if (S.follow && (id === "canvas" || id === "forge" || S.tab === id)) setTab(id);
+    return true;
+  } catch (err) {
+    if (signal.aborted) { setStatus(id, "aborted"); return false; }
+    if (err && (err.code === "rate_limited" || err.code === "busy") && attempt === 0) { log(def.call, "rate-limited, retrying in 8 s"); setStatus(id, "idle"); await sleep(8000, signal); return runAgent(id, 1); }
+    a.error = describeErr(err); setStatus(id, "failed"); renderFail(id, a.error); log(def.call, "failed");
+    return false;
+  }
+}
+async function pipeline() {
+  const sig = S.ctrl.signal;
+  const need = id => S.agents[id].status !== "done";
+  if (need("vector")) { const ok = await runAgent("vector"); if (!ok) return; }
+  if (sig.aborted) return;
+  const wave1 = ["ledger", "forge", "canvas"].filter(need);
+  if (wave1.length) { handoff("vector", wave1); await sleep(650, sig); }
+  const jobs = [];
+  const pL = need("ledger") ? runAgent("ledger") : Promise.resolve(true);
+  ["forge", "canvas"].filter(need).forEach((id, i) => jobs.push(sleep(i * 250, sig).then(() => runAgent(id))));
+  await pL;
+  if (sig.aborted) return;
+  const wave2 = ["signal", "breaker", "capital"].filter(need);
+  if (wave2.length) { handoff("ledger", wave2); await sleep(650, sig); }
+  wave2.forEach((id, i) => jobs.push(sleep(i * 250, sig).then(() => runAgent(id))));
+  await Promise.allSettled(jobs);
+}
+function retry(id) {
+  if (!S.ctrl || S.ctrl.signal.aborted) S.ctrl = new AbortController();
+  $("#debrief").hidden = true; $("#mState").textContent = "Mission in flight";
+  const p = id === "vector" ? pipeline() : runAgent(id);
+  Promise.resolve(p).catch(() => {}).finally(checkDone);
+}
+function checkDone() {
+  if (S.ctrl.signal.aborted) return;
+  const st = AGENTS.map(a => S.agents[a.id].status);
+  if (st.includes("active")) return;
+  S.running = false; S.end = performance.now();
+  const done = st.filter(s => s === "done").length;
+  if (done === AGENTS.length) { $("#mState").textContent = "Mission complete"; log("MISSION", "complete"); showDebrief(); }
+  else {
+    const failed = AGENTS.filter(a => ["failed", "aborted"].includes(S.agents[a.id].status));
+    $("#mState").textContent = failed.length === 1 ? `Mission paused · ${failed[0].call} needs a retry` : `Mission paused · ${failed.length} agents need a retry`;
+    log("MISSION", "paused, retry from the agent's tab");
+    if (failed.length) { setTab(failed[0].id); }
+  }
+}
+function totalWords() { return AGENTS.reduce((s, a) => s + countWords(S.agents[a.id].text), 0); }
+function codeLines() { const c = S.agents.canvas.result, f = S.agents.forge.result; return countLines(c) + (f ? countLines(f.code) : 0); }
+function showDebrief() {
+  const box = $("#debrief"); box.replaceChildren();
+  const mid = el("div", "db-mid"), stats = el("div", "db-stats"), acts = el("div", "db-actions");
+  mid.append(el("h3", null, `${S.brand || "Your company"} went from one sentence to a launch-ready, valued company.`));
+  [`${AGENTS.length} / ${AGENTS.length} artefacts`, S.valuation ? "DCF " + S.valuation : "", `${nf(totalWords())} words`, `${nf(codeLines())} lines of working code`, `≈ ${TOTAL_HOURS} h of team work, est.`].filter(Boolean).forEach(s => stats.append(el("span", null, s)));
+  mid.append(stats);
+  const b1 = el("button", "btn-ghost small", "See the website"); b1.type = "button"; b1.addEventListener("click", () => { setFollow(false); setTab("canvas"); P.canvas.root.scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "start" }); });
+  const b2 = el("button", "btn-ghost small", "Copy the brief"); b2.type = "button"; b2.addEventListener("click", () => copyText(briefText(), "Brief copied"));
+  const b3 = el("button", "btn-launch", "Launch another"); b3.type = "button"; b3.style.fontSize = "18px"; b3.style.padding = "9px 16px"; b3.addEventListener("click", newMission);
+  acts.append(b1, b2, b3);
+  box.append(el("div", "db-time", clock(S.end - S.start)), mid, acts);
+  box.hidden = false;
+}
+
+/* ---------- launch / abort / new ---------- */
+let ticker = 0;
+function launch(idea, fn) {
+  S.idea = idea; S.sample = fn; S.brand = ""; S.valuation = ""; S.hours = 0; S.hoursShown = 0;
+  resetAgents(); buildMissionUI();
+  S.ctrl = new AbortController(); S.start = performance.now(); S.end = 0; S.running = true;
+  document.body.classList.add("in-mission"); $("#mission").hidden = false; window.scrollTo(0, 0);
+  crewSize(); crew.packets = []; crew.sparks = [];
+  log("MISSION", "launched");
+  clearInterval(ticker); ticker = setInterval(tick, 200);
+  pipeline().catch(() => {}).finally(checkDone);
+}
+function tick() {
+  const now = performance.now();
+  $("#tClock").textContent = "T+" + clock((S.running ? now : S.end || now) - S.start);
+  const act = AGENTS.filter(a => S.agents[a.id].status === "active");
+  $("#tActive").textContent = act.length + " / " + AGENTS.length;
+  $("#tWords").textContent = nf(totalWords());
+  $("#tArts").textContent = AGENTS.filter(a => S.agents[a.id].status === "done").length + " / " + AGENTS.length;
+  S.hoursShown += (S.hours - S.hoursShown) * 0.18; if (Math.abs(S.hours - S.hoursShown) < 0.5) S.hoursShown = S.hours;
+  $("#tHours").textContent = Math.round(S.hoursShown) + " h";
+  act.forEach(a => { P[a.id].pill.textContent = "Working · " + clock(now - S.agents[a.id].t0); });
+}
+$("#abort").addEventListener("click", () => {
+  if (!S.ctrl || S.ctrl.signal.aborted) return;
+  S.ctrl.abort();
+  AGENTS.forEach(a => { if (S.agents[a.id].status === "active") setStatus(a.id, "aborted"); });
+  S.running = false; S.end = performance.now(); $("#mState").textContent = "Mission aborted"; log("MISSION", "aborted");
+});
+function newMission() {
+  if (S.ctrl && !S.ctrl.signal.aborted) S.ctrl.abort();
+  if (tts) try { tts.stop(); } catch (e) {}
+  clearInterval(ticker); S.running = false;
+  document.body.classList.remove("in-mission"); $("#mission").hidden = true;
+  window.scrollTo(0, 0); ideaBox.value = ""; updateCount(); ideaBox.focus();
+}
+$("#newMission").addEventListener("click", newMission);
+})();
+</script>
+</body>
+</html>

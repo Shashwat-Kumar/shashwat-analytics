@@ -1,0 +1,6 @@
+# Supabase CLI settings for ReadSigil's edge functions.
+project_id = "readsigil"
+
+[functions.envelope]
+# The page calls this function without a Supabase session; the function applies its own origin and rate checks.
+verify_jwt = false

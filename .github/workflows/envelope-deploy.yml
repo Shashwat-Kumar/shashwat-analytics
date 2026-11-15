@@ -1,0 +1,78 @@
+name: Deploy The Envelope backend
+
+# Deploys the Supabase Edge Function behind readsigil.com/envelope/,
+# applies its rate-limit SQL and checks that the endpoint reports itself live.
+# Needs repository secrets SUPABASE_ACCESS_TOKEN and ANTHROPIC_API_KEY (see ENVELOPE_SETUP.md).
+on:
+  push:
+    branches: [main]
+    paths:
+      - supabase/functions/envelope/**
+      - supabase/migrations/*envelope*
+      - .github/workflows/envelope-deploy.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: envelope-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      PROJECT_REF: ${{ vars.SUPABASE_PROJECT_REF || 'vxtchhnnfwiyniwphfpf' }}
+      PER_IP_DAILY: ${{ vars.ENVELOPE_PER_IP_DAILY || '30' }}
+      GLOBAL_DAILY: ${{ vars.ENVELOPE_GLOBAL_DAILY || '700' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check secrets
+        run: |
+          missing=""
+          [ -n "$SUPABASE_ACCESS_TOKEN" ] || missing="$missing SUPABASE_ACCESS_TOKEN"
+          [ -n "$ANTHROPIC_API_KEY" ] || missing="$missing ANTHROPIC_API_KEY"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing repository secrets:$missing. See ENVELOPE_SETUP.md."
+            exit 1
+          fi
+
+      - name: Apply rate-limit SQL
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib, urllib.request
+          sql = pathlib.Path("supabase/migrations/20261115120000_envelope_rate_limit.sql").read_text()
+          req = urllib.request.Request(
+              f"https://api.supabase.com/v1/projects/{os.environ['PROJECT_REF']}/database/query",
+              data=json.dumps({"query": sql}).encode(),
+              headers={"Authorization": f"Bearer {os.environ['SUPABASE_ACCESS_TOKEN']}", "Content-Type": "application/json"},
+              method="POST")
+          with urllib.request.urlopen(req, timeout=60) as r:
+              print("SQL applied:", r.status)
+          PY
+
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+
+      - name: Set function secrets
+        run: |
+          supabase secrets set --project-ref "$PROJECT_REF" \
+            ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY" \
+            ENVELOPE_PER_IP_DAILY="$PER_IP_DAILY" \
+            ENVELOPE_GLOBAL_DAILY="$GLOBAL_DAILY"
+
+      - name: Deploy function
+        run: supabase functions deploy envelope --project-ref "$PROJECT_REF" --no-verify-jwt
+
+      - name: Check the endpoint is live
+        run: |
+          sleep 5
+          out=$(curl -sS "https://$PROJECT_REF.supabase.co/functions/v1/envelope")
+          echo "$out"
+          echo "$out" | grep -q '"live":true' || { echo "::error::Endpoint did not report live:true"; exit 1; }

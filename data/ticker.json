@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T00:20:27Z",
+ "generated_at": "2026-11-16T06:54:33Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 1093,
+   "stars": 1811,
    "note": " · new this week",
    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-   "stars": 473,
+   "stars": 474,
    "note": "Makefile · new this week",
    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "Xin-YuXiao/Awesome-AI-for-Astronomy",
-   "stars": 244,
+   "stars": 248,
    "note": "Python · new this week",
    "url": "https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/chat-demo",
-   "stars": 2955,
+   "stars": 3543,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/chat-demo",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "apex-compute/ANR",
-   "stars": 2207,
+   "stars": 2280,
    "note": "C++ · new this week",
    "url": "https://github.com/apex-compute/ANR",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "Kianuni/Erosion-CN",
-   "stars": 2126,
+   "stars": 2156,
    "note": "Swift · new this week",
    "url": "https://github.com/Kianuni/Erosion-CN",
    "source": "GitHub",
@@ -123,7 +123,7 @@
   {
    "kind": "repo",
    "title": "FrigadeHQ/yogurt",
-   "stars": 1644,
+   "stars": 1712,
    "note": "TypeScript · new this week",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "source": "GitHub",
@@ -133,16 +133,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 1057,
-   "title": "All AI-generated code should be Open Source",
-   "source": "Hacker News",
-   "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-   "discuss": "https://news.ycombinator.com/item?id=50507303"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 319,
+   "points": 408,
    "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
    "source": "Hacker News",
    "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
@@ -150,12 +141,10 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 192,
-   "title": "Understanding Positional Embeddings in Modern LLMs",
-   "source": "Hacker News",
-   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-   "discuss": "https://news.ycombinator.com/item?id=50506376"
+   "tag": "AI",
+   "title": "Apple launches new app to study how people use AI for health",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/"
   },
   {
    "kind": "news",
@@ -177,13 +166,6 @@
    "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Where was Nvidia’s security team?",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
   },
   {
    "kind": "news",

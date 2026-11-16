@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T20:33:43Z",
+ "generated_at": "2026-11-16T00:20:27Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50507303",
-  "points": 908,
-  "comments": 485,
+  "points": 1057,
+  "comments": 577,
   "published": "2026-11-15T14:46:58Z",
   "since": "2026-11-15T15:36:24Z"
  },
@@ -22,28 +22,8 @@
  "items": [
   {
    "kind": "repo",
-   "title": "agentes-chat/agentes-chat",
-   "stars": 1488,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/agentes-chat/agentes-chat",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "Dodaios/ste80-humanizer",
-   "stars": 686,
-   "note": "Python · new this week",
-   "url": "https://github.com/Dodaios/ste80-humanizer",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 658,
+   "stars": 1093,
    "note": " · new this week",
    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -52,18 +32,8 @@
   },
   {
    "kind": "repo",
-   "title": "WindGatorRise37/Gemini-Config-Checker-",
-   "stars": 475,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-   "stars": 475,
+   "stars": 473,
    "note": "Makefile · new this week",
    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -72,8 +42,18 @@
   },
   {
    "kind": "repo",
+   "title": "WindGatorRise37/Gemini-Config-Checker-",
+   "stars": 473,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "WinnerSpecialist/Gemini-Config-Checker-",
-   "stars": 475,
+   "stars": 473,
    "note": "Makefile · new this week",
    "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -82,8 +62,28 @@
   },
   {
    "kind": "repo",
+   "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+   "stars": 473,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "VortexHostFeel/Gemini-Config-Checker-",
+   "stars": 473,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "Xin-YuXiao/Awesome-AI-for-Astronomy",
-   "stars": 242,
+   "stars": 244,
    "note": "Python · new this week",
    "url": "https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy",
    "source": "GitHub",
@@ -92,18 +92,8 @@
   },
   {
    "kind": "repo",
-   "title": "huamidev/GestaltX",
-   "stars": 7728,
-   "note": "Swift · new this week",
-   "url": "https://github.com/huamidev/GestaltX",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "deepseek-ai/chat-demo",
-   "stars": 2819,
+   "stars": 2955,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/chat-demo",
    "source": "GitHub",
@@ -112,18 +102,8 @@
   },
   {
    "kind": "repo",
-   "title": "DevedevT/FFmpeg-GUI-Editor-Windows",
-   "stars": 2340,
-   "note": "Visual Basic .NET · new this week",
-   "url": "https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "apex-compute/ANR",
-   "stars": 2132,
+   "stars": 2207,
    "note": "C++ · new this week",
    "url": "https://github.com/apex-compute/ANR",
    "source": "GitHub",
@@ -131,9 +111,29 @@
    "cat": "Trending"
   },
   {
+   "kind": "repo",
+   "title": "Kianuni/Erosion-CN",
+   "stars": 2126,
+   "note": "Swift · new this week",
+   "url": "https://github.com/Kianuni/Erosion-CN",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "FrigadeHQ/yogurt",
+   "stars": 1644,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/FrigadeHQ/yogurt",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
    "kind": "news",
    "tag": "HN",
-   "points": 908,
+   "points": 1057,
    "title": "All AI-generated code should be Open Source",
    "source": "Hacker News",
    "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
@@ -142,7 +142,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 200,
+   "points": 319,
    "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
    "source": "Hacker News",
    "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
@@ -151,7 +151,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 160,
+   "points": 192,
    "title": "Understanding Positional Embeddings in Modern LLMs",
    "source": "Hacker News",
    "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
@@ -159,21 +159,17 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 92,
-   "title": "What thousands of conversations look like inside a language model",
-   "source": "Hacker News",
-   "url": "https://operator0x.com/field-notes/qwen-conversation-state-space/",
-   "discuss": "https://news.ycombinator.com/item?id=50481321"
+   "tag": "AI",
+   "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 25,
-   "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
-   "source": "Hacker News",
-   "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
-   "discuss": "https://news.ycombinator.com/item?id=50509953"
+   "tag": "AI",
+   "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/"
   },
   {
    "kind": "news",
@@ -188,20 +184,6 @@
    "title": "Where was Nvidia’s security team?",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
   },
   {
    "kind": "news",

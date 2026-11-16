@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T06:54:33Z",
+ "generated_at": "2026-11-16T16:56:53Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 1811,
+   "stars": 2093,
    "note": " · new this week",
    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-   "stars": 474,
+   "stars": 473,
    "note": "Makefile · new this week",
    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -42,30 +42,20 @@
   },
   {
    "kind": "repo",
-   "title": "WindGatorRise37/Gemini-Config-Checker-",
-   "stars": 473,
+   "title": "WireProvostPucker/Gemini-Config-Checker-",
+   "stars": 472,
    "note": "Makefile · new this week",
-   "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
+   "url": "https://github.com/WireProvostPucker/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "WinnerSpecialist/Gemini-Config-Checker-",
-   "stars": 473,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "Visionbeyondtrack/Gemini-Config-Checker-",
-   "stars": 473,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+   "title": "Violetnyudress/Gemini-Config-Checker-",
+   "stars": 472,
+   "note": "Go · new this week",
+   "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -73,7 +63,7 @@
   {
    "kind": "repo",
    "title": "VortexHostFeel/Gemini-Config-Checker-",
-   "stars": 473,
+   "stars": 472,
    "note": "Makefile · new this week",
    "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -82,8 +72,18 @@
   },
   {
    "kind": "repo",
+   "title": "WinnerSpecialist/Gemini-Config-Checker-",
+   "stars": 472,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "Xin-YuXiao/Awesome-AI-for-Astronomy",
-   "stars": 248,
+   "stars": 275,
    "note": "Python · new this week",
    "url": "https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/chat-demo",
-   "stars": 3543,
+   "stars": 3970,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/chat-demo",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "apex-compute/ANR",
-   "stars": 2280,
+   "stars": 2418,
    "note": "C++ · new this week",
    "url": "https://github.com/apex-compute/ANR",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "Kianuni/Erosion-CN",
-   "stars": 2156,
+   "stars": 2190,
    "note": "Swift · new this week",
    "url": "https://github.com/Kianuni/Erosion-CN",
    "source": "GitHub",
@@ -123,7 +123,7 @@
   {
    "kind": "repo",
    "title": "FrigadeHQ/yogurt",
-   "stars": 1712,
+   "stars": 1810,
    "note": "TypeScript · new this week",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "source": "GitHub",
@@ -132,40 +132,31 @@
   },
   {
    "kind": "news",
-   "tag": "HN",
-   "points": 408,
-   "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
-   "source": "Hacker News",
-   "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
-   "discuss": "https://news.ycombinator.com/item?id=50463399"
+   "tag": "AI",
+   "title": "Audible turns to AI to help users discover audiobooks",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Apple launches new app to study how people use AI for health",
+   "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/"
+   "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+   "title": "Google Maps can now build trip itineraries with real-time details about each stop",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
+   "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+   "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/"
+   "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/"
   },
   {
    "kind": "news",

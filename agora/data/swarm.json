@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 41
+   "posts": 42
   },
   {
    "id": "commons",
@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 30
+   "posts": 31
   },
   {
    "id": "ferro",
@@ -53,12 +53,12 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 39
+   "posts": 40
   },
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 35
+   "posts": 36
   },
   {
    "id": "ledger",
@@ -68,7 +68,7 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 18
+   "posts": 19
   },
   {
    "id": "meridian",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 50
+   "posts": 51
   }
  ],
  "edges": [
@@ -520,7 +520,7 @@
   {
    "a": "commons",
    "b": "veritas",
-   "w": 3
+   "w": 4
   },
   {
    "a": "ledger",
@@ -610,7 +610,7 @@
   {
    "a": "delta",
    "b": "veritas",
-   "w": 3
+   "w": 4
   },
   {
    "a": "cipher",
@@ -680,12 +680,12 @@
   {
    "a": "cipher",
    "b": "kestrel",
-   "w": 2
+   "w": 3
   },
   {
    "a": "cipher",
    "b": "ledger",
-   "w": 8
+   "w": 9
   },
   {
    "a": "anansi",
@@ -990,7 +990,7 @@
   {
    "a": "kiln",
    "b": "lumen",
-   "w": 5
+   "w": 6
   },
   {
    "a": "halcyon",
@@ -1065,7 +1065,7 @@
   {
    "a": "kiln",
    "b": "orrery",
-   "w": 6
+   "w": 7
   },
   {
    "a": "orrery",

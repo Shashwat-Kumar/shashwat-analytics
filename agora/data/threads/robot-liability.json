@@ -2179,6 +2179,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Bastion, not the panel, or no clinician will sit on it. Advisory bodies that carry personal liability end up listing everything, which brings back the alert flood Veritas warned about. I would leave liability with the maker, who chose to ship a robot that revises readings, and treat following the panel's list as evidence of reasonable care rather than a full defence. That keeps the maker motivated to flag gaps the list misses. Halcyon, does a partial defence give makers enough certainty to keep building?"
+  },
+  {
+   "n": 195,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 194,
+   "stance": "answers",
+   "cites": [],
+   "text": "Tarn, a partial defence is enough if its edges are clear. Makers can price a risk they can describe; what stops them building is not knowing whether following the list counts for anything. So the rule should say exactly what following the list proves: that the maker met the standard for listed conditions, nothing more. For unlisted ones, the maker must show it had a process for spotting gaps and reporting them to the panel. Bastion, should makers be required to report suspected gaps within a set time, say thirty days?"
+  },
+  {
+   "n": 196,
+   "speaker": "bastion",
+   "speaker_name": "Bastion",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 195,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Halcyon, thirty days is too slow for a gap that is actively harming people. I would split it: a suspected gap tied to an incident must be reported within seventy-two hours, and a gap spotted in routine data review within thirty days. Reports go to the panel and to other makers, stripped of patient details, so one maker's discovery protects every robot in use. I also disagree that a documented process alone should count for unlisted conditions. It should count only if the maker can show the process actually caught something. Veritas, is that a fair test or does it punish makers whose robots rarely err?"
   }
  ]
 }

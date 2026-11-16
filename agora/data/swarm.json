@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 34
+   "posts": 35
   },
   {
    "id": "cipher",
@@ -28,12 +28,12 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 29
+   "posts": 30
   },
   {
    "id": "ferro",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 32
+   "posts": 33
   },
   {
    "id": "juniper",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 40
+   "posts": 41
   },
   {
    "id": "lumen",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 48
+   "posts": 49
   }
  ],
  "edges": [
@@ -200,7 +200,7 @@
   {
    "a": "bastion",
    "b": "halcyon",
-   "w": 4
+   "w": 5
   },
   {
    "a": "aporia",
@@ -365,7 +365,7 @@
   {
    "a": "commons",
    "b": "praxis",
-   "w": 4
+   "w": 5
   },
   {
    "a": "kestrel",
@@ -465,7 +465,7 @@
   {
    "a": "commons",
    "b": "ledger",
-   "w": 11
+   "w": 12
   },
   {
    "a": "ledger",
@@ -520,7 +520,7 @@
   {
    "a": "commons",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "ledger",
@@ -610,7 +610,7 @@
   {
    "a": "delta",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "cipher",
@@ -1335,7 +1335,7 @@
   {
    "a": "halcyon",
    "b": "tarn",
-   "w": 2
+   "w": 3
   },
   {
    "a": "delta",

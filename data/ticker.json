@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T08:34:10Z",
+ "generated_at": "2026-11-17T17:51:48Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
-  "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+  "title": "What is the best harness for each model?",
+  "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50524736",
-  "points": 559,
-  "comments": 391,
-  "published": "2026-11-16T22:58:20Z",
-  "since": "2026-11-17T00:46:10Z"
+  "discuss": "https://news.ycombinator.com/item?id=50532191",
+  "points": 175,
+  "comments": 72,
+  "published": "2026-11-17T14:53:43Z",
+  "since": "2026-11-17T17:51:48Z"
  },
  "voice": {
   "kind": "voice",
@@ -52,10 +52,10 @@
   },
   {
    "kind": "repo",
-   "title": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2326,
-   "note": " · new this week",
-   "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+   "title": "sybil-solutions/inference-optimisation-skill",
+   "stars": 736,
+   "note": "Python · new this week",
+   "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -63,19 +63,9 @@
   {
    "kind": "repo",
    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-   "stars": 474,
+   "stars": 475,
    "note": "Makefile · new this week",
    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "WireProvostPucker/Gemini-Config-Checker-",
-   "stars": 473,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/WireProvostPucker/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -92,10 +82,20 @@
   },
   {
    "kind": "repo",
-   "title": "WindGatorRise37/Gemini-Config-Checker-",
+   "title": "WireProvostPucker/Gemini-Config-Checker-",
    "stars": 473,
    "note": "Makefile · new this week",
-   "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
+   "url": "https://github.com/WireProvostPucker/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+   "stars": 473,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/chat-demo",
-   "stars": 4309,
+   "stars": 4497,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/chat-demo",
    "source": "GitHub",
@@ -123,7 +123,7 @@
   {
    "kind": "repo",
    "title": "apex-compute/ANR",
-   "stars": 2516,
+   "stars": 2566,
    "note": "C++ · new this week",
    "url": "https://github.com/apex-compute/ANR",
    "source": "GitHub",
@@ -133,7 +133,7 @@
   {
    "kind": "repo",
    "title": "Noniv/abyssal-garden",
-   "stars": 1889,
+   "stars": 2085,
    "note": "JavaScript · new this week",
    "url": "https://github.com/Noniv/abyssal-garden",
    "source": "GitHub",
@@ -142,10 +142,10 @@
   },
   {
    "kind": "repo",
-   "title": "duwqijlk/muse-protocol",
-   "stars": 1522,
-   "note": "Python · new this week",
-   "url": "https://github.com/duwqijlk/muse-protocol",
+   "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+   "stars": 2075,
+   "note": "C++ · new this week",
+   "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -153,57 +153,75 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 764,
-   "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+   "points": 175,
+   "title": "What is the best harness for each model?",
    "source": "Hacker News",
-   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-   "discuss": "https://news.ycombinator.com/item?id=50521045"
+   "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+   "discuss": "https://news.ycombinator.com/item?id=50532191"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 559,
-   "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+   "points": 166,
+   "title": "How the Claude Code team thinks about verification",
    "source": "Hacker News",
-   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-   "discuss": "https://news.ycombinator.com/item?id=50524736"
+   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "discuss": "https://news.ycombinator.com/item?id=50529612"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 105,
-   "title": "Running coding agents without handing them my credentials",
+   "points": 25,
+   "title": "GPT‑6.2 Astra and Sol",
    "source": "Hacker News",
-   "url": "https://blog.antonio.cx/running-agents-with-lend",
-   "discuss": "https://news.ycombinator.com/item?id=50526152"
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "discuss": "https://news.ycombinator.com/item?id=50535230"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 15,
+   "title": "Elephant-Goldfish Model",
+   "source": "Hacker News",
+   "url": "https://egm.dev/",
+   "discuss": "https://news.ycombinator.com/item?id=50515291"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 12,
+   "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+   "source": "Hacker News",
+   "url": "https://github.com/RunanywhereAI/trnrt",
+   "discuss": "https://news.ycombinator.com/item?id=50533270"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+   "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+   "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+   "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/"
+   "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "California state AG sues OpenAI over rogue agent incidents",
+   "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+   "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+   "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/"
+   "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/"
   },
   {
    "kind": "news",

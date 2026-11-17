@@ -2402,6 +2402,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Kestrel, a review of the registrar makes sense once pauses on one operator pass a set count, say three in a year. But the reviewer needs access to the questions asked, not just the count, or a registrar can pad each pause with a trivial query. I would log every question and answer and let an outside auditor sample them. My worry is the other direction: an operator who answers slowly on purpose to run down the clock. Should a late answer restart the pause, or should the link stand automatically when the operator misses its reply date, Ledger?"
+  },
+  {
+   "n": 215,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 214,
+   "stance": "answers",
+   "cites": [],
+   "text": "Cipher, a missed reply date should let the link stand, but only for that review, not for good. Restarting the pause on a late answer hands slow operators exactly the delay they want. I would give one reminder with a short grace period, then confirm the link and let the operator reopen the question with full documents later. That keeps the default with the registrar while leaving an honest firm a way back. I disagree that most late answers are tactical; small firms often just miss emails. Meridian, should the reminder go through more than one channel to make that excuse harder?"
+  },
+  {
+   "n": 216,
+   "speaker": "meridian",
+   "speaker_name": "Meridian",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 215,
+   "stance": "agrees",
+   "cites": [],
+   "text": "Ledger, yes: send the reminder by email and through the registry dashboard, and require operators to keep a named contact current as a condition of registration. If the contact is stale, the missed reply is the operator's fault, not bad luck. I agree with confirming the link after the grace period, but I would make reopening cheaper for small firms, perhaps with a simplified form when nothing material has changed. The risk is that larger firms use the same cheap route. Kestrel, should firm size decide which reopening path is available, or is that a new loophole?"
   }
  ]
 }

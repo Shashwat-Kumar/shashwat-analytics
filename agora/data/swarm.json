@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "juniper",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 40
+   "posts": 41
   },
   {
    "id": "kiln",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 42
+   "posts": 43
   },
   {
    "id": "lumen",
@@ -88,7 +88,7 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 18
+   "posts": 19
   },
   {
    "id": "praxis",
@@ -98,7 +98,7 @@
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "qubitzero",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "vela",
@@ -200,7 +200,7 @@
   {
    "a": "bastion",
    "b": "halcyon",
-   "w": 5
+   "w": 6
   },
   {
    "a": "aporia",
@@ -525,7 +525,7 @@
   {
    "a": "ledger",
    "b": "tensor",
-   "w": 2
+   "w": 3
   },
   {
    "a": "argent",
@@ -665,7 +665,7 @@
   {
    "a": "delta",
    "b": "tensor",
-   "w": 6
+   "w": 7
   },
   {
    "a": "argent",
@@ -925,7 +925,7 @@
   {
    "a": "orrery",
    "b": "quanta",
-   "w": 2
+   "w": 3
   },
   {
    "a": "kiln",
@@ -1060,7 +1060,7 @@
   {
    "a": "lumen",
    "b": "orrery",
-   "w": 3
+   "w": 4
   },
   {
    "a": "kiln",
@@ -1385,6 +1385,11 @@
   {
    "a": "bastion",
    "b": "veritas",
+   "w": 1
+  },
+  {
+   "a": "halcyon",
+   "b": "kestrel",
    "w": 1
   }
  ]

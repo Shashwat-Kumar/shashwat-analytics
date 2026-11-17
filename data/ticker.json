@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T16:56:53Z",
+ "generated_at": "2026-11-17T00:46:10Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,22 +8,52 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "All AI-generated code should be Open Source",
-  "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+  "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+  "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50507303",
-  "points": 1057,
-  "comments": 577,
-  "published": "2026-11-15T14:46:58Z",
-  "since": "2026-11-15T15:36:24Z"
+  "discuss": "https://news.ycombinator.com/item?id=50524736",
+  "points": 131,
+  "comments": 55,
+  "published": "2026-11-16T22:58:20Z",
+  "since": "2026-11-17T00:46:10Z"
  },
- "voice": null,
- "voices": [],
+ "voice": {
+  "kind": "voice",
+  "tag": "VOICE",
+  "person": "Sam Altman",
+  "title": "Sam Altman says AI revolution hard to imagine without Jensen Huang",
+  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlUmVhT005Vy1ZU3ZhWDZReTYxYmMxU1dZUFNhXzc5dGN4TjhJdFF2czY5bUlhQVlmeXZ2SV9XaUR0dDYtTFpzM1Bidjh0OTVNQ3JFVDl3YWpOeUlGbXUyRG5sVVAzWm8?oc=5",
+  "source": "Reuters",
+  "published": "2026-11-16T21:35:04Z",
+  "since": "2026-11-17T00:46:10Z"
+ },
+ "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "Sam Altman says AI revolution hard to imagine without Jensen Huang",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlUmVhT005Vy1ZU3ZhWDZReTYxYmMxU1dZUFNhXzc5dGN4TjhJdFF2czY5bUlhQVlmeXZ2SV9XaUR0dDYtTFpzM1Bidjh0OTVNQ3JFVDl3YWpOeUlGbXUyRG5sVVAzWm8?oc=5",
+   "source": "Reuters",
+   "published": "2026-11-16T21:35:04Z",
+   "since": "2026-11-17T00:46:10Z"
+  }
+ ],
  "items": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "Sam Altman says AI revolution hard to imagine without Jensen Huang",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlUmVhT005Vy1ZU3ZhWDZReTYxYmMxU1dZUFNhXzc5dGN4TjhJdFF2czY5bUlhQVlmeXZ2SV9XaUR0dDYtTFpzM1Bidjh0OTVNQ3JFVDl3YWpOeUlGbXUyRG5sVVAzWm8?oc=5",
+   "source": "Reuters",
+   "published": "2026-11-16T21:35:04Z",
+   "since": "2026-11-17T00:46:10Z"
+  },
   {
    "kind": "repo",
    "title": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2093,
+   "stars": 2196,
    "note": " · new this week",
    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -33,7 +63,7 @@
   {
    "kind": "repo",
    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-   "stars": 473,
+   "stars": 474,
    "note": "Makefile · new this week",
    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -43,7 +73,7 @@
   {
    "kind": "repo",
    "title": "WireProvostPucker/Gemini-Config-Checker-",
-   "stars": 472,
+   "stars": 473,
    "note": "Makefile · new this week",
    "url": "https://github.com/WireProvostPucker/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -52,8 +82,18 @@
   },
   {
    "kind": "repo",
+   "title": "TurtleReside/Gemini-Config-Checker-",
+   "stars": 473,
+   "note": "Go · new this week",
+   "url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "Violetnyudress/Gemini-Config-Checker-",
-   "stars": 472,
+   "stars": 473,
    "note": "Go · new this week",
    "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -62,18 +102,8 @@
   },
   {
    "kind": "repo",
-   "title": "VortexHostFeel/Gemini-Config-Checker-",
-   "stars": 472,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "WinnerSpecialist/Gemini-Config-Checker-",
-   "stars": 472,
+   "stars": 473,
    "note": "Makefile · new this week",
    "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -82,18 +112,8 @@
   },
   {
    "kind": "repo",
-   "title": "Xin-YuXiao/Awesome-AI-for-Astronomy",
-   "stars": 275,
-   "note": "Python · new this week",
-   "url": "https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "deepseek-ai/chat-demo",
-   "stars": 3970,
+   "stars": 4066,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/chat-demo",
    "source": "GitHub",
@@ -103,7 +123,7 @@
   {
    "kind": "repo",
    "title": "apex-compute/ANR",
-   "stars": 2418,
+   "stars": 2467,
    "note": "C++ · new this week",
    "url": "https://github.com/apex-compute/ANR",
    "source": "GitHub",
@@ -112,73 +132,95 @@
   },
   {
    "kind": "repo",
-   "title": "Kianuni/Erosion-CN",
-   "stars": 2190,
-   "note": "Swift · new this week",
-   "url": "https://github.com/Kianuni/Erosion-CN",
+   "title": "Noniv/abyssal-garden",
+   "stars": 1699,
+   "note": "JavaScript · new this week",
+   "url": "https://github.com/Noniv/abyssal-garden",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "repo",
-   "title": "FrigadeHQ/yogurt",
-   "stars": 1810,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/FrigadeHQ/yogurt",
+   "title": "duwqijlk/muse-protocol",
+   "stars": 1440,
+   "note": "Python · new this week",
+   "url": "https://github.com/duwqijlk/muse-protocol",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "news",
-   "tag": "AI",
-   "title": "Audible turns to AI to help users discover audiobooks",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/"
+   "tag": "HN",
+   "points": 700,
+   "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+   "source": "Hacker News",
+   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+   "discuss": "https://news.ycombinator.com/item?id=50521045"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 131,
+   "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+   "source": "Hacker News",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "discuss": "https://news.ycombinator.com/item?id=50524736"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+   "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+   "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Google Maps can now build trip itineraries with real-time details about each stop",
+   "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/"
+   "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+   "title": "California state AG sues OpenAI over rogue agent incidents",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/"
+   "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+   "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "The open-source movement wants Jensen Huang back",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+   "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "The backlash about data centers might really just be about electricity",
+   "title": "Building trustworthy AI by fencing it in, not predicting it",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
+   "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+   "title": "Building AI that can work across the enterprise",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
+   "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/"
   }
  ],
- "errors": []
+ "errors": [
+  "gnews Satya Nadella:HTTP Error 429: Too Many Requests",
+  "gnews Sundar Pichai:HTTP Error 429: Too Many Requests",
+  "gnews Yann LeCun:HTTP Error 429: Too Many Requests"
+ ]
 }

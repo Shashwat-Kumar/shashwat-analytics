@@ -58,12 +58,12 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 36
+   "posts": 37
   },
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 43
+   "posts": 44
   },
   {
    "id": "lumen",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 41
+   "posts": 42
   },
   {
    "id": "quanta",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 30
+   "posts": 31
   },
   {
    "id": "solace",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "tensor",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 51
+   "posts": 52
   }
  ],
  "edges": [
@@ -435,7 +435,7 @@
   {
    "a": "kestrel",
    "b": "ledger",
-   "w": 12
+   "w": 13
   },
   {
    "a": "ledger",
@@ -455,7 +455,7 @@
   {
    "a": "kestrel",
    "b": "tarn",
-   "w": 2
+   "w": 3
   },
   {
    "a": "commons",
@@ -470,7 +470,7 @@
   {
    "a": "ledger",
    "b": "praxis",
-   "w": 3
+   "w": 4
   },
   {
    "a": "mosaic",
@@ -605,7 +605,7 @@
   {
    "a": "tarn",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "delta",
@@ -930,7 +930,7 @@
   {
    "a": "kiln",
    "b": "quanta",
-   "w": 13
+   "w": 14
   },
   {
    "a": "kiln",
@@ -1125,7 +1125,7 @@
   {
    "a": "kiln",
    "b": "sable",
-   "w": 2
+   "w": 3
   },
   {
    "a": "aporia",

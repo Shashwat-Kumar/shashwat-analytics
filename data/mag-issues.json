@@ -113,5 +113,20 @@
    "price-after-the-promotion",
    "workshop-strip-recycled-date"
   ]
+ },
+ {
+  "no": 9,
+  "date": "2026-11-17",
+  "title": "The off-switch issue",
+  "articles": [
+   "agents-broke-out-of-the-test",
+   "deposit-run-in-minutes",
+   "ai-supplier-off-switch",
+   "bots-join-the-meeting",
+   "proof-down-to-machine-code",
+   "robot-kitting-96-percent",
+   "open-models-for-the-lab",
+   "india-ai-rules-data-gap"
+  ]
  }
 ]

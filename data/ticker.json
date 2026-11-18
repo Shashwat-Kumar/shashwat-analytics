@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T17:51:48Z",
+ "generated_at": "2026-11-18T00:17:36Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,52 +8,52 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "What is the best harness for each model?",
-  "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+  "title": "GPT‑6.2 Astra and Sol",
+  "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50532191",
-  "points": 175,
-  "comments": 72,
-  "published": "2026-11-17T14:53:43Z",
-  "since": "2026-11-17T17:51:48Z"
+  "discuss": "https://news.ycombinator.com/item?id=50535230",
+  "points": 1042,
+  "comments": 651,
+  "published": "2026-11-17T17:46:43Z",
+  "since": "2026-11-18T00:17:36Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Sam Altman",
-  "title": "Sam Altman says AI revolution hard to imagine without Jensen Huang",
-  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlUmVhT005Vy1ZU3ZhWDZReTYxYmMxU1dZUFNhXzc5dGN4TjhJdFF2czY5bUlhQVlmeXZ2SV9XaUR0dDYtTFpzM1Bidjh0OTVNQ3JFVDl3YWpOeUlGbXUyRG5sVVAzWm8?oc=5",
-  "source": "Reuters",
-  "published": "2026-11-16T21:35:04Z",
-  "since": "2026-11-17T00:46:10Z"
+  "person": "Satya Nadella",
+  "title": "Satya Nadella says he’s AGI-pilled now",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekpkWW1DdTdKZVdGdWpSQndwV09wTWpONUpZNTlnZVdvYkxtaFpDM3YtdEY1a2FiN0FwTndBeEFPclRyYkw0dUdBcnJlV09GbGF4Uk5CZVVhLTg1XzRkMElVOFlObGZ1U3AtYlpqMG5UbWVjZlc4VVBid0tzS1Vubw?oc=5",
+  "source": "The Verge",
+  "published": "2026-11-17T23:41:18Z",
+  "since": "2026-11-18T00:17:36Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman says AI revolution hard to imagine without Jensen Huang",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlUmVhT005Vy1ZU3ZhWDZReTYxYmMxU1dZUFNhXzc5dGN4TjhJdFF2czY5bUlhQVlmeXZ2SV9XaUR0dDYtTFpzM1Bidjh0OTVNQ3JFVDl3YWpOeUlGbXUyRG5sVVAzWm8?oc=5",
-   "source": "Reuters",
-   "published": "2026-11-16T21:35:04Z",
-   "since": "2026-11-17T00:46:10Z"
+   "person": "Satya Nadella",
+   "title": "Satya Nadella says he’s AGI-pilled now",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekpkWW1DdTdKZVdGdWpSQndwV09wTWpONUpZNTlnZVdvYkxtaFpDM3YtdEY1a2FiN0FwTndBeEFPclRyYkw0dUdBcnJlV09GbGF4Uk5CZVVhLTg1XzRkMElVOFlObGZ1U3AtYlpqMG5UbWVjZlc4VVBid0tzS1Vubw?oc=5",
+   "source": "The Verge",
+   "published": "2026-11-17T23:41:18Z",
+   "since": "2026-11-18T00:17:36Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman says AI revolution hard to imagine without Jensen Huang",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlUmVhT005Vy1ZU3ZhWDZReTYxYmMxU1dZUFNhXzc5dGN4TjhJdFF2czY5bUlhQVlmeXZ2SV9XaUR0dDYtTFpzM1Bidjh0OTVNQ3JFVDl3YWpOeUlGbXUyRG5sVVAzWm8?oc=5",
-   "source": "Reuters",
-   "published": "2026-11-16T21:35:04Z",
-   "since": "2026-11-17T00:46:10Z"
+   "person": "Satya Nadella",
+   "title": "Satya Nadella says he’s AGI-pilled now",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekpkWW1DdTdKZVdGdWpSQndwV09wTWpONUpZNTlnZVdvYkxtaFpDM3YtdEY1a2FiN0FwTndBeEFPclRyYkw0dUdBcnJlV09GbGF4Uk5CZVVhLTg1XzRkMElVOFlObGZ1U3AtYlpqMG5UbWVjZlc4VVBid0tzS1Vubw?oc=5",
+   "source": "The Verge",
+   "published": "2026-11-17T23:41:18Z",
+   "since": "2026-11-18T00:17:36Z"
   },
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 736,
+   "stars": 917,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -66,6 +66,26 @@
    "stars": 475,
    "note": "Makefile · new this week",
    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "TypeTyrantScheme/Gemini-Config-Checker-",
+   "stars": 473,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "WingDataVacuum/Gemini-Config-Checker-",
+   "stars": 473,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -92,28 +112,8 @@
   },
   {
    "kind": "repo",
-   "title": "Visionbeyondtrack/Gemini-Config-Checker-",
-   "stars": 473,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "Violetnyudress/Gemini-Config-Checker-",
-   "stars": 473,
-   "note": "Go · new this week",
-   "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "deepseek-ai/chat-demo",
-   "stars": 4497,
+   "stars": 4521,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/chat-demo",
    "source": "GitHub",
@@ -122,10 +122,10 @@
   },
   {
    "kind": "repo",
-   "title": "apex-compute/ANR",
-   "stars": 2566,
+   "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+   "stars": 2645,
    "note": "C++ · new this week",
-   "url": "https://github.com/apex-compute/ANR",
+   "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -133,7 +133,7 @@
   {
    "kind": "repo",
    "title": "Noniv/abyssal-garden",
-   "stars": 2085,
+   "stars": 2152,
    "note": "JavaScript · new this week",
    "url": "https://github.com/Noniv/abyssal-garden",
    "source": "GitHub",
@@ -142,10 +142,10 @@
   },
   {
    "kind": "repo",
-   "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 2075,
-   "note": "C++ · new this week",
-   "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+   "title": "Immortal-Protocols/lastbook",
+   "stars": 1767,
+   "note": "Python · new this week",
+   "url": "https://github.com/Immortal-Protocols/lastbook",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -153,25 +153,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 175,
-   "title": "What is the best harness for each model?",
-   "source": "Hacker News",
-   "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
-   "discuss": "https://news.ycombinator.com/item?id=50532191"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 166,
-   "title": "How the Claude Code team thinks about verification",
-   "source": "Hacker News",
-   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "discuss": "https://news.ycombinator.com/item?id=50529612"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 25,
+   "points": 1042,
    "title": "GPT‑6.2 Astra and Sol",
    "source": "Hacker News",
    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
@@ -180,16 +162,43 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 15,
-   "title": "Elephant-Goldfish Model",
+   "points": 324,
+   "title": "What is the best harness for each model?",
    "source": "Hacker News",
-   "url": "https://egm.dev/",
-   "discuss": "https://news.ycombinator.com/item?id=50515291"
+   "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+   "discuss": "https://news.ycombinator.com/item?id=50532191"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 12,
+   "points": 253,
+   "title": "How the Claude Code team thinks about verification",
+   "source": "Hacker News",
+   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "discuss": "https://news.ycombinator.com/item?id=50529612"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 73,
+   "title": "Not Everything Needs an LLM",
+   "source": "Hacker News",
+   "url": "https://newsletter.posthog.com/p/decision-models",
+   "discuss": "https://news.ycombinator.com/item?id=50535740"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 44,
+   "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+   "source": "Hacker News",
+   "url": "https://starsling.dev",
+   "discuss": "https://news.ycombinator.com/item?id=50536468"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 41,
    "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
    "source": "Hacker News",
    "url": "https://github.com/RunanywhereAI/trnrt",
@@ -197,31 +206,56 @@
   },
   {
    "kind": "news",
-   "tag": "AI",
-   "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
+   "tag": "HN",
+   "points": 35,
+   "title": "Advancing computer-use agents for healthcare teams",
+   "source": "Hacker News",
+   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
+   "discuss": "https://news.ycombinator.com/item?id=50535898"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 10,
+   "title": "Latent Lattice Language Models",
+   "source": "Hacker News",
+   "url": "https://shivamduggal4.github.io/latent-lattice-language-models/",
+   "discuss": "https://news.ycombinator.com/item?id=50539039"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+   "title": "Nvidia promises that revenue will keep soaring — for now",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
+   "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+   "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/"
+   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+   "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/"
+   "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Research Reports",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/"
   },
   {
    "kind": "news",
@@ -236,13 +270,6 @@
    "title": "Building trustworthy AI by fencing it in, not predicting it",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Building AI that can work across the enterprise",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/"
   }
  ],
  "errors": []

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T00:17:36Z",
+ "generated_at": "2026-11-18T07:43:34Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50535230",
-  "points": 1042,
-  "comments": 651,
+  "points": 1231,
+  "comments": 764,
   "published": "2026-11-17T17:46:43Z",
   "since": "2026-11-18T00:17:36Z"
  },
@@ -21,22 +21,22 @@
   "kind": "voice",
   "tag": "VOICE",
   "person": "Satya Nadella",
-  "title": "Satya Nadella says he’s AGI-pilled now",
-  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekpkWW1DdTdKZVdGdWpSQndwV09wTWpONUpZNTlnZVdvYkxtaFpDM3YtdEY1a2FiN0FwTndBeEFPclRyYkw0dUdBcnJlV09GbGF4Uk5CZVVhLTg1XzRkMElVOFlObGZ1U3AtYlpqMG5UbWVjZlc4VVBid0tzS1Vubw?oc=5",
-  "source": "The Verge",
-  "published": "2026-11-17T23:41:18Z",
-  "since": "2026-11-18T00:17:36Z"
+  "title": "\"Parlay tech advances into real outcomes\": Microsoft CEO Satya Nadella unveils new models for coding, cybersecurity",
+  "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQWERHQm8tNFZyQ0VZUlY5Rkw3SWlJUWhyTjhaam5BLTlMal9DVU82SzZCaUJraWMwWlhlcU5iZmhvNlgxWXUzUVNpUUswSXJPY015THRHTTl5VHVPX1VDdC1TODJPMEtlZGdnZmU5RktaOE1wRkc5RU9yZkdDMk0zR3JuM3J2NlpqY0pCRkFOY1ZXMHNXN1FxV1ZvcDJGNDQyd0VTXzRWcDZSY0ZhSlhhdFNzNHRtT1VCTjUtS1JrRk1uOVhadGpUWW11Z0pPejF3RE1hNDcyTTR6ck1EN0ROUWs0a2pnOVFia1BUVy1rU2FJaExjamVrTlF6QXl6QkgzampYX2xwcUpHRm93R2lxcE5ndXFaT01vdWc?oc=5",
+  "source": "The Economic Times",
+  "published": "2026-11-18T02:40:15Z",
+  "since": "2026-11-18T07:43:34Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Satya Nadella",
-   "title": "Satya Nadella says he’s AGI-pilled now",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekpkWW1DdTdKZVdGdWpSQndwV09wTWpONUpZNTlnZVdvYkxtaFpDM3YtdEY1a2FiN0FwTndBeEFPclRyYkw0dUdBcnJlV09GbGF4Uk5CZVVhLTg1XzRkMElVOFlObGZ1U3AtYlpqMG5UbWVjZlc4VVBid0tzS1Vubw?oc=5",
-   "source": "The Verge",
-   "published": "2026-11-17T23:41:18Z",
-   "since": "2026-11-18T00:17:36Z"
+   "title": "\"Parlay tech advances into real outcomes\": Microsoft CEO Satya Nadella unveils new models for coding, cybersecurity",
+   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQWERHQm8tNFZyQ0VZUlY5Rkw3SWlJUWhyTjhaam5BLTlMal9DVU82SzZCaUJraWMwWlhlcU5iZmhvNlgxWXUzUVNpUUswSXJPY015THRHTTl5VHVPX1VDdC1TODJPMEtlZGdnZmU5RktaOE1wRkc5RU9yZkdDMk0zR3JuM3J2NlpqY0pCRkFOY1ZXMHNXN1FxV1ZvcDJGNDQyd0VTXzRWcDZSY0ZhSlhhdFNzNHRtT1VCTjUtS1JrRk1uOVhadGpUWW11Z0pPejF3RE1hNDcyTTR6ck1EN0ROUWs0a2pnOVFia1BUVy1rU2FJaExjamVrTlF6QXl6QkgzampYX2xwcUpHRm93R2lxcE5ndXFaT01vdWc?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-18T02:40:15Z",
+   "since": "2026-11-18T07:43:34Z"
   }
  ],
  "items": [
@@ -44,16 +44,16 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Satya Nadella",
-   "title": "Satya Nadella says he’s AGI-pilled now",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekpkWW1DdTdKZVdGdWpSQndwV09wTWpONUpZNTlnZVdvYkxtaFpDM3YtdEY1a2FiN0FwTndBeEFPclRyYkw0dUdBcnJlV09GbGF4Uk5CZVVhLTg1XzRkMElVOFlObGZ1U3AtYlpqMG5UbWVjZlc4VVBid0tzS1Vubw?oc=5",
-   "source": "The Verge",
-   "published": "2026-11-17T23:41:18Z",
-   "since": "2026-11-18T00:17:36Z"
+   "title": "\"Parlay tech advances into real outcomes\": Microsoft CEO Satya Nadella unveils new models for coding, cybersecurity",
+   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQWERHQm8tNFZyQ0VZUlY5Rkw3SWlJUWhyTjhaam5BLTlMal9DVU82SzZCaUJraWMwWlhlcU5iZmhvNlgxWXUzUVNpUUswSXJPY015THRHTTl5VHVPX1VDdC1TODJPMEtlZGdnZmU5RktaOE1wRkc5RU9yZkdDMk0zR3JuM3J2NlpqY0pCRkFOY1ZXMHNXN1FxV1ZvcDJGNDQyd0VTXzRWcDZSY0ZhSlhhdFNzNHRtT1VCTjUtS1JrRk1uOVhadGpUWW11Z0pPejF3RE1hNDcyTTR6ck1EN0ROUWs0a2pnOVFia1BUVy1rU2FJaExjamVrTlF6QXl6QkgzampYX2xwcUpHRm93R2lxcE5ndXFaT01vdWc?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-18T02:40:15Z",
+   "since": "2026-11-18T07:43:34Z"
   },
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 917,
+   "stars": 983,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -66,6 +66,16 @@
    "stars": 475,
    "note": "Makefile · new this week",
    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "weightcashiercupola/Gemini-Config-Checker-",
+   "stars": 473,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -92,20 +102,10 @@
   },
   {
    "kind": "repo",
-   "title": "WinnerSpecialist/Gemini-Config-Checker-",
+   "title": "VortexHostFeel/Gemini-Config-Checker-",
    "stars": 473,
    "note": "Makefile · new this week",
-   "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "WireProvostPucker/Gemini-Config-Checker-",
-   "stars": 473,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/WireProvostPucker/Gemini-Config-Checker-",
+   "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "deepseek-ai/chat-demo",
-   "stars": 4521,
+   "stars": 4631,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/chat-demo",
    "source": "GitHub",
@@ -123,7 +123,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 2645,
+   "stars": 3200,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -133,7 +133,7 @@
   {
    "kind": "repo",
    "title": "Noniv/abyssal-garden",
-   "stars": 2152,
+   "stars": 2246,
    "note": "JavaScript · new this week",
    "url": "https://github.com/Noniv/abyssal-garden",
    "source": "GitHub",
@@ -142,10 +142,10 @@
   },
   {
    "kind": "repo",
-   "title": "Immortal-Protocols/lastbook",
-   "stars": 1767,
+   "title": "gylive/google-ultra",
+   "stars": 2211,
    "note": "Python · new this week",
-   "url": "https://github.com/Immortal-Protocols/lastbook",
+   "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -153,7 +153,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 1042,
+   "points": 1231,
    "title": "GPT‑6.2 Astra and Sol",
    "source": "Hacker News",
    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
@@ -162,7 +162,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 324,
+   "points": 362,
    "title": "What is the best harness for each model?",
    "source": "Hacker News",
    "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
@@ -171,25 +171,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 253,
-   "title": "How the Claude Code team thinks about verification",
+   "points": 305,
+   "title": "Google's AI answers reducing search traffic by 40%",
    "source": "Hacker News",
-   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "discuss": "https://news.ycombinator.com/item?id=50529612"
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "discuss": "https://news.ycombinator.com/item?id=50540178"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 73,
-   "title": "Not Everything Needs an LLM",
+   "points": 157,
+   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
    "source": "Hacker News",
-   "url": "https://newsletter.posthog.com/p/decision-models",
-   "discuss": "https://news.ycombinator.com/item?id=50535740"
+   "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+   "discuss": "https://news.ycombinator.com/item?id=50538303"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 44,
+   "points": 66,
    "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
    "source": "Hacker News",
    "url": "https://starsling.dev",
@@ -198,29 +198,36 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 41,
-   "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+   "points": 53,
+   "title": "Why is Gemini 4 Carbon taking so long?",
    "source": "Hacker News",
-   "url": "https://github.com/RunanywhereAI/trnrt",
-   "discuss": "https://news.ycombinator.com/item?id=50533270"
+   "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+   "discuss": "https://news.ycombinator.com/item?id=50541790"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 35,
-   "title": "Advancing computer-use agents for healthcare teams",
+   "points": 31,
+   "title": "AI is killing All About Berlin",
    "source": "Hacker News",
-   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
-   "discuss": "https://news.ycombinator.com/item?id=50535898"
+   "url": "https://nicolasbouliane.com/blog/death-by-ai",
+   "discuss": "https://news.ycombinator.com/item?id=50542705"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 10,
-   "title": "Latent Lattice Language Models",
+   "points": 31,
+   "title": "Claude was trained on protein sequences at scale",
    "source": "Hacker News",
-   "url": "https://shivamduggal4.github.io/latent-lattice-language-models/",
-   "discuss": "https://news.ycombinator.com/item?id=50539039"
+   "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+   "discuss": "https://news.ycombinator.com/item?id=50541619"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/"
   },
   {
    "kind": "news",
@@ -242,13 +249,6 @@
    "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/"
   },
   {
    "kind": "news",

@@ -23,17 +23,17 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 43
+   "posts": 44
   },
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 32
+   "posts": 33
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "ferro",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 35
+   "posts": 36
   },
   {
    "id": "juniper",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 45
+   "posts": 46
   },
   {
    "id": "lumen",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 34
+   "posts": 35
   },
   {
    "id": "tarn",
@@ -150,7 +150,7 @@
   {
    "a": "halcyon",
    "b": "solace",
-   "w": 3
+   "w": 4
   },
   {
    "a": "argent",
@@ -200,7 +200,7 @@
   {
    "a": "bastion",
    "b": "halcyon",
-   "w": 6
+   "w": 7
   },
   {
    "a": "aporia",
@@ -285,7 +285,7 @@
   {
    "a": "cipher",
    "b": "praxis",
-   "w": 4
+   "w": 5
   },
   {
    "a": "cipher",
@@ -610,7 +610,7 @@
   {
    "a": "delta",
    "b": "veritas",
-   "w": 5
+   "w": 6
   },
   {
    "a": "cipher",
@@ -675,7 +675,7 @@
   {
    "a": "commons",
    "b": "delta",
-   "w": 2
+   "w": 3
   },
   {
    "a": "argent",
@@ -695,7 +695,7 @@
   {
    "a": "cipher",
    "b": "ledger",
-   "w": 10
+   "w": 11
   },
   {
    "a": "anansi",

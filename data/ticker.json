@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T07:43:34Z",
+ "generated_at": "2026-11-18T16:44:03Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,52 +8,70 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "GPT‑6.2 Astra and Sol",
-  "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+  "title": "Google's AI answers reducing search traffic by 40%",
+  "url": "https://revscope.co/blog/search-seo-geo-2026/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50535230",
-  "points": 1231,
-  "comments": 764,
-  "published": "2026-11-17T17:46:43Z",
-  "since": "2026-11-18T00:17:36Z"
+  "discuss": "https://news.ycombinator.com/item?id=50540178",
+  "points": 638,
+  "comments": 484,
+  "published": "2026-11-18T00:17:58Z",
+  "since": "2026-11-18T16:44:03Z"
  },
  "voice": {
   "kind": "voice",
   "tag": "VOICE",
-  "person": "Satya Nadella",
-  "title": "\"Parlay tech advances into real outcomes\": Microsoft CEO Satya Nadella unveils new models for coding, cybersecurity",
-  "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQWERHQm8tNFZyQ0VZUlY5Rkw3SWlJUWhyTjhaam5BLTlMal9DVU82SzZCaUJraWMwWlhlcU5iZmhvNlgxWXUzUVNpUUswSXJPY015THRHTTl5VHVPX1VDdC1TODJPMEtlZGdnZmU5RktaOE1wRkc5RU9yZkdDMk0zR3JuM3J2NlpqY0pCRkFOY1ZXMHNXN1FxV1ZvcDJGNDQyd0VTXzRWcDZSY0ZhSlhhdFNzNHRtT1VCTjUtS1JrRk1uOVhadGpUWW11Z0pPejF3RE1hNDcyTTR6ck1EN0ROUWs0a2pnOVFia1BUVy1rU2FJaExjamVrTlF6QXl6QkgzampYX2xwcUpHRm93R2lxcE5ndXFaT01vdWc?oc=5",
-  "source": "The Economic Times",
-  "published": "2026-11-18T02:40:15Z",
-  "since": "2026-11-18T07:43:34Z"
+  "person": "Sam Altman",
+  "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWlNallkRk1GVl9pSEdWSG1Td2RiU3pyQnFhV3ViVmpKRVYwXzM3U1BJQTBLazc2Vk9IbDRBMjRzaFF0ZEFoZlQwTUN6Q2pqZTRVQXpvdWRFbnpfS0IzQW1oRTA5bUFUMXFGMDZvUkdxUTVMZmJVWUwzVzBKNXFzTlhja2FrV0VhYjBqYWNybUw1bm5fa1dxX0Fpbk5KS0ZOVzgwVG1sU0ZTbWEtX1owQVhB?oc=5",
+  "source": "TechCrunch",
+  "published": "2026-11-18T16:14:09Z",
+  "since": "2026-11-18T16:44:03Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWlNallkRk1GVl9pSEdWSG1Td2RiU3pyQnFhV3ViVmpKRVYwXzM3U1BJQTBLazc2Vk9IbDRBMjRzaFF0ZEFoZlQwTUN6Q2pqZTRVQXpvdWRFbnpfS0IzQW1oRTA5bUFUMXFGMDZvUkdxUTVMZmJVWUwzVzBKNXFzTlhja2FrV0VhYjBqYWNybUw1bm5fa1dxX0Fpbk5KS0ZOVzgwVG1sU0ZTbWEtX1owQVhB?oc=5",
+   "source": "TechCrunch",
+   "published": "2026-11-18T16:14:09Z",
+   "since": "2026-11-18T16:44:03Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Satya Nadella",
-   "title": "\"Parlay tech advances into real outcomes\": Microsoft CEO Satya Nadella unveils new models for coding, cybersecurity",
-   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQWERHQm8tNFZyQ0VZUlY5Rkw3SWlJUWhyTjhaam5BLTlMal9DVU82SzZCaUJraWMwWlhlcU5iZmhvNlgxWXUzUVNpUUswSXJPY015THRHTTl5VHVPX1VDdC1TODJPMEtlZGdnZmU5RktaOE1wRkc5RU9yZkdDMk0zR3JuM3J2NlpqY0pCRkFOY1ZXMHNXN1FxV1ZvcDJGNDQyd0VTXzRWcDZSY0ZhSlhhdFNzNHRtT1VCTjUtS1JrRk1uOVhadGpUWW11Z0pPejF3RE1hNDcyTTR6ck1EN0ROUWs0a2pnOVFia1BUVy1rU2FJaExjamVrTlF6QXl6QkgzampYX2xwcUpHRm93R2lxcE5ndXFaT01vdWc?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-11-18T02:40:15Z",
-   "since": "2026-11-18T07:43:34Z"
+   "title": "Satya Nadella says he’s AGI-pilled now",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekpkWW1DdTdKZVdGdWpSQndwV09wTWpONUpZNTlnZVdvYkxtaFpDM3YtdEY1a2FiN0FwTndBeEFPclRyYkw0dUdBcnJlV09GbGF4Uk5CZVVhLTg1XzRkMElVOFlObGZ1U3AtYlpqMG5UbWVjZlc4VVBid0tzS1Vubw?oc=5",
+   "source": "The Verge",
+   "published": "2026-11-17T23:41:18Z"
   }
  ],
  "items": [
   {
    "kind": "voice",
    "tag": "VOICE",
+   "person": "Sam Altman",
+   "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWlNallkRk1GVl9pSEdWSG1Td2RiU3pyQnFhV3ViVmpKRVYwXzM3U1BJQTBLazc2Vk9IbDRBMjRzaFF0ZEFoZlQwTUN6Q2pqZTRVQXpvdWRFbnpfS0IzQW1oRTA5bUFUMXFGMDZvUkdxUTVMZmJVWUwzVzBKNXFzTlhja2FrV0VhYjBqYWNybUw1bm5fa1dxX0Fpbk5KS0ZOVzgwVG1sU0ZTbWEtX1owQVhB?oc=5",
+   "source": "TechCrunch",
+   "published": "2026-11-18T16:14:09Z",
+   "since": "2026-11-18T16:44:03Z"
+  },
+  {
+   "kind": "voice",
+   "tag": "VOICE",
    "person": "Satya Nadella",
-   "title": "\"Parlay tech advances into real outcomes\": Microsoft CEO Satya Nadella unveils new models for coding, cybersecurity",
-   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQWERHQm8tNFZyQ0VZUlY5Rkw3SWlJUWhyTjhaam5BLTlMal9DVU82SzZCaUJraWMwWlhlcU5iZmhvNlgxWXUzUVNpUUswSXJPY015THRHTTl5VHVPX1VDdC1TODJPMEtlZGdnZmU5RktaOE1wRkc5RU9yZkdDMk0zR3JuM3J2NlpqY0pCRkFOY1ZXMHNXN1FxV1ZvcDJGNDQyd0VTXzRWcDZSY0ZhSlhhdFNzNHRtT1VCTjUtS1JrRk1uOVhadGpUWW11Z0pPejF3RE1hNDcyTTR6ck1EN0ROUWs0a2pnOVFia1BUVy1rU2FJaExjamVrTlF6QXl6QkgzampYX2xwcUpHRm93R2lxcE5ndXFaT01vdWc?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-11-18T02:40:15Z",
-   "since": "2026-11-18T07:43:34Z"
+   "title": "Satya Nadella says he’s AGI-pilled now",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekpkWW1DdTdKZVdGdWpSQndwV09wTWpONUpZNTlnZVdvYkxtaFpDM3YtdEY1a2FiN0FwTndBeEFPclRyYkw0dUdBcnJlV09GbGF4Uk5CZVVhLTg1XzRkMElVOFlObGZ1U3AtYlpqMG5UbWVjZlc4VVBid0tzS1Vubw?oc=5",
+   "source": "The Verge",
+   "published": "2026-11-17T23:41:18Z"
   },
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 983,
+   "stars": 1046,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -82,26 +100,6 @@
   },
   {
    "kind": "repo",
-   "title": "TypeTyrantScheme/Gemini-Config-Checker-",
-   "stars": 473,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "WingDataVacuum/Gemini-Config-Checker-",
-   "stars": 473,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "VortexHostFeel/Gemini-Config-Checker-",
    "stars": 473,
    "note": "Makefile · new this week",
@@ -112,8 +110,28 @@
   },
   {
    "kind": "repo",
+   "title": "WyrmClimberManacle/Gemini-Config-Checker-",
+   "stars": 473,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "WinnerSpecialist/Gemini-Config-Checker-",
+   "stars": 473,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "deepseek-ai/chat-demo",
-   "stars": 4631,
+   "stars": 4774,
    "note": "TypeScript · new this week",
    "url": "https://github.com/deepseek-ai/chat-demo",
    "source": "GitHub",
@@ -123,7 +141,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 3200,
+   "stars": 3679,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -132,8 +150,18 @@
   },
   {
    "kind": "repo",
+   "title": "erkamyaman/rust-anything",
+   "stars": 2855,
+   "note": "Rust · new this week",
+   "url": "https://github.com/erkamyaman/rust-anything",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "Noniv/abyssal-garden",
-   "stars": 2246,
+   "stars": 2338,
    "note": "JavaScript · new this week",
    "url": "https://github.com/Noniv/abyssal-garden",
    "source": "GitHub",
@@ -141,37 +169,9 @@
    "cat": "Trending"
   },
   {
-   "kind": "repo",
-   "title": "gylive/google-ultra",
-   "stars": 2211,
-   "note": "Python · new this week",
-   "url": "https://github.com/gylive/google-ultra",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
    "kind": "news",
    "tag": "HN",
-   "points": 1231,
-   "title": "GPT‑6.2 Astra and Sol",
-   "source": "Hacker News",
-   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-   "discuss": "https://news.ycombinator.com/item?id=50535230"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 362,
-   "title": "What is the best harness for each model?",
-   "source": "Hacker News",
-   "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
-   "discuss": "https://news.ycombinator.com/item?id=50532191"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 305,
+   "points": 638,
    "title": "Google's AI answers reducing search traffic by 40%",
    "source": "Hacker News",
    "url": "https://revscope.co/blog/search-seo-geo-2026/",
@@ -180,7 +180,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 157,
+   "points": 290,
    "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
    "source": "Hacker News",
    "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
@@ -189,16 +189,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 66,
-   "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
-   "source": "Hacker News",
-   "url": "https://starsling.dev",
-   "discuss": "https://news.ycombinator.com/item?id=50536468"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 53,
+   "points": 229,
    "title": "Why is Gemini 4 Carbon taking so long?",
    "source": "Hacker News",
    "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
@@ -207,48 +198,71 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 31,
-   "title": "AI is killing All About Berlin",
+   "points": 115,
+   "title": "Deutsche Bank",
    "source": "Hacker News",
-   "url": "https://nicolasbouliane.com/blog/death-by-ai",
-   "discuss": "https://news.ycombinator.com/item?id=50542705"
+   "url": "https://www.inside-db.com/",
+   "discuss": "https://news.ycombinator.com/item?id=50547620"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 31,
-   "title": "Claude was trained on protein sequences at scale",
+   "points": 67,
+   "title": "When AI Knows More Than It Can Offer",
    "source": "Hacker News",
-   "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
-   "discuss": "https://news.ycombinator.com/item?id=50541619"
+   "url": "https://medium.com/@smoking2man/when-ai-knows-more-than-it-can-offer-how-training-turns-an-intelligent-assistant-into-a-generator-7e700f05163e",
+   "discuss": "https://news.ycombinator.com/item?id=50507918"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 21,
+   "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
+   "source": "Hacker News",
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "discuss": "https://news.ycombinator.com/item?id=50548021"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
+   "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/"
+   "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nvidia promises that revenue will keep soaring — for now",
+   "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/"
+   "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+   "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+   "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+   "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
+   "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "The AI Hype Index: AI is everywhere",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "This smell startup says its AI nose is as good as a human’s",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
   },
   {
    "kind": "news",
@@ -256,20 +270,6 @@
    "title": "Research Reports",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The open-source movement wants Jensen Huang back",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Building trustworthy AI by fencing it in, not predicting it",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/"
   }
  ],
  "errors": []

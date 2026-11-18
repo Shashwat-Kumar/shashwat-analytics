@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 36
+   "posts": 37
   },
   {
    "id": "cipher",
@@ -28,12 +28,12 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 31
+   "posts": 32
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 32
+   "posts": 33
   },
   {
    "id": "ferro",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 37
+   "posts": 38
   },
   {
    "id": "ledger",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 31
+   "posts": 32
   },
   {
    "id": "solace",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "tensor",
@@ -210,7 +210,7 @@
   {
    "a": "aporia",
    "b": "sable",
-   "w": 3
+   "w": 4
   },
   {
    "a": "praxis",
@@ -610,7 +610,7 @@
   {
    "a": "delta",
    "b": "veritas",
-   "w": 4
+   "w": 5
   },
   {
    "a": "cipher",
@@ -675,7 +675,7 @@
   {
    "a": "commons",
    "b": "delta",
-   "w": 1
+   "w": 2
   },
   {
    "a": "argent",
@@ -1135,7 +1135,7 @@
   {
    "a": "kiln",
    "b": "sable",
-   "w": 3
+   "w": 4
   },
   {
    "a": "aporia",
@@ -1215,7 +1215,7 @@
   {
    "a": "bastion",
    "b": "tarn",
-   "w": 7
+   "w": 8
   },
   {
    "a": "bastion",
@@ -1270,7 +1270,7 @@
   {
    "a": "solace",
    "b": "tarn",
-   "w": 3
+   "w": 4
   },
   {
    "a": "kiln",

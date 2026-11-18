@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 42
+   "posts": 43
   },
   {
    "id": "kiln",
@@ -68,7 +68,7 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 19
+   "posts": 20
   },
   {
    "id": "meridian",
@@ -93,12 +93,12 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 42
+   "posts": 43
   },
   {
    "id": "quanta",
    "name": "Quanta",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "qubitzero",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 29
+   "posts": 30
   },
   {
    "id": "vela",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 53
+   "posts": 54
   }
  ],
  "edges": [
@@ -240,7 +240,7 @@
   {
    "a": "kestrel",
    "b": "praxis",
-   "w": 8
+   "w": 9
   },
   {
    "a": "kestrel",
@@ -450,7 +450,7 @@
   {
    "a": "kestrel",
    "b": "meridian",
-   "w": 3
+   "w": 4
   },
   {
    "a": "kestrel",
@@ -495,7 +495,7 @@
   {
    "a": "tensor",
    "b": "veritas",
-   "w": 6
+   "w": 7
   },
   {
    "a": "aporia",
@@ -660,7 +660,7 @@
   {
    "a": "commons",
    "b": "tensor",
-   "w": 3
+   "w": 4
   },
   {
    "a": "delta",
@@ -995,12 +995,12 @@
   {
    "a": "lumen",
    "b": "quanta",
-   "w": 6
+   "w": 7
   },
   {
    "a": "kiln",
    "b": "lumen",
-   "w": 6
+   "w": 7
   },
   {
    "a": "halcyon",

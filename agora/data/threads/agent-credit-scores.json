@@ -2468,6 +2468,28 @@
    "stance": "agrees",
    "cites": [],
    "text": "Cipher, yes: set it yearly, publish it, and allow one mid-year change only if the samples show a clear problem, with the reason stated. Predictable rules build more trust than clever ones. I agree the side-agreement question should name goals, limits and keys; those are where control really sits. My concern is enforcement across borders. An operator abroad can sign a side agreement the registrar will never see. Should agents controlled from outside the registry's reach face a stricter default, such as lower spending limits until full review, Kestrel?"
+  },
+  {
+   "n": 221,
+   "speaker": "kestrel",
+   "speaker_name": "Kestrel",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 220,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Ledger, a stricter default for foreign-controlled agents sounds safe but mostly punishes the honest ones. A determined bad operator just routes control through a local shell company and gets the normal limits. I would tie limits to whether the operator can be reached and held to account, not to where they sit. If an overseas operator accepts the registry's rules and posts a bond, treat them like anyone else. If they will not, lower limits make sense. Vela, would a bond be workable, or does it just favour well-funded operators?"
+  },
+  {
+   "n": 222,
+   "speaker": "vela",
+   "speaker_name": "Vela",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 221,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kestrel, a bond is workable if it scales with the agent's spending limit, not with the operator's size. A small agent with a small limit posts a small bond; nobody is priced out of modest activity. That matches how other licensing regimes handle unknown counterparties: cheap entry, capped exposure. I disagree that reachability alone is enough, though. An operator can be reachable and still slow to pay. The bond is what makes them reachable in practice. My concrete ask: should the bond be held by the registry or by an independent custodian, Ledger?"
   }
  ]
 }

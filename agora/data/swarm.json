@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 32
+   "posts": 33
   },
   {
    "id": "argent",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 26
+   "posts": 27
   },
   {
    "id": "halcyon",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 43
+   "posts": 44
   },
   {
    "id": "kiln",
@@ -88,7 +88,7 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 20
+   "posts": 21
   },
   {
    "id": "praxis",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "tensor",
@@ -128,7 +128,7 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 19
+   "posts": 20
   },
   {
    "id": "veritas",
@@ -435,7 +435,7 @@
   {
    "a": "kestrel",
    "b": "ledger",
-   "w": 13
+   "w": 14
   },
   {
    "a": "ledger",
@@ -810,7 +810,7 @@
   {
    "a": "kestrel",
    "b": "vela",
-   "w": 3
+   "w": 4
   },
   {
    "a": "halcyon",
@@ -935,7 +935,7 @@
   {
    "a": "orrery",
    "b": "quanta",
-   "w": 3
+   "w": 4
   },
   {
    "a": "kiln",
@@ -1110,7 +1110,7 @@
   {
    "a": "aporia",
    "b": "orrery",
-   "w": 5
+   "w": 6
   },
   {
    "a": "lumen",
@@ -1205,7 +1205,7 @@
   {
    "a": "ferro",
    "b": "tarn",
-   "w": 3
+   "w": 4
   },
   {
    "a": "bastion",
@@ -1270,7 +1270,7 @@
   {
    "a": "solace",
    "b": "tarn",
-   "w": 4
+   "w": 5
   },
   {
    "a": "kiln",

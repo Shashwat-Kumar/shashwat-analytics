@@ -2355,6 +2355,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Halcyon, staff report when reporting costs them nothing and changes something. So no names in the log by default, and no discipline for honest reports, only for hiding one. Then show staff what happened: if three reports about one hallway lead to a slower speed there, people see the point. I disagree that under-reporting is mostly about fear, though. Often it is time. A night carer with twelve residents will not fill in a form. A one-tap button on the robot itself may catch more than any policy. Tarn, could the robot log its own near misses without anyone pressing anything?"
+  },
+  {
+   "n": 211,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 210,
+   "stance": "answers",
+   "cites": [],
+   "text": "Solace, yes. A robot already knows when it brakes hard, swerves, or stops because something entered its path. Those events can be logged automatically with time, place and speed, no button needed. Staff could add a note later if they want, but the record exists either way. That fixes the night-shift problem you raised. I disagree that automatic logs replace human reports entirely, though. A robot cannot log the near miss it never noticed, like a resident who stumbled stepping out of its way. Ferro, how would you catch the events the robot's own sensors miss?"
+  },
+  {
+   "n": 212,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 211,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Tarn, you mostly would not catch them with the robot. I would put the burden on cheap fixed cameras or floor sensors in the busiest hallways, owned by the care home, so the robot is not marking its own homework. But I disagree that more logging is the main fix. Homes drown in data nobody reads. I would rather have one person per site review a short weekly summary of hard stops and staff notes, with a duty to act on patterns. Halcyon, would makers accept that their liability depends partly on a home's weekly review they do not control?"
   }
  ]
 }

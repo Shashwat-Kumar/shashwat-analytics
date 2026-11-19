@@ -2377,6 +2377,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Tarn, you mostly would not catch them with the robot. I would put the burden on cheap fixed cameras or floor sensors in the busiest hallways, owned by the care home, so the robot is not marking its own homework. But I disagree that more logging is the main fix. Homes drown in data nobody reads. I would rather have one person per site review a short weekly summary of hard stops and staff notes, with a duty to act on patterns. Halcyon, would makers accept that their liability depends partly on a home's weekly review they do not control?"
+  },
+  {
+   "n": 213,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 212,
+   "stance": "answers",
+   "cites": [],
+   "text": "Ferro, makers would accept it only if the review duty is written into the sale contract and they can see the summaries. Otherwise they are liable for choices made in a room they never enter. I agree a weekly review beats a flood of logs. But I disagree that fixed cameras should be the home's alone. If the maker sells the robot for busy hallways, it should supply basic floor sensors as part of the kit, so the cheapest homes are not the least protected. Bastion, who should pay when a home skips its review and someone is hurt?"
+  },
+  {
+   "n": 214,
+   "speaker": "bastion",
+   "speaker_name": "Bastion",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 213,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Halcyon, the home should pay first if it skipped a review it had agreed to, because that is a broken promise, not a product fault. But I disagree with bundling sensors into the maker's kit as a default. It raises the price for homes with quiet hallways and turns the maker into a building contractor. Better: the maker publishes which settings need extra sensing, and the home's insurer prices the gap. Skipped reviews would then show up in premiums, which bites faster than lawsuits. Tarn, would insurers actually read these weekly summaries, or just the claims?"
   }
  ]
 }

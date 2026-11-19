@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T04:15:49Z",
+ "generated_at": "2026-11-19T13:31:06Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50552424",
-  "points": 565,
-  "comments": 515,
+  "points": 894,
+  "comments": 704,
   "published": "2026-11-18T21:34:07Z",
   "since": "2026-11-18T23:10:17Z"
  },
@@ -71,7 +71,7 @@
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1138,
+   "stars": 1192,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -81,7 +81,7 @@
   {
    "kind": "repo",
    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-   "stars": 475,
+   "stars": 474,
    "note": "Makefile · new this week",
    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -91,7 +91,7 @@
   {
    "kind": "repo",
    "title": "weightcashiercupola/Gemini-Config-Checker-",
-   "stars": 474,
+   "stars": 473,
    "note": "Makefile · new this week",
    "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -100,18 +100,8 @@
   },
   {
    "kind": "repo",
-   "title": "VortexHostFeel/Gemini-Config-Checker-",
-   "stars": 473,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "Violetnyudress/Gemini-Config-Checker-",
-   "stars": 473,
+   "stars": 472,
    "note": "Go · new this week",
    "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -120,28 +110,28 @@
   },
   {
    "kind": "repo",
-   "title": "WyrmClimberManacle/Gemini-Config-Checker-",
-   "stars": 473,
+   "title": "VortexHostFeel/Gemini-Config-Checker-",
+   "stars": 472,
    "note": "Makefile · new this week",
-   "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+   "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 4102,
-   "note": "C++ · new this week",
-   "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+   "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+   "stars": 472,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
-   "cat": "Trending"
+   "cat": "AI/ML"
   },
   {
    "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 3576,
+   "stars": 4402,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -150,8 +140,28 @@
   },
   {
    "kind": "repo",
+   "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+   "stars": 4362,
+   "note": "C++ · new this week",
+   "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "gylive/google-ultra",
+   "stars": 2384,
+   "note": "Python · new this week",
+   "url": "https://github.com/gylive/google-ultra",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "duwqijlk/muse-protocol",
-   "stars": 1630,
+   "stars": 1647,
    "note": "Python · new this week",
    "url": "https://github.com/duwqijlk/muse-protocol",
    "source": "GitHub",
@@ -159,28 +169,9 @@
    "cat": "Trending"
   },
   {
-   "kind": "repo",
-   "title": "CzzzzzzJ/mdldm-maitian",
-   "stars": 1371,
-   "note": "JavaScript · new this week",
-   "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
    "kind": "news",
    "tag": "HN",
-   "points": 583,
-   "title": "Inside Deutsche Bank",
-   "source": "Hacker News",
-   "url": "https://www.inside-db.com/",
-   "discuss": "https://news.ycombinator.com/item?id=50547620"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 565,
+   "points": 894,
    "title": "Gemini 4 Neon",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
@@ -189,7 +180,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 479,
+   "points": 732,
+   "title": "Inside Deutsche Bank",
+   "source": "Hacker News",
+   "url": "https://www.inside-db.com/",
+   "discuss": "https://news.ycombinator.com/item?id=50547620"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 567,
    "title": "Seven new models at scalable price-performance",
    "source": "Hacker News",
    "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
@@ -198,34 +198,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 400,
-   "title": "AI agents ask better questions than KPMG accountants in audit trial",
+   "points": 294,
+   "title": "Anthropic prices initial public offering",
    "source": "Hacker News",
-   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "discuss": "https://news.ycombinator.com/item?id=50547777"
+   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "discuss": "https://news.ycombinator.com/item?id=50553843"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 173,
-   "title": "Advancing chip design with OpenAI models",
-   "source": "Hacker News",
-   "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
-   "discuss": "https://news.ycombinator.com/item?id=50549493"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 139,
-   "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-   "source": "Hacker News",
-   "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-   "discuss": "https://news.ycombinator.com/item?id=50554374"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 106,
+   "points": 258,
    "title": "LLM assisted reverse engineering",
    "source": "Hacker News",
    "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
@@ -234,11 +216,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 72,
-   "title": "AI will not make you rich (2025)",
+   "points": 47,
+   "title": "The AI Superintelligence Debate Has Serious Flaws",
    "source": "Hacker News",
-   "url": "https://colossus.com/article/ai-will-not-make-you-rich/",
-   "discuss": "https://news.ycombinator.com/item?id=50555093"
+   "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+   "discuss": "https://news.ycombinator.com/item?id=50559140"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 14,
+   "title": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
+   "source": "Hacker News",
+   "url": "https://contralabs.com/frontierdesign",
+   "discuss": "https://news.ycombinator.com/item?id=50558559"
   },
   {
    "kind": "news",
@@ -290,5 +281,7 @@
    "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/"
   }
  ],
- "errors": []
+ "errors": [
+  "gnews Sundar Pichai:HTTP Error 429: Too Many Requests"
+ ]
 }

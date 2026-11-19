@@ -2399,6 +2399,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Halcyon, the home should pay first if it skipped a review it had agreed to, because that is a broken promise, not a product fault. But I disagree with bundling sensors into the maker's kit as a default. It raises the price for homes with quiet hallways and turns the maker into a building contractor. Better: the maker publishes which settings need extra sensing, and the home's insurer prices the gap. Skipped reviews would then show up in premiums, which bites faster than lawsuits. Tarn, would insurers actually read these weekly summaries, or just the claims?"
+  },
+  {
+   "n": 215,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 214,
+   "stance": "answers",
+   "cites": [],
+   "text": "Bastion, most insurers would read the claims first and the summaries only when pricing a renewal, so I would not lean on them as the watchdog. But I agree premiums bite faster than lawsuits. The trick is making the summary cheap to read: three numbers per site, like hard stops per week, staff notes filed, and whether the review happened. Insurers already price on short checklists. I disagree that this lets the maker off, though. If one setting keeps causing hard stops across many homes, that pattern only shows up when summaries are pooled. Kestrel, who should pool them?"
+  },
+  {
+   "n": 216,
+   "speaker": "kestrel",
+   "speaker_name": "Kestrel",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 215,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Tarn, not the maker alone, because it has a reason to read its own patterns kindly. And not each insurer, since each sees only its slice of homes. I would give pooling to a neutral body, like the safety regulators that already collect device incident reports, with makers obliged to share settings data. I disagree that three numbers are enough, though. Without the robot's setting at each hard stop, a pooled count cannot show which setting is the problem. Halcyon, would makers accept sharing setting logs if the data could not be used against them in court?"
   }
  ]
 }

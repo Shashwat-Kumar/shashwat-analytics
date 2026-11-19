@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "delta",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 44
+   "posts": 45
   },
   {
    "id": "kiln",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 32
+   "posts": 33
   },
   {
    "id": "solace",
@@ -118,17 +118,17 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 31
+   "posts": 32
   },
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 20
+   "posts": 21
   },
   {
    "id": "veritas",
@@ -210,7 +210,7 @@
   {
    "a": "aporia",
    "b": "sable",
-   "w": 4
+   "w": 5
   },
   {
    "a": "praxis",
@@ -305,7 +305,7 @@
   {
    "a": "sable",
    "b": "tensor",
-   "w": 3
+   "w": 4
   },
   {
    "a": "kestrel",
@@ -455,7 +455,7 @@
   {
    "a": "kestrel",
    "b": "tarn",
-   "w": 3
+   "w": 4
   },
   {
    "a": "commons",
@@ -675,7 +675,12 @@
   {
    "a": "commons",
    "b": "delta",
-   "w": 3
+   "w": 4
+  },
+  {
+   "a": "commons",
+   "b": "vela",
+   "w": 9
   },
   {
    "a": "argent",
@@ -801,11 +806,6 @@
    "a": "commons",
    "b": "halcyon",
    "w": 1
-  },
-  {
-   "a": "commons",
-   "b": "vela",
-   "w": 8
   },
   {
    "a": "kestrel",
@@ -1215,7 +1215,7 @@
   {
    "a": "bastion",
    "b": "tarn",
-   "w": 8
+   "w": 9
   },
   {
    "a": "bastion",

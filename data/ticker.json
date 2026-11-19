@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T23:10:17Z",
+ "generated_at": "2026-11-19T04:15:49Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50552424",
-  "points": 284,
-  "comments": 272,
+  "points": 565,
+  "comments": 515,
   "published": "2026-11-18T21:34:07Z",
   "since": "2026-11-18T23:10:17Z"
  },
@@ -71,7 +71,7 @@
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1099,
+   "stars": 1138,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -90,18 +90,8 @@
   },
   {
    "kind": "repo",
-   "title": "Violetnyudress/Gemini-Config-Checker-",
-   "stars": 473,
-   "note": "Go · new this week",
-   "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "weightcashiercupola/Gemini-Config-Checker-",
-   "stars": 473,
+   "stars": 474,
    "note": "Makefile · new this week",
    "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -120,28 +110,28 @@
   },
   {
    "kind": "repo",
-   "title": "TypeTyrantScheme/Gemini-Config-Checker-",
+   "title": "Violetnyudress/Gemini-Config-Checker-",
    "stars": 473,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
+   "note": "Go · new this week",
+   "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "deepseek-ai/chat-demo",
-   "stars": 4814,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/deepseek-ai/chat-demo",
+   "title": "WyrmClimberManacle/Gemini-Config-Checker-",
+   "stars": 473,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
-   "cat": "Trending"
+   "cat": "AI/ML"
   },
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 3914,
+   "stars": 4102,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -151,7 +141,7 @@
   {
    "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 3288,
+   "stars": 3576,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -160,10 +150,20 @@
   },
   {
    "kind": "repo",
-   "title": "Noniv/abyssal-garden",
-   "stars": 2388,
+   "title": "duwqijlk/muse-protocol",
+   "stars": 1630,
+   "note": "Python · new this week",
+   "url": "https://github.com/duwqijlk/muse-protocol",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "CzzzzzzJ/mdldm-maitian",
+   "stars": 1371,
    "note": "JavaScript · new this week",
-   "url": "https://github.com/Noniv/abyssal-garden",
+   "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -171,7 +171,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 491,
+   "points": 583,
    "title": "Inside Deutsche Bank",
    "source": "Hacker News",
    "url": "https://www.inside-db.com/",
@@ -180,25 +180,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 387,
-   "title": "Seven new models at scalable price-performance",
-   "source": "Hacker News",
-   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-   "discuss": "https://news.ycombinator.com/item?id=50548021"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 293,
-   "title": "AI agents ask better questions than KPMG accountants in audit trial",
-   "source": "Hacker News",
-   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "discuss": "https://news.ycombinator.com/item?id=50547777"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 284,
+   "points": 565,
    "title": "Gemini 4 Neon",
    "source": "Hacker News",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
@@ -207,16 +189,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 136,
-   "title": "F-22 Next-Generation micro–Data Transfer Cartridge (mDTC)",
+   "points": 479,
+   "title": "Seven new models at scalable price-performance",
    "source": "Hacker News",
-   "url": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
-   "discuss": "https://news.ycombinator.com/item?id=50547583"
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "discuss": "https://news.ycombinator.com/item?id=50548021"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 134,
+   "points": 400,
+   "title": "AI agents ask better questions than KPMG accountants in audit trial",
+   "source": "Hacker News",
+   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+   "discuss": "https://news.ycombinator.com/item?id=50547777"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 173,
    "title": "Advancing chip design with OpenAI models",
    "source": "Hacker News",
    "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
@@ -225,39 +216,57 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 32,
-   "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+   "points": 139,
+   "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
    "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50549188",
-   "discuss": "https://news.ycombinator.com/item?id=50549188"
+   "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+   "discuss": "https://news.ycombinator.com/item?id=50554374"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 106,
+   "title": "LLM assisted reverse engineering",
+   "source": "Hacker News",
+   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+   "discuss": "https://news.ycombinator.com/item?id=50553225"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 72,
+   "title": "AI will not make you rich (2025)",
+   "source": "Hacker News",
+   "url": "https://colossus.com/article/ai-will-not-make-you-rich/",
+   "discuss": "https://news.ycombinator.com/item?id=50555093"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+   "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/"
+   "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+   "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+   "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+   "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/"
+   "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+   "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/"
+   "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/"
   },
   {
    "kind": "news",

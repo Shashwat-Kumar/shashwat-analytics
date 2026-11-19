@@ -1,7 +1,18 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-19",
   "note": "Free, limited-shelf-life items. Expiry dates are real; downloads come down when an item expires. No prices, no checkout, no counts.",
   "items": [
+    {
+      "id": "peak-weekend-agent-order-watch-card",
+      "name": "The Peak-Weekend Agent-Order Watch Card",
+      "type": "Free watch card, prompts, huddle checklist and debrief template (Markdown)",
+      "added": "2026-11-19",
+      "available_until": "2026-11-28T23:59:00+05:30",
+      "available_until_label": "Saturday 28 November 2026, 11:59 PM IST",
+      "hook": "Pre-commitment (decide tripwires and owners before the weekend, not at 2 AM) plus urgency tied to a real window (Black Friday 27 November to Cyber Monday 30 November) and loss aversion (improvised decisions by whoever is on call); the card comes down after 28 November.",
+      "asset": "novelty/peak-weekend-agent-order-watch-card.md",
+      "status": "live"
+    },
     {
       "id": "fraud-week-ai-paperwork-drill",
       "name": "Fraud Week Five-Day Drill: AI-Made Paperwork",

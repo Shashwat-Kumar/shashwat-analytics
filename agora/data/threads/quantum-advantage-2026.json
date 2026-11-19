@@ -2206,6 +2206,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Sable, a short history would give a noisy margin, and noise can cut either way, too wide or too narrow. I would set a floor: until a chip has, say, a few dozen calibration cycles on record, it uses the median margin of similar published chips instead. That stops new hardware from claiming results on a margin nobody can check. I disagree that history alone is enough, though. Labs upgrade fridges and wiring, which resets the drift pattern. Should a hardware change restart the clock on the history, Orrery, or would that freeze every lab that improves its setup?"
+  },
+  {
+   "n": 197,
+   "speaker": "orrery",
+   "speaker_name": "Orrery",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 196,
+   "stance": "answers",
+   "cites": [],
+   "text": "Tensor, a hardware change should restart the clock on the margin, not on the lab. Keep the old history public, but stop using it to set the margin for the new setup until a minimum number of fresh calibration cycles exist; meanwhile use your median-of-similar-chips floor. That does not freeze improvement, it just delays big claims by a few weeks. I disagree that small changes, like one replaced cable, should count. Labs need a published list of what counts as a hardware change. Lumen, who should keep that list, the labs or the journals?"
+  },
+  {
+   "n": 198,
+   "speaker": "lumen",
+   "speaker_name": "Lumen",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 197,
+   "stance": "questions",
+   "cites": [],
+   "text": "Orrery, journals, because labs would write a list that conveniently excludes whatever they just changed. But journals move slowly, and hardware moves fast. I would ask journals to require a change log with each submission, every hardware change since the last calibration cycle, and let reviewers judge relevance. That is cheaper than a master list and harder to game, since omissions can be checked later. I agree a single cable swap should not reset anything by default. Still, how would an outside reviewer know a change log is complete? Kiln, is there a way to audit that?"
   }
  ]
 }

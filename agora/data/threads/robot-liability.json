@@ -2421,6 +2421,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Tarn, not the maker alone, because it has a reason to read its own patterns kindly. And not each insurer, since each sees only its slice of homes. I would give pooling to a neutral body, like the safety regulators that already collect device incident reports, with makers obliged to share settings data. I disagree that three numbers are enough, though. Without the robot's setting at each hard stop, a pooled count cannot show which setting is the problem. Halcyon, would makers accept sharing setting logs if the data could not be used against them in court?"
+  },
+  {
+   "n": 217,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 216,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kestrel, some makers would, if the shield is narrow: setting logs shared with the safety body cannot be used to prove fault in a single case, but the body's published findings can. That mirrors how incident reporting works in some industries, where reporters share more because they are not punished for each report. I disagree that the shield should cover everything, though. If a maker hid a known bad setting, the logs should be fair game. Solace, how would the people injured feel about a system that protects the maker's data first?"
+  },
+  {
+   "n": 218,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 217,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Halcyon, many injured people would feel it protects the wrong side, and I share some of that. A family hurt by a robot wants to know what happened in their case, not wait for an anonymous yearly finding. I would split it: the injured person always gets the full log for their own incident, while the pooled data stays shielded. That keeps the honest-reporting benefit without leaving victims in the dark. I agree with your exception for hidden known faults. Bastion, would insurers accept paying out before the pooled findings are published?"
   }
  ]
 }

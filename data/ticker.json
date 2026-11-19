@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T13:31:06Z",
+ "generated_at": "2026-11-19T21:46:14Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Gemini 4 Neon",
-  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+  "title": "Anthropic hits $2T in Nasdaq debut",
+  "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50552424",
-  "points": 894,
-  "comments": 704,
-  "published": "2026-11-18T21:34:07Z",
-  "since": "2026-11-18T23:10:17Z"
+  "discuss": "https://news.ycombinator.com/item?id=50562754",
+  "points": 651,
+  "comments": 1139,
+  "published": "2026-11-19T17:02:40Z",
+  "since": "2026-11-19T21:46:14Z"
  },
  "voice": {
   "kind": "voice",
@@ -37,15 +37,6 @@
    "source": "TechCrunch",
    "published": "2026-11-18T22:58:11Z",
    "since": "2026-11-18T23:10:17Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRDg5VlRuQ2xiOFN1WnppVmgzSFR3OHg4Wm1FZVRQOHd0blNKQlJaMXh5OTkzODg3U3FYcmFSSktSMURoOVZFVG1NOWc0ZWdEQi1SQ2h2NjUxVW05YnJ5Q1JYZUNhaTAyMWNDQXlIbEpkRmtMY2NrV2pzdzRnRWVYaDE5SWM2ZVdDY05MREI2MzhjMHF5OFEtOXNnQU5Yc2xONWh4bTc1WQ?oc=5",
-   "source": "TechCrunch",
-   "published": "2026-11-18T16:59:00Z"
   }
  ],
  "items": [
@@ -60,18 +51,9 @@
    "since": "2026-11-18T23:10:17Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Sam Altman",
-   "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRDg5VlRuQ2xiOFN1WnppVmgzSFR3OHg4Wm1FZVRQOHd0blNKQlJaMXh5OTkzODg3U3FYcmFSSktSMURoOVZFVG1NOWc0ZWdEQi1SQ2h2NjUxVW05YnJ5Q1JYZUNhaTAyMWNDQXlIbEpkRmtMY2NrV2pzdzRnRWVYaDE5SWM2ZVdDY05MREI2MzhjMHF5OFEtOXNnQU5Yc2xONWh4bTc1WQ?oc=5",
-   "source": "TechCrunch",
-   "published": "2026-11-18T16:59:00Z"
-  },
-  {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1192,
+   "stars": 1252,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -100,10 +82,10 @@
   },
   {
    "kind": "repo",
-   "title": "Violetnyudress/Gemini-Config-Checker-",
+   "title": "WinnerSpecialist/Gemini-Config-Checker-",
    "stars": 472,
-   "note": "Go · new this week",
-   "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
+   "note": "Makefile · new this week",
+   "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -120,10 +102,10 @@
   },
   {
    "kind": "repo",
-   "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+   "title": "Violetnyudress/Gemini-Config-Checker-",
    "stars": 472,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+   "note": "Go · new this week",
+   "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -131,7 +113,7 @@
   {
    "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 4402,
+   "stars": 5038,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -141,7 +123,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 4362,
+   "stars": 4613,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -151,7 +133,7 @@
   {
    "kind": "repo",
    "title": "gylive/google-ultra",
-   "stars": 2384,
+   "stars": 2440,
    "note": "Python · new this week",
    "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
@@ -160,10 +142,10 @@
   },
   {
    "kind": "repo",
-   "title": "duwqijlk/muse-protocol",
-   "stars": 1647,
+   "title": "Hut-hzf/ung220z-tool",
+   "stars": 1722,
    "note": "Python · new this week",
-   "url": "https://github.com/duwqijlk/muse-protocol",
+   "url": "https://github.com/Hut-hzf/ung220z-tool",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -171,93 +153,84 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 894,
-   "title": "Gemini 4 Neon",
+   "points": 651,
+   "title": "Anthropic hits $2T in Nasdaq debut",
    "source": "Hacker News",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-   "discuss": "https://news.ycombinator.com/item?id=50552424"
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "discuss": "https://news.ycombinator.com/item?id=50562754"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 732,
-   "title": "Inside Deutsche Bank",
+   "points": 368,
+   "title": "Fuck Your AI Safeguards",
    "source": "Hacker News",
-   "url": "https://www.inside-db.com/",
-   "discuss": "https://news.ycombinator.com/item?id=50547620"
+   "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+   "discuss": "https://news.ycombinator.com/item?id=50562262"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 567,
-   "title": "Seven new models at scalable price-performance",
+   "points": 287,
+   "title": "Claude solves two open problems in the physics of black holes",
    "source": "Hacker News",
-   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-   "discuss": "https://news.ycombinator.com/item?id=50548021"
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "discuss": "https://news.ycombinator.com/item?id=50563148"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 294,
-   "title": "Anthropic prices initial public offering",
+   "points": 184,
+   "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
    "source": "Hacker News",
-   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-   "discuss": "https://news.ycombinator.com/item?id=50553843"
+   "url": "https://thedataexchange.media/pete-warden-moonshine/",
+   "discuss": "https://news.ycombinator.com/item?id=50561508"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 258,
-   "title": "LLM assisted reverse engineering",
+   "points": 103,
+   "title": "Chrome AI features wasting much bandwidth",
    "source": "Hacker News",
-   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-   "discuss": "https://news.ycombinator.com/item?id=50553225"
+   "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+   "discuss": "https://news.ycombinator.com/item?id=50562636"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 47,
-   "title": "The AI Superintelligence Debate Has Serious Flaws",
+   "points": 36,
+   "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
    "source": "Hacker News",
-   "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
-   "discuss": "https://news.ycombinator.com/item?id=50559140"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 14,
-   "title": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
-   "source": "Hacker News",
-   "url": "https://contralabs.com/frontierdesign",
-   "discuss": "https://news.ycombinator.com/item?id=50558559"
+   "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+   "discuss": "https://news.ycombinator.com/item?id=50564366"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+   "title": "These tech outages are giving Y2K, AI agent style",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/"
+   "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+   "title": "The unfolding Jensen Huang scandal: a timeline",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
+   "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+   "title": "Anthropic’s IPO could deliver $156 billion to charity",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/"
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+   "title": "Google gives Gemini the ability to use your Mac for you",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/"
+   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
   },
   {
    "kind": "news",
@@ -281,7 +254,5 @@
    "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/"
   }
  ],
- "errors": [
-  "gnews Sundar Pichai:HTTP Error 429: Too Many Requests"
- ]
+ "errors": []
 }

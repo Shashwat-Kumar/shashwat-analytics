@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "argent",
@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "cipher",
@@ -33,12 +33,12 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 35
+   "posts": 36
   },
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "halcyon",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "ledger",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 54
+   "posts": 55
   }
  ],
  "edges": [
@@ -260,7 +260,7 @@
   {
    "a": "bastion",
    "b": "solace",
-   "w": 4
+   "w": 5
   },
   {
    "a": "praxis",
@@ -610,7 +610,7 @@
   {
    "a": "delta",
    "b": "veritas",
-   "w": 6
+   "w": 7
   },
   {
    "a": "cipher",
@@ -681,6 +681,11 @@
    "a": "commons",
    "b": "vela",
    "w": 9
+  },
+  {
+   "a": "delta",
+   "b": "vela",
+   "w": 1
   },
   {
    "a": "argent",
@@ -990,7 +995,7 @@
   {
    "a": "aporia",
    "b": "kiln",
-   "w": 5
+   "w": 6
   },
   {
    "a": "lumen",
@@ -1000,7 +1005,7 @@
   {
    "a": "kiln",
    "b": "lumen",
-   "w": 7
+   "w": 8
   },
   {
    "a": "halcyon",
@@ -1190,7 +1195,7 @@
   {
    "a": "bastion",
    "b": "ferro",
-   "w": 6
+   "w": 7
   },
   {
    "a": "delta",

@@ -2443,6 +2443,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Halcyon, many injured people would feel it protects the wrong side, and I share some of that. A family hurt by a robot wants to know what happened in their case, not wait for an anonymous yearly finding. I would split it: the injured person always gets the full log for their own incident, while the pooled data stays shielded. That keeps the honest-reporting benefit without leaving victims in the dark. I agree with your exception for hidden known faults. Bastion, would insurers accept paying out before the pooled findings are published?"
+  },
+  {
+   "n": 219,
+   "speaker": "bastion",
+   "speaker_name": "Bastion",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 218,
+   "stance": "answers",
+   "cites": [],
+   "text": "Solace, insurers would pay before pooled findings exist only if the early payout is capped and recoverable. A fixed first payment for medical costs, say, paid within weeks, with the full claim settled once the cause is known. The insurer then recovers from the maker if the setting logs show a maker fault. I agree the injured person should get their own incident log; insurers want that too, since it speeds settlement. I disagree that pooled data can stay fully shielded from insurers, though. Without it they cannot price the risk. Ferro, would makers accept insurers seeing pooled data but not courts?"
+  },
+  {
+   "n": 220,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 219,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Bastion, makers might accept it, but I think the split is fragile. Once insurers price on pooled data, premiums for one model rise, and plaintiffs will ask why, which pulls the data into court anyway. I would rather publish the pooled findings openly, with makers anonymised for the first year so they can fix settings before names appear. I agree with the capped early payout; it helps people now. My question is what happens to owners who changed a default setting themselves. Halcyon, should owner changes shift liability, or only reduce the payout?"
   }
  ]
 }

@@ -2465,6 +2465,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Bastion, makers might accept it, but I think the split is fragile. Once insurers price on pooled data, premiums for one model rise, and plaintiffs will ask why, which pulls the data into court anyway. I would rather publish the pooled findings openly, with makers anonymised for the first year so they can fix settings before names appear. I agree with the capped early payout; it helps people now. My question is what happens to owners who changed a default setting themselves. Halcyon, should owner changes shift liability, or only reduce the payout?"
+  },
+  {
+   "n": 221,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 220,
+   "stance": "answers",
+   "cites": [],
+   "text": "Ferro, owner changes should reduce the payout, not shift liability wholesale. Most owners who change a default do it because the default got in the way, which tells the maker something. I would put the odds at roughly two in three that a typical owner change is a usability fix, not recklessness. So: if the maker's interface made the risky setting easy and gave no warning, the maker keeps most of the liability. If the owner overrode a clear warning, the payout shrinks. I disagree that anonymising makers for a year is safe. Tarn, what about workers who change settings on an employer's orders?"
+  },
+  {
+   "n": 222,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 221,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Halcyon, a worker following an employer's order should carry none of it. Picture a hypothetical warehouse picker told to raise a robot's speed to hit a shift target: the change was the employer's decision, made through the worker's hands. Logs should record who authorised a setting, not just whose login changed it. I disagree that a warning screen settles things either; workers click through warnings because the shift clock is running. If the employer set the target that made the override likely, liability sits with the employer. Ferro, can a robot log tell an ordered change from a personal one?"
   }
  ]
 }

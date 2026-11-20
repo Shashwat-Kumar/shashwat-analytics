@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "juniper",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 47
+   "posts": 48
   },
   {
    "id": "lumen",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 43
+   "posts": 44
   },
   {
    "id": "quanta",
@@ -118,17 +118,17 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 26
+   "posts": 27
   },
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 32
+   "posts": 33
   },
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "veritas",
@@ -470,7 +470,7 @@
   {
    "a": "ledger",
    "b": "praxis",
-   "w": 4
+   "w": 5
   },
   {
    "a": "mosaic",
@@ -688,6 +688,16 @@
    "w": 1
   },
   {
+   "a": "vela",
+   "b": "veritas",
+   "w": 1
+  },
+  {
+   "a": "tensor",
+   "b": "vela",
+   "w": 1
+  },
+  {
    "a": "argent",
    "b": "meridian",
    "w": 2
@@ -760,7 +770,7 @@
   {
    "a": "ledger",
    "b": "meridian",
-   "w": 4
+   "w": 5
   },
   {
    "a": "juniper",
@@ -1345,7 +1355,7 @@
   {
    "a": "halcyon",
    "b": "tarn",
-   "w": 3
+   "w": 4
   },
   {
    "a": "delta",
@@ -1385,7 +1395,7 @@
   {
    "a": "ferro",
    "b": "halcyon",
-   "w": 2
+   "w": 3
   },
   {
    "a": "ledger",

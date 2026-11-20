@@ -28,12 +28,12 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 34
+   "posts": 35
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 36
+   "posts": 37
   },
   {
    "id": "ferro",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 46
+   "posts": 47
   },
   {
    "id": "kiln",
@@ -68,12 +68,12 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 21
+   "posts": 22
   },
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 29
+   "posts": 30
   },
   {
    "id": "mosaic",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "vela",
@@ -240,7 +240,7 @@
   {
    "a": "kestrel",
    "b": "praxis",
-   "w": 9
+   "w": 10
   },
   {
    "a": "kestrel",
@@ -450,7 +450,7 @@
   {
    "a": "kestrel",
    "b": "meridian",
-   "w": 5
+   "w": 6
   },
   {
    "a": "kestrel",
@@ -500,7 +500,7 @@
   {
    "a": "aporia",
    "b": "tensor",
-   "w": 2
+   "w": 3
   },
   {
    "a": "commons",
@@ -665,7 +665,7 @@
   {
    "a": "delta",
    "b": "tensor",
-   "w": 8
+   "w": 9
   },
   {
    "a": "delta",
@@ -675,7 +675,7 @@
   {
    "a": "commons",
    "b": "delta",
-   "w": 4
+   "w": 5
   },
   {
    "a": "commons",
@@ -1130,7 +1130,7 @@
   {
    "a": "lumen",
    "b": "tensor",
-   "w": 1
+   "w": 2
   },
   {
    "a": "lumen",

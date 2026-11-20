@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T21:46:14Z",
+ "generated_at": "2026-11-20T02:41:03Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,54 +8,34 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Anthropic hits $2T in Nasdaq debut",
+  "title": "Anthropic’s Nasdaq debut",
   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50562754",
-  "points": 651,
-  "comments": 1139,
+  "points": 939,
+  "comments": 1851,
   "published": "2026-11-19T17:02:40Z",
   "since": "2026-11-19T21:46:14Z"
  },
- "voice": {
-  "kind": "voice",
-  "tag": "VOICE",
-  "person": "Satya Nadella",
-  "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQTZPUzQ4QVgxSWZ1N0ZhWXV5bGNtS25WdjFyZVdDUVczUzFTTldyTExxM1FhTmtIb1VsQTlJdC1LQktaZGMyVTViTldsR0ZCT2JKcERLdS1CZlpyNmlEMkdVTjRUYUpzRnJxdlI3VTV1Sk1GSDFtM3BZV0hwYWZyQlkzekRlc3JVWGZoYUdxamZyM25Jb3lNM1dUeENyVzE4S3BKNE9VcXp4eHM?oc=5",
-  "source": "TechCrunch",
-  "published": "2026-11-18T22:58:11Z",
-  "since": "2026-11-18T23:10:17Z"
- },
- "voices": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Satya Nadella",
-   "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQTZPUzQ4QVgxSWZ1N0ZhWXV5bGNtS25WdjFyZVdDUVczUzFTTldyTExxM1FhTmtIb1VsQTlJdC1LQktaZGMyVTViTldsR0ZCT2JKcERLdS1CZlpyNmlEMkdVTjRUYUpzRnJxdlI3VTV1Sk1GSDFtM3BZV0hwYWZyQlkzekRlc3JVWGZoYUdxamZyM25Jb3lNM1dUeENyVzE4S3BKNE9VcXp4eHM?oc=5",
-   "source": "TechCrunch",
-   "published": "2026-11-18T22:58:11Z",
-   "since": "2026-11-18T23:10:17Z"
-  }
- ],
+ "voice": null,
+ "voices": [],
  "items": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Satya Nadella",
-   "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQTZPUzQ4QVgxSWZ1N0ZhWXV5bGNtS25WdjFyZVdDUVczUzFTTldyTExxM1FhTmtIb1VsQTlJdC1LQktaZGMyVTViTldsR0ZCT2JKcERLdS1CZlpyNmlEMkdVTjRUYUpzRnJxdlI3VTV1Sk1GSDFtM3BZV0hwYWZyQlkzekRlc3JVWGZoYUdxamZyM25Jb3lNM1dUeENyVzE4S3BKNE9VcXp4eHM?oc=5",
-   "source": "TechCrunch",
-   "published": "2026-11-18T22:58:11Z",
-   "since": "2026-11-18T23:10:17Z"
-  },
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1252,
+   "stars": 1267,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "stars": 638,
+   "note": " · new this week",
+   "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -102,18 +82,8 @@
   },
   {
    "kind": "repo",
-   "title": "Violetnyudress/Gemini-Config-Checker-",
-   "stars": 472,
-   "note": "Go · new this week",
-   "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 5038,
+   "stars": 5308,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -123,7 +93,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 4613,
+   "stars": 4696,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -133,7 +103,7 @@
   {
    "kind": "repo",
    "title": "gylive/google-ultra",
-   "stars": 2440,
+   "stars": 2459,
    "note": "Python · new this week",
    "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
@@ -143,7 +113,7 @@
   {
    "kind": "repo",
    "title": "Hut-hzf/ung220z-tool",
-   "stars": 1722,
+   "stars": 1775,
    "note": "Python · new this week",
    "url": "https://github.com/Hut-hzf/ung220z-tool",
    "source": "GitHub",
@@ -153,8 +123,8 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 651,
-   "title": "Anthropic hits $2T in Nasdaq debut",
+   "points": 939,
+   "title": "Anthropic’s Nasdaq debut",
    "source": "Hacker News",
    "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "discuss": "https://news.ycombinator.com/item?id=50562754"
@@ -162,16 +132,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 368,
-   "title": "Fuck Your AI Safeguards",
-   "source": "Hacker News",
-   "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
-   "discuss": "https://news.ycombinator.com/item?id=50562262"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 287,
+   "points": 402,
    "title": "Claude solves two open problems in the physics of black holes",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
@@ -180,25 +141,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 184,
-   "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+   "points": 149,
+   "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
    "source": "Hacker News",
-   "url": "https://thedataexchange.media/pete-warden-moonshine/",
-   "discuss": "https://news.ycombinator.com/item?id=50561508"
+   "url": "https://git-aarvin.github.io/mei/",
+   "discuss": "https://news.ycombinator.com/item?id=50568130"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 103,
-   "title": "Chrome AI features wasting much bandwidth",
+   "points": 105,
+   "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
    "source": "Hacker News",
-   "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
-   "discuss": "https://news.ycombinator.com/item?id=50562636"
+   "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+   "discuss": "https://news.ycombinator.com/item?id=50568082"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 36,
+   "points": 81,
    "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
    "source": "Hacker News",
    "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
@@ -206,31 +167,40 @@
   },
   {
    "kind": "news",
+   "tag": "HN",
+   "points": 16,
+   "title": "Weight-Space Programming builds neural networks like a 1990s researcher",
+   "source": "Hacker News",
+   "url": "https://notesbylex.com/weight-space-programming-1990s",
+   "discuss": "https://news.ycombinator.com/item?id=50538977"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Apple may be developing its own AI agent that runs your Mac",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Meta’s new Muse Charm device may cost $300",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/"
+  },
+  {
+   "kind": "news",
    "tag": "AI",
    "title": "These tech outages are giving Y2K, AI agent style",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The unfolding Jensen Huang scandal: a timeline",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Anthropic’s IPO could deliver $156 billion to charity",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Google gives Gemini the ability to use your Mac for you",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
   },
   {
    "kind": "news",
@@ -254,5 +224,7 @@
    "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/"
   }
  ],
- "errors": []
+ "errors": [
+  "gnews Satya Nadella:HTTP Error 429: Too Many Requests"
+ ]
 }

@@ -1,7 +1,19 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "note": "Free, limited-shelf-life items. Expiry dates are real; downloads come down when an item expires. No prices, no checkout, no counts.",
   "items": [
+    {
+      "id": "know-your-agent-mandate-card",
+      "name": "The Know-Your-Agent Mandate Card",
+      "type": "Free in-page mini tool plus mandate card, institution grid, prompts and team exercise (Markdown)",
+      "added": "2026-11-20",
+      "available_until": "2026-11-29T23:59:00+05:30",
+      "available_until_label": "Sunday 29 November 2026, 11:59 PM IST",
+      "hook": "Endowment effect (you write your own agent's mandate, so you own and keep its limits) plus loss aversion (a shared login hands an agent everything, with no mandate) and novelty bias (the 'know your agent' idea announced by MAS on 19 November 2026, with AXS opening 800+ Singapore billers to AI agents on 18 November); a snapshot of one week's news, so the tool and card come down after 29 November.",
+      "asset": "novelty/know-your-agent-mandate-card.md",
+      "tool": "novelty/know-your-agent-mandate-card.js",
+      "status": "live"
+    },
     {
       "id": "peak-weekend-agent-order-watch-card",
       "name": "The Peak-Weekend Agent-Order Watch Card",
@@ -32,8 +44,8 @@
       "available_until": "2026-11-19T23:59:00+05:30",
       "available_until_label": "Thursday 19 November 2026, 11:59 PM IST",
       "hook": "Urgency tied to a real window (the run-up to Black Friday on 27 November and Cyber Monday on 30 November, before teams slow or freeze changes) plus novelty bias (the first peak with AI shopping agents at checkout) and loss aversion (agent traffic tripping or slipping past human-shaped fraud rules); the pack comes down after 19 November.",
-      "asset": "novelty/agent-shopper-peak-week-drill.md",
-      "status": "live"
+      "asset": null,
+      "status": "expired"
     },
     {
       "id": "post-diwali-ai-desk-reboot",

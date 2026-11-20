@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T02:41:03Z",
+ "generated_at": "2026-11-20T10:36:55Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50562754",
-  "points": 939,
-  "comments": 1851,
+  "points": 1084,
+  "comments": 2148,
   "published": "2026-11-19T17:02:40Z",
   "since": "2026-11-19T21:46:14Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1267,
+   "stars": 1284,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 638,
+   "stars": 1013,
    "note": " · new this week",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -62,6 +62,16 @@
   },
   {
    "kind": "repo",
+   "title": "Violetnyudress/Gemini-Config-Checker-",
+   "stars": 472,
+   "note": "Go · new this week",
+   "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "WinnerSpecialist/Gemini-Config-Checker-",
    "stars": 472,
    "note": "Makefile · new this week",
@@ -72,18 +82,8 @@
   },
   {
    "kind": "repo",
-   "title": "VortexHostFeel/Gemini-Config-Checker-",
-   "stars": 472,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 5308,
+   "stars": 5866,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 4696,
+   "stars": 4905,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "gylive/google-ultra",
-   "stars": 2459,
+   "stars": 2499,
    "note": "Python · new this week",
    "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "Hut-hzf/ung220z-tool",
-   "stars": 1775,
+   "stars": 1883,
    "note": "Python · new this week",
    "url": "https://github.com/Hut-hzf/ung220z-tool",
    "source": "GitHub",
@@ -123,7 +123,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 939,
+   "points": 1084,
    "title": "Anthropic’s Nasdaq debut",
    "source": "Hacker News",
    "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
@@ -132,7 +132,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 402,
+   "points": 504,
    "title": "Claude solves two open problems in the physics of black holes",
    "source": "Hacker News",
    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
@@ -141,38 +141,29 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 149,
-   "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+   "points": 250,
+   "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
    "source": "Hacker News",
-   "url": "https://git-aarvin.github.io/mei/",
-   "discuss": "https://news.ycombinator.com/item?id=50568130"
+   "url": "https://thedataexchange.media/pete-warden-moonshine/",
+   "discuss": "https://news.ycombinator.com/item?id=50561508"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 105,
-   "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-   "source": "Hacker News",
-   "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
-   "discuss": "https://news.ycombinator.com/item?id=50568082"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 81,
-   "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
-   "source": "Hacker News",
-   "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
-   "discuss": "https://news.ycombinator.com/item?id=50564366"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 16,
+   "points": 92,
    "title": "Weight-Space Programming builds neural networks like a 1990s researcher",
    "source": "Hacker News",
    "url": "https://notesbylex.com/weight-space-programming-1990s",
    "discuss": "https://news.ycombinator.com/item?id=50538977"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 19,
+   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+   "source": "Hacker News",
+   "url": "https://architectlabs.com/blog/frostbite",
+   "discuss": "https://news.ycombinator.com/item?id=50572503"
   },
   {
    "kind": "news",
@@ -224,7 +215,5 @@
    "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/"
   }
  ],
- "errors": [
-  "gnews Satya Nadella:HTTP Error 429: Too Many Requests"
- ]
+ "errors": []
 }

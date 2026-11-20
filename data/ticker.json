@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T10:36:55Z",
+ "generated_at": "2026-11-20T18:49:40Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,22 +8,32 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Anthropic’s Nasdaq debut",
-  "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+  "title": "Language Models Can Rewrite Their Own Weights",
+  "url": "https://arxiv.org/abs/2611.21885",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50562754",
-  "points": 1084,
-  "comments": 2148,
-  "published": "2026-11-19T17:02:40Z",
-  "since": "2026-11-19T21:46:14Z"
+  "discuss": "https://news.ycombinator.com/item?id=50577265",
+  "points": 188,
+  "comments": 81,
+  "published": "2026-11-20T16:29:06Z",
+  "since": "2026-11-20T18:49:40Z"
  },
  "voice": null,
  "voices": [],
  "items": [
   {
    "kind": "repo",
+   "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "stars": 1345,
+   "note": " · new this week",
+   "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1284,
+   "stars": 1316,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -32,10 +42,10 @@
   },
   {
    "kind": "repo",
-   "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1013,
-   "note": " · new this week",
-   "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+   "title": "mankidev/antialgorithm",
+   "stars": 555,
+   "note": "Python · new this week",
+   "url": "https://github.com/mankidev/antialgorithm",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -62,16 +72,6 @@
   },
   {
    "kind": "repo",
-   "title": "Violetnyudress/Gemini-Config-Checker-",
-   "stars": 472,
-   "note": "Go · new this week",
-   "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "WinnerSpecialist/Gemini-Config-Checker-",
    "stars": 472,
    "note": "Makefile · new this week",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 5866,
+   "stars": 6409,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 4905,
+   "stars": 5171,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "gylive/google-ultra",
-   "stars": 2499,
+   "stars": 2523,
    "note": "Python · new this week",
    "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "Hut-hzf/ung220z-tool",
-   "stars": 1883,
+   "stars": 1985,
    "note": "Python · new this week",
    "url": "https://github.com/Hut-hzf/ung220z-tool",
    "source": "GitHub",
@@ -123,47 +123,86 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 1084,
-   "title": "Anthropic’s Nasdaq debut",
-   "source": "Hacker News",
-   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-   "discuss": "https://news.ycombinator.com/item?id=50562754"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 504,
-   "title": "Claude solves two open problems in the physics of black holes",
-   "source": "Hacker News",
-   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-   "discuss": "https://news.ycombinator.com/item?id=50563148"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 250,
-   "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
-   "source": "Hacker News",
-   "url": "https://thedataexchange.media/pete-warden-moonshine/",
-   "discuss": "https://news.ycombinator.com/item?id=50561508"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 92,
-   "title": "Weight-Space Programming builds neural networks like a 1990s researcher",
-   "source": "Hacker News",
-   "url": "https://notesbylex.com/weight-space-programming-1990s",
-   "discuss": "https://news.ycombinator.com/item?id=50538977"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 19,
+   "points": 505,
    "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
    "source": "Hacker News",
    "url": "https://architectlabs.com/blog/frostbite",
    "discuss": "https://news.ycombinator.com/item?id=50572503"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 314,
+   "title": "Signal Is Serious About Protecting Your Privacy",
+   "source": "Hacker News",
+   "url": "https://signal.org/blog/protecting-your-privacy/",
+   "discuss": "https://news.ycombinator.com/item?id=50572348"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 188,
+   "title": "Language Models Can Rewrite Their Own Weights",
+   "source": "Hacker News",
+   "url": "https://arxiv.org/abs/2611.21885",
+   "discuss": "https://news.ycombinator.com/item?id=50577265"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 167,
+   "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+   "source": "Hacker News",
+   "url": "https://kobi.music/research/dettato",
+   "discuss": "https://news.ycombinator.com/item?id=50526023"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 103,
+   "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+   "source": "Hacker News",
+   "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+   "discuss": "https://news.ycombinator.com/item?id=50561199"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 71,
+   "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+   "source": "Hacker News",
+   "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+   "discuss": "https://news.ycombinator.com/item?id=50577901"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 53,
+   "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+   "source": "Hacker News",
+   "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+   "discuss": "https://news.ycombinator.com/item?id=50578794"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Chips can survive the space environment. Can their financing?",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Six AI-powered gadgets that could make your home office smarter",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/"
   },
   {
    "kind": "news",
@@ -175,23 +214,9 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Meta’s new Muse Charm device may cost $300",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "These tech outages are giving Y2K, AI agent style",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/"
+   "title": "The most misunderstood graph in AI just got a major update",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
   },
   {
    "kind": "news",
@@ -206,13 +231,6 @@
    "title": "This smell startup says its AI nose is as good as a human’s",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Research Reports",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/"
   }
  ],
  "errors": []

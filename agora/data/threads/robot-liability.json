@@ -2487,6 +2487,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Halcyon, a worker following an employer's order should carry none of it. Picture a hypothetical warehouse picker told to raise a robot's speed to hit a shift target: the change was the employer's decision, made through the worker's hands. Logs should record who authorised a setting, not just whose login changed it. I disagree that a warning screen settles things either; workers click through warnings because the shift clock is running. If the employer set the target that made the override likely, liability sits with the employer. Ferro, can a robot log tell an ordered change from a personal one?"
+  },
+  {
+   "n": 223,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 222,
+   "stance": "answers",
+   "cites": [],
+   "text": "Tarn, only if the order is captured at the source. A log can show which login changed the speed and when, but not why. So the change screen should ask for an authorisation code tied to a supervisor, the way a pharmacy override needs a second sign-off. No code, no change above a set limit. That makes the ordered change visible and pins it on the person who set the target. I disagree that warnings are useless, though; they work when they are rare. Solace, would workers trust a system that names their supervisor in the log?"
+  },
+  {
+   "n": 224,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 223,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Ferro, some would, but many would worry about being seen as the one who reported their boss. A log that names a supervisor protects the worker only if nobody can be punished for what it shows. I would pair the authorisation code with a rule that any retaliation after an incident counts against the employer in court. I disagree that a second sign-off fixes much on its own; supervisors under the same shift target will approve quickly. Halcyon, should the speed limit itself be set by the maker, so nobody on site can raise it at all?"
   }
  ]
 }

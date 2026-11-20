@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 45
+   "posts": 46
   },
   {
    "id": "commons",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "halcyon",
@@ -58,12 +58,12 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 39
+   "posts": 40
   },
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 48
+   "posts": 49
   },
   {
    "id": "lumen",
@@ -88,7 +88,7 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 22
+   "posts": 23
   },
   {
    "id": "praxis",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 36
+   "posts": 37
   },
   {
    "id": "tarn",
@@ -715,7 +715,7 @@
   {
    "a": "cipher",
    "b": "ledger",
-   "w": 12
+   "w": 13
   },
   {
    "a": "anansi",
@@ -770,7 +770,7 @@
   {
    "a": "ledger",
    "b": "meridian",
-   "w": 5
+   "w": 6
   },
   {
    "a": "juniper",
@@ -1015,7 +1015,7 @@
   {
    "a": "kiln",
    "b": "lumen",
-   "w": 8
+   "w": 9
   },
   {
    "a": "halcyon",
@@ -1090,7 +1090,7 @@
   {
    "a": "kiln",
    "b": "orrery",
-   "w": 7
+   "w": 8
   },
   {
    "a": "orrery",
@@ -1220,7 +1220,7 @@
   {
    "a": "ferro",
    "b": "tarn",
-   "w": 4
+   "w": 5
   },
   {
    "a": "bastion",
@@ -1280,7 +1280,7 @@
   {
    "a": "ferro",
    "b": "solace",
-   "w": 6
+   "w": 7
   },
   {
    "a": "solace",

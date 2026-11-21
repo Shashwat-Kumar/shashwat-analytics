@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T07:39:21Z",
+ "generated_at": "2026-11-21T15:40:18Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://arxiv.org/abs/2611.21885",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50577265",
-  "points": 388,
-  "comments": 117,
+  "points": 447,
+  "comments": 132,
   "published": "2026-11-20T16:29:06Z",
   "since": "2026-11-20T18:49:40Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1869,
+   "stars": 1973,
    "note": " · new this week",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1383,
+   "stars": 1431,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-   "stars": 474,
+   "stars": 472,
    "note": "Makefile · new this week",
    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "weightcashiercupola/Gemini-Config-Checker-",
-   "stars": 473,
+   "stars": 471,
    "note": "Makefile · new this week",
    "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "WinnerSpecialist/Gemini-Config-Checker-",
-   "stars": 472,
+   "stars": 470,
    "note": "Makefile · new this week",
    "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "Visionbeyondtrack/Gemini-Config-Checker-",
-   "stars": 472,
+   "stars": 470,
    "note": "Makefile · new this week",
    "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 6874,
+   "stars": 7155,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 5454,
+   "stars": 5675,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "gylive/google-ultra",
-   "stars": 2552,
+   "stars": 2571,
    "note": "Python · new this week",
    "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "Hut-hzf/ung220z-tool",
-   "stars": 2094,
+   "stars": 2189,
    "note": "Python · new this week",
    "url": "https://github.com/Hut-hzf/ung220z-tool",
    "source": "GitHub",
@@ -123,7 +123,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 388,
+   "points": 447,
    "title": "Language Models Can Rewrite Their Own Weights",
    "source": "Hacker News",
    "url": "https://arxiv.org/abs/2611.21885",
@@ -132,16 +132,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 272,
-   "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
-   "source": "Hacker News",
-   "url": "https://kobi.music/research/dettato",
-   "discuss": "https://news.ycombinator.com/item?id=50526023"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 258,
+   "points": 408,
    "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
    "source": "Hacker News",
    "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
@@ -150,29 +141,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 160,
-   "title": "Backblaze Notice at Collection and Privacy Policy",
-   "source": "Hacker News",
-   "url": "https://www.backblaze.com/company/policy/privacy",
-   "discuss": "https://news.ycombinator.com/item?id=50585593"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 36,
-   "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
-   "source": "Hacker News",
-   "url": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
-   "discuss": "https://news.ycombinator.com/item?id=50583117"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 25,
+   "points": 123,
    "title": "ClawDOS – An AI coding agent for DOS",
    "source": "Hacker News",
    "url": "http://ricapar.net/ClawDOS/",
    "discuss": "https://news.ycombinator.com/item?id=50586292"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 55,
+   "title": "LLMs can read and write executables byte by byte from a hex dump",
+   "source": "Hacker News",
+   "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+   "discuss": "https://news.ycombinator.com/item?id=50546587"
   },
   {
    "kind": "news",

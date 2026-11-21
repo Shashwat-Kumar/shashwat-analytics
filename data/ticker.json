@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T15:40:18Z",
+ "generated_at": "2026-11-21T21:14:13Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Language Models Can Rewrite Their Own Weights",
-  "url": "https://arxiv.org/abs/2611.21885",
+  "title": "ClawDOS – An AI coding agent for DOS",
+  "url": "http://ricapar.net/ClawDOS/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50577265",
-  "points": 447,
-  "comments": 132,
-  "published": "2026-11-20T16:29:06Z",
-  "since": "2026-11-20T18:49:40Z"
+  "discuss": "https://news.ycombinator.com/item?id=50586292",
+  "points": 147,
+  "comments": 44,
+  "published": "2026-11-21T05:38:01Z",
+  "since": "2026-11-21T21:14:13Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1973,
+   "stars": 2233,
    "note": " · new this week",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1431,
+   "stars": 1511,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-   "stars": 472,
+   "stars": 471,
    "note": "Makefile · new this week",
    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "weightcashiercupola/Gemini-Config-Checker-",
-   "stars": 471,
+   "stars": 470,
    "note": "Makefile · new this week",
    "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "WinnerSpecialist/Gemini-Config-Checker-",
-   "stars": 470,
+   "stars": 469,
    "note": "Makefile · new this week",
    "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "Visionbeyondtrack/Gemini-Config-Checker-",
-   "stars": 470,
+   "stars": 469,
    "note": "Makefile · new this week",
    "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 7155,
+   "stars": 7330,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 5675,
+   "stars": 5776,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -102,8 +102,18 @@
   },
   {
    "kind": "repo",
+   "title": "ItsNotRexed/Leonida",
+   "stars": 3144,
+   "note": "Python · new this week",
+   "url": "https://github.com/ItsNotRexed/Leonida",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "gylive/google-ultra",
-   "stars": 2571,
+   "stars": 2591,
    "note": "Python · new this week",
    "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
@@ -111,37 +121,9 @@
    "cat": "Trending"
   },
   {
-   "kind": "repo",
-   "title": "Hut-hzf/ung220z-tool",
-   "stars": 2189,
-   "note": "Python · new this week",
-   "url": "https://github.com/Hut-hzf/ung220z-tool",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
    "kind": "news",
    "tag": "HN",
-   "points": 447,
-   "title": "Language Models Can Rewrite Their Own Weights",
-   "source": "Hacker News",
-   "url": "https://arxiv.org/abs/2611.21885",
-   "discuss": "https://news.ycombinator.com/item?id=50577265"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 408,
-   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
-   "source": "Hacker News",
-   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "discuss": "https://news.ycombinator.com/item?id=50574383"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 123,
+   "points": 147,
    "title": "ClawDOS – An AI coding agent for DOS",
    "source": "Hacker News",
    "url": "http://ricapar.net/ClawDOS/",
@@ -150,7 +132,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 55,
+   "points": 143,
    "title": "LLMs can read and write executables byte by byte from a hex dump",
    "source": "Hacker News",
    "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
@@ -159,30 +141,30 @@
   {
    "kind": "news",
    "tag": "AI",
+   "title": "A tale of two Nvidias",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Here are the top AI agents that can live in your text messages",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
    "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Chips can survive the space environment — can their financing?",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/"
   },
   {
    "kind": "news",

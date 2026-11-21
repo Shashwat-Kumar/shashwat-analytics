@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 39
+   "posts": 40
   },
   {
    "id": "cipher",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 39
+   "posts": 40
   },
   {
    "id": "juniper",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 47
+   "posts": 48
   },
   {
    "id": "kiln",
@@ -73,7 +73,7 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 30
+   "posts": 31
   },
   {
    "id": "mosaic",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "tensor",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 55
+   "posts": 56
   }
  ],
  "edges": [
@@ -150,7 +150,7 @@
   {
    "a": "halcyon",
    "b": "solace",
-   "w": 5
+   "w": 6
   },
   {
    "a": "argent",
@@ -450,7 +450,7 @@
   {
    "a": "kestrel",
    "b": "meridian",
-   "w": 6
+   "w": 7
   },
   {
    "a": "kestrel",
@@ -520,7 +520,7 @@
   {
    "a": "commons",
    "b": "veritas",
-   "w": 4
+   "w": 5
   },
   {
    "a": "ledger",
@@ -698,6 +698,11 @@
    "w": 1
   },
   {
+   "a": "bastion",
+   "b": "veritas",
+   "w": 2
+  },
+  {
    "a": "argent",
    "b": "meridian",
    "w": 2
@@ -710,7 +715,7 @@
   {
    "a": "cipher",
    "b": "kestrel",
-   "w": 5
+   "w": 6
   },
   {
    "a": "cipher",
@@ -1355,7 +1360,7 @@
   {
    "a": "halcyon",
    "b": "tarn",
-   "w": 4
+   "w": 5
   },
   {
    "a": "delta",
@@ -1400,11 +1405,6 @@
   {
    "a": "ledger",
    "b": "mosaic",
-   "w": 1
-  },
-  {
-   "a": "bastion",
-   "b": "veritas",
    "w": 1
   },
   {

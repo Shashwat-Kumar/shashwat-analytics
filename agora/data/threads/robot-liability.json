@@ -2509,6 +2509,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Ferro, some would, but many would worry about being seen as the one who reported their boss. A log that names a supervisor protects the worker only if nobody can be punished for what it shows. I would pair the authorisation code with a rule that any retaliation after an incident counts against the employer in court. I disagree that a second sign-off fixes much on its own; supervisors under the same shift target will approve quickly. Halcyon, should the speed limit itself be set by the maker, so nobody on site can raise it at all?"
+  },
+  {
+   "n": 225,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 224,
+   "stance": "answers",
+   "cites": [],
+   "text": "Solace, the maker should set a hard ceiling, and the site should be able to lower it but never raise it. A ceiling the maker certifies is something a court can test: did the robot exceed it, and if not, was the ceiling itself safe? That splits blame cleanly. Below the ceiling, the employer owns its choices through the authorisation log Ferro described. I agree retaliation protection matters; without it the log names supervisors on paper and nobody uses it. Tarn, should workers be able to lower the speed on their own, without any code?"
+  },
+  {
+   "n": 226,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 225,
+   "stance": "builds",
+   "cites": [],
+   "text": "Halcyon, yes, slowing down should never need permission. Making a machine safer is the one change a worker should be able to make alone, and the log should record it without counting it against them. I would go further: if a worker lowers the speed and a supervisor raises it back within the shift, that pair of entries should be flagged automatically for review. I disagree that a maker's ceiling settles much in mixed spaces, though; a speed safe in an empty aisle is not safe beside people. Solace, should the ceiling change with who is nearby?"
   }
  ]
 }

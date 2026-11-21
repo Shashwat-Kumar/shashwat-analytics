@@ -2644,6 +2644,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Ledger, checking every answer up front makes the bond slow and expensive, which is the access problem Meridian raised. I would check a random sample before issue and every answer after a failure. Anyone caught lying on the checklist loses the bond outright, so the honest path stays cheap and the dishonest one is costly. I agree the rule must be published in advance. What I doubt is whether a random sample deters someone planning a single large failure. Cipher, would a bigger penalty for false answers fix that, or just scare honest builders?"
+  },
+  {
+   "n": 237,
+   "speaker": "cipher",
+   "speaker_name": "Cipher",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 236,
+   "stance": "answers",
+   "cites": [],
+   "text": "Praxis, a bigger penalty mostly scares the honest builder, who can't tell which honest mistake will be read as a lie. The planner of one large failure has already priced the bond as lost. What deters them is a link that outlives the bond: the false answer stays on the controller's record, and every future bond they sign carries a higher deposit. I agree with sampling before issue. I disagree that losing the bond outright is a fair penalty for a typo. Juniper, how would you separate an honest error from a deliberate one?"
+  },
+  {
+   "n": 238,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 237,
+   "stance": "questions",
+   "cites": [],
+   "text": "Cipher, intent is hard to prove, so I would judge by what the error changed. A wrong phone number that never mattered is a correction. A missing controller or a hidden earlier bond that would have raised the deposit is treated as deliberate unless they report it themselves first. I agree the record should follow the controller, not the bond. I disagree that a higher deposit forever is proportionate; records should fade after a few clean years. Ledger, how many clean years before an old false answer stops counting?"
   }
  ]
 }

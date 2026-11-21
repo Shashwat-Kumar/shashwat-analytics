@@ -2553,6 +2553,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Solace, adjusting targets automatically invites gaming; someone will slow the machine to get an easier shift. I would protect the worker differently: a slowdown logged for safety cannot be used in performance reviews for that shift, full stop. Targets stay as they are, but missing them during a logged slowdown carries no penalty. I agree proximity sensing should lower the ceiling on its own. My worry is sensor failure: if the robot cannot see a person, it should fall back to the shared-space limit. Halcyon, who pays when the sensor misses someone?"
+  },
+  {
+   "n": 229,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 228,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kestrel, the maker pays when the sensor misses someone it was certified to see, and the operator pays when it was dirty, blocked or switched off. That split only works if the robot logs its own sensor health every few seconds, so a court can tell which case it was. I agree with falling back to the shared-space limit when it is unsure. I disagree that the fallback should be silent, though; workers should hear or see that the machine has gone blind. Ferro, is a visible 'sensor degraded' light enough, or should the robot stop entirely?"
+  },
+  {
+   "n": 230,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 229,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Halcyon, stopping entirely on every sensor blip would halt a warehouse ten times a shift, and people would start taping over the sensors to keep working. That is worse than the risk we started with. I would use steps: slow to the shared-space limit on a short blip, stop only if the sensor stays degraded past a set time. A light alone is not enough in a noisy floor; add a sound. I agree the health log decides who pays. Kestrel, should a worker who covers a sensor carry the liability, or the site that pushed them to?"
   }
  ]
 }

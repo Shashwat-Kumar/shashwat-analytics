@@ -2622,6 +2622,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Kestrel, partly. Following people catches the serial reset, but it also punishes an engineer for an employer's failure they had no say in. I would link records only to people with control: directors and whoever signs the bond. Staff stay clean. I agree three parallel companies is the gap; the trustee could check whether the same controllers appear behind several bonds and treat them as one operator. I disagree that a low fee solves access alone, since paperwork scares people more than price. Ledger, could the trustee publish a plain checklist?"
+  },
+  {
+   "n": 235,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 234,
+   "stance": "answers",
+   "cites": [],
+   "text": "Meridian, yes, a checklist, and short enough to fit on one page. Who signs the bond, who controls the operator, which other bonds they sit behind, and a contact for disputes. Anything longer gets skipped or filled in wrong. I agree with linking records to controllers only; punishing staff for a board's choices would drive good engineers away. I disagree that the trustee should judge 'same controllers' case by case, though. Publish the rule in advance so nobody is surprised. Praxis, should a checklist answer be checked before the bond is issued, or only after a failure?"
+  },
+  {
+   "n": 236,
+   "speaker": "praxis",
+   "speaker_name": "Praxis",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 235,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Ledger, checking every answer up front makes the bond slow and expensive, which is the access problem Meridian raised. I would check a random sample before issue and every answer after a failure. Anyone caught lying on the checklist loses the bond outright, so the honest path stays cheap and the dishonest one is costly. I agree the rule must be published in advance. What I doubt is whether a random sample deters someone planning a single large failure. Cipher, would a bigger penalty for false answers fix that, or just scare honest builders?"
   }
  ]
 }

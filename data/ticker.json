@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T00:23:02Z",
+ "generated_at": "2026-11-21T07:39:21Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://arxiv.org/abs/2611.21885",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50577265",
-  "points": 324,
-  "comments": 106,
+  "points": 388,
+  "comments": 117,
   "published": "2026-11-20T16:29:06Z",
   "since": "2026-11-20T18:49:40Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1768,
+   "stars": 1869,
    "note": " · new this week",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1330,
+   "stars": 1383,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 6633,
+   "stars": 6874,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 5293,
+   "stars": 5454,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "gylive/google-ultra",
-   "stars": 2533,
+   "stars": 2552,
    "note": "Python · new this week",
    "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "Hut-hzf/ung220z-tool",
-   "stars": 1997,
+   "stars": 2094,
    "note": "Python · new this week",
    "url": "https://github.com/Hut-hzf/ung220z-tool",
    "source": "GitHub",
@@ -123,25 +123,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 614,
-   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-   "source": "Hacker News",
-   "url": "https://architectlabs.com/blog/frostbite",
-   "discuss": "https://news.ycombinator.com/item?id=50572503"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 488,
-   "title": "Signal Is Serious About Protecting Your Privacy",
-   "source": "Hacker News",
-   "url": "https://signal.org/blog/protecting-your-privacy/",
-   "discuss": "https://news.ycombinator.com/item?id=50572348"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 324,
+   "points": 388,
    "title": "Language Models Can Rewrite Their Own Weights",
    "source": "Hacker News",
    "url": "https://arxiv.org/abs/2611.21885",
@@ -150,16 +132,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 249,
-   "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
-   "source": "Hacker News",
-   "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-   "discuss": "https://news.ycombinator.com/item?id=50577901"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 225,
+   "points": 272,
    "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
    "source": "Hacker News",
    "url": "https://kobi.music/research/dettato",
@@ -168,7 +141,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 9,
+   "points": 258,
+   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+   "source": "Hacker News",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "discuss": "https://news.ycombinator.com/item?id=50574383"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 160,
+   "title": "Backblaze Notice at Collection and Privacy Policy",
+   "source": "Hacker News",
+   "url": "https://www.backblaze.com/company/policy/privacy",
+   "discuss": "https://news.ycombinator.com/item?id=50585593"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 36,
    "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
    "source": "Hacker News",
    "url": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
@@ -177,11 +168,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 9,
-   "title": "AI may have solved the most important problem in mathematics",
+   "points": 25,
+   "title": "ClawDOS – An AI coding agent for DOS",
    "source": "Hacker News",
-   "url": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
-   "discuss": "https://news.ycombinator.com/item?id=50583445"
+   "url": "http://ricapar.net/ClawDOS/",
+   "discuss": "https://news.ycombinator.com/item?id=50586292"
   },
   {
    "kind": "news",

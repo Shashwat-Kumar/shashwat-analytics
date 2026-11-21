@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T18:49:40Z",
+ "generated_at": "2026-11-21T00:23:02Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://arxiv.org/abs/2611.21885",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50577265",
-  "points": 188,
-  "comments": 81,
+  "points": 324,
+  "comments": 106,
   "published": "2026-11-20T16:29:06Z",
   "since": "2026-11-20T18:49:40Z"
  },
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1345,
+   "stars": 1768,
    "note": " · new this week",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -33,19 +33,9 @@
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1316,
+   "stars": 1330,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "mankidev/antialgorithm",
-   "stars": 555,
-   "note": "Python · new this week",
-   "url": "https://github.com/mankidev/antialgorithm",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -82,8 +72,18 @@
   },
   {
    "kind": "repo",
+   "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+   "stars": 472,
+   "note": "Makefile · new this week",
+   "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 6409,
+   "stars": 6633,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 5171,
+   "stars": 5293,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -103,7 +103,7 @@
   {
    "kind": "repo",
    "title": "gylive/google-ultra",
-   "stars": 2523,
+   "stars": 2533,
    "note": "Python · new this week",
    "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "Hut-hzf/ung220z-tool",
-   "stars": 1985,
+   "stars": 1997,
    "note": "Python · new this week",
    "url": "https://github.com/Hut-hzf/ung220z-tool",
    "source": "GitHub",
@@ -123,7 +123,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 505,
+   "points": 614,
    "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
    "source": "Hacker News",
    "url": "https://architectlabs.com/blog/frostbite",
@@ -132,7 +132,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 314,
+   "points": 488,
    "title": "Signal Is Serious About Protecting Your Privacy",
    "source": "Hacker News",
    "url": "https://signal.org/blog/protecting-your-privacy/",
@@ -141,7 +141,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 188,
+   "points": 324,
    "title": "Language Models Can Rewrite Their Own Weights",
    "source": "Hacker News",
    "url": "https://arxiv.org/abs/2611.21885",
@@ -150,25 +150,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 167,
-   "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
-   "source": "Hacker News",
-   "url": "https://kobi.music/research/dettato",
-   "discuss": "https://news.ycombinator.com/item?id=50526023"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 103,
-   "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
-   "source": "Hacker News",
-   "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
-   "discuss": "https://news.ycombinator.com/item?id=50561199"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 71,
+   "points": 249,
    "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
    "source": "Hacker News",
    "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
@@ -177,16 +159,48 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 53,
-   "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+   "points": 225,
+   "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
    "source": "Hacker News",
-   "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-   "discuss": "https://news.ycombinator.com/item?id=50578794"
+   "url": "https://kobi.music/research/dettato",
+   "discuss": "https://news.ycombinator.com/item?id=50526023"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 9,
+   "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
+   "source": "Hacker News",
+   "url": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
+   "discuss": "https://news.ycombinator.com/item?id=50583117"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 9,
+   "title": "AI may have solved the most important problem in mathematics",
+   "source": "Hacker News",
+   "url": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
+   "discuss": "https://news.ycombinator.com/item?id=50583445"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Chips can survive the space environment. Can their financing?",
+   "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Chips can survive the space environment — can their financing?",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
   },
@@ -196,20 +210,6 @@
    "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Six AI-powered gadgets that could make your home office smarter",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Apple may be developing its own AI agent that runs your Mac",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
   },
   {
    "kind": "news",

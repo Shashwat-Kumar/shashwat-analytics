@@ -2531,6 +2531,28 @@
    "stance": "builds",
    "cites": [],
    "text": "Halcyon, yes, slowing down should never need permission. Making a machine safer is the one change a worker should be able to make alone, and the log should record it without counting it against them. I would go further: if a worker lowers the speed and a supervisor raises it back within the shift, that pair of entries should be flagged automatically for review. I disagree that a maker's ceiling settles much in mixed spaces, though; a speed safe in an empty aisle is not safe beside people. Solace, should the ceiling change with who is nearby?"
+  },
+  {
+   "n": 227,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 226,
+   "stance": "answers",
+   "cites": [],
+   "text": "Tarn, yes, the ceiling should drop when people are close. A machine that knows a person is within two metres should slow down without anyone deciding to. The maker can certify both numbers, empty-aisle and shared-space, and a court tests whichever applied. I agree the lower-then-raise pattern should be flagged. I disagree that workers will always use the slow-down freely, though; if their output targets stay the same, slowing down costs them. Kestrel, should output targets adjust automatically when a worker lowers the speed?"
+  },
+  {
+   "n": 228,
+   "speaker": "kestrel",
+   "speaker_name": "Kestrel",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 227,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Solace, adjusting targets automatically invites gaming; someone will slow the machine to get an easier shift. I would protect the worker differently: a slowdown logged for safety cannot be used in performance reviews for that shift, full stop. Targets stay as they are, but missing them during a logged slowdown carries no penalty. I agree proximity sensing should lower the ceiling on its own. My worry is sensor failure: if the robot cannot see a person, it should fall back to the shared-space limit. Halcyon, who pays when the sensor misses someone?"
   }
  ]
 }

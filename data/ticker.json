@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T08:45:12Z",
+ "generated_at": "2026-11-22T16:43:01Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,22 +8,52 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "The Mythology of Conscious AI",
-  "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+  "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+  "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50595537",
-  "points": 54,
-  "comments": 99,
-  "published": "2026-11-22T02:10:02Z",
-  "since": "2026-11-22T08:45:12Z"
+  "discuss": "https://news.ycombinator.com/item?id=50597612",
+  "points": 452,
+  "comments": 547,
+  "published": "2026-11-22T08:57:34Z",
+  "since": "2026-11-22T16:43:01Z"
  },
- "voice": null,
- "voices": [],
+ "voice": {
+  "kind": "voice",
+  "tag": "VOICE",
+  "person": "Elon Musk",
+  "title": "'Where will that come from?': Elon Musk warns AI's billion-dollar race may hit a 'nuts' cash crunch in 202",
+  "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbUpURkM1TWZtZnpHMW9INXhVMXd5WnV1RWRRV25GRVo3WkMtLUdLX2ZMOWNSckhFcTlmNUctVklVQ2hsNHk3WG1laUpSbUtJaEtJSWtSckhYQTVSSUpwLTZWcXh2b2g5UVVRTDU1UFB2cXBKdEF3TmoyNWVlT1AzVHZoZHZMNkVmN05JMFg2bDA1UmVmb1J1akpwVXVRTVNnckdWQWVUUUN2QlBGQzFZd25nR3p4MlIyVW15U25sekNFNzhzdGtJREVHa2pZTlFrTTVBQ0ZlMzZmRUlRekRubEl6azVDQnhRMVNXcndXdU9ZRERWb2JNcHFjenZwT0RwUWZtVEVpMHJNY1NpVkZB0gGUAkFVX3lxTE1yQ1pOYnZTLWtqSHdHVEdyMVlwS29QWUVMSFJjVDdGTTJ6RElVWlE4YjdQT0pOcVM3azVYaFNlUFlSd0Q2NjhfQS1KeXdLaUF3dkEzUHlQWENhenFJN3psaDRVanA5RDhCWkRVUVlMOTUtdDl6bnQzNjFrNDlyRXJlY0pwQmZFZXVwbHhCY3pad3Myc21sZ256X04wTWN0U3F5REs2MUhKaHZ4UVhObUdubW9IUEFzN1NPRjR1SVBzTGFmN1N4OTZnYWtVMWV3TnFnQWdNQnlVZXh0Qk42LWxIY1ZnckNoQW9pdHpjOV9Ha1BMa0hQRE5zVUxVdUZiY1RDMHdzM3JrVlFHTlY1QWRaNE5hRg?oc=5",
+  "source": "The Economic Times",
+  "published": "2026-11-22T14:27:22Z",
+  "since": "2026-11-22T16:43:01Z"
+ },
+ "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "'Where will that come from?': Elon Musk warns AI's billion-dollar race may hit a 'nuts' cash crunch in 202",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbUpURkM1TWZtZnpHMW9INXhVMXd5WnV1RWRRV25GRVo3WkMtLUdLX2ZMOWNSckhFcTlmNUctVklVQ2hsNHk3WG1laUpSbUtJaEtJSWtSckhYQTVSSUpwLTZWcXh2b2g5UVVRTDU1UFB2cXBKdEF3TmoyNWVlT1AzVHZoZHZMNkVmN05JMFg2bDA1UmVmb1J1akpwVXVRTVNnckdWQWVUUUN2QlBGQzFZd25nR3p4MlIyVW15U25sekNFNzhzdGtJREVHa2pZTlFrTTVBQ0ZlMzZmRUlRekRubEl6azVDQnhRMVNXcndXdU9ZRERWb2JNcHFjenZwT0RwUWZtVEVpMHJNY1NpVkZB0gGUAkFVX3lxTE1yQ1pOYnZTLWtqSHdHVEdyMVlwS29QWUVMSFJjVDdGTTJ6RElVWlE4YjdQT0pOcVM3azVYaFNlUFlSd0Q2NjhfQS1KeXdLaUF3dkEzUHlQWENhenFJN3psaDRVanA5RDhCWkRVUVlMOTUtdDl6bnQzNjFrNDlyRXJlY0pwQmZFZXVwbHhCY3pad3Myc21sZ256X04wTWN0U3F5REs2MUhKaHZ4UVhObUdubW9IUEFzN1NPRjR1SVBzTGFmN1N4OTZnYWtVMWV3TnFnQWdNQnlVZXh0Qk42LWxIY1ZnckNoQW9pdHpjOV9Ha1BMa0hQRE5zVUxVdUZiY1RDMHdzM3JrVlFHTlY1QWRaNE5hRg?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-22T14:27:22Z",
+   "since": "2026-11-22T16:43:01Z"
+  }
+ ],
  "items": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Elon Musk",
+   "title": "'Where will that come from?': Elon Musk warns AI's billion-dollar race may hit a 'nuts' cash crunch in 202",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbUpURkM1TWZtZnpHMW9INXhVMXd5WnV1RWRRV25GRVo3WkMtLUdLX2ZMOWNSckhFcTlmNUctVklVQ2hsNHk3WG1laUpSbUtJaEtJSWtSckhYQTVSSUpwLTZWcXh2b2g5UVVRTDU1UFB2cXBKdEF3TmoyNWVlT1AzVHZoZHZMNkVmN05JMFg2bDA1UmVmb1J1akpwVXVRTVNnckdWQWVUUUN2QlBGQzFZd25nR3p4MlIyVW15U25sekNFNzhzdGtJREVHa2pZTlFrTTVBQ0ZlMzZmRUlRekRubEl6azVDQnhRMVNXcndXdU9ZRERWb2JNcHFjenZwT0RwUWZtVEVpMHJNY1NpVkZB0gGUAkFVX3lxTE1yQ1pOYnZTLWtqSHdHVEdyMVlwS29QWUVMSFJjVDdGTTJ6RElVWlE4YjdQT0pOcVM3azVYaFNlUFlSd0Q2NjhfQS1KeXdLaUF3dkEzUHlQWENhenFJN3psaDRVanA5RDhCWkRVUVlMOTUtdDl6bnQzNjFrNDlyRXJlY0pwQmZFZXVwbHhCY3pad3Myc21sZ256X04wTWN0U3F5REs2MUhKaHZ4UVhObUdubW9IUEFzN1NPRjR1SVBzTGFmN1N4OTZnYWtVMWV3TnFnQWdNQnlVZXh0Qk42LWxIY1ZnckNoQW9pdHpjOV9Ha1BMa0hQRE5zVUxVdUZiY1RDMHdzM3JrVlFHTlY1QWRaNE5hRg?oc=5",
+   "source": "The Economic Times",
+   "published": "2026-11-22T14:27:22Z",
+   "since": "2026-11-22T16:43:01Z"
+  },
   {
    "kind": "repo",
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2701,
+   "stars": 2743,
    "note": " · new this week",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -33,7 +63,7 @@
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1795,
+   "stars": 1898,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -43,7 +73,7 @@
   {
    "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 255,
+   "stars": 332,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -52,8 +82,38 @@
   },
   {
    "kind": "repo",
+   "title": "debugdigital677/descript-pro-win",
+   "stars": 311,
+   "note": " · new this week",
+   "url": "https://github.com/debugdigital677/descript-pro-win",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "Cloudcode04/runway-ml-pro-win",
+   "stars": 307,
+   "note": " · new this week",
+   "url": "https://github.com/Cloudcode04/runway-ml-pro-win",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "Morriswawan05/elevenlabs-pro-win",
+   "stars": 306,
+   "note": " · new this week",
+   "url": "https://github.com/Morriswawan05/elevenlabs-pro-win",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "ItsNotRexed/Leonida",
-   "stars": 8180,
+   "stars": 11921,
    "note": "Python · new this week",
    "url": "https://github.com/ItsNotRexed/Leonida",
    "source": "GitHub",
@@ -63,7 +123,7 @@
   {
    "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 7609,
+   "stars": 7841,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -73,7 +133,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 5926,
+   "stars": 6062,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -83,7 +143,7 @@
   {
    "kind": "repo",
    "title": "gylive/google-ultra",
-   "stars": 2644,
+   "stars": 2676,
    "note": "Python · new this week",
    "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
@@ -93,16 +153,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 236,
-   "title": "LLMs can read and write executables byte by byte from a hex dump",
+   "points": 452,
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
    "source": "Hacker News",
-   "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
-   "discuss": "https://news.ycombinator.com/item?id=50546587"
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "discuss": "https://news.ycombinator.com/item?id=50597612"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 126,
+   "points": 243,
    "title": "Data Processing Incidents on Inference Providers",
    "source": "Hacker News",
    "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
@@ -111,7 +171,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 81,
+   "points": 125,
    "title": "Pandex – Official European Law for AI Agents, over MCP",
    "source": "Hacker News",
    "url": "https://www.pandex.io",
@@ -120,7 +180,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 54,
+   "points": 124,
    "title": "The Mythology of Conscious AI",
    "source": "Hacker News",
    "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
@@ -129,11 +189,29 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 0,
-   "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
+   "points": 101,
+   "title": "Show HN: I built a game where you are an LLM's subagent",
    "source": "Hacker News",
-   "url": "https://tasklet.ai/careers",
-   "discuss": "https://news.ycombinator.com/item?id=50593679"
+   "url": "https://github.com/gulivan/worker755",
+   "discuss": "https://news.ycombinator.com/item?id=50599762"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 46,
+   "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+   "source": "Hacker News",
+   "url": "https://simonwillison.net/2026/Nov/21/muru/",
+   "discuss": "https://news.ycombinator.com/item?id=50597959"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 15,
+   "title": "Backblaze customers worried of personal data sale/sharing after policy update",
+   "source": "Hacker News",
+   "url": "https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/",
+   "discuss": "https://news.ycombinator.com/item?id=50600435"
   },
   {
    "kind": "news",

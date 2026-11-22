@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T16:43:01Z",
+ "generated_at": "2026-11-22T22:09:53Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50597612",
-  "points": 452,
-  "comments": 547,
+  "points": 800,
+  "comments": 828,
   "published": "2026-11-22T08:57:34Z",
   "since": "2026-11-22T16:43:01Z"
  },
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2743,
+   "stars": 2745,
    "note": " · new this week",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1898,
+   "stars": 1942,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -72,8 +72,18 @@
   },
   {
    "kind": "repo",
+   "title": "pierridotite/mobile-agent-testers",
+   "stars": 443,
+   "note": "Python · new this week",
+   "url": "https://github.com/pierridotite/mobile-agent-testers",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 332,
+   "stars": 367,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -83,7 +93,7 @@
   {
    "kind": "repo",
    "title": "debugdigital677/descript-pro-win",
-   "stars": 311,
+   "stars": 349,
    "note": " · new this week",
    "url": "https://github.com/debugdigital677/descript-pro-win",
    "source": "GitHub",
@@ -92,20 +102,10 @@
   },
   {
    "kind": "repo",
-   "title": "Cloudcode04/runway-ml-pro-win",
-   "stars": 307,
+   "title": "Juanlabs1989/descript-pro-win",
+   "stars": 348,
    "note": " · new this week",
-   "url": "https://github.com/Cloudcode04/runway-ml-pro-win",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "Morriswawan05/elevenlabs-pro-win",
-   "stars": 306,
-   "note": " · new this week",
-   "url": "https://github.com/Morriswawan05/elevenlabs-pro-win",
+   "url": "https://github.com/Juanlabs1989/descript-pro-win",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -113,7 +113,7 @@
   {
    "kind": "repo",
    "title": "ItsNotRexed/Leonida",
-   "stars": 11921,
+   "stars": 14237,
    "note": "Python · new this week",
    "url": "https://github.com/ItsNotRexed/Leonida",
    "source": "GitHub",
@@ -123,7 +123,7 @@
   {
    "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 7841,
+   "stars": 7948,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -132,20 +132,20 @@
   },
   {
    "kind": "repo",
-   "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 6062,
-   "note": "C++ · new this week",
-   "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+   "title": "iamajmeena/neonclipping",
+   "stars": 2082,
+   "note": "Python · new this week",
+   "url": "https://github.com/iamajmeena/neonclipping",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "repo",
-   "title": "gylive/google-ultra",
-   "stars": 2676,
-   "note": "Python · new this week",
-   "url": "https://github.com/gylive/google-ultra",
+   "title": "EL4CTEO/fast-anything",
+   "stars": 1788,
+   "note": "Rust · new this week",
+   "url": "https://github.com/EL4CTEO/fast-anything",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -153,7 +153,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 452,
+   "points": 800,
    "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
    "source": "Hacker News",
    "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
@@ -163,33 +163,6 @@
    "kind": "news",
    "tag": "HN",
    "points": 243,
-   "title": "Data Processing Incidents on Inference Providers",
-   "source": "Hacker News",
-   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-   "discuss": "https://news.ycombinator.com/item?id=50595554"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 125,
-   "title": "Pandex – Official European Law for AI Agents, over MCP",
-   "source": "Hacker News",
-   "url": "https://www.pandex.io",
-   "discuss": "https://news.ycombinator.com/item?id=50593481"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 124,
-   "title": "The Mythology of Conscious AI",
-   "source": "Hacker News",
-   "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
-   "discuss": "https://news.ycombinator.com/item?id=50595537"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 101,
    "title": "Show HN: I built a game where you are an LLM's subagent",
    "source": "Hacker News",
    "url": "https://github.com/gulivan/worker755",
@@ -198,7 +171,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 46,
+   "points": 67,
    "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
    "source": "Hacker News",
    "url": "https://simonwillison.net/2026/Nov/21/muru/",
@@ -207,11 +180,34 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 15,
-   "title": "Backblaze customers worried of personal data sale/sharing after policy update",
+   "points": 27,
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "source": "Hacker News",
-   "url": "https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/",
-   "discuss": "https://news.ycombinator.com/item?id=50600435"
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "discuss": "https://news.ycombinator.com/item?id=50603845"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 9,
+   "title": "Harvard CS 2881R AI Safety",
+   "source": "Hacker News",
+   "url": "https://boazbk.github.io/mltheoryseminar/",
+   "discuss": "https://news.ycombinator.com/item?id=50602153"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Why data centers are at the center of the Big Tech backlash",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
   },
   {
    "kind": "news",
@@ -226,20 +222,6 @@
    "title": "A tale of two Nvidias",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Here are the top AI agents that can live in your text messages",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
   },
   {
    "kind": "news",
@@ -263,5 +245,7 @@
    "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
   }
  ],
- "errors": []
+ "errors": [
+  "gnews Mustafa Suleyman:HTTP Error 429: Too Many Requests"
+ ]
 }

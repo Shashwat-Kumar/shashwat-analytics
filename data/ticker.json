@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T21:14:13Z",
+ "generated_at": "2026-11-22T01:25:53Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "ClawDOS – An AI coding agent for DOS",
-  "url": "http://ricapar.net/ClawDOS/",
+  "title": "Pandex – Official European Law for AI Agents, over MCP",
+  "url": "https://www.pandex.io",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50586292",
-  "points": 147,
-  "comments": 44,
-  "published": "2026-11-21T05:38:01Z",
-  "since": "2026-11-21T21:14:13Z"
+  "discuss": "https://news.ycombinator.com/item?id=50593481",
+  "points": 27,
+  "comments": 4,
+  "published": "2026-11-21T20:47:41Z",
+  "since": "2026-11-22T01:25:53Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2233,
+   "stars": 2444,
    "note": " · new this week",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1511,
+   "stars": 1673,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -42,48 +42,8 @@
   },
   {
    "kind": "repo",
-   "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-   "stars": 471,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "weightcashiercupola/Gemini-Config-Checker-",
-   "stars": 470,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "WinnerSpecialist/Gemini-Config-Checker-",
-   "stars": 469,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "Visionbeyondtrack/Gemini-Config-Checker-",
-   "stars": 469,
-   "note": "Makefile · new this week",
-   "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 7330,
+   "stars": 7443,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -93,7 +53,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 5776,
+   "stars": 5817,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -103,7 +63,7 @@
   {
    "kind": "repo",
    "title": "ItsNotRexed/Leonida",
-   "stars": 3144,
+   "stars": 5759,
    "note": "Python · new this week",
    "url": "https://github.com/ItsNotRexed/Leonida",
    "source": "GitHub",
@@ -113,7 +73,7 @@
   {
    "kind": "repo",
    "title": "gylive/google-ultra",
-   "stars": 2591,
+   "stars": 2600,
    "note": "Python · new this week",
    "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
@@ -123,20 +83,36 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 147,
-   "title": "ClawDOS – An AI coding agent for DOS",
-   "source": "Hacker News",
-   "url": "http://ricapar.net/ClawDOS/",
-   "discuss": "https://news.ycombinator.com/item?id=50586292"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 143,
+   "points": 190,
    "title": "LLMs can read and write executables byte by byte from a hex dump",
    "source": "Hacker News",
    "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
    "discuss": "https://news.ycombinator.com/item?id=50546587"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 27,
+   "title": "Pandex – Official European Law for AI Agents, over MCP",
+   "source": "Hacker News",
+   "url": "https://www.pandex.io",
+   "discuss": "https://news.ycombinator.com/item?id=50593481"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 0,
+   "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
+   "source": "Hacker News",
+   "url": "https://tasklet.ai/careers",
+   "discuss": "https://news.ycombinator.com/item?id=50593679"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
   },
   {
    "kind": "news",
@@ -158,13 +134,6 @@
    "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/"
   },
   {
    "kind": "news",

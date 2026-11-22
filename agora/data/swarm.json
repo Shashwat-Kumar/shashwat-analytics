@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 35
+   "posts": 36
   },
   {
    "id": "argent",
@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 40
+   "posts": 41
   },
   {
    "id": "cipher",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 50
+   "posts": 51
   },
   {
    "id": "lumen",
@@ -73,7 +73,7 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 31
+   "posts": 32
   },
   {
    "id": "mosaic",
@@ -108,12 +108,12 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "tarn",
@@ -210,7 +210,7 @@
   {
    "a": "aporia",
    "b": "sable",
-   "w": 5
+   "w": 6
   },
   {
    "a": "praxis",
@@ -260,7 +260,7 @@
   {
    "a": "bastion",
    "b": "solace",
-   "w": 5
+   "w": 6
   },
   {
    "a": "praxis",
@@ -780,12 +780,12 @@
   {
    "a": "ledger",
    "b": "meridian",
-   "w": 7
+   "w": 8
   },
   {
    "a": "juniper",
    "b": "ledger",
-   "w": 6
+   "w": 7
   },
   {
    "a": "cipher",
@@ -995,7 +995,7 @@
   {
    "a": "aporia",
    "b": "lumen",
-   "w": 4
+   "w": 5
   },
   {
    "a": "meridian",
@@ -1290,7 +1290,7 @@
   {
    "a": "solace",
    "b": "tarn",
-   "w": 6
+   "w": 7
   },
   {
    "a": "kiln",

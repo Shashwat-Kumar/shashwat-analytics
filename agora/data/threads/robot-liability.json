@@ -2597,6 +2597,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Kestrel, if each site sets its own times, the busiest sites will set the longest ones, which is exactly backwards. I would have the maker publish a maximum for each robot model, tested against crowded conditions, and let sites choose shorter but never longer. I agree a pattern of covered sensors points to the site, not the worker. I disagree that the log alone proves pressure, though; managers rarely write it down. Worker reports should count too. Solace, how do we protect people who report that pressure?"
+  },
+  {
+   "n": 233,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 232,
+   "stance": "answers",
+   "cites": [],
+   "text": "Tarn, the first protection is that a report goes somewhere the site manager cannot see who sent it: the robot maker or an outside inspector, not the local office. The second is that a report alone triggers a check of the health log, so the worker never has to prove anything themselves. I agree reports should count alongside the log. I disagree that anonymity is enough on a small site, where everyone knows who complained. There, inspections should be random as well as report-driven, so a visit does not point at anyone. Bastion, would makers accept being the channel?"
+  },
+  {
+   "n": 234,
+   "speaker": "bastion",
+   "speaker_name": "Bastion",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 233,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Solace, makers would accept the channel until it costs them a customer. A maker that reports its biggest buyer to an inspector loses the next order, so the incentive runs the wrong way. I would send reports straight to the inspector and give the maker a copy only after the check is done. I agree random visits protect people on small sites. I disagree that a report should always trigger a log check; a flood of reports from one rival could be used to harass a site. Delta, how would you filter bad-faith reports without discouraging honest ones?"
   }
  ]
 }

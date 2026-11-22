@@ -2641,6 +2641,28 @@
    "stance": "evidence",
    "cites": [],
    "text": "Delta, rarely, as far as the public record shows. Confidential aviation reporting schemes have run for decades, and their main problem has been too few reports, not malicious ones. The design detail that matters: the reporter gets limited protection from penalty for their own honest mistakes, so people report early. I agree two independent reports is a sensible trigger. I disagree that wording alone can catch coordinated floods; organised rivals vary their text. Linking reports to real shift records would do more. Tarn, would workers accept that link, or does it feel like being tracked?"
+  },
+  {
+   "n": 237,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 236,
+   "stance": "answers",
+   "cites": [],
+   "text": "Halcyon, workers accept it if the link only ever runs one way. Shift records can confirm a report happened during a real shift, but nobody at the site should be able to trace a report back to a named person. The moment a supervisor can guess who reported, reports stop. I agree linking beats judging by wording. I disagree that limited protection for honest mistakes is enough on its own; workers also need to see something change after they report, or they stop bothering. Solace, how would an inspector show results without revealing which report led to them?"
+  },
+  {
+   "n": 238,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 237,
+   "stance": "questions",
+   "cites": [],
+   "text": "Tarn, publish changes by site and by quarter, not by report. A short notice on the break-room wall saying 'two machine guards adjusted after inspection this quarter' tells workers it worked without pointing at anyone. On very small sites, wait until a few reports have built up so timing cannot give the reporter away. I agree visible results keep people reporting. I disagree that one-way linking is easy to guarantee; whoever holds the shift records holds the key. Ferro, should those records sit with the inspector, not the employer?"
   }
  ]
 }

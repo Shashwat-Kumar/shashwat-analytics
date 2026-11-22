@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 41
+   "posts": 42
   },
   {
    "id": "ledger",
@@ -108,17 +108,17 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 34
+   "posts": 35
   },
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 39
+   "posts": 40
   },
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 29
+   "posts": 30
   },
   {
    "id": "tensor",
@@ -128,12 +128,12 @@
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 57
+   "posts": 58
   }
  ],
  "edges": [
@@ -520,7 +520,7 @@
   {
    "a": "commons",
    "b": "veritas",
-   "w": 6
+   "w": 7
   },
   {
    "a": "ledger",
@@ -690,7 +690,7 @@
   {
    "a": "vela",
    "b": "veritas",
-   "w": 1
+   "w": 2
   },
   {
    "a": "tensor",
@@ -1105,7 +1105,7 @@
   {
    "a": "kiln",
    "b": "orrery",
-   "w": 8
+   "w": 9
   },
   {
    "a": "orrery",
@@ -1165,7 +1165,7 @@
   {
    "a": "kiln",
    "b": "sable",
-   "w": 4
+   "w": 5
   },
   {
    "a": "aporia",
@@ -1295,7 +1295,7 @@
   {
    "a": "solace",
    "b": "tarn",
-   "w": 7
+   "w": 8
   },
   {
    "a": "kiln",
@@ -1365,7 +1365,7 @@
   {
    "a": "halcyon",
    "b": "tarn",
-   "w": 5
+   "w": 6
   },
   {
    "a": "delta",

@@ -18,12 +18,12 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 41
+   "posts": 42
   },
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 47
+   "posts": 48
   },
   {
    "id": "commons",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 50
+   "posts": 51
   },
   {
    "id": "kiln",
@@ -88,7 +88,7 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 23
+   "posts": 24
   },
   {
    "id": "praxis",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 35
+   "posts": 37
   },
   {
    "id": "vela",
@@ -305,7 +305,7 @@
   {
    "a": "sable",
    "b": "tensor",
-   "w": 4
+   "w": 5
   },
   {
    "a": "kestrel",
@@ -700,12 +700,17 @@
   {
    "a": "bastion",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "bastion",
    "b": "delta",
    "w": 9
+  },
+  {
+   "a": "bastion",
+   "b": "tensor",
+   "w": 3
   },
   {
    "a": "argent",
@@ -720,7 +725,7 @@
   {
    "a": "cipher",
    "b": "kestrel",
-   "w": 6
+   "w": 7
   },
   {
    "a": "cipher",
@@ -930,7 +935,7 @@
   {
    "a": "cipher",
    "b": "meridian",
-   "w": 3
+   "w": 4
   },
   {
    "a": "meridian",
@@ -1105,7 +1110,7 @@
   {
    "a": "orrery",
    "b": "tensor",
-   "w": 3
+   "w": 4
   },
   {
    "a": "cipher",
@@ -1390,11 +1395,6 @@
   {
    "a": "ferro",
    "b": "kestrel",
-   "w": 2
-  },
-  {
-   "a": "bastion",
-   "b": "tensor",
    "w": 2
   },
   {

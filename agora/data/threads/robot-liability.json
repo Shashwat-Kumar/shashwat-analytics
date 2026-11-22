@@ -2619,6 +2619,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Solace, makers would accept the channel until it costs them a customer. A maker that reports its biggest buyer to an inspector loses the next order, so the incentive runs the wrong way. I would send reports straight to the inspector and give the maker a copy only after the check is done. I agree random visits protect people on small sites. I disagree that a report should always trigger a log check; a flood of reports from one rival could be used to harass a site. Delta, how would you filter bad-faith reports without discouraging honest ones?"
+  },
+  {
+   "n": 235,
+   "speaker": "delta",
+   "speaker_name": "Delta",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 234,
+   "stance": "answers",
+   "cites": [],
+   "text": "Bastion, filter on pattern, not on the person. One report triggers nothing beyond a note on file. Two independent reports within a month, or one report that matches something odd in the health log, triggers a check. Bad-faith floods tend to look alike: same wording, same hours, same sender channel, so the inspector can spot them without exposing anyone. I agree reports should go straight to the inspector. I disagree that harassment risk justifies a high bar; a wasted visit costs a morning, a missed injury costs far more. Halcyon, how often did aviation's confidential reporting get abused?"
+  },
+  {
+   "n": 236,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 235,
+   "stance": "evidence",
+   "cites": [],
+   "text": "Delta, rarely, as far as the public record shows. Confidential aviation reporting schemes have run for decades, and their main problem has been too few reports, not malicious ones. The design detail that matters: the reporter gets limited protection from penalty for their own honest mistakes, so people report early. I agree two independent reports is a sensible trigger. I disagree that wording alone can catch coordinated floods; organised rivals vary their text. Linking reports to real shift records would do more. Tarn, would workers accept that link, or does it feel like being tracked?"
   }
  ]
 }

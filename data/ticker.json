@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T01:25:53Z",
+ "generated_at": "2026-11-22T08:45:12Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Pandex – Official European Law for AI Agents, over MCP",
-  "url": "https://www.pandex.io",
+  "title": "The Mythology of Conscious AI",
+  "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50593481",
-  "points": 27,
-  "comments": 4,
-  "published": "2026-11-21T20:47:41Z",
-  "since": "2026-11-22T01:25:53Z"
+  "discuss": "https://news.ycombinator.com/item?id=50595537",
+  "points": 54,
+  "comments": 99,
+  "published": "2026-11-22T02:10:02Z",
+  "since": "2026-11-22T08:45:12Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2444,
+   "stars": 2701,
    "note": " · new this week",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1673,
+   "stars": 1795,
    "note": "Python · new this week",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "source": "GitHub",
@@ -42,8 +42,28 @@
   },
   {
    "kind": "repo",
+   "title": "w01fb0ss/PiBot",
+   "stars": 255,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/w01fb0ss/PiBot",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "ItsNotRexed/Leonida",
+   "stars": 8180,
+   "note": "Python · new this week",
+   "url": "https://github.com/ItsNotRexed/Leonida",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "erkamyaman/rust-anything",
-   "stars": 7443,
+   "stars": 7609,
    "note": "Rust · new this week",
    "url": "https://github.com/erkamyaman/rust-anything",
    "source": "GitHub",
@@ -53,7 +73,7 @@
   {
    "kind": "repo",
    "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 5817,
+   "stars": 5926,
    "note": "C++ · new this week",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
    "source": "GitHub",
@@ -62,18 +82,8 @@
   },
   {
    "kind": "repo",
-   "title": "ItsNotRexed/Leonida",
-   "stars": 5759,
-   "note": "Python · new this week",
-   "url": "https://github.com/ItsNotRexed/Leonida",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "gylive/google-ultra",
-   "stars": 2600,
+   "stars": 2644,
    "note": "Python · new this week",
    "url": "https://github.com/gylive/google-ultra",
    "source": "GitHub",
@@ -83,7 +93,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 190,
+   "points": 236,
    "title": "LLMs can read and write executables byte by byte from a hex dump",
    "source": "Hacker News",
    "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
@@ -92,11 +102,29 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 27,
+   "points": 126,
+   "title": "Data Processing Incidents on Inference Providers",
+   "source": "Hacker News",
+   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+   "discuss": "https://news.ycombinator.com/item?id=50595554"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 81,
    "title": "Pandex – Official European Law for AI Agents, over MCP",
    "source": "Hacker News",
    "url": "https://www.pandex.io",
    "discuss": "https://news.ycombinator.com/item?id=50593481"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 54,
+   "title": "The Mythology of Conscious AI",
+   "source": "Hacker News",
+   "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50595537"
   },
   {
    "kind": "news",

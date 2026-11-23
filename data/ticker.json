@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T22:09:53Z",
+ "generated_at": "2026-11-23T02:54:31Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-  "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+  "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+  "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50597612",
-  "points": 800,
-  "comments": 828,
-  "published": "2026-11-22T08:57:34Z",
-  "since": "2026-11-22T16:43:01Z"
+  "discuss": "https://news.ycombinator.com/item?id=50603845",
+  "points": 271,
+  "comments": 119,
+  "published": "2026-11-22T21:01:16Z",
+  "since": "2026-11-23T02:54:31Z"
  },
  "voice": {
   "kind": "voice",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2745,
+   "stars": 2750,
    "note": " · new this week",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -62,28 +62,8 @@
   },
   {
    "kind": "repo",
-   "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1942,
-   "note": "Python · new this week",
-   "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "pierridotite/mobile-agent-testers",
-   "stars": 443,
-   "note": "Python · new this week",
-   "url": "https://github.com/pierridotite/mobile-agent-testers",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 367,
+   "stars": 409,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -92,18 +72,8 @@
   },
   {
    "kind": "repo",
-   "title": "debugdigital677/descript-pro-win",
-   "stars": 349,
-   "note": " · new this week",
-   "url": "https://github.com/debugdigital677/descript-pro-win",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "Juanlabs1989/descript-pro-win",
-   "stars": 348,
+   "stars": 385,
    "note": " · new this week",
    "url": "https://github.com/Juanlabs1989/descript-pro-win",
    "source": "GitHub",
@@ -112,8 +82,38 @@
   },
   {
    "kind": "repo",
+   "title": "Morriswawan05/elevenlabs-pro-win",
+   "stars": 384,
+   "note": " · new this week",
+   "url": "https://github.com/Morriswawan05/elevenlabs-pro-win",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "debugdigital677/descript-pro-win",
+   "stars": 381,
+   "note": " · new this week",
+   "url": "https://github.com/debugdigital677/descript-pro-win",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
+   "title": "Cloudcode04/runway-ml-pro-win",
+   "stars": 376,
+   "note": " · new this week",
+   "url": "https://github.com/Cloudcode04/runway-ml-pro-win",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "ItsNotRexed/Leonida",
-   "stars": 14237,
+   "stars": 15803,
    "note": "Python · new this week",
    "url": "https://github.com/ItsNotRexed/Leonida",
    "source": "GitHub",
@@ -122,18 +122,8 @@
   },
   {
    "kind": "repo",
-   "title": "erkamyaman/rust-anything",
-   "stars": 7948,
-   "note": "Rust · new this week",
-   "url": "https://github.com/erkamyaman/rust-anything",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "iamajmeena/neonclipping",
-   "stars": 2082,
+   "stars": 2103,
    "note": "Python · new this week",
    "url": "https://github.com/iamajmeena/neonclipping",
    "source": "GitHub",
@@ -143,7 +133,7 @@
   {
    "kind": "repo",
    "title": "EL4CTEO/fast-anything",
-   "stars": 1788,
+   "stars": 2018,
    "note": "Rust · new this week",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "source": "GitHub",
@@ -151,18 +141,19 @@
    "cat": "Trending"
   },
   {
-   "kind": "news",
-   "tag": "HN",
-   "points": 800,
-   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-   "source": "Hacker News",
-   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-   "discuss": "https://news.ycombinator.com/item?id=50597612"
+   "kind": "repo",
+   "title": "omonkeyz/xbox-emulator",
+   "stars": 1348,
+   "note": "Rust · new this week",
+   "url": "https://github.com/omonkeyz/xbox-emulator",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 243,
+   "points": 279,
    "title": "Show HN: I built a game where you are an LLM's subagent",
    "source": "Hacker News",
    "url": "https://github.com/gulivan/worker755",
@@ -171,16 +162,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 67,
-   "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
-   "source": "Hacker News",
-   "url": "https://simonwillison.net/2026/Nov/21/muru/",
-   "discuss": "https://news.ycombinator.com/item?id=50597959"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 27,
+   "points": 271,
    "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "source": "Hacker News",
    "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
@@ -189,11 +171,36 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 9,
+   "points": 48,
    "title": "Harvard CS 2881R AI Safety",
    "source": "Hacker News",
    "url": "https://boazbk.github.io/mltheoryseminar/",
    "discuss": "https://news.ycombinator.com/item?id=50602153"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 28,
+   "title": "Localcode, open source agentic coding on your Mac with one command",
+   "source": "Hacker News",
+   "url": "https://github.com/mjwsolo/localcode",
+   "discuss": "https://news.ycombinator.com/item?id=50604540"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 22,
+   "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+   "source": "Hacker News",
+   "url": "https://0rwx.com/",
+   "discuss": "https://news.ycombinator.com/item?id=50605445"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/"
   },
   {
    "kind": "news",
@@ -219,13 +226,6 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "A tale of two Nvidias",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
    "title": "The most misunderstood graph in AI just got a major update",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
@@ -245,7 +245,5 @@
    "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
   }
  ],
- "errors": [
-  "gnews Mustafa Suleyman:HTTP Error 429: Too Many Requests"
- ]
+ "errors": []
 }

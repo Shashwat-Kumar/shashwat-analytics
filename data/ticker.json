@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T02:54:31Z",
+ "generated_at": "2026-11-23T12:17:00Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50603845",
-  "points": 271,
-  "comments": 119,
+  "points": 561,
+  "comments": 235,
   "published": "2026-11-22T21:01:16Z",
   "since": "2026-11-23T02:54:31Z"
  },
@@ -21,22 +21,22 @@
   "kind": "voice",
   "tag": "VOICE",
   "person": "Elon Musk",
-  "title": "'Where will that come from?': Elon Musk warns AI's billion-dollar race may hit a 'nuts' cash crunch in 202",
-  "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbUpURkM1TWZtZnpHMW9INXhVMXd5WnV1RWRRV25GRVo3WkMtLUdLX2ZMOWNSckhFcTlmNUctVklVQ2hsNHk3WG1laUpSbUtJaEtJSWtSckhYQTVSSUpwLTZWcXh2b2g5UVVRTDU1UFB2cXBKdEF3TmoyNWVlT1AzVHZoZHZMNkVmN05JMFg2bDA1UmVmb1J1akpwVXVRTVNnckdWQWVUUUN2QlBGQzFZd25nR3p4MlIyVW15U25sekNFNzhzdGtJREVHa2pZTlFrTTVBQ0ZlMzZmRUlRekRubEl6azVDQnhRMVNXcndXdU9ZRERWb2JNcHFjenZwT0RwUWZtVEVpMHJNY1NpVkZB0gGUAkFVX3lxTE1yQ1pOYnZTLWtqSHdHVEdyMVlwS29QWUVMSFJjVDdGTTJ6RElVWlE4YjdQT0pOcVM3azVYaFNlUFlSd0Q2NjhfQS1KeXdLaUF3dkEzUHlQWENhenFJN3psaDRVanA5RDhCWkRVUVlMOTUtdDl6bnQzNjFrNDlyRXJlY0pwQmZFZXVwbHhCY3pad3Myc21sZ256X04wTWN0U3F5REs2MUhKaHZ4UVhObUdubW9IUEFzN1NPRjR1SVBzTGFmN1N4OTZnYWtVMWV3TnFnQWdNQnlVZXh0Qk42LWxIY1ZnckNoQW9pdHpjOV9Ha1BMa0hQRE5zVUxVdUZiY1RDMHdzM3JrVlFHTlY1QWRaNE5hRg?oc=5",
-  "source": "The Economic Times",
-  "published": "2026-11-22T14:27:22Z",
-  "since": "2026-11-22T16:43:01Z"
+  "title": "Elon Musk says ‘super intelligence has arrived’ as Meta AI chief warns of humanity's uncertain future",
+  "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeEx4RGotSk00aG9PWk9mSTJYZjJVcnlKTVkzNHBpOHJWWG5jX1RfREJZYUhaZkRPTFc2UWNZSmRfazF6ODRWc1lFakpka0pXdVh0TmNoLS1JQlNjbzRFRmdvdHNVWmd3Y3JVODhiT1dPZkRYdFdHaUdXN0gya3ZNcVZBUUNfWk9aT3E0ME95UzVoQ0ZIUkRDMGJqbk5JT0RFQmFjZE1SVk5pVGE5T0Jfbi1uejRkNHBoYlJVR3ZzcDE2c3I3WUg1dzhiT1Y5dy1mM2tsdE5sNHlrMkRQM2ln0gHkAUFVX3lxTE1pUVBlMGNIV09kbTRRbnFmM2FOLURqWktZb3BRRzZ1Tnk4VXVBRUxYNGgwWmRLWEJ6WGdaY010MzVHYkpDYzhwdmpQYldCcFNPQmxFNlhxMjBSU3Z2SlZtaVZRend5OC1sd05CRGxUbW1ucF9jcTVwczZBbmFIdDlPeExDN3BVRFdXRTJyUEdBby1DNmZqc2lKYXpRb2wwSlFJeDNPbE5HblJVVTFTV3ZqeWdaZEZ3aGZ3UE5FTXFqQi1GUjNVTDJrOFJ3UkFhOWhseWlHZ3V4RzJxMUhtaEtEYURmVg?oc=5",
+  "source": "Livemint",
+  "published": "2026-11-23T04:34:59Z",
+  "since": "2026-11-23T12:17:00Z"
  },
  "voices": [
   {
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "'Where will that come from?': Elon Musk warns AI's billion-dollar race may hit a 'nuts' cash crunch in 202",
-   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbUpURkM1TWZtZnpHMW9INXhVMXd5WnV1RWRRV25GRVo3WkMtLUdLX2ZMOWNSckhFcTlmNUctVklVQ2hsNHk3WG1laUpSbUtJaEtJSWtSckhYQTVSSUpwLTZWcXh2b2g5UVVRTDU1UFB2cXBKdEF3TmoyNWVlT1AzVHZoZHZMNkVmN05JMFg2bDA1UmVmb1J1akpwVXVRTVNnckdWQWVUUUN2QlBGQzFZd25nR3p4MlIyVW15U25sekNFNzhzdGtJREVHa2pZTlFrTTVBQ0ZlMzZmRUlRekRubEl6azVDQnhRMVNXcndXdU9ZRERWb2JNcHFjenZwT0RwUWZtVEVpMHJNY1NpVkZB0gGUAkFVX3lxTE1yQ1pOYnZTLWtqSHdHVEdyMVlwS29QWUVMSFJjVDdGTTJ6RElVWlE4YjdQT0pOcVM3azVYaFNlUFlSd0Q2NjhfQS1KeXdLaUF3dkEzUHlQWENhenFJN3psaDRVanA5RDhCWkRVUVlMOTUtdDl6bnQzNjFrNDlyRXJlY0pwQmZFZXVwbHhCY3pad3Myc21sZ256X04wTWN0U3F5REs2MUhKaHZ4UVhObUdubW9IUEFzN1NPRjR1SVBzTGFmN1N4OTZnYWtVMWV3TnFnQWdNQnlVZXh0Qk42LWxIY1ZnckNoQW9pdHpjOV9Ha1BMa0hQRE5zVUxVdUZiY1RDMHdzM3JrVlFHTlY1QWRaNE5hRg?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-11-22T14:27:22Z",
-   "since": "2026-11-22T16:43:01Z"
+   "title": "Elon Musk says ‘super intelligence has arrived’ as Meta AI chief warns of humanity's uncertain future",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeEx4RGotSk00aG9PWk9mSTJYZjJVcnlKTVkzNHBpOHJWWG5jX1RfREJZYUhaZkRPTFc2UWNZSmRfazF6ODRWc1lFakpka0pXdVh0TmNoLS1JQlNjbzRFRmdvdHNVWmd3Y3JVODhiT1dPZkRYdFdHaUdXN0gya3ZNcVZBUUNfWk9aT3E0ME95UzVoQ0ZIUkRDMGJqbk5JT0RFQmFjZE1SVk5pVGE5T0Jfbi1uejRkNHBoYlJVR3ZzcDE2c3I3WUg1dzhiT1Y5dy1mM2tsdE5sNHlrMkRQM2ln0gHkAUFVX3lxTE1pUVBlMGNIV09kbTRRbnFmM2FOLURqWktZb3BRRzZ1Tnk4VXVBRUxYNGgwWmRLWEJ6WGdaY010MzVHYkpDYzhwdmpQYldCcFNPQmxFNlhxMjBSU3Z2SlZtaVZRend5OC1sd05CRGxUbW1ucF9jcTVwczZBbmFIdDlPeExDN3BVRFdXRTJyUEdBby1DNmZqc2lKYXpRb2wwSlFJeDNPbE5HblJVVTFTV3ZqeWdaZEZ3aGZ3UE5FTXFqQi1GUjNVTDJrOFJ3UkFhOWhseWlHZ3V4RzJxMUhtaEtEYURmVg?oc=5",
+   "source": "Livemint",
+   "published": "2026-11-23T04:34:59Z",
+   "since": "2026-11-23T12:17:00Z"
   }
  ],
  "items": [
@@ -44,16 +44,16 @@
    "kind": "voice",
    "tag": "VOICE",
    "person": "Elon Musk",
-   "title": "'Where will that come from?': Elon Musk warns AI's billion-dollar race may hit a 'nuts' cash crunch in 202",
-   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbUpURkM1TWZtZnpHMW9INXhVMXd5WnV1RWRRV25GRVo3WkMtLUdLX2ZMOWNSckhFcTlmNUctVklVQ2hsNHk3WG1laUpSbUtJaEtJSWtSckhYQTVSSUpwLTZWcXh2b2g5UVVRTDU1UFB2cXBKdEF3TmoyNWVlT1AzVHZoZHZMNkVmN05JMFg2bDA1UmVmb1J1akpwVXVRTVNnckdWQWVUUUN2QlBGQzFZd25nR3p4MlIyVW15U25sekNFNzhzdGtJREVHa2pZTlFrTTVBQ0ZlMzZmRUlRekRubEl6azVDQnhRMVNXcndXdU9ZRERWb2JNcHFjenZwT0RwUWZtVEVpMHJNY1NpVkZB0gGUAkFVX3lxTE1yQ1pOYnZTLWtqSHdHVEdyMVlwS29QWUVMSFJjVDdGTTJ6RElVWlE4YjdQT0pOcVM3azVYaFNlUFlSd0Q2NjhfQS1KeXdLaUF3dkEzUHlQWENhenFJN3psaDRVanA5RDhCWkRVUVlMOTUtdDl6bnQzNjFrNDlyRXJlY0pwQmZFZXVwbHhCY3pad3Myc21sZ256X04wTWN0U3F5REs2MUhKaHZ4UVhObUdubW9IUEFzN1NPRjR1SVBzTGFmN1N4OTZnYWtVMWV3TnFnQWdNQnlVZXh0Qk42LWxIY1ZnckNoQW9pdHpjOV9Ha1BMa0hQRE5zVUxVdUZiY1RDMHdzM3JrVlFHTlY1QWRaNE5hRg?oc=5",
-   "source": "The Economic Times",
-   "published": "2026-11-22T14:27:22Z",
-   "since": "2026-11-22T16:43:01Z"
+   "title": "Elon Musk says ‘super intelligence has arrived’ as Meta AI chief warns of humanity's uncertain future",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeEx4RGotSk00aG9PWk9mSTJYZjJVcnlKTVkzNHBpOHJWWG5jX1RfREJZYUhaZkRPTFc2UWNZSmRfazF6ODRWc1lFakpka0pXdVh0TmNoLS1JQlNjbzRFRmdvdHNVWmd3Y3JVODhiT1dPZkRYdFdHaUdXN0gya3ZNcVZBUUNfWk9aT3E0ME95UzVoQ0ZIUkRDMGJqbk5JT0RFQmFjZE1SVk5pVGE5T0Jfbi1uejRkNHBoYlJVR3ZzcDE2c3I3WUg1dzhiT1Y5dy1mM2tsdE5sNHlrMkRQM2ln0gHkAUFVX3lxTE1pUVBlMGNIV09kbTRRbnFmM2FOLURqWktZb3BRRzZ1Tnk4VXVBRUxYNGgwWmRLWEJ6WGdaY010MzVHYkpDYzhwdmpQYldCcFNPQmxFNlhxMjBSU3Z2SlZtaVZRend5OC1sd05CRGxUbW1ucF9jcTVwczZBbmFIdDlPeExDN3BVRFdXRTJyUEdBby1DNmZqc2lKYXpRb2wwSlFJeDNPbE5HblJVVTFTV3ZqeWdaZEZ3aGZ3UE5FTXFqQi1GUjNVTDJrOFJ3UkFhOWhseWlHZ3V4RzJxMUhtaEtEYURmVg?oc=5",
+   "source": "Livemint",
+   "published": "2026-11-23T04:34:59Z",
+   "since": "2026-11-23T12:17:00Z"
   },
   {
    "kind": "repo",
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2750,
+   "stars": 2760,
    "note": " · new this week",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 409,
+   "stars": 468,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -72,18 +72,8 @@
   },
   {
    "kind": "repo",
-   "title": "Juanlabs1989/descript-pro-win",
-   "stars": 385,
-   "note": " · new this week",
-   "url": "https://github.com/Juanlabs1989/descript-pro-win",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "Morriswawan05/elevenlabs-pro-win",
-   "stars": 384,
+   "stars": 439,
    "note": " · new this week",
    "url": "https://github.com/Morriswawan05/elevenlabs-pro-win",
    "source": "GitHub",
@@ -92,10 +82,10 @@
   },
   {
    "kind": "repo",
-   "title": "debugdigital677/descript-pro-win",
-   "stars": 381,
+   "title": "Juanlabs1989/descript-pro-win",
+   "stars": 439,
    "note": " · new this week",
-   "url": "https://github.com/debugdigital677/descript-pro-win",
+   "url": "https://github.com/Juanlabs1989/descript-pro-win",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -103,7 +93,7 @@
   {
    "kind": "repo",
    "title": "Cloudcode04/runway-ml-pro-win",
-   "stars": 376,
+   "stars": 436,
    "note": " · new this week",
    "url": "https://github.com/Cloudcode04/runway-ml-pro-win",
    "source": "GitHub",
@@ -112,8 +102,18 @@
   },
   {
    "kind": "repo",
+   "title": "JieFedorov81/runway-ml-pro-win",
+   "stars": 436,
+   "note": " · new this week",
+   "url": "https://github.com/JieFedorov81/runway-ml-pro-win",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "ItsNotRexed/Leonida",
-   "stars": 15803,
+   "stars": 19135,
    "note": "Python · new this week",
    "url": "https://github.com/ItsNotRexed/Leonida",
    "source": "GitHub",
@@ -122,18 +122,8 @@
   },
   {
    "kind": "repo",
-   "title": "iamajmeena/neonclipping",
-   "stars": 2103,
-   "note": "Python · new this week",
-   "url": "https://github.com/iamajmeena/neonclipping",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "EL4CTEO/fast-anything",
-   "stars": 2018,
+   "stars": 2654,
    "note": "Rust · new this week",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "source": "GitHub",
@@ -142,8 +132,18 @@
   },
   {
    "kind": "repo",
+   "title": "iamajmeena/neonclipping",
+   "stars": 2224,
+   "note": "Python · new this week",
+   "url": "https://github.com/iamajmeena/neonclipping",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "omonkeyz/xbox-emulator",
-   "stars": 1348,
+   "stars": 1484,
    "note": "Rust · new this week",
    "url": "https://github.com/omonkeyz/xbox-emulator",
    "source": "GitHub",
@@ -153,16 +153,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 279,
-   "title": "Show HN: I built a game where you are an LLM's subagent",
-   "source": "Hacker News",
-   "url": "https://github.com/gulivan/worker755",
-   "discuss": "https://news.ycombinator.com/item?id=50599762"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 271,
+   "points": 561,
    "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "source": "Hacker News",
    "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
@@ -171,29 +162,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 48,
-   "title": "Harvard CS 2881R AI Safety",
+   "points": 330,
+   "title": "Show HN: I built a game where you are an LLM's subagent",
    "source": "Hacker News",
-   "url": "https://boazbk.github.io/mltheoryseminar/",
-   "discuss": "https://news.ycombinator.com/item?id=50602153"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 28,
-   "title": "Localcode, open source agentic coding on your Mac with one command",
-   "source": "Hacker News",
-   "url": "https://github.com/mjwsolo/localcode",
-   "discuss": "https://news.ycombinator.com/item?id=50604540"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 22,
-   "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
-   "source": "Hacker News",
-   "url": "https://0rwx.com/",
-   "discuss": "https://news.ycombinator.com/item?id=50605445"
+   "url": "https://github.com/gulivan/worker755",
+   "discuss": "https://news.ycombinator.com/item?id=50599762"
   },
   {
    "kind": "news",

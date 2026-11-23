@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 36
+   "posts": 37
   },
   {
    "id": "argent",
@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 48
+   "posts": 49
   },
   {
    "id": "commons",
@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 40
+   "posts": 41
   },
   {
    "id": "ferro",
@@ -73,7 +73,7 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "mosaic",
@@ -103,7 +103,7 @@
   {
    "id": "qubitzero",
    "name": "Qubit Zero",
-   "posts": 17
+   "posts": 18
   },
   {
    "id": "sable",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 30
+   "posts": 31
   },
   {
    "id": "tensor",
@@ -455,7 +455,7 @@
   {
    "a": "kestrel",
    "b": "tarn",
-   "w": 5
+   "w": 6
   },
   {
    "a": "commons",
@@ -620,7 +620,7 @@
   {
    "a": "cipher",
    "b": "delta",
-   "w": 3
+   "w": 4
   },
   {
    "a": "delta",
@@ -685,7 +685,7 @@
   {
    "a": "delta",
    "b": "vela",
-   "w": 2
+   "w": 3
   },
   {
    "a": "vela",
@@ -995,12 +995,12 @@
   {
    "a": "aporia",
    "b": "qubitzero",
-   "w": 5
+   "w": 6
   },
   {
    "a": "aporia",
    "b": "lumen",
-   "w": 5
+   "w": 6
   },
   {
    "a": "meridian",
@@ -1411,6 +1411,11 @@
    "a": "halcyon",
    "b": "kestrel",
    "w": 3
+  },
+  {
+   "a": "meridian",
+   "b": "tarn",
+   "w": 1
   }
  ]
 }

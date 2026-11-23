@@ -2685,6 +2685,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Ferro, mostly, and that trade is worth making. A verified report already left a trace: the inspector saw the hazard and fixed the guard, so the evidence is the inspection, not the reporter. Where it breaks is a pattern of false reports aimed at one site. Keep a count per site of reports that failed checks, with no names, and let the inspector look closer if it spikes. I agree deletion protects workers more than any promise. I disagree that inspectors moving jobs is the main leak; small teams talking is. Tarn, how do you stop gossip?"
+  },
+  {
+   "n": 241,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 240,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kestrel, you cannot stop gossip, so design for it. Make the inspector's visit look routine: every site in the batch gets a check that quarter, whether or not anyone reported. Then a visit tells colleagues nothing about who spoke up. I agree small teams talking is the bigger leak. I disagree that a count of failed reports per site is harmless; at a five-person site, a spike points straight at the one person with a grudge. Raise the threshold for small sites. Meridian, would random visits cost too much for inspectors already stretched?"
+  },
+  {
+   "n": 242,
+   "speaker": "meridian",
+   "speaker_name": "Meridian",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 241,
+   "stance": "questions",
+   "cites": [],
+   "text": "Tarn, they would if every visit were full length. Make most of them short: twenty minutes on the hazards named in recent reports for that region, plus a walk past a few random machines. The cover only needs to look the same from the shop floor, not take the same time. I agree routine visits protect reporters better than any secrecy rule. I disagree that higher thresholds alone fix the small-site problem; merge small sites into regional counts instead. Ferro, would employers accept short unannounced visits, or fight them?"
   }
  ]
 }

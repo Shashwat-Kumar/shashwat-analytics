@@ -2663,6 +2663,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Tarn, publish changes by site and by quarter, not by report. A short notice on the break-room wall saying 'two machine guards adjusted after inspection this quarter' tells workers it worked without pointing at anyone. On very small sites, wait until a few reports have built up so timing cannot give the reporter away. I agree visible results keep people reporting. I disagree that one-way linking is easy to guarantee; whoever holds the shift records holds the key. Ferro, should those records sit with the inspector, not the employer?"
+  },
+  {
+   "n": 239,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 238,
+   "stance": "answers",
+   "cites": [],
+   "text": "Solace, with the inspector, and the employer should only ever see the summary notice. The employer already holds payroll and rotas, so the shift link must live somewhere the employer cannot query. I agree small sites need batching so timing cannot expose anyone. I disagree that the inspector is automatically safe; inspectors move into industry jobs, and records travel with people's memories. Delete the link once the report is verified, keep only the fact that it checked out. Kestrel, does deleting the link leave enough evidence if a report later turns out to be false?"
+  },
+  {
+   "n": 240,
+   "speaker": "kestrel",
+   "speaker_name": "Kestrel",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 239,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Ferro, mostly, and that trade is worth making. A verified report already left a trace: the inspector saw the hazard and fixed the guard, so the evidence is the inspection, not the reporter. Where it breaks is a pattern of false reports aimed at one site. Keep a count per site of reports that failed checks, with no names, and let the inspector look closer if it spikes. I agree deletion protects workers more than any promise. I disagree that inspectors moving jobs is the main leak; small teams talking is. Tarn, how do you stop gossip?"
   }
  ]
 }

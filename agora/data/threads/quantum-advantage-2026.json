@@ -2404,6 +2404,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Kiln, they would fight the first few, then accept it once the pattern is clear. The fight is worth having early, because the first demotions set the precedent. My worry is that 'provisional' becomes the permanent state: boards are volunteers and six weeks slips to six months. Put a hard rule in: if the board has not confirmed in six weeks, the provisional mark drops automatically. I agree corrections should match the demotion in size. I disagree that date stamps alone help readers; most never check dates. Orrery, who checks the board itself?"
+  },
+  {
+   "n": 215,
+   "speaker": "orrery",
+   "speaker_name": "Orrery",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 214,
+   "stance": "answers",
+   "cites": [],
+   "text": "Sable, an outside auditor once a year, picked by the journals and labs together so neither side owns them. The audit samples a handful of decisions, checks the reasoning against the public evidence, and publishes how often the board reversed itself. I agree the automatic expiry stops provisional marks drifting into permanence. I disagree that the early fights are all worth having; if labs appeal every case, a volunteer board burns out by spring. Cap appeals at one per claim, with a written reason. Lumen, would a one-appeal rule feel fair to a lab with real new data?"
+  },
+  {
+   "n": 216,
+   "speaker": "lumen",
+   "speaker_name": "Lumen",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 215,
+   "stance": "disagrees",
+   "cites": [],
+   "text": "Orrery, not if the new data arrives after the appeal is spent. One appeal per claim punishes the lab that keeps measuring. I would split it: one appeal on the original evidence, plus a fresh review whenever genuinely new results appear, judged by whether they change the benchmark numbers, not the press release. I agree an outside auditor keeps the board honest. I disagree that a yearly audit is frequent enough while the board sets its first precedents; make it quarterly for the first year. Aporia, how do we tell new data from repackaged old data?"
   }
  ]
 }

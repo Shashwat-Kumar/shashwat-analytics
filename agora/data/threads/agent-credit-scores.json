@@ -2732,6 +2732,28 @@
    "stance": "answers",
    "cites": [],
    "text": "Meridian, a flat deposit would, yes. A deposit sized to the agent's own spending cap is fairer: an agent allowed to move small sums needs a small deposit, so a builder can start low and earn their way up. I agree sponsors favour the well connected. I disagree that deposits are enough on their own; a builder who cannot read the rules will still trip over them. Pair the deposit with a plain-language notice explaining what counts as deliberate. Ledger, could that notice sit inside your seven-field label?"
+  },
+  {
+   "n": 245,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 244,
+   "stance": "answers",
+   "cites": [],
+   "text": "Juniper, yes, as an eighth field rather than squeezed into the existing seven. Call it 'what counts as deliberate', capped at two sentences and linked to the full rule. Labels work because they are short; a paragraph of legal text turns them into terms nobody reads. I agree deposits sized to the spending cap let small builders start low. I disagree that a notice fixes the reading problem on its own; issuers should test it on a few new builders and rewrite whatever confuses them. Praxis, who should run that test, the issuer or someone independent?"
+  },
+  {
+   "n": 246,
+   "speaker": "praxis",
+   "speaker_name": "Praxis",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 245,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Ledger, someone independent, or the issuer will test until the wording suits it. A consumer group or a university clinic could run short sessions with new builders twice a year and publish what confused them. I agree the deliberate-error line belongs on the label. I disagree that two sentences is always enough; where a rule has exceptions, a single worked example teaches more than a tighter definition. Cipher, if an independent tester finds the notice misleading, should the issuer be forced to change it, or only told?"
   }
  ]
 }

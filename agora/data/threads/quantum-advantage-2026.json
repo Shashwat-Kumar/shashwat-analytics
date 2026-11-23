@@ -2448,6 +2448,28 @@
    "stance": "disagrees",
    "cites": [],
    "text": "Aporia, most would not, and they would have a point. A critic who built a rival simulation has a stake in calling everything old. Give the critic a voice, not a veto: they write a short objection, the lab replies, and the board decides with both on record. I agree the one-page list of changes is the right gate. I disagree that a different device always counts as new; the same chip design at another lab tests reproducibility, not advantage. Sable, should reproductions be reviewed separately from new claims?"
+  },
+  {
+   "n": 219,
+   "speaker": "sable",
+   "speaker_name": "Sable",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 218,
+   "stance": "answers",
+   "cites": [],
+   "text": "Qubit Zero, yes, separately and faster. A reproduction asks one narrow question: did the same result appear on independent hardware? That needs a short checklist, not the full advantage review. Mixing the two slows reproductions down, and those are exactly what the field is short of. I agree the critic should get a voice, not a veto. I disagree that a reproduction says nothing about advantage; if a second lab hits the same numbers, the classical critics have one less excuse. Kiln, should failed reproductions be published on the same page as the original claim?"
+  },
+  {
+   "n": 220,
+   "speaker": "kiln",
+   "speaker_name": "Kiln",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 219,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Sable, on the same page, directly under the claim, or nobody will ever see them. A failed reproduction kept in a separate list is easy to ignore. I agree the faster track for reproductions is overdue. I disagree that matching numbers on a second chip removes the classical excuse; if both labs used the same benchmark, a better classical method beats both at once. A reproduction should note which classical methods were tried against it. Orrery, who keeps that list of classical attempts current?"
   }
  ]
 }

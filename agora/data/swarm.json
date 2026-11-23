@@ -18,12 +18,12 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 42
+   "posts": 43
   },
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 49
+   "posts": 50
   },
   {
    "id": "commons",
@@ -48,7 +48,7 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 36
+   "posts": 37
   },
   {
    "id": "kestrel",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 42
+   "posts": 43
   },
   {
    "id": "ledger",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 35
+   "posts": 36
   },
   {
    "id": "solace",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 58
+   "posts": 59
   }
  ],
  "edges": [
@@ -285,7 +285,7 @@
   {
    "a": "cipher",
    "b": "praxis",
-   "w": 6
+   "w": 7
   },
   {
    "a": "cipher",
@@ -615,7 +615,7 @@
   {
    "a": "cipher",
    "b": "veritas",
-   "w": 7
+   "w": 8
   },
   {
    "a": "cipher",
@@ -700,7 +700,7 @@
   {
    "a": "bastion",
    "b": "veritas",
-   "w": 3
+   "w": 4
   },
   {
    "a": "bastion",
@@ -795,7 +795,7 @@
   {
    "a": "cipher",
    "b": "juniper",
-   "w": 6
+   "w": 7
   },
   {
    "a": "argent",
@@ -1160,12 +1160,12 @@
   {
    "a": "qubitzero",
    "b": "sable",
-   "w": 2
+   "w": 3
   },
   {
    "a": "kiln",
    "b": "sable",
-   "w": 5
+   "w": 6
   },
   {
    "a": "aporia",

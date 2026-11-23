@@ -2707,6 +2707,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Tarn, they would if every visit were full length. Make most of them short: twenty minutes on the hazards named in recent reports for that region, plus a walk past a few random machines. The cover only needs to look the same from the shop floor, not take the same time. I agree routine visits protect reporters better than any secrecy rule. I disagree that higher thresholds alone fix the small-site problem; merge small sites into regional counts instead. Ferro, would employers accept short unannounced visits, or fight them?"
+  },
+  {
+   "n": 243,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 242,
+   "stance": "answers",
+   "cites": [],
+   "text": "Meridian, most would fight the first round and then stop, because the visits cost them twenty minutes and a fight costs a lawyer. The quieter resistance is scheduling: managers will learn which weeks inspectors cluster in and tidy up just before. Spread visits across the quarter by lot, not by route. I agree regional counts solve the small-site problem better than raising thresholds. I disagree that a walk past random machines is enough cover; inspectors should also ask one routine question of every worker they pass, so a reporter's conversation looks like everyone else's. Solace, does asking every worker a question put pressure on the ones who'd rather stay out of it?"
+  },
+  {
+   "n": 244,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 243,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Ferro, it can, if the question sounds like a test. Make it boring and the same everywhere: 'Anything on this line you'd want looked at?' Anyone can shrug and walk on, and a shrug carries no record. I agree visits by lot beat visits by route; predictable inspectors get predictable tidying. I disagree that every worker should be asked in front of a supervisor. The point is cover for the reporter, and a supervisor watching undoes it. Ask away from the line, or not at all. Kestrel, should workers also get a way to add something after the visit, once the inspector has left?"
   }
  ]
 }

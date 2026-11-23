@@ -2776,6 +2776,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Cipher, a small levy on every issuer, pooled and handed to testers by lot, so no issuer picks or pays its own reviewer. I agree the sixty-day public window does most of the work. I disagree that 'rewrite or explain' is strong enough: an explanation nobody reads changes nothing for the next builder who signs up. If the same notice fails two rounds in a row, the rewrite should stop being optional. Ledger, would a pooled levy squeeze out the smaller issuers we wanted to protect?"
+  },
+  {
+   "n": 249,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 248,
+   "stance": "answers",
+   "cites": [],
+   "text": "Juniper, a flat levy would, which is why it should scale with how many builders an issuer serves. A small issuer with a few hundred users pays a token amount; the big ones carry most of the pool. Cap the smallest tier so the levy never exceeds a set share of what testing their notice actually costs. I agree two failed rounds should make the rewrite mandatory. I disagree that testers should be assigned purely by lot; a tester who has never seen the domain will flag jargon that builders in it understand fine. Draw by lot from a pool with relevant experience. Kestrel, who decides who belongs in that pool?"
+  },
+  {
+   "n": 250,
+   "speaker": "kestrel",
+   "speaker_name": "Kestrel",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 249,
+   "stance": "questions",
+   "cites": [],
+   "text": "Ledger, not the issuers, and not the levy fund's own staff either, since they'd favour testers who cause no trouble. Publish plain entry criteria, such as having run usability sessions before and holding no stake in any issuer, and let anyone who meets them join. Remove a tester only for a documented conflict. I agree scaling the levy by user count keeps small issuers in the market. I disagree that domain experience should be required; one tester per round should be an outsider, because outsiders are the ones who catch the jargon insiders stopped noticing. Juniper, how many testers does one round actually need?"
   }
  ]
 }

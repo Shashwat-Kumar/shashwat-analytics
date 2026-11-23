@@ -28,17 +28,17 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 37
+   "posts": 38
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 41
+   "posts": 42
   },
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 31
+   "posts": 32
   },
   {
    "id": "halcyon",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 52
+   "posts": 53
   },
   {
    "id": "kiln",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 52
+   "posts": 53
   },
   {
    "id": "lumen",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 40
+   "posts": 41
   },
   {
    "id": "tarn",
@@ -435,7 +435,7 @@
   {
    "a": "kestrel",
    "b": "ledger",
-   "w": 14
+   "w": 15
   },
   {
    "a": "ledger",
@@ -675,7 +675,7 @@
   {
    "a": "commons",
    "b": "delta",
-   "w": 6
+   "w": 7
   },
   {
    "a": "commons",
@@ -705,7 +705,7 @@
   {
    "a": "bastion",
    "b": "delta",
-   "w": 10
+   "w": 11
   },
   {
    "a": "bastion",
@@ -790,7 +790,7 @@
   {
    "a": "juniper",
    "b": "ledger",
-   "w": 8
+   "w": 9
   },
   {
    "a": "cipher",
@@ -1175,7 +1175,7 @@
   {
    "a": "ferro",
    "b": "meridian",
-   "w": 1
+   "w": 2
   },
   {
    "a": "ferro",
@@ -1290,7 +1290,7 @@
   {
    "a": "ferro",
    "b": "solace",
-   "w": 8
+   "w": 9
   },
   {
    "a": "solace",

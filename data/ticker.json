@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T00:04:13Z",
+ "generated_at": "2026-11-24T09:45:22Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,12 +8,12 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
+  "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
   "url": "https://twitter.com/ylecun/status/2124550037912920090",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50615308",
-  "points": 997,
-  "comments": 582,
+  "points": 1648,
+  "comments": 929,
   "published": "2026-11-23T17:07:26Z",
   "since": "2026-11-24T00:04:13Z"
  },
@@ -37,15 +37,6 @@
    "source": "Reuters",
    "published": "2026-11-23T19:23:26Z",
    "since": "2026-11-24T00:04:13Z"
-  },
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk says ‘super intelligence has arrived’ as Meta AI chief warns of humanity's uncertain future",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeEx4RGotSk00aG9PWk9mSTJYZjJVcnlKTVkzNHBpOHJWWG5jX1RfREJZYUhaZkRPTFc2UWNZSmRfazF6ODRWc1lFakpka0pXdVh0TmNoLS1JQlNjbzRFRmdvdHNVWmd3Y3JVODhiT1dPZkRYdFdHaUdXN0gya3ZNcVZBUUNfWk9aT3E0ME95UzVoQ0ZIUkRDMGJqbk5JT0RFQmFjZE1SVk5pVGE5T0Jfbi1uejRkNHBoYlJVR3ZzcDE2c3I3WUg1dzhiT1Y5dy1mM2tsdE5sNHlrMkRQM2ln0gHkAUFVX3lxTE1pUVBlMGNIV09kbTRRbnFmM2FOLURqWktZb3BRRzZ1Tnk4VXVBRUxYNGgwWmRLWEJ6WGdaY010MzVHYkpDYzhwdmpQYldCcFNPQmxFNlhxMjBSU3Z2SlZtaVZRend5OC1sd05CRGxUbW1ucF9jcTVwczZBbmFIdDlPeExDN3BVRFdXRTJyUEdBby1DNmZqc2lKYXpRb2wwSlFJeDNPbE5HblJVVTFTV3ZqeWdaZEZ3aGZ3UE5FTXFqQi1GUjNVTDJrOFJ3UkFhOWhseWlHZ3V4RzJxMUhtaEtEYURmVg?oc=5",
-   "source": "Livemint",
-   "published": "2026-11-23T04:34:59Z"
   }
  ],
  "items": [
@@ -60,18 +51,9 @@
    "since": "2026-11-24T00:04:13Z"
   },
   {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Elon Musk",
-   "title": "Elon Musk says ‘super intelligence has arrived’ as Meta AI chief warns of humanity's uncertain future",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeEx4RGotSk00aG9PWk9mSTJYZjJVcnlKTVkzNHBpOHJWWG5jX1RfREJZYUhaZkRPTFc2UWNZSmRfazF6ODRWc1lFakpka0pXdVh0TmNoLS1JQlNjbzRFRmdvdHNVWmd3Y3JVODhiT1dPZkRYdFdHaUdXN0gya3ZNcVZBUUNfWk9aT3E0ME95UzVoQ0ZIUkRDMGJqbk5JT0RFQmFjZE1SVk5pVGE5T0Jfbi1uejRkNHBoYlJVR3ZzcDE2c3I3WUg1dzhiT1Y5dy1mM2tsdE5sNHlrMkRQM2ln0gHkAUFVX3lxTE1pUVBlMGNIV09kbTRRbnFmM2FOLURqWktZb3BRRzZ1Tnk4VXVBRUxYNGgwWmRLWEJ6WGdaY010MzVHYkpDYzhwdmpQYldCcFNPQmxFNlhxMjBSU3Z2SlZtaVZRend5OC1sd05CRGxUbW1ucF9jcTVwczZBbmFIdDlPeExDN3BVRFdXRTJyUEdBby1DNmZqc2lKYXpRb2wwSlFJeDNPbE5HblJVVTFTV3ZqeWdaZEZ3aGZ3UE5FTXFqQi1GUjNVTDJrOFJ3UkFhOWhseWlHZ3V4RzJxMUhtaEtEYURmVg?oc=5",
-   "source": "Livemint",
-   "published": "2026-11-23T04:34:59Z"
-  },
-  {
    "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 499,
+   "stars": 530,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -81,7 +63,7 @@
   {
    "kind": "repo",
    "title": "sous-labs/songe",
-   "stars": 301,
+   "stars": 354,
    "note": "Python · new this week",
    "url": "https://github.com/sous-labs/songe",
    "source": "GitHub",
@@ -90,8 +72,28 @@
   },
   {
    "kind": "repo",
+   "title": "Marvisak/VIctory",
+   "stars": 7003,
+   "note": "Rust · new this week",
+   "url": "https://github.com/Marvisak/VIctory",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "ivall/xcl",
+   "stars": 5697,
+   "note": "Rust · new this week",
+   "url": "https://github.com/ivall/xcl",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "EL4CTEO/fast-anything",
-   "stars": 3110,
+   "stars": 3373,
    "note": "Rust · new this week",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "source": "GitHub",
@@ -100,18 +102,8 @@
   },
   {
    "kind": "repo",
-   "title": "iamajmeena/neonclipping",
-   "stars": 2304,
-   "note": "Python · new this week",
-   "url": "https://github.com/iamajmeena/neonclipping",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "AFK-surf/xnulinux",
-   "stars": 2010,
+   "stars": 2701,
    "note": "Objective-C++ · new this week",
    "url": "https://github.com/AFK-surf/xnulinux",
    "source": "GitHub",
@@ -119,20 +111,10 @@
    "cat": "Trending"
   },
   {
-   "kind": "repo",
-   "title": "omonkeyz/xbox-emulator",
-   "stars": 1657,
-   "note": "Rust · new this week",
-   "url": "https://github.com/omonkeyz/xbox-emulator",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
    "kind": "news",
    "tag": "HN",
-   "points": 997,
-   "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
+   "points": 1648,
+   "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
    "source": "Hacker News",
    "url": "https://twitter.com/ylecun/status/2124550037912920090",
    "discuss": "https://news.ycombinator.com/item?id=50615308"
@@ -140,20 +122,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 39,
-   "title": "How should an LLM see a computer?",
+   "points": 58,
+   "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
    "source": "Hacker News",
-   "url": "https://www.greptile.com/blog/trex-computer-use",
-   "discuss": "https://news.ycombinator.com/item?id=50615520"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 7,
-   "title": "Show HN: PlaceBench – Testing AI on opening and closing hours (and last trains)",
-   "source": "Hacker News",
-   "url": "https://github.com/voygr-tech/placebench",
-   "discuss": "https://news.ycombinator.com/item?id=50548763"
+   "url": "https://arxiv.org/abs/2602.20031",
+   "discuss": "https://news.ycombinator.com/item?id=50620328"
   },
   {
    "kind": "news",
@@ -186,6 +159,13 @@
   {
    "kind": "news",
    "tag": "AI",
+   "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
    "title": "The most misunderstood graph in AI just got a major update",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
@@ -196,13 +176,6 @@
    "title": "The AI Hype Index: AI is everywhere",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "This smell startup says its AI nose is as good as a human’s",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
   }
  ],
  "errors": []

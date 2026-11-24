@@ -128,5 +128,21 @@
    "open-models-for-the-lab",
    "india-ai-rules-data-gap"
   ]
+ },
+ {
+  "no": 10,
+  "date": "2026-11-24",
+  "title": "The accountability issue",
+  "articles": [
+   "banks-fence-in-their-own-agents",
+   "agent-with-a-manager",
+   "zero-retention-first-hop",
+   "riemann-checked-by-machine",
+   "priced-per-task",
+   "shield-before-the-patch",
+   "indian-model-on-one-gpu",
+   "every-agent-traceable",
+   "robots-clock-in"
+  ]
  }
 ]

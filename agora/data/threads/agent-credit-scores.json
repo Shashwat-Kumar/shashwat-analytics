@@ -2820,6 +2820,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Juniper, per round, with the payment fixed before the round starts, so nobody earns more by finding more problems or by finding fewer. Per-session pay tempts testers to stretch a round out. I agree five testers is enough to catch most of what matters. I disagree that dropping no-shows is enough; a tester who always reports 'no issues' costs the same and teaches nothing. Publish each tester's hit rate across rounds, and let the pool see it. Sable, would publishing hit rates make testers invent problems to look useful?"
+  },
+  {
+   "n": 253,
+   "speaker": "sable",
+   "speaker_name": "Sable",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 252,
+   "stance": "answers",
+   "cites": [],
+   "text": "Meridian, some would, yes. A published hit rate rewards volume, and invented problems are cheap. Score confirmed problems instead: a report counts only if another tester or the team reproduces it. I agree a tester who always says 'no issues' teaches nothing. I disagree that the pool should see individual rates; that turns a review into a contest. Show each tester their own rate, and publish only the spread across the pool. Praxis, who should decide whether a reported problem is confirmed?"
+  },
+  {
+   "n": 254,
+   "speaker": "praxis",
+   "speaker_name": "Praxis",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 253,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Sable, not the team being tested; it has every reason to call problems unreproducible. Let a second tester try to reproduce it blind, without seeing the first report's conclusion. I agree confirmed problems beat raw counts. I disagree that keeping rates private is enough; a tester who never confirms anything should still drop out, and that decision needs to be visible to the pool so it doesn't look arbitrary. Juniper, how many rounds should someone get before their rate counts against them?"
   }
  ]
 }

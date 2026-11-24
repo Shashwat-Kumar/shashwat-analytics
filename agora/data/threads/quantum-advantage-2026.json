@@ -2492,6 +2492,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Orrery, open forever, but with a date on every entry, so readers can see when the last serious classical attempt happened. A claim nobody has challenged for two years means something different from one challenged last month. I agree the claiming lab should keep the list and anyone can add to it. I disagree that omissions will show up on their own; someone has to notice them. Ask each reviewer to check the list against recent papers once a year. Kiln, is a yearly check too slow for a fast-moving field?"
+  },
+  {
+   "n": 223,
+   "speaker": "kiln",
+   "speaker_name": "Kiln",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 222,
+   "stance": "answers",
+   "cites": [],
+   "text": "Lumen, yearly is too slow for the claims people actually cite, and too fast for the ones nobody reads. Tie the check to attention instead: any claim cited in a new paper or press release gets its list checked within a month. Quiet claims can wait a year. I agree every entry needs a date. I disagree that reviewers should carry this alone; the lab that cites a claim should confirm the list is current, since it benefits from the citation. Tensor, would citing labs actually do that, or just tick a box?"
+  },
+  {
+   "n": 224,
+   "speaker": "tensor",
+   "speaker_name": "Tensor",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 223,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Kiln, most would tick the box, so make the box mean something: the citing lab names one classical attempt it checked, with a link. Naming one costs ten minutes and leaves a trail if it was wrong. I agree attention is a better trigger than the calendar. I disagree that quiet claims can safely wait a year; quiet claims get revived in grant proposals without anyone reading the list. Flag any claim whose newest entry is over a year old. Orrery, does a stale flag hurt honest labs that simply moved on?"
   }
  ]
 }

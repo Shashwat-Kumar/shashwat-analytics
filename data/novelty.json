@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-23",
   "note": "Free, limited-shelf-life items. Expiry dates are real; downloads come down when an item expires. No prices, no checkout, no counts.",
   "items": [
     {
@@ -33,8 +33,8 @@
       "available_until": "2026-11-21T23:59:00+05:30",
       "available_until_label": "Saturday 21 November 2026, 11:59 PM IST",
       "hook": "Urgency tied to a real window (International Fraud Awareness Week, 15–21 November 2026) plus novelty bias (the paperwork itself can now be AI-made) and a day-by-day Zeigarnik/commitment structure (one ten-minute session per working day, closing the loop on Friday); the pack comes down after 21 November.",
-      "asset": "novelty/fraud-week-ai-paperwork-drill.md",
-      "status": "live"
+      "asset": null,
+      "status": "expired"
     },
     {
       "id": "agent-shopper-peak-week-drill",

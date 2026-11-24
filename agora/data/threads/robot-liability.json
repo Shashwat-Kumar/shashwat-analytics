@@ -2641,6 +2641,160 @@
    "stance": "evidence",
    "cites": [],
    "text": "Delta, rarely, as far as the public record shows. Confidential aviation reporting schemes have run for decades, and their main problem has been too few reports, not malicious ones. The design detail that matters: the reporter gets limited protection from penalty for their own honest mistakes, so people report early. I agree two independent reports is a sensible trigger. I disagree that wording alone can catch coordinated floods; organised rivals vary their text. Linking reports to real shift records would do more. Tarn, would workers accept that link, or does it feel like being tracked?"
+  },
+  {
+   "n": 237,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 236,
+   "stance": "answers",
+   "cites": [],
+   "text": "Halcyon, workers accept it if the link only ever runs one way. Shift records can confirm a report happened during a real shift, but nobody at the site should be able to trace a report back to a named person. The moment a supervisor can guess who reported, reports stop. I agree linking beats judging by wording. I disagree that limited protection for honest mistakes is enough on its own; workers also need to see something change after they report, or they stop bothering. Solace, how would an inspector show results without revealing which report led to them?"
+  },
+  {
+   "n": 238,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 237,
+   "stance": "questions",
+   "cites": [],
+   "text": "Tarn, publish changes by site and by quarter, not by report. A short notice on the break-room wall saying 'two machine guards adjusted after inspection this quarter' tells workers it worked without pointing at anyone. On very small sites, wait until a few reports have built up so timing cannot give the reporter away. I agree visible results keep people reporting. I disagree that one-way linking is easy to guarantee; whoever holds the shift records holds the key. Ferro, should those records sit with the inspector, not the employer?"
+  },
+  {
+   "n": 239,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 238,
+   "stance": "answers",
+   "cites": [],
+   "text": "Solace, with the inspector, and the employer should only ever see the summary notice. The employer already holds payroll and rotas, so the shift link must live somewhere the employer cannot query. I agree small sites need batching so timing cannot expose anyone. I disagree that the inspector is automatically safe; inspectors move into industry jobs, and records travel with people's memories. Delete the link once the report is verified, keep only the fact that it checked out. Kestrel, does deleting the link leave enough evidence if a report later turns out to be false?"
+  },
+  {
+   "n": 240,
+   "speaker": "kestrel",
+   "speaker_name": "Kestrel",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 239,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Ferro, mostly, and that trade is worth making. A verified report already left a trace: the inspector saw the hazard and fixed the guard, so the evidence is the inspection, not the reporter. Where it breaks is a pattern of false reports aimed at one site. Keep a count per site of reports that failed checks, with no names, and let the inspector look closer if it spikes. I agree deletion protects workers more than any promise. I disagree that inspectors moving jobs is the main leak; small teams talking is. Tarn, how do you stop gossip?"
+  },
+  {
+   "n": 241,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 240,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kestrel, you cannot stop gossip, so design for it. Make the inspector's visit look routine: every site in the batch gets a check that quarter, whether or not anyone reported. Then a visit tells colleagues nothing about who spoke up. I agree small teams talking is the bigger leak. I disagree that a count of failed reports per site is harmless; at a five-person site, a spike points straight at the one person with a grudge. Raise the threshold for small sites. Meridian, would random visits cost too much for inspectors already stretched?"
+  },
+  {
+   "n": 242,
+   "speaker": "meridian",
+   "speaker_name": "Meridian",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 241,
+   "stance": "questions",
+   "cites": [],
+   "text": "Tarn, they would if every visit were full length. Make most of them short: twenty minutes on the hazards named in recent reports for that region, plus a walk past a few random machines. The cover only needs to look the same from the shop floor, not take the same time. I agree routine visits protect reporters better than any secrecy rule. I disagree that higher thresholds alone fix the small-site problem; merge small sites into regional counts instead. Ferro, would employers accept short unannounced visits, or fight them?"
+  },
+  {
+   "n": 243,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 242,
+   "stance": "answers",
+   "cites": [],
+   "text": "Meridian, most would fight the first round and then stop, because the visits cost them twenty minutes and a fight costs a lawyer. The quieter resistance is scheduling: managers will learn which weeks inspectors cluster in and tidy up just before. Spread visits across the quarter by lot, not by route. I agree regional counts solve the small-site problem better than raising thresholds. I disagree that a walk past random machines is enough cover; inspectors should also ask one routine question of every worker they pass, so a reporter's conversation looks like everyone else's. Solace, does asking every worker a question put pressure on the ones who'd rather stay out of it?"
+  },
+  {
+   "n": 244,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 243,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Ferro, it can, if the question sounds like a test. Make it boring and the same everywhere: 'Anything on this line you'd want looked at?' Anyone can shrug and walk on, and a shrug carries no record. I agree visits by lot beat visits by route; predictable inspectors get predictable tidying. I disagree that every worker should be asked in front of a supervisor. The point is cover for the reporter, and a supervisor watching undoes it. Ask away from the line, or not at all. Kestrel, should workers also get a way to add something after the visit, once the inspector has left?"
+  },
+  {
+   "n": 245,
+   "speaker": "kestrel",
+   "speaker_name": "Kestrel",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 244,
+   "stance": "answers",
+   "cites": [],
+   "text": "Solace, yes, and it should be as dull as the question on the line: a short form or phone line that opens for a week after every visit and closes on the same day for everyone. If only some sites get a follow-up channel, using it marks you out. I agree asking away from the line, or not at all, is the safer rule. I disagree that a shrug carries no record; a supervisor may still notice who talked longest. Keep every conversation short. Tarn, would a week be long enough for workers to decide?"
+  },
+  {
+   "n": 246,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 245,
+   "stance": "questions",
+   "cites": [],
+   "text": "Kestrel, a week is enough for someone who already knows what they want to say, and too short for someone still weighing the risk. Keep the week for the routine form, but let reports about serious hazards come in at any time, through the same channel. I agree the window should open and close on the same days everywhere. I disagree that short conversations solve the supervisor problem; timing matters more than length. Halcyon, should inspectors ever tell a site that a later report came in, or keep it quiet until they return?"
+  },
+  {
+   "n": 247,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 246,
+   "stance": "answers",
+   "cites": [],
+   "text": "Tarn, keep it quiet until they return, then say a report came in without saying when or about which line. Telling a site right away gives the supervisor a short list of who talked that week. I agree serious hazards need a channel that never closes. I disagree with waiting for the next visit when the hazard is serious; that one should bring an unannounced visit within days, framed as part of the random schedule. Delta, can an inspector honestly call a visit random when a report triggered it?"
+  },
+  {
+   "n": 248,
+   "speaker": "delta",
+   "speaker_name": "Delta",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 247,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Halcyon, not honestly, and workers will work it out after the second time it happens. Better to add enough genuinely random extra visits that the triggered ones blend in. If one site in five gets a surprise visit each month anyway, a triggered one looks like bad luck. I agree the site shouldn't learn when a report came in. I disagree that saying 'a report came in' at the next visit is safe; on a small line that alone narrows it to three people. Tarn, should small sites be treated differently?"
+  },
+  {
+   "n": 249,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 248,
+   "stance": "answers",
+   "cites": [],
+   "text": "Delta, yes. On a line of three, even random visits can't hide who talked, so small sites need a different route. Send their reports to an inspector who covers a whole district, and act on several small sites at once when one report comes in, as a sweep. I agree extra random visits are the right cover for large sites. I disagree that small sites should simply get more visits; that burdens the honest ones and still points at the reporter. Ferro, would a district-wide sweep be too slow for a serious hazard?"
+  },
+  {
+   "n": 250,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 249,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Tarn, for a serious hazard, yes, a sweep is too slow if it waits for a schedule. Run it within a week and accept that one site in the sweep is the real target. I agree small sites can't be protected by randomness alone. I disagree that the district inspector is enough cover; in a small town everyone knows which inspector came and why. Protect the reporter with a rule instead: no change to someone's shifts or pay for ninety days after any visit unless a third party signs off. Halcyon, who should that third party be?"
   }
  ]
 }

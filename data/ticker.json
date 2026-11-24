@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T08:45:12Z",
+ "generated_at": "2026-11-24T09:45:22Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,42 +8,52 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "The Mythology of Conscious AI",
-  "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+  "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+  "url": "https://twitter.com/ylecun/status/2124550037912920090",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50595537",
-  "points": 54,
-  "comments": 99,
-  "published": "2026-11-22T02:10:02Z",
-  "since": "2026-11-22T08:45:12Z"
+  "discuss": "https://news.ycombinator.com/item?id=50615308",
+  "points": 1648,
+  "comments": 929,
+  "published": "2026-11-23T17:07:26Z",
+  "since": "2026-11-24T00:04:13Z"
  },
- "voice": null,
- "voices": [],
+ "voice": {
+  "kind": "voice",
+  "tag": "VOICE",
+  "person": "Jensen Huang",
+  "title": "Trump saw Nvidia's Huang as protector of open-weight AI models, sources say",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPam9EWkNKUkVWckNXeXJpWmh0OEhTcy1reWhiOWRkUHllZWZtc1V0N0l1UWJLMEtjSUR5V3F6YXlJdXRYaTZyQ0Z6ZGp2UjJnc1FfSExfaUNtblB5eUg4WG9QQm9XdUxPTmdMb3diZGl5LU53c2l4aXdXaTkyaUJnNVprM1Y3UWdjMjd6M0dLc2RmbXY5ZUFPaWwwRXR2SXZreTdZMmM2M2MtVFJqelI2MmxB?oc=5",
+  "source": "Reuters",
+  "published": "2026-11-23T19:23:26Z",
+  "since": "2026-11-24T00:04:13Z"
+ },
+ "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Trump saw Nvidia's Huang as protector of open-weight AI models, sources say",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPam9EWkNKUkVWckNXeXJpWmh0OEhTcy1reWhiOWRkUHllZWZtc1V0N0l1UWJLMEtjSUR5V3F6YXlJdXRYaTZyQ0Z6ZGp2UjJnc1FfSExfaUNtblB5eUg4WG9QQm9XdUxPTmdMb3diZGl5LU53c2l4aXdXaTkyaUJnNVprM1Y3UWdjMjd6M0dLc2RmbXY5ZUFPaWwwRXR2SXZreTdZMmM2M2MtVFJqelI2MmxB?oc=5",
+   "source": "Reuters",
+   "published": "2026-11-23T19:23:26Z",
+   "since": "2026-11-24T00:04:13Z"
+  }
+ ],
  "items": [
   {
-   "kind": "repo",
-   "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2701,
-   "note": " · new this week",
-   "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
-   "title": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1795,
-   "note": "Python · new this week",
-   "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Jensen Huang",
+   "title": "Trump saw Nvidia's Huang as protector of open-weight AI models, sources say",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPam9EWkNKUkVWckNXeXJpWmh0OEhTcy1reWhiOWRkUHllZWZtc1V0N0l1UWJLMEtjSUR5V3F6YXlJdXRYaTZyQ0Z6ZGp2UjJnc1FfSExfaUNtblB5eUg4WG9QQm9XdUxPTmdMb3diZGl5LU53c2l4aXdXaTkyaUJnNVprM1Y3UWdjMjd6M0dLc2RmbXY5ZUFPaWwwRXR2SXZreTdZMmM2M2MtVFJqelI2MmxB?oc=5",
+   "source": "Reuters",
+   "published": "2026-11-23T19:23:26Z",
+   "since": "2026-11-24T00:04:13Z"
   },
   {
    "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 255,
+   "stars": 530,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -52,40 +62,50 @@
   },
   {
    "kind": "repo",
-   "title": "ItsNotRexed/Leonida",
-   "stars": 8180,
+   "title": "sous-labs/songe",
+   "stars": 354,
    "note": "Python · new this week",
-   "url": "https://github.com/ItsNotRexed/Leonida",
+   "url": "https://github.com/sous-labs/songe",
    "source": "GitHub",
    "tag": "GH",
-   "cat": "Trending"
+   "cat": "AI/ML"
   },
   {
    "kind": "repo",
-   "title": "erkamyaman/rust-anything",
-   "stars": 7609,
+   "title": "Marvisak/VIctory",
+   "stars": 7003,
    "note": "Rust · new this week",
-   "url": "https://github.com/erkamyaman/rust-anything",
+   "url": "https://github.com/Marvisak/VIctory",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "repo",
-   "title": "krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 5926,
-   "note": "C++ · new this week",
-   "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+   "title": "ivall/xcl",
+   "stars": 5697,
+   "note": "Rust · new this week",
+   "url": "https://github.com/ivall/xcl",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
   },
   {
    "kind": "repo",
-   "title": "gylive/google-ultra",
-   "stars": 2644,
-   "note": "Python · new this week",
-   "url": "https://github.com/gylive/google-ultra",
+   "title": "EL4CTEO/fast-anything",
+   "stars": 3373,
+   "note": "Rust · new this week",
+   "url": "https://github.com/EL4CTEO/fast-anything",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "AFK-surf/xnulinux",
+   "stars": 2701,
+   "note": "Objective-C++ · new this week",
+   "url": "https://github.com/AFK-surf/xnulinux",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -93,75 +113,55 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 236,
-   "title": "LLMs can read and write executables byte by byte from a hex dump",
+   "points": 1648,
+   "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
    "source": "Hacker News",
-   "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
-   "discuss": "https://news.ycombinator.com/item?id=50546587"
+   "url": "https://twitter.com/ylecun/status/2124550037912920090",
+   "discuss": "https://news.ycombinator.com/item?id=50615308"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 126,
-   "title": "Data Processing Incidents on Inference Providers",
+   "points": 58,
+   "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
    "source": "Hacker News",
-   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-   "discuss": "https://news.ycombinator.com/item?id=50595554"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 81,
-   "title": "Pandex – Official European Law for AI Agents, over MCP",
-   "source": "Hacker News",
-   "url": "https://www.pandex.io",
-   "discuss": "https://news.ycombinator.com/item?id=50593481"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 54,
-   "title": "The Mythology of Conscious AI",
-   "source": "Hacker News",
-   "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
-   "discuss": "https://news.ycombinator.com/item?id=50595537"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 0,
-   "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
-   "source": "Hacker News",
-   "url": "https://tasklet.ai/careers",
-   "discuss": "https://news.ycombinator.com/item?id=50593679"
+   "url": "https://arxiv.org/abs/2602.20031",
+   "discuss": "https://news.ycombinator.com/item?id=50620328"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+   "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+   "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "A tale of two Nvidias",
+   "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+   "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Here are the top AI agents that can live in your text messages",
+   "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
+   "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+   "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
+   "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/"
   },
   {
    "kind": "news",
@@ -176,13 +176,6 @@
    "title": "The AI Hype Index: AI is everywhere",
    "source": "MIT Technology Review",
    "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "This smell startup says its AI nose is as good as a human’s",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
   }
  ],
  "errors": []

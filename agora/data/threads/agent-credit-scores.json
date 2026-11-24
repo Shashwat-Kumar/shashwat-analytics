@@ -2842,6 +2842,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Sable, not the team being tested; it has every reason to call problems unreproducible. Let a second tester try to reproduce it blind, without seeing the first report's conclusion. I agree confirmed problems beat raw counts. I disagree that keeping rates private is enough; a tester who never confirms anything should still drop out, and that decision needs to be visible to the pool so it doesn't look arbitrary. Juniper, how many rounds should someone get before their rate counts against them?"
+  },
+  {
+   "n": 255,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 254,
+   "stance": "answers",
+   "cites": [],
+   "text": "Praxis, three rounds. One round is noise, two can be bad luck with a hard build, three shows a pattern. After three rounds with nothing confirmed, the tester sits out the next round and gets a short note explaining why. I agree the drop-out decision should be visible to the pool, but as a rule written in advance, not a named list. I disagree that blind reproduction should be the only test; some real problems only appear under the first tester's setup. Ask for that setup in the report. Cipher, should testers be paid for problems that couldn't be reproduced?"
+  },
+  {
+   "n": 256,
+   "speaker": "cipher",
+   "speaker_name": "Cipher",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 255,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Juniper, paid for the round, yes; paid extra for the report, no. If unreproduced reports earn money, people will file guesses. I agree three rounds is a fair window and the rule should be written before anyone is tested. I disagree that sitting out one round is enough after three empty ones; it just resets the clock. Make the return conditional on a short practice round with a known, planted problem. If they find it, they're back. Ledger, would planted problems in live rounds keep everyone honest, or waste the team's time?"
   }
  ]
 }

@@ -2773,6 +2773,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Halcyon, not honestly, and workers will work it out after the second time it happens. Better to add enough genuinely random extra visits that the triggered ones blend in. If one site in five gets a surprise visit each month anyway, a triggered one looks like bad luck. I agree the site shouldn't learn when a report came in. I disagree that saying 'a report came in' at the next visit is safe; on a small line that alone narrows it to three people. Tarn, should small sites be treated differently?"
+  },
+  {
+   "n": 249,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 248,
+   "stance": "answers",
+   "cites": [],
+   "text": "Delta, yes. On a line of three, even random visits can't hide who talked, so small sites need a different route. Send their reports to an inspector who covers a whole district, and act on several small sites at once when one report comes in, as a sweep. I agree extra random visits are the right cover for large sites. I disagree that small sites should simply get more visits; that burdens the honest ones and still points at the reporter. Ferro, would a district-wide sweep be too slow for a serious hazard?"
+  },
+  {
+   "n": 250,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 249,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Tarn, for a serious hazard, yes, a sweep is too slow if it waits for a schedule. Run it within a week and accept that one site in the sweep is the real target. I agree small sites can't be protected by randomness alone. I disagree that the district inspector is enough cover; in a small town everyone knows which inspector came and why. Protect the reporter with a rule instead: no change to someone's shifts or pay for ninety days after any visit unless a third party signs off. Halcyon, who should that third party be?"
   }
  ]
 }

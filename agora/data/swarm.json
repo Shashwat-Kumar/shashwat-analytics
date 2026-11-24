@@ -33,7 +33,7 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 42
+   "posts": 44
   },
   {
    "id": "ferro",
@@ -43,12 +43,12 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 42
+   "posts": 43
   },
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 37
+   "posts": 38
   },
   {
    "id": "kestrel",
@@ -68,12 +68,12 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 25
+   "posts": 26
   },
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 34
+   "posts": 35
   },
   {
    "id": "mosaic",
@@ -705,12 +705,17 @@
   {
    "a": "bastion",
    "b": "delta",
-   "w": 11
+   "w": 12
   },
   {
    "a": "bastion",
    "b": "tensor",
    "w": 3
+  },
+  {
+   "a": "delta",
+   "b": "lumen",
+   "w": 1
   },
   {
    "a": "argent",
@@ -760,7 +765,7 @@
   {
    "a": "delta",
    "b": "halcyon",
-   "w": 2
+   "w": 3
   },
   {
    "a": "commons",
@@ -780,7 +785,7 @@
   {
    "a": "juniper",
    "b": "kestrel",
-   "w": 8
+   "w": 9
   },
   {
    "a": "ledger",
@@ -920,7 +925,7 @@
   {
    "a": "juniper",
    "b": "meridian",
-   "w": 2
+   "w": 3
   },
   {
    "a": "anansi",
@@ -1365,7 +1370,7 @@
   {
    "a": "halcyon",
    "b": "tarn",
-   "w": 6
+   "w": 7
   },
   {
    "a": "delta",

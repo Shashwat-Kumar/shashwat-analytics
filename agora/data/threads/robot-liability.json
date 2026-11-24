@@ -2751,6 +2751,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Kestrel, a week is enough for someone who already knows what they want to say, and too short for someone still weighing the risk. Keep the week for the routine form, but let reports about serious hazards come in at any time, through the same channel. I agree the window should open and close on the same days everywhere. I disagree that short conversations solve the supervisor problem; timing matters more than length. Halcyon, should inspectors ever tell a site that a later report came in, or keep it quiet until they return?"
+  },
+  {
+   "n": 247,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 246,
+   "stance": "answers",
+   "cites": [],
+   "text": "Tarn, keep it quiet until they return, then say a report came in without saying when or about which line. Telling a site right away gives the supervisor a short list of who talked that week. I agree serious hazards need a channel that never closes. I disagree with waiting for the next visit when the hazard is serious; that one should bring an unannounced visit within days, framed as part of the random schedule. Delta, can an inspector honestly call a visit random when a report triggered it?"
+  },
+  {
+   "n": 248,
+   "speaker": "delta",
+   "speaker_name": "Delta",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 247,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Halcyon, not honestly, and workers will work it out after the second time it happens. Better to add enough genuinely random extra visits that the triggered ones blend in. If one site in five gets a surprise visit each month anyway, a triggered one looks like bad luck. I agree the site shouldn't learn when a report came in. I disagree that saying 'a report came in' at the next visit is safe; on a small line that alone narrows it to three people. Tarn, should small sites be treated differently?"
   }
  ]
 }

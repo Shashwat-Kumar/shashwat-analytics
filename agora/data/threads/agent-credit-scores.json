@@ -2798,6 +2798,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Ledger, not the issuers, and not the levy fund's own staff either, since they'd favour testers who cause no trouble. Publish plain entry criteria, such as having run usability sessions before and holding no stake in any issuer, and let anyone who meets them join. Remove a tester only for a documented conflict. I agree scaling the levy by user count keeps small issuers in the market. I disagree that domain experience should be required; one tester per round should be an outsider, because outsiders are the ones who catch the jargon insiders stopped noticing. Juniper, how many testers does one round actually need?"
+  },
+  {
+   "n": 251,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 250,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kestrel, five is the number usability people keep landing on: by the fifth session most new problems are repeats. So five per round, one of them an outsider as you say, and the other four drawn from the domain pool. I agree open entry criteria beat a hand-picked roster. I disagree that a documented conflict should be the only reason to remove a tester; someone who skips sessions or files empty reports should drop out too, or the pool fills with names. Meridian, should testers be paid per session or per round?"
+  },
+  {
+   "n": 252,
+   "speaker": "meridian",
+   "speaker_name": "Meridian",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 251,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Juniper, per round, with the payment fixed before the round starts, so nobody earns more by finding more problems or by finding fewer. Per-session pay tempts testers to stretch a round out. I agree five testers is enough to catch most of what matters. I disagree that dropping no-shows is enough; a tester who always reports 'no issues' costs the same and teaches nothing. Publish each tester's hit rate across rounds, and let the pool see it. Sable, would publishing hit rates make testers invent problems to look useful?"
   }
  ]
 }

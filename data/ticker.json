@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T13:37:59Z",
+ "generated_at": "2026-11-25T22:49:39Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,22 +8,52 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
-  "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+  "title": "Much shorter version of GRH Lean verification from Anthropic",
+  "url": "https://github.com/lsernau/grh-lean",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50637686",
-  "points": 303,
-  "comments": 131,
-  "published": "2026-11-25T02:34:21Z",
-  "since": "2026-11-25T13:37:59Z"
+  "discuss": "https://news.ycombinator.com/item?id=50648050",
+  "points": 91,
+  "comments": 26,
+  "published": "2026-11-25T21:48:10Z",
+  "since": "2026-11-25T22:49:39Z"
  },
- "voice": null,
- "voices": [],
+ "voice": {
+  "kind": "voice",
+  "tag": "VOICE",
+  "person": "Dario Amodei",
+  "title": "Dario Amodei clarifies he doesn’t believe we should “surrender free will to AI.”",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUm1KNnB6cTZmMG5HNW9iSzNUdjlJOUFLejY4aFJHZ2NNMUpNclNOZ01UU1o2eUtnd1pXT1IzcEs3eUh3NDY1WnE5ZFBaaExrdVl3eFNTMHk5clM0NEVBcXRJaDUwbGhhLXJMZUl4LUxRQkhra2NRVUFuUXFEUFZBNlVNaVpCV1ZjSWpQTW9JTHJhQlkzRHpKemxpSThOVHdsN0RCVElwTmNBUjVUenRlN0NDQ3gxSUVNU1QxaGpsUng1UHZtZmkzM3VSRWw1QnNRSWc?oc=5",
+  "source": "The Verge",
+  "published": "2026-11-25T20:49:14Z",
+  "since": "2026-11-25T22:49:39Z"
+ },
+ "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Dario Amodei",
+   "title": "Dario Amodei clarifies he doesn’t believe we should “surrender free will to AI.”",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUm1KNnB6cTZmMG5HNW9iSzNUdjlJOUFLejY4aFJHZ2NNMUpNclNOZ01UU1o2eUtnd1pXT1IzcEs3eUh3NDY1WnE5ZFBaaExrdVl3eFNTMHk5clM0NEVBcXRJaDUwbGhhLXJMZUl4LUxRQkhra2NRVUFuUXFEUFZBNlVNaVpCV1ZjSWpQTW9JTHJhQlkzRHpKemxpSThOVHdsN0RCVElwTmNBUjVUenRlN0NDQ3gxSUVNU1QxaGpsUng1UHZtZmkzM3VSRWw1QnNRSWc?oc=5",
+   "source": "The Verge",
+   "published": "2026-11-25T20:49:14Z",
+   "since": "2026-11-25T22:49:39Z"
+  }
+ ],
  "items": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Dario Amodei",
+   "title": "Dario Amodei clarifies he doesn’t believe we should “surrender free will to AI.”",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUm1KNnB6cTZmMG5HNW9iSzNUdjlJOUFLejY4aFJHZ2NNMUpNclNOZ01UU1o2eUtnd1pXT1IzcEs3eUh3NDY1WnE5ZFBaaExrdVl3eFNTMHk5clM0NEVBcXRJaDUwbGhhLXJMZUl4LUxRQkhra2NRVUFuUXFEUFZBNlVNaVpCV1ZjSWpQTW9JTHJhQlkzRHpKemxpSThOVHdsN0RCVElwTmNBUjVUenRlN0NDQ3gxSUVNU1QxaGpsUng1UHZtZmkzM3VSRWw1QnNRSWc?oc=5",
+   "source": "The Verge",
+   "published": "2026-11-25T20:49:14Z",
+   "since": "2026-11-25T22:49:39Z"
+  },
   {
    "kind": "repo",
    "title": "sous-labs/songe",
-   "stars": 808,
+   "stars": 856,
    "note": "Python · new this week",
    "url": "https://github.com/sous-labs/songe",
    "source": "GitHub",
@@ -33,7 +63,7 @@
   {
    "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 582,
+   "stars": 592,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -43,7 +73,7 @@
   {
    "kind": "repo",
    "title": "Marvisak/VIctory",
-   "stars": 12103,
+   "stars": 12566,
    "note": "Rust · new this week",
    "url": "https://github.com/Marvisak/VIctory",
    "source": "GitHub",
@@ -53,7 +83,7 @@
   {
    "kind": "repo",
    "title": "xcl-dev/xcl",
-   "stars": 8130,
+   "stars": 8293,
    "note": "Rust · new this week",
    "url": "https://github.com/xcl-dev/xcl",
    "source": "GitHub",
@@ -62,8 +92,18 @@
   },
   {
    "kind": "repo",
+   "title": "4lwayz/portwatch-vi",
+   "stars": 4009,
+   "note": "JavaScript · new this week",
+   "url": "https://github.com/4lwayz/portwatch-vi",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
    "title": "EL4CTEO/fast-anything",
-   "stars": 3817,
+   "stars": 3936,
    "note": "Rust · new this week",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "source": "GitHub",
@@ -71,28 +111,9 @@
    "cat": "Trending"
   },
   {
-   "kind": "repo",
-   "title": "AFK-surf/xnulinux",
-   "stars": 3755,
-   "note": "C · new this week",
-   "url": "https://github.com/AFK-surf/xnulinux",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
    "kind": "news",
    "tag": "HN",
-   "points": 351,
-   "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50630809",
-   "discuss": "https://news.ycombinator.com/item?id=50630809"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 303,
+   "points": 442,
    "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
    "source": "Hacker News",
    "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
@@ -101,66 +122,66 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 299,
-   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "points": 195,
+   "title": "Porting Rockbox to an undocumented $9 AliExpress 'YP3' MP3 player with LLMs",
    "source": "Hacker News",
-   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-   "discuss": "https://news.ycombinator.com/item?id=50634658"
+   "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+   "discuss": "https://news.ycombinator.com/item?id=50624446"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 163,
-   "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+   "points": 145,
+   "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
    "source": "Hacker News",
-   "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-   "discuss": "https://news.ycombinator.com/item?id=50638220"
+   "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+   "discuss": "https://news.ycombinator.com/item?id=50601280"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 75,
-   "title": "Lua for data representation (2025)",
+   "points": 91,
+   "title": "Much shorter version of GRH Lean verification from Anthropic",
    "source": "Hacker News",
-   "url": "https://citrons.xyz/journal/2025-07-23",
-   "discuss": "https://news.ycombinator.com/item?id=50637888"
+   "url": "https://github.com/lsernau/grh-lean",
+   "discuss": "https://news.ycombinator.com/item?id=50648050"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 71,
-   "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+   "points": 49,
+   "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
    "source": "Hacker News",
-   "url": "https://www.proofatlas.ai/open-problems/",
-   "discuss": "https://news.ycombinator.com/item?id=50637871"
+   "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
+   "discuss": "https://news.ycombinator.com/item?id=50611593"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/"
+   "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+   "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/"
+   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+   "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/"
+   "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+   "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/"
+   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
   },
   {
    "kind": "news",

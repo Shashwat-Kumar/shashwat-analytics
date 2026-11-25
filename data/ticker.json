@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T20:23:27Z",
+ "generated_at": "2026-11-25T03:42:25Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50627340",
-  "points": 772,
-  "comments": 326,
+  "points": 942,
+  "comments": 392,
   "published": "2026-11-24T12:40:15Z",
   "since": "2026-11-24T20:23:27Z"
  },
@@ -22,18 +22,8 @@
  "items": [
   {
    "kind": "repo",
-   "title": "w01fb0ss/PiBot",
-   "stars": 556,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/w01fb0ss/PiBot",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "sous-labs/songe",
-   "stars": 553,
+   "stars": 714,
    "note": "Python · new this week",
    "url": "https://github.com/sous-labs/songe",
    "source": "GitHub",
@@ -42,8 +32,18 @@
   },
   {
    "kind": "repo",
+   "title": "w01fb0ss/PiBot",
+   "stars": 564,
+   "note": "TypeScript · new this week",
+   "url": "https://github.com/w01fb0ss/PiBot",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "Marvisak/VIctory",
-   "stars": 10840,
+   "stars": 11527,
    "note": "Rust · new this week",
    "url": "https://github.com/Marvisak/VIctory",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "xcl-dev/xcl",
-   "stars": 7646,
+   "stars": 7913,
    "note": "Rust · new this week",
    "url": "https://github.com/xcl-dev/xcl",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "EL4CTEO/fast-anything",
-   "stars": 3560,
+   "stars": 3656,
    "note": "Rust · new this week",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "AFK-surf/xnulinux",
-   "stars": 3237,
+   "stars": 3460,
    "note": "Objective-C++ · new this week",
    "url": "https://github.com/AFK-surf/xnulinux",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 772,
+   "points": 942,
    "title": "LLM agents work for their parent companies, not for you",
    "source": "Hacker News",
    "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
@@ -92,25 +92,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 208,
-   "title": "Anthropic breaks below $83 IPO price",
+   "points": 198,
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
    "source": "Hacker News",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-   "discuss": "https://news.ycombinator.com/item?id=50627836"
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "discuss": "https://news.ycombinator.com/item?id=50634658"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 143,
-   "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50630809",
-   "discuss": "https://news.ycombinator.com/item?id=50630809"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 112,
+   "points": 191,
    "title": "A training engine for your local model, using your idle compute",
    "source": "Hacker News",
    "url": "https://github.com/sous-labs/songe",
@@ -119,20 +110,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 34,
-   "title": "Gnomon: Git for Postgres Data",
+   "points": 28,
+   "title": "Hierarchical Bayesian Neural Networks: When Structure Meets Flexibility",
    "source": "Hacker News",
-   "url": "https://gnomon.bitsinfra.com/",
-   "discuss": "https://news.ycombinator.com/item?id=50611613"
+   "url": "https://statwonk.com/hierarchical-bayesian-neural-network.html",
+   "discuss": "https://news.ycombinator.com/item?id=50606655"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 15,
-   "title": "Compiling Web Applications into Verified Operations for AI Agents",
+   "points": 25,
+   "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
    "source": "Hacker News",
-   "url": "https://protocolis.co/paper/",
-   "discuss": "https://news.ycombinator.com/item?id=50632998"
+   "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+   "discuss": "https://news.ycombinator.com/item?id=50637686"
   },
   {
    "kind": "news",
@@ -146,30 +137,30 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+   "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
+   "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+   "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/"
+   "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+   "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
+   "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/"
   },
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+   "title": "Even the best AI agents struggle with everyday life",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+   "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
   },
   {
    "kind": "news",

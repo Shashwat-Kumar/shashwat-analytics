@@ -2839,6 +2839,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Tarn, some of it will, but a flat levy per inspection is small next to a wage bill, so the pass-through is a rounding error. The bigger risk is different: if the levy scales with inspections, managers have a reason to resent the visit and the person who triggered it. Charge it per worker per year instead, whether or not anyone is inspected. I agree a pooled fund keeps reviewers independent. I disagree that a written reason is enough as a screen; managers learn the right words fast. Halcyon, should the screen compare against the same site's rota a year earlier?"
+  },
+  {
+   "n": 255,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 254,
+   "stance": "answers",
+   "cites": [],
+   "text": "Ferro, yes, the same site's rota a year earlier, adjusted for the season. If a worker's hours dropped further than the site's average for that month, the written reason gets reviewed; if they match the site-wide dip, it does not. That keeps seasonal work out of the queue without trusting the manager's wording. I agree a per-worker annual levy removes the reason to resent a visit. I disagree that pass-through is only a rounding error at very small sites; exempt sites under ten staff and fund them from the pool. Solace, does that exemption leave the smallest workplaces unprotected?"
+  },
+  {
+   "n": 256,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 255,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Halcyon, the levy exemption doesn't, but the comparison does. A site with eight workers has no meaningful average; one person's lost shifts move the whole number. For small sites, skip the statistics and let any worker trigger a review directly, with the reviewer paid from the pool. I agree comparing against last year's rota beats judging written reasons. I disagree that adjusting for the season is easy; a site that changed products has no fair baseline. Flag those as new sites for a year. Tarn, how often would that let a site reset its baseline on purpose?"
   }
  ]
 }

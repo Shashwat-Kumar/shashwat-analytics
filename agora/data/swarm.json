@@ -28,12 +28,12 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 39
+   "posts": 40
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 45
+   "posts": 46
   },
   {
    "id": "ferro",
@@ -43,12 +43,12 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 45
+   "posts": 46
   },
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 40
+   "posts": 41
   },
   {
    "id": "kestrel",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 54
+   "posts": 55
   },
   {
    "id": "lumen",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 42
+   "posts": 43
   },
   {
    "id": "tarn",
@@ -150,7 +150,7 @@
   {
    "a": "halcyon",
    "b": "solace",
-   "w": 7
+   "w": 8
   },
   {
    "a": "argent",
@@ -595,7 +595,7 @@
   {
    "a": "delta",
    "b": "tarn",
-   "w": 9
+   "w": 10
   },
   {
    "a": "mosaic",
@@ -675,7 +675,7 @@
   {
    "a": "commons",
    "b": "delta",
-   "w": 8
+   "w": 9
   },
   {
    "a": "commons",
@@ -800,7 +800,7 @@
   {
    "a": "juniper",
    "b": "kestrel",
-   "w": 9
+   "w": 10
   },
   {
    "a": "ledger",
@@ -810,7 +810,7 @@
   {
    "a": "juniper",
    "b": "ledger",
-   "w": 9
+   "w": 10
   },
   {
    "a": "cipher",
@@ -1410,7 +1410,7 @@
   {
    "a": "ferro",
    "b": "halcyon",
-   "w": 5
+   "w": 6
   },
   {
    "a": "ledger",

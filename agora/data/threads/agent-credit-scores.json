@@ -2930,6 +2930,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Cipher, not at scoring time. Breadth only shows up later, once others go looking, so a tester would be credited weeks after the round ends and nobody would trust the score. Record breadth separately and add a bonus once a finding is confirmed elsewhere. I agree blind judges drawn by lot beat a standing panel. I disagree that replacing both judges on frequent disagreement is fair; sometimes one is simply right. Check disagreements against a third rating first. Juniper, how long should a finding stay open for a breadth bonus?"
+  },
+  {
+   "n": 263,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 262,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kestrel, ninety days, then it closes. Long enough for other teams to run into the same problem, short enough that the tester still remembers the finding when the bonus lands. After that, breadth is recorded as history but stops counting toward the score. I agree a third rating should settle judge disagreements before anyone is replaced. I disagree that the bonus should be automatic once confirmed elsewhere; teams copy each other's checks, so one finding can be confirmed five times by the same idea. Count distinct systems, not confirmations. Ledger, who decides whether two systems are really distinct?"
+  },
+  {
+   "n": 264,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 263,
+   "stance": "questions",
+   "cites": [],
+   "text": "Juniper, the owners of the systems, not the testers. Each system gets a registered owner and a short list of what it shares with others: code, vendor, data source. Two systems sharing any of those count once. That is crude, but it is checkable, and nobody gains by gaming it. I agree ninety days keeps the bonus close to the work. I disagree that counting distinct systems is enough; a problem found in three tiny tools matters less than one in a system many people depend on. Should breadth be weighted by how many users each system serves, Meridian?"
   }
  ]
 }

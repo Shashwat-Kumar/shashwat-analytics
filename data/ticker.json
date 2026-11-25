@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T03:42:25Z",
+ "generated_at": "2026-11-25T13:37:59Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "LLM agents work for their parent companies, not for you",
-  "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+  "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+  "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50627340",
-  "points": 942,
-  "comments": 392,
-  "published": "2026-11-24T12:40:15Z",
-  "since": "2026-11-24T20:23:27Z"
+  "discuss": "https://news.ycombinator.com/item?id=50637686",
+  "points": 303,
+  "comments": 131,
+  "published": "2026-11-25T02:34:21Z",
+  "since": "2026-11-25T13:37:59Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "sous-labs/songe",
-   "stars": 714,
+   "stars": 808,
    "note": "Python · new this week",
    "url": "https://github.com/sous-labs/songe",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 564,
+   "stars": 582,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "Marvisak/VIctory",
-   "stars": 11527,
+   "stars": 12103,
    "note": "Rust · new this week",
    "url": "https://github.com/Marvisak/VIctory",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "xcl-dev/xcl",
-   "stars": 7913,
+   "stars": 8130,
    "note": "Rust · new this week",
    "url": "https://github.com/xcl-dev/xcl",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "EL4CTEO/fast-anything",
-   "stars": 3656,
+   "stars": 3817,
    "note": "Rust · new this week",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "source": "GitHub",
@@ -73,8 +73,8 @@
   {
    "kind": "repo",
    "title": "AFK-surf/xnulinux",
-   "stars": 3460,
-   "note": "Objective-C++ · new this week",
+   "stars": 3755,
+   "note": "C · new this week",
    "url": "https://github.com/AFK-surf/xnulinux",
    "source": "GitHub",
    "tag": "GH",
@@ -83,43 +83,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 942,
-   "title": "LLM agents work for their parent companies, not for you",
+   "points": 351,
+   "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
    "source": "Hacker News",
-   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "discuss": "https://news.ycombinator.com/item?id=50627340"
+   "url": "https://news.ycombinator.com/item?id=50630809",
+   "discuss": "https://news.ycombinator.com/item?id=50630809"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 198,
-   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-   "source": "Hacker News",
-   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-   "discuss": "https://news.ycombinator.com/item?id=50634658"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 191,
-   "title": "A training engine for your local model, using your idle compute",
-   "source": "Hacker News",
-   "url": "https://github.com/sous-labs/songe",
-   "discuss": "https://news.ycombinator.com/item?id=50629231"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 28,
-   "title": "Hierarchical Bayesian Neural Networks: When Structure Meets Flexibility",
-   "source": "Hacker News",
-   "url": "https://statwonk.com/hierarchical-bayesian-neural-network.html",
-   "discuss": "https://news.ycombinator.com/item?id=50606655"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 25,
+   "points": 303,
    "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
    "source": "Hacker News",
    "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
@@ -128,11 +101,45 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 0,
-   "title": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+   "points": 299,
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
    "source": "Hacker News",
-   "url": "https://jobs.ashbyhq.com/weave-os",
-   "discuss": "https://news.ycombinator.com/item?id=50631041"
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "discuss": "https://news.ycombinator.com/item?id=50634658"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 163,
+   "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+   "source": "Hacker News",
+   "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+   "discuss": "https://news.ycombinator.com/item?id=50638220"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 75,
+   "title": "Lua for data representation (2025)",
+   "source": "Hacker News",
+   "url": "https://citrons.xyz/journal/2025-07-23",
+   "discuss": "https://news.ycombinator.com/item?id=50637888"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 71,
+   "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+   "source": "Hacker News",
+   "url": "https://www.proofatlas.ai/open-problems/",
+   "discuss": "https://news.ycombinator.com/item?id=50637871"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/"
   },
   {
    "kind": "news",
@@ -158,16 +165,9 @@
   {
    "kind": "news",
    "tag": "AI",
-   "title": "Even the best AI agents struggle with everyday life",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "Raising the stakes for enterprise networks with AI modernization",
+   "title": "AI is straining America’s open records systems",
    "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/"
+   "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/"
   },
   {
    "kind": "news",

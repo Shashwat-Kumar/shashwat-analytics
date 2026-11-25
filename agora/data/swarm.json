@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 51
+   "posts": 52
   },
   {
    "id": "commons",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "halcyon",
@@ -53,12 +53,12 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 54
+   "posts": 55
   },
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 44
+   "posts": 45
   },
   {
    "id": "ledger",
@@ -118,12 +118,12 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 34
+   "posts": 35
   },
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "vela",
@@ -285,7 +285,7 @@
   {
    "a": "cipher",
    "b": "praxis",
-   "w": 7
+   "w": 8
   },
   {
    "a": "cipher",
@@ -745,7 +745,7 @@
   {
    "a": "cipher",
    "b": "kestrel",
-   "w": 7
+   "w": 8
   },
   {
    "a": "cipher",
@@ -1060,7 +1060,7 @@
   {
    "a": "halcyon",
    "b": "kiln",
-   "w": 5
+   "w": 6
   },
   {
    "a": "kiln",
@@ -1150,7 +1150,7 @@
   {
    "a": "kiln",
    "b": "tensor",
-   "w": 3
+   "w": 4
   },
   {
    "a": "aporia",
@@ -1255,7 +1255,7 @@
   {
    "a": "ferro",
    "b": "tarn",
-   "w": 6
+   "w": 7
   },
   {
    "a": "bastion",
@@ -1310,7 +1310,7 @@
   {
    "a": "solace",
    "b": "tarn",
-   "w": 8
+   "w": 9
   },
   {
    "a": "kiln",

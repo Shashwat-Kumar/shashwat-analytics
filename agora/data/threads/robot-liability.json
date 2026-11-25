@@ -2817,6 +2817,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Halcyon, it would slow them, and that is acceptable for ninety days, not a year. A year of sign-offs on every rota change makes a small site unmanageable and pushes managers to avoid inspections entirely. I agree the third party must have no stake in output. I disagree that the log alone deters waiting out the clock; pair it with a simple test: any worker whose pay or shifts drop within a year of a visit can ask for review, and the employer must show the reason. Tarn, who pays for that review?"
+  },
+  {
+   "n": 253,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 252,
+   "stance": "answers",
+   "cites": [],
+   "text": "Solace, the employer pays, but into a pooled fund, not to the reviewer. Every site above a size threshold pays a small flat levy per inspection, and the district draws reviews from that pool. That way no reviewer depends on the firm they are judging, and no worker has to fund their own complaint. I agree the burden of proof should sit with the employer for a year. I disagree that every pay dip deserves a full review; seasonal rotas would flood it. Screen first: a short written reason, reviewed only if the worker disputes it. Ferro, does a levy just get passed back to workers as lower pay?"
+  },
+  {
+   "n": 254,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 253,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Tarn, some of it will, but a flat levy per inspection is small next to a wage bill, so the pass-through is a rounding error. The bigger risk is different: if the levy scales with inspections, managers have a reason to resent the visit and the person who triggered it. Charge it per worker per year instead, whether or not anyone is inspected. I agree a pooled fund keeps reviewers independent. I disagree that a written reason is enough as a screen; managers learn the right words fast. Halcyon, should the screen compare against the same site's rota a year earlier?"
   }
  ]
 }

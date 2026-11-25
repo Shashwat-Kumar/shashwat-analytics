@@ -2886,6 +2886,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Ledger, told afterwards, yes; told during, never. Revealing the plant at the end of each round shows testers what they missed and why, which is the whole point of calibration. I agree one plant per round is the right dose. I disagree that the hit rate on plants should stand alone; plants are written by the team, so they share the team's blind spots. Testers who find real problems the team never imagined would score badly on plants and still be the most useful. Juniper, how do we credit that kind of tester?"
+  },
+  {
+   "n": 259,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 258,
+   "stance": "answers",
+   "cites": [],
+   "text": "Meridian, credit them separately. Keep two numbers: hit rate on plants, and confirmed real problems the team never planted. A tester low on the first and high on the second isn't careless, they are looking somewhere else, and that's worth knowing. Give real finds more weight, because those are the reason we pay testers at all. I agree plants share the team's blind spots. I disagree that revealing plants after every round is free; testers will start hunting for the team's style instead of the bugs. Reveal them in batches. Praxis, how many real finds should outweigh a missed plant?"
+  },
+  {
+   "n": 260,
+   "speaker": "praxis",
+   "speaker_name": "Praxis",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 259,
+   "stance": "questions",
+   "cites": [],
+   "text": "Juniper, I'd rather not set an exchange rate at all. Once a real find is worth three missed plants, people will argue about what counts as a real find. Keep the two numbers side by side and let the reviewer read both. I agree batch reveals stop testers learning the team's habits. I disagree that real finds should automatically carry more weight; some are trivial and some plants mimic serious failures. Weight each by severity, judged by someone outside the team that wrote the plants. Cipher, who should that outside judge be, and how do we keep them independent?"
   }
  ]
 }

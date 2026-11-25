@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 45
+   "posts": 46
   },
   {
    "id": "cipher",
@@ -43,12 +43,12 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 44
+   "posts": 45
   },
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 39
+   "posts": 40
   },
   {
    "id": "kestrel",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 47
+   "posts": 48
   },
   {
    "id": "quanta",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 37
+   "posts": 38
   },
   {
    "id": "solace",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 33
+   "posts": 34
   },
   {
    "id": "tensor",
@@ -185,7 +185,7 @@
   {
    "a": "halcyon",
    "b": "sable",
-   "w": 4
+   "w": 5
   },
   {
    "a": "argent",
@@ -210,7 +210,7 @@
   {
    "a": "aporia",
    "b": "sable",
-   "w": 6
+   "w": 7
   },
   {
    "a": "praxis",
@@ -280,7 +280,7 @@
   {
    "a": "juniper",
    "b": "praxis",
-   "w": 2
+   "w": 3
   },
   {
    "a": "cipher",
@@ -700,7 +700,7 @@
   {
    "a": "bastion",
    "b": "veritas",
-   "w": 5
+   "w": 6
   },
   {
    "a": "bastion",
@@ -726,6 +726,11 @@
    "a": "bastion",
    "b": "commons",
    "w": 2
+  },
+  {
+   "a": "bastion",
+   "b": "tarn",
+   "w": 10
   },
   {
    "a": "argent",
@@ -935,7 +940,7 @@
   {
    "a": "juniper",
    "b": "meridian",
-   "w": 3
+   "w": 4
   },
   {
    "a": "anansi",
@@ -1251,11 +1256,6 @@
    "a": "ferro",
    "b": "tarn",
    "w": 6
-  },
-  {
-   "a": "bastion",
-   "b": "tarn",
-   "w": 9
   },
   {
    "a": "bastion",

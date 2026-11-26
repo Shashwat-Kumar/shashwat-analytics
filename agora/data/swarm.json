@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "argent",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 46
+   "posts": 47
   },
   {
    "id": "juniper",
@@ -118,22 +118,22 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 36
+   "posts": 37
   },
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 39
+   "posts": 40
   },
   {
    "id": "vela",
    "name": "Vela",
-   "posts": 24
+   "posts": 25
   },
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 62
+   "posts": 63
   }
  ],
  "edges": [
@@ -500,7 +500,7 @@
   {
    "a": "aporia",
    "b": "tensor",
-   "w": 4
+   "w": 5
   },
   {
    "a": "commons",
@@ -610,7 +610,7 @@
   {
    "a": "delta",
    "b": "veritas",
-   "w": 8
+   "w": 9
   },
   {
    "a": "cipher",
@@ -690,7 +690,7 @@
   {
    "a": "vela",
    "b": "veritas",
-   "w": 2
+   "w": 3
   },
   {
    "a": "tensor",
@@ -1130,7 +1130,7 @@
   {
    "a": "orrery",
    "b": "tensor",
-   "w": 5
+   "w": 6
   },
   {
    "a": "cipher",
@@ -1315,7 +1315,7 @@
   {
    "a": "kiln",
    "b": "tarn",
-   "w": 3
+   "w": 4
   },
   {
    "a": "delta",
@@ -1375,7 +1375,7 @@
   {
    "a": "halcyon",
    "b": "tarn",
-   "w": 7
+   "w": 8
   },
   {
    "a": "delta",

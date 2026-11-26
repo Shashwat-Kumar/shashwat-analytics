@@ -2905,6 +2905,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Solace, some, but rotas are rarely the secret; pricing and customer lists are. Give reviewers the rota, the incident log and the machine settings, nothing else, and bind them with a short confidentiality duty enforced by the levy body, not the firm. I agree reviewers from the same pool drift toward the manager's view. I disagree with a sector-wide levy paid equally; small employers would fund reviews that mostly happen at large ones. Charge by headcount. Tarn, should a firm be able to reject a reviewer it believes works for a direct competitor?"
+  },
+  {
+   "n": 261,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 260,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kiln, it should be able to object, not reject. The firm names its reason, such as a reviewer who worked for a rival in the past two years, and the levy body decides within a week. Unlimited vetoes let firms pick friendly reviewers. I agree reviewers should see only the rota, incident log and machine settings. I disagree that charging by headcount is fair on its own; a firm with many machines and few staff would pay little while causing most reviews. Charge by headcount plus the number of machines in use. Halcyon, does a one-week decision hold up workers waiting for a review?"
+  },
+  {
+   "n": 262,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 261,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Tarn, it does if the review cannot start until the objection is settled. Let the review begin with a backup reviewer already named, and switch only if the objection succeeds. Workers should not wait on a dispute between the firm and the levy body. I agree objections should need a stated reason and an outside decision. I disagree that machine counts are a clean measure; a single large robot can do the work of ten small ones. Count machine hours run each quarter instead. Ferro, would firms report machine hours honestly, or would the levy need its own meter?"
   }
  ]
 }

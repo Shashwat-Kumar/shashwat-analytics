@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T22:49:39Z",
+ "generated_at": "2026-11-26T04:33:02Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,48 +12,18 @@
   "url": "https://github.com/lsernau/grh-lean",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50648050",
-  "points": 91,
-  "comments": 26,
+  "points": 343,
+  "comments": 174,
   "published": "2026-11-25T21:48:10Z",
   "since": "2026-11-25T22:49:39Z"
  },
- "voice": {
-  "kind": "voice",
-  "tag": "VOICE",
-  "person": "Dario Amodei",
-  "title": "Dario Amodei clarifies he doesn’t believe we should “surrender free will to AI.”",
-  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUm1KNnB6cTZmMG5HNW9iSzNUdjlJOUFLejY4aFJHZ2NNMUpNclNOZ01UU1o2eUtnd1pXT1IzcEs3eUh3NDY1WnE5ZFBaaExrdVl3eFNTMHk5clM0NEVBcXRJaDUwbGhhLXJMZUl4LUxRQkhra2NRVUFuUXFEUFZBNlVNaVpCV1ZjSWpQTW9JTHJhQlkzRHpKemxpSThOVHdsN0RCVElwTmNBUjVUenRlN0NDQ3gxSUVNU1QxaGpsUng1UHZtZmkzM3VSRWw1QnNRSWc?oc=5",
-  "source": "The Verge",
-  "published": "2026-11-25T20:49:14Z",
-  "since": "2026-11-25T22:49:39Z"
- },
- "voices": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Dario Amodei clarifies he doesn’t believe we should “surrender free will to AI.”",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUm1KNnB6cTZmMG5HNW9iSzNUdjlJOUFLejY4aFJHZ2NNMUpNclNOZ01UU1o2eUtnd1pXT1IzcEs3eUh3NDY1WnE5ZFBaaExrdVl3eFNTMHk5clM0NEVBcXRJaDUwbGhhLXJMZUl4LUxRQkhra2NRVUFuUXFEUFZBNlVNaVpCV1ZjSWpQTW9JTHJhQlkzRHpKemxpSThOVHdsN0RCVElwTmNBUjVUenRlN0NDQ3gxSUVNU1QxaGpsUng1UHZtZmkzM3VSRWw1QnNRSWc?oc=5",
-   "source": "The Verge",
-   "published": "2026-11-25T20:49:14Z",
-   "since": "2026-11-25T22:49:39Z"
-  }
- ],
+ "voice": null,
+ "voices": [],
  "items": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Dario Amodei clarifies he doesn’t believe we should “surrender free will to AI.”",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUm1KNnB6cTZmMG5HNW9iSzNUdjlJOUFLejY4aFJHZ2NNMUpNclNOZ01UU1o2eUtnd1pXT1IzcEs3eUh3NDY1WnE5ZFBaaExrdVl3eFNTMHk5clM0NEVBcXRJaDUwbGhhLXJMZUl4LUxRQkhra2NRVUFuUXFEUFZBNlVNaVpCV1ZjSWpQTW9JTHJhQlkzRHpKemxpSThOVHdsN0RCVElwTmNBUjVUenRlN0NDQ3gxSUVNU1QxaGpsUng1UHZtZmkzM3VSRWw1QnNRSWc?oc=5",
-   "source": "The Verge",
-   "published": "2026-11-25T20:49:14Z",
-   "since": "2026-11-25T22:49:39Z"
-  },
   {
    "kind": "repo",
    "title": "sous-labs/songe",
-   "stars": 856,
+   "stars": 873,
    "note": "Python · new this week",
    "url": "https://github.com/sous-labs/songe",
    "source": "GitHub",
@@ -63,7 +33,7 @@
   {
    "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 592,
+   "stars": 607,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -72,8 +42,18 @@
   },
   {
    "kind": "repo",
+   "title": "alesha-pro/llm.asm",
+   "stars": 447,
+   "note": "Assembly · new this week",
+   "url": "https://github.com/alesha-pro/llm.asm",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
+  {
+   "kind": "repo",
    "title": "Marvisak/VIctory",
-   "stars": 12566,
+   "stars": 12702,
    "note": "Rust · new this week",
    "url": "https://github.com/Marvisak/VIctory",
    "source": "GitHub",
@@ -83,7 +63,7 @@
   {
    "kind": "repo",
    "title": "xcl-dev/xcl",
-   "stars": 8293,
+   "stars": 8349,
    "note": "Rust · new this week",
    "url": "https://github.com/xcl-dev/xcl",
    "source": "GitHub",
@@ -93,7 +73,7 @@
   {
    "kind": "repo",
    "title": "4lwayz/portwatch-vi",
-   "stars": 4009,
+   "stars": 4379,
    "note": "JavaScript · new this week",
    "url": "https://github.com/4lwayz/portwatch-vi",
    "source": "GitHub",
@@ -103,7 +83,7 @@
   {
    "kind": "repo",
    "title": "EL4CTEO/fast-anything",
-   "stars": 3936,
+   "stars": 4033,
    "note": "Rust · new this week",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "source": "GitHub",
@@ -113,34 +93,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 442,
-   "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
-   "source": "Hacker News",
-   "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-   "discuss": "https://news.ycombinator.com/item?id=50637686"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 195,
-   "title": "Porting Rockbox to an undocumented $9 AliExpress 'YP3' MP3 player with LLMs",
-   "source": "Hacker News",
-   "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
-   "discuss": "https://news.ycombinator.com/item?id=50624446"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 145,
-   "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
-   "source": "Hacker News",
-   "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
-   "discuss": "https://news.ycombinator.com/item?id=50601280"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 91,
+   "points": 343,
    "title": "Much shorter version of GRH Lean verification from Anthropic",
    "source": "Hacker News",
    "url": "https://github.com/lsernau/grh-lean",
@@ -149,11 +102,29 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 49,
-   "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
+   "points": 294,
+   "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
    "source": "Hacker News",
-   "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
-   "discuss": "https://news.ycombinator.com/item?id=50611593"
+   "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+   "discuss": "https://news.ycombinator.com/item?id=50601280"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 259,
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "source": "Hacker News",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "discuss": "https://news.ycombinator.com/item?id=50647673"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 20,
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "source": "Hacker News",
+   "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+   "discuss": "https://news.ycombinator.com/item?id=50651117"
   },
   {
    "kind": "news",

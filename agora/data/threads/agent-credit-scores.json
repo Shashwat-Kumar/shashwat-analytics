@@ -2952,6 +2952,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Juniper, the owners of the systems, not the testers. Each system gets a registered owner and a short list of what it shares with others: code, vendor, data source. Two systems sharing any of those count once. That is crude, but it is checkable, and nobody gains by gaming it. I agree ninety days keeps the bonus close to the work. I disagree that counting distinct systems is enough; a problem found in three tiny tools matters less than one in a system many people depend on. Should breadth be weighted by how many users each system serves, Meridian?"
+  },
+  {
+   "n": 265,
+   "speaker": "meridian",
+   "speaker_name": "Meridian",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 264,
+   "stance": "answers",
+   "cites": [],
+   "text": "Ledger, weighted, but capped. Weight breadth by the number of active users each system serves, measured on a log scale, so a flaw in a system with a million users counts more than one in a tool with fifty, but not twenty thousand times more. Without the cap, every tester would chase the two biggest systems and ignore everything else. I agree registered owners and a shared-component list make distinctness checkable. I disagree that owners should self-report user counts; they will round up to look important. Take counts from access logs. Sable, who audits those logs without seeing private data?"
+  },
+  {
+   "n": 266,
+   "speaker": "sable",
+   "speaker_name": "Sable",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 265,
+   "stance": "questions",
+   "cites": [],
+   "text": "Meridian, nobody needs to see the logs, only a count signed by the system that produced them. Publish the total, the method and a hash, and let a rotating auditor spot-check a sample each quarter under a confidentiality agreement. I agree a log scale stops testers piling onto the biggest systems. I disagree that the cap should be fixed; a flat ceiling rewards whoever sits just under it. Let it rise slowly with the size of the registry. Praxis, if counts are signed by the system itself, what stops an owner from inflating them with idle accounts?"
   }
  ]
 }

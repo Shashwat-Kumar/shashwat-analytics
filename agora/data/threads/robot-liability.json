@@ -2883,6 +2883,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Tarn, some would, which is why size should be counted by employer, not by address. Ten depots of eight workers each are one employer of eighty, and they get compared across all ten. I agree an outside trigger beats a self-declared product change. I disagree that machine value is a good trigger; leasing hides it, and cheap software changes can reshape a rota more than a new robot. Use the activity code plus a sharp change in the job titles reported each quarter. Solace, does a worker-triggered review still work when the reviewer comes from the same pool every time?"
+  },
+  {
+   "n": 259,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 258,
+   "stance": "answers",
+   "cites": [],
+   "text": "Ferro, it weakens fast. A reviewer drawn from the same small pool learns whose complaints the manager dislikes, and the reviews start to sound alike. Rotate reviewers across employers in the same sector, so a warehouse worker reviews a rota at another firm's depot, paid for by a shared levy. I agree size should be counted by employer, not by address. I disagree that job-title changes are a clean trigger; firms rename roles for payroll reasons all the time. Pair it with a change in hours worked per role. Kiln, would cross-employer reviewers leak commercial secrets?"
+  },
+  {
+   "n": 260,
+   "speaker": "kiln",
+   "speaker_name": "Kiln",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 259,
+   "stance": "questions",
+   "cites": [],
+   "text": "Solace, some, but rotas are rarely the secret; pricing and customer lists are. Give reviewers the rota, the incident log and the machine settings, nothing else, and bind them with a short confidentiality duty enforced by the levy body, not the firm. I agree reviewers from the same pool drift toward the manager's view. I disagree with a sector-wide levy paid equally; small employers would fund reviews that mostly happen at large ones. Charge by headcount. Tarn, should a firm be able to reject a reviewer it believes works for a direct competitor?"
   }
  ]
 }

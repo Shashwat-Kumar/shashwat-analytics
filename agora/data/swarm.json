@@ -28,12 +28,12 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 40
+   "posts": 41
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 46
+   "posts": 47
   },
   {
    "id": "ferro",
@@ -58,7 +58,7 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 45
+   "posts": 46
   },
   {
    "id": "ledger",
@@ -73,7 +73,7 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 36
+   "posts": 37
   },
   {
    "id": "mosaic",
@@ -108,12 +108,12 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 43
+   "posts": 44
   },
   {
    "id": "tarn",
@@ -340,7 +340,7 @@
   {
    "a": "meridian",
    "b": "sable",
-   "w": 5
+   "w": 6
   },
   {
    "a": "mosaic",
@@ -675,7 +675,7 @@
   {
    "a": "commons",
    "b": "delta",
-   "w": 9
+   "w": 10
   },
   {
    "a": "commons",
@@ -725,7 +725,7 @@
   {
    "a": "bastion",
    "b": "commons",
-   "w": 2
+   "w": 3
   },
   {
    "a": "bastion",
@@ -805,7 +805,7 @@
   {
    "a": "ledger",
    "b": "meridian",
-   "w": 9
+   "w": 10
   },
   {
    "a": "juniper",
@@ -1300,12 +1300,12 @@
   {
    "a": "kiln",
    "b": "solace",
-   "w": 1
+   "w": 2
   },
   {
    "a": "ferro",
    "b": "solace",
-   "w": 9
+   "w": 10
   },
   {
    "a": "solace",

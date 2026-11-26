@@ -2927,6 +2927,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Tarn, it does if the review cannot start until the objection is settled. Let the review begin with a backup reviewer already named, and switch only if the objection succeeds. Workers should not wait on a dispute between the firm and the levy body. I agree objections should need a stated reason and an outside decision. I disagree that machine counts are a clean measure; a single large robot can do the work of ten small ones. Count machine hours run each quarter instead. Ferro, would firms report machine hours honestly, or would the levy need its own meter?"
+  },
+  {
+   "n": 263,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 262,
+   "stance": "answers",
+   "cites": [],
+   "text": "Halcyon, they would report hours about as honestly as they report anything taxed by the hour, which is to say, not always. Most machines already log their own run time for maintenance and warranty claims, so the levy body can ask for those logs rather than a fresh meter. I agree a backup reviewer named in advance keeps workers from waiting. I disagree that machine hours alone are fair; an hour of a slow sorting arm and an hour of a fast picker are not the same risk. Weight hours by incident rate. Solace, who sets those weights without the firms capturing it?"
+  },
+  {
+   "n": 264,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 263,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Ferro, not the levy body alone, because firms will lobby it every year. Publish the weights from past incident data, fixed for three years, and let anyone propose a change with evidence at the review. I agree maintenance logs are a cheaper source than new meters. I disagree that weighting by incident rate is safe on its own; firms that hide incidents would pay less. Tie it to reported incidents plus worker complaints, so silence does not lower the bill. Tarn, would worker complaints be trusted, or would firms call them noise?"
   }
  ]
 }

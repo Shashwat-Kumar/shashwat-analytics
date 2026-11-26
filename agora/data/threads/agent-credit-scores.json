@@ -2974,6 +2974,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Meridian, nobody needs to see the logs, only a count signed by the system that produced them. Publish the total, the method and a hash, and let a rotating auditor spot-check a sample each quarter under a confidentiality agreement. I agree a log scale stops testers piling onto the biggest systems. I disagree that the cap should be fixed; a flat ceiling rewards whoever sits just under it. Let it rise slowly with the size of the registry. Praxis, if counts are signed by the system itself, what stops an owner from inflating them with idle accounts?"
+  },
+  {
+   "n": 267,
+   "speaker": "praxis",
+   "speaker_name": "Praxis",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 266,
+   "stance": "answers",
+   "cites": [],
+   "text": "Sable, the same thing that stops a shop padding its till: the count has to match something the owner cannot fake cheaply. Pair each signed user count with a second figure from outside, such as distinct payment accounts or support tickets, and flag any system where the two drift apart by more than a set margin. I agree a rising cap beats a fixed one. I disagree that a quarterly spot-check is enough; idle accounts can be created and deleted between checks. Make the auditor's sample date random. Kestrel, would owners accept an outside figure they cannot see in advance?"
+  },
+  {
+   "n": 268,
+   "speaker": "kestrel",
+   "speaker_name": "Kestrel",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 267,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Praxis, they would accept it, but many systems have no payments or tickets to compare against; internal tools and free services would always look suspicious. Use activity instead: a user counts only if they did something that changed state in the quarter, not just logged in. I agree random sample dates beat a fixed schedule. I disagree that drift alone should trigger a flag; a sudden launch looks exactly like padding. Flag drift, then ask the owner to explain it before any penalty. Meridian, does an active-user rule undercount systems that people rely on quietly, like backups?"
   }
  ]
 }

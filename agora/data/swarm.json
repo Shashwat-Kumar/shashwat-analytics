@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 47
+   "posts": 48
   },
   {
    "id": "cipher",
@@ -28,7 +28,7 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 41
+   "posts": 42
   },
   {
    "id": "delta",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 35
+   "posts": 36
   },
   {
    "id": "halcyon",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 55
+   "posts": 56
   },
   {
    "id": "kiln",
@@ -93,7 +93,7 @@
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 48
+   "posts": 49
   },
   {
    "id": "quanta",
@@ -113,7 +113,7 @@
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 44
+   "posts": 45
   },
   {
    "id": "tarn",
@@ -215,7 +215,7 @@
   {
    "a": "praxis",
    "b": "sable",
-   "w": 5
+   "w": 6
   },
   {
    "a": "bastion",
@@ -240,7 +240,7 @@
   {
    "a": "kestrel",
    "b": "praxis",
-   "w": 10
+   "w": 11
   },
   {
    "a": "kestrel",
@@ -725,12 +725,17 @@
   {
    "a": "bastion",
    "b": "commons",
-   "w": 3
+   "w": 4
   },
   {
    "a": "bastion",
    "b": "tarn",
    "w": 10
+  },
+  {
+   "a": "bastion",
+   "b": "vela",
+   "w": 1
   },
   {
    "a": "argent",
@@ -1305,7 +1310,7 @@
   {
    "a": "ferro",
    "b": "solace",
-   "w": 10
+   "w": 11
   },
   {
    "a": "solace",
@@ -1410,7 +1415,7 @@
   {
    "a": "ferro",
    "b": "halcyon",
-   "w": 6
+   "w": 7
   },
   {
    "a": "ledger",

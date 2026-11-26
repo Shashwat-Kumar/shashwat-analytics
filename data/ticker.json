@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T04:33:02Z",
+ "generated_at": "2026-11-26T14:22:51Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,22 +8,62 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Much shorter version of GRH Lean verification from Anthropic",
-  "url": "https://github.com/lsernau/grh-lean",
+  "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+  "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50648050",
-  "points": 343,
-  "comments": 174,
-  "published": "2026-11-25T21:48:10Z",
-  "since": "2026-11-25T22:49:39Z"
+  "discuss": "https://news.ycombinator.com/item?id=50651117",
+  "points": 360,
+  "comments": 197,
+  "published": "2026-11-26T03:36:58Z",
+  "since": "2026-11-26T14:22:51Z"
  },
- "voice": null,
- "voices": [],
+ "voice": {
+  "kind": "voice",
+  "tag": "VOICE",
+  "person": "Dario Amodei",
+  "title": "Dario Amodei hits back at claims Anthropic wants humanity to ‘surrender control’ to AI",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRVBGbEQxdnVUWmtRX0pENFRsVl9ZWDBBX3RHYmJTUWY2N1RFbVhjVU1iNG5KakpFWG5HRHdOM1lJWWhDVHJwbXhWcmJXQmlrdGZTOTJRYmM2bEdJcDRMTm1SMG11aUl6V2RUU1dpUGwyTWo0R1B6LWhNQTJKRmVNenJlc1F5TWVOT1ZJeVZFWEtqMTZrb1lmcl9GQThhVzZUdEhiV253am1mQko4cDJuZko3aGdKaUxBaVhTWjVndThvNFVxb3diUWs1TjNRdmNQcGfSAdgBQVVfeXFMUGRLM2VTU1R1dzZkSDNFUmpvSGJsSlNCN1lCQ1FuWmhYOHhGOFE2S21adWg3SmRtSWZIVmNQUmM3N1diSGhFT0VxQjVRUXYtLW16cVNZcnU1Z0hITWZ6WUtHWkJRYlFtUmVxX09kVVdENlFlWFFOakRxV0hjSk9sVWRsRnpCcXl3WUNBRDJWNUNVNGxXZ09kdUxXNW1vTE5OWmh2NjVaSEk4aUJlbkt6WEpNX0owdmprMHk5bUc2QUVxZzRPMWd6WHFwUEtMX1pTN2hsVkZRTkNx?oc=5",
+  "source": "The Indian Express",
+  "published": "2026-11-26T09:24:11Z",
+  "since": "2026-11-26T14:22:51Z"
+ },
+ "voices": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Dario Amodei",
+   "title": "Dario Amodei hits back at claims Anthropic wants humanity to ‘surrender control’ to AI",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRVBGbEQxdnVUWmtRX0pENFRsVl9ZWDBBX3RHYmJTUWY2N1RFbVhjVU1iNG5KakpFWG5HRHdOM1lJWWhDVHJwbXhWcmJXQmlrdGZTOTJRYmM2bEdJcDRMTm1SMG11aUl6V2RUU1dpUGwyTWo0R1B6LWhNQTJKRmVNenJlc1F5TWVOT1ZJeVZFWEtqMTZrb1lmcl9GQThhVzZUdEhiV253am1mQko4cDJuZko3aGdKaUxBaVhTWjVndThvNFVxb3diUWs1TjNRdmNQcGfSAdgBQVVfeXFMUGRLM2VTU1R1dzZkSDNFUmpvSGJsSlNCN1lCQ1FuWmhYOHhGOFE2S21adWg3SmRtSWZIVmNQUmM3N1diSGhFT0VxQjVRUXYtLW16cVNZcnU1Z0hITWZ6WUtHWkJRYlFtUmVxX09kVVdENlFlWFFOakRxV0hjSk9sVWRsRnpCcXl3WUNBRDJWNUNVNGxXZ09kdUxXNW1vTE5OWmh2NjVaSEk4aUJlbkt6WEpNX0owdmprMHk5bUc2QUVxZzRPMWd6WHFwUEtMX1pTN2hsVkZRTkNx?oc=5",
+   "source": "The Indian Express",
+   "published": "2026-11-26T09:24:11Z",
+   "since": "2026-11-26T14:22:51Z"
+  }
+ ],
  "items": [
+  {
+   "kind": "voice",
+   "tag": "VOICE",
+   "person": "Dario Amodei",
+   "title": "Dario Amodei hits back at claims Anthropic wants humanity to ‘surrender control’ to AI",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRVBGbEQxdnVUWmtRX0pENFRsVl9ZWDBBX3RHYmJTUWY2N1RFbVhjVU1iNG5KakpFWG5HRHdOM1lJWWhDVHJwbXhWcmJXQmlrdGZTOTJRYmM2bEdJcDRMTm1SMG11aUl6V2RUU1dpUGwyTWo0R1B6LWhNQTJKRmVNenJlc1F5TWVOT1ZJeVZFWEtqMTZrb1lmcl9GQThhVzZUdEhiV253am1mQko4cDJuZko3aGdKaUxBaVhTWjVndThvNFVxb3diUWs1TjNRdmNQcGfSAdgBQVVfeXFMUGRLM2VTU1R1dzZkSDNFUmpvSGJsSlNCN1lCQ1FuWmhYOHhGOFE2S21adWg3SmRtSWZIVmNQUmM3N1diSGhFT0VxQjVRUXYtLW16cVNZcnU1Z0hITWZ6WUtHWkJRYlFtUmVxX09kVVdENlFlWFFOakRxV0hjSk9sVWRsRnpCcXl3WUNBRDJWNUNVNGxXZ09kdUxXNW1vTE5OWmh2NjVaSEk4aUJlbkt6WEpNX0owdmprMHk5bUc2QUVxZzRPMWd6WHFwUEtMX1pTN2hsVkZRTkNx?oc=5",
+   "source": "The Indian Express",
+   "published": "2026-11-26T09:24:11Z",
+   "since": "2026-11-26T14:22:51Z"
+  },
+  {
+   "kind": "repo",
+   "title": "alesha-pro/llm.asm",
+   "stars": 1093,
+   "note": "Assembly · new this week",
+   "url": "https://github.com/alesha-pro/llm.asm",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "AI/ML"
+  },
   {
    "kind": "repo",
    "title": "sous-labs/songe",
-   "stars": 873,
+   "stars": 896,
    "note": "Python · new this week",
    "url": "https://github.com/sous-labs/songe",
    "source": "GitHub",
@@ -33,7 +73,7 @@
   {
    "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 607,
+   "stars": 645,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -42,18 +82,8 @@
   },
   {
    "kind": "repo",
-   "title": "alesha-pro/llm.asm",
-   "stars": 447,
-   "note": "Assembly · new this week",
-   "url": "https://github.com/alesha-pro/llm.asm",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "Marvisak/VIctory",
-   "stars": 12702,
+   "stars": 13002,
    "note": "Rust · new this week",
    "url": "https://github.com/Marvisak/VIctory",
    "source": "GitHub",
@@ -63,7 +93,7 @@
   {
    "kind": "repo",
    "title": "xcl-dev/xcl",
-   "stars": 8349,
+   "stars": 8464,
    "note": "Rust · new this week",
    "url": "https://github.com/xcl-dev/xcl",
    "source": "GitHub",
@@ -73,7 +103,7 @@
   {
    "kind": "repo",
    "title": "4lwayz/portwatch-vi",
-   "stars": 4379,
+   "stars": 5064,
    "note": "JavaScript · new this week",
    "url": "https://github.com/4lwayz/portwatch-vi",
    "source": "GitHub",
@@ -82,10 +112,10 @@
   },
   {
    "kind": "repo",
-   "title": "EL4CTEO/fast-anything",
-   "stars": 4033,
-   "note": "Rust · new this week",
-   "url": "https://github.com/EL4CTEO/fast-anything",
+   "title": "AFK-surf/xnulinux",
+   "stars": 4147,
+   "note": "C · new this week",
+   "url": "https://github.com/AFK-surf/xnulinux",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -93,7 +123,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 343,
+   "points": 494,
    "title": "Much shorter version of GRH Lean verification from Anthropic",
    "source": "Hacker News",
    "url": "https://github.com/lsernau/grh-lean",
@@ -102,16 +132,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 294,
-   "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
-   "source": "Hacker News",
-   "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
-   "discuss": "https://news.ycombinator.com/item?id=50601280"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 259,
+   "points": 485,
    "title": "The New York Times warns photographers not to update Photoshop over AI features",
    "source": "Hacker News",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
@@ -120,11 +141,29 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 20,
+   "points": 414,
+   "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+   "source": "Hacker News",
+   "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+   "discuss": "https://news.ycombinator.com/item?id=50601280"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 360,
    "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
    "source": "Hacker News",
    "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
    "discuss": "https://news.ycombinator.com/item?id=50651117"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 15,
+   "title": "MCP Gateway: How Snap Checks Both the Person and the Agent",
+   "source": "Hacker News",
+   "url": "https://eng.snap.com/mcp-gateway",
+   "discuss": "https://news.ycombinator.com/item?id=50620120"
   },
   {
    "kind": "news",

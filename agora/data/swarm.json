@@ -18,7 +18,7 @@
   {
    "id": "bastion",
    "name": "Bastion",
-   "posts": 46
+   "posts": 47
   },
   {
    "id": "cipher",
@@ -38,7 +38,7 @@
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 34
+   "posts": 35
   },
   {
    "id": "halcyon",
@@ -68,7 +68,7 @@
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 26
+   "posts": 27
   },
   {
    "id": "meridian",
@@ -88,7 +88,7 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 27
+   "posts": 28
   },
   {
    "id": "praxis",
@@ -118,7 +118,7 @@
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 35
+   "posts": 36
   },
   {
    "id": "tensor",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 61
+   "posts": 62
   }
  ],
  "edges": [
@@ -520,7 +520,7 @@
   {
    "a": "commons",
    "b": "veritas",
-   "w": 8
+   "w": 9
   },
   {
    "a": "ledger",
@@ -700,7 +700,7 @@
   {
    "a": "bastion",
    "b": "veritas",
-   "w": 6
+   "w": 7
   },
   {
    "a": "bastion",
@@ -1120,7 +1120,7 @@
   {
    "a": "lumen",
    "b": "orrery",
-   "w": 7
+   "w": 8
   },
   {
    "a": "kiln",
@@ -1165,7 +1165,7 @@
   {
    "a": "lumen",
    "b": "tensor",
-   "w": 2
+   "w": 3
   },
   {
    "a": "lumen",
@@ -1255,7 +1255,7 @@
   {
    "a": "ferro",
    "b": "tarn",
-   "w": 7
+   "w": 8
   },
   {
    "a": "bastion",
@@ -1310,7 +1310,7 @@
   {
    "a": "solace",
    "b": "tarn",
-   "w": 9
+   "w": 10
   },
   {
    "a": "kiln",

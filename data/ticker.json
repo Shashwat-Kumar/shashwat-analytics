@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T23:15:11Z",
+ "generated_at": "2026-11-27T05:09:34Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,8 +12,8 @@
   "url": "https://janlukas.blog/posts/ai-self-hosting",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50660180",
-  "points": 100,
-  "comments": 59,
+  "points": 451,
+  "comments": 239,
   "published": "2026-11-26T21:47:45Z",
   "since": "2026-11-26T23:15:11Z"
  },
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "alesha-pro/llm.asm",
-   "stars": 1473,
+   "stars": 1659,
    "note": "Assembly · new this week",
    "url": "https://github.com/alesha-pro/llm.asm",
    "source": "GitHub",
@@ -62,18 +62,8 @@
   },
   {
    "kind": "repo",
-   "title": "sous-labs/songe",
-   "stars": 904,
-   "note": "Python · new this week",
-   "url": "https://github.com/sous-labs/songe",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "AI/ML"
-  },
-  {
-   "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 654,
+   "stars": 660,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -83,7 +73,7 @@
   {
    "kind": "repo",
    "title": "Marvisak/VIctory",
-   "stars": 13322,
+   "stars": 13473,
    "note": "Rust · new this week",
    "url": "https://github.com/Marvisak/VIctory",
    "source": "GitHub",
@@ -92,18 +82,8 @@
   },
   {
    "kind": "repo",
-   "title": "xcl-dev/xcl",
-   "stars": 8597,
-   "note": "Rust · new this week",
-   "url": "https://github.com/xcl-dev/xcl",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
    "title": "4lwayz/portwatch-vi",
-   "stars": 5704,
+   "stars": 5994,
    "note": "JavaScript · new this week",
    "url": "https://github.com/4lwayz/portwatch-vi",
    "source": "GitHub",
@@ -112,10 +92,20 @@
   },
   {
    "kind": "repo",
-   "title": "AFK-surf/xnulinux",
-   "stars": 4234,
-   "note": "C · new this week",
-   "url": "https://github.com/AFK-surf/xnulinux",
+   "title": "EL4CTEO/fast-anything",
+   "stars": 4285,
+   "note": "Rust · new this week",
+   "url": "https://github.com/EL4CTEO/fast-anything",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
+  },
+  {
+   "kind": "repo",
+   "title": "Belobug/VIctory-Belobug-AMD",
+   "stars": 3324,
+   "note": "Rust · new this week",
+   "url": "https://github.com/Belobug/VIctory-Belobug-AMD",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -123,25 +113,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 211,
-   "title": "OpenAI may be in cost control mode",
-   "source": "Hacker News",
-   "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-   "discuss": "https://news.ycombinator.com/item?id=50652527"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 187,
-   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-   "source": "Hacker News",
-   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-   "discuss": "https://news.ycombinator.com/item?id=50653477"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 100,
+   "points": 451,
    "title": "AI made self-hosting fun again",
    "source": "Hacker News",
    "url": "https://janlukas.blog/posts/ai-self-hosting",
@@ -150,11 +122,38 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 15,
-   "title": "Top-cited AI scientists at four US companies compared",
+   "points": 294,
+   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
    "source": "Hacker News",
-   "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies/",
-   "discuss": "https://news.ycombinator.com/item?id=50658910"
+   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "discuss": "https://news.ycombinator.com/item?id=50653477"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 46,
+   "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+   "source": "Hacker News",
+   "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+   "discuss": "https://news.ycombinator.com/item?id=50661218"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 40,
+   "title": "An introduction to uncertainty in machine learning",
+   "source": "Hacker News",
+   "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+   "discuss": "https://news.ycombinator.com/item?id=50658498"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 14,
+   "title": "ESO statement on approval of launch of one million space data centres",
+   "source": "Hacker News",
+   "url": "https://www.eso.org/public/news/eso2614/",
+   "discuss": "https://news.ycombinator.com/item?id=50661224"
   },
   {
    "kind": "news",

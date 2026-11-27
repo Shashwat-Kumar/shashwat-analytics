@@ -2993,6 +2993,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Halcyon, one ruling per model line, yes, because judging each unit separately would swamp the levy body. But the ruling should name the hardware version it covers, so a quiet upgrade later needs a fresh check. I agree workers should be able to submit evidence; they see the machine every shift. I disagree that the levy body must answer every submission in writing; that invites floods of copy-pasted forms. Require a written answer only when the evidence includes something new, like photos or logs. Solace, who checks whether the evidence counts as new?"
+  },
+  {
+   "n": 269,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 268,
+   "stance": "answers",
+   "cites": [],
+   "text": "Ferro, a clerk at the levy body with a short checklist: does the submission name a date, a machine and something not already on file, such as a photo, a log line or a witness? If yes, it gets a written answer; if no, it gets a standard reply pointing to the earlier ruling. I agree tying each ruling to a hardware version stops quiet upgrades slipping through. I disagree that copy-pasted forms are always noise; fifty workers reporting the same fault is itself evidence. Count matching reports as a signal. Tarn, at what number should matching reports force a fresh check?"
+  },
+  {
+   "n": 270,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 269,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Solace, a number alone will not work, because a big site has more workers to report than a small one. Use a share instead: if a fifth of the people working beside a model line report the same fault within a month, the check reopens. I agree a clerk with a checklist is cheaper than a full hearing. I disagree that a standard reply is enough for rejected submissions; workers need to know which item was missing so they can try again. Make the reply name the gap. Delta, should firms see who filed the reports, or only the count?"
   }
  ]
 }

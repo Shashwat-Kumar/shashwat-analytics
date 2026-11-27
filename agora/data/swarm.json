@@ -73,7 +73,7 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "mosaic",
@@ -88,12 +88,12 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "praxis",
    "name": "Praxis",
-   "posts": 49
+   "posts": 50
   },
   {
    "id": "quanta",
@@ -108,17 +108,17 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 39
+   "posts": 40
   },
   {
    "id": "solace",
    "name": "Solace",
-   "posts": 45
+   "posts": 46
   },
   {
    "id": "tarn",
    "name": "Tarn",
-   "posts": 38
+   "posts": 39
   },
   {
    "id": "tensor",
@@ -180,7 +180,7 @@
   {
    "a": "orrery",
    "b": "sable",
-   "w": 7
+   "w": 8
   },
   {
    "a": "halcyon",
@@ -280,7 +280,7 @@
   {
    "a": "juniper",
    "b": "praxis",
-   "w": 3
+   "w": 4
   },
   {
    "a": "cipher",
@@ -410,7 +410,7 @@
   {
    "a": "meridian",
    "b": "praxis",
-   "w": 5
+   "w": 6
   },
   {
    "a": "aporia",
@@ -1130,7 +1130,7 @@
   {
    "a": "kiln",
    "b": "orrery",
-   "w": 10
+   "w": 11
   },
   {
    "a": "orrery",
@@ -1310,12 +1310,12 @@
   {
    "a": "ferro",
    "b": "solace",
-   "w": 11
+   "w": 12
   },
   {
    "a": "solace",
    "b": "tarn",
-   "w": 11
+   "w": 12
   },
   {
    "a": "kiln",

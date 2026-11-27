@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T05:09:34Z",
+ "generated_at": "2026-11-27T15:19:00Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,52 +8,22 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "AI made self-hosting fun again",
-  "url": "https://janlukas.blog/posts/ai-self-hosting",
+  "title": "The group chat where your AI talks behind your back",
+  "url": "https://construct22.com/",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50660180",
-  "points": 451,
-  "comments": 239,
-  "published": "2026-11-26T21:47:45Z",
-  "since": "2026-11-26T23:15:11Z"
+  "discuss": "https://news.ycombinator.com/item?id=50663595",
+  "points": 488,
+  "comments": 214,
+  "published": "2026-11-27T06:44:34Z",
+  "since": "2026-11-27T15:19:00Z"
  },
- "voice": {
-  "kind": "voice",
-  "tag": "VOICE",
-  "person": "Dario Amodei",
-  "title": "Dario Amodei hits back at claims Anthropic wants humanity to ‘surrender control’ to AI",
-  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRVBGbEQxdnVUWmtRX0pENFRsVl9ZWDBBX3RHYmJTUWY2N1RFbVhjVU1iNG5KakpFWG5HRHdOM1lJWWhDVHJwbXhWcmJXQmlrdGZTOTJRYmM2bEdJcDRMTm1SMG11aUl6V2RUU1dpUGwyTWo0R1B6LWhNQTJKRmVNenJlc1F5TWVOT1ZJeVZFWEtqMTZrb1lmcl9GQThhVzZUdEhiV253am1mQko4cDJuZko3aGdKaUxBaVhTWjVndThvNFVxb3diUWs1TjNRdmNQcGfSAdgBQVVfeXFMUGRLM2VTU1R1dzZkSDNFUmpvSGJsSlNCN1lCQ1FuWmhYOHhGOFE2S21adWg3SmRtSWZIVmNQUmM3N1diSGhFT0VxQjVRUXYtLW16cVNZcnU1Z0hITWZ6WUtHWkJRYlFtUmVxX09kVVdENlFlWFFOakRxV0hjSk9sVWRsRnpCcXl3WUNBRDJWNUNVNGxXZ09kdUxXNW1vTE5OWmh2NjVaSEk4aUJlbkt6WEpNX0owdmprMHk5bUc2QUVxZzRPMWd6WHFwUEtMX1pTN2hsVkZRTkNx?oc=5",
-  "source": "The Indian Express",
-  "published": "2026-11-26T09:24:11Z",
-  "since": "2026-11-26T14:22:51Z"
- },
- "voices": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Dario Amodei hits back at claims Anthropic wants humanity to ‘surrender control’ to AI",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRVBGbEQxdnVUWmtRX0pENFRsVl9ZWDBBX3RHYmJTUWY2N1RFbVhjVU1iNG5KakpFWG5HRHdOM1lJWWhDVHJwbXhWcmJXQmlrdGZTOTJRYmM2bEdJcDRMTm1SMG11aUl6V2RUU1dpUGwyTWo0R1B6LWhNQTJKRmVNenJlc1F5TWVOT1ZJeVZFWEtqMTZrb1lmcl9GQThhVzZUdEhiV253am1mQko4cDJuZko3aGdKaUxBaVhTWjVndThvNFVxb3diUWs1TjNRdmNQcGfSAdgBQVVfeXFMUGRLM2VTU1R1dzZkSDNFUmpvSGJsSlNCN1lCQ1FuWmhYOHhGOFE2S21adWg3SmRtSWZIVmNQUmM3N1diSGhFT0VxQjVRUXYtLW16cVNZcnU1Z0hITWZ6WUtHWkJRYlFtUmVxX09kVVdENlFlWFFOakRxV0hjSk9sVWRsRnpCcXl3WUNBRDJWNUNVNGxXZ09kdUxXNW1vTE5OWmh2NjVaSEk4aUJlbkt6WEpNX0owdmprMHk5bUc2QUVxZzRPMWd6WHFwUEtMX1pTN2hsVkZRTkNx?oc=5",
-   "source": "The Indian Express",
-   "published": "2026-11-26T09:24:11Z",
-   "since": "2026-11-26T14:22:51Z"
-  }
- ],
+ "voice": null,
+ "voices": [],
  "items": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Dario Amodei hits back at claims Anthropic wants humanity to ‘surrender control’ to AI",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRVBGbEQxdnVUWmtRX0pENFRsVl9ZWDBBX3RHYmJTUWY2N1RFbVhjVU1iNG5KakpFWG5HRHdOM1lJWWhDVHJwbXhWcmJXQmlrdGZTOTJRYmM2bEdJcDRMTm1SMG11aUl6V2RUU1dpUGwyTWo0R1B6LWhNQTJKRmVNenJlc1F5TWVOT1ZJeVZFWEtqMTZrb1lmcl9GQThhVzZUdEhiV253am1mQko4cDJuZko3aGdKaUxBaVhTWjVndThvNFVxb3diUWs1TjNRdmNQcGfSAdgBQVVfeXFMUGRLM2VTU1R1dzZkSDNFUmpvSGJsSlNCN1lCQ1FuWmhYOHhGOFE2S21adWg3SmRtSWZIVmNQUmM3N1diSGhFT0VxQjVRUXYtLW16cVNZcnU1Z0hITWZ6WUtHWkJRYlFtUmVxX09kVVdENlFlWFFOakRxV0hjSk9sVWRsRnpCcXl3WUNBRDJWNUNVNGxXZ09kdUxXNW1vTE5OWmh2NjVaSEk4aUJlbkt6WEpNX0owdmprMHk5bUc2QUVxZzRPMWd6WHFwUEtMX1pTN2hsVkZRTkNx?oc=5",
-   "source": "The Indian Express",
-   "published": "2026-11-26T09:24:11Z",
-   "since": "2026-11-26T14:22:51Z"
-  },
   {
    "kind": "repo",
    "title": "alesha-pro/llm.asm",
-   "stars": 1659,
+   "stars": 1899,
    "note": "Assembly · new this week",
    "url": "https://github.com/alesha-pro/llm.asm",
    "source": "GitHub",
@@ -63,7 +33,7 @@
   {
    "kind": "repo",
    "title": "w01fb0ss/PiBot",
-   "stars": 660,
+   "stars": 667,
    "note": "TypeScript · new this week",
    "url": "https://github.com/w01fb0ss/PiBot",
    "source": "GitHub",
@@ -73,7 +43,7 @@
   {
    "kind": "repo",
    "title": "Marvisak/VIctory",
-   "stars": 13473,
+   "stars": 13667,
    "note": "Rust · new this week",
    "url": "https://github.com/Marvisak/VIctory",
    "source": "GitHub",
@@ -83,7 +53,7 @@
   {
    "kind": "repo",
    "title": "4lwayz/portwatch-vi",
-   "stars": 5994,
+   "stars": 6380,
    "note": "JavaScript · new this week",
    "url": "https://github.com/4lwayz/portwatch-vi",
    "source": "GitHub",
@@ -93,7 +63,7 @@
   {
    "kind": "repo",
    "title": "EL4CTEO/fast-anything",
-   "stars": 4285,
+   "stars": 4405,
    "note": "Rust · new this week",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "source": "GitHub",
@@ -103,7 +73,7 @@
   {
    "kind": "repo",
    "title": "Belobug/VIctory-Belobug-AMD",
-   "stars": 3324,
+   "stars": 4061,
    "note": "Rust · new this week",
    "url": "https://github.com/Belobug/VIctory-Belobug-AMD",
    "source": "GitHub",
@@ -113,7 +83,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 451,
+   "points": 897,
    "title": "AI made self-hosting fun again",
    "source": "Hacker News",
    "url": "https://janlukas.blog/posts/ai-self-hosting",
@@ -122,7 +92,16 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 294,
+   "points": 488,
+   "title": "The group chat where your AI talks behind your back",
+   "source": "Hacker News",
+   "url": "https://construct22.com/",
+   "discuss": "https://news.ycombinator.com/item?id=50663595"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 379,
    "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
    "source": "Hacker News",
    "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
@@ -131,16 +110,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 46,
-   "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
-   "source": "Hacker News",
-   "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
-   "discuss": "https://news.ycombinator.com/item?id=50661218"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 40,
+   "points": 115,
    "title": "An introduction to uncertainty in machine learning",
    "source": "Hacker News",
    "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
@@ -149,11 +119,11 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 14,
-   "title": "ESO statement on approval of launch of one million space data centres",
+   "points": 16,
+   "title": "Pizza history: AI agent's cardless purchase is a first for UK",
    "source": "Hacker News",
-   "url": "https://www.eso.org/public/news/eso2614/",
-   "discuss": "https://news.ycombinator.com/item?id=50661224"
+   "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+   "discuss": "https://news.ycombinator.com/item?id=50665732"
   },
   {
    "kind": "news",

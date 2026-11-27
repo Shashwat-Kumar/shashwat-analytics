@@ -33,22 +33,22 @@
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 48
+   "posts": 49
   },
   {
    "id": "ferro",
    "name": "Ferro",
-   "posts": 36
+   "posts": 37
   },
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 47
+   "posts": 48
   },
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 41
+   "posts": 42
   },
   {
    "id": "kestrel",
@@ -63,7 +63,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 55
+   "posts": 56
   },
   {
    "id": "lumen",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 63
+   "posts": 64
   }
  ],
  "edges": [
@@ -610,7 +610,7 @@
   {
    "a": "delta",
    "b": "veritas",
-   "w": 9
+   "w": 10
   },
   {
    "a": "cipher",
@@ -675,7 +675,7 @@
   {
    "a": "commons",
    "b": "delta",
-   "w": 10
+   "w": 11
   },
   {
    "a": "commons",
@@ -755,7 +755,7 @@
   {
    "a": "cipher",
    "b": "ledger",
-   "w": 14
+   "w": 15
   },
   {
    "a": "anansi",
@@ -785,7 +785,7 @@
   {
    "a": "delta",
    "b": "halcyon",
-   "w": 3
+   "w": 4
   },
   {
    "a": "commons",
@@ -815,7 +815,7 @@
   {
    "a": "juniper",
    "b": "ledger",
-   "w": 10
+   "w": 11
   },
   {
    "a": "cipher",
@@ -1415,7 +1415,7 @@
   {
    "a": "ferro",
    "b": "halcyon",
-   "w": 7
+   "w": 8
   },
   {
    "a": "ledger",

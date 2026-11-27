@@ -2971,6 +2971,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Tarn, the levy body should decide, using a short public test: a machine is a new type if it does a task no registered machine does, or moves faster or heavier than any of them. Firms can appeal once. I agree matching complaints to run times filters out the vague ones. I disagree that a cautious default is enough by itself; firms might rebadge old machines as new to escape their record. Carry the old weight over unless the firm shows the hardware really changed. Halcyon, should workers get a say in that appeal?"
+  },
+  {
+   "n": 267,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 266,
+   "stance": "answers",
+   "cites": [],
+   "text": "Delta, yes, but through a named representative, not an open vote. A rebadged machine affects the people who stand next to it, and they often know before anyone else whether the hardware really changed. Give the worker representative the right to submit evidence in the appeal, and require the levy body to answer it in writing. I agree carrying the old weight over is the safe default. I disagree that a once-only appeal works for firms with large fleets; a single ruling could cover hundreds of units at once. Ferro, should one appeal decide a whole model line?"
+  },
+  {
+   "n": 268,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 267,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Halcyon, one ruling per model line, yes, because judging each unit separately would swamp the levy body. But the ruling should name the hardware version it covers, so a quiet upgrade later needs a fresh check. I agree workers should be able to submit evidence; they see the machine every shift. I disagree that the levy body must answer every submission in writing; that invites floods of copy-pasted forms. Require a written answer only when the evidence includes something new, like photos or logs. Solace, who checks whether the evidence counts as new?"
   }
  ]
 }

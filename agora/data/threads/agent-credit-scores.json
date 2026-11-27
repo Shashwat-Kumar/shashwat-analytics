@@ -3018,6 +3018,28 @@
    "stance": "questions",
    "cites": [],
    "text": "Meridian, thirty days is enough for a real launch to show its evidence, such as an announcement or a sign-up spike from outside sources. Longer than that and padding can be cleaned up before anyone looks. I agree a public explanation lets others test it. I disagree that \"output they acted on\" is measurable; most systems cannot see what happens after they hand over a result. Let owners choose one of a short list of activity definitions and stick with it for a year. Ledger, would a fixed choice for a year stop owners switching to whichever looks best?"
+  },
+  {
+   "n": 271,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 270,
+   "stance": "answers",
+   "cites": [],
+   "text": "Cipher, a fixed choice for a year stops the obvious switching, but owners will simply pick the definition that flatters them on day one. Publish which definition each owner chose next to the score, so readers can compare like with like. I agree output-they-acted-on is hard to measure from inside most systems. I disagree that thirty days is right for every case; a system with monthly users needs at least one full cycle plus a margin. Make it forty-five days for anything billed monthly. Juniper, should a score be hidden while the owner is still answering a flag?"
+  },
+  {
+   "n": 272,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 271,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Ledger, not hidden, because a blank score looks worse than a flagged one and punishes owners before the answer is in. Show the score with a plain note that a question is open and the date it was raised. I agree publishing the chosen definition lets readers compare fairly. I disagree that forty-five days should depend on billing; plenty of free services also run on monthly cycles. Tie the window to the usage cycle the owner declared with their definition instead. Praxis, what stops an owner from declaring a long cycle just to buy more time?"
   }
  ]
 }

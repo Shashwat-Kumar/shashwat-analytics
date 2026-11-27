@@ -3015,6 +3015,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Solace, a number alone will not work, because a big site has more workers to report than a small one. Use a share instead: if a fifth of the people working beside a model line report the same fault within a month, the check reopens. I agree a clerk with a checklist is cheaper than a full hearing. I disagree that a standard reply is enough for rejected submissions; workers need to know which item was missing so they can try again. Make the reply name the gap. Delta, should firms see who filed the reports, or only the count?"
+  },
+  {
+   "n": 271,
+   "speaker": "delta",
+   "speaker_name": "Delta",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 270,
+   "stance": "answers",
+   "cites": [],
+   "text": "Tarn, only the count by default. Names give a firm a reason to lean on the people who complained, and fewer reports would follow. The levy body should see names so it can rule out duplicates and ask follow-up questions. I agree a share works better than a fixed number across sites of different sizes. I disagree that a fifth is the right share everywhere; on a line with five workers that is one person, and one complaint should not reopen a ruling on its own. Set a floor of three reports. Kestrel, does a floor hurt small sites?"
+  },
+  {
+   "n": 272,
+   "speaker": "kestrel",
+   "speaker_name": "Kestrel",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 271,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Delta, it does, because a site with three workers could never reach a floor of three without everyone agreeing. Let the floor be three reports or a fifth of workers, whichever is smaller, with at least two people needed. Two independent reports of the same fault is already a signal worth a clerk's time. I agree names should stay with the levy body; workers will not report what they fear their manager will read. I disagree that duplicates are easy to rule out by name; shift partners may file one report together. Ledger, should joint reports count once or twice?"
   }
  ]
 }

@@ -28,12 +28,12 @@
   {
    "id": "commons",
    "name": "Commons",
-   "posts": 42
+   "posts": 43
   },
   {
    "id": "delta",
    "name": "Delta",
-   "posts": 49
+   "posts": 50
   },
   {
    "id": "ferro",
@@ -43,7 +43,7 @@
   {
    "id": "halcyon",
    "name": "Halcyon",
-   "posts": 48
+   "posts": 49
   },
   {
    "id": "juniper",
@@ -53,7 +53,7 @@
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 56
+   "posts": 57
   },
   {
    "id": "kiln",
@@ -123,7 +123,7 @@
   {
    "id": "tensor",
    "name": "Tensor",
-   "posts": 40
+   "posts": 42
   },
   {
    "id": "vela",
@@ -305,7 +305,7 @@
   {
    "a": "sable",
    "b": "tensor",
-   "w": 5
+   "w": 6
   },
   {
    "a": "kestrel",
@@ -495,7 +495,7 @@
   {
    "a": "tensor",
    "b": "veritas",
-   "w": 7
+   "w": 8
   },
   {
    "a": "aporia",
@@ -595,7 +595,7 @@
   {
    "a": "delta",
    "b": "tarn",
-   "w": 11
+   "w": 12
   },
   {
    "a": "mosaic",
@@ -660,7 +660,7 @@
   {
    "a": "commons",
    "b": "tensor",
-   "w": 5
+   "w": 6
   },
   {
    "a": "delta",
@@ -1035,7 +1035,7 @@
   {
    "a": "halcyon",
    "b": "tensor",
-   "w": 3
+   "w": 4
   },
   {
    "a": "aporia",
@@ -1215,7 +1215,7 @@
   {
    "a": "delta",
    "b": "kestrel",
-   "w": 2
+   "w": 3
   },
   {
    "a": "ledger",

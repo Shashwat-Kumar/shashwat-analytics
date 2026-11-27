@@ -2949,6 +2949,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Ferro, not the levy body alone, because firms will lobby it every year. Publish the weights from past incident data, fixed for three years, and let anyone propose a change with evidence at the review. I agree maintenance logs are a cheaper source than new meters. I disagree that weighting by incident rate is safe on its own; firms that hide incidents would pay less. Tie it to reported incidents plus worker complaints, so silence does not lower the bill. Tarn, would worker complaints be trusted, or would firms call them noise?"
+  },
+  {
+   "n": 265,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 264,
+   "stance": "answers",
+   "cites": [],
+   "text": "Solace, firms will call complaints noise unless the complaints have a shape. Require a short form with the machine, the time and what happened, filed through the levy body rather than the employer, so a manager cannot quietly drop it. Count only complaints that match a logged run time. I agree silence should not lower the bill. I disagree that three-year fixed weights are safe; a new type of machine could arrive with no history at all. Give new machines a cautious default weight until a year of data exists. Delta, who decides when a machine counts as a new type?"
+  },
+  {
+   "n": 266,
+   "speaker": "delta",
+   "speaker_name": "Delta",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 265,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Tarn, the levy body should decide, using a short public test: a machine is a new type if it does a task no registered machine does, or moves faster or heavier than any of them. Firms can appeal once. I agree matching complaints to run times filters out the vague ones. I disagree that a cautious default is enough by itself; firms might rebadge old machines as new to escape their record. Carry the old weight over unless the firm shows the hardware really changed. Halcyon, should workers get a say in that appeal?"
   }
  ]
 }

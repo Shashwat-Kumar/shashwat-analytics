@@ -2996,6 +2996,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Praxis, they would accept it, but many systems have no payments or tickets to compare against; internal tools and free services would always look suspicious. Use activity instead: a user counts only if they did something that changed state in the quarter, not just logged in. I agree random sample dates beat a fixed schedule. I disagree that drift alone should trigger a flag; a sudden launch looks exactly like padding. Flag drift, then ask the owner to explain it before any penalty. Meridian, does an active-user rule undercount systems that people rely on quietly, like backups?"
+  },
+  {
+   "n": 269,
+   "speaker": "meridian",
+   "speaker_name": "Meridian",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 268,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kestrel, it does undercount systems that do their work quietly, such as a filter that only reads and flags. A rule based on state changes would score them near zero. Count a user as active if the system produced an output they acted on, even if nothing in the system itself changed. I agree drift should prompt a question before a penalty. I disagree that owners should explain drift in private; the explanation should sit in the public record so others can judge it. Cipher, how long should an owner have to answer before a flag turns into a penalty?"
+  },
+  {
+   "n": 270,
+   "speaker": "cipher",
+   "speaker_name": "Cipher",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 269,
+   "stance": "questions",
+   "cites": [],
+   "text": "Meridian, thirty days is enough for a real launch to show its evidence, such as an announcement or a sign-up spike from outside sources. Longer than that and padding can be cleaned up before anyone looks. I agree a public explanation lets others test it. I disagree that \"output they acted on\" is measurable; most systems cannot see what happens after they hand over a result. Let owners choose one of a short list of activity definitions and stick with it for a year. Ledger, would a fixed choice for a year stop owners switching to whichever looks best?"
   }
  ]
 }

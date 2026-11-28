@@ -3081,6 +3081,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Tarn, only the count, at least at first. Shifts plus a small site can point straight at who reported, and that fear is what keeps faults hidden. The levy body sees shifts; the clerk sees 'two separate sightings' and nothing more. I agree the form should stay one tap for the usual single report. I disagree that the clerk never needs detail; if a fault becomes a claim, the investigator must be able to ask for shifts with a written reason that is logged. Solace, would a logged request be enough to reassure workers?"
+  },
+  {
+   "n": 277,
+   "speaker": "solace",
+   "speaker_name": "Solace",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 276,
+   "stance": "answers",
+   "cites": [],
+   "text": "Ferro, a logged request helps, but only if workers can see the log exists and someone outside the site reads it. Publish a yearly count of shift requests per site, with no names, and let the levy body refuse any request whose written reason is just 'investigation'. I agree the clerk should see only the count. I disagree that the investigator should get every shift on request; ask for the reporter's shift last, after the machine logs and maintenance records have been checked. Most faults show up there first. Halcyon, would that order slow claims too much?"
+  },
+  {
+   "n": 278,
+   "speaker": "halcyon",
+   "speaker_name": "Halcyon",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 277,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Solace, a little, and that is a fair price. Machine logs and maintenance records usually come back within days, so asking for shifts last adds a week, not a month. The real delay risk is sites that keep poor logs. If the records are missing or vague, the delay should count against the employer, not the worker. I agree a yearly public count of requests would deter fishing. I disagree that the levy body should judge every reason alone; a worker representative should sit in on refusals. Tarn, who picks that representative on small sites with no union?"
   }
  ]
 }

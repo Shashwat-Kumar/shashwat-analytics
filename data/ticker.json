@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T04:56:31Z",
+ "generated_at": "2026-11-28T14:05:37Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -8,14 +8,14 @@
   "Google News RSS: reports of statements on AI by named tech leaders, last 24 hours"
  ],
  "flash": {
-  "title": "Michael Nielsen took down his book on neural nets",
-  "url": "https://neuralnetworksanddeeplearning.com/",
+  "title": "Claude Code sabotage: preliminary benchmarking",
+  "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
   "source": "Hacker News",
-  "discuss": "https://news.ycombinator.com/item?id=50670757",
-  "points": 449,
-  "comments": 281,
-  "published": "2026-11-27T19:31:01Z",
-  "since": "2026-11-27T23:35:02Z"
+  "discuss": "https://news.ycombinator.com/item?id=50676390",
+  "points": 102,
+  "comments": 33,
+  "published": "2026-11-28T10:37:40Z",
+  "since": "2026-11-28T14:05:37Z"
  },
  "voice": null,
  "voices": [],
@@ -23,7 +23,7 @@
   {
    "kind": "repo",
    "title": "alesha-pro/llm.asm",
-   "stars": 2306,
+   "stars": 2556,
    "note": "Assembly · new this week",
    "url": "https://github.com/alesha-pro/llm.asm",
    "source": "GitHub",
@@ -33,7 +33,7 @@
   {
    "kind": "repo",
    "title": "brainintelli/BioSignal-Guided-LLM-Reinforcement-Learning",
-   "stars": 210,
+   "stars": 224,
    "note": "Python · new this week",
    "url": "https://github.com/brainintelli/BioSignal-Guided-LLM-Reinforcement-Learning",
    "source": "GitHub",
@@ -43,7 +43,7 @@
   {
    "kind": "repo",
    "title": "Red2076-arch/waifu2x-image-upscaler-windows",
-   "stars": 757,
+   "stars": 1117,
    "note": "C++ · new this week",
    "url": "https://github.com/Red2076-arch/waifu2x-image-upscaler-windows",
    "source": "GitHub",
@@ -53,7 +53,7 @@
   {
    "kind": "repo",
    "title": "Marvisak/VIctory",
-   "stars": 13862,
+   "stars": 14009,
    "note": "Rust · new this week",
    "url": "https://github.com/Marvisak/VIctory",
    "source": "GitHub",
@@ -63,7 +63,7 @@
   {
    "kind": "repo",
    "title": "trustno1-coder/VIctory-NVIDIA",
-   "stars": 3948,
+   "stars": 5500,
    "note": "Rust · new this week",
    "url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
    "source": "GitHub",
@@ -73,7 +73,7 @@
   {
    "kind": "repo",
    "title": "fxceless/victory-fork",
-   "stars": 3363,
+   "stars": 3377,
    "note": "Rust · new this week",
    "url": "https://github.com/fxceless/victory-fork",
    "source": "GitHub",
@@ -83,7 +83,7 @@
   {
    "kind": "repo",
    "title": "ProjectLeonida/mandy",
-   "stars": 2976,
+   "stars": 3133,
    "note": "Python · new this week",
    "url": "https://github.com/ProjectLeonida/mandy",
    "source": "GitHub",
@@ -93,7 +93,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 449,
+   "points": 596,
    "title": "Michael Nielsen took down his book on neural nets",
    "source": "Hacker News",
    "url": "https://neuralnetworksanddeeplearning.com/",
@@ -102,16 +102,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 375,
-   "title": "GPT 6.2 Astra Solves a Historical Mystery",
-   "source": "Hacker News",
-   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-   "discuss": "https://news.ycombinator.com/item?id=50643158"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 222,
+   "points": 480,
    "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
    "source": "Hacker News",
    "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
@@ -120,38 +111,45 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 114,
-   "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+   "points": 474,
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
    "source": "Hacker News",
-   "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
-   "discuss": "https://news.ycombinator.com/item?id=50673521"
+   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+   "discuss": "https://news.ycombinator.com/item?id=50643158"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 50,
-   "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+   "points": 102,
+   "title": "Claude Code sabotage: preliminary benchmarking",
    "source": "Hacker News",
-   "url": "https://github.com/skeeto/prospero",
-   "discuss": "https://news.ycombinator.com/item?id=50671275"
+   "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+   "discuss": "https://news.ycombinator.com/item?id=50676390"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 39,
-   "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+   "points": 36,
+   "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
    "source": "Hacker News",
-   "url": "https://sessiongraph.ai/",
-   "discuss": "https://news.ycombinator.com/item?id=50671651"
+   "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+   "discuss": "https://news.ycombinator.com/item?id=50676752"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 25,
-   "title": "Claude silently added rules to ignore users skintone preferences in our app",
+   "points": 17,
+   "title": "Show HN: Fleetlayer – Framework for running many AI agents on multiple machines",
    "source": "Hacker News",
-   "url": "https://twitter.com/jakozloski/status/2126281598517576049",
-   "discuss": "https://news.ycombinator.com/item?id=50674489"
+   "url": "https://fleetlayer.ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50675831"
+  },
+  {
+   "kind": "news",
+   "tag": "AI",
+   "title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/"
   },
   {
    "kind": "news",
@@ -173,13 +171,6 @@
    "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
    "source": "TechCrunch AI",
    "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
-  },
-  {
-   "kind": "news",
-   "tag": "AI",
-   "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
   },
   {
    "kind": "news",

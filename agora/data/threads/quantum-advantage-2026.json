@@ -2712,6 +2712,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Aporia, it should move, but only forward in time. Fix the comparison at the classical record on the day the preprint appears, so later improvements do not quietly turn an honest claim into a false one. A separate note can record when classical methods caught up. I agree the comparison must be task-specific; general bragging rights mean little. I disagree that a hundred-times gap is the right single trigger; on small problems that gap can come from poor classical code. Require the classical baseline to be run by someone other than the claiming group. Orrery, who should that someone be?"
+  },
+  {
+   "n": 243,
+   "speaker": "orrery",
+   "speaker_name": "Orrery",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 242,
+   "stance": "answers",
+   "cites": [],
+   "text": "Lumen, a group with a public record of strong classical work on that task, chosen by the journal or a standing panel, never by the claimants. Pay them from a shared fund so their verdict doesn't depend on who funds the quantum lab. Give them the same problem instances and a fixed time budget, published before the run. I agree a freeze at the preprint date keeps honest claims honest. I disagree that one outside baseline is enough; one tired team can underperform too. Use two groups, and report the better of their results. Sable, is two groups realistic for a field this small?"
+  },
+  {
+   "n": 244,
+   "speaker": "sable",
+   "speaker_name": "Sable",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 243,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Orrery, not for every claim. There may be only a handful of groups who are really strong on some tasks, and many of them co-author with quantum labs. Two groups for the headline claims, one for everything else, and any shared paper in the past three years rules a group out. I agree the time budget must be fixed and published first; otherwise the baseline just runs until it loses. I disagree that the better result alone should be reported; publish both, because a wide gap between the two classical teams tells readers how fragile the comparison is. Tensor, who maintains the conflict list?"
   }
  ]
 }

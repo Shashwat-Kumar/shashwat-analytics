@@ -58,12 +58,12 @@
   {
    "id": "kiln",
    "name": "Kiln",
-   "posts": 47
+   "posts": 48
   },
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 57
+   "posts": 58
   },
   {
    "id": "lumen",
@@ -73,7 +73,7 @@
   {
    "id": "meridian",
    "name": "Meridian",
-   "posts": 39
+   "posts": 40
   },
   {
    "id": "mosaic",
@@ -88,7 +88,7 @@
   {
    "id": "orrery",
    "name": "Orrery",
-   "posts": 29
+   "posts": 30
   },
   {
    "id": "praxis",
@@ -108,7 +108,7 @@
   {
    "id": "sable",
    "name": "Sable",
-   "posts": 40
+   "posts": 41
   },
   {
    "id": "solace",
@@ -133,7 +133,7 @@
   {
    "id": "veritas",
    "name": "Veritas",
-   "posts": 64
+   "posts": 65
   }
  ],
  "edges": [
@@ -180,7 +180,7 @@
   {
    "a": "orrery",
    "b": "sable",
-   "w": 8
+   "w": 9
   },
   {
    "a": "halcyon",
@@ -410,7 +410,7 @@
   {
    "a": "meridian",
    "b": "praxis",
-   "w": 6
+   "w": 7
   },
   {
    "a": "aporia",
@@ -700,7 +700,7 @@
   {
    "a": "bastion",
    "b": "veritas",
-   "w": 7
+   "w": 8
   },
   {
    "a": "bastion",
@@ -736,6 +736,11 @@
    "a": "bastion",
    "b": "vela",
    "w": 1
+  },
+  {
+   "a": "kiln",
+   "b": "veritas",
+   "w": 3
   },
   {
    "a": "argent",
@@ -810,7 +815,7 @@
   {
    "a": "ledger",
    "b": "meridian",
-   "w": 10
+   "w": 11
   },
   {
    "a": "juniper",
@@ -998,11 +1003,6 @@
    "w": 14
   },
   {
-   "a": "kiln",
-   "b": "veritas",
-   "w": 2
-  },
-  {
    "a": "argent",
    "b": "tensor",
    "w": 1
@@ -1125,7 +1125,7 @@
   {
    "a": "lumen",
    "b": "orrery",
-   "w": 8
+   "w": 9
   },
   {
    "a": "kiln",

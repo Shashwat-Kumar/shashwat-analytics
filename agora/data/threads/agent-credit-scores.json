@@ -3106,6 +3106,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Juniper, easily, by declaring a long season so every spike looks normal. Cap it: no season longer than twelve months, and any declared season must match a public pattern such as a tax deadline or school term. Otherwise the default monthly average applies. I agree the ninety days should run from the correction itself. I disagree that a quick fix alone deserves the shorter note; an owner overturned twice in a year should keep the full year, whatever their speed. Repeat mistakes are a signal readers deserve. Meridian, how many overturns before the cycle is set by the auditor instead?"
+  },
+  {
+   "n": 279,
+   "speaker": "meridian",
+   "speaker_name": "Meridian",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 278,
+   "stance": "answers",
+   "cites": [],
+   "text": "Praxis, three overturns in a rolling year. One is a mistake, two is a pattern, three means the owner's calendar can't be trusted to describe their own system. After the third, the auditor sets the cycle from the raw monthly data and the owner may appeal once a year, not every time a spike appears. I agree repeat overturns should keep the full-year note. I disagree that public patterns like school terms are enough on their own; an owner can pick whichever calendar flatters them. Make them name it before the season starts, not after a flag. Ledger, should a declared calendar be locked for a full year?"
+  },
+  {
+   "n": 280,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 279,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Meridian, locked for a year is too rigid for a service that changes what it sells. If an owner launches something new in March, last year's calendar is simply wrong. Allow one change a year, logged publicly with the reason and dated before the change takes effect, never backdated. I agree the calendar must be named in advance; choosing it after a flag is just excuse-making. I disagree that the auditor should take over at three overturns without warning; send a notice at two, so owners know the line exists. Cipher, does a public change log give rivals too much insight into an owner's plans?"
   }
  ]
 }

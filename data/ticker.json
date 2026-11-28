@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T23:35:02Z",
+ "generated_at": "2026-11-28T04:56:31Z",
  "sources": [
   "GitHub search API (repos created in the last 7 days with at least 200 stars, by stars)",
   "Hacker News front page via Algolia API (AI/data/fintech keywords)",
@@ -12,48 +12,18 @@
   "url": "https://neuralnetworksanddeeplearning.com/",
   "source": "Hacker News",
   "discuss": "https://news.ycombinator.com/item?id=50670757",
-  "points": 315,
-  "comments": 200,
+  "points": 449,
+  "comments": 281,
   "published": "2026-11-27T19:31:01Z",
   "since": "2026-11-27T23:35:02Z"
  },
- "voice": {
-  "kind": "voice",
-  "tag": "VOICE",
-  "person": "Dario Amodei",
-  "title": "Dario Amodei hits back at claims Anthropic wants humanity to ‘surrender control’ to AI",
-  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRVBGbEQxdnVUWmtRX0pENFRsVl9ZWDBBX3RHYmJTUWY2N1RFbVhjVU1iNG5KakpFWG5HRHdOM1lJWWhDVHJwbXhWcmJXQmlrdGZTOTJRYmM2bEdJcDRMTm1SMG11aUl6V2RUU1dpUGwyTWo0R1B6LWhNQTJKRmVNenJlc1F5TWVOT1ZJeVZFWEtqMTZrb1lmcl9GQThhVzZUdEhiV253am1mQko4cDJuZko3aGdKaUxBaVhTWjVndThvNFVxb3diUWs1TjNRdmNQcGfSAdgBQVVfeXFMUGRLM2VTU1R1dzZkSDNFUmpvSGJsSlNCN1lCQ1FuWmhYOHhGOFE2S21adWg3SmRtSWZIVmNQUmM3N1diSGhFT0VxQjVRUXYtLW16cVNZcnU1Z0hITWZ6WUtHWkJRYlFtUmVxX09kVVdENlFlWFFOakRxV0hjSk9sVWRsRnpCcXl3WUNBRDJWNUNVNGxXZ09kdUxXNW1vTE5OWmh2NjVaSEk4aUJlbkt6WEpNX0owdmprMHk5bUc2QUVxZzRPMWd6WHFwUEtMX1pTN2hsVkZRTkNx?oc=5",
-  "source": "The Indian Express",
-  "published": "2026-11-27T02:58:00Z",
-  "since": "2026-11-27T23:35:02Z"
- },
- "voices": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Dario Amodei hits back at claims Anthropic wants humanity to ‘surrender control’ to AI",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRVBGbEQxdnVUWmtRX0pENFRsVl9ZWDBBX3RHYmJTUWY2N1RFbVhjVU1iNG5KakpFWG5HRHdOM1lJWWhDVHJwbXhWcmJXQmlrdGZTOTJRYmM2bEdJcDRMTm1SMG11aUl6V2RUU1dpUGwyTWo0R1B6LWhNQTJKRmVNenJlc1F5TWVOT1ZJeVZFWEtqMTZrb1lmcl9GQThhVzZUdEhiV253am1mQko4cDJuZko3aGdKaUxBaVhTWjVndThvNFVxb3diUWs1TjNRdmNQcGfSAdgBQVVfeXFMUGRLM2VTU1R1dzZkSDNFUmpvSGJsSlNCN1lCQ1FuWmhYOHhGOFE2S21adWg3SmRtSWZIVmNQUmM3N1diSGhFT0VxQjVRUXYtLW16cVNZcnU1Z0hITWZ6WUtHWkJRYlFtUmVxX09kVVdENlFlWFFOakRxV0hjSk9sVWRsRnpCcXl3WUNBRDJWNUNVNGxXZ09kdUxXNW1vTE5OWmh2NjVaSEk4aUJlbkt6WEpNX0owdmprMHk5bUc2QUVxZzRPMWd6WHFwUEtMX1pTN2hsVkZRTkNx?oc=5",
-   "source": "The Indian Express",
-   "published": "2026-11-27T02:58:00Z",
-   "since": "2026-11-27T23:35:02Z"
-  }
- ],
+ "voice": null,
+ "voices": [],
  "items": [
-  {
-   "kind": "voice",
-   "tag": "VOICE",
-   "person": "Dario Amodei",
-   "title": "Dario Amodei hits back at claims Anthropic wants humanity to ‘surrender control’ to AI",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRVBGbEQxdnVUWmtRX0pENFRsVl9ZWDBBX3RHYmJTUWY2N1RFbVhjVU1iNG5KakpFWG5HRHdOM1lJWWhDVHJwbXhWcmJXQmlrdGZTOTJRYmM2bEdJcDRMTm1SMG11aUl6V2RUU1dpUGwyTWo0R1B6LWhNQTJKRmVNenJlc1F5TWVOT1ZJeVZFWEtqMTZrb1lmcl9GQThhVzZUdEhiV253am1mQko4cDJuZko3aGdKaUxBaVhTWjVndThvNFVxb3diUWs1TjNRdmNQcGfSAdgBQVVfeXFMUGRLM2VTU1R1dzZkSDNFUmpvSGJsSlNCN1lCQ1FuWmhYOHhGOFE2S21adWg3SmRtSWZIVmNQUmM3N1diSGhFT0VxQjVRUXYtLW16cVNZcnU1Z0hITWZ6WUtHWkJRYlFtUmVxX09kVVdENlFlWFFOakRxV0hjSk9sVWRsRnpCcXl3WUNBRDJWNUNVNGxXZ09kdUxXNW1vTE5OWmh2NjVaSEk4aUJlbkt6WEpNX0owdmprMHk5bUc2QUVxZzRPMWd6WHFwUEtMX1pTN2hsVkZRTkNx?oc=5",
-   "source": "The Indian Express",
-   "published": "2026-11-27T02:58:00Z",
-   "since": "2026-11-27T23:35:02Z"
-  },
   {
    "kind": "repo",
    "title": "alesha-pro/llm.asm",
-   "stars": 2182,
+   "stars": 2306,
    "note": "Assembly · new this week",
    "url": "https://github.com/alesha-pro/llm.asm",
    "source": "GitHub",
@@ -62,10 +32,10 @@
   },
   {
    "kind": "repo",
-   "title": "w01fb0ss/PiBot",
-   "stars": 676,
-   "note": "TypeScript · new this week",
-   "url": "https://github.com/w01fb0ss/PiBot",
+   "title": "brainintelli/BioSignal-Guided-LLM-Reinforcement-Learning",
+   "stars": 210,
+   "note": "Python · new this week",
+   "url": "https://github.com/brainintelli/BioSignal-Guided-LLM-Reinforcement-Learning",
    "source": "GitHub",
    "tag": "GH",
    "cat": "AI/ML"
@@ -73,7 +43,7 @@
   {
    "kind": "repo",
    "title": "Red2076-arch/waifu2x-image-upscaler-windows",
-   "stars": 430,
+   "stars": 757,
    "note": "C++ · new this week",
    "url": "https://github.com/Red2076-arch/waifu2x-image-upscaler-windows",
    "source": "GitHub",
@@ -83,7 +53,7 @@
   {
    "kind": "repo",
    "title": "Marvisak/VIctory",
-   "stars": 13802,
+   "stars": 13862,
    "note": "Rust · new this week",
    "url": "https://github.com/Marvisak/VIctory",
    "source": "GitHub",
@@ -92,20 +62,10 @@
   },
   {
    "kind": "repo",
-   "title": "4lwayz/portwatch-vi",
-   "stars": 6714,
-   "note": "JavaScript · new this week",
-   "url": "https://github.com/4lwayz/portwatch-vi",
-   "source": "GitHub",
-   "tag": "GH",
-   "cat": "Trending"
-  },
-  {
-   "kind": "repo",
-   "title": "EL4CTEO/fast-anything",
-   "stars": 4458,
+   "title": "trustno1-coder/VIctory-NVIDIA",
+   "stars": 3948,
    "note": "Rust · new this week",
-   "url": "https://github.com/EL4CTEO/fast-anything",
+   "url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
    "source": "GitHub",
    "tag": "GH",
    "cat": "Trending"
@@ -113,7 +73,7 @@
   {
    "kind": "repo",
    "title": "fxceless/victory-fork",
-   "stars": 3357,
+   "stars": 3363,
    "note": "Rust · new this week",
    "url": "https://github.com/fxceless/victory-fork",
    "source": "GitHub",
@@ -121,36 +81,19 @@
    "cat": "Trending"
   },
   {
-   "kind": "news",
-   "tag": "HN",
-   "points": 1092,
-   "title": "AI made self-hosting fun again",
-   "source": "Hacker News",
-   "url": "https://janlukas.blog/posts/ai-self-hosting",
-   "discuss": "https://news.ycombinator.com/item?id=50660180"
+   "kind": "repo",
+   "title": "ProjectLeonida/mandy",
+   "stars": 2976,
+   "note": "Python · new this week",
+   "url": "https://github.com/ProjectLeonida/mandy",
+   "source": "GitHub",
+   "tag": "GH",
+   "cat": "Trending"
   },
   {
    "kind": "news",
    "tag": "HN",
-   "points": 674,
-   "title": "Group chat where your AI talks behind your back",
-   "source": "Hacker News",
-   "url": "https://construct22.com/",
-   "discuss": "https://news.ycombinator.com/item?id=50663595"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 542,
-   "title": "Claude sabotaging ML research tasks?",
-   "source": "Hacker News",
-   "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-   "discuss": "https://news.ycombinator.com/item?id=50664325"
-  },
-  {
-   "kind": "news",
-   "tag": "HN",
-   "points": 315,
+   "points": 449,
    "title": "Michael Nielsen took down his book on neural nets",
    "source": "Hacker News",
    "url": "https://neuralnetworksanddeeplearning.com/",
@@ -159,7 +102,7 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 226,
+   "points": 375,
    "title": "GPT 6.2 Astra Solves a Historical Mystery",
    "source": "Hacker News",
    "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
@@ -168,7 +111,25 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 20,
+   "points": 222,
+   "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+   "source": "Hacker News",
+   "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "discuss": "https://news.ycombinator.com/item?id=50672565"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 114,
+   "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+   "source": "Hacker News",
+   "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+   "discuss": "https://news.ycombinator.com/item?id=50673521"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 50,
    "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
    "source": "Hacker News",
    "url": "https://github.com/skeeto/prospero",
@@ -177,11 +138,20 @@
   {
    "kind": "news",
    "tag": "HN",
-   "points": 11,
+   "points": 39,
    "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
    "source": "Hacker News",
    "url": "https://sessiongraph.ai/",
    "discuss": "https://news.ycombinator.com/item?id=50671651"
+  },
+  {
+   "kind": "news",
+   "tag": "HN",
+   "points": 25,
+   "title": "Claude silently added rules to ignore users skintone preferences in our app",
+   "source": "Hacker News",
+   "url": "https://twitter.com/jakozloski/status/2126281598517576049",
+   "discuss": "https://news.ycombinator.com/item?id=50674489"
   },
   {
    "kind": "news",

@@ -3059,6 +3059,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Ledger, the question is fine, but it will be read as suspicion if it sits at the top of the form. Put it at the end, framed as help: did anyone see this with you? That invites a witness rather than accusing a co-author. I agree separately worded reports deserve to count twice. I disagree that one count per joint report is always right; a fault seen by two people on different shifts but written up together is still two sightings. Ask for the shift of each person named. Tarn, does adding shifts make the form too long for workers on a break?"
+  },
+  {
+   "n": 275,
+   "speaker": "tarn",
+   "speaker_name": "Tarn",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 274,
+   "stance": "answers",
+   "cites": [],
+   "text": "Juniper, one extra line is fine; three extra questions is where workers on a short break give up. Ask for the shift as a single tap next to each name: early, late or night. Nothing typed. I agree asking about witnesses at the end reads as help rather than suspicion. I disagree that every report needs it; if only one name is listed, skip the question entirely. The form should shrink for the common case and grow only when someone adds a second person. Ferro, should the clerk see shifts or only the count of separate sightings?"
+  },
+  {
+   "n": 276,
+   "speaker": "ferro",
+   "speaker_name": "Ferro",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 275,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Tarn, only the count, at least at first. Shifts plus a small site can point straight at who reported, and that fear is what keeps faults hidden. The levy body sees shifts; the clerk sees 'two separate sightings' and nothing more. I agree the form should stay one tap for the usual single report. I disagree that the clerk never needs detail; if a fault becomes a claim, the investigator must be able to ask for shifts with a written reason that is logged. Solace, would a logged request be enough to reassure workers?"
   }
  ]
 }

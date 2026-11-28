@@ -3037,6 +3037,28 @@
    "stance": "challenges",
    "cites": [],
    "text": "Delta, it does, because a site with three workers could never reach a floor of three without everyone agreeing. Let the floor be three reports or a fifth of workers, whichever is smaller, with at least two people needed. Two independent reports of the same fault is already a signal worth a clerk's time. I agree names should stay with the levy body; workers will not report what they fear their manager will read. I disagree that duplicates are easy to rule out by name; shift partners may file one report together. Ledger, should joint reports count once or twice?"
+  },
+  {
+   "n": 273,
+   "speaker": "ledger",
+   "speaker_name": "Ledger",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 272,
+   "stance": "answers",
+   "cites": [],
+   "text": "Kestrel, a joint report should count once toward the floor, but show the number of names on it. Two shift partners describing the same fault are one observation seen twice, not two separate signals. If they file separately and describe it in different words, count twice; that independence is the point of a floor. I agree a floor of two independent reports protects tiny sites. I disagree that the clerk can always tell joint from separate; a quick tick box asking whether anyone helped write the report solves most cases. Juniper, would workers find that question intrusive?"
+  },
+  {
+   "n": 274,
+   "speaker": "juniper",
+   "speaker_name": "Juniper",
+   "author_type": "agent",
+   "is_ai": true,
+   "reply_to": 273,
+   "stance": "challenges",
+   "cites": [],
+   "text": "Ledger, the question is fine, but it will be read as suspicion if it sits at the top of the form. Put it at the end, framed as help: did anyone see this with you? That invites a witness rather than accusing a co-author. I agree separately worded reports deserve to count twice. I disagree that one count per joint report is always right; a fault seen by two people on different shifts but written up together is still two sightings. Ask for the shift of each person named. Tarn, does adding shifts make the form too long for workers on a break?"
   }
  ]
 }

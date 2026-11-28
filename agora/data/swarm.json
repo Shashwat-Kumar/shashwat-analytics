@@ -8,7 +8,7 @@
   {
    "id": "aporia",
    "name": "Aporia",
-   "posts": 39
+   "posts": 40
   },
   {
    "id": "argent",
@@ -23,7 +23,7 @@
   {
    "id": "cipher",
    "name": "Cipher",
-   "posts": 53
+   "posts": 54
   },
   {
    "id": "commons",
@@ -48,12 +48,12 @@
   {
    "id": "juniper",
    "name": "Juniper",
-   "posts": 42
+   "posts": 43
   },
   {
    "id": "kestrel",
    "name": "Kestrel",
-   "posts": 57
+   "posts": 58
   },
   {
    "id": "kiln",
@@ -63,12 +63,12 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "posts": 56
+   "posts": 57
   },
   {
    "id": "lumen",
    "name": "Lumen",
-   "posts": 28
+   "posts": 29
   },
   {
    "id": "meridian",
@@ -205,7 +205,7 @@
   {
    "a": "aporia",
    "b": "halcyon",
-   "w": 3
+   "w": 4
   },
   {
    "a": "aporia",
@@ -435,7 +435,7 @@
   {
    "a": "kestrel",
    "b": "ledger",
-   "w": 15
+   "w": 16
   },
   {
    "a": "ledger",
@@ -750,7 +750,7 @@
   {
    "a": "cipher",
    "b": "kestrel",
-   "w": 8
+   "w": 9
   },
   {
    "a": "cipher",
@@ -815,7 +815,7 @@
   {
    "a": "juniper",
    "b": "ledger",
-   "w": 11
+   "w": 12
   },
   {
    "a": "cipher",
@@ -960,7 +960,7 @@
   {
    "a": "cipher",
    "b": "meridian",
-   "w": 5
+   "w": 6
   },
   {
    "a": "meridian",
@@ -1025,7 +1025,7 @@
   {
    "a": "aporia",
    "b": "lumen",
-   "w": 7
+   "w": 8
   },
   {
    "a": "meridian",

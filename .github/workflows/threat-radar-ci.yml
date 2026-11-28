@@ -1,0 +1,41 @@
+# No write access, no network fetches, and no publishing on pull requests.
+name: Threat Radar - PR security and parser tests
+on:
+  pull_request:
+    paths:
+      - '.github/scripts/readsigil_threat_radar.py'
+      - '.github/workflows/threat-radar*.yml'
+      - 'tests/test_readsigil_threat_radar.py'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest discover -s tests -p 'test_readsigil_threat_radar.py' -v
+
+  check-live-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate current upstream schemas, without publishing
+        run: |
+          python .github/scripts/readsigil_threat_radar.py --check-only > source-status.json
+          python - <<'PY'
+          import json
+          status=json.load(open('source-status.json'))
+          print("Upstream status:",status)
+          assert status.get("ransomlook")=="Updated", "RansomLook not validated; cannot activate dark-web signal monitoring"
+          assert status.get("cisa")=="Updated", "CISA not validated; cannot activate exploited-vulnerability monitoring"
+          PY
